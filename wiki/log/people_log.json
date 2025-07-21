@@ -1,0 +1,1458 @@
+[
+    {
+        "entity": "Q48835067",
+        "entityLabel": "Outline of Albert Einstein",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q937",
+        "valueLabel": "Albert Einstein"
+    },
+    {
+        "entity": "Q48835067",
+        "entityLabel": "Outline of Albert Einstein",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q65090221",
+        "entityLabel": "Outline of Henry Ford",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q62036531",
+        "entityLabel": "Outline of Jesus",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q55628145",
+        "entityLabel": "Outline of Gottfried Wilhelm Leibniz",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q28402356",
+        "entityLabel": "Outline of Abraham Lincoln",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q29025048",
+        "entityLabel": "Outline of Bob Marley",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q29025048",
+        "entityLabel": "Outline of Bob Marley",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q409",
+        "valueLabel": "Bob Marley"
+    },
+    {
+        "entity": "Q6594608",
+        "entityLabel": "Outline of Prem Rawat",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q6594608",
+        "entityLabel": "Outline of Prem Rawat",
+        "property": "P1754",
+        "propertyLabel": "category related to list",
+        "value": "Q8790120",
+        "valueLabel": "Category:Prem Rawat"
+    },
+    {
+        "entity": "Q27684061",
+        "entityLabel": "Outline of William Shakespeare",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q36180",
+        "valueLabel": "writer"
+    },
+    {
+        "entity": "Q27684061",
+        "entityLabel": "Outline of William Shakespeare",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q28228935",
+        "entityLabel": "Outline of Joseph Smith",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q28228935",
+        "entityLabel": "Outline of Joseph Smith",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q43078966",
+        "entityLabel": "Bibliography of John Adams",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q56722555",
+        "entityLabel": "Bibliography of John Quincy Adams",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q134995",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q22943564",
+        "entityLabel": "Bibliography of Gianni Berengo Gardin",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q134995",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q4903397",
+        "entityLabel": "Bibliography of Subhas Chandra Bose",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q124055325",
+        "entityLabel": "Bibliography of Winston Churchill",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q28223385",
+        "entityLabel": "Habib Bourguiba bibliography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q28223385",
+        "entityLabel": "Habib Bourguiba bibliography",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q643348",
+        "valueLabel": "Habib Bourguiba"
+    },
+    {
+        "entity": "Q4657083",
+        "entityLabel": "A Golden Anniversary Bibliography of Edgar Rice Burroughs",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q4657083",
+        "entityLabel": "A Golden Anniversary Bibliography of Edgar Rice Burroughs",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q47461344",
+        "valueLabel": "written work"
+    },
+    {
+        "entity": "Q4657083",
+        "entityLabel": "A Golden Anniversary Bibliography of Edgar Rice Burroughs",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q5722588",
+        "valueLabel": "Henry Hardy Heins"
+    },
+    {
+        "entity": "Q4657083",
+        "entityLabel": "A Golden Anniversary Bibliography of Edgar Rice Burroughs",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q4657083",
+        "entityLabel": "A Golden Anniversary Bibliography of Edgar Rice Burroughs",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q15130378",
+        "valueLabel": "Donald M. Grant, Publisher"
+    },
+    {
+        "entity": "Q4657083",
+        "entityLabel": "A Golden Anniversary Bibliography of Edgar Rice Burroughs",
+        "property": "P736",
+        "propertyLabel": "cover art by",
+        "value": "Q6104584",
+        "valueLabel": "J. Allen St. John"
+    },
+    {
+        "entity": "Q4657083",
+        "entityLabel": "A Golden Anniversary Bibliography of Edgar Rice Burroughs",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q4657083",
+        "entityLabel": "A Golden Anniversary Bibliography of Edgar Rice Burroughs",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q134995",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q28407713",
+        "entityLabel": "Bibliography of George H. W. Bush",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q6608071",
+        "entityLabel": "Bibliography of George W. Bush",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q6608071",
+        "entityLabel": "Bibliography of George W. Bush",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q6199781",
+        "entityLabel": "Bibliography of Jimmy Carter",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8306499",
+        "valueLabel": "Category:Books by Jimmy Carter"
+    },
+    {
+        "entity": "Q6199781",
+        "entityLabel": "Bibliography of Jimmy Carter",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q6199781",
+        "entityLabel": "Bibliography of Jimmy Carter",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q6199781",
+        "entityLabel": "Bibliography of Jimmy Carter",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q23685",
+        "valueLabel": "Jimmy Carter"
+    },
+    {
+        "entity": "Q4903405",
+        "entityLabel": "Bibliography of Whittaker Chambers",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q48951229",
+        "entityLabel": "Bibliography of Bill Clinton",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q134995",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q6608074",
+        "entityLabel": "Bibliography of Hillary Clinton",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q6608074",
+        "entityLabel": "Bibliography of Hillary Clinton",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q6608074",
+        "entityLabel": "Bibliography of Hillary Clinton",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q17507392",
+        "entityLabel": "Bibliography of Leonard Cohen",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q17507392",
+        "entityLabel": "Bibliography of Leonard Cohen",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q16951529",
+        "entityLabel": "Bibliography of works on Davy Crockett",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q115115292",
+        "entityLabel": "Bibliography of Abdul Majid Daryabadi",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q115115292",
+        "entityLabel": "Bibliography of Abdul Majid Daryabadi",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q4665524",
+        "valueLabel": "Abdul Majid Daryabadi"
+    },
+    {
+        "entity": "Q4903340",
+        "entityLabel": "Bibliography of Duwamish (tribe)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q48951242",
+        "entityLabel": "Bibliography of Dwight D. Eisenhower",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q134995",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q20649333",
+        "entityLabel": "Bibliography of Bobby Fischer",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q20649333",
+        "entityLabel": "Bibliography of Bobby Fischer",
+        "property": "P641",
+        "propertyLabel": "sport",
+        "value": "Q718",
+        "valueLabel": "chess"
+    },
+    {
+        "entity": "Q20649333",
+        "entityLabel": "Bibliography of Bobby Fischer",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q20649333",
+        "entityLabel": "Bibliography of Bobby Fischer",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q17007231",
+        "entityLabel": "Bibliography of works on Ulysses S. Grant",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q134995",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q4903334",
+        "entityLabel": "Bibliography of works on Che Guevara",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q115518062",
+        "entityLabel": "Bibliography of Haile Selassie",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q41178",
+        "valueLabel": "Haile Selassie I"
+    },
+    {
+        "entity": "Q115518062",
+        "entityLabel": "Bibliography of Haile Selassie",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q134563323",
+        "entityLabel": "Bibliography of Stephen Harper",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q134563323",
+        "entityLabel": "Bibliography of Stephen Harper",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q328",
+        "valueLabel": "English Wikipedia"
+    },
+    {
+        "entity": "Q134563323",
+        "entityLabel": "Bibliography of Stephen Harper",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q206",
+        "valueLabel": "Stephen Harper"
+    },
+    {
+        "entity": "Q4386131",
+        "entityLabel": "Bibliography of Adolf Hitler",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q4386131",
+        "entityLabel": "Bibliography of Adolf Hitler",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q4386131",
+        "entityLabel": "Bibliography of Adolf Hitler",
+        "property": "P1754",
+        "propertyLabel": "category related to list",
+        "value": "Q8305821",
+        "valueLabel": "Category:Books about Adolf Hitler"
+    },
+    {
+        "entity": "Q60519297",
+        "entityLabel": "Bibliography of Herbert Hoover",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q60519297",
+        "entityLabel": "Bibliography of Herbert Hoover",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q40231",
+        "valueLabel": "public election"
+    },
+    {
+        "entity": "Q16985099",
+        "entityLabel": "Bibliography of Sam Houston",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q16985099",
+        "entityLabel": "Bibliography of Sam Houston",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q386724",
+        "valueLabel": "work"
+    },
+    {
+        "entity": "Q108730450",
+        "entityLabel": "Iowa Authors and Their Works",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q108730450",
+        "entityLabel": "Iowa Authors and Their Works",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q48817811",
+        "entityLabel": "Bibliography of Andrew Jackson",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q4903400",
+        "entityLabel": "Bibliography of Thomas Jefferson",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26876682",
+        "valueLabel": "personal bibliography"
+    },
+    {
+        "entity": "Q4903400",
+        "entityLabel": "Bibliography of Thomas Jefferson",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q11812",
+        "valueLabel": "Thomas Jefferson"
+    },
+    {
+        "entity": "Q14511694",
+        "entityLabel": "Pope John Paul II bibliography",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q989",
+        "valueLabel": "John Paul II"
+    },
+    {
+        "entity": "Q14511694",
+        "entityLabel": "Pope John Paul II bibliography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q4903320",
+        "entityLabel": "Bibliography of Andrew Johnson",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q7772061",
+        "entityLabel": "Bibliography of Lyndon B. Johnson",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q60748874",
+        "entityLabel": "Bibliography of Kal\u0101kaua",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q48951237",
+        "entityLabel": "Bibliography of John F. Kennedy",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q9696",
+        "valueLabel": "John F. Kennedy"
+    },
+    {
+        "entity": "Q48951237",
+        "entityLabel": "Bibliography of John F. Kennedy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q6645564",
+        "entityLabel": "Bibliography of S\u00f8ren Kierkegaard",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q6645564",
+        "entityLabel": "Bibliography of S\u00f8ren Kierkegaard",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q386724",
+        "valueLabel": "work"
+    },
+    {
+        "entity": "Q4943280",
+        "entityLabel": "Bibliography of works on Stephen King",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q4943280",
+        "entityLabel": "Bibliography of works on Stephen King",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q60788362",
+        "entityLabel": "Bibliography of Stanis\u0142aw Lem",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q6530",
+        "valueLabel": "Stanislav Lem"
+    },
+    {
+        "entity": "Q60788362",
+        "entityLabel": "Bibliography of Stanis\u0142aw Lem",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q60748767",
+        "entityLabel": "Bibliography of Lili\u02bbuokalani",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q4903312",
+        "entityLabel": "Bibliography of Abraham Lincoln",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q4903312",
+        "entityLabel": "Bibliography of Abraham Lincoln",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q91",
+        "valueLabel": "Abraham Lincoln"
+    },
+    {
+        "entity": "Q48951254",
+        "entityLabel": "Bibliography of James Madison",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q134995",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q6344178",
+        "entityLabel": "Bibliography of works on Madonna",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q6344178",
+        "entityLabel": "Bibliography of works on Madonna",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1744",
+        "valueLabel": "Madonna"
+    },
+    {
+        "entity": "Q4903407",
+        "entityLabel": "Bibliography of William McKinley",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q18148446",
+        "entityLabel": "Bibliography of works on Adolfas Mekas",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q130265400",
+        "entityLabel": "Hayao Miyazaki bibliography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q130265400",
+        "entityLabel": "Hayao Miyazaki bibliography",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q55400",
+        "valueLabel": "Hayao Miyazaki"
+    },
+    {
+        "entity": "Q60519295",
+        "entityLabel": "Bibliography of James Monroe",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q60519295",
+        "entityLabel": "Bibliography of James Monroe",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q40231",
+        "valueLabel": "public election"
+    },
+    {
+        "entity": "Q107616149",
+        "entityLabel": "Bibliography of Abul Hasan Ali Hasani Nadwi",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q4903370",
+        "entityLabel": "Bibliography of Napoleon",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q7328074",
+        "entityLabel": "Bibliography of Richard Nixon",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q9588",
+        "valueLabel": "Richard Nixon"
+    },
+    {
+        "entity": "Q7328074",
+        "entityLabel": "Bibliography of Richard Nixon",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q9588",
+        "valueLabel": "Richard Nixon"
+    },
+    {
+        "entity": "Q7328074",
+        "entityLabel": "Bibliography of Richard Nixon",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q107680864",
+        "entityLabel": "Bibliography of Shibli Nomani",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q6608066",
+        "entityLabel": "Bibliography of Barack Obama",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q6608066",
+        "entityLabel": "Bibliography of Barack Obama",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q4903362",
+        "entityLabel": "Bibliography of Louis-Joseph Papineau",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q5662035",
+        "entityLabel": "Bibliography of Harold Pinter",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q5662035",
+        "entityLabel": "Bibliography of Harold Pinter",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q41042",
+        "valueLabel": "Harold Pinter"
+    },
+    {
+        "entity": "Q3639534",
+        "entityLabel": "Bibliography of Pope Pius XII",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q3639534",
+        "entityLabel": "Bibliography of Pope Pius XII",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q2604",
+        "valueLabel": "Pius XII"
+    },
+    {
+        "entity": "Q4903388",
+        "entityLabel": "Bibliography of Ramakrishna",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q4903328",
+        "entityLabel": "Bibliography of Ayn Rand and Objectivism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q7365207",
+        "entityLabel": "Bibliography of Ronald Reagan",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q24964368",
+        "entityLabel": "Bibliography of Jacques Rivette",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q134995",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q24964368",
+        "entityLabel": "Bibliography of Jacques Rivette",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q167475",
+        "valueLabel": "Jacques Rivette"
+    },
+    {
+        "entity": "Q25055839",
+        "entityLabel": "Bibliography of Jane Roberts",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q99361475",
+        "entityLabel": "Bibliography of Eleanor Roosevelt",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q99361475",
+        "entityLabel": "Bibliography of Eleanor Roosevelt",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q48743419",
+        "entityLabel": "Bibliography of Franklin D. Roosevelt",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q48951249",
+        "entityLabel": "Bibliography of Theodore Roosevelt",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q134995",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q111953110",
+        "entityLabel": "Bibliography of works on Shakira",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q7775857",
+        "entityLabel": "The Works of M. P. Shiel",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q7775857",
+        "entityLabel": "The Works of M. P. Shiel",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7725634",
+        "valueLabel": "literary work"
+    },
+    {
+        "entity": "Q7775857",
+        "entityLabel": "The Works of M. P. Shiel",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q17484671",
+        "valueLabel": "Albert Reynolds Morse"
+    },
+    {
+        "entity": "Q7775857",
+        "entityLabel": "The Works of M. P. Shiel",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q7775857",
+        "entityLabel": "The Works of M. P. Shiel",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q7775857",
+        "entityLabel": "The Works of M. P. Shiel",
+        "property": "P736",
+        "propertyLabel": "cover art by",
+        "value": "Q5577",
+        "valueLabel": "Salvador Dal\u00ed"
+    },
+    {
+        "entity": "Q7775857",
+        "entityLabel": "The Works of M. P. Shiel",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q2517956",
+        "valueLabel": "M. P. Shiel"
+    },
+    {
+        "entity": "Q7775857",
+        "entityLabel": "The Works of M. P. Shiel",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q5434324",
+        "valueLabel": "Fantasy Publishing Company, Inc."
+    },
+    {
+        "entity": "Q5373944",
+        "entityLabel": "Emperor of Dreams: A Clark Ashton Smith Bibliography",
+        "property": "P736",
+        "propertyLabel": "cover art by",
+        "value": "Q16728355",
+        "valueLabel": "Ned Dameron"
+    },
+    {
+        "entity": "Q5373944",
+        "entityLabel": "Emperor of Dreams: A Clark Ashton Smith Bibliography",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q555298",
+        "valueLabel": "Clark Ashton Smith"
+    },
+    {
+        "entity": "Q5373944",
+        "entityLabel": "Emperor of Dreams: A Clark Ashton Smith Bibliography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7725634",
+        "valueLabel": "literary work"
+    },
+    {
+        "entity": "Q5373944",
+        "entityLabel": "Emperor of Dreams: A Clark Ashton Smith Bibliography",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q15130378",
+        "valueLabel": "Donald M. Grant, Publisher"
+    },
+    {
+        "entity": "Q5373944",
+        "entityLabel": "Emperor of Dreams: A Clark Ashton Smith Bibliography",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q5373944",
+        "entityLabel": "Emperor of Dreams: A Clark Ashton Smith Bibliography",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q5373944",
+        "entityLabel": "Emperor of Dreams: A Clark Ashton Smith Bibliography",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q5373944",
+        "entityLabel": "Emperor of Dreams: A Clark Ashton Smith Bibliography",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q5295147",
+        "valueLabel": "Donald Sidney-Fryer"
+    },
+    {
+        "entity": "Q24962262",
+        "entityLabel": "Bibliography of William Howard Taft",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q52505220",
+        "entityLabel": "Bibliography of Margaret Thatcher",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q7416",
+        "valueLabel": "Margaret Thatcher"
+    },
+    {
+        "entity": "Q52505220",
+        "entityLabel": "Bibliography of Margaret Thatcher",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q134550753",
+        "entityLabel": "Bibliography of Justin Trudeau",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q134550753",
+        "entityLabel": "Bibliography of Justin Trudeau",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q3099714",
+        "valueLabel": "Justin Trudeau"
+    },
+    {
+        "entity": "Q134550753",
+        "entityLabel": "Bibliography of Justin Trudeau",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q328",
+        "valueLabel": "English Wikipedia"
+    },
+    {
+        "entity": "Q4903352",
+        "entityLabel": "Bibliography of Harry S. Truman",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q27791793",
+        "entityLabel": "Bibliography of Donald Trump",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26876682",
+        "valueLabel": "personal bibliography"
+    },
+    {
+        "entity": "Q27791793",
+        "entityLabel": "Bibliography of Donald Trump",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q27791793",
+        "entityLabel": "Bibliography of Donald Trump",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q22686",
+        "valueLabel": "Donald Trump"
+    },
+    {
+        "entity": "Q27791793",
+        "entityLabel": "Bibliography of Donald Trump",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q22686",
+        "valueLabel": "Donald Trump"
+    },
+    {
+        "entity": "Q100323810",
+        "entityLabel": "Bibliography of United States presidential spouses and first ladies",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q7166256",
+        "valueLabel": "First Lady of the United States"
+    },
+    {
+        "entity": "Q100323810",
+        "entityLabel": "Bibliography of United States presidential spouses and first ladies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q86290651",
+        "entityLabel": "Bibliography of Martin Van Buren",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q86290651",
+        "entityLabel": "Bibliography of Martin Van Buren",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q11820",
+        "valueLabel": "Martin Van Buren"
+    },
+    {
+        "entity": "Q4903398",
+        "entityLabel": "Bibliography of Swami Vivekananda",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q4903398",
+        "entityLabel": "Bibliography of Swami Vivekananda",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q47478",
+        "valueLabel": "Swami Vivekananda"
+    },
+    {
+        "entity": "Q5546054",
+        "entityLabel": "Bibliography of George Washington",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q5546054",
+        "entityLabel": "Bibliography of George Washington",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q23",
+        "valueLabel": "George Washington"
+    },
+    {
+        "entity": "Q7104180",
+        "entityLabel": "Bibliography of Orson Welles",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1631107",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q7104180",
+        "entityLabel": "Bibliography of Orson Welles",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q24829",
+        "valueLabel": "Orson Welles"
+    },
+    {
+        "entity": "Q48951260",
+        "entityLabel": "Bibliography of Woodrow Wilson",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q134995",
+        "valueLabel": "bibliography"
+    },
+    {
+        "entity": "Q119458671",
+        "entityLabel": "Bibliography of Zakariyya Kandhlawi",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q119458671",
+        "entityLabel": "Bibliography of Zakariyya Kandhlawi",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q36279",
+        "entityLabel": "Biography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737632",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 5"
+    },
+    {
+        "entity": "Q36279",
+        "entityLabel": "Biography",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q19389637",
+        "valueLabel": "biographical article"
+    },
+    {
+        "entity": "Q36279",
+        "entityLabel": "Biography",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q111629338",
+        "valueLabel": "biography"
+    },
+    {
+        "entity": "Q36279",
+        "entityLabel": "Biography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q1768721",
+        "valueLabel": "Gujin Tushu Jicheng"
+    },
+    {
+        "entity": "Q36279",
+        "entityLabel": "Biography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q56441911",
+        "valueLabel": "The Domestic Encyclop\u00e6dia; Or, A Dictionary Of Facts, And Useful Knowledge"
+    },
+    {
+        "entity": "Q36279",
+        "entityLabel": "Biography",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1310296",
+        "valueLabel": "vita"
+    },
+    {
+        "entity": "Q36279",
+        "entityLabel": "Biography",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q9171867",
+        "valueLabel": "biographistics"
+    },
+    {
+        "entity": "Q36279",
+        "entityLabel": "Biography",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q864380",
+        "valueLabel": "biographer"
+    },
+    {
+        "entity": "Q36279",
+        "entityLabel": "Biography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q79770779",
+        "entityLabel": "Autobiografiction",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q8253",
+        "valueLabel": "fiction"
+    },
+    {
+        "entity": "Q79770779",
+        "entityLabel": "Autobiografiction",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q10927187",
+        "valueLabel": "autofiction"
+    },
+    {
+        "entity": "Q79770779",
+        "entityLabel": "Autobiografiction",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q483394",
+        "valueLabel": "genre"
+    },
+    {
+        "entity": "Q79770779",
+        "entityLabel": "Autobiografiction",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q4184",
+        "valueLabel": "autobiography"
+    },
+    {
+        "entity": "Q4184",
+        "entityLabel": "Autobiography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q223393",
+        "valueLabel": "literary genre"
+    },
+    {
+        "entity": "Q4184",
+        "entityLabel": "Autobiography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q104624828",
+        "valueLabel": "book form"
+    },
+    {
+        "entity": "Q4184",
+        "entityLabel": "Autobiography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q4184",
+        "entityLabel": "Autobiography",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7042620",
+        "valueLabel": "Category:Autobiographies"
+    },
+    {
+        "entity": "Q4184",
+        "entityLabel": "Autobiography",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q60572872",
+        "valueLabel": "heterobiography"
+    },
+    {
+        "entity": "Q4184",
+        "entityLabel": "Autobiography",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q11862252",
+        "valueLabel": "personal history"
+    },
+    {
+        "entity": "Q4184",
+        "entityLabel": "Autobiography",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q112983",
+        "valueLabel": "memoir"
+    },
+    {
+        "entity": "Q4914873",
+        "entityLabel": "Biographical criticism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q208217",
+        "valueLabel": "literary studies"
+    },
+    {
+        "entity": "Q4914873",
+        "entityLabel": "Biographical criticism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q58854",
+        "valueLabel": "literary criticism"
+    }
+]

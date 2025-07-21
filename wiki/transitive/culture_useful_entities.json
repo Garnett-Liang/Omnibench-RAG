@@ -1,0 +1,2642 @@
+[
+    {
+        "subject": "Q131265",
+        "subjectValue": "Popular culture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q18957",
+        "objectValue": "mainstream",
+        "anotherObject": "Q1387659",
+        "anotherObjectValue": "school of thought"
+    },
+    {
+        "subject": "Q131265",
+        "subjectValue": "Popular culture",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q151885",
+        "objectValue": "concept",
+        "anotherObject": "Q23958852",
+        "anotherObjectValue": "variable-order class"
+    },
+    {
+        "subject": "Q131265",
+        "subjectValue": "Popular culture",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q2668072",
+        "objectValue": "collection",
+        "anotherObject": "Q1047113",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q131265",
+        "subjectValue": "Popular culture",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q2668072",
+        "objectValue": "collection",
+        "anotherObject": "Q1128340",
+        "anotherObjectValue": "subject heading"
+    },
+    {
+        "subject": "Q131265",
+        "subjectValue": "Popular culture",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q2668072",
+        "objectValue": "collection",
+        "anotherObject": "Q2267705",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q131265",
+        "subjectValue": "Popular culture",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q2668072",
+        "objectValue": "collection",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q131265",
+        "subjectValue": "Popular culture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q11042",
+        "objectValue": "culture",
+        "anotherObject": "Q2515887",
+        "anotherObjectValue": "pattern of behavior"
+    },
+    {
+        "subject": "Q60772535",
+        "subjectValue": "10 year challenge",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q2927074",
+        "objectValue": "internet meme",
+        "anotherObject": "Q863590",
+        "anotherObjectValue": "internet culture"
+    },
+    {
+        "subject": "Q60772535",
+        "subjectValue": "10 year challenge",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q2927074",
+        "objectValue": "internet meme",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q130741980",
+        "subjectValue": "1989 Loma Prieta earthquake in popular culture",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q430727",
+        "subjectValue": "Absurdity",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q3968640",
+        "objectValue": "mental state",
+        "anotherObject": "Q813912",
+        "anotherObjectValue": "condition"
+    },
+    {
+        "subject": "Q430727",
+        "subjectValue": "Absurdity",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q3968640",
+        "objectValue": "mental state",
+        "anotherObject": "Q1190554",
+        "anotherObjectValue": "occurrence"
+    },
+    {
+        "subject": "Q430727",
+        "subjectValue": "Absurdity",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q3968640",
+        "objectValue": "mental state",
+        "anotherObject": "Q3505845",
+        "anotherObjectValue": "state"
+    },
+    {
+        "subject": "Q430727",
+        "subjectValue": "Absurdity",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q3968640",
+        "objectValue": "mental state",
+        "anotherObject": "Q12047512",
+        "anotherObjectValue": "psychological phenomenon"
+    },
+    {
+        "subject": "Q4817248",
+        "subjectValue": "Atomic Age (design)",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q878985",
+        "objectValue": "modernism",
+        "anotherObject": "Q631931",
+        "anotherObjectValue": "decorative art"
+    },
+    {
+        "subject": "Q4987247",
+        "subjectValue": "Bulba",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1020618",
+        "objectValue": "concert dance",
+        "anotherObject": "Q11639",
+        "anotherObjectValue": "dance"
+    },
+    {
+        "subject": "Q4987247",
+        "subjectValue": "Bulba",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q107357104",
+        "objectValue": "type of dance",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4987247",
+        "subjectValue": "Bulba",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q108570410",
+        "objectValue": "Belarusian concert folk dance",
+        "anotherObject": "Q108573277",
+        "anotherObjectValue": "concert folk dance"
+    },
+    {
+        "subject": "Q4987247",
+        "subjectValue": "Bulba",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q108570410",
+        "objectValue": "Belarusian concert folk dance",
+        "anotherObject": "Q108904596",
+        "anotherObjectValue": "Belarusian dance"
+    },
+    {
+        "subject": "Q1757923",
+        "subjectValue": "Carte de visite",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q82036085",
+        "objectValue": "physical media format",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q1757923",
+        "subjectValue": "Carte de visite",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q125191",
+        "objectValue": "photograph",
+        "anotherObject": "Q107435521",
+        "anotherObjectValue": "record"
+    },
+    {
+        "subject": "Q1757923",
+        "subjectValue": "Carte de visite",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q125191",
+        "objectValue": "photograph",
+        "anotherObject": "Q110304307",
+        "anotherObjectValue": "two-dimensional visual artwork"
+    },
+    {
+        "subject": "Q1757923",
+        "subjectValue": "Carte de visite",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q125191",
+        "objectValue": "photograph",
+        "anotherObject": "Q110910970",
+        "anotherObjectValue": "visual work"
+    },
+    {
+        "subject": "Q1757923",
+        "subjectValue": "Carte de visite",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q125191",
+        "objectValue": "photograph",
+        "anotherObject": "Q478798",
+        "anotherObjectValue": "image"
+    },
+    {
+        "subject": "Q1757923",
+        "subjectValue": "Carte de visite",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q125191",
+        "objectValue": "photograph",
+        "anotherObject": "Q49848",
+        "anotherObjectValue": "document"
+    },
+    {
+        "subject": "Q1757923",
+        "subjectValue": "Carte de visite",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q82036085",
+        "objectValue": "physical media format",
+        "anotherObject": "Q937228",
+        "anotherObjectValue": "property"
+    },
+    {
+        "subject": "Q23808211",
+        "subjectValue": "Civility",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q2393196",
+        "objectValue": "personality trait",
+        "anotherObject": "Q96253971",
+        "anotherObjectValue": "type of property"
+    },
+    {
+        "subject": "Q60463402",
+        "subjectValue": "Communist chic",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q131265",
+        "objectValue": "popular culture",
+        "anotherObject": "Q11042",
+        "anotherObjectValue": "culture"
+    },
+    {
+        "subject": "Q60463402",
+        "subjectValue": "Communist chic",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q131265",
+        "objectValue": "popular culture",
+        "anotherObject": "Q18957",
+        "anotherObjectValue": "mainstream"
+    },
+    {
+        "subject": "Q687900",
+        "subjectValue": "Cool (aesthetic)",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q270952",
+        "objectValue": "cold",
+        "anotherObject": "Q134082396",
+        "anotherObjectValue": "warm"
+    },
+    {
+        "subject": "Q687900",
+        "subjectValue": "Cool (aesthetic)",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q270952",
+        "objectValue": "cold",
+        "anotherObject": "Q1198794",
+        "anotherObjectValue": "The Big Chill"
+    },
+    {
+        "subject": "Q687900",
+        "subjectValue": "Cool (aesthetic)",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q9332",
+        "objectValue": "behavior",
+        "anotherObject": "Q2083958",
+        "anotherObjectValue": "pattern"
+    },
+    {
+        "subject": "Q687900",
+        "subjectValue": "Cool (aesthetic)",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q270952",
+        "objectValue": "cold",
+        "anotherObject": "Q12125",
+        "anotherObjectValue": "common cold"
+    },
+    {
+        "subject": "Q209672",
+        "subjectValue": "Cult following",
+        "predicate": "P361",
+        "predicateValue": "part of",
+        "object": "Q9174",
+        "objectValue": "religion",
+        "anotherObject": "Q17097785",
+        "anotherObjectValue": "magic and religion"
+    },
+    {
+        "subject": "Q209672",
+        "subjectValue": "Cult following",
+        "predicate": "P461",
+        "predicateValue": "opposite of",
+        "object": "Q18957",
+        "objectValue": "mainstream",
+        "anotherObject": "Q26392",
+        "anotherObjectValue": "underground culture"
+    },
+    {
+        "subject": "Q209672",
+        "subjectValue": "Cult following",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q99632598",
+        "objectValue": "succession",
+        "anotherObject": "Q1190554",
+        "anotherObjectValue": "occurrence"
+    },
+    {
+        "subject": "Q209672",
+        "subjectValue": "Cult following",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q99632598",
+        "objectValue": "succession",
+        "anotherObject": "Q4026292",
+        "anotherObjectValue": "action"
+    },
+    {
+        "subject": "Q209672",
+        "subjectValue": "Cult following",
+        "predicate": "P461",
+        "predicateValue": "opposite of",
+        "object": "Q18957",
+        "objectValue": "mainstream",
+        "anotherObject": "Q188976",
+        "anotherObjectValue": "counterculture"
+    },
+    {
+        "subject": "Q209672",
+        "subjectValue": "Cult following",
+        "predicate": "P461",
+        "predicateValue": "opposite of",
+        "object": "Q18957",
+        "objectValue": "mainstream",
+        "anotherObject": "Q1992247",
+        "anotherObjectValue": "heterodoxy"
+    },
+    {
+        "subject": "Q8012311",
+        "subjectValue": "Doujin soft",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q7397",
+        "objectValue": "software",
+        "anotherObject": "Q2424752",
+        "anotherObjectValue": "product"
+    },
+    {
+        "subject": "Q8012311",
+        "subjectValue": "Doujin soft",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q7397",
+        "objectValue": "software",
+        "anotherObject": "Q12774177",
+        "anotherObjectValue": "means"
+    },
+    {
+        "subject": "Q8012311",
+        "subjectValue": "Doujin soft",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q906556",
+        "objectValue": "d\u014djin game",
+        "anotherObject": "Q1395577",
+        "anotherObjectValue": "fan game"
+    },
+    {
+        "subject": "Q8012311",
+        "subjectValue": "Doujin soft",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q7397",
+        "objectValue": "software",
+        "anotherObject": "Q17537576",
+        "anotherObjectValue": "creative work"
+    },
+    {
+        "subject": "Q8012311",
+        "subjectValue": "Doujin soft",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q7397",
+        "objectValue": "software",
+        "anotherObject": "Q47461344",
+        "anotherObjectValue": "written work"
+    },
+    {
+        "subject": "Q8012311",
+        "subjectValue": "Doujin soft",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q22669665",
+        "objectValue": "d\u014djin work",
+        "anotherObject": "Q386724",
+        "anotherObjectValue": "work"
+    },
+    {
+        "subject": "Q188907",
+        "subjectValue": "Etiquette",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q1757948",
+        "objectValue": "formality",
+        "anotherObject": "Q106803732",
+        "anotherObjectValue": "conduct"
+    },
+    {
+        "subject": "Q188907",
+        "subjectValue": "Etiquette",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1115221",
+        "objectValue": "mores",
+        "anotherObject": "Q251777",
+        "anotherObjectValue": "custom"
+    },
+    {
+        "subject": "Q188907",
+        "subjectValue": "Etiquette",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q16515017",
+        "objectValue": "courtesy",
+        "anotherObject": "Q10280358",
+        "anotherObjectValue": "favors"
+    },
+    {
+        "subject": "Q188907",
+        "subjectValue": "Etiquette",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1115221",
+        "objectValue": "mores",
+        "anotherObject": "Q3769299",
+        "anotherObjectValue": "human behavior"
+    },
+    {
+        "subject": "Q188907",
+        "subjectValue": "Etiquette",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q106803732",
+        "objectValue": "conduct",
+        "anotherObject": "Q1757948",
+        "anotherObjectValue": "formality"
+    },
+    {
+        "subject": "Q188907",
+        "subjectValue": "Etiquette",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1115221",
+        "objectValue": "mores",
+        "anotherObject": "Q846882",
+        "anotherObjectValue": "sources of law"
+    },
+    {
+        "subject": "Q188907",
+        "subjectValue": "Etiquette",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q106803732",
+        "objectValue": "conduct",
+        "anotherObject": "Q9332",
+        "anotherObjectValue": "behavior"
+    },
+    {
+        "subject": "Q13427002",
+        "subjectValue": "Fad",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q12684",
+        "objectValue": "fashion",
+        "anotherObject": "Q9053464",
+        "anotherObjectValue": "costume"
+    },
+    {
+        "subject": "Q13427002",
+        "subjectValue": "Fad",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q2548752",
+        "objectValue": "collective behavior",
+        "anotherObject": "Q921513",
+        "anotherObjectValue": "social behavior"
+    },
+    {
+        "subject": "Q5672291",
+        "subjectValue": "Film tourism",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q112918760",
+        "objectValue": "pop-culture tourism",
+        "anotherObject": "Q1907578",
+        "anotherObjectValue": "mass tourism"
+    },
+    {
+        "subject": "Q115818673",
+        "subjectValue": "Filter (social media)",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q876650",
+        "objectValue": "photographic filter",
+        "anotherObject": "Q117207326",
+        "anotherObjectValue": "camera lens accessory"
+    },
+    {
+        "subject": "Q115818673",
+        "subjectValue": "Filter (social media)",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q876650",
+        "objectValue": "photographic filter",
+        "anotherObject": "Q1439598",
+        "anotherObjectValue": "photo equipment"
+    },
+    {
+        "subject": "Q115818673",
+        "subjectValue": "Filter (social media)",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q876650",
+        "objectValue": "photographic filter",
+        "anotherObject": "Q16908411",
+        "anotherObjectValue": "filter"
+    },
+    {
+        "subject": "Q56599132",
+        "subjectValue": "Fugazza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q177",
+        "objectValue": "pizza",
+        "anotherObject": "Q26996677",
+        "anotherObjectValue": "Pizzas, casseroles"
+    },
+    {
+        "subject": "Q56599132",
+        "subjectValue": "Fugazza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q177",
+        "objectValue": "pizza",
+        "anotherObject": "Q749316",
+        "anotherObjectValue": "snack"
+    },
+    {
+        "subject": "Q56599132",
+        "subjectValue": "Fugazza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q177",
+        "objectValue": "pizza",
+        "anotherObject": "Q1408229",
+        "anotherObjectValue": "finished good"
+    },
+    {
+        "subject": "Q56599132",
+        "subjectValue": "Fugazza",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q116392487",
+        "objectValue": "type of pizza",
+        "anotherObject": "Q24017414",
+        "anotherObjectValue": "second-order class"
+    },
+    {
+        "subject": "Q56599132",
+        "subjectValue": "Fugazza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q177",
+        "objectValue": "pizza",
+        "anotherObject": "Q2251745",
+        "anotherObjectValue": "baked good"
+    },
+    {
+        "subject": "Q56599132",
+        "subjectValue": "Fugazza",
+        "predicate": "P17",
+        "predicateValue": "country",
+        "object": "Q414",
+        "objectValue": "Argentina",
+        "anotherObject": "Q414",
+        "anotherObjectValue": "Argentina"
+    },
+    {
+        "subject": "Q56599132",
+        "subjectValue": "Fugazza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q177",
+        "objectValue": "pizza",
+        "anotherObject": "Q13030962",
+        "anotherObjectValue": "convenience food"
+    },
+    {
+        "subject": "Q379689",
+        "subjectValue": "Generation X",
+        "predicate": "P361",
+        "predicateValue": "part of",
+        "object": "Q127199390",
+        "objectValue": "1980s kids",
+        "anotherObject": "Q127206310",
+        "anotherObjectValue": "1970s babies"
+    },
+    {
+        "subject": "Q379689",
+        "subjectValue": "Generation X",
+        "predicate": "P361",
+        "predicateValue": "part of",
+        "object": "Q127206310",
+        "objectValue": "1970s babies",
+        "anotherObject": "Q127199390",
+        "anotherObjectValue": "1980s kids"
+    },
+    {
+        "subject": "Q379689",
+        "subjectValue": "Generation X",
+        "predicate": "P361",
+        "predicateValue": "part of",
+        "object": "Q127199390",
+        "objectValue": "1980s kids",
+        "anotherObject": "Q24901995",
+        "anotherObjectValue": "Xennials"
+    },
+    {
+        "subject": "Q379689",
+        "subjectValue": "Generation X",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q113207194",
+        "objectValue": "Millennial Saeculum",
+        "anotherObject": "Q213381",
+        "anotherObjectValue": "generation"
+    },
+    {
+        "subject": "Q379689",
+        "subjectValue": "Generation X",
+        "predicate": "P361",
+        "predicateValue": "part of",
+        "object": "Q127199390",
+        "objectValue": "1980s kids",
+        "anotherObject": "Q277633",
+        "anotherObjectValue": "generation Y"
+    },
+    {
+        "subject": "Q379689",
+        "subjectValue": "Generation X",
+        "predicate": "P155",
+        "predicateValue": "follows",
+        "object": "Q797819",
+        "objectValue": "Baby Boomers",
+        "anotherObject": "Q3044693",
+        "anotherObjectValue": "Silent Generation"
+    },
+    {
+        "subject": "Q379689",
+        "subjectValue": "Generation X",
+        "predicate": "P156",
+        "predicateValue": "followed by",
+        "object": "Q277633",
+        "objectValue": "generation Y",
+        "anotherObject": "Q111737399",
+        "anotherObjectValue": "Zillennials"
+    },
+    {
+        "subject": "Q379689",
+        "subjectValue": "Generation X",
+        "predicate": "P156",
+        "predicateValue": "followed by",
+        "object": "Q277633",
+        "objectValue": "generation Y",
+        "anotherObject": "Q1987589",
+        "anotherObjectValue": "Generation Z"
+    },
+    {
+        "subject": "Q18207390",
+        "subjectValue": "GikII",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q7748",
+        "objectValue": "law",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q1997853",
+        "subjectValue": "Hit song",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q59913930",
+        "objectValue": "recording industry term",
+        "anotherObject": "Q59913891",
+        "anotherObjectValue": "recording industry terminology"
+    },
+    {
+        "subject": "Q1997853",
+        "subjectValue": "Hit song",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q108040644",
+        "objectValue": "charted musical unit",
+        "anotherObject": "Q937228",
+        "anotherObjectValue": "property"
+    },
+    {
+        "subject": "Q1997853",
+        "subjectValue": "Hit song",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q85369504",
+        "objectValue": "box office hit",
+        "anotherObject": "Q106577832",
+        "anotherObjectValue": "smash hit"
+    },
+    {
+        "subject": "Q7792940",
+        "subjectValue": "Thomas P. Kelley",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q185193",
+        "subjectValue": "Kidult",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q130989",
+        "objectValue": "neologism",
+        "anotherObject": "Q1047050",
+        "anotherObjectValue": "usage"
+    },
+    {
+        "subject": "Q185193",
+        "subjectValue": "Kidult",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q15689489",
+        "objectValue": "puer aeternus",
+        "anotherObject": "Q131714",
+        "anotherObjectValue": "archetype"
+    },
+    {
+        "subject": "Q185193",
+        "subjectValue": "Kidult",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1077589",
+        "objectValue": "Peter Pan syndrome",
+        "anotherObject": "Q15689489",
+        "anotherObjectValue": "puer aeternus"
+    },
+    {
+        "subject": "Q6546170",
+        "subjectValue": "Light entertainment",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q17537576",
+        "objectValue": "creative work",
+        "anotherObject": "Q15621286",
+        "anotherObjectValue": "intellectual work"
+    },
+    {
+        "subject": "Q6546170",
+        "subjectValue": "Light entertainment",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1792379",
+        "objectValue": "art genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q6546170",
+        "subjectValue": "Light entertainment",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1814638",
+        "objectValue": "light entertainment",
+        "anotherObject": "Q173799",
+        "anotherObjectValue": "entertainment"
+    },
+    {
+        "subject": "Q107108751",
+        "subjectValue": "Ricardo P. Lloyd",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q6630264",
+        "subjectValue": "Low culture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q131265",
+        "objectValue": "popular culture",
+        "anotherObject": "Q11042",
+        "anotherObjectValue": "culture"
+    },
+    {
+        "subject": "Q6630264",
+        "subjectValue": "Low culture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q131265",
+        "objectValue": "popular culture",
+        "anotherObject": "Q18957",
+        "anotherObjectValue": "mainstream"
+    },
+    {
+        "subject": "Q6630264",
+        "subjectValue": "Low culture",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q545779",
+        "objectValue": "pejorative",
+        "anotherObject": "Q286576",
+        "anotherObjectValue": "register"
+    },
+    {
+        "subject": "Q3007315",
+        "subjectValue": "Media culture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q11042",
+        "objectValue": "culture",
+        "anotherObject": "Q2515887",
+        "anotherObjectValue": "pattern of behavior"
+    },
+    {
+        "subject": "Q13495118",
+        "subjectValue": "Middlebrow",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1084",
+        "objectValue": "noun",
+        "anotherObject": "Q82042",
+        "anotherObjectValue": "part of speech"
+    },
+    {
+        "subject": "Q13495118",
+        "subjectValue": "Middlebrow",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q18534",
+        "objectValue": "metaphor",
+        "anotherObject": "Q182545",
+        "anotherObjectValue": "stylistic device"
+    },
+    {
+        "subject": "Q13495118",
+        "subjectValue": "Middlebrow",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q34698",
+        "objectValue": "adjective",
+        "anotherObject": "Q82042",
+        "anotherObjectValue": "part of speech"
+    },
+    {
+        "subject": "Q13495118",
+        "subjectValue": "Middlebrow",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q41966",
+        "objectValue": "metonymy",
+        "anotherObject": "Q182545",
+        "anotherObjectValue": "stylistic device"
+    },
+    {
+        "subject": "Q13495118",
+        "subjectValue": "Middlebrow",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q11042",
+        "objectValue": "culture",
+        "anotherObject": "Q2515887",
+        "anotherObjectValue": "pattern of behavior"
+    },
+    {
+        "subject": "Q23023399",
+        "subjectValue": "MTV Fandom Awards",
+        "predicate": "P17",
+        "predicateValue": "country",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q30325518",
+        "subjectValue": "MTV Woodies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q618779",
+        "objectValue": "award",
+        "anotherObject": "Q104086571",
+        "anotherObjectValue": "first-order class"
+    },
+    {
+        "subject": "Q30325518",
+        "subjectValue": "MTV Woodies",
+        "predicate": "P17",
+        "predicateValue": "country",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q749316",
+        "objectValue": "snack",
+        "anotherObject": "Q13030962",
+        "anotherObjectValue": "convenience food"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q749316",
+        "objectValue": "snack",
+        "anotherObject": "Q12582288",
+        "anotherObjectValue": "processed food"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q19861951",
+        "objectValue": "type of food or dish",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q11254",
+        "objectValue": "table salt",
+        "anotherObject": "Q121874",
+        "anotherObjectValue": "potassium iodide"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q11254",
+        "objectValue": "table salt",
+        "anotherObject": "Q189567",
+        "anotherObjectValue": "food additive"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q11254",
+        "objectValue": "table salt",
+        "anotherObject": "Q7216430",
+        "anotherObjectValue": "impurity"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P186",
+        "predicateValue": "made from material",
+        "object": "Q178024",
+        "objectValue": "dough",
+        "anotherObject": "Q7892",
+        "anotherObjectValue": "drinking water"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P186",
+        "predicateValue": "made from material",
+        "object": "Q178024",
+        "objectValue": "dough",
+        "anotherObject": "Q36465",
+        "anotherObjectValue": "flour"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q19861951",
+        "objectValue": "type of food or dish",
+        "anotherObject": "Q23958852",
+        "anotherObjectValue": "variable-order class"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P186",
+        "predicateValue": "made from material",
+        "object": "Q10943",
+        "objectValue": "cheese",
+        "anotherObject": "Q8495",
+        "anotherObjectValue": "milk"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q3596097",
+        "objectValue": "tomato sauce",
+        "anotherObject": "Q20638126",
+        "anotherObjectValue": "tomato"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q749316",
+        "objectValue": "snack",
+        "anotherObject": "Q2095",
+        "anotherObjectValue": "food"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q13030962",
+        "objectValue": "convenience food",
+        "anotherObject": "Q12582288",
+        "anotherObjectValue": "processed food"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q26996677",
+        "objectValue": "Pizzas, casseroles",
+        "anotherObject": "Q26996564",
+        "anotherObjectValue": "Bread and bakery products, others"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q2251745",
+        "objectValue": "baked good",
+        "anotherObject": "Q746549",
+        "anotherObjectValue": "dish"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q11254",
+        "objectValue": "table salt",
+        "anotherObject": "Q726460",
+        "anotherObjectValue": "anticaking agent"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q283",
+        "objectValue": "water",
+        "anotherObject": "Q556",
+        "anotherObjectValue": "hydrogen"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q283",
+        "objectValue": "water",
+        "anotherObject": "Q629",
+        "anotherObjectValue": "oxygen"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q11254",
+        "objectValue": "table salt",
+        "anotherObject": "Q2314",
+        "anotherObjectValue": "sodium chloride"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1408229",
+        "objectValue": "finished good",
+        "anotherObject": "Q2424752",
+        "anotherObjectValue": "product"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q2251745",
+        "objectValue": "baked good",
+        "anotherObject": "Q26995321",
+        "anotherObjectValue": "bakery products, pastry, cakes and long-term cakes"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P186",
+        "predicateValue": "made from material",
+        "object": "Q10943",
+        "objectValue": "cheese",
+        "anotherObject": "Q10988133",
+        "anotherObjectValue": "cow's milk"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1408229",
+        "objectValue": "finished good",
+        "anotherObject": "Q1485500",
+        "anotherObjectValue": "tangible good"
+    },
+    {
+        "subject": "Q177",
+        "subjectValue": "Pizza",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q2251745",
+        "objectValue": "baked good",
+        "anotherObject": "Q2095",
+        "anotherObjectValue": "food"
+    },
+    {
+        "subject": "Q10677",
+        "subjectValue": "PlayStation (console)",
+        "predicate": "P156",
+        "predicateValue": "followed by",
+        "object": "Q8017670",
+        "objectValue": "PS one",
+        "anotherObject": "Q10680",
+        "anotherObjectValue": "PlayStation 2"
+    },
+    {
+        "subject": "Q10677",
+        "subjectValue": "PlayStation (console)",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q17589470",
+        "objectValue": "home video game console",
+        "anotherObject": "Q8076",
+        "anotherObjectValue": "video game console"
+    },
+    {
+        "subject": "Q10677",
+        "subjectValue": "PlayStation (console)",
+        "predicate": "P156",
+        "predicateValue": "followed by",
+        "object": "Q10680",
+        "objectValue": "PlayStation 2",
+        "anotherObject": "Q10683",
+        "anotherObjectValue": "PlayStation 3"
+    },
+    {
+        "subject": "Q10677",
+        "subjectValue": "PlayStation (console)",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q10929058",
+        "objectValue": "product model",
+        "anotherObject": "Q24017414",
+        "anotherObjectValue": "second-order class"
+    },
+    {
+        "subject": "Q134147",
+        "subjectValue": "Pop art",
+        "predicate": "P737",
+        "predicateValue": "influenced by",
+        "object": "Q6034",
+        "objectValue": "Dada",
+        "anotherObject": "Q42934",
+        "anotherObjectValue": "Cubism"
+    },
+    {
+        "subject": "Q134147",
+        "subjectValue": "Pop art",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q32880",
+        "objectValue": "architectural style",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q134147",
+        "subjectValue": "Pop art",
+        "predicate": "P737",
+        "predicateValue": "influenced by",
+        "object": "Q6034",
+        "objectValue": "Dada",
+        "anotherObject": "Q80113",
+        "anotherObjectValue": "Expressionism"
+    },
+    {
+        "subject": "Q134147",
+        "subjectValue": "Pop art",
+        "predicate": "P737",
+        "predicateValue": "influenced by",
+        "object": "Q6034",
+        "objectValue": "Dada",
+        "anotherObject": "Q2051330",
+        "anotherObjectValue": "Parade"
+    },
+    {
+        "subject": "Q134147",
+        "subjectValue": "Pop art",
+        "predicate": "P737",
+        "predicateValue": "influenced by",
+        "object": "Q6034",
+        "objectValue": "Dada",
+        "anotherObject": "Q1215852",
+        "anotherObjectValue": "Ubu roi"
+    },
+    {
+        "subject": "Q134147",
+        "subjectValue": "Pop art",
+        "predicate": "P737",
+        "predicateValue": "influenced by",
+        "object": "Q6034",
+        "objectValue": "Dada",
+        "anotherObject": "Q386302",
+        "anotherObjectValue": "African art"
+    },
+    {
+        "subject": "Q134147",
+        "subjectValue": "Pop art",
+        "predicate": "P737",
+        "predicateValue": "influenced by",
+        "object": "Q6034",
+        "objectValue": "Dada",
+        "anotherObject": "Q794691",
+        "anotherObjectValue": "anti-war movement"
+    },
+    {
+        "subject": "Q134311890",
+        "subjectValue": "Pop Base",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q43229",
+        "objectValue": "organization",
+        "anotherObject": "Q131362181",
+        "anotherObjectValue": "social science concept"
+    },
+    {
+        "subject": "Q110419290",
+        "subjectValue": "Pop Crave",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q6881511",
+        "objectValue": "enterprise",
+        "anotherObject": "Q2135465",
+        "anotherObjectValue": "legal concept"
+    },
+    {
+        "subject": "Q102283465",
+        "subjectValue": "Pop culture fiction",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q108465955",
+        "objectValue": "fiction genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q582878",
+        "subjectValue": "Pop icon",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q3139104",
+        "objectValue": "cultural icon",
+        "anotherObject": "Q80071",
+        "anotherObjectValue": "symbol"
+    },
+    {
+        "subject": "Q582878",
+        "subjectValue": "Pop icon",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q3139104",
+        "objectValue": "cultural icon",
+        "anotherObject": "Q8205328",
+        "anotherObjectValue": "artificial physical object"
+    },
+    {
+        "subject": "Q112918760",
+        "subjectValue": "Pop-culture tourism",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1907578",
+        "objectValue": "mass tourism",
+        "anotherObject": "Q49389",
+        "anotherObjectValue": "tourism"
+    },
+    {
+        "subject": "Q7229751",
+        "subjectValue": "Popular culture studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1047113",
+        "objectValue": "field of study",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q7229751",
+        "subjectValue": "Popular culture studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q373342",
+        "subjectValue": "Popular music",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q115484611",
+        "objectValue": "music",
+        "anotherObject": "Q11461",
+        "anotherObjectValue": "sound"
+    },
+    {
+        "subject": "Q373342",
+        "subjectValue": "Popular music",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q62906332",
+        "objectValue": "entertainment music",
+        "anotherObject": "Q1278710",
+        "anotherObjectValue": "trivial music"
+    },
+    {
+        "subject": "Q373342",
+        "subjectValue": "Popular music",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q1278710",
+        "objectValue": "trivial music",
+        "anotherObject": "Q1208331",
+        "anotherObjectValue": "Gebrauchsmusik"
+    },
+    {
+        "subject": "Q373342",
+        "subjectValue": "Popular music",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q1278710",
+        "objectValue": "trivial music",
+        "anotherObject": "Q4372891",
+        "anotherObjectValue": "popsa"
+    },
+    {
+        "subject": "Q373342",
+        "subjectValue": "Popular music",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q115484611",
+        "objectValue": "music",
+        "anotherObject": "Q116474095",
+        "anotherObjectValue": "type of work of art"
+    },
+    {
+        "subject": "Q373342",
+        "subjectValue": "Popular music",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q1278710",
+        "objectValue": "trivial music",
+        "anotherObject": "Q26897135",
+        "anotherObjectValue": "functional music"
+    },
+    {
+        "subject": "Q373342",
+        "subjectValue": "Popular music",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q28453837",
+        "objectValue": "vernacular music",
+        "anotherObject": "Q43343",
+        "anotherObjectValue": "folk music"
+    },
+    {
+        "subject": "Q373342",
+        "subjectValue": "Popular music",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q188451",
+        "objectValue": "music genre",
+        "anotherObject": "Q151885",
+        "anotherObjectValue": "concept"
+    },
+    {
+        "subject": "Q373342",
+        "subjectValue": "Popular music",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q188451",
+        "objectValue": "music genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q373342",
+        "subjectValue": "Popular music",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q1278710",
+        "objectValue": "trivial music",
+        "anotherObject": "Q62906332",
+        "anotherObjectValue": "entertainment music"
+    },
+    {
+        "subject": "Q373342",
+        "subjectValue": "Popular music",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q188451",
+        "objectValue": "music genre",
+        "anotherObject": "Q11696608",
+        "anotherObjectValue": "elements of music"
+    },
+    {
+        "subject": "Q132717488",
+        "subjectValue": "Red Lobster, White Trash and the Blue Lagoon",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q47461344",
+        "objectValue": "written work",
+        "anotherObject": "Q504952",
+        "anotherObjectValue": "collective noun"
+    },
+    {
+        "subject": "Q3298098",
+        "subjectValue": "Remix culture",
+        "predicate": "P461",
+        "predicateValue": "opposite of",
+        "object": "Q3305337",
+        "objectValue": "permission culture",
+        "anotherObject": "Q898144",
+        "anotherObjectValue": "free-culture movement"
+    },
+    {
+        "subject": "Q3298098",
+        "subjectValue": "Remix culture",
+        "predicate": "P460",
+        "predicateValue": "said to be the same as",
+        "object": "Q898144",
+        "objectValue": "free-culture movement",
+        "anotherObject": "Q19018468",
+        "anotherObjectValue": "libre culture"
+    },
+    {
+        "subject": "Q3298098",
+        "subjectValue": "Remix culture",
+        "predicate": "P461",
+        "predicateValue": "opposite of",
+        "object": "Q3305337",
+        "objectValue": "permission culture",
+        "anotherObject": "Q19018468",
+        "anotherObjectValue": "libre culture"
+    },
+    {
+        "subject": "Q3298098",
+        "subjectValue": "Remix culture",
+        "predicate": "P461",
+        "predicateValue": "opposite of",
+        "object": "Q3305337",
+        "objectValue": "permission culture",
+        "anotherObject": "Q647578",
+        "anotherObjectValue": "copyright infringement"
+    },
+    {
+        "subject": "Q3298098",
+        "subjectValue": "Remix culture",
+        "predicate": "P460",
+        "predicateValue": "said to be the same as",
+        "object": "Q19018468",
+        "objectValue": "libre culture",
+        "anotherObject": "Q898144",
+        "anotherObjectValue": "free-culture movement"
+    },
+    {
+        "subject": "Q3298098",
+        "subjectValue": "Remix culture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q11042",
+        "objectValue": "culture",
+        "anotherObject": "Q2515887",
+        "anotherObjectValue": "pattern of behavior"
+    },
+    {
+        "subject": "Q3309433",
+        "subjectValue": "Selling out",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q451967",
+        "objectValue": "intentional human activity",
+        "anotherObject": "Q61788060",
+        "anotherObjectValue": "human activity"
+    },
+    {
+        "subject": "Q3309433",
+        "subjectValue": "Selling out",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q98398200",
+        "objectValue": "rejection",
+        "anotherObject": "Q100701259",
+        "anotherObjectValue": "editorial decision"
+    },
+    {
+        "subject": "Q224530",
+        "subjectValue": "Spectacle",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1190554",
+        "objectValue": "occurrence",
+        "anotherObject": "Q67518978",
+        "anotherObjectValue": "occurrent"
+    },
+    {
+        "subject": "Q224530",
+        "subjectValue": "Spectacle",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q35140",
+        "objectValue": "performance",
+        "anotherObject": "Q213156",
+        "anotherObjectValue": "performance art"
+    },
+    {
+        "subject": "Q224530",
+        "subjectValue": "Spectacle",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q35140",
+        "objectValue": "performance",
+        "anotherObject": "Q17538722",
+        "anotherObjectValue": "performance work"
+    },
+    {
+        "subject": "Q224530",
+        "subjectValue": "Spectacle",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q35140",
+        "objectValue": "performance",
+        "anotherObject": "Q22672348",
+        "anotherObjectValue": "performance artwork"
+    },
+    {
+        "subject": "Q1929437",
+        "subjectValue": "Summer hit",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q59913930",
+        "objectValue": "recording industry term",
+        "anotherObject": "Q59913891",
+        "anotherObjectValue": "recording industry terminology"
+    },
+    {
+        "subject": "Q1929437",
+        "subjectValue": "Summer hit",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1997853",
+        "objectValue": "musical hit",
+        "anotherObject": "Q108040644",
+        "anotherObjectValue": "charted musical unit"
+    },
+    {
+        "subject": "Q1929437",
+        "subjectValue": "Summer hit",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1997853",
+        "objectValue": "musical hit",
+        "anotherObject": "Q85369504",
+        "anotherObjectValue": "box office hit"
+    },
+    {
+        "subject": "Q333967",
+        "subjectValue": "Survival horror",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q343568",
+        "objectValue": "action-adventure game",
+        "anotherObject": "Q270948",
+        "anotherObjectValue": "action game"
+    },
+    {
+        "subject": "Q333967",
+        "subjectValue": "Survival horror",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q11338014",
+        "objectValue": "horror video game",
+        "anotherObject": "Q16575965",
+        "anotherObjectValue": "horror fiction"
+    },
+    {
+        "subject": "Q333967",
+        "subjectValue": "Survival horror",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q343568",
+        "objectValue": "action-adventure game",
+        "anotherObject": "Q23916",
+        "anotherObjectValue": "adventure video game"
+    },
+    {
+        "subject": "Q333967",
+        "subjectValue": "Survival horror",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q11338014",
+        "objectValue": "horror video game",
+        "anotherObject": "Q7889",
+        "anotherObjectValue": "video game"
+    },
+    {
+        "subject": "Q333967",
+        "subjectValue": "Survival horror",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q659563",
+        "objectValue": "video game genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q333967",
+        "subjectValue": "Survival horror",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q11338014",
+        "objectValue": "horror video game",
+        "anotherObject": "Q50572288",
+        "anotherObjectValue": "speculative fiction video game"
+    },
+    {
+        "subject": "Q30323956",
+        "subjectValue": "Trash culture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q11042",
+        "objectValue": "culture",
+        "anotherObject": "Q2515887",
+        "anotherObjectValue": "pattern of behavior"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q878352",
+        "objectValue": "rumor",
+        "anotherObject": "Q12827256",
+        "anotherObjectValue": "myth"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q878352",
+        "objectValue": "rumor",
+        "anotherObject": "Q12016844",
+        "anotherObjectValue": "Zvon"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q878352",
+        "objectValue": "rumor",
+        "anotherObject": "Q25345174",
+        "anotherObjectValue": "common misconception"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q878352",
+        "objectValue": "rumor",
+        "anotherObject": "Q44342",
+        "anotherObjectValue": "legend"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q878352",
+        "objectValue": "rumor",
+        "anotherObject": "Q8253",
+        "anotherObjectValue": "fiction"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q25345174",
+        "objectValue": "common misconception",
+        "anotherObject": "Q109803845",
+        "anotherObjectValue": "agitation legend"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q44342",
+        "objectValue": "legend",
+        "anotherObject": "Q7832362",
+        "anotherObjectValue": "traditional story"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q25345174",
+        "objectValue": "common misconception",
+        "anotherObject": "Q133182",
+        "anotherObjectValue": "superstition"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q25345174",
+        "objectValue": "common misconception",
+        "anotherObject": "Q186150",
+        "anotherObjectValue": "fallacy"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q25345174",
+        "objectValue": "common misconception",
+        "anotherObject": "Q878352",
+        "anotherObjectValue": "rumor"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q25345174",
+        "objectValue": "common misconception",
+        "anotherObject": "Q2646525",
+        "anotherObjectValue": "conventional wisdom"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q483394",
+        "objectValue": "genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q189349",
+        "subjectValue": "Urban legend",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q44342",
+        "objectValue": "legend",
+        "anotherObject": "Q87482979",
+        "anotherObjectValue": "work of fiction"
+    },
+    {
+        "subject": "Q7900148",
+        "subjectValue": "Urban pop culture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q131265",
+        "objectValue": "popular culture",
+        "anotherObject": "Q11042",
+        "anotherObjectValue": "culture"
+    },
+    {
+        "subject": "Q7900148",
+        "subjectValue": "Urban pop culture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q131265",
+        "objectValue": "popular culture",
+        "anotherObject": "Q18957",
+        "anotherObjectValue": "mainstream"
+    },
+    {
+        "subject": "Q28136180",
+        "subjectValue": "Vagalume",
+        "predicate": "P17",
+        "predicateValue": "country",
+        "object": "Q155",
+        "objectValue": "Brazil",
+        "anotherObject": "Q155",
+        "anotherObjectValue": "Brazil"
+    },
+    {
+        "subject": "Q28136180",
+        "subjectValue": "Vagalume",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q35127",
+        "objectValue": "website",
+        "anotherObject": "Q134995802",
+        "anotherObjectValue": "type of website"
+    },
+    {
+        "subject": "Q7946095",
+        "subjectValue": "W00tstock",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q15275719",
+        "objectValue": "recurring event",
+        "anotherObject": "Q110610843",
+        "anotherObjectValue": "form of event by occurrence"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q2465832",
+        "objectValue": "branch of science",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q80083",
+        "objectValue": "humanities",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q50641",
+        "objectValue": "history of art",
+        "anotherObject": "Q50637",
+        "anotherObjectValue": "art history"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1047113",
+        "objectValue": "field of study",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1665984",
+        "objectValue": "interdisciplinary science",
+        "anotherObject": "Q2465832",
+        "anotherObjectValue": "branch of science"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q1662673",
+        "objectValue": "gender studies",
+        "anotherObject": "Q98929208",
+        "anotherObjectValue": "queer studies"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q1662673",
+        "objectValue": "gender studies",
+        "anotherObject": "Q12908504",
+        "anotherObjectValue": "men's studies"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q1662673",
+        "objectValue": "gender studies",
+        "anotherObject": "Q17014367",
+        "anotherObjectValue": "transgender studies"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q3621186",
+        "objectValue": "Arabic studies",
+        "anotherObject": "Q757248",
+        "anotherObjectValue": "papyrology"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q1662673",
+        "objectValue": "gender studies",
+        "anotherObject": "Q637003",
+        "anotherObjectValue": "gender archaeology"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q1418771",
+        "objectValue": "culturology",
+        "anotherObject": "Q50641",
+        "anotherObjectValue": "history of art"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q80083",
+        "objectValue": "humanities",
+        "anotherObject": "Q33122512",
+        "anotherObjectValue": "social sciences and humanities"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P527",
+        "predicateValue": "has part(s)",
+        "object": "Q1662673",
+        "objectValue": "gender studies",
+        "anotherObject": "Q35069",
+        "anotherObjectValue": "women's studies"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q23404",
+        "objectValue": "anthropology",
+        "anotherObject": "Q34749",
+        "anotherObjectValue": "social science"
+    },
+    {
+        "subject": "Q1143546",
+        "subjectValue": "Cultural studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q23010558",
+        "objectValue": "area, ethnic, cultural, gender, and group studies",
+        "anotherObject": "Q34749",
+        "anotherObjectValue": "social science"
+    },
+    {
+        "subject": "Q192989",
+        "subjectValue": "Acculturation",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1510761",
+        "objectValue": "social change",
+        "anotherObject": "Q2305441",
+        "anotherObjectValue": "social process"
+    },
+    {
+        "subject": "Q192989",
+        "subjectValue": "Acculturation",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q33104129",
+        "objectValue": "sociological concept",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q192989",
+        "subjectValue": "Acculturation",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1510761",
+        "objectValue": "social change",
+        "anotherObject": "Q5193493",
+        "anotherObjectValue": "culture change"
+    },
+    {
+        "subject": "Q192989",
+        "subjectValue": "Acculturation",
+        "predicate": "P2579",
+        "predicateValue": "studied by",
+        "object": "Q160845",
+        "objectValue": "sociolinguistics",
+        "anotherObject": "Q160845",
+        "anotherObjectValue": "sociolinguistics"
+    },
+    {
+        "subject": "Q1280626",
+        "subjectValue": "Albanology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q464974",
+        "objectValue": "Balkan studies",
+        "anotherObject": "Q928786",
+        "anotherObjectValue": "area studies"
+    },
+    {
+        "subject": "Q1280626",
+        "subjectValue": "Albanology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q464974",
+        "objectValue": "Balkan studies",
+        "anotherObject": "Q15075764",
+        "anotherObjectValue": "European ethnology (Volkskunde)"
+    },
+    {
+        "subject": "Q56000793",
+        "subjectValue": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q625699",
+        "subjectValue": "Aramaic studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q625699",
+        "subjectValue": "Aramaic studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q2142577",
+        "objectValue": "Semitic studies",
+        "anotherObject": "Q38157",
+        "anotherObjectValue": "African studies"
+    },
+    {
+        "subject": "Q625699",
+        "subjectValue": "Aramaic studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q2142577",
+        "objectValue": "Semitic studies",
+        "anotherObject": "Q4806809",
+        "anotherObjectValue": "Asian studies"
+    },
+    {
+        "subject": "Q625699",
+        "subjectValue": "Aramaic studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q2142577",
+        "objectValue": "Semitic studies",
+        "anotherObject": "Q476294",
+        "anotherObjectValue": "oriental studies"
+    },
+    {
+        "subject": "Q27779502",
+        "subjectValue": "Bah\u00e1\u02bc\u00ed studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q476294",
+        "objectValue": "oriental studies",
+        "anotherObject": "Q928786",
+        "anotherObjectValue": "area studies"
+    },
+    {
+        "subject": "Q27779502",
+        "subjectValue": "Bah\u00e1\u02bc\u00ed studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q27779502",
+        "subjectValue": "Bah\u00e1\u02bc\u00ed studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1782301",
+        "objectValue": "study",
+        "anotherObject": "Q130609847",
+        "anotherObjectValue": "learning approach"
+    },
+    {
+        "subject": "Q111167835",
+        "subjectValue": "Boba liberal",
+        "predicate": "P460",
+        "predicateValue": "said to be the same as",
+        "object": "Q17050732",
+        "objectValue": "limousine liberal",
+        "anotherObject": "Q3052630",
+        "anotherObjectValue": "gauche caviar"
+    },
+    {
+        "subject": "Q111167835",
+        "subjectValue": "Boba liberal",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q6540837",
+        "objectValue": "liberal elite",
+        "anotherObject": "Q455011",
+        "anotherObjectValue": "shill"
+    },
+    {
+        "subject": "Q111167835",
+        "subjectValue": "Boba liberal",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q17162840",
+        "objectValue": "radical chic",
+        "anotherObject": "Q3052630",
+        "anotherObjectValue": "gauche caviar"
+    },
+    {
+        "subject": "Q111167835",
+        "subjectValue": "Boba liberal",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q17162840",
+        "objectValue": "radical chic",
+        "anotherObject": "Q17050732",
+        "anotherObjectValue": "limousine liberal"
+    },
+    {
+        "subject": "Q111167835",
+        "subjectValue": "Boba liberal",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q17162840",
+        "objectValue": "radical chic",
+        "anotherObject": "Q667229",
+        "anotherObjectValue": "champagne socialist"
+    },
+    {
+        "subject": "Q1000683",
+        "subjectValue": "Budapest School",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q7264",
+        "objectValue": "Marxism",
+        "anotherObject": "Q6186",
+        "anotherObjectValue": "communism"
+    },
+    {
+        "subject": "Q1000683",
+        "subjectValue": "Budapest School",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q7264",
+        "objectValue": "Marxism",
+        "anotherObject": "Q7272",
+        "anotherObjectValue": "socialism"
+    },
+    {
+        "subject": "Q2882044",
+        "subjectValue": "Buffy studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q2882044",
+        "subjectValue": "Buffy studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q2065951",
+        "objectValue": "television studies",
+        "anotherObject": "Q165650",
+        "anotherObjectValue": "media studies"
+    },
+    {
+        "subject": "Q2920296",
+        "subjectValue": "Captivity (animal)",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q5036956",
+        "objectValue": "Captivity",
+        "anotherObject": "Q28100974",
+        "anotherObjectValue": "captivity"
+    },
+    {
+        "subject": "Q2920296",
+        "subjectValue": "Captivity (animal)",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q28100974",
+        "objectValue": "captivity",
+        "anotherObject": "Q1190554",
+        "anotherObjectValue": "occurrence"
+    },
+    {
+        "subject": "Q2920296",
+        "subjectValue": "Captivity (animal)",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q28100974",
+        "objectValue": "captivity",
+        "anotherObject": "Q3505845",
+        "anotherObjectValue": "state"
+    },
+    {
+        "subject": "Q41259",
+        "subjectValue": "Caucasology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q928786",
+        "objectValue": "area studies",
+        "anotherObject": "Q23010558",
+        "anotherObjectValue": "area, ethnic, cultural, gender, and group studies"
+    },
+    {
+        "subject": "Q41259",
+        "subjectValue": "Caucasology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q4806809",
+        "objectValue": "Asian studies",
+        "anotherObject": "Q476294",
+        "anotherObjectValue": "oriental studies"
+    },
+    {
+        "subject": "Q41259",
+        "subjectValue": "Caucasology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q4806809",
+        "objectValue": "Asian studies",
+        "anotherObject": "Q928786",
+        "anotherObjectValue": "area studies"
+    },
+    {
+        "subject": "Q41259",
+        "subjectValue": "Caucasology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q928786",
+        "objectValue": "area studies",
+        "anotherObject": "Q1665984",
+        "anotherObjectValue": "interdisciplinary science"
+    },
+    {
+        "subject": "Q41259",
+        "subjectValue": "Caucasology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1377029",
+        "objectValue": "European studies",
+        "anotherObject": "Q1595873",
+        "anotherObjectValue": "domestic studies"
+    },
+    {
+        "subject": "Q41259",
+        "subjectValue": "Caucasology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q928786",
+        "objectValue": "area studies",
+        "anotherObject": "Q1143546",
+        "anotherObjectValue": "cultural studies"
+    },
+    {
+        "subject": "Q113468885",
+        "subjectValue": "Celebrity Studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1002697",
+        "objectValue": "periodical",
+        "anotherObject": "Q121132955",
+        "anotherObjectValue": "type of mass media"
+    },
+    {
+        "subject": "Q113468885",
+        "subjectValue": "Celebrity Studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1002697",
+        "objectValue": "periodical",
+        "anotherObject": "Q39725049",
+        "anotherObjectValue": "type of publication"
+    },
+    {
+        "subject": "Q113468885",
+        "subjectValue": "Celebrity Studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1002697",
+        "objectValue": "periodical",
+        "anotherObject": "Q110452794",
+        "anotherObjectValue": "form of creative work"
+    },
+    {
+        "subject": "Q5098255",
+        "subjectValue": "Children's literature criticism",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q58854",
+        "objectValue": "literary criticism",
+        "anotherObject": "Q61788060",
+        "anotherObjectValue": "human activity"
+    },
+    {
+        "subject": "Q5098255",
+        "subjectValue": "Children's literature criticism",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q58854",
+        "objectValue": "literary criticism",
+        "anotherObject": "Q109551317",
+        "anotherObjectValue": "branch of literature"
+    },
+    {
+        "subject": "Q5098255",
+        "subjectValue": "Children's literature criticism",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q58854",
+        "objectValue": "literary criticism",
+        "anotherObject": "Q223393",
+        "anotherObjectValue": "literary genre"
+    },
+    {
+        "subject": "Q18206018",
+        "subjectValue": "Classical reception studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q841090",
+        "objectValue": "classics",
+        "anotherObject": "Q439072",
+        "anotherObjectValue": "classical studies"
+    },
+    {
+        "subject": "Q18206018",
+        "subjectValue": "Classical reception studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q18206018",
+        "subjectValue": "Classical reception studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q841090",
+        "objectValue": "classics",
+        "anotherObject": "Q928786",
+        "anotherObjectValue": "area studies"
+    },
+    {
+        "subject": "Q1984484",
+        "subjectValue": "Colonial mentality",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q319763",
+        "objectValue": "inferiority complex",
+        "anotherObject": "Q11984849",
+        "anotherObjectValue": "self-hatred"
+    },
+    {
+        "subject": "Q257663",
+        "subjectValue": "Conceptual history",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q257663",
+        "subjectValue": "Conceptual history",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q39645",
+        "objectValue": "semantics",
+        "anotherObject": "Q8162",
+        "anotherObjectValue": "linguistics"
+    },
+    {
+        "subject": "Q1784169",
+        "subjectValue": "Coptology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q439072",
+        "objectValue": "classical studies",
+        "anotherObject": "Q928786",
+        "anotherObjectValue": "area studies"
+    },
+    {
+        "subject": "Q1784169",
+        "subjectValue": "Coptology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q476294",
+        "objectValue": "oriental studies",
+        "anotherObject": "Q928786",
+        "anotherObjectValue": "area studies"
+    },
+    {
+        "subject": "Q1784169",
+        "subjectValue": "Coptology",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q5186700",
+        "subjectValue": "Critical code studies",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q2465832",
+        "objectValue": "branch of science",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q42417332",
+        "subjectValue": "Critical university studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1143546",
+        "objectValue": "cultural studies",
+        "anotherObject": "Q80083",
+        "anotherObjectValue": "humanities"
+    },
+    {
+        "subject": "Q42417332",
+        "subjectValue": "Critical university studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1143546",
+        "objectValue": "cultural studies",
+        "anotherObject": "Q23010558",
+        "anotherObjectValue": "area, ethnic, cultural, gender, and group studies"
+    },
+    {
+        "subject": "Q42417332",
+        "subjectValue": "Critical university studies",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1143546",
+        "objectValue": "cultural studies",
+        "anotherObject": "Q23404",
+        "anotherObjectValue": "anthropology"
+    },
+    {
+        "subject": "Q918002",
+        "subjectValue": "Cultural capital",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q8137",
+        "objectValue": "capital",
+        "anotherObject": "Q3736009",
+        "anotherObjectValue": "instrumental value"
+    },
+    {
+        "subject": "Q918002",
+        "subjectValue": "Cultural capital",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q210272",
+        "objectValue": "cultural heritage",
+        "anotherObject": "Q11042",
+        "anotherObjectValue": "culture"
+    },
+    {
+        "subject": "Q5193267",
+        "subjectValue": "Cultural communication",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q11024",
+        "objectValue": "communication",
+        "anotherObject": "Q6031064",
+        "anotherObjectValue": "information exchange"
+    },
+    {
+        "subject": "Q5193267",
+        "subjectValue": "Cultural communication",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q1666159",
+        "subjectValue": "Cultural competence",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q5188097",
+        "objectValue": "cross-cultural competence",
+        "anotherObject": "Q1413287",
+        "anotherObjectValue": "social skill"
+    },
+    {
+        "subject": "Q1143532",
+        "subjectValue": "Cultural criminology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q19829999",
+        "objectValue": "cultural studies scholar",
+        "anotherObject": "Q15319501",
+        "anotherObjectValue": "social scientist"
+    }
+]

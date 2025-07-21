@@ -1,0 +1,390 @@
+[
+    {
+        "entity": "http://www.wikidata.org/entity/Q131265",
+        "entityLabel": "Popular culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60772535",
+        "entityLabel": "10 year challenge"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q130741980",
+        "entityLabel": "1989 Loma Prieta earthquake in popular culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q430727",
+        "entityLabel": "Absurdity"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4817248",
+        "entityLabel": "Atomic Age (design)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4987247",
+        "entityLabel": "Bulba"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1757923",
+        "entityLabel": "Carte de visite"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q23808211",
+        "entityLabel": "Civility"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17008076",
+        "entityLabel": "Closing time effect"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q115803498",
+        "entityLabel": "Coachella filter"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60463402",
+        "entityLabel": "Communist chic"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q687900",
+        "entityLabel": "Cool (aesthetic)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q209672",
+        "entityLabel": "Cult following"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q8012311",
+        "entityLabel": "Doujin soft"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q131007544",
+        "entityLabel": "Dupe (product)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q188907",
+        "entityLabel": "Etiquette"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q13427002",
+        "entityLabel": "Fad"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5672291",
+        "entityLabel": "Film tourism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q115818673",
+        "entityLabel": "Filter (social media)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q22087429",
+        "entityLabel": "Freedom and Destiny"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q56599132",
+        "entityLabel": "Fugazza"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q379689",
+        "entityLabel": "Generation X"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q18207390",
+        "entityLabel": "GikII"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q118904046",
+        "entityLabel": "Gorpcore"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1997853",
+        "entityLabel": "Hit song"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7792940",
+        "entityLabel": "Thomas P. Kelley"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q185193",
+        "entityLabel": "Kidult"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6546170",
+        "entityLabel": "Light entertainment"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q107108751",
+        "entityLabel": "Ricardo P. Lloyd"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6692993",
+        "entityLabel": "Low comedy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6630264",
+        "entityLabel": "Low culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1784728",
+        "entityLabel": "Lowbrow (art movement)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3007315",
+        "entityLabel": "Media culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q13495118",
+        "entityLabel": "Middlebrow"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q23023399",
+        "entityLabel": "MTV Fandom Awards"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q12861009",
+        "entityLabel": "MTV Generation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30325518",
+        "entityLabel": "MTV Woodies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q177",
+        "entityLabel": "Pizza"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q10677",
+        "entityLabel": "PlayStation (console)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q134147",
+        "entityLabel": "Pop art"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q134311890",
+        "entityLabel": "Pop Base"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q110419290",
+        "entityLabel": "Pop Crave"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q102283465",
+        "entityLabel": "Pop culture fiction"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q582878",
+        "entityLabel": "Pop icon"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q112918760",
+        "entityLabel": "Pop-culture tourism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7229751",
+        "entityLabel": "Popular culture studies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q373342",
+        "entityLabel": "Popular music"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17104684",
+        "entityLabel": "Prolefeed"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48806031",
+        "entityLabel": "Recombinant culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q132717488",
+        "entityLabel": "Red Lobster, White Trash and the Blue Lagoon"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3298098",
+        "entityLabel": "Remix culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106574375",
+        "entityLabel": "Se compran colchones"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3309433",
+        "entityLabel": "Selling out"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60742313",
+        "entityLabel": "Sliding doors moment"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q111951491",
+        "entityLabel": "Song of the summer"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q224530",
+        "entityLabel": "Spectacle"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1929437",
+        "entityLabel": "Summer hit"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q333967",
+        "entityLabel": "Survival horror"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30323956",
+        "entityLabel": "Trash culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q189349",
+        "entityLabel": "Urban legend"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7900148",
+        "entityLabel": "Urban pop culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28136180",
+        "entityLabel": "Vagalume"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7946095",
+        "entityLabel": "W00tstock"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q134388992",
+        "entityLabel": "Watch What Crappens"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1143546",
+        "entityLabel": "Cultural studies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q192989",
+        "entityLabel": "Acculturation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60746962",
+        "entityLabel": "Acculturation gap"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1280626",
+        "entityLabel": "Albanology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4774884",
+        "entityLabel": "Antillanit\u00e9"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q625699",
+        "entityLabel": "Aramaic studies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q27779502",
+        "entityLabel": "Bah\u00e1\u02bc\u00ed studies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4896242",
+        "entityLabel": "Besharmi Morcha"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q111167835",
+        "entityLabel": "Boba liberal"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1000683",
+        "entityLabel": "Budapest School"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2882044",
+        "entityLabel": "Buffy studies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2920296",
+        "entityLabel": "Captivity (animal)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q41259",
+        "entityLabel": "Caucasology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q113468885",
+        "entityLabel": "Celebrity Studies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5098255",
+        "entityLabel": "Children's literature criticism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5121610",
+        "entityLabel": "Circuit of culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q18206018",
+        "entityLabel": "Classical reception studies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5137405",
+        "entityLabel": "Co-cultural communication theory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1984484",
+        "entityLabel": "Colonial mentality"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q257663",
+        "entityLabel": "Conceptual history"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5160116",
+        "entityLabel": "Configurational analysis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5164689",
+        "entityLabel": "Consumer capitalism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5168014",
+        "entityLabel": "Coordinated management of meaning"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1784169",
+        "entityLabel": "Coptology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5186700",
+        "entityLabel": "Critical code studies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q42417332",
+        "entityLabel": "Critical university studies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5193251",
+        "entityLabel": "Cultural analytics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q918002",
+        "entityLabel": "Cultural capital"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5193267",
+        "entityLabel": "Cultural communication"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1666159",
+        "entityLabel": "Cultural competence"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5193272",
+        "entityLabel": "Cultural contracts"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1143532",
+        "entityLabel": "Cultural criminology"
+    }
+]

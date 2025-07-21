@@ -1,0 +1,3458 @@
+[
+    {
+        "entity": "Q5571725",
+        "entityLabel": "Glossary of areas of mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q63254493",
+        "valueLabel": "Wikimedia glossary list article"
+    },
+    {
+        "entity": "Q5571725",
+        "entityLabel": "Glossary of areas of mathematics",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q1936384",
+        "valueLabel": "area of mathematics"
+    },
+    {
+        "entity": "Q967960",
+        "entityLabel": "Mathematics Subject Classification",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9111587",
+        "valueLabel": "Category:Mathematics Subject Classification"
+    },
+    {
+        "entity": "Q967960",
+        "entityLabel": "Mathematics Subject Classification",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q24249534",
+        "valueLabel": "specialised classification scheme"
+    },
+    {
+        "entity": "Q837863",
+        "entityLabel": "Pure mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q837863",
+        "entityLabel": "Pure mathematics",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q395",
+        "valueLabel": "mathematics"
+    },
+    {
+        "entity": "Q837863",
+        "entityLabel": "Pure mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q837863",
+        "entityLabel": "Pure mathematics",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q964754",
+        "valueLabel": "basic research"
+    },
+    {
+        "entity": "Q837863",
+        "entityLabel": "Pure mathematics",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q33521",
+        "valueLabel": "applied mathematics"
+    },
+    {
+        "entity": "Q3240104",
+        "entityLabel": "Lists of mathematics topics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q3532100",
+        "entityLabel": "Index of accounting articles",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q3532100",
+        "entityLabel": "Index of accounting articles",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q15138389",
+        "valueLabel": "Wikimedia article page"
+    },
+    {
+        "entity": "Q7112546",
+        "entityLabel": "Outline of algebra",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112547",
+        "entityLabel": "Outline of algebraic structures",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112559",
+        "entityLabel": "Outline of arithmetic",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112574",
+        "entityLabel": "Outline of calculus",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112576",
+        "entityLabel": "Outline of category theory",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q217413",
+        "valueLabel": "category theory"
+    },
+    {
+        "entity": "Q7112576",
+        "entityLabel": "Outline of category theory",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q77544558",
+        "valueLabel": "category theory terminology"
+    },
+    {
+        "entity": "Q7112576",
+        "entityLabel": "Outline of category theory",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q17003192",
+        "entityLabel": "Index of combinatorics articles",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q7112584",
+        "entityLabel": "Outline of combinatorics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q5156019",
+        "entityLabel": "Comparison of vector algebra and geometric algebra",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1720648",
+        "valueLabel": "comparison"
+    },
+    {
+        "entity": "Q6018859",
+        "entityLabel": "Index of cryptography articles",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q15138389",
+        "valueLabel": "Wikimedia article page"
+    },
+    {
+        "entity": "Q6018859",
+        "entityLabel": "Index of cryptography articles",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q1079958",
+        "entityLabel": "Differentiation rules",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q1079958",
+        "entityLabel": "Differentiation rules",
+        "property": "P1754",
+        "propertyLabel": "category related to list",
+        "value": "Q8376438",
+        "valueLabel": "Category:Differentiation rules"
+    },
+    {
+        "entity": "Q1079958",
+        "entityLabel": "Differentiation rules",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q90011163",
+        "valueLabel": "differentiation rule"
+    },
+    {
+        "entity": "Q7112619",
+        "entityLabel": "Outline of discrete mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q7112619",
+        "entityLabel": "Outline of discrete mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q858520",
+        "entityLabel": "Divisibility rule",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q8366",
+        "valueLabel": "algorithm"
+    },
+    {
+        "entity": "Q858520",
+        "entityLabel": "Divisibility rule",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q5284415",
+        "valueLabel": "divisibility"
+    },
+    {
+        "entity": "Q858520",
+        "entityLabel": "Divisibility rule",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q50708",
+        "valueLabel": "divisor"
+    },
+    {
+        "entity": "Q858520",
+        "entityLabel": "Divisibility rule",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q620584",
+        "valueLabel": "mental calculation"
+    },
+    {
+        "entity": "Q2298491",
+        "entityLabel": "Table of divisors",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q496946",
+        "valueLabel": "table"
+    },
+    {
+        "entity": "Q2298491",
+        "entityLabel": "Table of divisors",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q26235059",
+        "valueLabel": "Q26235059"
+    },
+    {
+        "entity": "Q16000120",
+        "entityLabel": "Index of fractal-related articles",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q7112649",
+        "entityLabel": "Outline of geometry",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q5592049",
+        "entityLabel": "Graduate Studies in Mathematics",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q465654",
+        "valueLabel": "American Mathematical Society"
+    },
+    {
+        "entity": "Q5592049",
+        "entityLabel": "Graduate Studies in Mathematics",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q5592049",
+        "entityLabel": "Graduate Studies in Mathematics",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q5592049",
+        "entityLabel": "Graduate Studies in Mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q277759",
+        "valueLabel": "book series"
+    },
+    {
+        "entity": "Q5592049",
+        "entityLabel": "Graduate Studies in Mathematics",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q134985290",
+        "valueLabel": "Toric varieties"
+    },
+    {
+        "entity": "Q3113164",
+        "entityLabel": "Graduate Texts in Mathematics",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q3113164",
+        "entityLabel": "Graduate Texts in Mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q277759",
+        "valueLabel": "book series"
+    },
+    {
+        "entity": "Q3113164",
+        "entityLabel": "Graduate Texts in Mathematics",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q629958",
+        "entityLabel": "Highly composite number",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q50707",
+        "valueLabel": "composite number"
+    },
+    {
+        "entity": "Q629958",
+        "entityLabel": "Highly composite number",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q77358734",
+        "valueLabel": "type of integer"
+    },
+    {
+        "entity": "Q629958",
+        "entityLabel": "Highly composite number",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q28920044",
+        "valueLabel": "positive integer"
+    },
+    {
+        "entity": "Q629958",
+        "entityLabel": "Highly composite number",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2297602",
+        "valueLabel": "integer sequence"
+    },
+    {
+        "entity": "Q6018911",
+        "entityLabel": "Index of information theory articles",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q6018911",
+        "entityLabel": "Index of information theory articles",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q15138389",
+        "valueLabel": "Wikimedia article page"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q215206",
+        "valueLabel": "NP-complete"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q875276",
+        "valueLabel": "boolean satisfiability problem"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q6206757",
+        "valueLabel": "job-shop scheduling"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q110971675",
+        "valueLabel": "Q110971675"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q388260",
+        "valueLabel": "exact cover"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q864457",
+        "valueLabel": "knapsack problem"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q942557",
+        "valueLabel": "maximum cut"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1400918",
+        "valueLabel": "feedback vertex set"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P170",
+        "propertyLabel": "creator",
+        "value": "Q92612",
+        "valueLabel": "Richard M. Karp"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q92612",
+        "valueLabel": "Richard M. Karp"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q987652",
+        "valueLabel": "Hamiltonian path problem"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1400910",
+        "valueLabel": "Feedback arc set"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q61248534",
+        "valueLabel": "Q61248534"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q3879388",
+        "valueLabel": "chromatic number"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q475603",
+        "valueLabel": "set packing"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1192100",
+        "valueLabel": "set cover problem"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q36161",
+        "valueLabel": "set"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1096734",
+        "valueLabel": "clique cover problem"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P2820",
+        "propertyLabel": "cardinality of this set",
+        "value": "Q712477",
+        "valueLabel": "21"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1764144",
+        "valueLabel": "Steiner tree problem"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q339688",
+        "valueLabel": "3-satisfiability problem"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q924362",
+        "valueLabel": "vertex cover problem"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q10866593",
+        "valueLabel": "3-dimensional matching"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1196873",
+        "valueLabel": "clique problem"
+    },
+    {
+        "entity": "Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1065968",
+        "valueLabel": "partition problem"
+    },
+    {
+        "entity": "Q3981612",
+        "entityLabel": "Table of Lie groups",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q217413",
+        "valueLabel": "category theory"
+    },
+    {
+        "entity": "Q3981612",
+        "entityLabel": "Table of Lie groups",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q7112678",
+        "entityLabel": "Outline of logic",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7673219",
+        "entityLabel": "Table of Newtonian series",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q611422",
+        "entityLabel": "Table of prime factors",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q98124957",
+        "entityLabel": "Probability and statistics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4167410",
+        "valueLabel": "Wikimedia disambiguation page"
+    },
+    {
+        "entity": "Q7112738",
+        "entityLabel": "Outline of statistics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112738",
+        "entityLabel": "Outline of statistics",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q12483",
+        "valueLabel": "statistics"
+    },
+    {
+        "entity": "Q47016077",
+        "entityLabel": "Sum of squares",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4167410",
+        "valueLabel": "Wikimedia disambiguation page"
+    },
+    {
+        "entity": "Q15051202",
+        "entityLabel": "Sums of powers",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q218005",
+        "valueLabel": "sum"
+    },
+    {
+        "entity": "Q15051202",
+        "entityLabel": "Sums of powers",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4167410",
+        "valueLabel": "Wikimedia disambiguation page"
+    },
+    {
+        "entity": "Q7673229",
+        "entityLabel": "Table of mathematical symbols by introduction date",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q101588440",
+        "entityLabel": "Tarjan's algorithm",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4167410",
+        "valueLabel": "Wikimedia disambiguation page"
+    },
+    {
+        "entity": "Q7112803",
+        "entityLabel": "Outline of trigonometry",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q7112803",
+        "entityLabel": "Outline of trigonometry",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7885120",
+        "entityLabel": "Uniform tilings in hyperbolic plane",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q7885119",
+        "valueLabel": "uniform tiling"
+    },
+    {
+        "entity": "Q7917817",
+        "entityLabel": "Vector algebra relations",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q7917816",
+        "valueLabel": "vector algebra"
+    },
+    {
+        "entity": "Q7917817",
+        "entityLabel": "Vector algebra relations",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q123411317",
+        "valueLabel": "Euclidean three-dimensional space"
+    },
+    {
+        "entity": "Q1066266",
+        "entityLabel": "Vector calculus identities",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q13637840",
+        "entityLabel": "Index of wave articles",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q13637840",
+        "entityLabel": "Index of wave articles",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q15138389",
+        "valueLabel": "Wikimedia article page"
+    },
+    {
+        "entity": "Q170790",
+        "entityLabel": "Mathematician",
+        "property": "P6186",
+        "propertyLabel": "category for eponymous categories",
+        "value": "Q24043390",
+        "valueLabel": "Category:Wikipedia categories named after mathematicians"
+    },
+    {
+        "entity": "Q30927260",
+        "entityLabel": "Hideki Omori",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q1069994",
+        "valueLabel": "Tokyo University of Science"
+    },
+    {
+        "entity": "Q30927260",
+        "entityLabel": "Hideki Omori",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q17",
+        "valueLabel": "Japan"
+    },
+    {
+        "entity": "Q30927260",
+        "entityLabel": "Hideki Omori",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q7842",
+        "valueLabel": "University of Tokyo"
+    },
+    {
+        "entity": "Q30927260",
+        "entityLabel": "Hideki Omori",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q170790",
+        "valueLabel": "mathematician"
+    },
+    {
+        "entity": "Q30927260",
+        "entityLabel": "Hideki Omori",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q11453677",
+        "valueLabel": "Q11453677"
+    },
+    {
+        "entity": "Q30927260",
+        "entityLabel": "Hideki Omori",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q30927260",
+        "entityLabel": "Hideki Omori",
+        "property": "P3373",
+        "propertyLabel": "sibling",
+        "value": "Q106479177",
+        "valueLabel": "Rei \u014cmori"
+    },
+    {
+        "entity": "Q30927260",
+        "entityLabel": "Hideki Omori",
+        "property": "P3373",
+        "propertyLabel": "sibling",
+        "value": "Q11436368",
+        "valueLabel": "Akemi \u014cmori"
+    },
+    {
+        "entity": "Q30927260",
+        "entityLabel": "Hideki Omori",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q16000509",
+        "entityLabel": "Timeline of women in mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q18340550",
+        "valueLabel": "Wikimedia timeline"
+    },
+    {
+        "entity": "Q16000509",
+        "entityLabel": "Timeline of women in mathematics",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q28464912",
+        "valueLabel": "women in mathematics"
+    },
+    {
+        "entity": "Q17017718",
+        "entityLabel": "Timeline of women in mathematics in the United States",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q28464912",
+        "valueLabel": "women in mathematics"
+    },
+    {
+        "entity": "Q17017718",
+        "entityLabel": "Timeline of women in mathematics in the United States",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q186117",
+        "valueLabel": "timeline"
+    },
+    {
+        "entity": "Q17017718",
+        "entityLabel": "Timeline of women in mathematics in the United States",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q74817647",
+        "valueLabel": "aspect in a geographic region"
+    },
+    {
+        "entity": "Q17017718",
+        "entityLabel": "Timeline of women in mathematics in the United States",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q65922751",
+        "entityLabel": "African Women in Mathematics Association",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q65922751",
+        "entityLabel": "African Women in Mathematics Association",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1451906",
+        "valueLabel": "women's organization"
+    },
+    {
+        "entity": "Q66180621",
+        "entityLabel": "Anne Bennett Prize",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q25536240",
+        "valueLabel": "mathematics award"
+    },
+    {
+        "entity": "Q66180621",
+        "entityLabel": "Anne Bennett Prize",
+        "property": "P1027",
+        "propertyLabel": "conferred by",
+        "value": "Q1810244",
+        "valueLabel": "London Mathematical Society"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q42424811",
+        "valueLabel": "Annie Selden"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q829080",
+        "valueLabel": "professional association"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q395",
+        "valueLabel": "mathematics"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q113453",
+        "valueLabel": "gender equality"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q2836673",
+        "valueLabel": "Alice T. Schafer"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q3296183",
+        "valueLabel": "Mary W. Gray"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q18383",
+        "valueLabel": "Providence"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1451906",
+        "valueLabel": "women's organization"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q35828892",
+        "valueLabel": "Gloria Olive"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q501785",
+        "valueLabel": "Fairfax"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q12897605",
+        "valueLabel": "Talitha Washington"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q28002396",
+        "valueLabel": "Ami Radunskaya"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q1044639",
+        "valueLabel": "Carolyn S. Gordon"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q62991260",
+        "valueLabel": "Kathryn Leonard"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q19664665",
+        "valueLabel": "Jill P. Mesirov"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q6303646",
+        "valueLabel": "Judith Roitman"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q644047",
+        "valueLabel": "Chuu-Lian Terng"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P2388",
+        "propertyLabel": "position held by head of the organization",
+        "value": "Q125358364",
+        "valueLabel": "President of the Association for Women in Mathematics"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q3296183",
+        "valueLabel": "Mary W. Gray"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "4574",
+        "valueLabel": "4574"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q435478",
+        "valueLabel": "Bhama Srinivasan"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q2836673",
+        "valueLabel": "Alice T. Schafer"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q1670327",
+        "valueLabel": "Jean Taylor"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q27730337",
+        "valueLabel": "Cathy Kessel"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q18719167",
+        "valueLabel": "Ruth Charney"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q7661025",
+        "valueLabel": "Sylvia Wiegand"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q49882506",
+        "valueLabel": "Category:Fellows of the Association for Women in Mathematics"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q6438154",
+        "valueLabel": "Kristin Lauter"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q18719252",
+        "valueLabel": "Carol S. Wood"
+    },
+    {
+        "entity": "Q2867685",
+        "entityLabel": "Association for Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q5681931",
+        "valueLabel": "Cora Sadosky"
+    },
+    {
+        "entity": "Q106390668",
+        "entityLabel": "Association for Women in Mathematics Newsletter",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5633421",
+        "valueLabel": "scientific journal"
+    },
+    {
+        "entity": "Q60463384",
+        "entityLabel": "Caucus for Women in Statistics and Data Science",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q12483",
+        "valueLabel": "statistics"
+    },
+    {
+        "entity": "Q60463384",
+        "entityLabel": "Caucus for Women in Statistics and Data Science",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1110684",
+        "valueLabel": "regulatory college"
+    },
+    {
+        "entity": "Q5059921",
+        "entityLabel": "Center for Women in Mathematics",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q85753699",
+        "entityLabel": "Complexities: Women in Mathematics",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q3710564",
+        "valueLabel": "Etta Zuber Falconer"
+    },
+    {
+        "entity": "Q85753699",
+        "entityLabel": "Complexities: Women in Mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3331189",
+        "valueLabel": "version, edition or translation"
+    },
+    {
+        "entity": "Q85753699",
+        "entityLabel": "Complexities: Women in Mathematics",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q56686052",
+        "entityLabel": "European Women in Mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q56686052",
+        "entityLabel": "European Women in Mathematics",
+        "property": "P2124",
+        "propertyLabel": "member count",
+        "value": "500",
+        "valueLabel": "500"
+    },
+    {
+        "entity": "Q56686052",
+        "entityLabel": "European Women in Mathematics",
+        "property": "P463",
+        "propertyLabel": "member of",
+        "value": "Q1376788",
+        "valueLabel": "European Mathematical Society"
+    },
+    {
+        "entity": "Q56686052",
+        "entityLabel": "European Women in Mathematics",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q32320708",
+        "valueLabel": "Carola-Bibiane Sch\u00f6nlieb"
+    },
+    {
+        "entity": "Q56686052",
+        "entityLabel": "European Women in Mathematics",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q33",
+        "valueLabel": "Finland"
+    },
+    {
+        "entity": "Q56686052",
+        "entityLabel": "European Women in Mathematics",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q46",
+        "valueLabel": "Europe"
+    },
+    {
+        "entity": "Q56686052",
+        "entityLabel": "European Women in Mathematics",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q33",
+        "valueLabel": "Finland"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P1454",
+        "propertyLabel": "legal form",
+        "value": "Q111166550",
+        "valueLabel": "declared association"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "3271",
+        "valueLabel": "3271"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q65922694",
+        "valueLabel": "V\u00e9ronique Slovacek-Chauveau"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P452",
+        "propertyLabel": "industry",
+        "value": "Q112166193",
+        "valueLabel": "other voluntary membership organizations (France)"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q65922707",
+        "valueLabel": "Christine Charretton"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q65922712",
+        "valueLabel": "Julianne Unterberger"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q65922731",
+        "valueLabel": "Fran\u00e7oise Delon"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q65922684",
+        "valueLabel": "V\u00e9ronique Lizan"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q1050970",
+        "valueLabel": "Catherine Goldstein"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q6529413",
+        "valueLabel": "Sylvie Paycha"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q27517882",
+        "valueLabel": "Colette Guillop\u00e9"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q1116827",
+        "valueLabel": "Marie-Fran\u00e7oise Roy"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q142",
+        "valueLabel": "France"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q59160128",
+        "valueLabel": "Laurence Broze"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q65922678",
+        "valueLabel": "Anne Boy\u00e9"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q955824",
+        "valueLabel": "learned society"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P2828",
+        "propertyLabel": "corporate officer",
+        "value": "Q59160128",
+        "valueLabel": "Laurence Broze"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q540946",
+        "valueLabel": "Mich\u00e8le Audin"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "3689",
+        "valueLabel": "3689"
+    },
+    {
+        "entity": "Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques",
+        "property": "P452",
+        "propertyLabel": "industry",
+        "value": "Q136822",
+        "valueLabel": "higher education"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q20752077",
+        "valueLabel": "Mckenna Grace"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P58",
+        "propertyLabel": "screenwriter",
+        "value": "Q7815818",
+        "valueLabel": "Tom Flynn"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q130232",
+        "valueLabel": "drama film"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q594738",
+        "valueLabel": "Glenn E. Plummer"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P86",
+        "propertyLabel": "composer",
+        "value": "Q7340551",
+        "valueLabel": "Rob Simonsen"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11424",
+        "valueLabel": "film"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P57",
+        "propertyLabel": "director",
+        "value": "Q357998",
+        "valueLabel": "Marc Webb"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q1738023",
+        "valueLabel": "Keir O'Donnell"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q529478",
+        "valueLabel": "Julie Ann Emery"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q229254",
+        "valueLabel": "Octavia Spencer"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q744166",
+        "valueLabel": "Jenny Slate"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q76877",
+        "valueLabel": "Elizabeth Marvel"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q178348",
+        "valueLabel": "Chris Evans"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P162",
+        "propertyLabel": "producer",
+        "value": "Q2014922",
+        "valueLabel": "Andy Cohen"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q1700919",
+        "valueLabel": "John M. Jackson"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q30001834",
+        "valueLabel": "Percy Hynes White"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q242504",
+        "valueLabel": "Lindsay Duncan"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q1700068",
+        "valueLabel": "John Finn"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q18170033",
+        "valueLabel": "The Gifted"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P3428",
+        "propertyLabel": "INCAA film rating",
+        "value": "Q27925240",
+        "valueLabel": "+13"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P272",
+        "propertyLabel": "production company",
+        "value": "Q953040",
+        "valueLabel": "Searchlight Pictures"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P437",
+        "propertyLabel": "distribution format",
+        "value": "Q723685",
+        "valueLabel": "video on demand"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P2684",
+        "propertyLabel": "Kijkwijzer rating",
+        "value": "Q23649980",
+        "valueLabel": "AL"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P1657",
+        "propertyLabel": "MPA film rating",
+        "value": "Q18665339",
+        "valueLabel": "PG-13"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q467677",
+        "valueLabel": "intellectual giftedness"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P2684",
+        "propertyLabel": "Kijkwijzer rating",
+        "value": "Q23649981",
+        "valueLabel": "6"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P5021",
+        "propertyLabel": "assessment",
+        "value": "Q4165246",
+        "valueLabel": "Bechdel test"
+    },
+    {
+        "entity": "Q21527677",
+        "entityLabel": "Gifted (2017 film)",
+        "property": "P1040",
+        "propertyLabel": "film editor",
+        "value": "Q4910422",
+        "valueLabel": "Bill Pankow"
+    },
+    {
+        "entity": "Q5592054",
+        "entityLabel": "Graduate Women in Science",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q484652",
+        "valueLabel": "international organization"
+    },
+    {
+        "entity": "Q5592054",
+        "entityLabel": "Graduate Women in Science",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "2549",
+        "valueLabel": "2549"
+    },
+    {
+        "entity": "Q5592054",
+        "entityLabel": "Graduate Women in Science",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1451906",
+        "valueLabel": "women's organization"
+    },
+    {
+        "entity": "Q5592054",
+        "entityLabel": "Graduate Women in Science",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q5592054",
+        "entityLabel": "Graduate Women in Science",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q18325436",
+        "valueLabel": "501(c)(3) organization"
+    },
+    {
+        "entity": "Q5592054",
+        "entityLabel": "Graduate Women in Science",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "2245",
+        "valueLabel": "2245"
+    },
+    {
+        "entity": "Q5592054",
+        "entityLabel": "Graduate Women in Science",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q36091",
+        "valueLabel": "Minneapolis"
+    },
+    {
+        "entity": "Q23755544",
+        "entityLabel": "Hidden Figures",
+        "property": "P6658",
+        "propertyLabel": "RCQ classification",
+        "value": "Q62365366",
+        "valueLabel": "G"
+    },
+    {
+        "entity": "Q23755544",
+        "entityLabel": "Hidden Figures",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "24267",
+        "valueLabel": "24267"
+    },
+    {
+        "entity": "Q23755544",
+        "entityLabel": "Hidden Figures",
+        "property": "P5970",
+        "propertyLabel": "Medier\u00e5det rating",
+        "value": "Q56887384",
+        "valueLabel": "Suitable for a general audience"
+    },
+    {
+        "entity": "Q23755544",
+        "entityLabel": "Hidden Figures",
+        "property": "P5021",
+        "propertyLabel": "assessment",
+        "value": "Q4165246",
+        "valueLabel": "Bechdel test"
+    },
+    {
+        "entity": "Q23755544",
+        "entityLabel": "Hidden Figures",
+        "property": "P5021",
+        "propertyLabel": "assessment",
+        "value": "Q85783379",
+        "valueLabel": "Mako Mori test"
+    },
+    {
+        "entity": "Q23755544",
+        "entityLabel": "Hidden Figures",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "22680",
+        "valueLabel": "22680"
+    },
+    {
+        "entity": "Q23755544",
+        "entityLabel": "Hidden Figures",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "21619",
+        "valueLabel": "21619"
+    },
+    {
+        "entity": "Q23755544",
+        "entityLabel": "Hidden Figures",
+        "property": "P5021",
+        "propertyLabel": "assessment",
+        "value": "Q104144087",
+        "valueLabel": "Waithe Test"
+    },
+    {
+        "entity": "Q23755544",
+        "entityLabel": "Hidden Figures",
+        "property": "P7573",
+        "propertyLabel": "IFCO rating",
+        "value": "Q74434526",
+        "valueLabel": "PG"
+    },
+    {
+        "entity": "Q23755544",
+        "entityLabel": "Hidden Figures",
+        "property": "P5021",
+        "propertyLabel": "assessment",
+        "value": "Q104144947",
+        "valueLabel": "Landau Test"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q213051",
+        "valueLabel": "non-fiction"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7725634",
+        "valueLabel": "literary work"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q25999554",
+        "valueLabel": "Margot Lee Shetterly"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q8015856",
+        "valueLabel": "William Morrow and Company"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P747",
+        "propertyLabel": "has edition or translation",
+        "value": "Q126733538",
+        "valueLabel": "Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who Helped Win the Space Race"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1325447",
+        "valueLabel": "non-fiction novel"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q27221300",
+        "valueLabel": "Mary Jackson"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q16105897",
+        "valueLabel": "Christine Darden"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q1932",
+        "valueLabel": "space race"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q22915129",
+        "valueLabel": "Dorothy Vaughan"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q28464912",
+        "valueLabel": "women in mathematics"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P4969",
+        "propertyLabel": "derivative work",
+        "value": "Q65091375",
+        "valueLabel": "Hidden Figures"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P4969",
+        "propertyLabel": "derivative work",
+        "value": "Q23755544",
+        "valueLabel": "Hidden Figures"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q52162",
+        "valueLabel": "Project Mercury"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q11740",
+        "valueLabel": "Katherine Johnson"
+    },
+    {
+        "entity": "Q28464870",
+        "entityLabel": "Hidden Figures (book)",
+        "property": "P840",
+        "propertyLabel": "narrative location",
+        "value": "Q812",
+        "valueLabel": "Florida"
+    },
+    {
+        "entity": "Q134451113",
+        "entityLabel": "International Women in Mathematics Day",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2558684",
+        "valueLabel": "world day"
+    },
+    {
+        "entity": "Q1354618",
+        "entityLabel": "Krieger\u2013Nelson Prize",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11448906",
+        "valueLabel": "science award"
+    },
+    {
+        "entity": "Q1354618",
+        "entityLabel": "Krieger\u2013Nelson Prize",
+        "property": "P2517",
+        "propertyLabel": "category for recipients of this award",
+        "value": "Q48687236",
+        "valueLabel": "Category:Laureates of the Krieger\u2013Nelson Prize"
+    },
+    {
+        "entity": "Q1354618",
+        "entityLabel": "Krieger\u2013Nelson Prize",
+        "property": "P1027",
+        "propertyLabel": "conferred by",
+        "value": "Q1032210",
+        "valueLabel": "Canadian Mathematical Society"
+    },
+    {
+        "entity": "Q1354618",
+        "entityLabel": "Krieger\u2013Nelson Prize",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q38888551",
+        "valueLabel": "award honoring women"
+    },
+    {
+        "entity": "Q1354618",
+        "entityLabel": "Krieger\u2013Nelson Prize",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q2943725",
+        "valueLabel": "Cecilia Krieger"
+    },
+    {
+        "entity": "Q1354618",
+        "entityLabel": "Krieger\u2013Nelson Prize",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q16",
+        "valueLabel": "Canada"
+    },
+    {
+        "entity": "Q1354618",
+        "entityLabel": "Krieger\u2013Nelson Prize",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q618779",
+        "valueLabel": "award"
+    },
+    {
+        "entity": "Q1354618",
+        "entityLabel": "Krieger\u2013Nelson Prize",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q3740765",
+        "valueLabel": "Evelyn Nelson"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q450277",
+        "valueLabel": "Raman Parimala"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q450226",
+        "valueLabel": "Fan Chung"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q2368914",
+        "valueLabel": "Susan Montgomery"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q1500025",
+        "valueLabel": "Alexandra Bellow"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q1440827",
+        "valueLabel": "Sun-Yung Alice Chang"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q450308",
+        "valueLabel": "Joan Birman"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q1825887",
+        "valueLabel": "Linda Preiss Rothschild"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q807504",
+        "valueLabel": "Barbara Keyfitz"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q1711020",
+        "valueLabel": "Judith D. Sally"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P2517",
+        "propertyLabel": "category for recipients of this award",
+        "value": "Q41799101",
+        "valueLabel": "Category:Noether lecture recipients"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q457680",
+        "valueLabel": "Olga Arsenievna Oleinik"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q435958",
+        "valueLabel": "Mary Wheeler"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q516854",
+        "valueLabel": "Nancy Kopell"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q93004",
+        "valueLabel": "Lenore Blum"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q1044639",
+        "valueLabel": "Carolyn S. Gordon"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q38636",
+        "valueLabel": "Karen Keskulla Uhlenbeck"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q435478",
+        "valueLabel": "Bhama Srinivasan"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q450283",
+        "valueLabel": "Linda Keen"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q1682585",
+        "valueLabel": "Jane Cronin Scanlon"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q16494",
+        "valueLabel": "Margaret H. Wright"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q450373",
+        "valueLabel": "Dusa McDuff"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q1670327",
+        "valueLabel": "Jean Taylor"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q468042",
+        "valueLabel": "Jessie MacWilliams"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q113741",
+        "valueLabel": "Olga Taussky-Todd"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q2371787",
+        "valueLabel": "Svetlana Katok"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q1285477",
+        "valueLabel": "Lesley Sibner"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q1663729",
+        "valueLabel": "Lai-Sang Young"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q275604",
+        "valueLabel": "Ingrid Daubechies"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q8025658",
+        "valueLabel": "Winnie Li"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q450393",
+        "valueLabel": "Krystyna Kuperberg"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q21358050",
+        "valueLabel": "lecture series"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q1729283",
+        "valueLabel": "Karen Vogtmann"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q759022",
+        "valueLabel": "Audrey Terras"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q452116",
+        "valueLabel": "Julia Hall Bowman Robinson"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q450331",
+        "valueLabel": "Cathleen Synge Morawetz"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q461112",
+        "valueLabel": "Yvonne Choquet-Bruhat"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q450235",
+        "valueLabel": "Mary Ellen Rudin"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P1346",
+        "propertyLabel": "winner",
+        "value": "Q16971463",
+        "valueLabel": "Georgia Benkart"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17084656",
+        "valueLabel": "named lecture"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q7099",
+        "valueLabel": "Emmy Noether"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q25536240",
+        "valueLabel": "mathematics award"
+    },
+    {
+        "entity": "Q839260",
+        "entityLabel": "Noether Lecture",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q96399440",
+        "entityLabel": "Pioneering Women in American Mathematics",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q43384727",
+        "valueLabel": "Judy Green"
+    },
+    {
+        "entity": "Q96399440",
+        "entityLabel": "Pioneering Women in American Mathematics",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q42892712",
+        "valueLabel": "Jeanne LaDuke"
+    },
+    {
+        "entity": "Q96399440",
+        "entityLabel": "Pioneering Women in American Mathematics",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q28464912",
+        "valueLabel": "women in mathematics"
+    },
+    {
+        "entity": "Q96399440",
+        "entityLabel": "Pioneering Women in American Mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q47461344",
+        "valueLabel": "written work"
+    },
+    {
+        "entity": "Q96399440",
+        "entityLabel": "Pioneering Women in American Mathematics",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q91098730",
+        "entityLabel": "Power in Numbers: The Rebel Women of Mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q91098730",
+        "entityLabel": "Power in Numbers: The Rebel Women of Mathematics",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q23729163",
+        "valueLabel": "Talithia Williams"
+    },
+    {
+        "entity": "Q91098730",
+        "entityLabel": "Power in Numbers: The Rebel Women of Mathematics",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q170790",
+        "valueLabel": "mathematician"
+    },
+    {
+        "entity": "Q91098730",
+        "entityLabel": "Power in Numbers: The Rebel Women of Mathematics",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q467",
+        "valueLabel": "woman"
+    },
+    {
+        "entity": "Q91098730",
+        "entityLabel": "Power in Numbers: The Rebel Women of Mathematics",
+        "property": "P1104",
+        "propertyLabel": "number of pages",
+        "value": "224",
+        "valueLabel": "224"
+    },
+    {
+        "entity": "Q2177698",
+        "entityLabel": "Ruth Lyttle Satter Prize in Mathematics",
+        "property": "P1027",
+        "propertyLabel": "conferred by",
+        "value": "Q465654",
+        "valueLabel": "American Mathematical Society"
+    },
+    {
+        "entity": "Q2177698",
+        "entityLabel": "Ruth Lyttle Satter Prize in Mathematics",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q87190208",
+        "valueLabel": "Template:Ruth Lyttle Satter Prize in Mathematics recipients"
+    },
+    {
+        "entity": "Q2177698",
+        "entityLabel": "Ruth Lyttle Satter Prize in Mathematics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q25536240",
+        "valueLabel": "mathematics award"
+    },
+    {
+        "entity": "Q2177698",
+        "entityLabel": "Ruth Lyttle Satter Prize in Mathematics",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q7383095",
+        "valueLabel": "Ruth Lyttle Satter"
+    },
+    {
+        "entity": "Q2177698",
+        "entityLabel": "Ruth Lyttle Satter Prize in Mathematics",
+        "property": "P2517",
+        "propertyLabel": "category for recipients of this award",
+        "value": "Q48687336",
+        "valueLabel": "Category:Ruth Lyttle Satter Prize in Mathematics recipients"
+    },
+    {
+        "entity": "Q2177698",
+        "entityLabel": "Ruth Lyttle Satter Prize in Mathematics",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q450308",
+        "valueLabel": "Joan Birman"
+    },
+    {
+        "entity": "Q2177698",
+        "entityLabel": "Ruth Lyttle Satter Prize in Mathematics",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q38888551",
+        "valueLabel": "award honoring women"
+    },
+    {
+        "entity": "Q96415483",
+        "entityLabel": "Women in Mathematics (book)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q96415483",
+        "entityLabel": "Women in Mathematics (book)",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q28464912",
+        "valueLabel": "women in mathematics"
+    },
+    {
+        "entity": "Q96415483",
+        "entityLabel": "Women in Mathematics (book)",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q6693003",
+        "entityLabel": "Women in STEM",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q16334295",
+        "valueLabel": "group of humans"
+    },
+    {
+        "entity": "Q6693003",
+        "entityLabel": "Women in STEM",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q107243694",
+        "valueLabel": "female topic"
+    },
+    {
+        "entity": "Q6693003",
+        "entityLabel": "Women in STEM",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q16934342",
+        "valueLabel": "occupational segregation"
+    },
+    {
+        "entity": "Q6693003",
+        "entityLabel": "Women in STEM",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q1881523",
+        "valueLabel": "science, technology, engineering, and mathematics"
+    },
+    {
+        "entity": "Q120336527",
+        "entityLabel": "Fermat Kitchen",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q21198342",
+        "valueLabel": "manga series"
+    },
+    {
+        "entity": "Q120336527",
+        "entityLabel": "Fermat Kitchen",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q17",
+        "valueLabel": "Japan"
+    },
+    {
+        "entity": "Q120336527",
+        "entityLabel": "Fermat Kitchen",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q5287",
+        "valueLabel": "Japanese"
+    },
+    {
+        "entity": "Q120336527",
+        "entityLabel": "Fermat Kitchen",
+        "property": "P1433",
+        "propertyLabel": "published in",
+        "value": "Q909935",
+        "valueLabel": "Monthly Sh\u014dnen Magazine"
+    },
+    {
+        "entity": "Q120336527",
+        "entityLabel": "Fermat Kitchen",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q11632207",
+        "valueLabel": "Kodansha Comics"
+    },
+    {
+        "entity": "Q120336527",
+        "entityLabel": "Fermat Kitchen",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q47465101",
+        "valueLabel": "Yugo Kobayashi"
+    },
+    {
+        "entity": "Q120336527",
+        "entityLabel": "Fermat Kitchen",
+        "property": "P110",
+        "propertyLabel": "illustrator",
+        "value": "Q47465101",
+        "valueLabel": "Yugo Kobayashi"
+    },
+    {
+        "entity": "Q120336527",
+        "entityLabel": "Fermat Kitchen",
+        "property": "P2360",
+        "propertyLabel": "intended public",
+        "value": "Q231302",
+        "valueLabel": "sh\u014dnen"
+    },
+    {
+        "entity": "Q120336527",
+        "entityLabel": "Fermat Kitchen",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q11080558",
+        "valueLabel": "cooking manga"
+    },
+    {
+        "entity": "Q120336527",
+        "entityLabel": "Fermat Kitchen",
+        "property": "P4969",
+        "propertyLabel": "derivative work",
+        "value": "Q123308564",
+        "valueLabel": "Fermat no Ry\u014dri"
+    },
+    {
+        "entity": "Q120336527",
+        "entityLabel": "Fermat Kitchen",
+        "property": "P4969",
+        "propertyLabel": "derivative work",
+        "value": "Q131567232",
+        "valueLabel": "Fermat no Ry\u014dri"
+    },
+    {
+        "entity": "Q120336527",
+        "entityLabel": "Fermat Kitchen",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q132469",
+        "valueLabel": "Fermat's Last Theorem"
+    },
+    {
+        "entity": "Q56349478",
+        "entityLabel": "Science Fell in Love, So I Tried to Prove It",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q108776782",
+        "valueLabel": "Arihred Yamamoto"
+    },
+    {
+        "entity": "Q56349478",
+        "entityLabel": "Science Fell in Love, So I Tried to Prove It",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q21198342",
+        "valueLabel": "manga series"
+    },
+    {
+        "entity": "Q56349478",
+        "entityLabel": "Science Fell in Love, So I Tried to Prove It",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q17",
+        "valueLabel": "Japan"
+    },
+    {
+        "entity": "Q56349478",
+        "entityLabel": "Science Fell in Love, So I Tried to Prove It",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q5287",
+        "valueLabel": "Japanese"
+    },
+    {
+        "entity": "Q56349478",
+        "entityLabel": "Science Fell in Love, So I Tried to Prove It",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q15712145",
+        "valueLabel": "romantic comedy anime and manga"
+    },
+    {
+        "entity": "Q56349478",
+        "entityLabel": "Science Fell in Love, So I Tried to Prove It",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q115752012",
+        "valueLabel": "Meteor Comics"
+    },
+    {
+        "entity": "Q56349478",
+        "entityLabel": "Science Fell in Love, So I Tried to Prove It",
+        "property": "P4969",
+        "propertyLabel": "derivative work",
+        "value": "Q110459264",
+        "valueLabel": "Science Fell in Love, So I Tried to Prove It"
+    },
+    {
+        "entity": "Q56349478",
+        "entityLabel": "Science Fell in Love, So I Tried to Prove It",
+        "property": "P2360",
+        "propertyLabel": "intended public",
+        "value": "Q237338",
+        "valueLabel": "seinen"
+    },
+    {
+        "entity": "Q56349478",
+        "entityLabel": "Science Fell in Love, So I Tried to Prove It",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q114008531",
+        "valueLabel": "Q114008531"
+    },
+    {
+        "entity": "Q133049333",
+        "entityLabel": "S\u016bgaku Golden",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q21198342",
+        "valueLabel": "manga series"
+    },
+    {
+        "entity": "Q133049333",
+        "entityLabel": "S\u016bgaku Golden",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q17",
+        "valueLabel": "Japan"
+    },
+    {
+        "entity": "Q133049333",
+        "entityLabel": "S\u016bgaku Golden",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q5287",
+        "valueLabel": "Japanese"
+    },
+    {
+        "entity": "Q133049333",
+        "entityLabel": "S\u016bgaku Golden",
+        "property": "P1433",
+        "propertyLabel": "published in",
+        "value": "Q85874321",
+        "valueLabel": "Young Animal Zero"
+    },
+    {
+        "entity": "Q133049333",
+        "entityLabel": "S\u016bgaku Golden",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q130315908",
+        "valueLabel": "Young Animal Comics"
+    },
+    {
+        "entity": "Q133049333",
+        "entityLabel": "S\u016bgaku Golden",
+        "property": "P2360",
+        "propertyLabel": "intended public",
+        "value": "Q237338",
+        "valueLabel": "seinen"
+    },
+    {
+        "entity": "Q102244116",
+        "entityLabel": "S\u016bji de Asobo",
+        "property": "P2360",
+        "propertyLabel": "intended public",
+        "value": "Q503106",
+        "valueLabel": "josei"
+    },
+    {
+        "entity": "Q102244116",
+        "entityLabel": "S\u016bji de Asobo",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q5287",
+        "valueLabel": "Japanese"
+    },
+    {
+        "entity": "Q102244116",
+        "entityLabel": "S\u016bji de Asobo",
+        "property": "P1433",
+        "propertyLabel": "published in",
+        "value": "Q115996",
+        "valueLabel": "Flowers"
+    },
+    {
+        "entity": "Q102244116",
+        "entityLabel": "S\u016bji de Asobo",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q17",
+        "valueLabel": "Japan"
+    },
+    {
+        "entity": "Q102244116",
+        "entityLabel": "S\u016bji de Asobo",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q11606990",
+        "valueLabel": "Murako Kinuta"
+    },
+    {
+        "entity": "Q102244116",
+        "entityLabel": "S\u016bji de Asobo",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q21198342",
+        "valueLabel": "manga series"
+    },
+    {
+        "entity": "Q122658686",
+        "entityLabel": "Trisatika",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q2315324",
+        "valueLabel": "Sridhara"
+    },
+    {
+        "entity": "Q122658686",
+        "entityLabel": "Trisatika",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q47461344",
+        "valueLabel": "written work"
+    },
+    {
+        "entity": "Q2864650",
+        "entityLabel": "Mathematics and art",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9214911",
+        "valueLabel": "Category:Mathematics and art"
+    },
+    {
+        "entity": "Q2864650",
+        "entityLabel": "Mathematics and art",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q930933",
+        "valueLabel": "relation"
+    },
+    {
+        "entity": "Q2864650",
+        "entityLabel": "Mathematics and art",
+        "property": "P2354",
+        "propertyLabel": "has list",
+        "value": "Q20716090",
+        "valueLabel": "list of mathematical artists"
+    },
+    {
+        "entity": "Q217422",
+        "entityLabel": "Anamorphosis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q217422",
+        "entityLabel": "Anamorphosis",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q478798",
+        "valueLabel": "image"
+    },
+    {
+        "entity": "Q217422",
+        "entityLabel": "Anamorphosis",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q29457028",
+        "valueLabel": "projection"
+    },
+    {
+        "entity": "Q217422",
+        "entityLabel": "Anamorphosis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q217422",
+        "entityLabel": "Anamorphosis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4532135",
+        "valueLabel": "Encyclopedic Lexicon"
+    },
+    {
+        "entity": "Q217422",
+        "entityLabel": "Anamorphosis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q131308011",
+        "valueLabel": "Q131308011"
+    },
+    {
+        "entity": "Q102166223",
+        "entityLabel": "Sarah-marie belcastro",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q102166223",
+        "entityLabel": "Sarah-marie belcastro",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q119411672",
+        "valueLabel": "Q119411672"
+    },
+    {
+        "entity": "Q102166223",
+        "entityLabel": "Sarah-marie belcastro",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q36922554",
+        "valueLabel": "Belcastro"
+    },
+    {
+        "entity": "Q102166223",
+        "entityLabel": "Sarah-marie belcastro",
+        "property": "P184",
+        "propertyLabel": "doctoral advisor",
+        "value": "Q339333",
+        "valueLabel": "Igor Dolgachev"
+    },
+    {
+        "entity": "Q102166223",
+        "entityLabel": "Sarah-marie belcastro",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q230492",
+        "valueLabel": "University of Michigan"
+    },
+    {
+        "entity": "Q102166223",
+        "entityLabel": "Sarah-marie belcastro",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q10694573",
+        "valueLabel": "textile artist"
+    },
+    {
+        "entity": "Q102166223",
+        "entityLabel": "Sarah-marie belcastro",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q16552",
+        "valueLabel": "San Diego"
+    },
+    {
+        "entity": "Q102166223",
+        "entityLabel": "Sarah-marie belcastro",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q170790",
+        "valueLabel": "mathematician"
+    },
+    {
+        "entity": "Q102166223",
+        "entityLabel": "Sarah-marie belcastro",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581072",
+        "valueLabel": "female"
+    },
+    {
+        "entity": "Q102166223",
+        "entityLabel": "Sarah-marie belcastro",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q102166223",
+        "entityLabel": "Sarah-marie belcastro",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q21015638",
+        "entityLabel": "The Bridges Organization",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q21015638",
+        "entityLabel": "The Bridges Organization",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q1558",
+        "valueLabel": "Kansas"
+    },
+    {
+        "entity": "Q108444570",
+        "entityLabel": "Equals Pi",
+        "property": "P170",
+        "propertyLabel": "creator",
+        "value": "Q155407",
+        "valueLabel": "Jean-Michel Basquiat"
+    },
+    {
+        "entity": "Q108444570",
+        "entityLabel": "Equals Pi",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3305213",
+        "valueLabel": "painting"
+    },
+    {
+        "entity": "Q108444570",
+        "entityLabel": "Equals Pi",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q589655",
+        "valueLabel": "neo-expressionism"
+    },
+    {
+        "entity": "Q19787195",
+        "entityLabel": "European Society for Mathematics and the Arts",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q112667618",
+        "valueLabel": "mathematical society"
+    },
+    {
+        "entity": "Q3413630",
+        "entityLabel": "Fourth dimension in art",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1792379",
+        "valueLabel": "art genre"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1321926",
+        "valueLabel": "constructible number"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4971764",
+        "valueLabel": "Brjuno number"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q607728",
+        "valueLabel": "irrational number"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q186509",
+        "valueLabel": "mathematical constant"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q168817",
+        "valueLabel": "algebraic number"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11634820",
+        "valueLabel": "metallic ratio"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q9393496",
+        "valueLabel": "Q9393496"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737635",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 8"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q3535118",
+        "valueLabel": "mathematics and architecture"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q2864650",
+        "valueLabel": "mathematics and art"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4532138",
+        "valueLabel": "Granat Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q121911124",
+        "valueLabel": "Golden ratio in art"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7453800",
+        "valueLabel": "Category:Golden ratio"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P1181",
+        "propertyLabel": "numeric value",
+        "value": "1.6180339887498948482045868343656381177203091798057628621354486227052604628189024497072072041893911374847540880753868917521266",
+        "valueLabel": "1.6180339887498948482045868343656381177203091798057628621354486227052604628189024497072072041893911374847540880753868917521266"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P913",
+        "propertyLabel": "notation",
+        "value": "Q10029",
+        "valueLabel": "\u03a6/\u03c6"
+    },
+    {
+        "entity": "Q41690",
+        "entityLabel": "Golden ratio",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q6295505",
+        "entityLabel": "Journal of Mathematics and the Arts",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q395",
+        "valueLabel": "mathematics"
+    },
+    {
+        "entity": "Q6295505",
+        "entityLabel": "Journal of Mathematics and the Arts",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1002697",
+        "valueLabel": "periodical"
+    },
+    {
+        "entity": "Q6295505",
+        "entityLabel": "Journal of Mathematics and the Arts",
+        "property": "P8875",
+        "propertyLabel": "indexed in bibliographic review",
+        "value": "Q371467",
+        "valueLabel": "Scopus"
+    },
+    {
+        "entity": "Q6295505",
+        "entityLabel": "Journal of Mathematics and the Arts",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q145",
+        "valueLabel": "United Kingdom"
+    },
+    {
+        "entity": "Q6295505",
+        "entityLabel": "Journal of Mathematics and the Arts",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q880582",
+        "valueLabel": "Taylor & Francis"
+    },
+    {
+        "entity": "Q6295505",
+        "entityLabel": "Journal of Mathematics and the Arts",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q125293606",
+        "entityLabel": "M. C. Escher: Visions of Symmetry",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7725634",
+        "valueLabel": "literary work"
+    },
+    {
+        "entity": "Q125293606",
+        "entityLabel": "M. C. Escher: Visions of Symmetry",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q1245317",
+        "valueLabel": "Doris Schattschneider"
+    },
+    {
+        "entity": "Q125293606",
+        "entityLabel": "M. C. Escher: Visions of Symmetry",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q96391603",
+        "entityLabel": "Making Mathematics with Needlework",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7725634",
+        "valueLabel": "literary work"
+    },
+    {
+        "entity": "Q96391603",
+        "entityLabel": "Making Mathematics with Needlework",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q112702121",
+        "entityLabel": "Mathemalchemy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q2248521",
+        "entityLabel": "Mathematical beauty",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q1207152",
+        "valueLabel": "elegance"
+    },
+    {
+        "entity": "Q2248521",
+        "entityLabel": "Mathematical beauty",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q395",
+        "valueLabel": "mathematics"
+    },
+    {
+        "entity": "Q2248521",
+        "entityLabel": "Mathematical beauty",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q7242",
+        "valueLabel": "beauty"
+    },
+    {
+        "entity": "Q3299105",
+        "entityLabel": "Mathematics of paper folding",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q83357",
+        "valueLabel": "origami"
+    },
+    {
+        "entity": "Q3299105",
+        "entityLabel": "Mathematics of paper folding",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q95681901",
+        "valueLabel": "Template:Mathematics of paper folding"
+    },
+    {
+        "entity": "Q3299105",
+        "entityLabel": "Mathematics of paper folding",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q395",
+        "valueLabel": "mathematics"
+    },
+    {
+        "entity": "Q2237415",
+        "entityLabel": "Music and mathematics",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q193544",
+        "valueLabel": "music theory"
+    },
+    {
+        "entity": "Q2237415",
+        "entityLabel": "Music and mathematics",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2864650",
+        "valueLabel": "mathematics and art"
+    },
+    {
+        "entity": "Q2237415",
+        "entityLabel": "Music and mathematics",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8612088",
+        "valueLabel": "Category:Mathematics of music"
+    },
+    {
+        "entity": "Q2987018",
+        "entityLabel": "A New Kind of Science",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q1367937",
+        "valueLabel": "Wolfram Research"
+    },
+    {
+        "entity": "Q2987018",
+        "entityLabel": "A New Kind of Science",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "65698",
+        "valueLabel": "65698"
+    },
+    {
+        "entity": "Q2987018",
+        "entityLabel": "A New Kind of Science",
+        "property": "P747",
+        "propertyLabel": "has edition or translation",
+        "value": "Q60413467",
+        "valueLabel": "A New Kind of Science"
+    },
+    {
+        "entity": "Q2987018",
+        "entityLabel": "A New Kind of Science",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q854457",
+        "valueLabel": "complex system"
+    },
+    {
+        "entity": "Q2987018",
+        "entityLabel": "A New Kind of Science",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q2987018",
+        "entityLabel": "A New Kind of Science",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q47461344",
+        "valueLabel": "written work"
+    },
+    {
+        "entity": "Q2987018",
+        "entityLabel": "A New Kind of Science",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "85861",
+        "valueLabel": "85861"
+    },
+    {
+        "entity": "Q2987018",
+        "entityLabel": "A New Kind of Science",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q310798",
+        "valueLabel": "Stephen Wolfram"
+    },
+    {
+        "entity": "Q2987018",
+        "entityLabel": "A New Kind of Science",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q2987018",
+        "entityLabel": "A New Kind of Science",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "99538",
+        "valueLabel": "99538"
+    },
+    {
+        "entity": "Q2987018",
+        "entityLabel": "A New Kind of Science",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q213051",
+        "valueLabel": "non-fiction"
+    },
+    {
+        "entity": "Q2987018",
+        "entityLabel": "A New Kind of Science",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "74298",
+        "valueLabel": "74298"
+    }
+]

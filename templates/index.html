@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omnibench-RAG - AI Model Evaluation System</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #3b82f6;
+            --color-secondary: #1e40af;
+            --color-success: #10b981;
+            --color-warning: #f59e0b;
+            --color-error: #ef4444;
+            --color-info: #06b6d4;
+            --font-inter: 'Inter', sans-serif;
+        }
+        
+        @utility card-shadow {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+        }
+        
+        @utility card-shadow-hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <style>
+        body {
+            font-family: var(--font-inter);
+            background-color: #f8fafc;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+        }
+        
+        .evaluation-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .evaluation-card:hover {
+            transform: translateY(-5px);
+            box-shadow: card-shadow-hover;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Navigation bar -->
+    <header class="bg-primary text-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <nav class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <i class="fas fa-balance-scale text-2xl mr-2"></i>
+                    <h1 class="text-xl md:text-2xl font-bold">Omnibench-RAG</h1>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#" class="hover:text-gray-200 transition-colors">Home</a>
+                    
+                </div>
+                <button class="md:hidden text-white text-xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content area -->
+    <section class="hero-gradient text-white rounded-2xl p-8 mb-12 shadow-lg">
+    <div class="max-w-3xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">Omnibench-RAG</h2>
+    <p class="text-lg md:text-xl opacity-90">
+    A comprehensive platform for evaluating large language models across domains—assess accuracy, efficiency, and RAG-enhanced performance using existing or uploaded data.
+    </p>
+    <p class="text-base md:text-lg mt-4 opacity-80">
+    More evaluation capabilities in development to empower deeper model optimization.
+    </p>
+    </div>
+    </section>
+
+        <!-- Evaluation type selection -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <!-- Basic  evaluation card -->
+            <div class="evaluation-card bg-white rounded-xl card-shadow p-6 border-t-4 border-primary">
+                <div class="flex items-center mb-4">
+                    <div class="bg-primary/10 p-3 rounded-lg mr-4">
+                        <i class="fas fa-brain text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary">Basic Evaluation</h3>
+                </div>
+                <p class="text-gray-600 mb-6">
+                    Evaluate the accuracy and efficiency of the basic model without retrieval enhancement. Test the model's native knowledge and reasoning ability.
+                </p>
+                <a href="basic_evaluation.html" class="inline-block bg-primary hover:bg-secondary text-white font-medium py-2 px-6 rounded-lg transition-colors">
+                    <i class="fas fa-play-circle mr-2"></i>Start Evaluation
+                </a>
+            </div>
+
+            <!-- RAG evaluation card -->
+            <div class="evaluation-card bg-white rounded-xl card-shadow p-6 border-t-4 border-success">
+                <div class="flex items-center mb-4">
+                    <div class="bg-success/10 p-3 rounded-lg mr-4">
+                        <i class="fas fa-search-plus text-success text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary">RAG Evaluation</h3>
+                </div>
+                <p class="text-gray-600 mb-6">
+                    Evaluate the accuracy and efficiency of the model based on Retrieval Augmented Generation (RAG). Test the model's performance with external knowledge assistance.
+                </p>
+                <a href="rag_evaluation.html" class="inline-block bg-success hover:bg-success/90 text-white font-medium py-2 px-6 rounded-lg transition-colors">
+                    <i class="fas fa-play-circle mr-2"></i>Start Evaluation
+                </a>
+            </div>
+        </section>
+
+        <section class="mt-16">
+        <h2 class="text-2xl font-bold text-center mb-10 text-secondary">System Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div class="bg-gray-50 p-5 rounded-lg">
+        <div class="text-primary text-2xl mb-3">
+        <i class="fas fa-chart-pie"></i>
+        </div>
+        <h3 class="font-bold text-lg mb-2">Dual Performance Metrics</h3>
+        <p class="text-gray-600">
+        Evaluate both accuracy (model correctness) and efficiency (response time, memory/GPU usage) for holistic insights.
+        </p>
+        </div>
+        <div class="bg-gray-50 p-5 rounded-lg">
+        <div class="text-primary text-2xl mb-3">
+        <i class="fas fa-book-open"></i>
+        </div>
+        <h3 class="font-bold text-lg mb-2">RAG Enhancement Analysis</h3>
+        <p class="text-gray-600">
+        Test model improvements with retrieval-augmented generation using existing or user-uploaded documents.
+        </p>
+        </div>
+        <div class="bg-gray-50 p-5 rounded-lg">
+        <div class="text-primary text-2xl mb-3">
+        <i class="fas fa-globe"></i>
+        </div>
+        <h3 class="font-bold text-lg mb-2">Multi-Domain Evaluation</h3>
+        <p class="text-gray-600">
+        Assess performance across diverse domains like geography, history, health, and more for scenario-specific insights.
+        </p>
+        </div>
+        </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Omnibench-RAG</h3>
+                    <p class="text-gray-400">
+                        AI model evaluation system, providing comprehensive model performance evaluation.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2 text-gray-400"></i>
+                            <a href="mailto:contact@omnibench-rag.com" class="text-gray-400 hover:text-white transition-colors">contact 3255951431@qq.com</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-2 text-gray-400"></i>
+                            <span class="text-gray-400">+86 181 6808 5171</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.md\\:hidden').addEventListener('click', function() {
+            const navMenu = document.querySelector('.hidden.md\\:flex');
+            navMenu.classList.toggle('hidden');
+            navMenu.classList.toggle('flex');
+        });
+    </script>
+</body>
+</html>

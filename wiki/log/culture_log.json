@@ -1,0 +1,3002 @@
+[
+    {
+        "entity": "Q131265",
+        "entityLabel": "Popular culture",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q151885",
+        "valueLabel": "concept"
+    },
+    {
+        "entity": "Q131265",
+        "entityLabel": "Popular culture",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2668072",
+        "valueLabel": "collection"
+    },
+    {
+        "entity": "Q131265",
+        "entityLabel": "Popular culture",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q878985",
+        "valueLabel": "modernism"
+    },
+    {
+        "entity": "Q131265",
+        "entityLabel": "Popular culture",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6312852",
+        "valueLabel": "Category:Popular culture"
+    },
+    {
+        "entity": "Q131265",
+        "entityLabel": "Popular culture",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11042",
+        "valueLabel": "culture"
+    },
+    {
+        "entity": "Q131265",
+        "entityLabel": "Popular culture",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q18957",
+        "valueLabel": "mainstream"
+    },
+    {
+        "entity": "Q131265",
+        "entityLabel": "Popular culture",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q3007315",
+        "valueLabel": "media culture"
+    },
+    {
+        "entity": "Q60772535",
+        "entityLabel": "10 year challenge",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2927074",
+        "valueLabel": "internet meme"
+    },
+    {
+        "entity": "Q130741980",
+        "entityLabel": "1989 Loma Prieta earthquake in popular culture",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1053476",
+        "valueLabel": "1989 Loma Prieta earthquake"
+    },
+    {
+        "entity": "Q130741980",
+        "entityLabel": "1989 Loma Prieta earthquake in popular culture",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q430727",
+        "entityLabel": "Absurdity",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q33104279",
+        "valueLabel": "philosophical concept"
+    },
+    {
+        "entity": "Q430727",
+        "entityLabel": "Absurdity",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4532138",
+        "valueLabel": "Granat Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q430727",
+        "entityLabel": "Absurdity",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q1970746",
+        "valueLabel": "Explanatory Dictionary of the Living Great Russian Language"
+    },
+    {
+        "entity": "Q430727",
+        "entityLabel": "Absurdity",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2041543",
+        "valueLabel": "Q2041543"
+    },
+    {
+        "entity": "Q430727",
+        "entityLabel": "Absurdity",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q430727",
+        "entityLabel": "Absurdity",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q430727",
+        "entityLabel": "Absurdity",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3968640",
+        "valueLabel": "mental state"
+    },
+    {
+        "entity": "Q430727",
+        "entityLabel": "Absurdity",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q178354",
+        "valueLabel": "reason"
+    },
+    {
+        "entity": "Q430727",
+        "entityLabel": "Absurdity",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q430727",
+        "entityLabel": "Absurdity",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20078554",
+        "valueLabel": "Great Soviet Encyclopedia (1926\u20131947)"
+    },
+    {
+        "entity": "Q430727",
+        "entityLabel": "Absurdity",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q12049440",
+        "valueLabel": "Q12049440"
+    },
+    {
+        "entity": "Q430727",
+        "entityLabel": "Absurdity",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q115728741",
+        "valueLabel": "Category:Absurd"
+    },
+    {
+        "entity": "Q4817248",
+        "entityLabel": "Atomic Age (design)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q968159",
+        "valueLabel": "art movement"
+    },
+    {
+        "entity": "Q4817248",
+        "entityLabel": "Atomic Age (design)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q878985",
+        "valueLabel": "modernism"
+    },
+    {
+        "entity": "Q4987247",
+        "entityLabel": "Bulba",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1020618",
+        "valueLabel": "concert dance"
+    },
+    {
+        "entity": "Q4987247",
+        "entityLabel": "Bulba",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q108570410",
+        "valueLabel": "Belarusian concert folk dance"
+    },
+    {
+        "entity": "Q4987247",
+        "entityLabel": "Bulba",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q107357104",
+        "valueLabel": "type of dance"
+    },
+    {
+        "entity": "Q4987247",
+        "entityLabel": "Bulba",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q17043830",
+        "valueLabel": "Q17043830"
+    },
+    {
+        "entity": "Q4987247",
+        "entityLabel": "Bulba",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q184",
+        "valueLabel": "Belarus"
+    },
+    {
+        "entity": "Q4987247",
+        "entityLabel": "Bulba",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q72160519",
+        "valueLabel": "Q72160519"
+    },
+    {
+        "entity": "Q1757923",
+        "entityLabel": "Carte de visite",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q182956",
+        "valueLabel": "portrait photography"
+    },
+    {
+        "entity": "Q1757923",
+        "entityLabel": "Carte de visite",
+        "property": "P186",
+        "propertyLabel": "made from material",
+        "value": "Q43557297",
+        "valueLabel": "albumin paper"
+    },
+    {
+        "entity": "Q1757923",
+        "entityLabel": "Carte de visite",
+        "property": "P186",
+        "propertyLabel": "made from material",
+        "value": "Q389782",
+        "valueLabel": "cardboard"
+    },
+    {
+        "entity": "Q1757923",
+        "entityLabel": "Carte de visite",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q82036085",
+        "valueLabel": "physical media format"
+    },
+    {
+        "entity": "Q1757923",
+        "entityLabel": "Carte de visite",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q125191",
+        "valueLabel": "photograph"
+    },
+    {
+        "entity": "Q1757923",
+        "entityLabel": "Carte de visite",
+        "property": "P2079",
+        "propertyLabel": "fabrication method",
+        "value": "Q67180198",
+        "valueLabel": "wet collodion process"
+    },
+    {
+        "entity": "Q1757923",
+        "entityLabel": "Carte de visite",
+        "property": "P2043",
+        "propertyLabel": "the_length_of",
+        "value": "9",
+        "valueLabel": "9"
+    },
+    {
+        "entity": "Q1757923",
+        "entityLabel": "Carte de visite",
+        "property": "P2049",
+        "propertyLabel": "width",
+        "value": "6",
+        "valueLabel": "6"
+    },
+    {
+        "entity": "Q23808211",
+        "entityLabel": "Civility",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q101314624",
+        "valueLabel": "Lean Logic"
+    },
+    {
+        "entity": "Q23808211",
+        "entityLabel": "Civility",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2393196",
+        "valueLabel": "personality trait"
+    },
+    {
+        "entity": "Q23808211",
+        "entityLabel": "Civility",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q131935072",
+        "valueLabel": "Red Blue Translator"
+    },
+    {
+        "entity": "Q60463402",
+        "entityLabel": "Communist chic",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12684",
+        "valueLabel": "fashion"
+    },
+    {
+        "entity": "Q60463402",
+        "entityLabel": "Communist chic",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q131265",
+        "valueLabel": "popular culture"
+    },
+    {
+        "entity": "Q687900",
+        "entityLabel": "Cool (aesthetic)",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q270952",
+        "valueLabel": "cold"
+    },
+    {
+        "entity": "Q687900",
+        "entityLabel": "Cool (aesthetic)",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q974265",
+        "valueLabel": "Cool"
+    },
+    {
+        "entity": "Q687900",
+        "entityLabel": "Cool (aesthetic)",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q115690311",
+        "valueLabel": "Cool Rules: Anatomy of an Attitude"
+    },
+    {
+        "entity": "Q687900",
+        "entityLabel": "Cool (aesthetic)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q9332",
+        "valueLabel": "behavior"
+    },
+    {
+        "entity": "Q209672",
+        "entityLabel": "Cult following",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q9174",
+        "valueLabel": "religion"
+    },
+    {
+        "entity": "Q209672",
+        "entityLabel": "Cult following",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q18957",
+        "valueLabel": "mainstream"
+    },
+    {
+        "entity": "Q209672",
+        "entityLabel": "Cult following",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3769299",
+        "valueLabel": "human behavior"
+    },
+    {
+        "entity": "Q209672",
+        "entityLabel": "Cult following",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q3007130",
+        "valueLabel": "Q3007130"
+    },
+    {
+        "entity": "Q209672",
+        "entityLabel": "Cult following",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q99632598",
+        "valueLabel": "succession"
+    },
+    {
+        "entity": "Q8012311",
+        "entityLabel": "Doujin soft",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8395490",
+        "valueLabel": "Category:Doujin video games"
+    },
+    {
+        "entity": "Q8012311",
+        "entityLabel": "Doujin soft",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q7397",
+        "valueLabel": "software"
+    },
+    {
+        "entity": "Q8012311",
+        "entityLabel": "Doujin soft",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q906556",
+        "valueLabel": "d\u014djin game"
+    },
+    {
+        "entity": "Q8012311",
+        "entityLabel": "Doujin soft",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q22669665",
+        "valueLabel": "d\u014djin work"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q106803732",
+        "valueLabel": "conduct"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q56441911",
+        "valueLabel": "The Domestic Encyclop\u00e6dia; Or, A Dictionary Of Facts, And Useful Knowledge"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q66386517",
+        "valueLabel": "Small Soviet Encyclopedia"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q1067192",
+        "valueLabel": "manners"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q10506640",
+        "valueLabel": "good practice"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8426204",
+        "valueLabel": "Category:Etiquette"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q281287",
+        "valueLabel": "politeness"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q1757948",
+        "valueLabel": "formality"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P1479",
+        "propertyLabel": "has contributing factor",
+        "value": "Q11042",
+        "valueLabel": "culture"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q16515017",
+        "valueLabel": "courtesy"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1115221",
+        "valueLabel": "mores"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q11228056",
+        "valueLabel": "good manners"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q13120975",
+        "valueLabel": "dress"
+    },
+    {
+        "entity": "Q188907",
+        "entityLabel": "Etiquette",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q13427002",
+        "entityLabel": "Fad",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2548752",
+        "valueLabel": "collective behavior"
+    },
+    {
+        "entity": "Q13427002",
+        "entityLabel": "Fad",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q602884",
+        "valueLabel": "social phenomenon"
+    },
+    {
+        "entity": "Q13427002",
+        "entityLabel": "Fad",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q1357284",
+        "valueLabel": "popularity"
+    },
+    {
+        "entity": "Q13427002",
+        "entityLabel": "Fad",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7483196",
+        "valueLabel": "Category:Fads"
+    },
+    {
+        "entity": "Q13427002",
+        "entityLabel": "Fad",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q3007130",
+        "valueLabel": "Q3007130"
+    },
+    {
+        "entity": "Q13427002",
+        "entityLabel": "Fad",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q12684",
+        "valueLabel": "fashion"
+    },
+    {
+        "entity": "Q5672291",
+        "entityLabel": "Film tourism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q49389",
+        "valueLabel": "tourism"
+    },
+    {
+        "entity": "Q5672291",
+        "entityLabel": "Film tourism",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q32323758",
+        "valueLabel": "Q32323758"
+    },
+    {
+        "entity": "Q5672291",
+        "entityLabel": "Film tourism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q112918760",
+        "valueLabel": "pop-culture tourism"
+    },
+    {
+        "entity": "Q5672291",
+        "entityLabel": "Film tourism",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1045481",
+        "valueLabel": "filming location"
+    },
+    {
+        "entity": "Q115818673",
+        "entityLabel": "Filter (social media)",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q25430251",
+        "valueLabel": "cellphone camera"
+    },
+    {
+        "entity": "Q115818673",
+        "entityLabel": "Filter (social media)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q876650",
+        "valueLabel": "photographic filter"
+    },
+    {
+        "entity": "Q115818673",
+        "entityLabel": "Filter (social media)",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q202833",
+        "valueLabel": "social media"
+    },
+    {
+        "entity": "Q115818673",
+        "entityLabel": "Filter (social media)",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q18922759",
+        "valueLabel": "messaging app"
+    },
+    {
+        "entity": "Q115818673",
+        "entityLabel": "Filter (social media)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1439636",
+        "valueLabel": "photographic effect"
+    },
+    {
+        "entity": "Q115818673",
+        "entityLabel": "Filter (social media)",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q11660",
+        "valueLabel": "artificial intelligence"
+    },
+    {
+        "entity": "Q22087429",
+        "entityLabel": "Freedom and Destiny",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7725634",
+        "valueLabel": "literary work"
+    },
+    {
+        "entity": "Q56599132",
+        "entityLabel": "Fugazza",
+        "property": "P2012",
+        "propertyLabel": "cuisine",
+        "value": "Q579500",
+        "valueLabel": "Argentine cuisine"
+    },
+    {
+        "entity": "Q56599132",
+        "entityLabel": "Fugazza",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q579500",
+        "valueLabel": "Argentine cuisine"
+    },
+    {
+        "entity": "Q56599132",
+        "entityLabel": "Fugazza",
+        "property": "P931",
+        "propertyLabel": "place served by transport hub",
+        "value": "Q1486",
+        "valueLabel": "Buenos Aires"
+    },
+    {
+        "entity": "Q56599132",
+        "entityLabel": "Fugazza",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q122602908",
+        "valueLabel": "Q122602908"
+    },
+    {
+        "entity": "Q56599132",
+        "entityLabel": "Fugazza",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q116392487",
+        "valueLabel": "type of pizza"
+    },
+    {
+        "entity": "Q56599132",
+        "entityLabel": "Fugazza",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q177",
+        "valueLabel": "pizza"
+    },
+    {
+        "entity": "Q56599132",
+        "entityLabel": "Fugazza",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q414",
+        "valueLabel": "Argentina"
+    },
+    {
+        "entity": "Q56599132",
+        "entityLabel": "Fugazza",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q414",
+        "valueLabel": "Argentina"
+    },
+    {
+        "entity": "Q379689",
+        "entityLabel": "Generation X",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q30813444",
+        "valueLabel": "Category:Generation X"
+    },
+    {
+        "entity": "Q379689",
+        "entityLabel": "Generation X",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q127206310",
+        "valueLabel": "1970s babies"
+    },
+    {
+        "entity": "Q379689",
+        "entityLabel": "Generation X",
+        "property": "P155",
+        "propertyLabel": "follows",
+        "value": "Q797819",
+        "valueLabel": "Baby Boomers"
+    },
+    {
+        "entity": "Q379689",
+        "entityLabel": "Generation X",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q15925549",
+        "valueLabel": "cultural generation of western society"
+    },
+    {
+        "entity": "Q379689",
+        "entityLabel": "Generation X",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q113207194",
+        "valueLabel": "Millennial Saeculum"
+    },
+    {
+        "entity": "Q379689",
+        "entityLabel": "Generation X",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q127199390",
+        "valueLabel": "1980s kids"
+    },
+    {
+        "entity": "Q379689",
+        "entityLabel": "Generation X",
+        "property": "P156",
+        "propertyLabel": "followed by",
+        "value": "Q277633",
+        "valueLabel": "generation Y"
+    },
+    {
+        "entity": "Q18207390",
+        "entityLabel": "GikII",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7748",
+        "valueLabel": "law"
+    },
+    {
+        "entity": "Q118904046",
+        "entityLabel": "Gorpcore",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q28972120",
+        "valueLabel": "fashion trend"
+    },
+    {
+        "entity": "Q118904046",
+        "entityLabel": "Gorpcore",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q253097",
+        "valueLabel": "trail mix"
+    },
+    {
+        "entity": "Q1997853",
+        "entityLabel": "Hit song",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q85369504",
+        "valueLabel": "box office hit"
+    },
+    {
+        "entity": "Q1997853",
+        "entityLabel": "Hit song",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q59913930",
+        "valueLabel": "recording industry term"
+    },
+    {
+        "entity": "Q1997853",
+        "entityLabel": "Hit song",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q108040644",
+        "valueLabel": "charted musical unit"
+    },
+    {
+        "entity": "Q7792940",
+        "entityLabel": "Thomas P. Kelley",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q201788",
+        "valueLabel": "historian"
+    },
+    {
+        "entity": "Q7792940",
+        "entityLabel": "Thomas P. Kelley",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q16",
+        "valueLabel": "Canada"
+    },
+    {
+        "entity": "Q7792940",
+        "entityLabel": "Thomas P. Kelley",
+        "property": "P20",
+        "propertyLabel": "place of death",
+        "value": "Q172",
+        "valueLabel": "Toronto"
+    },
+    {
+        "entity": "Q7792940",
+        "entityLabel": "Thomas P. Kelley",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q7792940",
+        "entityLabel": "Thomas P. Kelley",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q27678531",
+        "valueLabel": "Kelley"
+    },
+    {
+        "entity": "Q7792940",
+        "entityLabel": "Thomas P. Kelley",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q5680222",
+        "valueLabel": "Hastings"
+    },
+    {
+        "entity": "Q7792940",
+        "entityLabel": "Thomas P. Kelley",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q16428906",
+        "valueLabel": "Thomas"
+    },
+    {
+        "entity": "Q7792940",
+        "entityLabel": "Thomas P. Kelley",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q185193",
+        "entityLabel": "Kidult",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q130989",
+        "valueLabel": "neologism"
+    },
+    {
+        "entity": "Q185193",
+        "entityLabel": "Kidult",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1077589",
+        "valueLabel": "Peter Pan syndrome"
+    },
+    {
+        "entity": "Q185193",
+        "entityLabel": "Kidult",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q2663857",
+        "valueLabel": "Adult Children of Alcoholics"
+    },
+    {
+        "entity": "Q185193",
+        "entityLabel": "Kidult",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q208674",
+        "valueLabel": "blend word"
+    },
+    {
+        "entity": "Q185193",
+        "entityLabel": "Kidult",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q15689489",
+        "valueLabel": "puer aeternus"
+    },
+    {
+        "entity": "Q6546170",
+        "entityLabel": "Light entertainment",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1792379",
+        "valueLabel": "art genre"
+    },
+    {
+        "entity": "Q6546170",
+        "entityLabel": "Light entertainment",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1969448",
+        "valueLabel": "term"
+    },
+    {
+        "entity": "Q6546170",
+        "entityLabel": "Light entertainment",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q17537576",
+        "valueLabel": "creative work"
+    },
+    {
+        "entity": "Q6546170",
+        "entityLabel": "Light entertainment",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1814638",
+        "valueLabel": "light entertainment"
+    },
+    {
+        "entity": "Q107108751",
+        "entityLabel": "Ricardo P. Lloyd",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q107108751",
+        "entityLabel": "Ricardo P. Lloyd",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q107108751",
+        "entityLabel": "Ricardo P. Lloyd",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q15720871",
+        "valueLabel": "Ricardo"
+    },
+    {
+        "entity": "Q107108751",
+        "entityLabel": "Ricardo P. Lloyd",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q448403",
+        "valueLabel": "Buckinghamshire New University"
+    },
+    {
+        "entity": "Q107108751",
+        "entityLabel": "Ricardo P. Lloyd",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q1287630",
+        "valueLabel": "Lloyd"
+    },
+    {
+        "entity": "Q107108751",
+        "entityLabel": "Ricardo P. Lloyd",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q540751",
+        "valueLabel": "Anglia Ruskin University"
+    },
+    {
+        "entity": "Q6630264",
+        "entityLabel": "Low culture",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q131265",
+        "valueLabel": "popular culture"
+    },
+    {
+        "entity": "Q6630264",
+        "entityLabel": "Low culture",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q131265",
+        "valueLabel": "popular culture"
+    },
+    {
+        "entity": "Q6630264",
+        "entityLabel": "Low culture",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q545779",
+        "valueLabel": "pejorative"
+    },
+    {
+        "entity": "Q1784728",
+        "entityLabel": "Lowbrow (art movement)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q968159",
+        "valueLabel": "art movement"
+    },
+    {
+        "entity": "Q1784728",
+        "entityLabel": "Lowbrow (art movement)",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q61953235",
+        "valueLabel": "lowbrow"
+    },
+    {
+        "entity": "Q1784728",
+        "entityLabel": "Lowbrow (art movement)",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q13330513",
+        "valueLabel": "Category:Lowbrow art"
+    },
+    {
+        "entity": "Q3007315",
+        "entityLabel": "Media culture",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q96583169",
+        "valueLabel": "media culture studies"
+    },
+    {
+        "entity": "Q3007315",
+        "entityLabel": "Media culture",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q131265",
+        "valueLabel": "popular culture"
+    },
+    {
+        "entity": "Q3007315",
+        "entityLabel": "Media culture",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q16060140",
+        "valueLabel": "Template:Media culture"
+    },
+    {
+        "entity": "Q3007315",
+        "entityLabel": "Media culture",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11042",
+        "valueLabel": "culture"
+    },
+    {
+        "entity": "Q13495118",
+        "entityLabel": "Middlebrow",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q27802941",
+        "valueLabel": "Masscult and Midcult"
+    },
+    {
+        "entity": "Q13495118",
+        "entityLabel": "Middlebrow",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1084",
+        "valueLabel": "noun"
+    },
+    {
+        "entity": "Q13495118",
+        "entityLabel": "Middlebrow",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q61953235",
+        "valueLabel": "lowbrow"
+    },
+    {
+        "entity": "Q13495118",
+        "entityLabel": "Middlebrow",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q5757850",
+        "valueLabel": "highbrow"
+    },
+    {
+        "entity": "Q13495118",
+        "entityLabel": "Middlebrow",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q41966",
+        "valueLabel": "metonymy"
+    },
+    {
+        "entity": "Q13495118",
+        "entityLabel": "Middlebrow",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q61957532",
+        "valueLabel": "The Making of Middlebrow Culture"
+    },
+    {
+        "entity": "Q13495118",
+        "entityLabel": "Middlebrow",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q34698",
+        "valueLabel": "adjective"
+    },
+    {
+        "entity": "Q13495118",
+        "entityLabel": "Middlebrow",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11042",
+        "valueLabel": "culture"
+    },
+    {
+        "entity": "Q13495118",
+        "entityLabel": "Middlebrow",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q18534",
+        "valueLabel": "metaphor"
+    },
+    {
+        "entity": "Q23023399",
+        "entityLabel": "MTV Fandom Awards",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q107655869",
+        "valueLabel": "group of awards"
+    },
+    {
+        "entity": "Q23023399",
+        "entityLabel": "MTV Fandom Awards",
+        "property": "P3301",
+        "propertyLabel": "broadcast by",
+        "value": "Q43359",
+        "valueLabel": "MTV"
+    },
+    {
+        "entity": "Q23023399",
+        "entityLabel": "MTV Fandom Awards",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q52681237",
+        "valueLabel": "Q52681237"
+    },
+    {
+        "entity": "Q23023399",
+        "entityLabel": "MTV Fandom Awards",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q30325518",
+        "entityLabel": "MTV Woodies",
+        "property": "P3301",
+        "propertyLabel": "broadcast by",
+        "value": "Q43359",
+        "valueLabel": "MTV"
+    },
+    {
+        "entity": "Q30325518",
+        "entityLabel": "MTV Woodies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q618779",
+        "valueLabel": "award"
+    },
+    {
+        "entity": "Q30325518",
+        "entityLabel": "MTV Woodies",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q177",
+        "entityLabel": "Pizza",
+        "property": "P8431",
+        "propertyLabel": "course",
+        "value": "Q772630",
+        "valueLabel": "main course"
+    },
+    {
+        "entity": "Q177",
+        "entityLabel": "Pizza",
+        "property": "P7767",
+        "propertyLabel": "serving temperature",
+        "value": "Q28128222",
+        "valueLabel": "hot"
+    },
+    {
+        "entity": "Q177",
+        "entityLabel": "Pizza",
+        "property": "P2184",
+        "propertyLabel": "history of topic",
+        "value": "Q2359423",
+        "valueLabel": "history of pizza"
+    },
+    {
+        "entity": "Q177",
+        "entityLabel": "Pizza",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2041543",
+        "valueLabel": "Q2041543"
+    },
+    {
+        "entity": "Q177",
+        "entityLabel": "Pizza",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6931672",
+        "valueLabel": "Category:Pizza"
+    },
+    {
+        "entity": "Q177",
+        "entityLabel": "Pizza",
+        "property": "P2012",
+        "propertyLabel": "cuisine",
+        "value": "Q192786",
+        "valueLabel": "Italian cuisine"
+    },
+    {
+        "entity": "Q10677",
+        "entityLabel": "PlayStation (console)",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "145000",
+        "valueLabel": "145000"
+    },
+    {
+        "entity": "Q10677",
+        "entityLabel": "PlayStation (console)",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8968743",
+        "valueLabel": "Category:PlayStation (console)"
+    },
+    {
+        "entity": "Q10677",
+        "entityLabel": "PlayStation (console)",
+        "property": "P880",
+        "propertyLabel": "CPU",
+        "value": "Q1243971",
+        "valueLabel": "R3000"
+    },
+    {
+        "entity": "Q10677",
+        "entityLabel": "PlayStation (console)",
+        "property": "P1366",
+        "propertyLabel": "replaced by",
+        "value": "Q10680",
+        "valueLabel": "PlayStation 2"
+    },
+    {
+        "entity": "Q10677",
+        "entityLabel": "PlayStation (console)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q17589470",
+        "valueLabel": "home video game console"
+    },
+    {
+        "entity": "Q10677",
+        "entityLabel": "PlayStation (console)",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q129728",
+        "valueLabel": "fifth generation of video game consoles"
+    },
+    {
+        "entity": "Q10677",
+        "entityLabel": "PlayStation (console)",
+        "property": "P2284",
+        "propertyLabel": "price",
+        "value": "299",
+        "valueLabel": "299"
+    },
+    {
+        "entity": "Q10677",
+        "entityLabel": "PlayStation (console)",
+        "property": "P2664",
+        "propertyLabel": "units sold",
+        "value": "102400000",
+        "valueLabel": "102400000"
+    },
+    {
+        "entity": "Q10677",
+        "entityLabel": "PlayStation (console)",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q110580638",
+        "valueLabel": "Template:PlayStation (console)"
+    },
+    {
+        "entity": "Q10677",
+        "entityLabel": "PlayStation (console)",
+        "property": "P1411",
+        "propertyLabel": "nominated for",
+        "value": "Q109691171",
+        "valueLabel": "Golden Joystick Awards \u2212 Best Gaming Hardware of All Time"
+    },
+    {
+        "entity": "Q134147",
+        "entityLabel": "Pop art",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q968159",
+        "valueLabel": "art movement"
+    },
+    {
+        "entity": "Q134147",
+        "entityLabel": "Pop art",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q32880",
+        "valueLabel": "architectural style"
+    },
+    {
+        "entity": "Q134147",
+        "entityLabel": "Pop art",
+        "property": "P737",
+        "propertyLabel": "influenced by",
+        "value": "Q177725",
+        "valueLabel": "abstract expressionism"
+    },
+    {
+        "entity": "Q134147",
+        "entityLabel": "Pop art",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6529285",
+        "valueLabel": "Category:Pop art"
+    },
+    {
+        "entity": "Q134147",
+        "entityLabel": "Pop art",
+        "property": "P737",
+        "propertyLabel": "influenced by",
+        "value": "Q1004",
+        "valueLabel": "comics"
+    },
+    {
+        "entity": "Q134147",
+        "entityLabel": "Pop art",
+        "property": "P737",
+        "propertyLabel": "influenced by",
+        "value": "Q131265",
+        "valueLabel": "popular culture"
+    },
+    {
+        "entity": "Q134147",
+        "entityLabel": "Pop art",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737636",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 9"
+    },
+    {
+        "entity": "Q134147",
+        "entityLabel": "Pop art",
+        "property": "P737",
+        "propertyLabel": "influenced by",
+        "value": "Q6034",
+        "valueLabel": "Dada"
+    },
+    {
+        "entity": "Q134147",
+        "entityLabel": "Pop art",
+        "property": "P737",
+        "propertyLabel": "influenced by",
+        "value": "Q37038",
+        "valueLabel": "advertising"
+    },
+    {
+        "entity": "Q134311890",
+        "entityLabel": "Pop Base",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q110419290",
+        "entityLabel": "Pop Crave",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q110419290",
+        "entityLabel": "Pop Crave",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q131265",
+        "valueLabel": "popular culture"
+    },
+    {
+        "entity": "Q110419290",
+        "entityLabel": "Pop Crave",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q6881511",
+        "valueLabel": "enterprise"
+    },
+    {
+        "entity": "Q110419290",
+        "entityLabel": "Pop Crave",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q340169",
+        "valueLabel": "communications media"
+    },
+    {
+        "entity": "Q110419290",
+        "entityLabel": "Pop Crave",
+        "property": "P452",
+        "propertyLabel": "industry",
+        "value": "Q38926",
+        "valueLabel": "news"
+    },
+    {
+        "entity": "Q110419290",
+        "entityLabel": "Pop Crave",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q114241186",
+        "valueLabel": "William Cosme"
+    },
+    {
+        "entity": "Q110419290",
+        "entityLabel": "Pop Crave",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "1189740",
+        "valueLabel": "1189740"
+    },
+    {
+        "entity": "Q102283465",
+        "entityLabel": "Pop culture fiction",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q108465955",
+        "valueLabel": "fiction genre"
+    },
+    {
+        "entity": "Q582878",
+        "entityLabel": "Pop icon",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3139104",
+        "valueLabel": "cultural icon"
+    },
+    {
+        "entity": "Q112918760",
+        "entityLabel": "Pop-culture tourism",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q131265",
+        "valueLabel": "popular culture"
+    },
+    {
+        "entity": "Q112918760",
+        "entityLabel": "Pop-culture tourism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1907578",
+        "valueLabel": "mass tourism"
+    },
+    {
+        "entity": "Q7229751",
+        "entityLabel": "Popular culture studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2267705",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q7229751",
+        "entityLabel": "Popular culture studies",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q11721681",
+        "valueLabel": "Category:Popular culture studies"
+    },
+    {
+        "entity": "Q7229751",
+        "entityLabel": "Popular culture studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q7229751",
+        "entityLabel": "Popular culture studies",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q131265",
+        "valueLabel": "popular culture"
+    },
+    {
+        "entity": "Q7229751",
+        "entityLabel": "Popular culture studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q7229751",
+        "entityLabel": "Popular culture studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q373342",
+        "entityLabel": "Popular music",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q188451",
+        "valueLabel": "music genre"
+    },
+    {
+        "entity": "Q373342",
+        "entityLabel": "Popular music",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q28453837",
+        "valueLabel": "vernacular music"
+    },
+    {
+        "entity": "Q373342",
+        "entityLabel": "Popular music",
+        "property": "P2184",
+        "propertyLabel": "history of topic",
+        "value": "Q16960681",
+        "valueLabel": "album era"
+    },
+    {
+        "entity": "Q373342",
+        "entityLabel": "Popular music",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q1278710",
+        "valueLabel": "trivial music"
+    },
+    {
+        "entity": "Q373342",
+        "entityLabel": "Popular music",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q115484611",
+        "valueLabel": "music"
+    },
+    {
+        "entity": "Q373342",
+        "entityLabel": "Popular music",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q62906332",
+        "valueLabel": "entertainment music"
+    },
+    {
+        "entity": "Q373342",
+        "entityLabel": "Popular music",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q4929",
+        "valueLabel": "Category:Popular music"
+    },
+    {
+        "entity": "Q373342",
+        "entityLabel": "Popular music",
+        "property": "P2354",
+        "propertyLabel": "has list",
+        "value": "Q6634357",
+        "valueLabel": "list of popular music genres"
+    },
+    {
+        "entity": "Q373342",
+        "entityLabel": "Popular music",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q37073",
+        "valueLabel": "pop music"
+    },
+    {
+        "entity": "Q17104684",
+        "entityLabel": "Prolefeed",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q77716235",
+        "valueLabel": "crowd psychology terminology"
+    },
+    {
+        "entity": "Q17104684",
+        "entityLabel": "Prolefeed",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1969448",
+        "valueLabel": "term"
+    },
+    {
+        "entity": "Q132717488",
+        "entityLabel": "Red Lobster, White Trash and the Blue Lagoon",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q47461344",
+        "valueLabel": "written work"
+    },
+    {
+        "entity": "Q132717488",
+        "entityLabel": "Red Lobster, White Trash and the Blue Lagoon",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q6211906",
+        "valueLabel": "Joe Queenan"
+    },
+    {
+        "entity": "Q132717488",
+        "entityLabel": "Red Lobster, White Trash and the Blue Lagoon",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q3298098",
+        "entityLabel": "Remix culture",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q898144",
+        "valueLabel": "free-culture movement"
+    },
+    {
+        "entity": "Q3298098",
+        "entityLabel": "Remix culture",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q19018468",
+        "valueLabel": "libre culture"
+    },
+    {
+        "entity": "Q3298098",
+        "entityLabel": "Remix culture",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q3305337",
+        "valueLabel": "permission culture"
+    },
+    {
+        "entity": "Q3298098",
+        "entityLabel": "Remix culture",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11042",
+        "valueLabel": "culture"
+    },
+    {
+        "entity": "Q3309433",
+        "entityLabel": "Selling out",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q451967",
+        "valueLabel": "intentional human activity"
+    },
+    {
+        "entity": "Q3309433",
+        "entityLabel": "Selling out",
+        "property": "P1479",
+        "propertyLabel": "has contributing factor",
+        "value": "Q5915039",
+        "valueLabel": "inconstancy"
+    },
+    {
+        "entity": "Q3309433",
+        "entityLabel": "Selling out",
+        "property": "P1537",
+        "propertyLabel": "contributing factor of",
+        "value": "Q24050179",
+        "valueLabel": "advantage"
+    },
+    {
+        "entity": "Q3309433",
+        "entityLabel": "Selling out",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q98398200",
+        "valueLabel": "rejection"
+    },
+    {
+        "entity": "Q224530",
+        "entityLabel": "Spectacle",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q35140",
+        "valueLabel": "performance"
+    },
+    {
+        "entity": "Q224530",
+        "entityLabel": "Spectacle",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1190554",
+        "valueLabel": "occurrence"
+    },
+    {
+        "entity": "Q224530",
+        "entityLabel": "Spectacle",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737635",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 8"
+    },
+    {
+        "entity": "Q224530",
+        "entityLabel": "Spectacle",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q14855775",
+        "valueLabel": "Spectacle"
+    },
+    {
+        "entity": "Q1929437",
+        "entityLabel": "Summer hit",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1997853",
+        "valueLabel": "musical hit"
+    },
+    {
+        "entity": "Q1929437",
+        "entityLabel": "Summer hit",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6201836",
+        "valueLabel": "Q6201836"
+    },
+    {
+        "entity": "Q1929437",
+        "entityLabel": "Summer hit",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q59913930",
+        "valueLabel": "recording industry term"
+    },
+    {
+        "entity": "Q333967",
+        "entityLabel": "Survival horror",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q116236836",
+        "valueLabel": "action horror video game"
+    },
+    {
+        "entity": "Q333967",
+        "entityLabel": "Survival horror",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8860116",
+        "valueLabel": "Category:Survival horror video games"
+    },
+    {
+        "entity": "Q333967",
+        "entityLabel": "Survival horror",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11338014",
+        "valueLabel": "horror video game"
+    },
+    {
+        "entity": "Q333967",
+        "entityLabel": "Survival horror",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q659563",
+        "valueLabel": "video game genre"
+    },
+    {
+        "entity": "Q333967",
+        "entityLabel": "Survival horror",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q343568",
+        "valueLabel": "action-adventure game"
+    },
+    {
+        "entity": "Q30323956",
+        "entityLabel": "Trash culture",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11042",
+        "valueLabel": "culture"
+    },
+    {
+        "entity": "Q189349",
+        "entityLabel": "Urban legend",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q483394",
+        "valueLabel": "genre"
+    },
+    {
+        "entity": "Q189349",
+        "entityLabel": "Urban legend",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q5619072",
+        "valueLabel": "Category:Urban legends"
+    },
+    {
+        "entity": "Q189349",
+        "entityLabel": "Urban legend",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q25345174",
+        "valueLabel": "common misconception"
+    },
+    {
+        "entity": "Q189349",
+        "entityLabel": "Urban legend",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q44342",
+        "valueLabel": "legend"
+    },
+    {
+        "entity": "Q189349",
+        "entityLabel": "Urban legend",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q878352",
+        "valueLabel": "rumor"
+    },
+    {
+        "entity": "Q189349",
+        "entityLabel": "Urban legend",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q778407",
+        "valueLabel": "urban culture"
+    },
+    {
+        "entity": "Q189349",
+        "entityLabel": "Urban legend",
+        "property": "P2354",
+        "propertyLabel": "has list",
+        "value": "Q27882789",
+        "valueLabel": "list of urban legends"
+    },
+    {
+        "entity": "Q189349",
+        "entityLabel": "Urban legend",
+        "property": "P2354",
+        "propertyLabel": "has list",
+        "value": "Q6628837",
+        "valueLabel": "misconceptions about drugs"
+    },
+    {
+        "entity": "Q189349",
+        "entityLabel": "Urban legend",
+        "property": "P2354",
+        "propertyLabel": "has list",
+        "value": "Q11499777",
+        "valueLabel": "list of urban legends about popular culture"
+    },
+    {
+        "entity": "Q189349",
+        "entityLabel": "Urban legend",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q15731653",
+        "valueLabel": "Template:Urban legends"
+    },
+    {
+        "entity": "Q189349",
+        "entityLabel": "Urban legend",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q66087609",
+        "valueLabel": "Lexicon van de jeugdliteratuur"
+    },
+    {
+        "entity": "Q7900148",
+        "entityLabel": "Urban pop culture",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q131265",
+        "valueLabel": "popular culture"
+    },
+    {
+        "entity": "Q28136180",
+        "entityLabel": "Vagalume",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q59825643",
+        "valueLabel": "online music database"
+    },
+    {
+        "entity": "Q28136180",
+        "entityLabel": "Vagalume",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "481323",
+        "valueLabel": "481323"
+    },
+    {
+        "entity": "Q28136180",
+        "entityLabel": "Vagalume",
+        "property": "P1661",
+        "propertyLabel": "Alexa rank",
+        "value": "2408",
+        "valueLabel": "2408"
+    },
+    {
+        "entity": "Q28136180",
+        "entityLabel": "Vagalume",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q155",
+        "valueLabel": "Brazil"
+    },
+    {
+        "entity": "Q28136180",
+        "entityLabel": "Vagalume",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q35127",
+        "valueLabel": "website"
+    },
+    {
+        "entity": "Q28136180",
+        "entityLabel": "Vagalume",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "448015",
+        "valueLabel": "448015"
+    },
+    {
+        "entity": "Q28136180",
+        "entityLabel": "Vagalume",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "453515",
+        "valueLabel": "453515"
+    },
+    {
+        "entity": "Q28136180",
+        "entityLabel": "Vagalume",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "468868",
+        "valueLabel": "468868"
+    },
+    {
+        "entity": "Q28136180",
+        "entityLabel": "Vagalume",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q750553",
+        "valueLabel": "Brazilian Portuguese"
+    },
+    {
+        "entity": "Q7946095",
+        "entityLabel": "W00tstock",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q15275719",
+        "valueLabel": "recurring event"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2465832",
+        "valueLabel": "branch of science"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1665984",
+        "valueLabel": "interdisciplinary science"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q113128675",
+        "valueLabel": "language, communication, and cultural studies"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q50641",
+        "valueLabel": "history of art"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q23404",
+        "valueLabel": "anthropology"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1662673",
+        "valueLabel": "gender studies"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q80083",
+        "valueLabel": "humanities"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q11042",
+        "valueLabel": "culture"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6462842",
+        "valueLabel": "Category:Cultural studies"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q19829999",
+        "valueLabel": "cultural studies scholar"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1418771",
+        "valueLabel": "culturology"
+    },
+    {
+        "entity": "Q1143546",
+        "entityLabel": "Cultural studies",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q3621186",
+        "valueLabel": "Arabic studies"
+    },
+    {
+        "entity": "Q192989",
+        "entityLabel": "Acculturation",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q33104129",
+        "valueLabel": "sociological concept"
+    },
+    {
+        "entity": "Q192989",
+        "entityLabel": "Acculturation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1510761",
+        "valueLabel": "social change"
+    },
+    {
+        "entity": "Q192989",
+        "entityLabel": "Acculturation",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q22639418",
+        "valueLabel": "The Oxford Encyclopedia of African Thought"
+    },
+    {
+        "entity": "Q192989",
+        "entityLabel": "Acculturation",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q160845",
+        "valueLabel": "sociolinguistics"
+    },
+    {
+        "entity": "Q192989",
+        "entityLabel": "Acculturation",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q2097208",
+        "valueLabel": "transculturation"
+    },
+    {
+        "entity": "Q192989",
+        "entityLabel": "Acculturation",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124156602",
+        "valueLabel": "Soziolinguistika Hiztegia"
+    },
+    {
+        "entity": "Q192989",
+        "entityLabel": "Acculturation",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q736228",
+        "valueLabel": "assimilation"
+    },
+    {
+        "entity": "Q1280626",
+        "entityLabel": "Albanology",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q12957521",
+        "valueLabel": "illyrology"
+    },
+    {
+        "entity": "Q1280626",
+        "entityLabel": "Albanology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8230822",
+        "valueLabel": "Category:Albanian studies"
+    },
+    {
+        "entity": "Q1280626",
+        "entityLabel": "Albanology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q8748",
+        "valueLabel": "Albanian"
+    },
+    {
+        "entity": "Q1280626",
+        "entityLabel": "Albanology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q179248",
+        "valueLabel": "Albanians"
+    },
+    {
+        "entity": "Q1280626",
+        "entityLabel": "Albanology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q222",
+        "valueLabel": "Albania"
+    },
+    {
+        "entity": "Q1280626",
+        "entityLabel": "Albanology",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q16316337",
+        "valueLabel": "albanologist"
+    },
+    {
+        "entity": "Q1280626",
+        "entityLabel": "Albanology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q464974",
+        "valueLabel": "Balkan studies"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q7395882",
+        "valueLabel": "Sabanc\u0131 University"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q1476215",
+        "valueLabel": "human rights activist"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q43003431",
+        "valueLabel": "Ay\u015fe"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q4773904",
+        "valueLabel": "anthropologist"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P166",
+        "propertyLabel": "award received",
+        "value": "Q124621775",
+        "valueLabel": "Duygu Asena award"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581072",
+        "valueLabel": "female"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q43",
+        "valueLabel": "Turkey"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q168751",
+        "valueLabel": "Duke University"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q896267",
+        "valueLabel": "Bo\u011fazi\u00e7i University"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q56537481",
+        "valueLabel": "Alt\u0131nay"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q3400985",
+        "valueLabel": "academic"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q68841678",
+        "valueLabel": "G\u00fcl"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q482980",
+        "valueLabel": "author"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P800",
+        "propertyLabel": "notable work",
+        "value": "Q108171605",
+        "valueLabel": "Women mobilizing memory"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q256",
+        "valueLabel": "Turkish"
+    },
+    {
+        "entity": "Q56000793",
+        "entityLabel": "Ay\u015fe G\u00fcl Alt\u0131nay",
+        "property": "P800",
+        "propertyLabel": "notable work",
+        "value": "Q111714388",
+        "valueLabel": "Q111714388"
+    },
+    {
+        "entity": "Q4774884",
+        "entityLabel": "Antillanit\u00e9",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q22639418",
+        "valueLabel": "The Oxford Encyclopedia of African Thought"
+    },
+    {
+        "entity": "Q625699",
+        "entityLabel": "Aramaic studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2142577",
+        "valueLabel": "Semitic studies"
+    },
+    {
+        "entity": "Q625699",
+        "entityLabel": "Aramaic studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q625699",
+        "entityLabel": "Aramaic studies",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q28602",
+        "valueLabel": "Aramaic"
+    },
+    {
+        "entity": "Q27779502",
+        "entityLabel": "Bah\u00e1\u02bc\u00ed studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1782301",
+        "valueLabel": "study"
+    },
+    {
+        "entity": "Q27779502",
+        "entityLabel": "Bah\u00e1\u02bc\u00ed studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q476294",
+        "valueLabel": "oriental studies"
+    },
+    {
+        "entity": "Q27779502",
+        "entityLabel": "Bah\u00e1\u02bc\u00ed studies",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q22679",
+        "valueLabel": "Bah\u00e1\u02bc\u00ed Faith"
+    },
+    {
+        "entity": "Q27779502",
+        "entityLabel": "Bah\u00e1\u02bc\u00ed studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q4896242",
+        "entityLabel": "Besharmi Morcha",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q273120",
+        "valueLabel": "protest"
+    },
+    {
+        "entity": "Q111167835",
+        "entityLabel": "Boba liberal",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q17162840",
+        "valueLabel": "radical chic"
+    },
+    {
+        "entity": "Q111167835",
+        "entityLabel": "Boba liberal",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q6540837",
+        "valueLabel": "liberal elite"
+    },
+    {
+        "entity": "Q111167835",
+        "entityLabel": "Boba liberal",
+        "property": "P1142",
+        "propertyLabel": "political ideology",
+        "value": "Q4379869",
+        "valueLabel": "progressivism in the United States"
+    },
+    {
+        "entity": "Q111167835",
+        "entityLabel": "Boba liberal",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q17050732",
+        "valueLabel": "limousine liberal"
+    },
+    {
+        "entity": "Q1000683",
+        "entityLabel": "Budapest School",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1387659",
+        "valueLabel": "school of thought"
+    },
+    {
+        "entity": "Q1000683",
+        "entityLabel": "Budapest School",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q7264",
+        "valueLabel": "Marxism"
+    },
+    {
+        "entity": "Q1000683",
+        "entityLabel": "Budapest School",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9459597",
+        "valueLabel": "Category:Budapest School"
+    },
+    {
+        "entity": "Q2882044",
+        "entityLabel": "Buffy studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q2882044",
+        "entityLabel": "Buffy studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2065951",
+        "valueLabel": "television studies"
+    },
+    {
+        "entity": "Q2882044",
+        "entityLabel": "Buffy studies",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q183513",
+        "valueLabel": "Buffy the Vampire Slayer"
+    },
+    {
+        "entity": "Q2920296",
+        "entityLabel": "Captivity (animal)",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q11791865",
+        "valueLabel": "captivity"
+    },
+    {
+        "entity": "Q2920296",
+        "entityLabel": "Captivity (animal)",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q5036956",
+        "valueLabel": "Captivity"
+    },
+    {
+        "entity": "Q2920296",
+        "entityLabel": "Captivity (animal)",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q55993597",
+        "valueLabel": "Category:Animals in captivity"
+    },
+    {
+        "entity": "Q2920296",
+        "entityLabel": "Captivity (animal)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q28100974",
+        "valueLabel": "captivity"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4806809",
+        "valueLabel": "Asian studies"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q12237297",
+        "valueLabel": "languages of the Caucasus"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1377029",
+        "valueLabel": "European studies"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q10173107",
+        "valueLabel": "Category:Caucasology"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q928786",
+        "valueLabel": "area studies"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q18869",
+        "valueLabel": "Caucasus"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q116234171",
+        "valueLabel": "Caucasologist"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737632",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 5"
+    },
+    {
+        "entity": "Q113468885",
+        "entityLabel": "Celebrity Studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1002697",
+        "valueLabel": "periodical"
+    },
+    {
+        "entity": "Q5098255",
+        "entityLabel": "Children's literature criticism",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q131539",
+        "valueLabel": "children's literature"
+    },
+    {
+        "entity": "Q5098255",
+        "entityLabel": "Children's literature criticism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q58854",
+        "valueLabel": "literary criticism"
+    },
+    {
+        "entity": "Q5098255",
+        "entityLabel": "Children's literature criticism",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8359800",
+        "valueLabel": "Category:Children's literature criticism"
+    },
+    {
+        "entity": "Q18206018",
+        "entityLabel": "Classical reception studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q18206018",
+        "entityLabel": "Classical reception studies",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q123248919",
+        "valueLabel": "classical reception scholar"
+    },
+    {
+        "entity": "Q18206018",
+        "entityLabel": "Classical reception studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q841090",
+        "valueLabel": "classics"
+    },
+    {
+        "entity": "Q18206018",
+        "entityLabel": "Classical reception studies",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8879493",
+        "valueLabel": "Category:Reception of the ancient times"
+    },
+    {
+        "entity": "Q1984484",
+        "entityLabel": "Colonial mentality",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q190586",
+        "valueLabel": "neocolonialism"
+    },
+    {
+        "entity": "Q1984484",
+        "entityLabel": "Colonial mentality",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q319763",
+        "valueLabel": "inferiority complex"
+    },
+    {
+        "entity": "Q1984484",
+        "entityLabel": "Colonial mentality",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q6498273",
+        "valueLabel": "Westernization"
+    },
+    {
+        "entity": "Q1984484",
+        "entityLabel": "Colonial mentality",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q113835358",
+        "valueLabel": "psychological effects of colonization"
+    },
+    {
+        "entity": "Q257663",
+        "entityLabel": "Conceptual history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q257663",
+        "entityLabel": "Conceptual history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q39645",
+        "valueLabel": "semantics"
+    },
+    {
+        "entity": "Q257663",
+        "entityLabel": "Conceptual history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q49747820",
+        "valueLabel": "Category:Conceptual history"
+    },
+    {
+        "entity": "Q257663",
+        "entityLabel": "Conceptual history",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q151885",
+        "valueLabel": "concept"
+    },
+    {
+        "entity": "Q257663",
+        "entityLabel": "Conceptual history",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q131460199",
+        "valueLabel": "Q131460199"
+    },
+    {
+        "entity": "Q1784169",
+        "entityLabel": "Coptology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q1784169",
+        "entityLabel": "Coptology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q36155",
+        "valueLabel": "Coptic"
+    },
+    {
+        "entity": "Q1784169",
+        "entityLabel": "Coptology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q66711947",
+        "valueLabel": "Christianity of Copts"
+    },
+    {
+        "entity": "Q1784169",
+        "entityLabel": "Coptology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9641472",
+        "valueLabel": "Category:Coptology"
+    },
+    {
+        "entity": "Q1784169",
+        "entityLabel": "Coptology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q146744",
+        "valueLabel": "Copts"
+    },
+    {
+        "entity": "Q1784169",
+        "entityLabel": "Coptology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q577622",
+        "valueLabel": "Coptic art"
+    },
+    {
+        "entity": "Q1784169",
+        "entityLabel": "Coptology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q321083",
+        "valueLabel": "Coptic script"
+    },
+    {
+        "entity": "Q1784169",
+        "entityLabel": "Coptology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q439072",
+        "valueLabel": "classical studies"
+    },
+    {
+        "entity": "Q1784169",
+        "entityLabel": "Coptology",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q757248",
+        "valueLabel": "papyrology"
+    },
+    {
+        "entity": "Q1784169",
+        "entityLabel": "Coptology",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q15974789",
+        "valueLabel": "coptologist"
+    },
+    {
+        "entity": "Q1784169",
+        "entityLabel": "Coptology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q476294",
+        "valueLabel": "oriental studies"
+    },
+    {
+        "entity": "Q5186700",
+        "entityLabel": "Critical code studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2465832",
+        "valueLabel": "branch of science"
+    },
+    {
+        "entity": "Q42417332",
+        "entityLabel": "Critical university studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q42417332",
+        "entityLabel": "Critical university studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1143546",
+        "valueLabel": "cultural studies"
+    },
+    {
+        "entity": "Q918002",
+        "entityLabel": "Cultural capital",
+        "property": "P61",
+        "propertyLabel": "discoverer or inventor",
+        "value": "Q156268",
+        "valueLabel": "Pierre Bourdieu"
+    },
+    {
+        "entity": "Q918002",
+        "entityLabel": "Cultural capital",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q210272",
+        "valueLabel": "cultural heritage"
+    },
+    {
+        "entity": "Q918002",
+        "entityLabel": "Cultural capital",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1728581",
+        "valueLabel": "forms of capital"
+    },
+    {
+        "entity": "Q918002",
+        "entityLabel": "Cultural capital",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q8137",
+        "valueLabel": "capital"
+    },
+    {
+        "entity": "Q918002",
+        "entityLabel": "Cultural capital",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q134445478",
+        "valueLabel": "Q134445478"
+    },
+    {
+        "entity": "Q5193267",
+        "entityLabel": "Cultural communication",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q5193267",
+        "entityLabel": "Cultural communication",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11024",
+        "valueLabel": "communication"
+    },
+    {
+        "entity": "Q1666159",
+        "entityLabel": "Cultural competence",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5188097",
+        "valueLabel": "cross-cultural competence"
+    },
+    {
+        "entity": "Q5193272",
+        "entityLabel": "Cultural contracts",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17737",
+        "valueLabel": "theory"
+    },
+    {
+        "entity": "Q1143532",
+        "entityLabel": "Cultural criminology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q19829999",
+        "valueLabel": "cultural studies scholar"
+    }
+]

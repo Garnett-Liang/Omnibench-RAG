@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omnibench-RAG - Original Accuracy Evaluation</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #3b82f6;
+            --color-secondary: #1e40af;
+            --color-success: #10b981;
+            --color-warning: #f59e0b;
+            --color-error: #ef4444;
+            --color-info: #06b6d4;
+            --font-inter: 'Inter', sans-serif;
+        }
+        
+        @utility smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        
+        @utility card-shadow {
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+        
+        @utility card-shadow-hover {
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+        
+        @utility log-line-info {
+            color: var(--color-info);
+        }
+        
+        @utility log-line-warning {
+            color: var(--color-warning);
+        }
+        
+        @utility log-line-error {
+            color: var(--color-error);
+        }
+        
+        @utility log-line-debug {
+            color: #64748b;
+        }
+    </style>
+    <style>
+        body {
+            font-family: var(--font-inter);
+            background-color: #f8fafc;
+        }
+        
+        .log-container {
+            max-height: 400px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .progress-bar {
+            transition: width 0.5s ease-in-out;
+        }
+        
+        .dataset-item {
+            transition: transform 0.3s ease;
+        }
+        
+        .dataset-item:hover {
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .tab-content {
+                padding: 10px;
+            }
+            
+            .log-container {
+                max-height: 300px;
+            }
+        }
+    </style>
+</head>
+<body class="smooth-scroll">
+    <!-- Header Navigation -->
+    <header class="bg-primary text-white shadow-md">
+    <div class="container mx-auto px-4 py-3">
+        <nav class="flex items-center justify-between">
+            <a href="/" class="flex items-center">  
+    <i class="fas fa-arrow-left mr-2"></i>
+    <h1 class="text-xl font-bold">Back to Home</h1>
+</a>
+            <h1 class="text-xl font-bold">Original Accuracy Evaluation</h1>
+            <div></div> <!-- Placeholder to keep the title centered -->
+        </nav>
+    </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-6">
+        <!-- Evaluation Parameter Card -->
+        <div class="bg-white rounded-xl card-shadow p-6 mb-6">
+            <h2 class="text-xl font-bold text-secondary mb-4 flex items-center">
+                <i class="fas fa-sliders-h mr-2 text-primary"></i>Evaluation Parameter Settings
+            </h2>
+            
+            <div class="tab flex overflow-x-auto mb-4">
+                <button class="tablinks active px-4 py-2 border-b-2 border-primary text-primary font-medium" onclick="openTab(event, 'ruleTab')">
+                    <i class="fas fa-project-diagram mr-1"></i>Inference Rules
+                </button>
+                <button class="tablinks px-4 py-2 border-b-2 border-transparent hover:border-gray-300 text-gray-600 font-medium" onclick="openTab(event, 'domainTab')">
+                    <i class="fas fa-globe mr-1"></i>Domain Selection
+                </button>
+                <button class="tablinks px-4 py-2 border-b-2 border-transparent hover:border-gray-300 text-gray-600 font-medium" onclick="openTab(event, 'modelTab')">
+                    <i class="fas fa-microchip mr-1"></i>Model Selection
+                </button>
+                <button class="tablinks px-4 py-2 border-b-2 border-transparent hover:border-gray-300 text-gray-600 font-medium" onclick="openTab(event, 'datasetTab')">
+                    <i class="fas fa-database mr-1"></i>Dataset Selection
+                </button>
+            </div>
+            
+            <!-- Inference Rules Tab -->
+            <div id="ruleTab" class="tab-content active">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="flex items-center">
+                        <input type="radio" id="inverseRule" name="ruleChoice" value="1" class="mr-2" checked>
+                        <label for="inverseRule" class="font-medium">Inverse Inference</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="negationRule" name="ruleChoice" value="2" class="mr-2">
+                        <label for="negationRule" class="font-medium">Negation Inference</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="compositeRule" name="ruleChoice" value="3" class="mr-2">
+                        <label for="compositeRule" class="font-medium">Composite Inference</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Domain Selection Tab -->
+            <div id="domainTab" class="tab-content hidden">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="flex items-center">
+                        <input type="radio" id="geography" name="domainChoice" value="1" class="mr-2" checked>
+                        <label for="geography" class="font-medium">Geography</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="history" name="domainChoice" value="2" class="mr-2">
+                        <label for="history" class="font-medium">History</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="health" name="domainChoice" value="3" class="mr-2">
+                        <label for="health" class="font-medium">Health</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="mathematics" name="domainChoice" value="4" class="mr-2">
+                        <label for="mathematics" class="font-medium">Mathematics</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="nature" name="domainChoice" value="5" class="mr-2">
+                        <label for="nature" class="font-medium">Nature</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="people" name="domainChoice" value="6" class="mr-2">
+                        <label for="people" class="font-medium">People</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="society" name="domainChoice" value="7" class="mr-2">
+                        <label for="society" class="font-medium">Society</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="technology" name="domainChoice" value="8" class="mr-2">
+                        <label for="technology" class="font-medium">Technology</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="culture" name="domainChoice" value="9" class="mr-2">
+                        <label for="culture" class="font-medium">Culture</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Model Selection Tab -->
+            <div id="modelTab" class="tab-content hidden">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="flex items-center">
+                        <input type="radio" id="qwenModel" name="modelChoice" value="1" class="mr-2" checked>
+                        <label for="qwenModel" class="font-medium">Qwen/Qwen-1_8B</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="gpt2Model" name="modelChoice" value="2" class="mr-2">
+                        <label for="gpt2Model" class="font-medium">GPT-2 (gpt2-medium)</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="gptNeoModel" name="modelChoice" value="3" class="mr-2">
+                        <label for="gptNeoModel" class="font-medium">EleutherAI GPT-Neo (125M)</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dataset Selection Tab -->
+            <div id="datasetTab" class="tab-content hidden">
+                <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                    <h3 class="font-medium text-secondary mb-3">Dataset Source Selection</h3>
+                    <div class="flex items-center mb-2">
+                        <input type="radio" id="existingDataset" name="datasetSource" value="existing" class="mr-2" checked>
+                        <label for="existingDataset" class="font-medium">Use Existing Dataset <span class="text-sm text-gray-500 ml-2">(Quick loading, suitable for testing)</span></label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="newDataset" name="datasetSource" value="new" class="mr-2">
+                        <label for="newDataset" class="font-medium">Dynamically Generate New Dataset <span class="text-sm text-gray-500 ml-2">(Time-consuming, full process)</span></label>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600"><i class="fas fa-info-circle text-info mr-1"></i> Selecting "Dynamically Generate New Dataset" will execute the full data generation process, including knowledge extraction, logical reasoning, and question generation, which may take a long time.</p>
+            </div>
+            
+            <!-- Operation Buttons -->
+            <div class="flex flex-col sm:flex-row gap-3 mt-6">
+                <button id="startEvaluation" class="bg-primary hover:bg-secondary text-white font-medium py-2 px-6 rounded-lg flex-1 flex items-center justify-center">
+                    <i class="fas fa-play mr-2"></i> Start Evaluation
+                </button>
+                <button id="clearResults" class="bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 px-6 rounded-lg flex-1 flex items-center justify-center">
+                    <i class="fas fa-trash mr-2"></i> Clear Results
+                </button>
+            </div>
+        </div>
+        
+        <!-- Progress Card -->
+        <div class="bg-white rounded-xl card-shadow p-6 mb-6">
+            <h2 class="text-xl font-bold text-secondary mb-4 flex items-center">
+                <i class="fas fa-spinner mr-2 text-primary"></i>Evaluation Progress
+            </h2>
+            <div class="mb-4">
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div id="progressBar" class="bg-primary h-2.5 rounded-full progress-bar" style="width: 0%"></div>
+                </div>
+                <div id="progressMessage" class="text-gray-600 mt-2">Ready to start evaluation...</div>
+            </div>
+        </div>
+        
+        <!-- Log Card -->
+        <div class="bg-white rounded-xl card-shadow p-6 mb-6">
+            <h2 class="text-xl font-bold text-secondary mb-4 flex items-center">
+                <i class="fas fa-terminal mr-2 text-primary"></i>Evaluation Logs
+            </h2>
+            <div id="logContainer" class="log-container border border-gray-200 rounded-lg p-3 text-sm">
+                <p class="text-gray-500">Click the "Start Evaluation" button to begin the evaluation process, and the logs will be displayed here...</p>
+            </div>
+        </div>
+        
+        <!-- Dataset Sample Card -->
+        <div class="bg-white rounded-xl card-shadow p-6 mb-6">
+            <h2 class="text-xl font-bold text-secondary mb-4 flex items-center">
+                <i class="fas fa-table mr-2 text-primary"></i>Dataset Samples
+            </h2>
+            <div id="datasetSample" class="hidden">
+                <div class="bg-green-50 border-l-4 border-success p-4 mb-4">
+                    <h3 class="font-medium text-success mb-2">Loaded Dataset Samples</h3>
+                    <p class="text-sm text-gray-600">The following are the first 5 question and answer samples loaded:</p>
+                </div>
+                <div id="sampleItems" class="space-y-3"></div>
+            </div>
+            <div id="noSample" class="text-gray-500 py-4">
+                Dataset samples will be displayed after the evaluation is completed...
+            </div>
+        </div>
+        
+        <!-- Result Card -->
+        <div class="bg-white rounded-xl card-shadow p-6">
+            <h2 class="text-xl font-bold text-secondary mb-4 flex items-center">
+                <i class="fas fa-chart-line mr-2 text-primary"></i>Evaluation Results
+            </h2>
+            <div id="resultsContainer" class="py-6">
+                <p class="text-gray-500 text-center py-10">Results will be displayed here after the evaluation is completed...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-100 border-t border-gray-200 mt-12 py-4">
+        <div class="container mx-auto px-4 text-center text-gray-500 text-sm">
+            <p>© 2024 AI Model Accuracy Evaluation System. All rights reserved.</p>
+        </div>
+    </footer>
+
+<script>
+    function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+                tabcontent[i].classList.add("hidden");
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+                tablinks[i].classList.remove("border-primary");
+                tablinks[i].classList.add("border-transparent");
+                tablinks[i].classList.remove("text-primary");
+                tablinks[i].classList.add("text-gray-600");
+            }
+            document.getElementById(tabName).classList.add("active");
+            document.getElementById(tabName).classList.remove("hidden");
+            evt.currentTarget.classList.add("active");
+            evt.currentTarget.classList.add("border-primary");
+            evt.currentTarget.classList.remove("border-transparent");
+            evt.currentTarget.classList.add("text-primary");
+            evt.currentTarget.classList.remove("text-gray-600");
+        }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const startButton = document.getElementById('startEvaluation');
+        const clearButton = document.getElementById('clearResults');
+        const progressBar = document.getElementById('progressBar');
+        const progressMessage = document.getElementById('progressMessage');
+        const logContainer = document.getElementById('logContainer');
+        const datasetSample = document.getElementById('datasetSample');
+        const noSample = document.getElementById('noSample');
+        const sampleItems = document.getElementById('sampleItems');
+        const resultsContainer = document.getElementById('resultsContainer');
+        
+        let logFile = null;
+        let logPollingInterval = null;
+        let datasetSource = 'existing';
+
+        let currentRule = null;
+        let currentDomain = null;
+        
+        // Listen for dataset source selection
+        const datasetRadios = document.getElementsByName('datasetSource');
+        datasetRadios.forEach(radio => {
+            radio.addEventListener('change', function() {
+                datasetSource = this.value;
+            });
+        });
+        
+        // Start evaluation button click event
+        startButton.addEventListener('click', function() {
+            // Get selected parameters
+            const ruleChoice = document.querySelector('input[name="ruleChoice"]:checked').value;
+            const domainChoice = document.querySelector('input[name="domainChoice"]:checked').value;
+            const modelChoice = document.querySelector('input[name="modelChoice"]:checked').value;
+            
+            // Save current rule and domain (convert to actual names, e.g., "inverse" instead of "1")
+            const ruleMap = {"1": "inverse", "2": "negation", "3": "composite"};
+            const domainMap = {
+                "1": "geography", "2": "history", "3": "health", 
+                "4": "mathematics", "5": "nature", "6": "people", 
+                "7": "society", "8": "technology", "9": "culture"
+            };
+            currentRule = ruleMap[ruleChoice];
+            currentDomain = domainMap[domainChoice];
+            
+            // Validate parameters
+            if (!ruleChoice || !domainChoice || !modelChoice) {
+                alert('Please select all evaluation parameters');
+                return;
+            }
+            
+            // Reset the interface
+            progressBar.style.width = '0%';
+            progressMessage.textContent = 'Evaluation has started, processing...';
+            logContainer.innerHTML = '<p class="log-line log-info"><i class="fas fa-spinner fa-spin mr-1"></i> Evaluation is starting, please wait...</p>';
+            datasetSample.classList.add('hidden');
+            noSample.classList.remove('hidden');
+            resultsContainer.innerHTML = '<p class="text-gray-500 text-center py-10"><i class="fas fa-spinner fa-spin mr-1"></i> Evaluation is in progress, results will be displayed here...</p>';
+            startButton.disabled = true;
+            startButton.classList.add('opacity-50', 'cursor-not-allowed');
+            clearButton.disabled = true;
+            
+            // Send evaluation request
+            fetch('/api/evaluate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    rule_choice: ruleChoice,
+                    domain_choice: domainChoice,
+                    model_choice: modelChoice,
+                    dataset_source: datasetSource
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'processing') {
+                    logFile = data.log_file;
+                    console.log('Log file:', logFile);
+                    
+                    // Periodically fetch logs and progress
+                    logPollingInterval = setInterval(function() {
+                        fetchLogAndProgress(logFile);
+                    }, 1000); // Fetch once per second
+                } else {
+                    progressMessage.textContent = 'Request processing error: ' + data.message;
+                    logContainer.innerHTML = `<p class="log-line log-error">${data.message}</p>`;
+                    startButton.disabled = false;
+                    startButton.classList.remove('opacity-50', 'cursor-not-allowed');
+                    clearButton.disabled = false;
+                }
+            })
+            .catch(error => {
+                console.error('Error sending request:', error);
+                progressMessage.textContent = 'Error sending request: ' + error.message;
+                logContainer.innerHTML = `<p class="log-line log-error">Error sending request: ${error.message}</p>`;
+                startButton.disabled = false;
+                startButton.classList.remove('opacity-50', 'cursor-not-allowed');
+                clearButton.disabled = false;
+            });
+        });
+        
+         clearButton.addEventListener('click', function() {
+                if (logPollingInterval) {
+                    clearInterval(logPollingInterval);
+                }
+                progressBar.style.width = '0%';
+                progressMessage.textContent = 'Ready to start evaluation...';
+                logContainer.innerHTML = '<p class="text-gray-500">Click the "Start Evaluation" button to begin the evaluation process, and the logs will be displayed here...</p>';
+                datasetSample.classList.add('hidden');
+                noSample.classList.remove('hidden');
+                resultsContainer.innerHTML = '<p class="text-gray-500 text-center py-10">Results will be displayed here after the evaluation is completed...</p>';
+                logFile = null;
+                startButton.disabled = false;
+                startButton.classList.remove('opacity-50', 'cursor-not-allowed');
+                clearButton.disabled = false;
+            });
+            
+            // Fetch logs and progress
+            function fetchLogAndProgress(logFile) {
+                if (!logFile) return;
+                
+                // Fetch progress and logs in parallel
+                Promise.all([
+                    fetch(`/api/progress/${logFile}`).then(res => res.json()),
+                    fetch(`/api/logs/${logFile}`).then(res => res.json())
+                ])
+                .then(([progressData, logData]) => {
+                    // Update progress
+                    progressBar.style.width = progressData.progress + '%';
+                    progressMessage.textContent = progressData.message;
+                    
+                    // Update logs
+                    displayLogs(logData.logs);
+                    
+                    // Check for dataset samples
+                    if (progressData.progress > 50 && !datasetSample.classList.contains('show')) {
+                        fetchDatasetSample(logFile);
+                    }
+                    
+                    // Check if evaluation is completed
+                    if (progressData.progress >= 100 || logData.logs.includes('Evaluation completed') || logData.logs.includes('Evaluation results:')) {
+                        clearInterval(logPollingInterval);
+                        fetchResults(logFile);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching logs/progress:', error);
+                });
+            }
+            
+            // Display logs
+            function displayLogs(logs) {
+                if (!logs) return;
+                
+                logContainer.innerHTML = '';
+                const logLines = logs.split('\n');
+                
+                logLines.forEach(line => {
+                    if (line.trim() === '') return;
+                    
+                    const logLine = document.createElement('p');
+                    logLine.className = 'log-line mb-1';
+                    
+                    if (line.includes('Error:') || line.includes('错误:') || line.includes('异常:') || line.includes('失败:')) {
+                        logLine.className += ' log-line-error';
+                    } else if (line.includes('Warning:') || line.includes('注意:')) {
+                        logLine.className += ' log-line-warning';
+                    } else if (line.includes('Saved') || line.includes('Completed') || line.includes('Success') || line.includes('Loaded')) {
+                        logLine.className += ' log-line-info';
+                    } else {
+                        logLine.className += ' log-line-debug';
+                    }
+                    
+                    logLine.textContent = line;
+                    logContainer.appendChild(logLine);
+                });
+                
+                // Scroll to the bottom
+                logContainer.scrollTop = logContainer.scrollHeight;
+            }
+        
+        // Fetch dataset samples
+        function fetchDatasetSample() {
+            // Ensure rule and domain are correctly obtained
+            if (!currentRule || !currentDomain) {
+                console.log('Rule or domain information not obtained, unable to load dataset samples');
+                return;
+            }
+            
+            // Call the modified dataset interface: /api/dataset/<rule>/<domain>
+            fetch(`/api/dataset/${currentRule}/${currentDomain}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        datasetSample.classList.remove('hidden');
+                        noSample.classList.add('hidden');
+                        sampleItems.innerHTML = '';
+                        
+                        // Display sample data (matches the backend return format)
+                        data.questions.forEach((question, index) => {
+                            const item = document.createElement('div');
+                            item.className = 'dataset-item bg-white p-3 rounded-lg border border-gray-100';
+                            item.innerHTML = `
+                                <div class="dataset-question font-medium">Question ${index + 1}:</div>
+                                <div class="dataset-answer text-gray-700 text-sm mt-1">${question}</div>
+                                <div class="dataset-answer text-gray-700 mt-2">
+                                    <span class="font-medium">Reference Answer:</span> ${data.answers[index]}
+                                </div>
+                            `;
+                            sampleItems.appendChild(item);
+                        });
+                        
+                        // Display dataset statistics
+                        const statsDiv = document.createElement('div');
+                        statsDiv.className = 'mt-4 p-2 bg-gray-50 rounded text-sm text-gray-600';
+                        statsDiv.innerHTML = `
+                            <p><i class="fas fa-info-circle mr-1 text-info"></i> 
+                            A total of ${data.total_size} data items are loaded, showing the first ${data.sample_size} samples</p>
+                        `;
+                        sampleItems.appendChild(statsDiv);
+                    } else {
+                        console.log('Failed to fetch dataset samples:', data.message);
+                        datasetSample.classList.add('hidden');
+                        noSample.classList.remove('hidden');
+                        noSample.textContent = `Failed to load dataset samples: ${data.message}`;
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching dataset samples:', error);
+                    noSample.textContent = `An error occurred while loading dataset samples: ${error.message}`;
+                });
+        }
+        
+        // Fetch evaluation results
+function fetchResults(logFile) {
+    fetch(`/api/results/${logFile}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                progressMessage.textContent = 'Evaluation completed';
+                
+                // 模型信息（不变）
+                const modelChoice = document.querySelector('input[name="modelChoice"]:checked').value;
+                const modelMap = {
+                    "1": "Qwen/Qwen-1_8B",
+                    "2": "gpt2-medium",
+                    "3": "EleutherAI/gpt-neo-125M"
+                };
+                const modelName = modelMap[modelChoice] || 'Unknown Model';
+                
+                // 构建结果HTML
+                let resultsHTML = `
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <div class="text-sm text-blue-600 mb-1">Inference Rule</div>
+                            <div class="text-lg font-medium">${getRuleName(currentRule)}</div>
+                        </div>
+                        <div class="bg-green-50 p-4 rounded-lg">
+                            <div class="text-sm text-green-600 mb-1">Evaluation Domain</div>
+                            <div class="text-lg font-medium">${getDomainName(currentDomain)}</div>
+                        </div>
+                        <div class="bg-purple-50 p-4 rounded-lg">
+                            <div class="text-sm text-purple-600 mb-1">Evaluation Model</div>
+                            <div class="text-lg font-medium">${modelName}</div>
+                        </div>
+                    </div>
+                `;
+                
+                // 准确率展示（不变）
+                const resultData = data.evaluation_result;
+                resultsHTML += `
+                    <div class="text-center mb-8">
+                        <div class="text-4xl font-bold text-secondary mb-2">
+                            ${resultData?.basic_accuracy !== undefined ? (resultData.basic_accuracy).toFixed(2) : '0.00'}%
+                        </div>
+                        <div class="text-gray-600">Model Accuracy</div>
+                    </div>
+                `;
+
+                // 新增：效率指标展示（响应时间、内存使用、GPU利用率）
+                resultsHTML += `
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                        <div class="bg-yellow-50 p-4 rounded-lg">
+                            <div class="text-sm text-yellow-600 mb-1">Avg Response Time</div>
+                            <div class="text-lg font-medium">
+                                ${resultData?.average_response_time !== undefined 
+                                    ? resultData.average_response_time.toFixed(4) + 's' 
+                                    : 'N/A'}
+                            </div>
+                        </div>
+                        <div class="bg-indigo-50 p-4 rounded-lg">
+                            <div class="text-sm text-indigo-600 mb-1">Avg Memory Usage</div>
+                            <div class="text-lg font-medium">
+                                ${resultData?.average_memory_usage !== undefined 
+                                    ? resultData.average_memory_usage.toFixed(4) + ' MB' 
+                                    : 'N/A'}
+                            </div>
+                        </div>
+                        <div class="bg-red-50 p-4 rounded-lg">
+                            <div class="text-sm text-red-600 mb-1">Avg GPU Utilization</div>
+                            <div class="text-lg font-medium">
+                                ${resultData?.average_gpu_utilization !== undefined 
+                                    ? resultData.average_gpu_utilization.toFixed(2) + '%' 
+                                    : 'N/A'}
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                // 样本展示（不变，适配新结构）
+                const samples = resultData.questions || [];
+                if (samples.length > 0) {
+                    samples.slice(0, 3).forEach((sample, index) => {
+                        const isCorrect = sample.is_correct;
+                        const correctnessClass = isCorrect ? 'text-success' : 'text-error';
+                        const correctnessIcon = isCorrect ? 
+                                            '<i class="fas fa-check-circle mr-1"></i>' : 
+                                            '<i class="fas fa-times-circle mr-1"></i>';
+                        
+                        resultsHTML += `
+                            <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                                <div class="font-medium text-primary mb-2">
+                                    Sample ${index + 1} ${correctnessIcon}<span class="${correctnessClass}">
+                                        ${isCorrect ? 'Answered Correctly' : 'Answered Incorrectly'}
+                                    </span>
+                                </div>
+                                <div class="mb-2">
+                                    <span class="font-medium">Question:</span> ${sample.question || 'No question content'}
+                                </div>
+                                <div class="mb-2">
+                                    <span class="font-medium">Reference Answer:</span> ${sample.reference_answer || 'No reference answer'}
+                                </div>
+                                <div>
+                                    <span class="font-medium">Model Answer:</span> ${sample.model_answer || 'No model answer'}
+                                </div>
+                            </div>
+                        `;
+                    });
+                } else {
+                    resultsHTML += `
+                        <div class="text-center text-gray-500 py-4">No evaluation sample data found</div>
+                    `;
+                }
+                
+                // 结果文件路径（不变）
+                resultsHTML += `
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm text-gray-600">
+                        <i class="fas fa-file-code mr-1 text-info"></i>
+                        Evaluation results have been saved to: ${data.result_file || 'Unknown path'}
+                    </div>
+                `;
+                
+                resultsContainer.innerHTML = resultsHTML;
+                fetchDatasetSample();
+            } else if (data.status === 'error') {
+                progressMessage.textContent = 'Evaluation error: ' + data.message;
+                resultsContainer.innerHTML = `
+                    <div class="bg-red-50 border-l-4 border-error p-4">
+                        <h3 class="font-medium text-error mb-2">Evaluation Error</h3>
+                        <p class="text-gray-700">${data.message}</p>
+                    </div>
+                `;
+            } else {
+                resultsContainer.innerHTML = `<div class="text-center text-gray-500 py-10">${data.message || 'Waiting for evaluation results...'}</div>`;
+            }
+            
+            startButton.disabled = false;
+            startButton.classList.remove('opacity-50', 'cursor-not-allowed');
+            clearButton.disabled = false;
+        })
+        .catch(error => {
+            console.error('Error fetching results:', error);
+            resultsContainer.innerHTML = `<div class="bg-red-50 border-l-4 border-error p-4">
+                <h3 class="font-medium text-error mb-2">Error Fetching Results</h3>
+                <p class="text-gray-700">${error.message}</p>
+            </div>`;
+            startButton.disabled = false;
+            startButton.classList.remove('opacity-50', 'cursor-not-allowed');
+            clearButton.disabled = false;
+        });
+}
+
+// 辅助函数（不变）
+function getRuleName(ruleValue) {
+    const ruleMap = {
+        "inverse": "Inverse Inference",
+        "negation": "Negation Inference",
+        "composite": "Composite Inference"
+    };
+    return ruleMap[ruleValue] || ruleValue;
+}
+
+function getDomainName(domainValue) {
+    const domainMap = {
+        "1": "Geography",
+        "2": "History",
+        "3": "Health",
+        "4": "Mathematics",
+        "5": "Nature",
+        "6": "People",
+        "7": "Society",
+        "8": "Technology",
+        "9": "Culture"
+    };
+    return domainMap[domainValue] || domainValue;
+}});
+</script>

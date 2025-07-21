@@ -1,0 +1,3866 @@
+[
+    {
+        "entity": "Q3823319",
+        "entityLabel": "Ancient Egyptian technology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7000786",
+        "valueLabel": "Category:Ancient Egyptian technology"
+    },
+    {
+        "entity": "Q4704909",
+        "entityLabel": "Ancient Greek technology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7036786",
+        "valueLabel": "Category:Ancient Greek technology"
+    },
+    {
+        "entity": "Q4704909",
+        "entityLabel": "Ancient Greek technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q4704909",
+        "entityLabel": "Ancient Greek technology",
+        "property": "P2596",
+        "propertyLabel": "culture",
+        "value": "Q11772",
+        "valueLabel": "Ancient Greece"
+    },
+    {
+        "entity": "Q17073664",
+        "entityLabel": "Inca technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q17073664",
+        "entityLabel": "Inca technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q17073664",
+        "entityLabel": "Inca technology",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q28573",
+        "valueLabel": "Inca Empire"
+    },
+    {
+        "entity": "Q3180036",
+        "entityLabel": "Medieval technology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8833357",
+        "valueLabel": "Category:Technology in the Middle Ages"
+    },
+    {
+        "entity": "Q3180036",
+        "entityLabel": "Medieval technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q3180036",
+        "entityLabel": "Medieval technology",
+        "property": "P2348",
+        "propertyLabel": "time period",
+        "value": "Q12554",
+        "valueLabel": "Middle Ages"
+    },
+    {
+        "entity": "Q7112702",
+        "entityLabel": "Prehistoric technology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6864275",
+        "valueLabel": "Category:Prehistoric technology"
+    },
+    {
+        "entity": "Q7112702",
+        "entityLabel": "Prehistoric technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q112057532",
+        "valueLabel": "type of technology"
+    },
+    {
+        "entity": "Q7112702",
+        "entityLabel": "Prehistoric technology",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q18607664",
+        "valueLabel": "Template:Prehistoric technology"
+    },
+    {
+        "entity": "Q7112702",
+        "entityLabel": "Prehistoric technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q15855916",
+        "entityLabel": "Outline of prehistoric technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q15855916",
+        "entityLabel": "Outline of prehistoric technology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8792730",
+        "valueLabel": "Category:Primitive technology"
+    },
+    {
+        "entity": "Q7312473",
+        "entityLabel": "Renaissance technology",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q465352",
+        "valueLabel": "history of technology"
+    },
+    {
+        "entity": "Q7312473",
+        "entityLabel": "Renaissance technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q9031060",
+        "entityLabel": "History of timekeeping devices in Egypt",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q3499620",
+        "entityLabel": "Alternative technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q96572804",
+        "entityLabel": "Animal technology",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q96572817",
+        "valueLabel": "animal technician"
+    },
+    {
+        "entity": "Q96572804",
+        "entityLabel": "Animal technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q21012419",
+        "valueLabel": "animal care"
+    },
+    {
+        "entity": "Q96572804",
+        "entityLabel": "Animal technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q96572804",
+        "entityLabel": "Animal technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q4787070",
+        "entityLabel": "Architectural technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q4787070",
+        "entityLabel": "Architectural technology",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q12271",
+        "valueLabel": "architecture"
+    },
+    {
+        "entity": "Q4787070",
+        "entityLabel": "Architectural technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q4787070",
+        "entityLabel": "Architectural technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q12271",
+        "valueLabel": "architecture"
+    },
+    {
+        "entity": "Q4787070",
+        "entityLabel": "Architectural technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q112057532",
+        "valueLabel": "type of technology"
+    },
+    {
+        "entity": "Q16930522",
+        "entityLabel": "Creative technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q1192297",
+        "entityLabel": "Disruptive innovation",
+        "property": "P61",
+        "propertyLabel": "discoverer or inventor",
+        "value": "Q5130292",
+        "valueLabel": "Clayton Christensen"
+    },
+    {
+        "entity": "Q1192297",
+        "entityLabel": "Disruptive innovation",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q17008061",
+        "valueLabel": "creative disruption"
+    },
+    {
+        "entity": "Q1192297",
+        "entityLabel": "Disruptive innovation",
+        "property": "P1542",
+        "propertyLabel": "has effect",
+        "value": "Q2956685",
+        "valueLabel": "disruption"
+    },
+    {
+        "entity": "Q1192297",
+        "entityLabel": "Disruptive innovation",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q376657",
+        "valueLabel": "strategic management"
+    },
+    {
+        "entity": "Q1192297",
+        "entityLabel": "Disruptive innovation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q174165",
+        "valueLabel": "innovation"
+    },
+    {
+        "entity": "Q5357718",
+        "entityLabel": "Electrical engineering technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q5375154",
+        "entityLabel": "Enabling technology",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q932522",
+        "valueLabel": "strategic planning"
+    },
+    {
+        "entity": "Q5375154",
+        "entityLabel": "Enabling technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q5380492",
+        "entityLabel": "Entertainment technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q5380492",
+        "entityLabel": "Entertainment technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q5380492",
+        "entityLabel": "Entertainment technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q466410",
+        "entityLabel": "High tech",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q112057532",
+        "valueLabel": "type of technology"
+    },
+    {
+        "entity": "Q466410",
+        "entityLabel": "High tech",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9841082",
+        "valueLabel": "Q9841082"
+    },
+    {
+        "entity": "Q466410",
+        "entityLabel": "High tech",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q786887",
+        "valueLabel": "low technology"
+    },
+    {
+        "entity": "Q466410",
+        "entityLabel": "High tech",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q10952243",
+        "entityLabel": "Industrial technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q10952243",
+        "entityLabel": "Industrial technology",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q11049265",
+        "valueLabel": "manufacturing engineering"
+    },
+    {
+        "entity": "Q10952243",
+        "entityLabel": "Industrial technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q112057532",
+        "valueLabel": "type of technology"
+    },
+    {
+        "entity": "Q786887",
+        "entityLabel": "Low technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q786887",
+        "entityLabel": "Low technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q112057532",
+        "valueLabel": "type of technology"
+    },
+    {
+        "entity": "Q786887",
+        "entityLabel": "Low technology",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q26384",
+        "valueLabel": "do it yourself"
+    },
+    {
+        "entity": "Q786887",
+        "entityLabel": "Low technology",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q466410",
+        "valueLabel": "high tech"
+    },
+    {
+        "entity": "Q6764311",
+        "entityLabel": "Marine technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q6764311",
+        "entityLabel": "Marine technology",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q351363",
+        "valueLabel": "seamanship"
+    },
+    {
+        "entity": "Q1484779",
+        "entityLabel": "Microtechnology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9805826",
+        "valueLabel": "Category:Microtechnology"
+    },
+    {
+        "entity": "Q1484779",
+        "entityLabel": "Microtechnology",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q16011777",
+        "valueLabel": "Template:Microtechnology"
+    },
+    {
+        "entity": "Q1484779",
+        "entityLabel": "Microtechnology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q112057532",
+        "valueLabel": "type of technology"
+    },
+    {
+        "entity": "Q1484779",
+        "entityLabel": "Microtechnology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q4378395",
+        "entityLabel": "Open-source appropriate technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q112057532",
+        "valueLabel": "type of technology"
+    },
+    {
+        "entity": "Q4378395",
+        "entityLabel": "Open-source appropriate technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q537823",
+        "valueLabel": "appropriate technology"
+    },
+    {
+        "entity": "Q4378395",
+        "entityLabel": "Open-source appropriate technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q124650707",
+        "valueLabel": "open source technology"
+    },
+    {
+        "entity": "Q14898686",
+        "entityLabel": "Subsea technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q14898686",
+        "entityLabel": "Subsea technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q268592",
+        "valueLabel": "industry"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q1930187",
+        "valueLabel": "journalist"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q115160290",
+        "valueLabel": "literary activity"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q14686193",
+        "valueLabel": "Marjory Stoneman Douglas High School"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q36180",
+        "valueLabel": "writer"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q213181",
+        "valueLabel": "Darlington"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q11030",
+        "valueLabel": "journalism"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q2526255",
+        "valueLabel": "film director"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q69423232",
+        "valueLabel": "film screenwriter"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q3282637",
+        "valueLabel": "film producer"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q578109",
+        "valueLabel": "television producer"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P551",
+        "propertyLabel": "residence",
+        "value": "Q65",
+        "valueLabel": "Los Angeles"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "255716",
+        "valueLabel": "255716"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P937",
+        "propertyLabel": "work location",
+        "value": "Q62",
+        "valueLabel": "San Francisco"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "250175",
+        "valueLabel": "250175"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "245162",
+        "valueLabel": "245162"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q37279649",
+        "valueLabel": "Bilton"
+    },
+    {
+        "entity": "Q7026784",
+        "entityLabel": "Nick Bilton",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q13137230",
+        "valueLabel": "Nick"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q1084472",
+        "valueLabel": "Christopher"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q740308",
+        "valueLabel": "UNICEF"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q258464",
+        "valueLabel": "Trinity College Dublin"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q12765690",
+        "valueLabel": "Fabian"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "10651",
+        "valueLabel": "10651"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q469476",
+        "valueLabel": "The American University in Cairo"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "10974",
+        "valueLabel": "10974"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q60",
+        "valueLabel": "New York City"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "10094",
+        "valueLabel": "10094"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q15039928",
+        "entityLabel": "Christopher Fabian",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q81096",
+        "valueLabel": "engineer"
+    },
+    {
+        "entity": "Q135224698",
+        "entityLabel": "Yannik Heinze",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q135224698",
+        "entityLabel": "Yannik Heinze",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q135224698",
+        "entityLabel": "Yannik Heinze",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q2961975",
+        "valueLabel": "business executive"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q19688407",
+        "valueLabel": "Ellis"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q21482757",
+        "valueLabel": "Horowitz"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q371625",
+        "valueLabel": "Brooklyn College"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P551",
+        "propertyLabel": "residence",
+        "value": "Q1370207",
+        "valueLabel": "Pacific Palisades"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q4614",
+        "valueLabel": "University of Southern California"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q60",
+        "valueLabel": "New York City"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q175263",
+        "valueLabel": "data structure"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q6138769",
+        "valueLabel": "James Madison High School"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q838330",
+        "valueLabel": "University of Wisconsin\u2013Madison"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P184",
+        "propertyLabel": "doctoral advisor",
+        "value": "Q16090778",
+        "valueLabel": "George E. Collins"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q92684",
+        "valueLabel": "Sartaj Sahni"
+    },
+    {
+        "entity": "Q18631179",
+        "entityLabel": "Ellis Horowitz",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q82594",
+        "valueLabel": "computer scientist"
+    },
+    {
+        "entity": "Q64853131",
+        "entityLabel": "Boon Thau Loo",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q168756",
+        "valueLabel": "University of California, Berkeley"
+    },
+    {
+        "entity": "Q64853131",
+        "entityLabel": "Boon Thau Loo",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q36180",
+        "valueLabel": "writer"
+    },
+    {
+        "entity": "Q64853131",
+        "entityLabel": "Boon Thau Loo",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q64853131",
+        "entityLabel": "Boon Thau Loo",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q64853131",
+        "entityLabel": "Boon Thau Loo",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q41506",
+        "valueLabel": "Stanford University"
+    },
+    {
+        "entity": "Q64853131",
+        "entityLabel": "Boon Thau Loo",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q334",
+        "valueLabel": "Singapore"
+    },
+    {
+        "entity": "Q64853131",
+        "entityLabel": "Boon Thau Loo",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q49117",
+        "valueLabel": "University of Pennsylvania"
+    },
+    {
+        "entity": "Q6722390",
+        "entityLabel": "Mac the Knife",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q6934877",
+        "valueLabel": "multiple-use name"
+    },
+    {
+        "entity": "Q6722390",
+        "entityLabel": "Mac the Knife",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q3402519",
+        "valueLabel": "computer magazine"
+    },
+    {
+        "entity": "Q6722390",
+        "entityLabel": "Mac the Knife",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q41298",
+        "valueLabel": "magazine"
+    },
+    {
+        "entity": "Q6722390",
+        "entityLabel": "Mac the Knife",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q19913602",
+        "valueLabel": "house name"
+    },
+    {
+        "entity": "Q110822323",
+        "entityLabel": "Clement Ogaja",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q114",
+        "valueLabel": "Kenya"
+    },
+    {
+        "entity": "Q110822323",
+        "entityLabel": "Clement Ogaja",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q1026919",
+        "valueLabel": "California State University, Fresno"
+    },
+    {
+        "entity": "Q110822323",
+        "entityLabel": "Clement Ogaja",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q18180121",
+        "valueLabel": "Clement"
+    },
+    {
+        "entity": "Q110822323",
+        "entityLabel": "Clement Ogaja",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q110822323",
+        "entityLabel": "Clement Ogaja",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q734764",
+        "valueLabel": "University of New South Wales"
+    },
+    {
+        "entity": "Q110822323",
+        "entityLabel": "Clement Ogaja",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q110822323",
+        "entityLabel": "Clement Ogaja",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q294126",
+        "valueLabel": "surveyor"
+    },
+    {
+        "entity": "Q110822323",
+        "entityLabel": "Clement Ogaja",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q649998",
+        "valueLabel": "University of Nairobi"
+    },
+    {
+        "entity": "Q110822323",
+        "entityLabel": "Clement Ogaja",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q1325925",
+        "valueLabel": "Geoscience Australia"
+    },
+    {
+        "entity": "Q110822323",
+        "entityLabel": "Clement Ogaja",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q214700",
+        "valueLabel": "National Oceanic and Atmospheric Administration"
+    },
+    {
+        "entity": "Q5079973",
+        "entityLabel": "Charles L. Perkins",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q2958359",
+        "valueLabel": "Charles"
+    },
+    {
+        "entity": "Q5079973",
+        "entityLabel": "Charles L. Perkins",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q5079973",
+        "entityLabel": "Charles L. Perkins",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q2071244",
+        "valueLabel": "Perkins"
+    },
+    {
+        "entity": "Q5079973",
+        "entityLabel": "Charles L. Perkins",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q81096",
+        "valueLabel": "engineer"
+    },
+    {
+        "entity": "Q5079973",
+        "entityLabel": "Charles L. Perkins",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q1276338",
+        "valueLabel": "Keble College"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q1930187",
+        "valueLabel": "journalist"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q1247373",
+        "valueLabel": "Harrow School"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q84",
+        "valueLabel": "London"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q16023665",
+        "valueLabel": "venture capitalist"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q796078",
+        "valueLabel": "MIT Technology Review"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "28358",
+        "valueLabel": "28358"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "27937",
+        "valueLabel": "27937"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q2630093",
+        "valueLabel": "Jason"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P6872",
+        "propertyLabel": "has written for",
+        "value": "Q520154",
+        "valueLabel": "Wired"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P551",
+        "propertyLabel": "residence",
+        "value": "Q100",
+        "valueLabel": "Boston"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "28605",
+        "valueLabel": "28605"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P6872",
+        "propertyLabel": "has written for",
+        "value": "Q9684",
+        "valueLabel": "The New York Times"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "28985",
+        "valueLabel": "28985"
+    },
+    {
+        "entity": "Q6163277",
+        "entityLabel": "Jason Pontin",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q42145879",
+        "valueLabel": "Pontin"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q801",
+        "valueLabel": "Israel"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q2349394",
+        "valueLabel": "Virtual learning environment"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q591115",
+        "valueLabel": "University of Haifa"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q801",
+        "valueLabel": "Israel"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P26",
+        "propertyLabel": "spouse",
+        "value": "Q6975408",
+        "valueLabel": "Anat Rafaeli"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q41506",
+        "valueLabel": "Stanford University"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q309331",
+        "valueLabel": "Ohio State University"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q82594",
+        "valueLabel": "computer scientist"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q1650915",
+        "valueLabel": "researcher"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q1086863",
+        "valueLabel": "columnist"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q5176480",
+        "valueLabel": "Shenkar College of Engineering and Design"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q591115",
+        "valueLabel": "University of Haifa"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P22",
+        "propertyLabel": "father",
+        "value": "Q12403968",
+        "valueLabel": "Eliezer Rafaeli"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q230492",
+        "valueLabel": "University of Michigan"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q1930187",
+        "valueLabel": "journalist"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P937",
+        "propertyLabel": "work location",
+        "value": "Q1218",
+        "valueLabel": "Jerusalem"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P3373",
+        "propertyLabel": "sibling",
+        "value": "Q47821198",
+        "valueLabel": "Eshkol Rafaeli"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P937",
+        "propertyLabel": "work location",
+        "value": "Q41621",
+        "valueLabel": "Haifa"
+    },
+    {
+        "entity": "Q7493196",
+        "entityLabel": "Sheizaf Rafaeli",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q9288",
+        "valueLabel": "Hebrew"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q238101",
+        "valueLabel": "University of Minnesota"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102308763",
+        "valueLabel": "Srijit Kamath"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330435",
+        "valueLabel": "Jin Woon Woo"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330466",
+        "valueLabel": "Seonghun Cho"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330464",
+        "valueLabel": "Venkat Narayan Thanvantri"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330471",
+        "valueLabel": "Edward Yu Cheuk Cheng"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q49115",
+        "valueLabel": "Cornell University"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330416",
+        "valueLabel": "Kam-Hoi Cheng"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330432",
+        "valueLabel": "Youngju Won"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330458",
+        "valueLabel": "Keumog Lim Ahn"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102182016",
+        "valueLabel": "Sanjay Ranka"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q782682",
+        "valueLabel": "Indian Institute of Technology Kanpur"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330494",
+        "valueLabel": "Wencheng Lu"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330462",
+        "valueLabel": "Madhusudan Nigam"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P166",
+        "propertyLabel": "award received",
+        "value": "Q111734",
+        "valueLabel": "IEEE Fellow"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330452",
+        "valueLabel": "Doowon Paik"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q1538",
+        "valueLabel": "Pune"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330482",
+        "valueLabel": "Kun Suk Kim"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330406",
+        "valueLabel": "James Patrick Cohoon"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330442",
+        "valueLabel": "Patrick Leo Jarvis"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330437",
+        "valueLabel": "Wing Ning Li"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330479",
+        "valueLabel": "Haibin Lu"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q20675528",
+        "valueLabel": "Teofilo F. Gonzalez"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330486",
+        "valueLabel": "Meongchul Song"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102272005",
+        "valueLabel": "Dinesh Prakash Mehta"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330425",
+        "valueLabel": "Surendra Nahar"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330412",
+        "valueLabel": "Rajiv Dattatrava Kane"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330420",
+        "valueLabel": "Jayaram Bhasker"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330440",
+        "valueLabel": "San Yuan Wu"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330455",
+        "valueLabel": "Andrew Leong-Chye Lim"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330489",
+        "valueLabel": "Joonseok Park"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330469",
+        "valueLabel": "Chih-Fang Wang"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q501758",
+        "valueLabel": "University of Florida"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102205135",
+        "valueLabel": "Mario Alberto Lopez"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q82594",
+        "valueLabel": "computer scientist"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P166",
+        "propertyLabel": "award received",
+        "value": "Q5442484",
+        "valueLabel": "Fellow of the American Association for the Advancement of Science"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P184",
+        "propertyLabel": "doctoral advisor",
+        "value": "Q18631179",
+        "valueLabel": "Ellis Horowitz"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330401",
+        "valueLabel": "Eliezer Dekel"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330446",
+        "valueLabel": "Jing-Fu Jenq"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q81096",
+        "valueLabel": "engineer"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330428",
+        "valueLabel": "Jong Chang Lee"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330409",
+        "valueLabel": "Ten-Hwang Lai"
+    },
+    {
+        "entity": "Q92684",
+        "entityLabel": "Sartaj Sahni",
+        "property": "P185",
+        "propertyLabel": "doctoral student",
+        "value": "Q102330397",
+        "valueLabel": "David Nassimi"
+    },
+    {
+        "entity": "Q17145806",
+        "entityLabel": "Bright Simons",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q81096",
+        "valueLabel": "engineer"
+    },
+    {
+        "entity": "Q17145806",
+        "entityLabel": "Bright Simons",
+        "property": "P1344",
+        "propertyLabel": "participant in",
+        "value": "Q114717229",
+        "valueLabel": "World Economic Forum Annual Meeting 2013"
+    },
+    {
+        "entity": "Q17145806",
+        "entityLabel": "Bright Simons",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q18327304",
+        "valueLabel": "Simons"
+    },
+    {
+        "entity": "Q17145806",
+        "entityLabel": "Bright Simons",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q17145806",
+        "entityLabel": "Bright Simons",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q17145806",
+        "entityLabel": "Bright Simons",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q36180",
+        "valueLabel": "writer"
+    },
+    {
+        "entity": "Q17145806",
+        "entityLabel": "Bright Simons",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q7240724",
+        "valueLabel": "Presbyterian Boys' Senior High School"
+    },
+    {
+        "entity": "Q17145806",
+        "entityLabel": "Bright Simons",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q117",
+        "valueLabel": "Ghana"
+    },
+    {
+        "entity": "Q6162279",
+        "entityLabel": "Jason Cranford Teague",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q67311526",
+        "valueLabel": "Ob\u00e1lky knih"
+    },
+    {
+        "entity": "Q6162279",
+        "entityLabel": "Jason Cranford Teague",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q6162279",
+        "entityLabel": "Jason Cranford Teague",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q81096",
+        "valueLabel": "engineer"
+    },
+    {
+        "entity": "Q6162279",
+        "entityLabel": "Jason Cranford Teague",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q6162279",
+        "entityLabel": "Jason Cranford Teague",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q2630093",
+        "valueLabel": "Jason"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "41450",
+        "valueLabel": "41450"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "15106",
+        "valueLabel": "15106"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "38907",
+        "valueLabel": "38907"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "39400",
+        "valueLabel": "39400"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "42067",
+        "valueLabel": "42067"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "14931",
+        "valueLabel": "14931"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "15047",
+        "valueLabel": "15047"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q1930187",
+        "valueLabel": "journalist"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q2803433",
+        "valueLabel": "Thompson"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q16",
+        "valueLabel": "Canada"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P26",
+        "propertyLabel": "spouse",
+        "value": "Q22279443",
+        "valueLabel": "Emily Nussbaum"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q16542399",
+        "valueLabel": "Clive"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q16",
+        "valueLabel": "Canada"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q180865",
+        "valueLabel": "University of Toronto"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q8242",
+        "valueLabel": "literature"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q36180",
+        "valueLabel": "writer"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P6872",
+        "propertyLabel": "has written for",
+        "value": "Q60497",
+        "valueLabel": "Slate"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q8246794",
+        "valueLabel": "blogger"
+    },
+    {
+        "entity": "Q5134683",
+        "entityLabel": "Clive Thompson (journalist)",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q11030",
+        "valueLabel": "journalism"
+    },
+    {
+        "entity": "Q7177623",
+        "entityLabel": "Peter Wayner",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q36180",
+        "valueLabel": "writer"
+    },
+    {
+        "entity": "Q7177623",
+        "entityLabel": "Peter Wayner",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q7177623",
+        "entityLabel": "Peter Wayner",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q7177623",
+        "entityLabel": "Peter Wayner",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q2793400",
+        "valueLabel": "Peter"
+    },
+    {
+        "entity": "Q65923736",
+        "entityLabel": "Nick Zhang",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q65923736",
+        "entityLabel": "Nick Zhang",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q43845",
+        "valueLabel": "businessperson"
+    },
+    {
+        "entity": "Q65923736",
+        "entityLabel": "Nick Zhang",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q82594",
+        "valueLabel": "computer scientist"
+    },
+    {
+        "entity": "Q65923736",
+        "entityLabel": "Nick Zhang",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q65923736",
+        "entityLabel": "Nick Zhang",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q15976092",
+        "valueLabel": "artificial intelligence researcher"
+    },
+    {
+        "entity": "Q65923736",
+        "entityLabel": "Nick Zhang",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q36180",
+        "valueLabel": "writer"
+    },
+    {
+        "entity": "Q65923736",
+        "entityLabel": "Nick Zhang",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q804909",
+        "valueLabel": "Zhang"
+    },
+    {
+        "entity": "Q65923736",
+        "entityLabel": "Nick Zhang",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q13137230",
+        "valueLabel": "Nick"
+    },
+    {
+        "entity": "Q65923736",
+        "entityLabel": "Nick Zhang",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q15142",
+        "valueLabel": "University of Massachusetts Amherst"
+    },
+    {
+        "entity": "Q3537694",
+        "entityLabel": "Geographic information science",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q16387",
+        "valueLabel": "information science"
+    },
+    {
+        "entity": "Q3537694",
+        "entityLabel": "Geographic information science",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q107288106",
+        "valueLabel": "geographic information scientist"
+    },
+    {
+        "entity": "Q3537694",
+        "entityLabel": "Geographic information science",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q3537694",
+        "entityLabel": "Geographic information science",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q124468378",
+        "valueLabel": "geoinformation science"
+    },
+    {
+        "entity": "Q3537694",
+        "entityLabel": "Geographic information science",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q3537694",
+        "entityLabel": "Geographic information science",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q124468378",
+        "valueLabel": "geoinformation science"
+    },
+    {
+        "entity": "Q3537694",
+        "entityLabel": "Geographic information science",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2267705",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q3537694",
+        "entityLabel": "Geographic information science",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q483130",
+        "valueLabel": "geographic information system"
+    },
+    {
+        "entity": "Q3537694",
+        "entityLabel": "Geographic information science",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q918779",
+        "valueLabel": "geoinformatics"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q124645695",
+        "valueLabel": "geomatic"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q131089",
+        "valueLabel": "geodesy"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1986550",
+        "valueLabel": "geomatics engineering"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P2670",
+        "propertyLabel": "has part(s) of the class",
+        "value": "Q918779",
+        "valueLabel": "geoinformatics"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1870019",
+        "valueLabel": "spatial science"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q21198",
+        "valueLabel": "computer science"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9558072",
+        "valueLabel": "Category:Geomatics"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P2670",
+        "propertyLabel": "has part(s) of the class",
+        "value": "Q816425",
+        "valueLabel": "surveying"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q918779",
+        "valueLabel": "geoinformatics"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q112072638",
+        "valueLabel": "geomatician"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P1366",
+        "propertyLabel": "replaced by",
+        "value": "Q1870019",
+        "valueLabel": "spatial science"
+    },
+    {
+        "entity": "Q619798",
+        "entityLabel": "Geomatics",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1145468",
+        "valueLabel": "study of geomatics"
+    },
+    {
+        "entity": "Q7112740",
+        "entityLabel": "Outline of technology",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q7112740",
+        "entityLabel": "Outline of technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q1985691",
+        "entityLabel": "Electrical polarity",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1207505",
+        "valueLabel": "quality"
+    },
+    {
+        "entity": "Q3610525",
+        "entityLabel": "Outline of manufacturing",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112686",
+        "entityLabel": "Outline of mining",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112706",
+        "entityLabel": "Outline of production",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q104858868",
+        "entityLabel": "Outline of rocketry",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q2892152",
+        "entityLabel": "Outline of space exploration",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q2445082",
+        "entityLabel": "Science and technology studies",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q34104",
+        "valueLabel": "science and technology"
+    },
+    {
+        "entity": "Q2445082",
+        "entityLabel": "Science and technology studies",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q15739354",
+        "valueLabel": "Template:Science and technology studies"
+    },
+    {
+        "entity": "Q2445082",
+        "entityLabel": "Science and technology studies",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7007255",
+        "valueLabel": "Category:Science and technology studies"
+    },
+    {
+        "entity": "Q2445082",
+        "entityLabel": "Science and technology studies",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q117743690",
+        "valueLabel": "Science and technology studies scholar"
+    },
+    {
+        "entity": "Q2445082",
+        "entityLabel": "Science and technology studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q1380539",
+        "entityLabel": "Sociotechnology",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q746994",
+        "valueLabel": "technology assessment"
+    },
+    {
+        "entity": "Q1380539",
+        "entityLabel": "Sociotechnology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q1380539",
+        "entityLabel": "Sociotechnology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q21201",
+        "valueLabel": "sociology"
+    },
+    {
+        "entity": "Q1380539",
+        "entityLabel": "Sociotechnology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q1380539",
+        "entityLabel": "Sociotechnology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q105760881",
+        "valueLabel": "branch of sociology"
+    },
+    {
+        "entity": "Q4115079",
+        "entityLabel": "Technology and society",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6910562",
+        "valueLabel": "Category:Technology in society"
+    },
+    {
+        "entity": "Q4115079",
+        "entityLabel": "Technology and society",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q849359",
+        "valueLabel": "interdisciplinarity"
+    },
+    {
+        "entity": "Q4115079",
+        "entityLabel": "Technology and society",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q120970651",
+        "valueLabel": "research topic"
+    },
+    {
+        "entity": "Q4676510",
+        "entityLabel": "Across the Universe (message)",
+        "property": "P7937",
+        "propertyLabel": "form of creative work",
+        "value": "Q7366",
+        "valueLabel": "song"
+    },
+    {
+        "entity": "Q4676510",
+        "entityLabel": "Across the Universe (message)",
+        "property": "P175",
+        "propertyLabel": "performer",
+        "value": "Q1299",
+        "valueLabel": "The Beatles"
+    },
+    {
+        "entity": "Q4676510",
+        "entityLabel": "Across the Universe (message)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q105543609",
+        "valueLabel": "musical work/composition"
+    },
+    {
+        "entity": "Q1368086",
+        "entityLabel": "Active SETI",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q628523",
+        "valueLabel": "message"
+    },
+    {
+        "entity": "Q1368086",
+        "entityLabel": "Active SETI",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q92143015",
+        "valueLabel": "passive SETI"
+    },
+    {
+        "entity": "Q1368086",
+        "entityLabel": "Active SETI",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q60756329",
+        "valueLabel": "METI International"
+    },
+    {
+        "entity": "Q124450143",
+        "entityLabel": "Age of artificial intelligence",
+        "property": "P155",
+        "propertyLabel": "follows",
+        "value": "Q1096872",
+        "valueLabel": "Digital Revolution"
+    },
+    {
+        "entity": "Q124450143",
+        "entityLabel": "Age of artificial intelligence",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q41719",
+        "valueLabel": "hypothesis"
+    },
+    {
+        "entity": "Q124450143",
+        "entityLabel": "Age of artificial intelligence",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11514315",
+        "valueLabel": "historical period"
+    },
+    {
+        "entity": "Q4057127",
+        "entityLabel": "Agricultural technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3606845",
+        "valueLabel": "agricultural science"
+    },
+    {
+        "entity": "Q4057127",
+        "entityLabel": "Agricultural technology",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q194118",
+        "valueLabel": "agricultural technology"
+    },
+    {
+        "entity": "Q4057127",
+        "entityLabel": "Agricultural technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q4057127",
+        "entityLabel": "Agricultural technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q112057532",
+        "valueLabel": "type of technology"
+    },
+    {
+        "entity": "Q4057127",
+        "entityLabel": "Agricultural technology",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q3606845",
+        "valueLabel": "agricultural science"
+    },
+    {
+        "entity": "Q4057127",
+        "entityLabel": "Agricultural technology",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q122705535",
+        "valueLabel": "agricultural technologist"
+    },
+    {
+        "entity": "Q4057127",
+        "entityLabel": "Agricultural technology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9403026",
+        "valueLabel": "Category:Agricultural technology"
+    },
+    {
+        "entity": "Q4057127",
+        "entityLabel": "Agricultural technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2267705",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q4057127",
+        "entityLabel": "Agricultural technology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11016",
+        "valueLabel": "technology"
+    },
+    {
+        "entity": "Q4057127",
+        "entityLabel": "Agricultural technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q4057127",
+        "entityLabel": "Agricultural technology",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q194118",
+        "valueLabel": "agricultural technology"
+    },
+    {
+        "entity": "Q4057127",
+        "entityLabel": "Agricultural technology",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q173113",
+        "valueLabel": "agronomy"
+    },
+    {
+        "entity": "Q117336820",
+        "entityLabel": "AI boom",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11514315",
+        "valueLabel": "historical period"
+    },
+    {
+        "entity": "Q117336820",
+        "entityLabel": "AI boom",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q11660",
+        "valueLabel": "artificial intelligence"
+    },
+    {
+        "entity": "Q117336820",
+        "entityLabel": "AI boom",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q11660",
+        "valueLabel": "artificial intelligence"
+    },
+    {
+        "entity": "Q117336820",
+        "entityLabel": "AI boom",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q4652028",
+        "valueLabel": "AI winter"
+    },
+    {
+        "entity": "Q98915099",
+        "entityLabel": "Alt-tech",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q3122864",
+        "valueLabel": "Big Tech"
+    },
+    {
+        "entity": "Q98915099",
+        "entityLabel": "Alt-tech",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q97225478",
+        "valueLabel": "Category:Alt-tech"
+    },
+    {
+        "entity": "Q98915099",
+        "entityLabel": "Alt-tech",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q16887380",
+        "valueLabel": "group"
+    },
+    {
+        "entity": "Q98915099",
+        "entityLabel": "Alt-tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q15616276",
+        "valueLabel": "Telegram"
+    },
+    {
+        "entity": "Q574854",
+        "entityLabel": "Anti-nuclear movement in Australia",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q74817647",
+        "valueLabel": "aspect in a geographic region"
+    },
+    {
+        "entity": "Q574854",
+        "entityLabel": "Anti-nuclear movement in Australia",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q574580",
+        "valueLabel": "anti-nuclear movement"
+    },
+    {
+        "entity": "Q574854",
+        "entityLabel": "Anti-nuclear movement in Australia",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q408",
+        "valueLabel": "Australia"
+    },
+    {
+        "entity": "Q574854",
+        "entityLabel": "Anti-nuclear movement in Australia",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q408",
+        "valueLabel": "Australia"
+    },
+    {
+        "entity": "Q574572",
+        "entityLabel": "Anti-nuclear movement in Germany",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q574580",
+        "valueLabel": "anti-nuclear movement"
+    },
+    {
+        "entity": "Q574572",
+        "entityLabel": "Anti-nuclear movement in Germany",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q16788718",
+        "valueLabel": "Category:Anti-nuclear movement in Germany"
+    },
+    {
+        "entity": "Q574572",
+        "entityLabel": "Anti-nuclear movement in Germany",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q183",
+        "valueLabel": "Germany"
+    },
+    {
+        "entity": "Q15466187",
+        "entityLabel": "Anti-nuclear protests",
+        "property": "P5004",
+        "propertyLabel": "in opposition to",
+        "value": "Q348091",
+        "valueLabel": "nuclear technology"
+    },
+    {
+        "entity": "Q15466187",
+        "entityLabel": "Anti-nuclear protests",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8255769",
+        "valueLabel": "Category:Anti-nuclear protests"
+    },
+    {
+        "entity": "Q15466187",
+        "entityLabel": "Anti-nuclear protests",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q273120",
+        "valueLabel": "protest"
+    },
+    {
+        "entity": "Q15466187",
+        "entityLabel": "Anti-nuclear protests",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q574580",
+        "valueLabel": "anti-nuclear movement"
+    },
+    {
+        "entity": "Q384071",
+        "entityLabel": "Arecibo message",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q44547",
+        "valueLabel": "Arecibo Radio Telescope"
+    },
+    {
+        "entity": "Q384071",
+        "entityLabel": "Arecibo message",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1368086",
+        "valueLabel": "Active SETI"
+    },
+    {
+        "entity": "Q384071",
+        "entityLabel": "Arecibo message",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q170584",
+        "valueLabel": "project"
+    },
+    {
+        "entity": "Q384071",
+        "entityLabel": "Arecibo message",
+        "property": "P170",
+        "propertyLabel": "creator",
+        "value": "Q299149",
+        "valueLabel": "Frank Drake"
+    },
+    {
+        "entity": "Q384071",
+        "entityLabel": "Arecibo message",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q1183",
+        "valueLabel": "Puerto Rico"
+    },
+    {
+        "entity": "Q384071",
+        "entityLabel": "Arecibo message",
+        "property": "P170",
+        "propertyLabel": "creator",
+        "value": "Q410",
+        "valueLabel": "Carl Sagan"
+    },
+    {
+        "entity": "Q384071",
+        "entityLabel": "Arecibo message",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q640728",
+        "valueLabel": "Arecibo"
+    },
+    {
+        "entity": "Q384071",
+        "entityLabel": "Arecibo message",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q44547",
+        "valueLabel": "Arecibo Radio Telescope"
+    },
+    {
+        "entity": "Q384071",
+        "entityLabel": "Arecibo message",
+        "property": "P2048",
+        "propertyLabel": "height",
+        "value": "73",
+        "valueLabel": "73"
+    },
+    {
+        "entity": "Q384071",
+        "entityLabel": "Arecibo message",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q11312",
+        "valueLabel": "Messier 13"
+    },
+    {
+        "entity": "Q384071",
+        "entityLabel": "Arecibo message",
+        "property": "P2049",
+        "propertyLabel": "width",
+        "value": "23",
+        "valueLabel": "23"
+    },
+    {
+        "entity": "Q384071",
+        "entityLabel": "Arecibo message",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q15206825",
+        "valueLabel": "communication with extraterrestrial intelligence"
+    },
+    {
+        "entity": "Q130603111",
+        "entityLabel": "Asian News International vs. Wikimedia Foundation",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q697327",
+        "valueLabel": "lawsuit"
+    },
+    {
+        "entity": "Q130603111",
+        "entityLabel": "Asian News International vs. Wikimedia Foundation",
+        "property": "P1591",
+        "propertyLabel": "defendant",
+        "value": "Q180",
+        "valueLabel": "Wikimedia Foundation"
+    },
+    {
+        "entity": "Q130603111",
+        "entityLabel": "Asian News International vs. Wikimedia Foundation",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q668",
+        "valueLabel": "India"
+    },
+    {
+        "entity": "Q130603111",
+        "entityLabel": "Asian News International vs. Wikimedia Foundation",
+        "property": "P4884",
+        "propertyLabel": "court",
+        "value": "Q1184183",
+        "valueLabel": "Delhi High Court"
+    },
+    {
+        "entity": "Q130603111",
+        "entityLabel": "Asian News International vs. Wikimedia Foundation",
+        "property": "P1620",
+        "propertyLabel": "plaintiff",
+        "value": "Q131180309",
+        "valueLabel": "ANI Media Private Limited"
+    },
+    {
+        "entity": "Q130603111",
+        "entityLabel": "Asian News International vs. Wikimedia Foundation",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q6626618",
+        "valueLabel": "list of litigation involving the Wikimedia Foundation"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q101244",
+        "valueLabel": "acronym"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q49614",
+        "valueLabel": "nickname"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q30748112",
+        "valueLabel": "Big Tech (web)"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q98915099",
+        "valueLabel": "alt-tech"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q2283",
+        "valueLabel": "Microsoft"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q95",
+        "valueLabel": "Google"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q16887380",
+        "valueLabel": "group"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q30748112",
+        "valueLabel": "Big Tech (web)"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q3884",
+        "valueLabel": "Amazon"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q333618",
+        "valueLabel": "Snapchat"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q22907849",
+        "valueLabel": "Discord"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q380",
+        "valueLabel": "Meta Platforms"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q918",
+        "valueLabel": "X"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q48938223",
+        "valueLabel": "TikTok"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q312",
+        "valueLabel": "Apple"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q20800404",
+        "valueLabel": "Alphabet Inc."
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q355",
+        "valueLabel": "Facebook"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P1366",
+        "propertyLabel": "replaced by",
+        "value": "Q124830415",
+        "valueLabel": "Magnificent Seven"
+    },
+    {
+        "entity": "Q3122864",
+        "entityLabel": "Big Tech",
+        "property": "P2670",
+        "propertyLabel": "has part(s) of the class",
+        "value": "Q18388277",
+        "valueLabel": "technology company"
+    },
+    {
+        "entity": "Q54958381",
+        "entityLabel": "Brigade Media",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q107299118",
+        "valueLabel": "Matt Mahan"
+    },
+    {
+        "entity": "Q54958381",
+        "entityLabel": "Brigade Media",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1194970",
+        "valueLabel": "dot-com company"
+    },
+    {
+        "entity": "Q3090589",
+        "entityLabel": "Change.org",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q35127",
+        "valueLabel": "website"
+    },
+    {
+        "entity": "Q3090589",
+        "entityLabel": "Change.org",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q3090589",
+        "entityLabel": "Change.org",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q5457916",
+        "valueLabel": "Flatiron Building"
+    },
+    {
+        "entity": "Q3090589",
+        "entityLabel": "Change.org",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q4886330",
+        "valueLabel": "Ben Rattray"
+    },
+    {
+        "entity": "Q3090589",
+        "entityLabel": "Change.org",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q3090589",
+        "entityLabel": "Change.org",
+        "property": "P166",
+        "propertyLabel": "award received",
+        "value": "Q110530811",
+        "valueLabel": "BigBrotherAwards"
+    },
+    {
+        "entity": "Q3090589",
+        "entityLabel": "Change.org",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "1606140",
+        "valueLabel": "1606140"
+    },
+    {
+        "entity": "Q3090589",
+        "entityLabel": "Change.org",
+        "property": "P1454",
+        "propertyLabel": "legal form",
+        "value": "Q9299236",
+        "valueLabel": "eingetragener Verein"
+    },
+    {
+        "entity": "Q3090589",
+        "entityLabel": "Change.org",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "1606032",
+        "valueLabel": "1606032"
+    },
+    {
+        "entity": "Q9158476",
+        "entityLabel": "Civic application",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q166142",
+        "valueLabel": "application"
+    },
+    {
+        "entity": "Q60741616",
+        "entityLabel": "Coding it Forward",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "2627",
+        "valueLabel": "2627"
+    },
+    {
+        "entity": "Q60741616",
+        "entityLabel": "Coding it Forward",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q163740",
+        "valueLabel": "nonprofit organization"
+    },
+    {
+        "entity": "Q60741616",
+        "entityLabel": "Coding it Forward",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "10205",
+        "valueLabel": "10205"
+    },
+    {
+        "entity": "Q60741616",
+        "entityLabel": "Coding it Forward",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "14607",
+        "valueLabel": "14607"
+    },
+    {
+        "entity": "Q60741616",
+        "entityLabel": "Coding it Forward",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "6429",
+        "valueLabel": "6429"
+    },
+    {
+        "entity": "Q15206825",
+        "entityLabel": "Communication with extraterrestrial intelligence",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11024",
+        "valueLabel": "communication"
+    },
+    {
+        "entity": "Q7727554",
+        "entityLabel": "The Cool Stuff Collective",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q145",
+        "valueLabel": "United Kingdom"
+    },
+    {
+        "entity": "Q7727554",
+        "entityLabel": "The Cool Stuff Collective",
+        "property": "P2437",
+        "propertyLabel": "number of seasons",
+        "value": "3",
+        "valueLabel": "3"
+    },
+    {
+        "entity": "Q7727554",
+        "entityLabel": "The Cool Stuff Collective",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5398426",
+        "valueLabel": "television series"
+    },
+    {
+        "entity": "Q7727554",
+        "entityLabel": "The Cool Stuff Collective",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q7659431",
+        "valueLabel": "Sy Thomas"
+    },
+    {
+        "entity": "Q7727554",
+        "entityLabel": "The Cool Stuff Collective",
+        "property": "P1113",
+        "propertyLabel": "number of episodes",
+        "value": "39",
+        "valueLabel": "39"
+    },
+    {
+        "entity": "Q7727554",
+        "entityLabel": "The Cool Stuff Collective",
+        "property": "P449",
+        "propertyLabel": "original broadcaster",
+        "value": "Q220072",
+        "valueLabel": "ITV"
+    },
+    {
+        "entity": "Q4036598",
+        "entityLabel": "Cosmic Call",
+        "property": "P2360",
+        "propertyLabel": "intended public",
+        "value": "Q15107669",
+        "valueLabel": "extraterrestrial intelligence"
+    },
+    {
+        "entity": "Q4036598",
+        "entityLabel": "Cosmic Call",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q170584",
+        "valueLabel": "project"
+    },
+    {
+        "entity": "Q4036598",
+        "entityLabel": "Cosmic Call",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1368086",
+        "valueLabel": "Active SETI"
+    },
+    {
+        "entity": "Q4036598",
+        "entityLabel": "Cosmic Call",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q13385030",
+        "valueLabel": "Evpatoria Observatory"
+    },
+    {
+        "entity": "Q5185963",
+        "entityLabel": "Crisis camp",
+        "property": "P2512",
+        "propertyLabel": "has spin-off",
+        "value": "Q7291932",
+        "valueLabel": "Random Hacks of Kindness"
+    },
+    {
+        "entity": "Q5185963",
+        "entityLabel": "Crisis camp",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q500415",
+        "valueLabel": "BarCamp"
+    },
+    {
+        "entity": "Q5186700",
+        "entityLabel": "Critical code studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2465832",
+        "valueLabel": "branch of science"
+    },
+    {
+        "entity": "Q1260036",
+        "entityLabel": "Criticism of technology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q19891055",
+        "valueLabel": "Q19891055"
+    },
+    {
+        "entity": "Q1260036",
+        "entityLabel": "Criticism of technology",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q18389618",
+        "valueLabel": "mechanophobia"
+    },
+    {
+        "entity": "Q1260036",
+        "entityLabel": "Criticism of technology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12909644",
+        "valueLabel": "political ideology"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q815823",
+        "valueLabel": "AI"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q2355327",
+        "valueLabel": "threshold pledge system"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q3072498",
+        "valueLabel": "collaborative finance"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q152478",
+        "valueLabel": "sponsor"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2277143",
+        "valueLabel": "sharing economy"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q170584",
+        "valueLabel": "project"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q2277143",
+        "valueLabel": "sharing economy"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6344995",
+        "valueLabel": "Category:Crowdfunding"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q114795566",
+        "valueLabel": "capital procurement"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q6055890",
+        "valueLabel": "funding"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q275969",
+        "valueLabel": "crowdsourcing"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q108928644",
+        "valueLabel": "Open Science Thesaurus"
+    },
+    {
+        "entity": "Q348303",
+        "entityLabel": "Crowdfunding",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q815823",
+        "valueLabel": "AI"
+    },
+    {
+        "entity": "Q842550",
+        "entityLabel": "Cultural lag",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q602884",
+        "valueLabel": "social phenomenon"
+    },
+    {
+        "entity": "Q107284444",
+        "entityLabel": "Current (financial services company)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q783794",
+        "valueLabel": "company"
+    },
+    {
+        "entity": "Q4455123",
+        "entityLabel": "Cute cat theory of digital activism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17737",
+        "valueLabel": "theory"
+    },
+    {
+        "entity": "Q3008151",
+        "entityLabel": "Cyber-dissident",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9654662",
+        "valueLabel": "Category:Cyber-dissidents"
+    },
+    {
+        "entity": "Q3008151",
+        "entityLabel": "Cyber-dissident",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q15253558",
+        "valueLabel": "activist"
+    },
+    {
+        "entity": "Q62691",
+        "entityLabel": "De-Mail",
+        "property": "P144",
+        "propertyLabel": "based on",
+        "value": "Q9158",
+        "valueLabel": "email"
+    },
+    {
+        "entity": "Q62691",
+        "entityLabel": "De-Mail",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q183",
+        "valueLabel": "Germany"
+    },
+    {
+        "entity": "Q62691",
+        "entityLabel": "De-Mail",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2554719",
+        "valueLabel": "message traffic"
+    },
+    {
+        "entity": "Q62691",
+        "entityLabel": "De-Mail",
+        "property": "P92",
+        "propertyLabel": "main regulatory text",
+        "value": "Q1179431",
+        "valueLabel": "Q1179431"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P135",
+        "propertyLabel": "movement",
+        "value": "Q911759",
+        "valueLabel": "pseudophilosophy"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q159535",
+        "valueLabel": "conspiracy theory"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P135",
+        "propertyLabel": "movement",
+        "value": "Q907177",
+        "valueLabel": "pseudoskepticism"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5504601",
+        "valueLabel": "fringe theory"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P135",
+        "propertyLabel": "movement",
+        "value": "Q11146759",
+        "valueLabel": "pseudohistory"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q1508663",
+        "valueLabel": "social criticism"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q905036",
+        "valueLabel": "computational sociology"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P135",
+        "propertyLabel": "movement",
+        "value": "Q17075652",
+        "valueLabel": "popular belief"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P1433",
+        "propertyLabel": "published in",
+        "value": "Q100419564",
+        "valueLabel": "/x/"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q466",
+        "valueLabel": "World Wide Web"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q108374412",
+        "valueLabel": "Dead Internet Theory"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q11660",
+        "valueLabel": "artificial intelligence"
+    },
+    {
+        "entity": "Q108370415",
+        "entityLabel": "Dead Internet theory",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q189656",
+        "valueLabel": "disinformation"
+    },
+    {
+        "entity": "Q601854",
+        "entityLabel": "Digital anthropology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q601854",
+        "entityLabel": "Digital anthropology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q23404",
+        "valueLabel": "anthropology"
+    },
+    {
+        "entity": "Q601854",
+        "entityLabel": "Digital anthropology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q601854",
+        "entityLabel": "Digital anthropology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q627436",
+        "valueLabel": "field of work"
+    },
+    {
+        "entity": "Q601854",
+        "entityLabel": "Digital anthropology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q106720965",
+        "valueLabel": "branch of anthropology"
+    },
+    {
+        "entity": "Q601854",
+        "entityLabel": "Digital anthropology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2267705",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q1055825",
+        "entityLabel": "Digital journalism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q1055825",
+        "entityLabel": "Digital journalism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3579025",
+        "valueLabel": "web writing"
+    },
+    {
+        "entity": "Q1055825",
+        "entityLabel": "Digital journalism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11030",
+        "valueLabel": "journalism"
+    },
+    {
+        "entity": "Q1055825",
+        "entityLabel": "Digital journalism",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q108151086",
+        "valueLabel": "digital journalist"
+    },
+    {
+        "entity": "Q1055825",
+        "entityLabel": "Digital journalism",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7054135",
+        "valueLabel": "Category:Online journalism"
+    },
+    {
+        "entity": "Q1055825",
+        "entityLabel": "Digital journalism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4894405",
+        "valueLabel": "journalism genre"
+    },
+    {
+        "entity": "Q1055825",
+        "entityLabel": "Digital journalism",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q21124681",
+        "valueLabel": "blogging"
+    },
+    {
+        "entity": "Q1055825",
+        "entityLabel": "Digital journalism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q192581",
+        "valueLabel": "job activity"
+    },
+    {
+        "entity": "Q60661815",
+        "entityLabel": "Digital media use and mental health",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1076968",
+        "valueLabel": "digital media"
+    },
+    {
+        "entity": "Q60661815",
+        "entityLabel": "Digital media use and mental health",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q317309",
+        "valueLabel": "mental health"
+    },
+    {
+        "entity": "Q135094803",
+        "entityLabel": "Education by algorithm",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q29028649",
+        "valueLabel": "economic concept"
+    },
+    {
+        "entity": "Q135094803",
+        "entityLabel": "Education by algorithm",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q8434",
+        "valueLabel": "education"
+    },
+    {
+        "entity": "Q135094803",
+        "entityLabel": "Education by algorithm",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q61788126",
+        "valueLabel": "educational activity"
+    },
+    {
+        "entity": "Q135094803",
+        "entityLabel": "Education by algorithm",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q61515",
+        "valueLabel": "outsourcing"
+    }
+]

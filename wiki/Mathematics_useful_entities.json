@@ -1,0 +1,390 @@
+[
+    {
+        "entity": "http://www.wikidata.org/entity/Q5571725",
+        "entityLabel": "Glossary of areas of mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q967960",
+        "entityLabel": "Mathematics Subject Classification"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q837863",
+        "entityLabel": "Pure mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3240104",
+        "entityLabel": "Lists of mathematics topics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3532100",
+        "entityLabel": "Index of accounting articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112546",
+        "entityLabel": "Outline of algebra"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112547",
+        "entityLabel": "Outline of algebraic structures"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112559",
+        "entityLabel": "Outline of arithmetic"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112574",
+        "entityLabel": "Outline of calculus"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112576",
+        "entityLabel": "Outline of category theory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60792514",
+        "entityLabel": "Classification of low-dimensional real Lie algebras"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17003192",
+        "entityLabel": "Index of combinatorics articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112584",
+        "entityLabel": "Outline of combinatorics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5156019",
+        "entityLabel": "Comparison of vector algebra and geometric algebra"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5157305",
+        "entityLabel": "Computational complexity of mathematical operations"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6018859",
+        "entityLabel": "Index of cryptography articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1079958",
+        "entityLabel": "Differentiation rules"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112619",
+        "entityLabel": "Outline of discrete mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q858520",
+        "entityLabel": "Divisibility rule"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2298491",
+        "entityLabel": "Table of divisors"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60790352",
+        "entityLabel": "Exterior calculus identities"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16000120",
+        "entityLabel": "Index of fractal-related articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112649",
+        "entityLabel": "Outline of geometry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5592049",
+        "entityLabel": "Graduate Studies in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3113164",
+        "entityLabel": "Graduate Texts in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q629958",
+        "entityLabel": "Highly composite number"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17050456",
+        "entityLabel": "Indefinite product"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6018911",
+        "entityLabel": "Index of information theory articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3981612",
+        "entityLabel": "Table of Lie groups"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17077807",
+        "entityLabel": "Index of logarithm articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112678",
+        "entityLabel": "Outline of logic"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7673219",
+        "entityLabel": "Table of Newtonian series"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q611422",
+        "entityLabel": "Table of prime factors"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q98124957",
+        "entityLabel": "Probability and statistics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112738",
+        "entityLabel": "Outline of statistics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q47016077",
+        "entityLabel": "Sum of squares"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q15051202",
+        "entityLabel": "Sums of powers"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7673229",
+        "entityLabel": "Table of mathematical symbols by introduction date"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q101588440",
+        "entityLabel": "Tarjan's algorithm"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112803",
+        "entityLabel": "Outline of trigonometry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7885120",
+        "entityLabel": "Uniform tilings in hyperbolic plane"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7917817",
+        "entityLabel": "Vector algebra relations"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1066266",
+        "entityLabel": "Vector calculus identities"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q13637840",
+        "entityLabel": "Index of wave articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q170790",
+        "entityLabel": "Mathematician"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30927260",
+        "entityLabel": "Hideki Omori"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16000509",
+        "entityLabel": "Timeline of women in mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17017718",
+        "entityLabel": "Timeline of women in mathematics in the United States"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q65922751",
+        "entityLabel": "African Women in Mathematics Association"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q66180621",
+        "entityLabel": "Anne Bennett Prize"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2867685",
+        "entityLabel": "Association for Women in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106390668",
+        "entityLabel": "Association for Women in Mathematics Newsletter"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q105040724",
+        "entityLabel": "AWM-SIAM Sonia Kovalevsky Lecture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60463384",
+        "entityLabel": "Caucus for Women in Statistics and Data Science"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5059921",
+        "entityLabel": "Center for Women in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q85753699",
+        "entityLabel": "Complexities: Women in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q56686052",
+        "entityLabel": "European Women in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q21527677",
+        "entityLabel": "Gifted (2017 film)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5592054",
+        "entityLabel": "Graduate Women in Science"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q23755544",
+        "entityLabel": "Hidden Figures"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28464870",
+        "entityLabel": "Hidden Figures (book)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q134451113",
+        "entityLabel": "International Women in Mathematics Day"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1354618",
+        "entityLabel": "Krieger\u2013Nelson Prize"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q39087310",
+        "entityLabel": "Math Prize for Girls"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q839260",
+        "entityLabel": "Noether Lecture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q96399440",
+        "entityLabel": "Pioneering Women in American Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q91098730",
+        "entityLabel": "Power in Numbers: The Rebel Women of Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2177698",
+        "entityLabel": "Ruth Lyttle Satter Prize in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q96415483",
+        "entityLabel": "Women in Mathematics (book)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6693003",
+        "entityLabel": "Women in STEM"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q120336527",
+        "entityLabel": "Fermat Kitchen"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q56349478",
+        "entityLabel": "Science Fell in Love, So I Tried to Prove It"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q133049333",
+        "entityLabel": "S\u016bgaku Golden"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q102244116",
+        "entityLabel": "S\u016bji de Asobo"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q122658686",
+        "entityLabel": "Trisatika"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2864650",
+        "entityLabel": "Mathematics and art"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q123997829",
+        "entityLabel": "99 Variations on a Proof"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q217422",
+        "entityLabel": "Anamorphosis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q102166223",
+        "entityLabel": "Sarah-marie belcastro"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q21015638",
+        "entityLabel": "The Bridges Organization"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q108444570",
+        "entityLabel": "Equals Pi"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q19787195",
+        "entityLabel": "European Society for Mathematics and the Arts"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3413630",
+        "entityLabel": "Fourth dimension in art"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28407435",
+        "entityLabel": "Fractal expressionism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q41690",
+        "entityLabel": "Golden ratio"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6295505",
+        "entityLabel": "Journal of Mathematics and the Arts"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q125293606",
+        "entityLabel": "M. C. Escher: Visions of Symmetry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q96391603",
+        "entityLabel": "Making Mathematics with Needlework"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q112702121",
+        "entityLabel": "Mathemalchemy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2248521",
+        "entityLabel": "Mathematical beauty"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25304010",
+        "entityLabel": "Mathematical sculpture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6786898",
+        "entityLabel": "Mathematics and fiber arts"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3299105",
+        "entityLabel": "Mathematics of paper folding"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2237415",
+        "entityLabel": "Music and mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2987018",
+        "entityLabel": "A New Kind of Science"
+    }
+]

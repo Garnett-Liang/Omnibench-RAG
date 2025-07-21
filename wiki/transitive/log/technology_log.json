@@ -1,0 +1,2572 @@
+[
+    {
+        "subject": "Q4704909",
+        "subjectValue": "Ancient Greek technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q17073664",
+        "subjectValue": "Inca technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q17073664",
+        "subjectValue": "Inca technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q3180036",
+        "subjectValue": "Medieval technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q7112702",
+        "subjectValue": "Prehistoric technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q7112702",
+        "subjectValue": "Prehistoric technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q112057532",
+        "objectValue": "type of technology",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q7312473",
+        "subjectValue": "Renaissance technology",
+        "predicate": "P1269",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1269",
+        "object": "Q465352",
+        "objectValue": "history of technology",
+        "anotherObject": "Q11016",
+        "anotherObjectValue": "technology"
+    },
+    {
+        "subject": "Q7312473",
+        "subjectValue": "Renaissance technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q9031060",
+        "subjectValue": "History of timekeeping devices in Egypt",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q3499620",
+        "subjectValue": "Alternative technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q96572804",
+        "subjectValue": "Animal technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q21012419",
+        "objectValue": "animal care",
+        "anotherObject": "Q122442137",
+        "anotherObjectValue": "animal care"
+    },
+    {
+        "subject": "Q96572804",
+        "subjectValue": "Animal technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1047113",
+        "objectValue": "field of study",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q96572804",
+        "subjectValue": "Animal technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q4787070",
+        "subjectValue": "Architectural technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q4787070",
+        "subjectValue": "Architectural technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q4787070",
+        "subjectValue": "Architectural technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q112057532",
+        "objectValue": "type of technology",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q16930522",
+        "subjectValue": "Creative technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q1192297",
+        "subjectValue": "Disruptive innovation",
+        "predicate": "P1542",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1542",
+        "object": "Q2956685",
+        "objectValue": "disruption",
+        "anotherObject": "Q1150070",
+        "anotherObjectValue": "change"
+    },
+    {
+        "subject": "Q1192297",
+        "subjectValue": "Disruptive innovation",
+        "predicate": "P1542",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1542",
+        "object": "Q2956685",
+        "objectValue": "disruption",
+        "anotherObject": "Q21075709",
+        "anotherObjectValue": "delay"
+    },
+    {
+        "subject": "Q1192297",
+        "subjectValue": "Disruptive innovation",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q174165",
+        "objectValue": "innovation",
+        "anotherObject": "Q104637332",
+        "anotherObjectValue": "planned process"
+    },
+    {
+        "subject": "Q1192297",
+        "subjectValue": "Disruptive innovation",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q174165",
+        "objectValue": "innovation",
+        "anotherObject": "Q105606485",
+        "anotherObjectValue": "intellectual activity"
+    },
+    {
+        "subject": "Q1192297",
+        "subjectValue": "Disruptive innovation",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q174165",
+        "objectValue": "innovation",
+        "anotherObject": "Q3249551",
+        "anotherObjectValue": "process"
+    },
+    {
+        "subject": "Q1192297",
+        "subjectValue": "Disruptive innovation",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q174165",
+        "objectValue": "innovation",
+        "anotherObject": "Q8187769",
+        "anotherObjectValue": "economic activity"
+    },
+    {
+        "subject": "Q5357718",
+        "subjectValue": "Electrical engineering technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q5375154",
+        "subjectValue": "Enabling technology",
+        "predicate": "P1269",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1269",
+        "object": "Q932522",
+        "objectValue": "strategic planning",
+        "anotherObject": "Q376657",
+        "anotherObjectValue": "strategic management"
+    },
+    {
+        "subject": "Q5375154",
+        "subjectValue": "Enabling technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q5380492",
+        "subjectValue": "Entertainment technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1047113",
+        "objectValue": "field of study",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q5380492",
+        "subjectValue": "Entertainment technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q466410",
+        "subjectValue": "High tech",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q466410",
+        "subjectValue": "High tech",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q112057532",
+        "objectValue": "type of technology",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q10952243",
+        "subjectValue": "Industrial technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q10952243",
+        "subjectValue": "Industrial technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q112057532",
+        "objectValue": "type of technology",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q786887",
+        "subjectValue": "Low technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q786887",
+        "subjectValue": "Low technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q112057532",
+        "objectValue": "type of technology",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q6764311",
+        "subjectValue": "Marine technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q1484779",
+        "subjectValue": "Microtechnology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q1484779",
+        "subjectValue": "Microtechnology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q112057532",
+        "objectValue": "type of technology",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4378395",
+        "subjectValue": "Open-source appropriate technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q124650707",
+        "objectValue": "open source technology",
+        "anotherObject": "Q11016",
+        "anotherObjectValue": "technology"
+    },
+    {
+        "subject": "Q4378395",
+        "subjectValue": "Open-source appropriate technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q537823",
+        "objectValue": "appropriate technology",
+        "anotherObject": "Q11016",
+        "anotherObjectValue": "technology"
+    },
+    {
+        "subject": "Q4378395",
+        "subjectValue": "Open-source appropriate technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q112057532",
+        "objectValue": "type of technology",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q14898686",
+        "subjectValue": "Subsea technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q268592",
+        "objectValue": "industry",
+        "anotherObject": "Q29028649",
+        "anotherObjectValue": "economic concept"
+    },
+    {
+        "subject": "Q14898686",
+        "subjectValue": "Subsea technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q7026784",
+        "subjectValue": "Nick Bilton",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q15039928",
+        "subjectValue": "Christopher Fabian",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q135224698",
+        "subjectValue": "Yannik Heinze",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102182016",
+        "anotherObjectValue": "Sanjay Ranka"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102205135",
+        "anotherObjectValue": "Mario Alberto Lopez"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102272005",
+        "anotherObjectValue": "Dinesh Prakash Mehta"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102308763",
+        "anotherObjectValue": "Srijit Kamath"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330455",
+        "anotherObjectValue": "Andrew Leong-Chye Lim"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330397",
+        "anotherObjectValue": "David Nassimi"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330401",
+        "anotherObjectValue": "Eliezer Dekel"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330469",
+        "anotherObjectValue": "Chih-Fang Wang"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330452",
+        "anotherObjectValue": "Doowon Paik"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330471",
+        "anotherObjectValue": "Edward Yu Cheuk Cheng"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330406",
+        "anotherObjectValue": "James Patrick Cohoon"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330420",
+        "anotherObjectValue": "Jayaram Bhasker"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330475",
+        "anotherObjectValue": "Haejae Jung"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330435",
+        "anotherObjectValue": "Jin Woon Woo"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330479",
+        "anotherObjectValue": "Haibin Lu"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330416",
+        "anotherObjectValue": "Kam-Hoi Cheng"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330428",
+        "anotherObjectValue": "Jong Chang Lee"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330446",
+        "anotherObjectValue": "Jing-Fu Jenq"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330423",
+        "anotherObjectValue": "Li-Shin Lin"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330458",
+        "anotherObjectValue": "Keumog Lim Ahn"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330449",
+        "anotherObjectValue": "Kyunrak Chong"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330489",
+        "anotherObjectValue": "Joonseok Park"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330462",
+        "anotherObjectValue": "Madhusudan Nigam"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330482",
+        "anotherObjectValue": "Kun Suk Kim"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330492",
+        "anotherObjectValue": "Kevin W. McCullen"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330442",
+        "anotherObjectValue": "Patrick Leo Jarvis"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330486",
+        "anotherObjectValue": "Meongchul Song"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330403",
+        "anotherObjectValue": "Raghunath Raghavan"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330412",
+        "anotherObjectValue": "Rajiv Dattatrava Kane"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330414",
+        "anotherObjectValue": "Sangyong Han"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330440",
+        "anotherObjectValue": "San Yuan Wu"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330409",
+        "anotherObjectValue": "Ten-Hwang Lai"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330425",
+        "anotherObjectValue": "Surendra Nahar"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330466",
+        "anotherObjectValue": "Seonghun Cho"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330393",
+        "anotherObjectValue": "Yookun Cho"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330437",
+        "anotherObjectValue": "Wing Ning Li"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330432",
+        "anotherObjectValue": "Youngju Won"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330464",
+        "anotherObjectValue": "Venkat Narayan Thanvantri"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q102330494",
+        "anotherObjectValue": "Wencheng Lu"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q92684",
+        "objectValue": "Sartaj Sahni",
+        "anotherObject": "Q20675528",
+        "anotherObjectValue": "Teofilo F. Gonzalez"
+    },
+    {
+        "subject": "Q18631179",
+        "subjectValue": "Ellis Horowitz",
+        "predicate": "P184",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P184",
+        "object": "Q16090778",
+        "objectValue": "George E. Collins",
+        "anotherObject": "Q332905",
+        "anotherObjectValue": "J. Barkley Rosser"
+    },
+    {
+        "subject": "Q64853131",
+        "subjectValue": "Boon Thau Loo",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q6722390",
+        "subjectValue": "Mac the Knife",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q41298",
+        "objectValue": "magazine",
+        "anotherObject": "Q39725049",
+        "anotherObjectValue": "type of publication"
+    },
+    {
+        "subject": "Q6722390",
+        "subjectValue": "Mac the Knife",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q41298",
+        "objectValue": "magazine",
+        "anotherObject": "Q121132955",
+        "anotherObjectValue": "type of mass media"
+    },
+    {
+        "subject": "Q110822323",
+        "subjectValue": "Clement Ogaja",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q5079973",
+        "subjectValue": "Charles L. Perkins",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q6163277",
+        "subjectValue": "Jason Pontin",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q7493196",
+        "subjectValue": "Sheizaf Rafaeli",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q131566",
+        "objectValue": "Institute of Electrical and Electronics Engineers",
+        "anotherObject": "Q821542",
+        "anotherObjectValue": "DataCite"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102205135",
+        "objectValue": "Mario Alberto Lopez",
+        "anotherObject": "Q102205133",
+        "anotherObjectValue": "Peter Tamas Breznay"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102205135",
+        "objectValue": "Mario Alberto Lopez",
+        "anotherObject": "Q103115913",
+        "anotherObjectValue": "Kirk Boyer"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q127992",
+        "objectValue": "Association for Computing Machinery",
+        "anotherObject": "Q67320901",
+        "anotherObjectValue": "Society Publishers' Coalition"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q131566",
+        "objectValue": "Institute of Electrical and Electronics Engineers",
+        "anotherObject": "Q8035715",
+        "anotherObjectValue": "World Federation of Engineering Organizations"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q127992",
+        "objectValue": "Association for Computing Machinery",
+        "anotherObject": "Q115787221",
+        "anotherObjectValue": "CHORUS"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102330393",
+        "objectValue": "Yookun Cho",
+        "anotherObject": "Q61141545",
+        "anotherObjectValue": "Junyoung Heo"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102330393",
+        "objectValue": "Yookun Cho",
+        "anotherObject": "Q102396294",
+        "anotherObjectValue": "Yoo-Jin Chung"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q127992",
+        "objectValue": "Association for Computing Machinery",
+        "anotherObject": "Q1666530",
+        "anotherObjectValue": "International Federation for Information Processing"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q131566",
+        "objectValue": "Institute of Electrical and Electronics Engineers",
+        "anotherObject": "Q115787221",
+        "anotherObjectValue": "CHORUS"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q127992",
+        "objectValue": "Association for Computing Machinery",
+        "anotherObject": "Q19861084",
+        "anotherObjectValue": "ORCID, Inc."
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q127992",
+        "objectValue": "Association for Computing Machinery",
+        "anotherObject": "Q5153090",
+        "anotherObjectValue": "Committee on Publication Ethics"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q127992",
+        "objectValue": "Association for Computing Machinery",
+        "anotherObject": "Q6048595",
+        "anotherObjectValue": "International Association of Scientific, Technical, and Medical Publishers"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102272005",
+        "objectValue": "Dinesh Prakash Mehta",
+        "anotherObject": "Q102272004",
+        "anotherObjectValue": "Yan Feng"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102272005",
+        "objectValue": "Dinesh Prakash Mehta",
+        "anotherObject": "Q102308939",
+        "anotherObjectValue": "Sahar Idwan"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102272005",
+        "objectValue": "Dinesh Prakash Mehta",
+        "anotherObject": "Q102390701",
+        "anotherObjectValue": "John Crabtree"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102272005",
+        "objectValue": "Dinesh Prakash Mehta",
+        "anotherObject": "Q102397001",
+        "anotherObjectValue": "Steven Stoddard"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q20675528",
+        "objectValue": "Teofilo F. Gonzalez",
+        "anotherObject": "Q102313109",
+        "anotherObjectValue": "Linda Faye McCalla"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q20675528",
+        "objectValue": "Teofilo F. Gonzalez",
+        "anotherObject": "Q102315555",
+        "anotherObjectValue": "Arturo Gonzalez-Gutierrez"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q20675528",
+        "objectValue": "Teofilo F. Gonzalez",
+        "anotherObject": "Q102315554",
+        "anotherObjectValue": "F. David (Frank) Serena"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q20675528",
+        "objectValue": "Teofilo F. Gonzalez",
+        "anotherObject": "Q102315553",
+        "anotherObjectValue": "Kurki-Gowdara Shashishekhar"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q20675528",
+        "objectValue": "Teofilo F. Gonzalez",
+        "anotherObject": "Q102315552",
+        "anotherObjectValue": "Mohammadreza Razzazi"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q20675528",
+        "objectValue": "Teofilo F. Gonzalez",
+        "anotherObject": "Q102315551",
+        "anotherObjectValue": "Si-Qing Zheng"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q20675528",
+        "objectValue": "Teofilo F. Gonzalez",
+        "anotherObject": "Q102315556",
+        "anotherObjectValue": "Sing-Ling Lee"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q20675528",
+        "objectValue": "Teofilo F. Gonzalez",
+        "anotherObject": "Q102381366",
+        "anotherObjectValue": "Amit M. Bhosle"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182032",
+        "anotherObjectValue": "Anand Rangachari"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182060",
+        "anotherObjectValue": "Chau-Wei Ou"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182055",
+        "anotherObjectValue": "David Koester"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182040",
+        "anotherObjectValue": "Harpal S. Maini"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182039",
+        "anotherObjectValue": "Jhy Chun Wang"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182075",
+        "anotherObjectValue": "Jang Sun Lee"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182052",
+        "anotherObjectValue": "M. C. Yang"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182073",
+        "anotherObjectValue": "Maher Kaddoura"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182216",
+        "anotherObjectValue": "Hankil Yoon"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182205",
+        "anotherObjectValue": "Ibraheem Al-furaih"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182202",
+        "anotherObjectValue": "Khaled Alsabti"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182068",
+        "anotherObjectValue": "Ravi Shankar"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182015",
+        "anotherObjectValue": "Todd Heywood"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182107",
+        "anotherObjectValue": "Seungjo Bae"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182038",
+        "anotherObjectValue": "Yeh Chin Chung"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102182225",
+        "anotherObjectValue": "Scott Winterstein"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102291986",
+        "anotherObjectValue": "Yankil Hoon"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P185",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P185",
+        "object": "Q102182016",
+        "objectValue": "Sanjay Ranka",
+        "anotherObject": "Q102308763",
+        "anotherObjectValue": "Srijit Kamath"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q131566",
+        "objectValue": "Institute of Electrical and Electronics Engineers",
+        "anotherObject": "Q4809891",
+        "anotherObjectValue": "Association of Learned and Professional Society Publishers"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q131566",
+        "objectValue": "Institute of Electrical and Electronics Engineers",
+        "anotherObject": "Q19861084",
+        "anotherObjectValue": "ORCID, Inc."
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q131566",
+        "objectValue": "Institute of Electrical and Electronics Engineers",
+        "anotherObject": "Q5153090",
+        "anotherObjectValue": "Committee on Publication Ethics"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q131566",
+        "objectValue": "Institute of Electrical and Electronics Engineers",
+        "anotherObject": "Q5970222",
+        "anotherObjectValue": "IEEE Industry Standards and Technology Organization"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q131566",
+        "objectValue": "Institute of Electrical and Electronics Engineers",
+        "anotherObject": "Q6048595",
+        "anotherObjectValue": "International Association of Scientific, Technical, and Medical Publishers"
+    },
+    {
+        "subject": "Q92684",
+        "subjectValue": "Sartaj Sahni",
+        "predicate": "P184",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P184",
+        "object": "Q18631179",
+        "objectValue": "Ellis Horowitz",
+        "anotherObject": "Q16090778",
+        "anotherObjectValue": "George E. Collins"
+    },
+    {
+        "subject": "Q17145806",
+        "subjectValue": "Bright Simons",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q6162279",
+        "subjectValue": "Jason Cranford Teague",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q5134683",
+        "subjectValue": "Clive Thompson (journalist)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q7177623",
+        "subjectValue": "Peter Wayner",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q65923736",
+        "subjectValue": "Nick Zhang",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q3537694",
+        "subjectValue": "Geographic information science",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1047113",
+        "objectValue": "field of study",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q3537694",
+        "subjectValue": "Geographic information science",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q3537694",
+        "subjectValue": "Geographic information science",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q124468378",
+        "objectValue": "geoinformation science",
+        "anotherObject": "Q64811452",
+        "anotherObjectValue": "geospatial science"
+    },
+    {
+        "subject": "Q3537694",
+        "subjectValue": "Geographic information science",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q16387",
+        "objectValue": "information science",
+        "anotherObject": "Q336",
+        "anotherObjectValue": "science"
+    },
+    {
+        "subject": "Q619798",
+        "subjectValue": "Geomatics",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q918779",
+        "objectValue": "geoinformatics",
+        "anotherObject": "Q124624042",
+        "anotherObjectValue": "GIS science"
+    },
+    {
+        "subject": "Q619798",
+        "subjectValue": "Geomatics",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q21198",
+        "objectValue": "computer science",
+        "anotherObject": "Q816264",
+        "anotherObjectValue": "formal science"
+    },
+    {
+        "subject": "Q619798",
+        "subjectValue": "Geomatics",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q1986550",
+        "objectValue": "geomatics engineering",
+        "anotherObject": "Q13419632",
+        "anotherObjectValue": "geodetic engineering"
+    },
+    {
+        "subject": "Q619798",
+        "subjectValue": "Geomatics",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q619798",
+        "subjectValue": "Geomatics",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q1870019",
+        "objectValue": "spatial science",
+        "anotherObject": "Q8008",
+        "anotherObjectValue": "Earth science"
+    },
+    {
+        "subject": "Q619798",
+        "subjectValue": "Geomatics",
+        "predicate": "P138",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P138",
+        "object": "Q124645695",
+        "objectValue": "geomatic",
+        "anotherObject": "Q122075147",
+        "anotherObjectValue": "geographic"
+    },
+    {
+        "subject": "Q619798",
+        "subjectValue": "Geomatics",
+        "predicate": "P527",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P527",
+        "object": "Q1145468",
+        "objectValue": "study of geomatics",
+        "anotherObject": "Q163727",
+        "anotherObjectValue": "bachelor's degree"
+    },
+    {
+        "subject": "Q619798",
+        "subjectValue": "Geomatics",
+        "predicate": "P527",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P527",
+        "object": "Q1145468",
+        "objectValue": "study of geomatics",
+        "anotherObject": "Q5485547",
+        "anotherObjectValue": "masters program"
+    },
+    {
+        "subject": "Q619798",
+        "subjectValue": "Geomatics",
+        "predicate": "P1366",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1366",
+        "object": "Q1870019",
+        "objectValue": "spatial science",
+        "anotherObject": "Q64811452",
+        "anotherObjectValue": "geospatial science"
+    },
+    {
+        "subject": "Q619798",
+        "subjectValue": "Geomatics",
+        "predicate": "P138",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P138",
+        "object": "Q918779",
+        "objectValue": "geoinformatics",
+        "anotherObject": "Q124472060",
+        "anotherObjectValue": "geoinformation"
+    },
+    {
+        "subject": "Q619798",
+        "subjectValue": "Geomatics",
+        "predicate": "P138",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P138",
+        "object": "Q918779",
+        "objectValue": "geoinformatics",
+        "anotherObject": "Q4027615",
+        "anotherObjectValue": "informatics"
+    },
+    {
+        "subject": "Q1985691",
+        "subjectValue": "Electrical polarity",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1207505",
+        "objectValue": "quality",
+        "anotherObject": "Q96253971",
+        "anotherObjectValue": "type of property"
+    },
+    {
+        "subject": "Q1985691",
+        "subjectValue": "Electrical polarity",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1207505",
+        "objectValue": "quality",
+        "anotherObject": "Q33104279",
+        "anotherObjectValue": "philosophical concept"
+    },
+    {
+        "subject": "Q2445082",
+        "subjectValue": "Science and technology studies",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q1380539",
+        "subjectValue": "Sociotechnology",
+        "predicate": "P2578",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P2578",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q2695280",
+        "anotherObjectValue": "technique"
+    },
+    {
+        "subject": "Q1380539",
+        "subjectValue": "Sociotechnology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q1380539",
+        "subjectValue": "Sociotechnology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q21201",
+        "objectValue": "sociology",
+        "anotherObject": "Q34749",
+        "anotherObjectValue": "social science"
+    },
+    {
+        "subject": "Q1380539",
+        "subjectValue": "Sociotechnology",
+        "predicate": "P361",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P361",
+        "object": "Q746994",
+        "objectValue": "technology assessment",
+        "anotherObject": "Q279438",
+        "anotherObjectValue": "philosophy of technology"
+    },
+    {
+        "subject": "Q1380539",
+        "subjectValue": "Sociotechnology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q105760881",
+        "objectValue": "branch of sociology",
+        "anotherObject": "Q24017414",
+        "anotherObjectValue": "second-order class"
+    },
+    {
+        "subject": "Q4115079",
+        "subjectValue": "Technology and society",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q849359",
+        "objectValue": "interdisciplinarity",
+        "anotherObject": "Q249542",
+        "anotherObjectValue": "transdisciplinarity"
+    },
+    {
+        "subject": "Q4115079",
+        "subjectValue": "Technology and society",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q849359",
+        "objectValue": "interdisciplinarity",
+        "anotherObject": "Q1759955",
+        "anotherObjectValue": "multidisciplinarity"
+    },
+    {
+        "subject": "Q4676510",
+        "subjectValue": "Across the Universe (message)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q105543609",
+        "objectValue": "musical work/composition",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q1368086",
+        "subjectValue": "Active SETI",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q628523",
+        "objectValue": "message",
+        "anotherObject": "Q488383",
+        "anotherObjectValue": "object"
+    },
+    {
+        "subject": "Q1368086",
+        "subjectValue": "Active SETI",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q628523",
+        "objectValue": "message",
+        "anotherObject": "Q11028",
+        "anotherObjectValue": "information"
+    },
+    {
+        "subject": "Q124450143",
+        "subjectValue": "Age of artificial intelligence",
+        "predicate": "P155",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P155",
+        "object": "Q1096872",
+        "objectValue": "Digital Revolution",
+        "anotherObject": "Q217200",
+        "anotherObjectValue": "Second Industrial Revolution"
+    },
+    {
+        "subject": "Q124450143",
+        "subjectValue": "Age of artificial intelligence",
+        "predicate": "22-rdf-syntax-ns#type",
+        "predicateValue": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "P582",
+        "objectValue": "http://www.wikidata.org/prop/novalue/P582",
+        "anotherObject": "owl#Class",
+        "anotherObjectValue": "http://www.w3.org/2002/07/owl#Class"
+    },
+    {
+        "subject": "Q4057127",
+        "subjectValue": "Agricultural technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1047113",
+        "objectValue": "field of study",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q4057127",
+        "subjectValue": "Agricultural technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q4057127",
+        "subjectValue": "Agricultural technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q4057127",
+        "subjectValue": "Agricultural technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q3606845",
+        "objectValue": "agricultural science",
+        "anotherObject": "Q2920921",
+        "anotherObjectValue": "management"
+    },
+    {
+        "subject": "Q4057127",
+        "subjectValue": "Agricultural technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q112057532",
+        "objectValue": "type of technology",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4057127",
+        "subjectValue": "Agricultural technology",
+        "predicate": "P460",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P460",
+        "object": "Q194118",
+        "objectValue": "agricultural technology",
+        "anotherObject": "Q12159342",
+        "anotherObjectValue": "agricultural engineering"
+    },
+    {
+        "subject": "Q4057127",
+        "subjectValue": "Agricultural technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q3606845",
+        "objectValue": "agricultural science",
+        "anotherObject": "Q28797",
+        "anotherObjectValue": "applied science"
+    },
+    {
+        "subject": "Q4057127",
+        "subjectValue": "Agricultural technology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q3606845",
+        "objectValue": "agricultural science",
+        "anotherObject": "Q441",
+        "anotherObjectValue": "botany"
+    },
+    {
+        "subject": "Q117336820",
+        "subjectValue": "AI boom",
+        "predicate": "P1269",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1269",
+        "object": "Q11660",
+        "objectValue": "artificial intelligence",
+        "anotherObject": "Q21198",
+        "anotherObjectValue": "computer science"
+    },
+    {
+        "subject": "Q117336820",
+        "subjectValue": "AI boom",
+        "predicate": "P1269",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1269",
+        "object": "Q11660",
+        "objectValue": "artificial intelligence",
+        "anotherObject": "Q147638",
+        "anotherObjectValue": "cognitive science"
+    },
+    {
+        "subject": "Q98915099",
+        "subjectValue": "Alt-tech",
+        "predicate": "P527",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P527",
+        "object": "Q15616276",
+        "objectValue": "Telegram",
+        "anotherObject": "Q65164132",
+        "anotherObjectValue": "MTProxy"
+    },
+    {
+        "subject": "Q98915099",
+        "subjectValue": "Alt-tech",
+        "predicate": "P527",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P527",
+        "object": "Q15616276",
+        "objectValue": "Telegram",
+        "anotherObject": "Q18558947",
+        "anotherObjectValue": "MTProto"
+    },
+    {
+        "subject": "Q574854",
+        "subjectValue": "Anti-nuclear movement in Australia",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q408",
+        "objectValue": "Australia",
+        "anotherObject": "Q408",
+        "anotherObjectValue": "Australia"
+    },
+    {
+        "subject": "Q574854",
+        "subjectValue": "Anti-nuclear movement in Australia",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q74817647",
+        "objectValue": "aspect in a geographic region",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q574854",
+        "subjectValue": "Anti-nuclear movement in Australia",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q574580",
+        "objectValue": "anti-nuclear movement",
+        "anotherObject": "Q49773",
+        "anotherObjectValue": "social movement"
+    },
+    {
+        "subject": "Q574572",
+        "subjectValue": "Anti-nuclear movement in Germany",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q183",
+        "objectValue": "Germany",
+        "anotherObject": "Q183",
+        "anotherObjectValue": "Germany"
+    },
+    {
+        "subject": "Q574572",
+        "subjectValue": "Anti-nuclear movement in Germany",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q574580",
+        "objectValue": "anti-nuclear movement",
+        "anotherObject": "Q49773",
+        "anotherObjectValue": "social movement"
+    },
+    {
+        "subject": "Q15466187",
+        "subjectValue": "Anti-nuclear protests",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q273120",
+        "objectValue": "protest",
+        "anotherObject": "Q130260549",
+        "anotherObjectValue": "demonstration or protest"
+    },
+    {
+        "subject": "Q15466187",
+        "subjectValue": "Anti-nuclear protests",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q273120",
+        "objectValue": "protest",
+        "anotherObject": "Q180684",
+        "anotherObjectValue": "conflict"
+    },
+    {
+        "subject": "Q15466187",
+        "subjectValue": "Anti-nuclear protests",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q273120",
+        "objectValue": "protest",
+        "anotherObject": "Q628523",
+        "anotherObjectValue": "message"
+    },
+    {
+        "subject": "Q15466187",
+        "subjectValue": "Anti-nuclear protests",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q273120",
+        "objectValue": "protest",
+        "anotherObject": "Q1190554",
+        "anotherObjectValue": "occurrence"
+    },
+    {
+        "subject": "Q15466187",
+        "subjectValue": "Anti-nuclear protests",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q273120",
+        "objectValue": "protest",
+        "anotherObject": "Q1914636",
+        "anotherObjectValue": "activity"
+    },
+    {
+        "subject": "Q384071",
+        "subjectValue": "Arecibo message",
+        "predicate": "P131",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P131",
+        "object": "Q640728",
+        "objectValue": "Arecibo",
+        "anotherObject": "Q1183",
+        "anotherObjectValue": "Puerto Rico"
+    },
+    {
+        "subject": "Q384071",
+        "subjectValue": "Arecibo message",
+        "predicate": "P276",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P276",
+        "object": "Q44547",
+        "objectValue": "Arecibo Radio Telescope",
+        "anotherObject": "Q49006700",
+        "anotherObjectValue": "Esperanza"
+    },
+    {
+        "subject": "Q384071",
+        "subjectValue": "Arecibo message",
+        "predicate": "P138",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P138",
+        "object": "Q44547",
+        "objectValue": "Arecibo Radio Telescope",
+        "anotherObject": "Q313906",
+        "anotherObjectValue": "James Gregory"
+    },
+    {
+        "subject": "Q384071",
+        "subjectValue": "Arecibo message",
+        "predicate": "P138",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P138",
+        "object": "Q44547",
+        "objectValue": "Arecibo Radio Telescope",
+        "anotherObject": "Q640728",
+        "anotherObjectValue": "Arecibo"
+    },
+    {
+        "subject": "Q384071",
+        "subjectValue": "Arecibo message",
+        "predicate": "P138",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P138",
+        "object": "Q44547",
+        "objectValue": "Arecibo Radio Telescope",
+        "anotherObject": "Q2578559",
+        "anotherObjectValue": "William E. Gordon"
+    },
+    {
+        "subject": "Q384071",
+        "subjectValue": "Arecibo message",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q1183",
+        "objectValue": "Puerto Rico",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q130603111",
+        "subjectValue": "Asian News International vs. Wikimedia Foundation",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q668",
+        "objectValue": "India",
+        "anotherObject": "Q668",
+        "anotherObjectValue": "India"
+    },
+    {
+        "subject": "Q3122864",
+        "subjectValue": "Big Tech",
+        "predicate": "P527",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P527",
+        "object": "Q48938223",
+        "objectValue": "TikTok",
+        "anotherObject": "Q94791573",
+        "anotherObjectValue": "TikToker"
+    },
+    {
+        "subject": "Q3122864",
+        "subjectValue": "Big Tech",
+        "predicate": "P527",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P527",
+        "object": "Q48938223",
+        "objectValue": "TikTok",
+        "anotherObject": "Q110888858",
+        "anotherObjectValue": "TikTok video"
+    },
+    {
+        "subject": "Q3122864",
+        "subjectValue": "Big Tech",
+        "predicate": "P527",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P527",
+        "object": "Q3884",
+        "objectValue": "Amazon",
+        "anotherObject": "Q116393594",
+        "anotherObjectValue": "Merch by Amazon"
+    },
+    {
+        "subject": "Q3090589",
+        "subjectValue": "Change.org",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q43229",
+        "objectValue": "organization",
+        "anotherObject": "Q131362181",
+        "anotherObjectValue": "social science concept"
+    },
+    {
+        "subject": "Q3090589",
+        "subjectValue": "Change.org",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q35127",
+        "objectValue": "website",
+        "anotherObject": "Q134995802",
+        "anotherObjectValue": "type of website"
+    },
+    {
+        "subject": "Q3090589",
+        "subjectValue": "Change.org",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q9158476",
+        "subjectValue": "Civic application",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q166142",
+        "objectValue": "application",
+        "anotherObject": "Q7397",
+        "anotherObjectValue": "software"
+    },
+    {
+        "subject": "Q60741616",
+        "subjectValue": "Coding it Forward",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q163740",
+        "objectValue": "nonprofit organization",
+        "anotherObject": "Q268592",
+        "anotherObjectValue": "industry"
+    },
+    {
+        "subject": "Q60741616",
+        "subjectValue": "Coding it Forward",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q163740",
+        "objectValue": "nonprofit organization",
+        "anotherObject": "Q10541491",
+        "anotherObjectValue": "legal form"
+    },
+    {
+        "subject": "Q60741616",
+        "subjectValue": "Coding it Forward",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q163740",
+        "objectValue": "nonprofit organization",
+        "anotherObject": "Q17197366",
+        "anotherObjectValue": "type of organization"
+    },
+    {
+        "subject": "Q15206825",
+        "subjectValue": "Communication with extraterrestrial intelligence",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11024",
+        "objectValue": "communication",
+        "anotherObject": "Q6031064",
+        "anotherObjectValue": "information exchange"
+    },
+    {
+        "subject": "Q7727554",
+        "subjectValue": "The Cool Stuff Collective",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5398426",
+        "objectValue": "television series",
+        "anotherObject": "Q110562117",
+        "anotherObjectValue": "type of television program"
+    },
+    {
+        "subject": "Q4036598",
+        "subjectValue": "Cosmic Call",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q1368086",
+        "objectValue": "Active SETI",
+        "anotherObject": "Q628523",
+        "anotherObjectValue": "message"
+    },
+    {
+        "subject": "Q5185963",
+        "subjectValue": "Crisis camp",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q500415",
+        "objectValue": "BarCamp",
+        "anotherObject": "Q1067715",
+        "anotherObjectValue": "unconference"
+    },
+    {
+        "subject": "Q5186700",
+        "subjectValue": "Critical code studies",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q2465832",
+        "objectValue": "branch of science",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q1260036",
+        "subjectValue": "Criticism of technology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q12909644",
+        "objectValue": "political ideology",
+        "anotherObject": "Q110401282",
+        "anotherObjectValue": "type of world view"
+    },
+    {
+        "subject": "Q348303",
+        "subjectValue": "Crowdfunding",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q6055890",
+        "objectValue": "funding",
+        "anotherObject": "Q1527264",
+        "anotherObjectValue": "income"
+    },
+    {
+        "subject": "Q348303",
+        "subjectValue": "Crowdfunding",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q6055890",
+        "objectValue": "funding",
+        "anotherObject": "Q837171",
+        "anotherObjectValue": "financial services"
+    },
+    {
+        "subject": "Q348303",
+        "subjectValue": "Crowdfunding",
+        "predicate": "P361",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P361",
+        "object": "Q2277143",
+        "objectValue": "sharing economy",
+        "anotherObject": "Q497743",
+        "anotherObjectValue": "circular economy"
+    },
+    {
+        "subject": "Q348303",
+        "subjectValue": "Crowdfunding",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q114795566",
+        "objectValue": "capital procurement",
+        "anotherObject": "Q829492",
+        "anotherObjectValue": "procurement"
+    },
+    {
+        "subject": "Q348303",
+        "subjectValue": "Crowdfunding",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q815823",
+        "objectValue": "AI",
+        "anotherObject": "Q1979154",
+        "anotherObjectValue": "model"
+    },
+    {
+        "subject": "Q348303",
+        "subjectValue": "Crowdfunding",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q2277143",
+        "objectValue": "sharing economy",
+        "anotherObject": "Q8187769",
+        "anotherObjectValue": "economic activity"
+    },
+    {
+        "subject": "Q348303",
+        "subjectValue": "Crowdfunding",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q275969",
+        "objectValue": "crowdsourcing",
+        "anotherObject": "Q1056396",
+        "anotherObjectValue": "human resource management"
+    },
+    {
+        "subject": "Q842550",
+        "subjectValue": "Cultural lag",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q602884",
+        "objectValue": "social phenomenon",
+        "anotherObject": "Q483247",
+        "anotherObjectValue": "phenomenon"
+    },
+    {
+        "subject": "Q107284444",
+        "subjectValue": "Current (financial services company)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q783794",
+        "objectValue": "company",
+        "anotherObject": "Q10541491",
+        "anotherObjectValue": "legal form"
+    },
+    {
+        "subject": "Q107284444",
+        "subjectValue": "Current (financial services company)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q783794",
+        "objectValue": "company",
+        "anotherObject": "Q17197366",
+        "anotherObjectValue": "type of organization"
+    },
+    {
+        "subject": "Q3008151",
+        "subjectValue": "Cyber-dissident",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q15253558",
+        "objectValue": "activist",
+        "anotherObject": "Q215627",
+        "anotherObjectValue": "person"
+    },
+    {
+        "subject": "Q62691",
+        "subjectValue": "De-Mail",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q183",
+        "objectValue": "Germany",
+        "anotherObject": "Q183",
+        "anotherObjectValue": "Germany"
+    },
+    {
+        "subject": "Q62691",
+        "subjectValue": "De-Mail",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q2554719",
+        "objectValue": "message traffic",
+        "anotherObject": "Q11024",
+        "anotherObjectValue": "communication"
+    },
+    {
+        "subject": "Q108370415",
+        "subjectValue": "Dead Internet theory",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q159535",
+        "objectValue": "conspiracy theory",
+        "anotherObject": "Q206829",
+        "anotherObjectValue": "reductionism"
+    },
+    {
+        "subject": "Q601854",
+        "subjectValue": "Digital anthropology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1047113",
+        "objectValue": "field of study",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q601854",
+        "subjectValue": "Digital anthropology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q601854",
+        "subjectValue": "Digital anthropology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q106720965",
+        "objectValue": "branch of anthropology",
+        "anotherObject": "Q24017414",
+        "anotherObjectValue": "second-order class"
+    },
+    {
+        "subject": "Q601854",
+        "subjectValue": "Digital anthropology",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q23404",
+        "objectValue": "anthropology",
+        "anotherObject": "Q34749",
+        "anotherObjectValue": "social science"
+    },
+    {
+        "subject": "Q601854",
+        "subjectValue": "Digital anthropology",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q627436",
+        "objectValue": "field of work",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q1055825",
+        "subjectValue": "Digital journalism",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q3579025",
+        "objectValue": "web writing",
+        "anotherObject": "Q5276056",
+        "anotherObjectValue": "content creation"
+    },
+    {
+        "subject": "Q1055825",
+        "subjectValue": "Digital journalism",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q3579025",
+        "objectValue": "web writing",
+        "anotherObject": "Q37260",
+        "anotherObjectValue": "writing"
+    },
+    {
+        "subject": "Q1055825",
+        "subjectValue": "Digital journalism",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11030",
+        "objectValue": "journalism",
+        "anotherObject": "Q1914636",
+        "anotherObjectValue": "activity"
+    },
+    {
+        "subject": "Q60661815",
+        "subjectValue": "Digital media use and mental health",
+        "predicate": "P1269",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1269",
+        "object": "Q317309",
+        "objectValue": "mental health",
+        "anotherObject": "Q7981051",
+        "anotherObjectValue": "well-being"
+    },
+    {
+        "subject": "Q60661815",
+        "subjectValue": "Digital media use and mental health",
+        "predicate": "P1269",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1269",
+        "object": "Q317309",
+        "objectValue": "mental health",
+        "anotherObject": "Q13100823",
+        "anotherObjectValue": "quality of life"
+    },
+    {
+        "subject": "Q60661815",
+        "subjectValue": "Digital media use and mental health",
+        "predicate": "P1269",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1269",
+        "object": "Q317309",
+        "objectValue": "mental health",
+        "anotherObject": "Q87075524",
+        "anotherObjectValue": "health risk"
+    },
+    {
+        "subject": "Q135094803",
+        "subjectValue": "Education by algorithm",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q8434",
+        "objectValue": "education",
+        "anotherObject": "Q6423395",
+        "anotherObjectValue": "knowledge sharing"
+    },
+    {
+        "subject": "Q135094803",
+        "subjectValue": "Education by algorithm",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q61788126",
+        "objectValue": "educational activity",
+        "anotherObject": "Q451967",
+        "anotherObjectValue": "intentional human activity"
+    },
+    {
+        "subject": "Q135094803",
+        "subjectValue": "Education by algorithm",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q61788126",
+        "objectValue": "educational activity",
+        "anotherObject": "Q5710255",
+        "anotherObjectValue": "helping behavior"
+    },
+    {
+        "subject": "Q135094803",
+        "subjectValue": "Education by algorithm",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q8434",
+        "objectValue": "education",
+        "anotherObject": "Q7406919",
+        "anotherObjectValue": "service"
+    },
+    {
+        "subject": "Q135094803",
+        "subjectValue": "Education by algorithm",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q61515",
+        "objectValue": "outsourcing",
+        "anotherObject": "Q1914636",
+        "anotherObjectValue": "activity"
+    },
+    {
+        "subject": "Q135094803",
+        "subjectValue": "Education by algorithm",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q8434",
+        "objectValue": "education",
+        "anotherObject": "Q2305441",
+        "anotherObjectValue": "social process"
+    },
+    {
+        "subject": "Q135094803",
+        "subjectValue": "Education by algorithm",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q61788126",
+        "objectValue": "educational activity",
+        "anotherObject": "Q133500",
+        "anotherObjectValue": "learning"
+    },
+    {
+        "subject": "Q135094803",
+        "subjectValue": "Education by algorithm",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q61515",
+        "objectValue": "outsourcing",
+        "anotherObject": "Q851587",
+        "anotherObjectValue": "business process"
+    }
+]

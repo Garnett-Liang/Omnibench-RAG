@@ -1,0 +1,1072 @@
+[
+    {
+        "subject": "Q837863",
+        "subjectValue": "Pure mathematics",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q837863",
+        "subjectValue": "Pure mathematics",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q395",
+        "objectValue": "mathematics",
+        "anotherObject": "Q7991",
+        "anotherObjectValue": "natural science"
+    },
+    {
+        "subject": "Q837863",
+        "subjectValue": "Pure mathematics",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q964754",
+        "objectValue": "basic research",
+        "anotherObject": "Q42240",
+        "anotherObjectValue": "research"
+    },
+    {
+        "subject": "Q5156019",
+        "subjectValue": "Comparison of vector algebra and geometric algebra",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1720648",
+        "objectValue": "comparison",
+        "anotherObject": "Q1799072",
+        "anotherObjectValue": "method"
+    },
+    {
+        "subject": "Q858520",
+        "subjectValue": "Divisibility rule",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q8366",
+        "objectValue": "algorithm",
+        "anotherObject": "Q386724",
+        "anotherObjectValue": "work"
+    },
+    {
+        "subject": "Q858520",
+        "subjectValue": "Divisibility rule",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q8366",
+        "objectValue": "algorithm",
+        "anotherObject": "Q20920559",
+        "anotherObjectValue": "procedure"
+    },
+    {
+        "subject": "Q2298491",
+        "subjectValue": "Table of divisors",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q496946",
+        "objectValue": "table",
+        "anotherObject": "Q6504956",
+        "anotherObjectValue": "data visualization"
+    },
+    {
+        "subject": "Q629958",
+        "subjectValue": "Highly composite number",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q77358734",
+        "objectValue": "type of integer",
+        "anotherObject": "Q24017414",
+        "anotherObjectValue": "second-order class"
+    },
+    {
+        "subject": "Q629958",
+        "subjectValue": "Highly composite number",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q28920044",
+        "objectValue": "positive integer",
+        "anotherObject": "Q28920052",
+        "anotherObjectValue": "non-negative integer"
+    },
+    {
+        "subject": "Q629958",
+        "subjectValue": "Highly composite number",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q28920044",
+        "objectValue": "positive integer",
+        "anotherObject": "Q3176558",
+        "anotherObjectValue": "positive real number"
+    },
+    {
+        "subject": "Q1734364",
+        "subjectValue": "Karp's 21 NP-complete problems",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q36161",
+        "objectValue": "set",
+        "anotherObject": "Q24034552",
+        "anotherObjectValue": "mathematical concept"
+    },
+    {
+        "subject": "Q15051202",
+        "subjectValue": "Sums of powers",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q218005",
+        "objectValue": "sum",
+        "anotherObject": "Q130299362",
+        "anotherObjectValue": "weighted sum"
+    },
+    {
+        "subject": "Q15051202",
+        "subjectValue": "Sums of powers",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q218005",
+        "objectValue": "sum",
+        "anotherObject": "Q55091441",
+        "anotherObjectValue": "operation result"
+    },
+    {
+        "subject": "Q7885120",
+        "subjectValue": "Uniform tilings in hyperbolic plane",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q7885119",
+        "objectValue": "uniform tiling",
+        "anotherObject": "Q2907891",
+        "anotherObjectValue": "uniform tessellation"
+    },
+    {
+        "subject": "Q170790",
+        "subjectValue": "Mathematician",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q108300140",
+        "objectValue": "occupation group according to ISCO-08",
+        "anotherObject": "Q828962",
+        "anotherObjectValue": "job classification system"
+    },
+    {
+        "subject": "Q170790",
+        "subjectValue": "Mathematician",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q12737077",
+        "objectValue": "occupation",
+        "anotherObject": "Q24017414",
+        "anotherObjectValue": "second-order class"
+    },
+    {
+        "subject": "Q170790",
+        "subjectValue": "Mathematician",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q901",
+        "objectValue": "scientist",
+        "anotherObject": "Q1650915",
+        "anotherObjectValue": "researcher"
+    },
+    {
+        "subject": "Q170790",
+        "subjectValue": "Mathematician",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q28640",
+        "objectValue": "profession",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q170790",
+        "subjectValue": "Mathematician",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q901",
+        "objectValue": "scientist",
+        "anotherObject": "Q20826540",
+        "anotherObjectValue": "scholar"
+    },
+    {
+        "subject": "Q170790",
+        "subjectValue": "Mathematician",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q28640",
+        "objectValue": "profession",
+        "anotherObject": "Q24017414",
+        "anotherObjectValue": "second-order class"
+    },
+    {
+        "subject": "Q170790",
+        "subjectValue": "Mathematician",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q12737077",
+        "objectValue": "occupation",
+        "anotherObject": "Q151885",
+        "anotherObjectValue": "concept"
+    },
+    {
+        "subject": "Q30927260",
+        "subjectValue": "Hideki Omori",
+        "predicate": "P3373",
+        "predicateValue": "sibling",
+        "object": "Q11436368",
+        "objectValue": "Akemi \u014cmori",
+        "anotherObject": "Q106479177",
+        "anotherObjectValue": "Rei \u014cmori"
+    },
+    {
+        "subject": "Q30927260",
+        "subjectValue": "Hideki Omori",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q30927260",
+        "subjectValue": "Hideki Omori",
+        "predicate": "P3373",
+        "predicateValue": "sibling",
+        "object": "Q106479177",
+        "objectValue": "Rei \u014cmori",
+        "anotherObject": "Q11436368",
+        "anotherObjectValue": "Akemi \u014cmori"
+    },
+    {
+        "subject": "Q16000509",
+        "subjectValue": "Timeline of women in mathematics",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q28464912",
+        "objectValue": "women in mathematics",
+        "anotherObject": "Q170790",
+        "anotherObjectValue": "mathematician"
+    },
+    {
+        "subject": "Q16000509",
+        "subjectValue": "Timeline of women in mathematics",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q28464912",
+        "objectValue": "women in mathematics",
+        "anotherObject": "Q467",
+        "anotherObjectValue": "woman"
+    },
+    {
+        "subject": "Q17017718",
+        "subjectValue": "Timeline of women in mathematics in the United States",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q28464912",
+        "objectValue": "women in mathematics",
+        "anotherObject": "Q170790",
+        "anotherObjectValue": "mathematician"
+    },
+    {
+        "subject": "Q17017718",
+        "subjectValue": "Timeline of women in mathematics in the United States",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q28464912",
+        "objectValue": "women in mathematics",
+        "anotherObject": "Q467",
+        "anotherObjectValue": "woman"
+    },
+    {
+        "subject": "Q17017718",
+        "subjectValue": "Timeline of women in mathematics in the United States",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q74817647",
+        "objectValue": "aspect in a geographic region",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q17017718",
+        "subjectValue": "Timeline of women in mathematics in the United States",
+        "predicate": "P17",
+        "predicateValue": "country",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q65922751",
+        "subjectValue": "African Women in Mathematics Association",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q43229",
+        "objectValue": "organization",
+        "anotherObject": "Q131362181",
+        "anotherObjectValue": "social science concept"
+    },
+    {
+        "subject": "Q65922751",
+        "subjectValue": "African Women in Mathematics Association",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1451906",
+        "objectValue": "women's organization",
+        "anotherObject": "Q17197366",
+        "anotherObjectValue": "type of organization"
+    },
+    {
+        "subject": "Q66180621",
+        "subjectValue": "Anne Bennett Prize",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q25536240",
+        "objectValue": "mathematics award",
+        "anotherObject": "Q107467117",
+        "anotherObjectValue": "type of award"
+    },
+    {
+        "subject": "Q2867685",
+        "subjectValue": "Association for Women in Mathematics",
+        "predicate": "P131",
+        "predicateValue": "located in the administrative territorial entity",
+        "object": "Q501785",
+        "objectValue": "Fairfax",
+        "anotherObject": "Q1370",
+        "anotherObjectValue": "Virginia"
+    },
+    {
+        "subject": "Q2867685",
+        "subjectValue": "Association for Women in Mathematics",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q829080",
+        "objectValue": "professional association",
+        "anotherObject": "Q17197366",
+        "anotherObjectValue": "type of organization"
+    },
+    {
+        "subject": "Q2867685",
+        "subjectValue": "Association for Women in Mathematics",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1451906",
+        "objectValue": "women's organization",
+        "anotherObject": "Q17197366",
+        "anotherObjectValue": "type of organization"
+    },
+    {
+        "subject": "Q2867685",
+        "subjectValue": "Association for Women in Mathematics",
+        "predicate": "P17",
+        "predicateValue": "country",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q106390668",
+        "subjectValue": "Association for Women in Mathematics Newsletter",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q5633421",
+        "objectValue": "scientific journal",
+        "anotherObject": "Q21114848",
+        "anotherObjectValue": "magazine genre"
+    },
+    {
+        "subject": "Q60463384",
+        "subjectValue": "Caucus for Women in Statistics and Data Science",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1110684",
+        "objectValue": "regulatory college",
+        "anotherObject": "Q17197366",
+        "anotherObjectValue": "type of organization"
+    },
+    {
+        "subject": "Q5059921",
+        "subjectValue": "Center for Women in Mathematics",
+        "predicate": "P17",
+        "predicateValue": "country",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q85753699",
+        "subjectValue": "Complexities: Women in Mathematics",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q3331189",
+        "objectValue": "version, edition or translation",
+        "anotherObject": "Q11723795",
+        "anotherObjectValue": "item"
+    },
+    {
+        "subject": "Q85753699",
+        "subjectValue": "Complexities: Women in Mathematics",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q3331189",
+        "objectValue": "version, edition or translation",
+        "anotherObject": "Q24017414",
+        "anotherObjectValue": "second-order class"
+    },
+    {
+        "subject": "Q56686052",
+        "subjectValue": "European Women in Mathematics",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q43229",
+        "objectValue": "organization",
+        "anotherObject": "Q131362181",
+        "anotherObjectValue": "social science concept"
+    },
+    {
+        "subject": "Q56686052",
+        "subjectValue": "European Women in Mathematics",
+        "predicate": "P463",
+        "predicateValue": "member of",
+        "object": "Q1376788",
+        "objectValue": "European Mathematical Society",
+        "anotherObject": "Q125499293",
+        "anotherObjectValue": "European Open Science Cloud Association"
+    },
+    {
+        "subject": "Q56686052",
+        "subjectValue": "European Women in Mathematics",
+        "predicate": "P17",
+        "predicateValue": "country",
+        "object": "Q33",
+        "objectValue": "Finland",
+        "anotherObject": "Q33",
+        "anotherObjectValue": "Finland"
+    },
+    {
+        "subject": "Q6455900",
+        "subjectValue": "Femmes et Math\u00e9matiques",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q43229",
+        "objectValue": "organization",
+        "anotherObject": "Q131362181",
+        "anotherObjectValue": "social science concept"
+    },
+    {
+        "subject": "Q6455900",
+        "subjectValue": "Femmes et Math\u00e9matiques",
+        "predicate": "P17",
+        "predicateValue": "country",
+        "object": "Q142",
+        "objectValue": "France",
+        "anotherObject": "Q142",
+        "anotherObjectValue": "France"
+    },
+    {
+        "subject": "Q5592054",
+        "subjectValue": "Graduate Women in Science",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q18325436",
+        "objectValue": "501(c)(3) organization",
+        "anotherObject": "Q10541491",
+        "anotherObjectValue": "legal form"
+    },
+    {
+        "subject": "Q5592054",
+        "subjectValue": "Graduate Women in Science",
+        "predicate": "P131",
+        "predicateValue": "located in the administrative territorial entity",
+        "object": "Q36091",
+        "objectValue": "Minneapolis",
+        "anotherObject": "Q486229",
+        "anotherObjectValue": "Hennepin County"
+    },
+    {
+        "subject": "Q5592054",
+        "subjectValue": "Graduate Women in Science",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q18325436",
+        "objectValue": "501(c)(3) organization",
+        "anotherObject": "Q131437023",
+        "anotherObjectValue": "tax status"
+    },
+    {
+        "subject": "Q5592054",
+        "subjectValue": "Graduate Women in Science",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1451906",
+        "objectValue": "women's organization",
+        "anotherObject": "Q17197366",
+        "anotherObjectValue": "type of organization"
+    },
+    {
+        "subject": "Q5592054",
+        "subjectValue": "Graduate Women in Science",
+        "predicate": "P17",
+        "predicateValue": "country",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q23755544",
+        "subjectValue": "Hidden Figures",
+        "predicate": "P750",
+        "predicateValue": "distributed by",
+        "object": "Q907311",
+        "objectValue": "Netflix",
+        "anotherObject": "Q368215",
+        "anotherObjectValue": "App Store"
+    },
+    {
+        "subject": "Q23755544",
+        "subjectValue": "Hidden Figures",
+        "predicate": "P750",
+        "predicateValue": "distributed by",
+        "object": "Q907311",
+        "objectValue": "Netflix",
+        "anotherObject": "Q79576",
+        "anotherObjectValue": "Google Play"
+    },
+    {
+        "subject": "Q23755544",
+        "subjectValue": "Hidden Figures",
+        "predicate": "P750",
+        "predicateValue": "distributed by",
+        "object": "Q9589",
+        "objectValue": "iTunes",
+        "anotherObject": "Q135288",
+        "anotherObjectValue": "Microsoft Store"
+    },
+    {
+        "subject": "Q28464870",
+        "subjectValue": "Hidden Figures (book)",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1325447",
+        "objectValue": "non-fiction novel",
+        "anotherObject": "Q108317211",
+        "anotherObjectValue": "novel genre"
+    },
+    {
+        "subject": "Q1354618",
+        "subjectValue": "Krieger\u2013Nelson Prize",
+        "predicate": "P17",
+        "predicateValue": "country",
+        "object": "Q16",
+        "objectValue": "Canada",
+        "anotherObject": "Q16",
+        "anotherObjectValue": "Canada"
+    },
+    {
+        "subject": "Q1354618",
+        "subjectValue": "Krieger\u2013Nelson Prize",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q618779",
+        "objectValue": "award",
+        "anotherObject": "Q104086571",
+        "anotherObjectValue": "first-order class"
+    },
+    {
+        "subject": "Q1354618",
+        "subjectValue": "Krieger\u2013Nelson Prize",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q38888551",
+        "objectValue": "award honoring women",
+        "anotherObject": "Q618779",
+        "anotherObjectValue": "award"
+    },
+    {
+        "subject": "Q1354618",
+        "subjectValue": "Krieger\u2013Nelson Prize",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11448906",
+        "objectValue": "science award",
+        "anotherObject": "Q107467117",
+        "anotherObjectValue": "type of award"
+    },
+    {
+        "subject": "Q839260",
+        "subjectValue": "Noether Lecture",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17084656",
+        "objectValue": "named lecture",
+        "anotherObject": "Q625994",
+        "anotherObjectValue": "convention"
+    },
+    {
+        "subject": "Q839260",
+        "subjectValue": "Noether Lecture",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17084656",
+        "objectValue": "named lecture",
+        "anotherObject": "Q603773",
+        "anotherObjectValue": "lecture"
+    },
+    {
+        "subject": "Q839260",
+        "subjectValue": "Noether Lecture",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q25536240",
+        "objectValue": "mathematics award",
+        "anotherObject": "Q107467117",
+        "anotherObjectValue": "type of award"
+    },
+    {
+        "subject": "Q839260",
+        "subjectValue": "Noether Lecture",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q21358050",
+        "objectValue": "lecture series",
+        "anotherObject": "Q107467117",
+        "anotherObjectValue": "type of award"
+    },
+    {
+        "subject": "Q839260",
+        "subjectValue": "Noether Lecture",
+        "predicate": "P17",
+        "predicateValue": "country",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q96399440",
+        "subjectValue": "Pioneering Women in American Mathematics",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q47461344",
+        "objectValue": "written work",
+        "anotherObject": "Q504952",
+        "anotherObjectValue": "collective noun"
+    },
+    {
+        "subject": "Q91098730",
+        "subjectValue": "Power in Numbers: The Rebel Women of Mathematics",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q571",
+        "objectValue": "book",
+        "anotherObject": "Q121132955",
+        "anotherObjectValue": "type of mass media"
+    },
+    {
+        "subject": "Q91098730",
+        "subjectValue": "Power in Numbers: The Rebel Women of Mathematics",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q571",
+        "objectValue": "book",
+        "anotherObject": "Q39725049",
+        "anotherObjectValue": "type of publication"
+    },
+    {
+        "subject": "Q2177698",
+        "subjectValue": "Ruth Lyttle Satter Prize in Mathematics",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q38888551",
+        "objectValue": "award honoring women",
+        "anotherObject": "Q618779",
+        "anotherObjectValue": "award"
+    },
+    {
+        "subject": "Q2177698",
+        "subjectValue": "Ruth Lyttle Satter Prize in Mathematics",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q25536240",
+        "objectValue": "mathematics award",
+        "anotherObject": "Q107467117",
+        "anotherObjectValue": "type of award"
+    },
+    {
+        "subject": "Q96415483",
+        "subjectValue": "Women in Mathematics (book)",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q571",
+        "objectValue": "book",
+        "anotherObject": "Q121132955",
+        "anotherObjectValue": "type of mass media"
+    },
+    {
+        "subject": "Q96415483",
+        "subjectValue": "Women in Mathematics (book)",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q571",
+        "objectValue": "book",
+        "anotherObject": "Q39725049",
+        "anotherObjectValue": "type of publication"
+    },
+    {
+        "subject": "Q6693003",
+        "subjectValue": "Women in STEM",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q16934342",
+        "objectValue": "occupational segregation",
+        "anotherObject": "Q2672163",
+        "anotherObjectValue": "gender role"
+    },
+    {
+        "subject": "Q6693003",
+        "subjectValue": "Women in STEM",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q16334295",
+        "objectValue": "group of humans",
+        "anotherObject": "Q134601727",
+        "anotherObjectValue": "group of persons"
+    },
+    {
+        "subject": "Q6693003",
+        "subjectValue": "Women in STEM",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q16334295",
+        "objectValue": "group of humans",
+        "anotherObject": "Q134261520",
+        "anotherObjectValue": "group or class of humans"
+    },
+    {
+        "subject": "Q120336527",
+        "subjectValue": "Fermat Kitchen",
+        "predicate": "P138",
+        "predicateValue": "named after",
+        "object": "Q132469",
+        "objectValue": "Fermat's Last Theorem",
+        "anotherObject": "Q75655",
+        "anotherObjectValue": "Pierre de Fermat"
+    },
+    {
+        "subject": "Q120336527",
+        "subjectValue": "Fermat Kitchen",
+        "predicate": "P2360",
+        "predicateValue": "intended public",
+        "object": "Q231302",
+        "objectValue": "sh\u014dnen",
+        "anotherObject": "Q3010",
+        "anotherObjectValue": "boy"
+    },
+    {
+        "subject": "Q56349478",
+        "subjectValue": "Science Fell in Love, So I Tried to Prove It",
+        "predicate": "P2360",
+        "predicateValue": "intended public",
+        "object": "Q237338",
+        "objectValue": "seinen",
+        "anotherObject": "Q1492760",
+        "anotherObjectValue": "teenager"
+    },
+    {
+        "subject": "Q133049333",
+        "subjectValue": "S\u016bgaku Golden",
+        "predicate": "P2360",
+        "predicateValue": "intended public",
+        "object": "Q237338",
+        "objectValue": "seinen",
+        "anotherObject": "Q1492760",
+        "anotherObjectValue": "teenager"
+    },
+    {
+        "subject": "Q102244116",
+        "subjectValue": "S\u016bji de Asobo",
+        "predicate": "P2360",
+        "predicateValue": "intended public",
+        "object": "Q503106",
+        "objectValue": "josei",
+        "anotherObject": "Q467",
+        "anotherObjectValue": "woman"
+    },
+    {
+        "subject": "Q122658686",
+        "subjectValue": "Trisatika",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q47461344",
+        "objectValue": "written work",
+        "anotherObject": "Q504952",
+        "anotherObjectValue": "collective noun"
+    },
+    {
+        "subject": "Q2864650",
+        "subjectValue": "Mathematics and art",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q930933",
+        "objectValue": "relation",
+        "anotherObject": "Q96253971",
+        "anotherObjectValue": "type of property"
+    },
+    {
+        "subject": "Q2864650",
+        "subjectValue": "Mathematics and art",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q930933",
+        "objectValue": "relation",
+        "anotherObject": "Q96251598",
+        "anotherObjectValue": "type of object"
+    },
+    {
+        "subject": "Q217422",
+        "subjectValue": "Anamorphosis",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q478798",
+        "objectValue": "image",
+        "anotherObject": "Q16686448",
+        "anotherObjectValue": "artificial object"
+    },
+    {
+        "subject": "Q217422",
+        "subjectValue": "Anamorphosis",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q478798",
+        "objectValue": "image",
+        "anotherObject": "Q118870638",
+        "anotherObjectValue": "two-dimensional object"
+    },
+    {
+        "subject": "Q217422",
+        "subjectValue": "Anamorphosis",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q29457028",
+        "objectValue": "projection",
+        "anotherObject": "Q4502142",
+        "anotherObjectValue": "visual artwork"
+    },
+    {
+        "subject": "Q102166223",
+        "subjectValue": "Sarah-marie belcastro",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q102166223",
+        "subjectValue": "Sarah-marie belcastro",
+        "predicate": "P184",
+        "predicateValue": "doctoral advisor",
+        "object": "Q339333",
+        "objectValue": "Igor Dolgachev",
+        "anotherObject": "Q710920",
+        "anotherObjectValue": "Igor Shafarevich"
+    },
+    {
+        "subject": "Q21015638",
+        "subjectValue": "The Bridges Organization",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q43229",
+        "objectValue": "organization",
+        "anotherObject": "Q131362181",
+        "anotherObjectValue": "social science concept"
+    },
+    {
+        "subject": "Q108444570",
+        "subjectValue": "Equals Pi",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q3305213",
+        "objectValue": "painting",
+        "anotherObject": "Q116474095",
+        "anotherObjectValue": "type of work of art"
+    },
+    {
+        "subject": "Q3413630",
+        "subjectValue": "Fourth dimension in art",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1792379",
+        "objectValue": "art genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q41690",
+        "subjectValue": "Golden ratio",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q189573",
+        "objectValue": "Golden Rule",
+        "anotherObject": "Q1519167",
+        "anotherObjectValue": "Lei \u00c1urea"
+    },
+    {
+        "subject": "Q41690",
+        "subjectValue": "Golden ratio",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11634820",
+        "objectValue": "metallic ratio",
+        "anotherObject": "Q30904412",
+        "anotherObjectValue": "sequence of real numbers"
+    },
+    {
+        "subject": "Q41690",
+        "subjectValue": "Golden ratio",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q607728",
+        "objectValue": "irrational number",
+        "anotherObject": "Q47460393",
+        "anotherObjectValue": "type of number"
+    },
+    {
+        "subject": "Q6295505",
+        "subjectValue": "Journal of Mathematics and the Arts",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1002697",
+        "objectValue": "periodical",
+        "anotherObject": "Q121132955",
+        "anotherObjectValue": "type of mass media"
+    },
+    {
+        "subject": "Q6295505",
+        "subjectValue": "Journal of Mathematics and the Arts",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1002697",
+        "objectValue": "periodical",
+        "anotherObject": "Q39725049",
+        "anotherObjectValue": "type of publication"
+    },
+    {
+        "subject": "Q6295505",
+        "subjectValue": "Journal of Mathematics and the Arts",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1002697",
+        "objectValue": "periodical",
+        "anotherObject": "Q110452794",
+        "anotherObjectValue": "form of creative work"
+    },
+    {
+        "subject": "Q112702121",
+        "subjectValue": "Mathemalchemy",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q43229",
+        "objectValue": "organization",
+        "anotherObject": "Q131362181",
+        "anotherObjectValue": "social science concept"
+    },
+    {
+        "subject": "Q2248521",
+        "subjectValue": "Mathematical beauty",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q1207152",
+        "objectValue": "elegance",
+        "anotherObject": "Q7242",
+        "anotherObjectValue": "beauty"
+    },
+    {
+        "subject": "Q2248521",
+        "subjectValue": "Mathematical beauty",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q1207152",
+        "objectValue": "elegance",
+        "anotherObject": "Q106781422",
+        "anotherObjectValue": "delicacy"
+    },
+    {
+        "subject": "Q2248521",
+        "subjectValue": "Mathematical beauty",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q1207152",
+        "objectValue": "elegance",
+        "anotherObject": "Q508291",
+        "anotherObjectValue": "simplicity"
+    },
+    {
+        "subject": "Q2248521",
+        "subjectValue": "Mathematical beauty",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q395",
+        "objectValue": "mathematics",
+        "anotherObject": "Q853077",
+        "anotherObjectValue": "mathematics education"
+    },
+    {
+        "subject": "Q2248521",
+        "subjectValue": "Mathematical beauty",
+        "predicate": "P1382",
+        "predicateValue": "partially coincident with",
+        "object": "Q1207152",
+        "objectValue": "elegance",
+        "anotherObject": "Q3364869",
+        "anotherObjectValue": "parsimony"
+    },
+    {
+        "subject": "Q2248521",
+        "subjectValue": "Mathematical beauty",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q7242",
+        "objectValue": "beauty",
+        "anotherObject": "Q367293",
+        "anotherObjectValue": "convention"
+    },
+    {
+        "subject": "Q2248521",
+        "subjectValue": "Mathematical beauty",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q7242",
+        "objectValue": "beauty",
+        "anotherObject": "Q194112",
+        "anotherObjectValue": "value"
+    },
+    {
+        "subject": "Q3299105",
+        "subjectValue": "Mathematics of paper folding",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q395",
+        "objectValue": "mathematics",
+        "anotherObject": "Q7991",
+        "anotherObjectValue": "natural science"
+    },
+    {
+        "subject": "Q2987018",
+        "subjectValue": "A New Kind of Science",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q47461344",
+        "objectValue": "written work",
+        "anotherObject": "Q504952",
+        "anotherObjectValue": "collective noun"
+    }
+]
