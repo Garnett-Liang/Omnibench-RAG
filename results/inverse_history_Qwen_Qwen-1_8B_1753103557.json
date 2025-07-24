@@ -1,0 +1,196 @@
+{
+    "model_name": "Qwen/Qwen-1_8B",
+    "questions": [
+        {
+            "question": "Description:\nA retrospective, generally, is a look back at events that took place, or works that were produced, in the past. As a noun, retrospective has specific meanings in software development, popular culture, and the arts. It is applied as an adjective, synonymous with the term retroactive, to laws, standards, and awards.\nA golden age is a period considered the peak in the history of a country or people, a time period when the greatest achievements were made. The term originated from early Greek and Roman poets, who used it to refer to a time when mankind lived in a better time and was pure.\n\nQuestion:\nDoes retrospective have the possibility to be be the natural reservoir in of Golden age (metaphor)?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "Yes, retrospective has the possibility to be a natural reservoir in the term \"golden age\" (metaphor).",
+            "reference_answer": "yes",
+            "predicted_label": "yes",
+            "confidence": 0.9726538062095642,
+            "is_correct": true,
+            "response_time": 2.864427328109741,
+            "memory_usage": -919.8203125,
+            "gpu_utilization": 45.5
+        },
+        {
+            "question": "Description:\nLucien Paul Victor Febvre was a French historian best known for the role he played in establishing the Annales School of history. He was the initial editor of the Encyclopédie française together with Anatole de Monzie.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.\n\nQuestion:\nDoes Lucien Febvre have the possibility to be found of Annales school?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "No answer",
+            "reference_answer": "yes",
+            "predicted_label": "none",
+            "confidence": 0.9997177720069885,
+            "is_correct": false,
+            "response_time": 0.1638810634613037,
+            "memory_usage": 0.04296875,
+            "gpu_utilization": 32.5
+        },
+        {
+            "question": "Description:\nNostalgia is a sentimentality for the past, typically for a period or place with happy personal associations. The word nostalgia is a neoclassical compound derived from Greek, consisting of νόστος (nóstos), a Homeric word meaning \"homecoming\", and ἄλγος (álgos), meaning \"pain\"; the word was coined by a 17th-century medical student to describe the anxieties displayed by Swiss mercenaries fighting away from home. Described as a medical condition—a form of melancholy—in the early modern period, it became an important trope in Romanticism.\nA golden age is a period considered the peak in the history of a country or people, a time period when the greatest achievements were made. The term originated from early Greek and Roman poets, who used it to refer to a time when mankind lived in a better time and was pure.\n\nQuestion:\nDoes nostalgia have the possibility to be be the natural reservoir in of Golden age (metaphor)?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "Yes.",
+            "reference_answer": "yes",
+            "predicted_label": "yes",
+            "confidence": 0.9998062252998352,
+            "is_correct": true,
+            "response_time": 0.8904294967651367,
+            "memory_usage": -878.234375,
+            "gpu_utilization": 46.0
+        },
+        {
+            "question": "Description:\nLucien Paul Victor Febvre was a French historian best known for the role he played in establishing the Annales School of history. He was the initial editor of the Encyclopédie française together with Anatole de Monzie.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.\n\nQuestion:\nIs it true that Lucien Febvre could or could be found Annales school?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "yes",
+            "reference_answer": "yes",
+            "predicted_label": "yes",
+            "confidence": 0.9997805953025818,
+            "is_correct": true,
+            "response_time": 0.3355536460876465,
+            "memory_usage": 0.12109375,
+            "gpu_utilization": 13.0
+        },
+        {
+            "question": "Description:\nJames Lockhart was a U.S. historian of colonial Spanish America, especially the Nahua people and Nahuatl language.\nNew Philology generally refers to a branch of Mexican ethnohistory and philology that uses colonial-era native language texts written by Indians to construct history from the indigenous point of view. The name New Philology was coined by James Lockhart to describe work that he and his doctoral students and scholarly collaborators in history, anthropology, and linguistics had pursued since the mid-1970s. Lockhart published a great many essays elaborating on the concept and content of the New Philology and Matthew Restall published a description of it in the Latin American Research Review.\n\nQuestion:\nStatement: It's not true that James Lockhart could be found of New Philology (Latin America). Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "No.",
+            "reference_answer": "no",
+            "predicted_label": "no",
+            "confidence": 0.9972889423370361,
+            "is_correct": true,
+            "response_time": 0.31903767585754395,
+            "memory_usage": 0.06640625,
+            "gpu_utilization": 13.0
+        },
+        {
+            "question": "Description:\nJames Lockhart was a U.S. historian of colonial Spanish America, especially the Nahua people and Nahuatl language.\nNew Philology generally refers to a branch of Mexican ethnohistory and philology that uses colonial-era native language texts written by Indians to construct history from the indigenous point of view. The name New Philology was coined by James Lockhart to describe work that he and his doctoral students and scholarly collaborators in history, anthropology, and linguistics had pursued since the mid-1970s. Lockhart published a great many essays elaborating on the concept and content of the New Philology and Matthew Restall published a description of it in the Latin American Research Review.\n\nQuestion:\nDoes James Lockhart have the possibility to be found of New Philology (Latin America)?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "No answer",
+            "reference_answer": "yes",
+            "predicted_label": "none",
+            "confidence": 0.9997177720069885,
+            "is_correct": false,
+            "response_time": 0.13342976570129395,
+            "memory_usage": 0.25390625,
+            "gpu_utilization": 13.0
+        },
+        {
+            "question": "Description:\nLucien Paul Victor Febvre was a French historian best known for the role he played in establishing the Annales School of history. He was the initial editor of the Encyclopédie française together with Anatole de Monzie.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.\n\nQuestion:\nCould Lucien Febvre be found of Annales school?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "No answer",
+            "reference_answer": "yes",
+            "predicted_label": "none",
+            "confidence": 0.9997177720069885,
+            "is_correct": false,
+            "response_time": 0.1254723072052002,
+            "memory_usage": 0.015625,
+            "gpu_utilization": 33.5
+        },
+        {
+            "question": "Description:\nA retrospective, generally, is a look back at events that took place, or works that were produced, in the past. As a noun, retrospective has specific meanings in software development, popular culture, and the arts. It is applied as an adjective, synonymous with the term retroactive, to laws, standards, and awards.\nA golden age is a period considered the peak in the history of a country or people, a time period when the greatest achievements were made. The term originated from early Greek and Roman poets, who used it to refer to a time when mankind lived in a better time and was pure.\n\nQuestion:\nDoes retrospective have the possibility to be be the natural reservoir in of Golden age (metaphor)?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "Yes.",
+            "reference_answer": "yes",
+            "predicted_label": "yes",
+            "confidence": 0.9998062252998352,
+            "is_correct": true,
+            "response_time": 0.5706276893615723,
+            "memory_usage": 0.046875,
+            "gpu_utilization": 54.0
+        },
+        {
+            "question": "Description:\nMarc Léopold Benjamin Bloch was a French historian. He was a founding member of the Annales School of French social history. Bloch specialised in medieval history and published widely on medieval France over the course of his career. As an academic, he worked at the University of Strasbourg, the University of Paris, and the University of Montpellier.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.\n\nQuestion:\nIs it true that Marc Bloch could or could be found Annales school?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "Yes, Marc Bloch could be found in the Annales School.",
+            "reference_answer": "yes",
+            "predicted_label": "yes",
+            "confidence": 0.8414548635482788,
+            "is_correct": true,
+            "response_time": 1.924849510192871,
+            "memory_usage": 0.58203125,
+            "gpu_utilization": 33.5
+        },
+        {
+            "question": "Description:\nBarcelona is a city on the northeastern coast of Spain. It is the capital and largest city of the autonomous community of Catalonia, as well as the second-most populous municipality of Spain. With a population of 1.6 million within city limits, its urban area extends to numerous neighbouring municipalities within the province of Barcelona and is home to around 5.3 million people, making it the fifth most populous urban area of the European Union after Paris, the Ruhr area, Madrid and Milan. It is one of the largest metropolises on the Mediterranean Sea, located on the coast between the mouths of the rivers Llobregat and Besòs, bounded to the west by the Serra de Collserola mountain range.\nA letter written by Christopher Columbus on 15 February 1493, is the first known document announcing the completion of his first voyage across the Atlantic, which set out in 1492 and reached the Americas. The letter was ostensibly written by Columbus himself, aboard the caravel Niña, on the return leg of his voyage. A postscript was added upon his arrival in Lisbon on 4 March 1493, and it was probably from there that Columbus dispatched two copies of his letter to the Spanish court.\n\nQuestion:\nCould Barcelona be the fictional universe happened to meet of Columbus's letter on the first voyage?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "No.",
+            "reference_answer": "yes",
+            "predicted_label": "no",
+            "confidence": 0.9972889423370361,
+            "is_correct": false,
+            "response_time": 0.43668484687805176,
+            "memory_usage": 0.18359375,
+            "gpu_utilization": 29.0
+        },
+        {
+            "question": "Description:\nLucien Paul Victor Febvre was a French historian best known for the role he played in establishing the Annales School of history. He was the initial editor of the Encyclopédie française together with Anatole de Monzie.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.\n\nQuestion:\nCould Lucien Febvre be found of Annales school?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "yes",
+            "reference_answer": "yes",
+            "predicted_label": "yes",
+            "confidence": 0.9997805953025818,
+            "is_correct": true,
+            "response_time": 0.4611020088195801,
+            "memory_usage": 0.046875,
+            "gpu_utilization": 45.0
+        },
+        {
+            "question": "Description:\nMarc Léopold Benjamin Bloch was a French historian. He was a founding member of the Annales School of French social history. Bloch specialised in medieval history and published widely on medieval France over the course of his career. As an academic, he worked at the University of Strasbourg, the University of Paris, and the University of Montpellier.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.\n\nQuestion:\nDoes Marc Bloch have the possibility to be found of Annales school?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "No answer",
+            "reference_answer": "yes",
+            "predicted_label": "none",
+            "confidence": 0.9997177720069885,
+            "is_correct": false,
+            "response_time": 0.17147111892700195,
+            "memory_usage": 0.015625,
+            "gpu_utilization": 45.0
+        },
+        {
+            "question": "Description:\nJames Lockhart was a U.S. historian of colonial Spanish America, especially the Nahua people and Nahuatl language.\nNew Philology generally refers to a branch of Mexican ethnohistory and philology that uses colonial-era native language texts written by Indians to construct history from the indigenous point of view. The name New Philology was coined by James Lockhart to describe work that he and his doctoral students and scholarly collaborators in history, anthropology, and linguistics had pursued since the mid-1970s. Lockhart published a great many essays elaborating on the concept and content of the New Philology and Matthew Restall published a description of it in the Latin American Research Review.\n\nQuestion:\nIs there any possibility that James Lockhart could not be found of New Philology (Latin America)?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "Yes.",
+            "reference_answer": "no",
+            "predicted_label": "yes",
+            "confidence": 0.9998062252998352,
+            "is_correct": false,
+            "response_time": 0.509918212890625,
+            "memory_usage": 0.01171875,
+            "gpu_utilization": 38.5
+        },
+        {
+            "question": "Description:\nNostalgia is a sentimentality for the past, typically for a period or place with happy personal associations. The word nostalgia is a neoclassical compound derived from Greek, consisting of νόστος (nóstos), a Homeric word meaning \"homecoming\", and ἄλγος (álgos), meaning \"pain\"; the word was coined by a 17th-century medical student to describe the anxieties displayed by Swiss mercenaries fighting away from home. Described as a medical condition—a form of melancholy—in the early modern period, it became an important trope in Romanticism.\nA golden age is a period considered the peak in the history of a country or people, a time period when the greatest achievements were made. The term originated from early Greek and Roman poets, who used it to refer to a time when mankind lived in a better time and was pure.\n\nQuestion:\nIs it true that nostalgia could or could be be the natural reservoir in Golden age (metaphor)?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "Based on the information provided, it is true that nostalgia could be the natural reservoir in the Golden age (metaphor).",
+            "reference_answer": "yes",
+            "predicted_label": "yes",
+            "confidence": 0.9992005228996277,
+            "is_correct": true,
+            "response_time": 2.982118606567383,
+            "memory_usage": 0.10546875,
+            "gpu_utilization": 26.5
+        },
+        {
+            "question": "Description:\nMarc Léopold Benjamin Bloch was a French historian. He was a founding member of the Annales School of French social history. Bloch specialised in medieval history and published widely on medieval France over the course of his career. As an academic, he worked at the University of Strasbourg, the University of Paris, and the University of Montpellier.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.\n\nQuestion:\nDoes Marc Bloch have the possibility to be found of Annales school?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "Answer:\nYes",
+            "reference_answer": "yes",
+            "predicted_label": "yes",
+            "confidence": 0.9990841150283813,
+            "is_correct": true,
+            "response_time": 0.41207361221313477,
+            "memory_usage": 0.0,
+            "gpu_utilization": 21.0
+        },
+        {
+            "question": "Description:\nMarc Léopold Benjamin Bloch was a French historian. He was a founding member of the Annales School of French social history. Bloch specialised in medieval history and published widely on medieval France over the course of his career. As an academic, he worked at the University of Strasbourg, the University of Paris, and the University of Montpellier.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.\n\nQuestion:\nStatement: It's not true that Marc Bloch could be found of Annales school. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "No answer",
+            "reference_answer": "no",
+            "predicted_label": "none",
+            "confidence": 0.9997177720069885,
+            "is_correct": false,
+            "response_time": 0.24177789688110352,
+            "memory_usage": 0.02734375,
+            "gpu_utilization": 20.5
+        },
+        {
+            "question": "Description:\nJames Lockhart was a U.S. historian of colonial Spanish America, especially the Nahua people and Nahuatl language.\nNew Philology generally refers to a branch of Mexican ethnohistory and philology that uses colonial-era native language texts written by Indians to construct history from the indigenous point of view. The name New Philology was coined by James Lockhart to describe work that he and his doctoral students and scholarly collaborators in history, anthropology, and linguistics had pursued since the mid-1970s. Lockhart published a great many essays elaborating on the concept and content of the New Philology and Matthew Restall published a description of it in the Latin American Research Review.\n\nQuestion:\nCould James Lockhart be found of New Philology (Latin America)?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "No answer",
+            "reference_answer": "yes",
+            "predicted_label": "none",
+            "confidence": 0.9997177720069885,
+            "is_correct": false,
+            "response_time": 0.33366990089416504,
+            "memory_usage": 0.00390625,
+            "gpu_utilization": 20.0
+        }
+    ],
+    "basic_accuracy": 52.94117647058824,
+    "average_response_time": 0.7574426286360797,
+    "average_memory_usage": 0.10881696428571429,
+    "average_gpu_utilization": 31.147058823529413
+}

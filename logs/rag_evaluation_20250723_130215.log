@@ -1,0 +1,278 @@
+Starting RAG evaluation - Domain: mathematics, Model: qwen, Retrieved documents: 3
+==================================================
+[1/5] Checking and preprocessing mathematics domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building mathematics domain vector index...
+Index already exists, loading...
+[3/5] Loading mathematics domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/mathematics_index.faiss
+Number of vectors in FAISS index: 283
+[5/5] Starting RAG evaluation... (17 samples)
+Starting evaluation with 17 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Is it true that University of Tokyo could or could be be the alma mater of Hideki Omori?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that university of tokyo could or could be be the alma mater of hideki omori? yes, it is true that the university of tokyo could or could be the alma mater of hideki omori. hideki omori was a japanese academic and politician who was born in tokyo in 1907. he studied at the university of tokyo from 1929 to 1932, where he earned a bachelor's degree in philosophy and a master's degree in political science. omori later became a professor of political science at the university of tokyo and served as
+  Semantic Prediction: yes (Confidence: 0.8773)
+  Correctness: Correct
+  Performance: Time=2.5178s, Memory=14.8789MB, GPU=59.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+the university of tokyo is a public research university located in tokyo, japan. it was founded in 1877 and is one of the oldest universities in japan. it is a member of the keio university group of private universities and the keio university group of public universities. the university has a long history of academic excellence and has produced many notable alumni, including nobel laureates, world leaders, and other notable figures in various fields.
+
+hideki omori was a japanese mathematician who was born in tokyo in 1906. he received his undergraduate degree from the university of tokyo in 1929 and went on to receive his ph.d. in mathematics from the same university in 1932.
+  Semantic Prediction: yes (Confidence: 0.9983)
+  Correctness: Correct
+  Performance: Time=3.4591s, Memory=-771.0039MB, GPU=-5.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Statement: It's not true that University of Michigan could be be the alma mater of of Sarah-marie belcastro. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that university of michigan could be be the alma mater of of sarah-marie belcastro. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. no.
+  Semantic Prediction: no (Confidence: 0.9969)
+  Correctness: Correct
+  Performance: Time=0.1374s, Memory=0.4414MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no.
+  Semantic Prediction: no (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=0.1643s, Memory=2.2227MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Could Annie Selden be found of Association for Women in Mathematics?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could annie selden be found of association for women in mathematics? annie selden was a mathematician and educator who was born in 1898 in new york city. she was a member of the association for women in mathematics (awm) from 1946 to 1951. the awm was founded in 1946 by a group of women mathematicians who were concerned about the lack of representation of women in the field of mathematics. the organization aimed to promote the advancement of women in the field of mathematics and
+  Semantic Prediction: no (Confidence: 0.8126)
+  Correctness: Incorrect
+  Performance: Time=2.4853s, Memory=0.2461MB, GPU=-17.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+question: could annie selden be found of association for women in mathematics?
+answer with 'yes' or 'no': yes
+
+question: could annie selden be found of association for women in mathematics?
+answer with 'yes' or 'no': yes
+
+question: could annie selden be found of association for women in mathematics?
+answer with 'yes' or 'no': yes
+
+question: could annie selden be found of association for women in mathematics?
+answer with 'yes' or 'no': yes
+
+question: could annie selden be found of association for women in mathematics?
+answer with 'yes' or 'no': yes
+
+question: could annie selden be found of association for women in mathematics?
+answer with '
+  Semantic Prediction: no (Confidence: 0.9865)
+  Correctness: Incorrect
+  Performance: Time=3.5879s, Memory=4.4688MB, GPU=-25.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Is it true that Alice T. Schafer could or could be found Association for Women in Mathematics?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that alice t. schafer could or could be found association for women in mathematics? yes, it is true that alice t. schafer could or could be found association for women in mathematics. alice t. schafer was a mathematician and educator who was born in 1905 in new york city and died in 1990 in new york city. she was a member of the association for women in mathematics (awm) and was active in the field of mathematics education. therefore, it is likely that she could be found in the awm's archives
+  Semantic Prediction: no (Confidence: 0.8769)
+  Correctness: Incorrect
+  Performance: Time=2.9006s, Memory=0.1016MB, GPU=-15.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+question: is it true that alice t. schafer could or could be found association for women in mathematics?
+answer with 'yes' or 'no': yes
+
+question: is it true that alice t. schafer could or could be found association for women in mathematics?
+answer with 'yes' or 'no': yes
+
+question: is it true that alice t. schafer could or could be found association for women in mathematics?
+answer with 'yes' or 'no': yes
+
+question: is it true that alice t. schafer could or could be found association for women in mathematics?
+answer with 'yes' or 'no': yes
+
+question: is it true that alice t. schafer could or could be found
+  Semantic Prediction: no (Confidence: 0.6641)
+  Correctness: Incorrect
+  Performance: Time=3.5427s, Memory=1.1055MB, GPU=28.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Statement: It's not true that Mary W. Gray could be found of Association for Women in Mathematics. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that mary w. gray could be found of association for women in mathematics. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. no.
+  Semantic Prediction: no (Confidence: 0.9981)
+  Correctness: Correct
+  Performance: Time=0.1092s, Memory=0.0742MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no.
+  Semantic Prediction: no (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=0.1566s, Memory=1.0859MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Is it true that Gloria Olive could or could be found Association for Women in Mathematics?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that gloria olive could or could be found association for women in mathematics? the answer is: yes.
+  Semantic Prediction: no (Confidence: 0.6200)
+  Correctness: Incorrect
+  Performance: Time=0.2276s, Memory=0.0273MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: is it true that gloria olive could or could be found association for women in mathematics?
+answer with 'yes' or 'no': no
+
+question: is it true that gloria olive could or could be found association for women in mathematics?
+answer with 'yes' or 'no': no
+
+question: is it true that gloria olive could or could be found association for women in mathematics?
+answer with 'yes' or 'no': no
+
+question: is it true that gloria olive could or could be found association for women in mathematics?
+answer with 'yes' or 'no': no
+
+question: is it true that gloria olive could or could be found association for women in mathematics?
+answer with 'yes' or 'no':
+  Semantic Prediction: no (Confidence: 0.9979)
+  Correctness: Incorrect
+  Performance: Time=3.4502s, Memory=0.8242MB, GPU=9.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Statement: It's not true that Joan Birman could be found of Ruth Lyttle Satter Prize in Mathematics. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that joan birman could be found of ruth lyttle satter prize in mathematics. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. yes.
+  Semantic Prediction: no (Confidence: 0.9971)
+  Correctness: Correct
+  Performance: Time=0.1620s, Memory=0.1250MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no.
+  Semantic Prediction: no (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=0.1861s, Memory=0.0508MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Statement: It's not true that Fairfax could be the administrative territorial entity contains of Association for Women in Mathematics. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that fairfax could be the administrative territorial entity contains of association for women in mathematics. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. no.
+  Semantic Prediction: no (Confidence: 0.9954)
+  Correctness: Correct
+  Performance: Time=0.1342s, Memory=0.0547MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no.
+  Semantic Prediction: no (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=0.2247s, Memory=0.0352MB, GPU=-44.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Does Europe have the possibility to be the administrative territorial entity contains of European Women in Mathematics?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does europe have the possibility to be the administrative territorial entity contains of european women in mathematics? europe is a continent that is home to many countries. some of these countries are administrative territorial entities that are home to european women in mathematics. therefore, the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.9946)
+  Correctness: Correct
+  Performance: Time=0.8999s, Memory=0.0586MB, GPU=48.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: does europe have the possibility to be the administrative territorial entity contains of european women in mathematics?
+answer with 'yes' or 'no': no
+
+question: does europe have the possibility to be the administrative territorial entity contains of european women in mathematics?
+answer with 'yes' or 'no': no
+
+question: does europe have the possibility to be the administrative territorial entity contains of european women in mathematics?
+answer with 'yes' or 'no': no
+
+question: does europe have the possibility to be the administrative territorial entity contains of european women in mathematics?
+answer with 'yes' or 'no': no
+
+question: does europe have the possibility to be the administrative territorial entity contains of european women in mathematics?
+answer with 'yes
+  Semantic Prediction: no (Confidence: 0.9943)
+  Correctness: Incorrect
+  Performance: Time=3.4877s, Memory=0.0312MB, GPU=3.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 10/17 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Statement: It's not true that Minneapolis could be the administrative territorial entity contains of Graduate Women in Science. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that minneapolis could be the administrative territorial entity contains of graduate women in science. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. no.
+  Semantic Prediction: no (Confidence: 0.9932)
+  Correctness: Correct
+  Performance: Time=0.1118s, Memory=0.0273MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no.
+  Semantic Prediction: no (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=0.1623s, Memory=0.0195MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 17/17 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 1.3606s (based on 17/17 samples)
+  Avg Memory Usage: 0.9809MB (based on 17/17 samples)
+  Avg GPU Utilization: 31.33% (based on 6/17 samples)
+
+RAG Model:
+  Avg Response Time: 2.0714s (1.52x base)
+  Avg Memory Usage: 0.7219MB (0.74x base)
+  Avg GPU Utilization: 9.33% (0.30x base)
+
+RAG evaluation completed! Results saved to: rag_results/rag_mathematics_qwen_20250723130327.json
+Basic accuracy: 0.7059
+RAG-augmented accuracy: 0.4706
+Performance improvement: -0.2353

@@ -1,0 +1,560 @@
+Starting RAG evaluation - Domain: culture, Model: gpt2, Retrieved documents: 3
+==================================================
+[1/5] Checking and preprocessing culture domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building culture domain vector index...
+Index already exists, loading...
+[3/5] Loading culture domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/culture_index.faiss
+Number of vectors in FAISS index: 719
+[5/5] Starting RAG evaluation... (20 samples)
+Starting evaluation with 20 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Statement: It's not true that Buckinghamshire New University could be be the alma mater of of Ricardo P. Lloyd. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that buckinghamshire new university could be be the alma mater of of ricardo p. lloyd. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+if it is not true, answer with no. statement: it's not true that buckinghamshire new university could be be the alma mater of ricardo p. lloyd. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. statement: it's not true that buckinghamshire new university could be be the alma mater of ricardo p. lloyd. please judge the truth of the above statement. if it is true, answer with yes;
+  Semantic Prediction: no (Confidence: 0.9965)
+  Correctness: Correct
+  Performance: Time=2.2321s, Memory=0.1875MB, GPU=84.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes:
+
+no:
+
+question: statement: it's not true that buckinghamshire new university could be be the alma mater of ricardo p. lloyd. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: statement: it's not true that buckinghamshire new university could be be the alma mater of ricardo p. lloyd. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: statement: it's
+  Semantic Prediction: no (Confidence: 0.9960)
+  Correctness: Correct
+  Performance: Time=3.4042s, Memory=-3.4062MB, GPU=-22.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 90/223 samples
+
+===== Detailed Analysis for Sample 2 =====
+Question: Is it true that Anglia Ruskin University could or could be be the alma mater of Ricardo P. Lloyd?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that anglia ruskin university could or could be be the alma mater of ricardo p. lloyd?
+
+no.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+  Semantic Prediction: yes (Confidence: 0.9728)
+  Correctness: Correct
+  Performance: Time=2.3272s, Memory=0.0078MB, GPU=16.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes:
+
+no:
+
+question: is it true that the university of california, berkeley is the alma mater of the late, great, and great-grandfather of the university of california, berkeley?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is it true that the university of california, berkeley is the alma mater of the late, great, and great-grandfather of the university of california, berkeley?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is it true that the university of california, berkeley is the alma mater of the late, great, and great-
+  Semantic Prediction: no (Confidence: 0.9802)
+  Correctness: Incorrect
+  Performance: Time=3.3380s, Memory=0.0859MB, GPU=1.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Statement: It's not true that Duke University could be be the alma mater of of Ayşe Gül Altınay. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that duke university could be be the alma mater of of ayşe gül altınay. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+question: it's not true that duke university could be be the alma mater of ayşe gül altınay. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. answer with 'yes' or 'no': statement: it's not true that duke university could be be the alma mater of ayşe gül altınay. please judge the truth of the above statement. if it
+  Semantic Prediction: no (Confidence: 0.9988)
+  Correctness: Correct
+  Performance: Time=2.3734s, Memory=0.0312MB, GPU=-3.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes:
+
+no:
+
+question: statement: it's not true that duke university could be be the alma mater of ayşe gül altınay. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: statement: it's not true that duke university could be be the alma mater of ayşe gül altınay. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. answer with 'yes' or 'no':
+
+yes:
+
+no:
+  Semantic Prediction: no (Confidence: 0.9948)
+  Correctness: Correct
+  Performance: Time=3.4346s, Memory=0.1250MB, GPU=-1.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Is there any possibility that Boğaziçi University could not be be the alma mater of of Ayşe Gül Altınay?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that boğaziçi university could not be be the alma mater of of ayşe gül altınay?
+
+the answer is no.
+
+the university is located in the city of konya, in the province of konya.
+
+the university is a private institution, and the university is not affiliated with any political party.
+
+the university is not affiliated with any political party.
+
+the university is not affiliated with any political party.
+
+the university is not affiliated with any political party.
+
+the university is not affiliated with any political party.
+
+the
+  Semantic Prediction: no (Confidence: 0.9960)
+  Correctness: Correct
+  Performance: Time=2.4459s, Memory=0.0000MB, GPU=-6.00%
+
+RAG-Enhanced Model:
+  Raw Output: the university of boğaziçi is a private university located in the city of boğaziçi, in the province of şırnak. the university of boğaziçi is a private university located in the city of boğaziçi, in the province of şırnak.
+
+the university of boğaziçi is a private university located in the city of boğaziçi, in the province of şırnak.
+
+the university of boğaziçi is a private university located in the city of boğaziçi, in the province of şırnak.
+
+the university of boğaziçi is a
+  Semantic Prediction: yes (Confidence: 0.9566)
+  Correctness: Incorrect
+  Performance: Time=3.4930s, Memory=0.0273MB, GPU=10.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Is there any possibility that cardboard could not be be used to make of Carte de visite?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that cardboard could not be be used to make of carte de visite?
+
+yes, it is possible.
+
+no, it is not possible.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes' or 'no
+  Semantic Prediction: no (Confidence: 0.9990)
+  Correctness: Correct
+  Performance: Time=2.6734s, Memory=0.0000MB, GPU=-24.00%
+
+RAG-Enhanced Model:
+  Raw Output: the use of cardboard in the museum is not a new concept. the first museum in the world to use cardboard was the national museum of the philippines in manila. the first museum to use cardboard in the museum was the national museum of the philippines in manila. the first museum to use cardboard in the museum was the national museum of the philippines in manila. the first museum to use cardboard in the museum was the national museum of the philippines in manila. the first museum to use cardboard in the museum was the national museum of the philippines in manila. the first museum to use cardboard in the museum was the national museum of the philippines in manila. the first museum to use cardboard in the museum was the national museum of the philippines in manila. the first
+  Semantic Prediction: no (Confidence: 0.9848)
+  Correctness: Correct
+  Performance: Time=3.4241s, Memory=0.0742MB, GPU=21.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Does cardboard have the possibility to be be used to make of Carte de visite?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does cardboard have the possibility to be be used to make of carte de visite?
+
+yes, it can be used to make of carte de visite.
+
+no, it cannot be used to make of carte de visite.
+
+what is the difference between carte de visite and carte de l'équipe?
+
+carte de visite is a type of plastic that is used to make of carte de l'équipe.
+
+carte de l'équipe is a type of plastic that is
+  Semantic Prediction: no (Confidence: 0.9979)
+  Correctness: Incorrect
+  Performance: Time=2.3620s, Memory=0.0000MB, GPU=-23.00%
+
+RAG-Enhanced Model:
+  Raw Output: question: is it possible to make of a carte de visite?
+
+answer with 'yes' or 'no':
+
+question: is it possible to make of a carte de visite?
+
+answer with 'yes' or 'no':
+
+question: is it possible to make of a carte de visite?
+
+answer with 'yes' or 'no':
+
+question: is it possible to make of a carte de visite?
+
+answer with 'yes' or 'no':
+
+question: is it possible to make of a carte de visite?
+
+answer with 'yes' or 'no':
+
+question: is it possible to make of
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=3.6469s, Memory=0.0078MB, GPU=11.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Is there any possibility that politeness could not be be the use of of Etiquette?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that politeness could not be be the use of of etiquette?
+
+if you are not sure, then you should ask yourself:
+
+what is the use of politeness?
+
+what is the use of politeness?
+
+what is the use of politeness?
+
+what is the use of politeness?
+
+what is the use of politeness?
+
+what is the use of politeness?
+
+what is the use of politeness?
+
+what is the use of politeness?
+
+what is the use
+  Semantic Prediction: no (Confidence: 0.9953)
+  Correctness: Correct
+  Performance: Time=2.5685s, Memory=0.0977MB, GPU=7.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes:
+
+no:
+
+question: is there any possibility that politeness could not be be the use of etiquette?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is there any possibility that politeness could not be be the use of etiquette?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is there any possibility that politeness could not be be the use of etiquette?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is there any possibility that politeness could not be be the use of etiquette?
+  Semantic Prediction: no (Confidence: 0.9963)
+  Correctness: Correct
+  Performance: Time=3.4257s, Memory=0.0000MB, GPU=3.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Is there any possibility that politeness could not be be the use of of Etiquette?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that politeness could not be be the use of of etiquette?
+
+if you are not sure, then you should ask yourself: 'is politeness possible?'
+
+if you are not sure, then you should ask yourself: 'is politeness possible?'
+
+if you are not sure, then you should ask yourself: 'is politeness possible?'
+
+if you are not sure, then you should ask yourself: 'is politeness possible?'
+
+if you are not sure, then you should ask yourself: 'is politeness possible?'
+  Semantic Prediction: no (Confidence: 0.9876)
+  Correctness: Correct
+  Performance: Time=2.4633s, Memory=0.0000MB, GPU=2.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes:
+
+no:
+
+question: is there any possibility that politeness could not be be the use of etiquette?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is there any possibility that politeness could not be be the use of etiquette?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is there any possibility that politeness could not be be the use of etiquette?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is there any possibility that politeness could not be be the use of etiquette?
+  Semantic Prediction: no (Confidence: 0.9963)
+  Correctness: Correct
+  Performance: Time=3.6637s, Memory=0.0078MB, GPU=-29.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Does politeness have the possibility to be be the use of of Etiquette?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does politeness have the possibility to be be the use of of etiquette?
+
+a: yes, politeness is the use of etiquette.
+
+q: what is the difference between politeness and politeness without politeness?
+
+a: politeness without politeness is politeness without politeness.
+
+q: what is the difference between politeness and politeness with politeness?
+
+a: politeness without politeness is politeness without politeness.
+
+q: what is the difference between politeness and politeness with politeness
+  Semantic Prediction: no (Confidence: 0.9877)
+  Correctness: Incorrect
+  Performance: Time=2.4572s, Memory=0.0000MB, GPU=25.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes:
+
+no:
+
+question: is politeness a form of politeness?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is politeness a form of politeness?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is politeness a form of politeness?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is politeness a form of politeness?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is politeness a form of politeness?
+  Semantic Prediction: no (Confidence: 0.9845)
+  Correctness: Incorrect
+  Performance: Time=3.6763s, Memory=0.0000MB, GPU=-24.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 10/20 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Is there any possibility that politeness could not be be the use of of Etiquette?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that politeness could not be be the use of of etiquette?
+
+if you are not sure, then you should ask yourself: 'is politeness possible?'
+
+if you are not sure, then you should ask yourself: 'is politeness possible?'
+
+if you are not sure, then you should ask yourself: 'is politeness possible?'
+
+if you are not sure, then you should ask yourself: 'is politeness possible?'
+
+if you are not sure, then you should ask yourself: 'is politeness possible?'
+  Semantic Prediction: no (Confidence: 0.9876)
+  Correctness: Correct
+  Performance: Time=2.6738s, Memory=0.0000MB, GPU=25.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes:
+
+no:
+
+question: is there any possibility that politeness could not be be the use of etiquette?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is there any possibility that politeness could not be be the use of etiquette?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is there any possibility that politeness could not be be the use of etiquette?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: is there any possibility that politeness could not be be the use of etiquette?
+  Semantic Prediction: no (Confidence: 0.9963)
+  Correctness: Correct
+  Performance: Time=3.5016s, Memory=0.1094MB, GPU=4.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 100/223 samples
+Processed 20/20 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 2.5041s (based on 20/20 samples)
+  Avg Memory Usage: 0.0703MB (based on 6/20 samples)
+  Avg GPU Utilization: 23.50% (based on 8/20 samples)
+
+RAG Model:
+  Avg Response Time: 3.7501s (1.50x base)
+  Avg Memory Usage: 0.0394MB (0.56x base)
+  Avg GPU Utilization: 13.83% (0.59x base)
+
+RAG evaluation completed! Results saved to: rag_results/rag_culture_gpt2_20250723183056.json
+Basic accuracy: 0.7000
+RAG-augmented accuracy: 0.5000
+Performance improvement: -0.2000

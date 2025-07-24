@@ -1,0 +1,228 @@
+Starting RAG evaluation - Domain: geography, Model: qwen, Retrieved documents: 3
+==================================================
+[1/5] Checking and preprocessing geography domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building geography domain vector index...
+Index already exists, loading...
+[3/5] Loading geography domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/geography_index.faiss
+Number of vectors in FAISS index: 1107
+[5/5] Starting RAG evaluation... (34 samples)
+Starting evaluation with 34 samples
+
+Preprocessing complete for domain: geography
+Processed papers: 15
+Total chunks generated: 1127
+Saved to: RAG_cleaned\cleaned_geography.txt
+Loading SentenceTransformer model...
+
+===== Detailed Analysis for Sample 1 =====
+Question: Is there any possibility that École Normale Supérieure could not be be the alma mater of of Hervé Théry?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that école normale supérieure could not be be the alma mater of of hervé théry? hervé théry was born in 1942 in paris, france. école normale supérieure is a prestigious university in paris, france. therefore, the answer is 'yes'.
+  Semantic Prediction: no (Confidence: 0.8169)
+  Correctness: Correct
+  Performance: Time=7.9368s, Memory=1198.5469MB, GPU=-31.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the answer is 'no' because école normale supérieure (ens) is indeed the alma mater of hervé théry. hervé théry was a french mathematician and a pioneer in the field of abstract algebra. he received his phd from école normale supérieure in 1935 and went on to work at the école polytechnique and the école des mines de paris. he is best known for his work on the theory of rings and the theory of groups, and he is considered one of the pioneers of group theory. école normale supérieure is a prestigious university in paris, france, and it is known for its excellence in mathematics and science.
+  Semantic Prediction: yes (Confidence: 0.9990)
+  Correctness: Incorrect
+  Performance: Time=11.2606s, Memory=-1977.6953MB, GPU=92.00%
+  Retrieved Documents: 3
+======================================================================
+Loading cleaned abstracts from: RAG_cleaned/cleaned_geography.txt
+Encoding abstracts into embeddings...
+
+===== Detailed Analysis for Sample 2 =====
+Question: Does University of Paris 1 Pantheon-Sorbonne have the possibility to be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does university of paris 1 pantheon-sorbonne have the possibility to be be the alma mater of of hervé théry? hervé théry was born in paris, france. the university of paris 1 panthéon-sorbonne is located in paris, france. the answer: yes.
+  Semantic Prediction: no (Confidence: 0.5731)
+  Correctness: Incorrect
+  Performance: Time=0.9979s, Memory=0.2344MB, GPU=1.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: does university of paris 1 pantheon-sorbonne have the possibility to be be the alma mater of of hervé théry?
+answer with 'yes' or 'no': no
+
+question: does university of paris 1 pantheon-sorbonne have the possibility to be be the alma mater of of hervé théry?
+answer with 'yes' or 'no': no
+
+question: does university of paris 1 pantheon-sorbonne have the possibility to be be the alma mater of of hervé théry?
+answer with 'yes' or 'no': no
+
+question: does university of paris 1 pantheon-sorbonne have the possibility to be
+  Semantic Prediction: no (Confidence: 0.9940)
+  Correctness: Incorrect
+  Performance: Time=5.1920s, Memory=-1774.5742MB, GPU=-23.00%
+  Retrieved Documents: 3
+======================================================================
+Index created for domain: geography
+Saved to: knowledge_base/geography_index.faiss
+Number of vectors in FAISS index: 1127
+
+===== Detailed Analysis for Sample 3 =====
+Question: Is it true that École Normale Supérieure could or could be be the alma mater of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that école normale supérieure could or could be be the alma mater of hervé théry? hervé théry was born in 1948 in paris, france. école normale supérieure is a prestigious university in paris, france. therefore, the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.9915)
+  Correctness: Correct
+  Performance: Time=7.5672s, Memory=2.0391MB, GPU=-53.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+the answer is 'yes' because école normale supérieure (ens) is a prestigious institution in france, and hervé théry is a renowned mathematician who has made significant contributions to the field of mathematics. ens is known for its rigorous and high-quality education in mathematics, and théry has been a professor at ens for many years. therefore, it is likely that théry attended école normale supérieure and has made significant contributions to the field of mathematics.
+  Semantic Prediction: yes (Confidence: 0.9997)
+  Correctness: Correct
+  Performance: Time=14.0502s, Memory=0.0234MB, GPU=4.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Could University of Paris 1 Pantheon-Sorbonne be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could university of paris 1 pantheon-sorbonne be be the alma mater of of hervé théry? hervé théry was born in 1944 in paris, france. the university of paris 1 panthéon-sorbonne was founded in 1969. hervé théry attended the university of paris 1 panthéon-sorbonne from 1969 to 1972.
+
+the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.8090)
+  Correctness: Correct
+  Performance: Time=10.0722s, Memory=0.0312MB, GPU=20.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the university of paris 1 panthé-sorbonne (up1 panthé-sorbonne) is a french university located in paris, france. it was founded in 1967 and is affiliated with the sorbonne university. the university offers undergraduate and graduate programs in various fields, including engineering, sciences, and humanities. hervé théry is a french mathematician and professor at the university, and he is known for his contributions to the fields of mathematics and computer science. therefore, it is possible that hervé théry attended the university of paris 1 panthé-sorbonne, but it is not clear if he was the alma mater of the university.
+  Semantic Prediction: yes (Confidence: 0.9091)
+  Correctness: Correct
+  Performance: Time=14.7350s, Memory=0.0273MB, GPU=-11.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Could École Normale Supérieure be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could école normale supérieure be be the alma mater of of hervé théry? hervé théry was a french mathematician and a professor at école normale supérieure. école normale supérieure is a prestigious university in france. hervé théry was born in 1929 and died in 2013. the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.8827)
+  Correctness: Correct
+  Performance: Time=7.3108s, Memory=0.1289MB, GPU=10.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the answer is no. école normale supérieure (ens) is a prestigious french research university located in paris, france. it was founded in 1861 by the french government as a technical school for the training of engineers and scientists. it is one of the top universities in the world and is known for its excellence in various fields, including mathematics, physics, engineering, and computer science. hervé théry, a french mathematician and computer scientist, was a professor at école normale supérieure and is considered one of the pioneers of the field of artificial intelligence. he was awarded the nobel prize in 1969 for his work on the development of the first artificial neural network.
+  Semantic Prediction: yes (Confidence: 0.9996)
+  Correctness: Correct
+  Performance: Time=15.6101s, Memory=-0.1680MB, GPU=-24.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Is there any possibility that University of Paris 1 Pantheon-Sorbonne could not be be the alma mater of of Hervé Théry?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that university of paris 1 pantheon-sorbonne could not be be the alma mater of of hervé théry? hervé théry was born in 1949 in paris, france. the university of paris 1 panthéon-sorbonne was founded in 1969. hervé théry attended the university of paris 1 panthéon-sorbonne from 1969 to 1973. hervé théry graduated from the university of paris 1 panthéon-sorbonne in 197
+  Semantic Prediction: no (Confidence: 0.8424)
+  Correctness: Correct
+  Performance: Time=11.0261s, Memory=0.0742MB, GPU=-2.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: is there any possibility that university of paris 1 pantheon-sorbonne could not be be the alma mater of of hervé théry?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that university of paris 1 pantheon-sorbonne could not be be the alma mater of of hervé théry?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that university of paris 1 pantheon-sorbonne could not be be the alma mater of of hervé théry?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that university of paris 1 pan
+  Semantic Prediction: no (Confidence: 0.9970)
+  Correctness: Correct
+  Performance: Time=15.7644s, Memory=0.0000MB, GPU=37.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Is it true that University of Paris 1 Pantheon-Sorbonne could or could be be the alma mater of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that university of paris 1 pantheon-sorbonne could or could be be the alma mater of hervé théry? hervé théry was born in 1943 in paris, france. the university of paris 1 panthéon-sorbonne was founded in 1969. hervé théry attended the university of paris 1 panthéon-sorbonne from 1969 to 1972. hervé théry graduated from the university of paris 1 panthéon-sorbonne in 197
+  Semantic Prediction: no (Confidence: 0.8535)
+  Correctness: Incorrect
+  Performance: Time=25.4662s, Memory=164.2773MB, GPU=1.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the university of paris 1 panthé-sorbonne (up1 panthé-sorbonne) is a public university located in paris, france. it was founded in 1968 and is affiliated with the sorbonne university. the university offers undergraduate and graduate programs in various fields, including law, medicine, engineering, and social sciences. hervé théry is a french academic and politician who has held various positions in the government of france. he is known for his work in the field of public policy and has authored several books and articles on the subject. therefore, it is not true that hervé théry attended the university of paris 1 panthé-sorbonne.
+  Semantic Prediction: no (Confidence: 0.8683)
+  Correctness: Incorrect
+  Performance: Time=22.4942s, Memory=105.3633MB, GPU=-63.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Does École Normale Supérieure have the possibility to be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does école normale supérieure have the possibility to be be the alma mater of of hervé théry? hervé théry was a french mathematician and a professor at école normale supérieure. école normale supérieure is a prestigious university in france. therefore, the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.9924)
+  Correctness: Correct
+  Performance: Time=4.9464s, Memory=0.0430MB, GPU=-4.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+the école normale supérieure (ens) is a prestigious research university located in paris, france. it was founded in 1861 by the french government as a public institution, and it is one of the oldest and most prestigious universities in the world. école normale supérieure has a long history of producing notable alumni, including many of the pioneers of modern science and technology.
+
+hervé théry is a french mathematician and computer scientist who is known for his contributions to the fields of computer science and mathematics. he received his phd from école normale supérieure in 1968 and has since held various positions at the university, including as a professor and a head of the
+  Semantic Prediction: yes (Confidence: 0.9994)
+  Correctness: Correct
+  Performance: Time=16.1295s, Memory=0.0664MB, GPU=-16.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 10/34 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Is there any possibility that University of Paris 1 Pantheon-Sorbonne could not be be the alma mater of of Hervé Théry?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that university of paris 1 pantheon-sorbonne could not be be the alma mater of of hervé théry? hervé théry was born in 1946 in paris, france. the university of paris 1 panthéon-sorbonne was founded in 1969. the university of paris 1 panthéon-sorbonne is located in paris, france. the answer: yes.
+  Semantic Prediction: no (Confidence: 0.9535)
+  Correctness: Correct
+  Performance: Time=7.8522s, Memory=0.1992MB, GPU=21.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+explanation: the university of paris 1 pantheon-sorbonne is indeed the alma mater of hervé théry. hervé théry was a french mathematician and a pioneer in the field of mathematical physics. he received his phd from the university of paris 1 panthéon-sorbonne in 1936 and went on to make significant contributions to the study of quantum mechanics, relativity, and the foundations of mathematics. he was also a professor at the university of paris 1 panthéon-sorbonne and served as the director of the institute for advanced study in princeton, new jersey. therefore, it is safe to say that hervé théry was indeed the
+  Semantic Prediction: no (Confidence: 0.7947)
+  Correctness: Correct
+  Performance: Time=16.7950s, Memory=0.0156MB, GPU=-16.00%
+  Retrieved Documents: 3
+======================================================================

@@ -1,0 +1,168 @@
+Starting RAG evaluation - Domain: people, Model: qwen, Retrieved documents: 2
+==================================================
+[1/5] Checking and preprocessing people domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building people domain vector index...
+Index already exists, loading...
+[3/5] Loading people domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/people_index.faiss
+Number of vectors in FAISS index: 809
+[5/5] Starting RAG evaluation... (75 samples)
+Starting evaluation with 75 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Statement: It's not true that University of British Columbia could be be the alma mater of of Bill Bissett. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that university of british columbia could be be the alma mater of of bill bissett. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. no, the statement "it's not true that university of british columbia could be be the alma mater of of bill bissett" is not true. bill bissett is a canadian politician who was born in vancouver, british columbia, and attended the university of british columbia. therefore, it is accurate to say that university of british columbia could be the alma mater of bill bissett.
+  Semantic Prediction: no (Confidence: 0.9911)
+  Correctness: Correct
+  Performance: Time=11.5709s, Memory=51.1992MB, GPU=92.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+explanation: the statement says that the university of british columbia could be the alma mater of bill bissett. however, there is no evidence or information to support this claim. bill bissett attended the university of british columbia, but he did not graduate from there. therefore, the statement is not true.
+  Semantic Prediction: no (Confidence: 0.9996)
+  Correctness: Correct
+  Performance: Time=13.5244s, Memory=237.2930MB, GPU=-44.00%
+  Retrieved Documents: 2
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Could Dalhousie University be be the alma mater of of Bill Bissett?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could dalhousie university be be the alma mater of of bill bissett? yes, dalhousie university could be the alma mater of bill bissett. bill bissett was a canadian politician who served as the 12th premier of newfoundland and labrador from 1995 to 1998. he attended dalhousie university for his undergraduate studies and later went on to earn a law degree from the university of toronto.
+  Semantic Prediction: no (Confidence: 0.9687)
+  Correctness: Incorrect
+  Performance: Time=21.7248s, Memory=0.2461MB, GPU=-33.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: could the university of cambridge be the alma mater of of bill bissett?
+answer with 'yes' or 'no': yes
+
+question: could the university of cambridge be the alma mater of of bill bissett?
+answer with 'yes' or 'no': yes
+
+question: could the university of cambridge be the alma mater of of bill bissett?
+answer with 'yes' or 'no': yes
+
+question: could the university of cambridge be the alma mater of of bill bissett?
+answer with 'yes' or 'no': yes
+
+question: could the university of cambridge be the alma mater of of bill bissett?
+answer with 'yes' or 'no': yes
+
+question: could
+  Semantic Prediction: no (Confidence: 0.9971)
+  Correctness: Incorrect
+  Performance: Time=41.2741s, Memory=82.6758MB, GPU=21.00%
+  Retrieved Documents: 2
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Is it true that Massachusetts Institute of Technology could or could be be the alma mater of Danah boyd?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that massachusetts institute of technology could or could be be the alma mater of danah boyd? danah boyd is a computer scientist and researcher at uc berkeley. massachusetts institute of technology is a private research university in cambridge, massachusetts, united states. massachusetts institute of technology is a member of the association of american universities. massachusetts institute of technology is a private research university in cambridge, massachusetts, united states. massachusetts institute of technology is a member of the association of american universities. massachusetts institute of technology is a private research university in cambridge, massachusetts, united states. massachusetts institute of technology is a private research
+  Semantic Prediction: yes (Confidence: 0.8561)
+  Correctness: Correct
+  Performance: Time=26.3208s, Memory=0.3516MB, GPU=11.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+danah boyd is a researcher at mit and has been a professor at mit since 2007. she has also been a visiting professor at the university of southern california and the university of california, berkeley. she has also been a research scientist at the massachusetts institute of technology (mit) since 2005. therefore, it is true that danah boyd could or could be the alma mater of mit.
+  Semantic Prediction: yes (Confidence: 0.9979)
+  Correctness: Correct
+  Performance: Time=23.2722s, Memory=0.1211MB, GPU=14.00%
+  Retrieved Documents: 2
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Does University of California, Berkeley School of Information have the possibility to be be the alma mater of of Danah boyd?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does university of california, berkeley school of information have the possibility to be be the alma mater of of danah boyd? yes, university of california, berkeley school of information has the possibility to be the alma mater of danah boyd. danah boyd is a computer scientist and researcher who is known for her work in the field of human-computer interaction and artificial intelligence. she received her bachelor's degree in computer science from the university of california, berkeley in 1999 and went on to receive her ph.d. in computer science from the same institution in 2002. boyd has since become a
+  Semantic Prediction: yes (Confidence: 0.9826)
+  Correctness: Correct
+  Performance: Time=26.1743s, Memory=0.0547MB, GPU=-5.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+explanation: the university of california, berkeley school of information is a research university located in berkeley, california, united states. it was founded in 1895 and is one of the oldest universities in the united states. it is a public research university and is affiliated with the california institute of technology. the school of information is a part of the university of california system and is known for its research in the fields of information science, computer science, and artificial intelligence. danah boyd is a computer scientist and researcher who has conducted research at the university of california, berkeley school of information. therefore, it is not possible for danah boyd to be the alma mater of the university of california, berkeley school of information.
+  Semantic Prediction: yes (Confidence: 0.9953)
+  Correctness: Correct
+  Performance: Time=37.9322s, Memory=0.1133MB, GPU=40.00%
+  Retrieved Documents: 2
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Is it true that Brown University could or could be be the alma mater of Danah boyd?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that brown university could or could be be the alma mater of danah boyd? yes, it is true that brown university could or could be the alma mater of danah boyd. danah boyd is a computer scientist and researcher who has worked extensively on topics related to human-computer interaction and artificial intelligence. she has received numerous awards and honors for her work, including the presidential early career award for scientists and engineers and the national medal of technology. additionally, she has been a professor at several universities, including brown university, where she has taught courses on human-computer interaction and artificial
+  Semantic Prediction: yes (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=22.3604s, Memory=82.0430MB, GPU=-36.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+brown university is indeed the alma mater of danah boyd, a prominent researcher in the field of human-computer interaction and artificial intelligence. danah boyd received her ph.d. in computer science from brown university in 2000, and has since gone on to become a leading researcher in the area of human-computer interaction and artificial intelligence. she has authored numerous research papers and has been awarded numerous awards for her work, including the 2018 ieee computer society's outstanding young engineer award. in addition to her academic pursuits, boyd has also worked as a consultant for several companies, including microsoft and google. overall, it is clear that brown university played a significant role in shaping danah boyd's career and intellectual development.
+  Semantic Prediction: yes (Confidence: 0.9989)
+  Correctness: Correct
+  Performance: Time=40.2493s, Memory=0.2695MB, GPU=-9.00%
+  Retrieved Documents: 2
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Statement: It's not true that Manheim Township High School could be be the alma mater of of Danah boyd. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that manheim township high school could be be the alma mater of of danah boyd. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. no.
+  Semantic Prediction: no (Confidence: 0.9974)
+  Correctness: Correct
+  Performance: Time=1.0511s, Memory=0.0039MB, GPU=-36.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Correct
+  Performance: Time=1.8800s, Memory=104.0117MB, GPU=82.00%
+  Retrieved Documents: 2
+======================================================================
+Processed 200/223 samples
+
+===== Detailed Analysis for Sample 7 =====
+Question: Does Columbia University have the possibility to be be the alma mater of of Adrienne Maree Brown?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does columbia university have the possibility to be be the alma mater of of adrienne maree brown? yes, columbia university has the possibility to be the alma mater of adrienne maree brown. adrienne maree brown is a writer, poet, and activist who was born in brooklyn, new york, and attended columbia university for a short time. she later went on to receive her mfa in creative writing from the new school for social research in new york city. therefore, it is possible that adrienne maree brown attended columbia university as an undergraduate or graduate student.
+  Semantic Prediction: no (Confidence: 0.9756)
+  Correctness: Incorrect
+  Performance: Time=16.9886s, Memory=0.1133MB, GPU=-3.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+columbia university does not have the possibility to be the alma mater of adrienne maree brown. adrienne maree brown is a canadian poet, playwright, and academic who was born in 1948. she is best known for her work as a poet and playwright, and she has published several collections of poetry and plays. she has also been a professor of english at the university of toronto and the university of british columbia. while columbia university is a prestigious institution in the united states, adrienne maree brown is not affiliated with the university in any way.
+  Semantic Prediction: no (Confidence: 0.9571)
+  Correctness: Incorrect
+  Performance: Time=21.7983s, Memory=0.1289MB, GPU=-40.00%
+  Retrieved Documents: 2
+======================================================================

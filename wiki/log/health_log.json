@@ -12,6 +12,54 @@
         "entityLabel": "Age and health concerns about Joe Biden",
         "property": "P31",
         "propertyLabel": "instance of",
+        "value": "Q108809873",
+        "valueLabel": "political conflict"
+    },
+    {
+        "entity": "Q123080564",
+        "entityLabel": "Age and health concerns about Joe Biden",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q123080564",
+        "entityLabel": "Age and health concerns about Joe Biden",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q101369347",
+        "valueLabel": "presidency of Joe Biden"
+    },
+    {
+        "entity": "Q123080564",
+        "entityLabel": "Age and health concerns about Joe Biden",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q117842677",
+        "valueLabel": "Joe Biden 2024 presidential campaign"
+    },
+    {
+        "entity": "Q123080564",
+        "entityLabel": "Age and health concerns about Joe Biden",
+        "property": "P1542",
+        "propertyLabel": "has effect",
+        "value": "Q127688165",
+        "valueLabel": "withdrawal of Joe Biden from the 2024 United States presidential election"
+    },
+    {
+        "entity": "Q123080564",
+        "entityLabel": "Age and health concerns about Joe Biden",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q63241885",
+        "valueLabel": "Joe Biden presidential campaign, 2020"
+    },
+    {
+        "entity": "Q123080564",
+        "entityLabel": "Age and health concerns about Joe Biden",
+        "property": "P31",
+        "propertyLabel": "instance of",
         "value": "Q20127274",
         "valueLabel": "certain aspects of a person's life"
     },
@@ -34,66 +82,10 @@
     {
         "entity": "Q123080564",
         "entityLabel": "Age and health concerns about Joe Biden",
-        "property": "P31",
-        "propertyLabel": "instance of",
-        "value": "Q108809873",
-        "valueLabel": "political conflict"
-    },
-    {
-        "entity": "Q123080564",
-        "entityLabel": "Age and health concerns about Joe Biden",
-        "property": "P361",
-        "propertyLabel": "part of",
-        "value": "Q101369347",
-        "valueLabel": "presidency of Joe Biden"
-    },
-    {
-        "entity": "Q123080564",
-        "entityLabel": "Age and health concerns about Joe Biden",
-        "property": "P361",
-        "propertyLabel": "part of",
-        "value": "Q63241885",
-        "valueLabel": "Joe Biden presidential campaign, 2020"
-    },
-    {
-        "entity": "Q123080564",
-        "entityLabel": "Age and health concerns about Joe Biden",
-        "property": "P361",
-        "propertyLabel": "part of",
-        "value": "Q117842677",
-        "valueLabel": "Joe Biden 2024 presidential campaign"
-    },
-    {
-        "entity": "Q123080564",
-        "entityLabel": "Age and health concerns about Joe Biden",
-        "property": "P1542",
-        "propertyLabel": "has effect",
-        "value": "Q127688165",
-        "valueLabel": "withdrawal of Joe Biden from the 2024 United States presidential election"
-    },
-    {
-        "entity": "Q123080564",
-        "entityLabel": "Age and health concerns about Joe Biden",
-        "property": "P17",
-        "propertyLabel": "country",
-        "value": "Q30",
-        "valueLabel": "United States"
-    },
-    {
-        "entity": "Q123080564",
-        "entityLabel": "Age and health concerns about Joe Biden",
         "property": "P1382",
         "propertyLabel": "partially coincident with",
         "value": "Q129155144",
         "valueLabel": "age and health concerns about Donald Trump"
-    },
-    {
-        "entity": "Q5104829",
-        "entityLabel": "Health of Fr\u00e9d\u00e9ric Chopin",
-        "property": "P31",
-        "propertyLabel": "instance of",
-        "value": "Q20127274",
-        "valueLabel": "certain aspects of a person's life"
     },
     {
         "entity": "Q5104829",
@@ -104,12 +96,20 @@
         "valueLabel": "Fr\u00e9d\u00e9ric Chopin"
     },
     {
-        "entity": "Q5076726",
-        "entityLabel": "Health of Charles Darwin",
+        "entity": "Q5104829",
+        "entityLabel": "Health of Fr\u00e9d\u00e9ric Chopin",
         "property": "P31",
         "propertyLabel": "instance of",
         "value": "Q20127274",
         "valueLabel": "certain aspects of a person's life"
+    },
+    {
+        "entity": "Q5076726",
+        "entityLabel": "Health of Charles Darwin",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12147",
+        "valueLabel": "health"
     },
     {
         "entity": "Q5076726",
@@ -124,8 +124,8 @@
         "entityLabel": "Health of Charles Darwin",
         "property": "P31",
         "propertyLabel": "instance of",
-        "value": "Q12147",
-        "valueLabel": "health"
+        "value": "Q20127274",
+        "valueLabel": "certain aspects of a person's life"
     },
     {
         "entity": "Q4356352",
@@ -140,16 +140,16 @@
         "entityLabel": "Health of Adolf Hitler",
         "property": "P31",
         "propertyLabel": "instance of",
-        "value": "Q20127274",
-        "valueLabel": "certain aspects of a person's life"
+        "value": "Q12147",
+        "valueLabel": "health"
     },
     {
         "entity": "Q4356352",
         "entityLabel": "Health of Adolf Hitler",
         "property": "P31",
         "propertyLabel": "instance of",
-        "value": "Q12147",
-        "valueLabel": "health"
+        "value": "Q20127274",
+        "valueLabel": "certain aspects of a person's life"
     },
     {
         "entity": "Q4684101",
@@ -173,7 +173,7 @@
         "property": "P1343",
         "propertyLabel": "described by source",
         "value": "Q28281039",
-        "valueLabel": "The role of psychotic disorders in religious history considered"
+        "valueLabel": "Q28281039"
     },
     {
         "entity": "Q9389533",
@@ -205,7 +205,7 @@
         "property": "P1343",
         "propertyLabel": "described by source",
         "value": "Q57568675",
-        "valueLabel": "On the Mental Health of Jesus Christ"
+        "valueLabel": "Q57568675"
     },
     {
         "entity": "Q9389533",
@@ -213,7 +213,7 @@
         "property": "P1343",
         "propertyLabel": "described by source",
         "value": "Q60034179",
-        "valueLabel": "Psychobiography of Jesus Christ in view of W\u0142adys\u0142aw Witwicki\u2019s theory of cratism"
+        "valueLabel": "Q60034179"
     },
     {
         "entity": "Q9389533",
@@ -314,18 +314,18 @@
     {
         "entity": "Q113518832",
         "entityLabel": "Claims of Vladimir Putin's incapacity and death",
-        "property": "P31",
-        "propertyLabel": "instance of",
-        "value": "Q20127274",
-        "valueLabel": "certain aspects of a person's life"
-    },
-    {
-        "entity": "Q113518832",
-        "entityLabel": "Claims of Vladimir Putin's incapacity and death",
         "property": "P1269",
         "propertyLabel": "facet of",
         "value": "Q7747",
         "valueLabel": "Vladimir Putin"
+    },
+    {
+        "entity": "Q113518832",
+        "entityLabel": "Claims of Vladimir Putin's incapacity and death",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q20127274",
+        "valueLabel": "certain aspects of a person's life"
     },
     {
         "entity": "Q5491443",
@@ -404,16 +404,16 @@
         "entityLabel": "Age and health concerns about Donald Trump",
         "property": "P31",
         "propertyLabel": "instance of",
-        "value": "Q123928941",
-        "valueLabel": "concern"
+        "value": "Q108809873",
+        "valueLabel": "political conflict"
     },
     {
         "entity": "Q129155144",
         "entityLabel": "Age and health concerns about Donald Trump",
         "property": "P31",
         "propertyLabel": "instance of",
-        "value": "Q108809873",
-        "valueLabel": "political conflict"
+        "value": "Q123928941",
+        "valueLabel": "concern"
     },
     {
         "entity": "Q129155144",
@@ -462,5 +462,3509 @@
         "propertyLabel": "instance of",
         "value": "Q20127274",
         "valueLabel": "certain aspects of a person's life"
+    },
+    {
+        "entity": "Q2574087",
+        "entityLabel": "Health effect",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q5421634",
+        "valueLabel": "exposure science"
+    },
+    {
+        "entity": "Q2574087",
+        "entityLabel": "Health effect",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q87075524",
+        "valueLabel": "health risk"
+    },
+    {
+        "entity": "Q2574087",
+        "entityLabel": "Health effect",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q926230",
+        "valueLabel": "effect"
+    },
+    {
+        "entity": "Q2574087",
+        "entityLabel": "Health effect",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q3899872",
+        "valueLabel": "environmental hazard"
+    },
+    {
+        "entity": "Q4010939",
+        "entityLabel": "Active mobility",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q109733629",
+        "valueLabel": "alternative transportation"
+    },
+    {
+        "entity": "Q4010939",
+        "entityLabel": "Active mobility",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q334166",
+        "valueLabel": "mode of transport"
+    },
+    {
+        "entity": "Q30314121",
+        "entityLabel": "Health impact of asbestos",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q21167862",
+        "valueLabel": "asbestos exposure"
+    },
+    {
+        "entity": "Q30314121",
+        "entityLabel": "Health impact of asbestos",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q18621601",
+        "valueLabel": "intoxication"
+    },
+    {
+        "entity": "Q120897808",
+        "entityLabel": "Autobesity",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q190117",
+        "valueLabel": "automotive industry"
+    },
+    {
+        "entity": "Q120897808",
+        "entityLabel": "Autobesity",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q813912",
+        "valueLabel": "condition"
+    },
+    {
+        "entity": "Q120897808",
+        "entityLabel": "Autobesity",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1420",
+        "valueLabel": "car"
+    },
+    {
+        "entity": "Q97358163",
+        "entityLabel": "Benefits of physical activity",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q118214965",
+        "valueLabel": "health effects of physical activity"
+    },
+    {
+        "entity": "Q4986688",
+        "entityLabel": "Built environment",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q4986688",
+        "entityLabel": "Built environment",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2267705",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q4986688",
+        "entityLabel": "Built environment",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2249676",
+        "valueLabel": "environment"
+    },
+    {
+        "entity": "Q4986688",
+        "entityLabel": "Built environment",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q2323664",
+        "valueLabel": "industrial ecology"
+    },
+    {
+        "entity": "Q4986688",
+        "entityLabel": "Built environment",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q113129241",
+        "valueLabel": "built environment and design studies"
+    },
+    {
+        "entity": "Q4986688",
+        "entityLabel": "Built environment",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q11962721",
+        "valueLabel": "Q11962721"
+    },
+    {
+        "entity": "Q4986688",
+        "entityLabel": "Built environment",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q486972",
+        "valueLabel": "human settlement"
+    },
+    {
+        "entity": "Q23580836",
+        "entityLabel": "Health effects of coal ash",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q18621601",
+        "valueLabel": "intoxication"
+    },
+    {
+        "entity": "Q23580836",
+        "entityLabel": "Health effects of coal ash",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q236139",
+        "valueLabel": "fly ash"
+    },
+    {
+        "entity": "Q131860709",
+        "entityLabel": "Effects of climate change on health in the United Kingdom",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5133500",
+        "valueLabel": "climate change in the United Kingdom"
+    },
+    {
+        "entity": "Q131860709",
+        "entityLabel": "Effects of climate change on health in the United Kingdom",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q105181441",
+        "valueLabel": "public health in the United Kingdom"
+    },
+    {
+        "entity": "Q131860709",
+        "entityLabel": "Effects of climate change on health in the United Kingdom",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q145",
+        "valueLabel": "United Kingdom"
+    },
+    {
+        "entity": "Q131860709",
+        "entityLabel": "Effects of climate change on health in the United Kingdom",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q11190",
+        "valueLabel": "medicine"
+    },
+    {
+        "entity": "Q131860709",
+        "entityLabel": "Effects of climate change on health in the United Kingdom",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q215864",
+        "valueLabel": "heat wave"
+    },
+    {
+        "entity": "Q131860709",
+        "entityLabel": "Effects of climate change on health in the United Kingdom",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2979220",
+        "valueLabel": "effects of climate change on human health"
+    },
+    {
+        "entity": "Q131860709",
+        "entityLabel": "Effects of climate change on health in the United Kingdom",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q125928",
+        "valueLabel": "climate change"
+    },
+    {
+        "entity": "Q131860709",
+        "entityLabel": "Effects of climate change on health in the United Kingdom",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q39086047",
+        "valueLabel": "health in the United Kingdom"
+    },
+    {
+        "entity": "Q2979220",
+        "entityLabel": "Effects of climate change on human health",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q17732046",
+        "valueLabel": "Category:Weather and health"
+    },
+    {
+        "entity": "Q2979220",
+        "entityLabel": "Effects of climate change on human health",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3706138",
+        "valueLabel": "determinants of health"
+    },
+    {
+        "entity": "Q2979220",
+        "entityLabel": "Effects of climate change on human health",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1430548",
+        "valueLabel": "effects of climate change"
+    },
+    {
+        "entity": "Q2979220",
+        "entityLabel": "Effects of climate change on human health",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2725393",
+        "valueLabel": "global health"
+    },
+    {
+        "entity": "Q2979220",
+        "entityLabel": "Effects of climate change on human health",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q189603",
+        "valueLabel": "public health"
+    },
+    {
+        "entity": "Q2979220",
+        "entityLabel": "Effects of climate change on human health",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q932068",
+        "valueLabel": "environmental health"
+    },
+    {
+        "entity": "Q2979220",
+        "entityLabel": "Effects of climate change on human health",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q132778239",
+        "valueLabel": "health effects from climate"
+    },
+    {
+        "entity": "Q5347379",
+        "entityLabel": "Effects of nuclear explosions on human health",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q152749",
+        "valueLabel": "radiation damage"
+    },
+    {
+        "entity": "Q5347379",
+        "entityLabel": "Effects of nuclear explosions on human health",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1087405",
+        "valueLabel": "Radiation burden"
+    },
+    {
+        "entity": "Q5347379",
+        "entityLabel": "Effects of nuclear explosions on human health",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q18738609",
+        "valueLabel": "Q18738609"
+    },
+    {
+        "entity": "Q14932259",
+        "entityLabel": "Electromagnetic radiation and health",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q55128727",
+        "valueLabel": "biological effects of electromagnetic radiation"
+    },
+    {
+        "entity": "Q14932259",
+        "entityLabel": "Electromagnetic radiation and health",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8618631",
+        "valueLabel": "Category:Radiation health effects"
+    },
+    {
+        "entity": "Q14932259",
+        "entityLabel": "Electromagnetic radiation and health",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3706138",
+        "valueLabel": "determinants of health"
+    },
+    {
+        "entity": "Q14932259",
+        "entityLabel": "Electromagnetic radiation and health",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q612254",
+        "valueLabel": "wireless device radiation and health"
+    },
+    {
+        "entity": "Q14932259",
+        "entityLabel": "Electromagnetic radiation and health",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q729086",
+        "valueLabel": "wireless electronic devices and health"
+    },
+    {
+        "entity": "Q1430548",
+        "entityLabel": "Effects of climate change",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q926230",
+        "valueLabel": "effect"
+    },
+    {
+        "entity": "Q1430548",
+        "entityLabel": "Effects of climate change",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q125928",
+        "valueLabel": "climate change"
+    },
+    {
+        "entity": "Q1430548",
+        "entityLabel": "Effects of climate change",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q574376",
+        "valueLabel": "human impact on the environment"
+    },
+    {
+        "entity": "Q1430548",
+        "entityLabel": "Effects of climate change",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6951580",
+        "valueLabel": "Category:Effects of climate change"
+    },
+    {
+        "entity": "Q1430548",
+        "entityLabel": "Effects of climate change",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q7942",
+        "valueLabel": "global warming"
+    },
+    {
+        "entity": "Q1430548",
+        "entityLabel": "Effects of climate change",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q13560809",
+        "valueLabel": "climate impact research"
+    },
+    {
+        "entity": "Q5381256",
+        "entityLabel": "Health and environmental impact of the petroleum industry",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8419916",
+        "valueLabel": "Category:Environmental impact of the petroleum industry"
+    },
+    {
+        "entity": "Q5381256",
+        "entityLabel": "Health and environmental impact of the petroleum industry",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2022868",
+        "valueLabel": "environmental effects"
+    },
+    {
+        "entity": "Q5381256",
+        "entityLabel": "Health and environmental impact of the petroleum industry",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q862571",
+        "valueLabel": "petroleum industry"
+    },
+    {
+        "entity": "Q5381256",
+        "entityLabel": "Health and environmental impact of the petroleum industry",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2022868",
+        "valueLabel": "environmental effects"
+    },
+    {
+        "entity": "Q42417521",
+        "entityLabel": "Incarceration and health",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3045352",
+        "valueLabel": "social determinants of health"
+    },
+    {
+        "entity": "Q6449736",
+        "entityLabel": "Kvikk case",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3002774",
+        "valueLabel": "health crisis"
+    },
+    {
+        "entity": "Q5690960",
+        "entityLabel": "Health impact of light rail systems",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1268865",
+        "valueLabel": "light rail system"
+    },
+    {
+        "entity": "Q4117845",
+        "entityLabel": "Health effects from noise",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q92251",
+        "valueLabel": "noise pollution"
+    },
+    {
+        "entity": "Q4117845",
+        "entityLabel": "Health effects from noise",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3706138",
+        "valueLabel": "determinants of health"
+    },
+    {
+        "entity": "Q4117845",
+        "entityLabel": "Health effects from noise",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5422022",
+        "valueLabel": "external causes of illness and death"
+    },
+    {
+        "entity": "Q4117845",
+        "entityLabel": "Health effects from noise",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q569965",
+        "valueLabel": "audiology"
+    },
+    {
+        "entity": "Q28134681",
+        "entityLabel": "Effects of overtime",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q667022",
+        "valueLabel": "overtime"
+    },
+    {
+        "entity": "Q28134681",
+        "entityLabel": "Effects of overtime",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2574087",
+        "valueLabel": "health effect"
+    },
+    {
+        "entity": "Q28134681",
+        "entityLabel": "Effects of overtime",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q317309",
+        "valueLabel": "mental health"
+    },
+    {
+        "entity": "Q28134681",
+        "entityLabel": "Effects of overtime",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q629029",
+        "valueLabel": "occupational health and safety"
+    },
+    {
+        "entity": "Q28134681",
+        "entityLabel": "Effects of overtime",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q667022",
+        "valueLabel": "overtime"
+    },
+    {
+        "entity": "Q28134681",
+        "entityLabel": "Effects of overtime",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q815298",
+        "valueLabel": "occupational stress"
+    },
+    {
+        "entity": "Q10302339",
+        "entityLabel": "Health effects of pesticides",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q18621601",
+        "valueLabel": "intoxication"
+    },
+    {
+        "entity": "Q10302339",
+        "entityLabel": "Health effects of pesticides",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12136",
+        "valueLabel": "disease"
+    },
+    {
+        "entity": "Q10302339",
+        "entityLabel": "Health effects of pesticides",
+        "property": "P1995",
+        "propertyLabel": "health specialty",
+        "value": "Q2861470",
+        "valueLabel": "emergency medicine"
+    },
+    {
+        "entity": "Q10302339",
+        "entityLabel": "Health effects of pesticides",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q131656",
+        "valueLabel": "pesticide"
+    },
+    {
+        "entity": "Q10302339",
+        "entityLabel": "Health effects of pesticides",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3610532",
+        "valueLabel": "environmental impact of pesticides"
+    },
+    {
+        "entity": "Q7307660",
+        "entityLabel": "Refugee health",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3045352",
+        "valueLabel": "social determinants of health"
+    },
+    {
+        "entity": "Q2059842",
+        "entityLabel": "Health effects arising from the September 11 attacks",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q10806",
+        "valueLabel": "September 11 attacks"
+    },
+    {
+        "entity": "Q2059842",
+        "entityLabel": "Health effects arising from the September 11 attacks",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2574087",
+        "valueLabel": "health effect"
+    },
+    {
+        "entity": "Q2059842",
+        "entityLabel": "Health effects arising from the September 11 attacks",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1931388",
+        "valueLabel": "cause of death"
+    },
+    {
+        "entity": "Q5347381",
+        "entityLabel": "Effects of sleep deprivation on cognitive performance",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q926230",
+        "valueLabel": "effect"
+    },
+    {
+        "entity": "Q7551049",
+        "entityLabel": "Social determinants of obesity",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3045352",
+        "valueLabel": "social determinants of health"
+    },
+    {
+        "entity": "Q5690942",
+        "entityLabel": "Health effects of sunlight exposure",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q14932259",
+        "valueLabel": "electromagnetic radiation and health"
+    },
+    {
+        "entity": "Q5690942",
+        "entityLabel": "Health effects of sunlight exposure",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q7556707",
+        "valueLabel": "solar irradiance"
+    },
+    {
+        "entity": "Q5690942",
+        "entityLabel": "Health effects of sunlight exposure",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9214204",
+        "valueLabel": "Q9214204"
+    },
+    {
+        "entity": "Q5381258",
+        "entityLabel": "Health and environmental effects of transport",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q2516512",
+        "valueLabel": "transportation industry"
+    },
+    {
+        "entity": "Q5381258",
+        "entityLabel": "Health and environmental effects of transport",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q11711784",
+        "valueLabel": "Category:Transport and the environment"
+    },
+    {
+        "entity": "Q5381258",
+        "entityLabel": "Health and environmental effects of transport",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q334166",
+        "valueLabel": "mode of transport"
+    },
+    {
+        "entity": "Q5381258",
+        "entityLabel": "Health and environmental effects of transport",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2022868",
+        "valueLabel": "environmental effects"
+    },
+    {
+        "entity": "Q5381258",
+        "entityLabel": "Health and environmental effects of transport",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2022868",
+        "valueLabel": "environmental effects"
+    },
+    {
+        "entity": "Q5381258",
+        "entityLabel": "Health and environmental effects of transport",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2144359",
+        "valueLabel": "environmental issue"
+    },
+    {
+        "entity": "Q612254",
+        "entityLabel": "Wireless device radiation and health",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q729086",
+        "valueLabel": "wireless electronic devices and health"
+    },
+    {
+        "entity": "Q612254",
+        "entityLabel": "Wireless device radiation and health",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q55123243",
+        "valueLabel": "mobile phones and cancer"
+    },
+    {
+        "entity": "Q612254",
+        "entityLabel": "Wireless device radiation and health",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q5914332",
+        "valueLabel": "environmental impact of telecommunications"
+    },
+    {
+        "entity": "Q612254",
+        "entityLabel": "Wireless device radiation and health",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q14932259",
+        "valueLabel": "electromagnetic radiation and health"
+    },
+    {
+        "entity": "Q612254",
+        "entityLabel": "Wireless device radiation and health",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q14932259",
+        "valueLabel": "electromagnetic radiation and health"
+    },
+    {
+        "entity": "Q130442026",
+        "entityLabel": "11-day heart camp",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1656682",
+        "valueLabel": "event"
+    },
+    {
+        "entity": "Q130442026",
+        "entityLabel": "11-day heart camp",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q3037",
+        "valueLabel": "Kathmandu"
+    },
+    {
+        "entity": "Q130442026",
+        "entityLabel": "11-day heart camp",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q837",
+        "valueLabel": "Nepal"
+    },
+    {
+        "entity": "Q130442026",
+        "entityLabel": "11-day heart camp",
+        "property": "P2047",
+        "propertyLabel": "duration",
+        "value": "11",
+        "valueLabel": "11"
+    },
+    {
+        "entity": "Q130442026",
+        "entityLabel": "11-day heart camp",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q10379",
+        "valueLabel": "cardiology"
+    },
+    {
+        "entity": "Q5113964",
+        "entityLabel": "Chronic care",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q31207",
+        "valueLabel": "health care"
+    },
+    {
+        "entity": "Q3275615",
+        "entityLabel": "Clinical engineering",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q66151491",
+        "valueLabel": "healthcare technology management"
+    },
+    {
+        "entity": "Q3275615",
+        "entityLabel": "Clinical engineering",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q327092",
+        "valueLabel": "biomedical engineering"
+    },
+    {
+        "entity": "Q3275615",
+        "entityLabel": "Clinical engineering",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q18737588",
+        "valueLabel": "Category:Clinical engineering"
+    },
+    {
+        "entity": "Q3275615",
+        "entityLabel": "Clinical engineering",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11023",
+        "valueLabel": "engineering"
+    },
+    {
+        "entity": "Q3275615",
+        "entityLabel": "Clinical engineering",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q5133834",
+        "entityLabel": "Clinical handover",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q65807728",
+        "valueLabel": "continuity of patient care"
+    },
+    {
+        "entity": "Q1102874",
+        "entityLabel": "Clown Care",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q12040660",
+        "valueLabel": "hospital clown"
+    },
+    {
+        "entity": "Q1102874",
+        "entityLabel": "Clown Care",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q9069441",
+        "valueLabel": "laughter therapy"
+    },
+    {
+        "entity": "Q1102874",
+        "entityLabel": "Clown Care",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q17567128",
+        "valueLabel": "Category:Clown care"
+    },
+    {
+        "entity": "Q1891441",
+        "entityLabel": "Convalescence",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3505845",
+        "valueLabel": "state"
+    },
+    {
+        "entity": "Q1891441",
+        "entityLabel": "Convalescence",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1581290",
+        "valueLabel": "healing"
+    },
+    {
+        "entity": "Q24962805",
+        "entityLabel": "Decision aids",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1331926",
+        "valueLabel": "decision making"
+    },
+    {
+        "entity": "Q24962805",
+        "entityLabel": "Decision aids",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q177719",
+        "valueLabel": "medical diagnosis"
+    },
+    {
+        "entity": "Q194517",
+        "entityLabel": "Enema",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q55214844",
+        "valueLabel": "medical procedure type"
+    },
+    {
+        "entity": "Q194517",
+        "entityLabel": "Enema",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q194517",
+        "entityLabel": "Enema",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q152234",
+        "valueLabel": "edema"
+    },
+    {
+        "entity": "Q194517",
+        "entityLabel": "Enema",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q29914073",
+        "valueLabel": "drug administration"
+    },
+    {
+        "entity": "Q194517",
+        "entityLabel": "Enema",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q194517",
+        "entityLabel": "Enema",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q56441911",
+        "valueLabel": "The Domestic Encyclop\u00e6dia; Or, A Dictionary Of Facts, And Useful Knowledge"
+    },
+    {
+        "entity": "Q194517",
+        "entityLabel": "Enema",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q796194",
+        "valueLabel": "medical procedure"
+    },
+    {
+        "entity": "Q194517",
+        "entityLabel": "Enema",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19047539",
+        "valueLabel": "Collier's New Encyclopedia, 1921"
+    },
+    {
+        "entity": "Q194517",
+        "entityLabel": "Enema",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20078554",
+        "valueLabel": "Great Soviet Encyclopedia (1926\u20131947)"
+    },
+    {
+        "entity": "Q194517",
+        "entityLabel": "Enema",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q1673202",
+        "valueLabel": "douche"
+    },
+    {
+        "entity": "Q22031831",
+        "entityLabel": "EuroHealthNet",
+        "property": "P2139",
+        "propertyLabel": "total revenue",
+        "value": "999000",
+        "valueLabel": "999000"
+    },
+    {
+        "entity": "Q22031831",
+        "entityLabel": "EuroHealthNet",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q728646",
+        "valueLabel": "partnership"
+    },
+    {
+        "entity": "Q22031831",
+        "entityLabel": "EuroHealthNet",
+        "property": "P8093",
+        "propertyLabel": "donations",
+        "value": "226500",
+        "valueLabel": "226500"
+    },
+    {
+        "entity": "Q22031831",
+        "entityLabel": "EuroHealthNet",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q31",
+        "valueLabel": "Belgium"
+    },
+    {
+        "entity": "Q22031831",
+        "entityLabel": "EuroHealthNet",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q239",
+        "valueLabel": "City of Brussels"
+    },
+    {
+        "entity": "Q22031831",
+        "entityLabel": "EuroHealthNet",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q239",
+        "valueLabel": "City of Brussels"
+    },
+    {
+        "entity": "Q581008",
+        "entityLabel": "Galderma",
+        "property": "P1830",
+        "propertyLabel": "owner of",
+        "value": "Q5065628",
+        "valueLabel": "Cetaphil"
+    },
+    {
+        "entity": "Q581008",
+        "entityLabel": "Galderma",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4830453",
+        "valueLabel": "business"
+    },
+    {
+        "entity": "Q581008",
+        "entityLabel": "Galderma",
+        "property": "P452",
+        "propertyLabel": "industry",
+        "value": "Q507443",
+        "valueLabel": "pharmaceutical industry"
+    },
+    {
+        "entity": "Q581008",
+        "entityLabel": "Galderma",
+        "property": "P355",
+        "propertyLabel": "child organization/unit",
+        "value": "Q29123513",
+        "valueLabel": "Galderma (United States)"
+    },
+    {
+        "entity": "Q581008",
+        "entityLabel": "Galderma",
+        "property": "P355",
+        "propertyLabel": "child organization/unit",
+        "value": "Q29123518",
+        "valueLabel": "Galderma (France)"
+    },
+    {
+        "entity": "Q581008",
+        "entityLabel": "Galderma",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q68144",
+        "valueLabel": "Zug"
+    },
+    {
+        "entity": "Q581008",
+        "entityLabel": "Galderma",
+        "property": "P169",
+        "propertyLabel": "chief executive officer",
+        "value": "Q16733839",
+        "valueLabel": "Flemming \u00d8rnskov"
+    },
+    {
+        "entity": "Q581008",
+        "entityLabel": "Galderma",
+        "property": "P1454",
+        "propertyLabel": "legal form",
+        "value": "Q693737",
+        "valueLabel": "Aktiengesellschaft"
+    },
+    {
+        "entity": "Q581008",
+        "entityLabel": "Galderma",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q39",
+        "valueLabel": "Switzerland"
+    },
+    {
+        "entity": "Q22908731",
+        "entityLabel": "GRADE approach",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1379672",
+        "valueLabel": "evaluation"
+    },
+    {
+        "entity": "Q22908731",
+        "entityLabel": "GRADE approach",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q65494947",
+        "valueLabel": "health care outcome assessment"
+    },
+    {
+        "entity": "Q16149213",
+        "entityLabel": "Health advocacy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q203764",
+        "valueLabel": "activism"
+    },
+    {
+        "entity": "Q16149213",
+        "entityLabel": "Health advocacy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2509280",
+        "valueLabel": "advocacy"
+    },
+    {
+        "entity": "Q16149213",
+        "entityLabel": "Health advocacy",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q96036530",
+        "valueLabel": "health activist"
+    },
+    {
+        "entity": "Q16149213",
+        "entityLabel": "Health advocacy",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q31207",
+        "valueLabel": "health care"
+    },
+    {
+        "entity": "Q16149213",
+        "entityLabel": "Health advocacy",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q12147",
+        "valueLabel": "health"
+    },
+    {
+        "entity": "Q16149213",
+        "entityLabel": "Health advocacy",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8616508",
+        "valueLabel": "Category:Medical activism"
+    },
+    {
+        "entity": "Q16149213",
+        "entityLabel": "Health advocacy",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q21683158",
+        "valueLabel": "Category:Health activism"
+    },
+    {
+        "entity": "Q23905463",
+        "entityLabel": "Health care provider",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12737077",
+        "valueLabel": "occupation"
+    },
+    {
+        "entity": "Q23905463",
+        "entityLabel": "Health care provider",
+        "property": "P425",
+        "propertyLabel": "field of this occupation",
+        "value": "Q105691747",
+        "valueLabel": "non-health-related service typically performed by health care providers"
+    },
+    {
+        "entity": "Q23905463",
+        "entityLabel": "Health care provider",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q7434444",
+        "valueLabel": "scope of practice"
+    },
+    {
+        "entity": "Q23905463",
+        "entityLabel": "Health care provider",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q106559804",
+        "valueLabel": "person or organization"
+    },
+    {
+        "entity": "Q23905463",
+        "entityLabel": "Health care provider",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4830453",
+        "valueLabel": "business"
+    },
+    {
+        "entity": "Q23905463",
+        "entityLabel": "Health care provider",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2169973",
+        "valueLabel": "service provider"
+    },
+    {
+        "entity": "Q23905463",
+        "entityLabel": "Health care provider",
+        "property": "P425",
+        "propertyLabel": "field of this occupation",
+        "value": "Q31207",
+        "valueLabel": "health care"
+    },
+    {
+        "entity": "Q1512929",
+        "entityLabel": "Health equity",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q264892",
+        "valueLabel": "social justice"
+    },
+    {
+        "entity": "Q1512929",
+        "entityLabel": "Health equity",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q2919435",
+        "valueLabel": "right to health"
+    },
+    {
+        "entity": "Q1512929",
+        "entityLabel": "Health equity",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q3045352",
+        "valueLabel": "social determinants of health"
+    },
+    {
+        "entity": "Q5690948",
+        "entityLabel": "Health fair",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q1851928",
+        "valueLabel": "health promotion"
+    },
+    {
+        "entity": "Q5690948",
+        "entityLabel": "Health fair",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q29023906",
+        "valueLabel": "temporary exhibition"
+    },
+    {
+        "entity": "Q5690958",
+        "entityLabel": "Health humanities",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q5691100",
+        "entityLabel": "Health insurance mandate",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1519812",
+        "valueLabel": "health policy"
+    },
+    {
+        "entity": "Q5691100",
+        "entityLabel": "Health insurance mandate",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q6025316",
+        "valueLabel": "individual mandate"
+    },
+    {
+        "entity": "Q3097973",
+        "entityLabel": "Health literacy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q679789",
+        "valueLabel": "information literacy"
+    },
+    {
+        "entity": "Q3097973",
+        "entityLabel": "Health literacy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q60894",
+        "valueLabel": "health education"
+    },
+    {
+        "entity": "Q3097973",
+        "entityLabel": "Health literacy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4230034",
+        "valueLabel": "competence"
+    },
+    {
+        "entity": "Q3097973",
+        "entityLabel": "Health literacy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q106546130",
+        "valueLabel": "functional health literacy"
+    },
+    {
+        "entity": "Q3097973",
+        "entityLabel": "Health literacy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q8236",
+        "valueLabel": "literacy"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2267705",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q96251375",
+        "valueLabel": "type of policy"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q11000047",
+        "valueLabel": "health system"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q7163",
+        "valueLabel": "politics"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q105771269",
+        "valueLabel": "health policy scholar"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q1260003",
+        "valueLabel": "drug policy"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q546113",
+        "valueLabel": "public policy"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q29572498",
+        "valueLabel": "public health policy"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q11900327",
+        "valueLabel": "disability policy"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7668001",
+        "valueLabel": "Category:Health policy"
+    },
+    {
+        "entity": "Q1519812",
+        "entityLabel": "Health policy",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q189603",
+        "valueLabel": "public health"
+    },
+    {
+        "entity": "Q11000047",
+        "entityLabel": "Health system",
+        "property": "P2354",
+        "propertyLabel": "has list",
+        "value": "Q17111989",
+        "valueLabel": "health care systems by country"
+    },
+    {
+        "entity": "Q11000047",
+        "entityLabel": "Health system",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8967763",
+        "valueLabel": "Category:Health system"
+    },
+    {
+        "entity": "Q11000047",
+        "entityLabel": "Health system",
+        "property": "P1001",
+        "propertyLabel": "applies to jurisdiction",
+        "value": "Q82794",
+        "valueLabel": "region"
+    },
+    {
+        "entity": "Q11000047",
+        "entityLabel": "Health system",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4287745",
+        "valueLabel": "medical organization"
+    },
+    {
+        "entity": "Q11000047",
+        "entityLabel": "Health system",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q13107184",
+        "valueLabel": "pharmacy"
+    },
+    {
+        "entity": "Q11000047",
+        "entityLabel": "Health system",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1519812",
+        "valueLabel": "health policy"
+    },
+    {
+        "entity": "Q11000047",
+        "entityLabel": "Health system",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q334911",
+        "valueLabel": "health insurance"
+    },
+    {
+        "entity": "Q11000047",
+        "entityLabel": "Health system",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q31207",
+        "valueLabel": "health care"
+    },
+    {
+        "entity": "Q11000047",
+        "entityLabel": "Health system",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1639361",
+        "valueLabel": "sociotechnical system"
+    },
+    {
+        "entity": "Q11000047",
+        "entityLabel": "Health system",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q96116695",
+        "valueLabel": "type of system"
+    },
+    {
+        "entity": "Q11000047",
+        "entityLabel": "Health system",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q29584363",
+        "valueLabel": "human health activities"
+    },
+    {
+        "entity": "Q11000047",
+        "entityLabel": "Health system",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q843601",
+        "valueLabel": "health sciences"
+    },
+    {
+        "entity": "Q48731369",
+        "entityLabel": "Healthcare chaplaincy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q7311140",
+        "valueLabel": "religion and health"
+    },
+    {
+        "entity": "Q48731369",
+        "entityLabel": "Healthcare chaplaincy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q905758",
+        "valueLabel": "doctor\u2013patient relationship"
+    },
+    {
+        "entity": "Q5691354",
+        "entityLabel": "Healthcare reform in China",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q74817647",
+        "valueLabel": "aspect in a geographic region"
+    },
+    {
+        "entity": "Q5691354",
+        "entityLabel": "Healthcare reform in China",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q148",
+        "valueLabel": "People's Republic of China"
+    },
+    {
+        "entity": "Q6011507",
+        "entityLabel": "In absentia health care",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q31207",
+        "valueLabel": "health care"
+    },
+    {
+        "entity": "Q6011507",
+        "entityLabel": "In absentia health care",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q1184325",
+        "valueLabel": "in absentia"
+    },
+    {
+        "entity": "Q6011507",
+        "entityLabel": "In absentia health care",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q46994",
+        "valueLabel": "telemedicine"
+    },
+    {
+        "entity": "Q334911",
+        "entityLabel": "Health insurance",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3546112",
+        "valueLabel": "insurance type"
+    },
+    {
+        "entity": "Q334911",
+        "entityLabel": "Health insurance",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q43183",
+        "valueLabel": "insurance"
+    },
+    {
+        "entity": "Q334911",
+        "entityLabel": "Health insurance",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8507353",
+        "valueLabel": "Category:Health insurance"
+    },
+    {
+        "entity": "Q334911",
+        "entityLabel": "Health insurance",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q113292236",
+        "valueLabel": "self-pay"
+    },
+    {
+        "entity": "Q334911",
+        "entityLabel": "Health insurance",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q11000047",
+        "valueLabel": "health system"
+    },
+    {
+        "entity": "Q1477478",
+        "entityLabel": "Integrated care",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q31207",
+        "valueLabel": "health care"
+    },
+    {
+        "entity": "Q1477478",
+        "entityLabel": "Integrated care",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q31207",
+        "valueLabel": "health care"
+    },
+    {
+        "entity": "Q108197300",
+        "entityLabel": "Iron preparation",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2585617",
+        "valueLabel": "drug class"
+    },
+    {
+        "entity": "Q123273485",
+        "entityLabel": "LGBTQ life expectancy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q188419",
+        "valueLabel": "life expectancy"
+    },
+    {
+        "entity": "Q6672123",
+        "entityLabel": "Long-term care",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q63761568",
+        "valueLabel": "Category:Long-term care"
+    },
+    {
+        "entity": "Q6672123",
+        "entityLabel": "Long-term care",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q121176",
+        "valueLabel": "nursing"
+    },
+    {
+        "entity": "Q6672123",
+        "entityLabel": "Long-term care",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q31207",
+        "valueLabel": "health care"
+    },
+    {
+        "entity": "Q6672123",
+        "entityLabel": "Long-term care",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q17078133",
+        "valueLabel": "residential care"
+    },
+    {
+        "entity": "Q6672123",
+        "entityLabel": "Long-term care",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11588306",
+        "valueLabel": "social services"
+    },
+    {
+        "entity": "Q18277190",
+        "entityLabel": "Mais M\u00e9dicos",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q382996",
+        "valueLabel": "incentive program"
+    },
+    {
+        "entity": "Q18277190",
+        "entityLabel": "Mais M\u00e9dicos",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q155",
+        "valueLabel": "Brazil"
+    },
+    {
+        "entity": "Q6806472",
+        "entityLabel": "Medical billing",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q851587",
+        "valueLabel": "business process"
+    },
+    {
+        "entity": "Q3045065",
+        "entityLabel": "Medical desert",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q10799738",
+        "valueLabel": "Q10799738"
+    },
+    {
+        "entity": "Q3045065",
+        "entityLabel": "Medical desert",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q70436506",
+        "valueLabel": "regional health planning"
+    },
+    {
+        "entity": "Q3045065",
+        "entityLabel": "Medical desert",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q70441959",
+        "valueLabel": "health services needs and demand"
+    },
+    {
+        "entity": "Q6554101",
+        "entityLabel": "Medical device",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1183543",
+        "valueLabel": "appliance"
+    },
+    {
+        "entity": "Q6554101",
+        "entityLabel": "Medical device",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2135465",
+        "valueLabel": "legal concept"
+    },
+    {
+        "entity": "Q6554101",
+        "entityLabel": "Medical device",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q15297744",
+        "valueLabel": "Category:Medical devices"
+    },
+    {
+        "entity": "Q6554101",
+        "entityLabel": "Medical device",
+        "property": "P92",
+        "propertyLabel": "main regulatory text",
+        "value": "Q55610348",
+        "valueLabel": "Medical device regulation"
+    },
+    {
+        "entity": "Q6554101",
+        "entityLabel": "Medical device",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1519843",
+        "valueLabel": "health technology"
+    },
+    {
+        "entity": "Q6554101",
+        "entityLabel": "Medical device",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q115633690",
+        "valueLabel": "medical product"
+    },
+    {
+        "entity": "Q6554101",
+        "entityLabel": "Medical device",
+        "property": "P92",
+        "propertyLabel": "main regulatory text",
+        "value": "Q110576697",
+        "valueLabel": "Q110576697"
+    },
+    {
+        "entity": "Q6554101",
+        "entityLabel": "Medical device",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q123588392",
+        "valueLabel": "type of tool"
+    },
+    {
+        "entity": "Q6554101",
+        "entityLabel": "Medical device",
+        "property": "P92",
+        "propertyLabel": "main regulatory text",
+        "value": "Q110576699",
+        "valueLabel": "Act (2021:600) with supplementary provisions to the EU's regulations on medical devices"
+    },
+    {
+        "entity": "Q6554101",
+        "entityLabel": "Medical device",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q467405",
+        "valueLabel": "CE marking"
+    },
+    {
+        "entity": "Q6554101",
+        "entityLabel": "Medical device",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q6657015",
+        "valueLabel": "medical equipment"
+    },
+    {
+        "entity": "Q757232",
+        "entityLabel": "Medical tourism",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8616769",
+        "valueLabel": "Category:Medical tourism"
+    },
+    {
+        "entity": "Q757232",
+        "entityLabel": "Medical tourism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q49389",
+        "valueLabel": "tourism"
+    },
+    {
+        "entity": "Q757232",
+        "entityLabel": "Medical tourism",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q10531514",
+        "valueLabel": "wellness travel"
+    },
+    {
+        "entity": "Q131459718",
+        "entityLabel": "OCI Foundation International",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q130619102",
+        "entityLabel": "Paradromics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q783794",
+        "valueLabel": "company"
+    },
+    {
+        "entity": "Q1786594",
+        "entityLabel": "Patient transport",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9764741",
+        "valueLabel": "Category:Medical transport devices"
+    },
+    {
+        "entity": "Q1786594",
+        "entityLabel": "Patient transport",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q7590",
+        "valueLabel": "transport"
+    },
+    {
+        "entity": "Q1786594",
+        "entityLabel": "Patient transport",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q51927927",
+        "valueLabel": "patient transfer"
+    },
+    {
+        "entity": "Q25112484",
+        "entityLabel": "Person-centered care",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q27497318",
+        "valueLabel": "Q27497318"
+    },
+    {
+        "entity": "Q25112484",
+        "entityLabel": "Person-centered care",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q121176",
+        "valueLabel": "nursing"
+    },
+    {
+        "entity": "Q7186266",
+        "entityLabel": "Philosophy of healthcare",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q180592",
+        "valueLabel": "social philosophy"
+    },
+    {
+        "entity": "Q7186266",
+        "entityLabel": "Philosophy of healthcare",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q22811234",
+        "valueLabel": "branch of philosophy"
+    },
+    {
+        "entity": "Q25111385",
+        "entityLabel": "Physician engagement",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2234192",
+        "valueLabel": "work engagement"
+    },
+    {
+        "entity": "Q25111385",
+        "entityLabel": "Physician engagement",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q31207",
+        "valueLabel": "health care"
+    },
+    {
+        "entity": "Q17075487",
+        "entityLabel": "Point of care",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q31207",
+        "valueLabel": "health care"
+    },
+    {
+        "entity": "Q7240900",
+        "entityLabel": "Prescriptive analytics",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5001829",
+        "valueLabel": "business analytics"
+    },
+    {
+        "entity": "Q7268788",
+        "entityLabel": "Quality of life (healthcare)",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q31207",
+        "valueLabel": "health care"
+    },
+    {
+        "entity": "Q7268788",
+        "entityLabel": "Quality of life (healthcare)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q13100823",
+        "valueLabel": "quality of life"
+    },
+    {
+        "entity": "Q7268788",
+        "entityLabel": "Quality of life (healthcare)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2091629",
+        "valueLabel": "magnitude"
+    },
+    {
+        "entity": "Q17082008",
+        "entityLabel": "Socialized medicine",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1021512",
+        "valueLabel": "single-payer health care"
+    },
+    {
+        "entity": "Q17082008",
+        "entityLabel": "Socialized medicine",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q546113",
+        "valueLabel": "public policy"
+    },
+    {
+        "entity": "Q17082008",
+        "entityLabel": "Socialized medicine",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11000047",
+        "valueLabel": "health system"
+    },
+    {
+        "entity": "Q17082008",
+        "entityLabel": "Socialized medicine",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q66762677",
+        "valueLabel": "political term"
+    },
+    {
+        "entity": "Q7663871",
+        "entityLabel": "Systems medicine",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q55820556",
+        "valueLabel": "Q55820556"
+    },
+    {
+        "entity": "Q97359602",
+        "entityLabel": "Tolerated illness",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q111796709",
+        "valueLabel": "medical concept"
+    },
+    {
+        "entity": "Q3274205",
+        "entityLabel": "Universal health care",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q294308",
+        "valueLabel": "publicly funded health care"
+    },
+    {
+        "entity": "Q3274205",
+        "entityLabel": "Universal health care",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8880668",
+        "valueLabel": "Category:Universal health care"
+    },
+    {
+        "entity": "Q66809506",
+        "entityLabel": "Value-based health care",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q31207",
+        "valueLabel": "health care"
+    },
+    {
+        "entity": "Q19595706",
+        "entityLabel": "Zenana missions",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q24976571",
+        "valueLabel": "Category:Zenana missions"
+    },
+    {
+        "entity": "Q11974939",
+        "entityLabel": "Health professional",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q28640",
+        "valueLabel": "profession"
+    },
+    {
+        "entity": "Q11974939",
+        "entityLabel": "Health professional",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q108300140",
+        "valueLabel": "occupation group according to ISCO-08"
+    },
+    {
+        "entity": "Q11974939",
+        "entityLabel": "Health professional",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8755679",
+        "valueLabel": "Category:Health professionals"
+    },
+    {
+        "entity": "Q11974939",
+        "entityLabel": "Health professional",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q110281945",
+        "valueLabel": "intellectual and scientific professionals"
+    },
+    {
+        "entity": "Q11974939",
+        "entityLabel": "Health professional",
+        "property": "P4968",
+        "propertyLabel": "relevant qualification",
+        "value": "Q124789547",
+        "valueLabel": "NCLEX-RN Exam"
+    },
+    {
+        "entity": "Q11974939",
+        "entityLabel": "Health professional",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q7180120",
+        "valueLabel": "Template:Infobox medical person"
+    },
+    {
+        "entity": "Q11974939",
+        "entityLabel": "Health professional",
+        "property": "P425",
+        "propertyLabel": "field of this occupation",
+        "value": "Q3922583",
+        "valueLabel": "health profession"
+    },
+    {
+        "entity": "Q11974939",
+        "entityLabel": "Health professional",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q23905463",
+        "valueLabel": "healthcare provider"
+    },
+    {
+        "entity": "Q11974939",
+        "entityLabel": "Health professional",
+        "property": "P4968",
+        "propertyLabel": "relevant qualification",
+        "value": "Q6953150",
+        "valueLabel": "NCLEX"
+    },
+    {
+        "entity": "Q11974939",
+        "entityLabel": "Health professional",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q17054975",
+        "valueLabel": "human resources for health"
+    },
+    {
+        "entity": "Q61341",
+        "entityLabel": "Paraveterinary worker",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q55071047",
+        "valueLabel": "allied health professional"
+    },
+    {
+        "entity": "Q61341",
+        "entityLabel": "Paraveterinary worker",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q7135767",
+        "valueLabel": "paraprofessional"
+    },
+    {
+        "entity": "Q61341",
+        "entityLabel": "Paraveterinary worker",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q28640",
+        "valueLabel": "profession"
+    },
+    {
+        "entity": "Q61341",
+        "entityLabel": "Paraveterinary worker",
+        "property": "P425",
+        "propertyLabel": "field of this occupation",
+        "value": "Q170201",
+        "valueLabel": "veterinary medicine"
+    },
+    {
+        "entity": "Q61341",
+        "entityLabel": "Paraveterinary worker",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q778000",
+        "valueLabel": "Q778000"
+    },
+    {
+        "entity": "Q202883",
+        "entityLabel": "Veterinarian",
+        "property": "P425",
+        "propertyLabel": "field of this occupation",
+        "value": "Q22907418",
+        "valueLabel": "comparative medicine"
+    },
+    {
+        "entity": "Q202883",
+        "entityLabel": "Veterinarian",
+        "property": "P417",
+        "propertyLabel": "patron saint",
+        "value": "Q151967",
+        "valueLabel": "Blaise of Sebaste"
+    },
+    {
+        "entity": "Q202883",
+        "entityLabel": "Veterinarian",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6821581",
+        "valueLabel": "Category:Veterinarians"
+    },
+    {
+        "entity": "Q202883",
+        "entityLabel": "Veterinarian",
+        "property": "P2354",
+        "propertyLabel": "has list",
+        "value": "Q3742648",
+        "valueLabel": "list of veterinarians"
+    },
+    {
+        "entity": "Q202883",
+        "entityLabel": "Veterinarian",
+        "property": "P425",
+        "propertyLabel": "field of this occupation",
+        "value": "Q3482590",
+        "valueLabel": "neutering"
+    },
+    {
+        "entity": "Q202883",
+        "entityLabel": "Veterinarian",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11974939",
+        "valueLabel": "health professional"
+    },
+    {
+        "entity": "Q202883",
+        "entityLabel": "Veterinarian",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3332438",
+        "valueLabel": "medical specialist"
+    },
+    {
+        "entity": "Q202883",
+        "entityLabel": "Veterinarian",
+        "property": "P425",
+        "propertyLabel": "field of this occupation",
+        "value": "Q1114819",
+        "valueLabel": "veterinary activities"
+    },
+    {
+        "entity": "Q5417806",
+        "entityLabel": "Everyday Health",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4830453",
+        "valueLabel": "business"
+    },
+    {
+        "entity": "Q5417806",
+        "entityLabel": "Everyday Health",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "632265",
+        "valueLabel": "632265"
+    },
+    {
+        "entity": "Q5417806",
+        "entityLabel": "Everyday Health",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "644483",
+        "valueLabel": "644483"
+    },
+    {
+        "entity": "Q5417806",
+        "entityLabel": "Everyday Health",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "625622",
+        "valueLabel": "625622"
+    },
+    {
+        "entity": "Q5417806",
+        "entityLabel": "Everyday Health",
+        "property": "P414",
+        "propertyLabel": "stock exchange",
+        "value": "Q13677",
+        "valueLabel": "New York Stock Exchange"
+    },
+    {
+        "entity": "Q5417806",
+        "entityLabel": "Everyday Health",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q60",
+        "valueLabel": "New York City"
+    },
+    {
+        "entity": "Q5417806",
+        "entityLabel": "Everyday Health",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q891723",
+        "valueLabel": "public company"
+    },
+    {
+        "entity": "Q5417806",
+        "entityLabel": "Everyday Health",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q5417806",
+        "entityLabel": "Everyday Health",
+        "property": "P127",
+        "propertyLabel": "owned by",
+        "value": "Q16997523",
+        "valueLabel": "J2 Global"
+    },
+    {
+        "entity": "Q5417806",
+        "entityLabel": "Everyday Health",
+        "property": "P1454",
+        "propertyLabel": "legal form",
+        "value": "Q88537331",
+        "valueLabel": "Delaware corporation"
+    },
+    {
+        "entity": "Q42417700",
+        "entityLabel": "Phase-out of fossil fuel vehicles",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2326542",
+        "valueLabel": "fossil-fuel phase-out"
+    },
+    {
+        "entity": "Q2296183",
+        "entityLabel": "Incidents at Six Flags parks",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q5774182",
+        "entityLabel": "Historical annual reformulations of the influenza vaccine",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q105967696",
+        "valueLabel": "vaccine type"
+    },
+    {
+        "entity": "Q5774182",
+        "entityLabel": "Historical annual reformulations of the influenza vaccine",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q383260",
+        "valueLabel": "influenza vaccine"
+    },
+    {
+        "entity": "Q7546043",
+        "entityLabel": "Legal smoking age",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q26046092",
+        "valueLabel": "minimum age"
+    },
+    {
+        "entity": "Q3273722",
+        "entityLabel": "Minister of health",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q83307",
+        "valueLabel": "minister"
+    },
+    {
+        "entity": "Q3273722",
+        "entityLabel": "Minister of health",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4164871",
+        "valueLabel": "position"
+    },
+    {
+        "entity": "Q3273722",
+        "entityLabel": "Minister of health",
+        "property": "P1001",
+        "propertyLabel": "applies to jurisdiction",
+        "value": "413a51c01e78ebb1efdc9b2349cb62b0",
+        "valueLabel": "http://www.wikidata.org/.well-known/genid/413a51c01e78ebb1efdc9b2349cb62b0"
+    },
+    {
+        "entity": "Q3273722",
+        "entityLabel": "Minister of health",
+        "property": "P2389",
+        "propertyLabel": "organization directed by the office or position",
+        "value": "Q1519799",
+        "valueLabel": "ministry of health"
+    },
+    {
+        "entity": "Q3273722",
+        "entityLabel": "Minister of health",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8507363",
+        "valueLabel": "Category:Ministers of health"
+    },
+    {
+        "entity": "Q104867216",
+        "entityLabel": "Minister of Mental Health",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4164871",
+        "valueLabel": "position"
+    },
+    {
+        "entity": "Q104867216",
+        "entityLabel": "Minister of Mental Health",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q83307",
+        "valueLabel": "minister"
+    },
+    {
+        "entity": "Q7112653",
+        "entityLabel": "Outline of health",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q7112730",
+        "entityLabel": "Outline of smoking",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7894132",
+        "entityLabel": "Universal health care by country",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P162",
+        "propertyLabel": "producer",
+        "value": "Q63689",
+        "valueLabel": "Joanna Kerns"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P58",
+        "propertyLabel": "screenwriter",
+        "value": "Q24578998",
+        "valueLabel": "Jennifer Brea"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P166",
+        "propertyLabel": "award received",
+        "value": "Q124458587",
+        "valueLabel": "Sundance Special Jury Prize Documentary"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11424",
+        "valueLabel": "film"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P57",
+        "propertyLabel": "director",
+        "value": "Q24578998",
+        "valueLabel": "Jennifer Brea"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q24578998",
+        "valueLabel": "Jennifer Brea"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q130232",
+        "valueLabel": "drama film"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q93204",
+        "valueLabel": "documentary film"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P162",
+        "propertyLabel": "producer",
+        "value": "Q24578998",
+        "valueLabel": "Jennifer Brea"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P162",
+        "propertyLabel": "producer",
+        "value": "Q24004777",
+        "valueLabel": "Lindsey Dryden"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q1054574",
+        "valueLabel": "romance film"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P162",
+        "propertyLabel": "producer",
+        "value": "Q1181572",
+        "valueLabel": "Deborah Hoffmann"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P161",
+        "propertyLabel": "cast member",
+        "value": "Q97069582",
+        "valueLabel": "Whitney Dafoe"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P86",
+        "propertyLabel": "composer",
+        "value": "Q621437",
+        "valueLabel": "Bear McCreary"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P750",
+        "propertyLabel": "distributed by",
+        "value": "Q907311",
+        "valueLabel": "Netflix"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P364",
+        "propertyLabel": "original language of film or TV show",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P2758",
+        "propertyLabel": "CNC film rating (France)",
+        "value": "Q23817741",
+        "valueLabel": "no minors under sixteen"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P437",
+        "propertyLabel": "distribution format",
+        "value": "Q723685",
+        "valueLabel": "video on demand"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P1040",
+        "propertyLabel": "film editor",
+        "value": "Q22096504",
+        "valueLabel": "Kim Roberts"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P2684",
+        "propertyLabel": "Kijkwijzer rating",
+        "value": "Q23649982",
+        "valueLabel": "9"
+    },
+    {
+        "entity": "Q24577642",
+        "entityLabel": "Unrest (2017 film)",
+        "property": "P2047",
+        "propertyLabel": "duration",
+        "value": "90",
+        "valueLabel": "90"
+    },
+    {
+        "entity": "Q4806354",
+        "entityLabel": "Asia Catalyst",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q163740",
+        "valueLabel": "nonprofit organization"
+    },
+    {
+        "entity": "Q4806354",
+        "entityLabel": "Asia Catalyst",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q5027777",
+        "entityLabel": "Campaign for Access to Essential Medicines",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q49330",
+        "valueLabel": "Doctors Without Borders"
+    },
+    {
+        "entity": "Q110530770",
+        "entityLabel": "Initiative for Medicines, Access, and Knowledge",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q6550756",
+        "entityLabel": "Lincoln Hospital (Bronx)",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q18426",
+        "valueLabel": "The Bronx"
+    },
+    {
+        "entity": "Q6550756",
+        "entityLabel": "Lincoln Hospital (Bronx)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q16917",
+        "valueLabel": "hospital"
+    },
+    {
+        "entity": "Q6550756",
+        "entityLabel": "Lincoln Hospital (Bronx)",
+        "property": "P749",
+        "propertyLabel": "parent organization",
+        "value": "Q7013226",
+        "valueLabel": "NYC Health + Hospitals"
+    },
+    {
+        "entity": "Q6550756",
+        "entityLabel": "Lincoln Hospital (Bronx)",
+        "property": "P1416",
+        "propertyLabel": "affiliation",
+        "value": "Q3567094",
+        "valueLabel": "Weill Cornell Medicine"
+    },
+    {
+        "entity": "Q6550756",
+        "entityLabel": "Lincoln Hospital (Bronx)",
+        "property": "P6801",
+        "propertyLabel": "number of hospital beds",
+        "value": "362",
+        "valueLabel": "362"
+    },
+    {
+        "entity": "Q6550756",
+        "entityLabel": "Lincoln Hospital (Bronx)",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q96398568",
+        "entityLabel": "Patient engagement in Canada",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q16",
+        "valueLabel": "Canada"
+    },
+    {
+        "entity": "Q7144993",
+        "entityLabel": "Patient participation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q7144952",
+        "valueLabel": "patient-centered care"
+    },
+    {
+        "entity": "Q7144993",
+        "entityLabel": "Patient participation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2015382",
+        "valueLabel": "competence (human resources)"
+    },
+    {
+        "entity": "Q6375738",
+        "entityLabel": "Kate Rew",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581072",
+        "valueLabel": "female"
+    },
+    {
+        "entity": "Q6375738",
+        "entityLabel": "Kate Rew",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q34433",
+        "valueLabel": "University of Oxford"
+    },
+    {
+        "entity": "Q6375738",
+        "entityLabel": "Kate Rew",
+        "property": "P641",
+        "propertyLabel": "sport",
+        "value": "Q31920",
+        "valueLabel": "competitive swimming"
+    },
+    {
+        "entity": "Q6375738",
+        "entityLabel": "Kate Rew",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q1735678",
+        "valueLabel": "Kate"
+    },
+    {
+        "entity": "Q6375738",
+        "entityLabel": "Kate Rew",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q36180",
+        "valueLabel": "writer"
+    },
+    {
+        "entity": "Q6375738",
+        "entityLabel": "Kate Rew",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q10843402",
+        "valueLabel": "swimmer"
+    },
+    {
+        "entity": "Q6375738",
+        "entityLabel": "Kate Rew",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q1930187",
+        "valueLabel": "journalist"
+    },
+    {
+        "entity": "Q6375738",
+        "entityLabel": "Kate Rew",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q110322040",
+        "entityLabel": "T1International",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q3474070",
+        "entityLabel": "Animal lead poisoning",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q110315",
+        "valueLabel": "lead poisoning"
+    },
+    {
+        "entity": "Q3474070",
+        "entityLabel": "Animal lead poisoning",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q9190427",
+        "valueLabel": "animal disease"
+    },
+    {
+        "entity": "Q50972565",
+        "entityLabel": "Veterinary pharmacy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7180763",
+        "valueLabel": "pharmaceutical sciences"
+    },
+    {
+        "entity": "Q50972565",
+        "entityLabel": "Veterinary pharmacy",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q170201",
+        "valueLabel": "veterinary medicine"
+    },
+    {
+        "entity": "Q50972565",
+        "entityLabel": "Veterinary pharmacy",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q614304",
+        "valueLabel": "pharmacy"
+    },
+    {
+        "entity": "Q50972565",
+        "entityLabel": "Veterinary pharmacy",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q7923728",
+        "valueLabel": "veterinary pharmacist"
+    },
+    {
+        "entity": "Q50972565",
+        "entityLabel": "Veterinary pharmacy",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q170201",
+        "valueLabel": "veterinary medicine"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4086271",
+        "valueLabel": "Bible Encyclopedia of Archimandrite Nicephorus"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q1931388",
+        "valueLabel": "cause of death"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1542",
+        "propertyLabel": "has effect",
+        "value": "Q83978562",
+        "valueLabel": "dead"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1478",
+        "propertyLabel": "has immediate cause",
+        "value": "Q1989450",
+        "valueLabel": "clinical death"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q2438541",
+        "valueLabel": "manner of death"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q113540506",
+        "valueLabel": "philosophy of death"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q1970746",
+        "valueLabel": "Explanatory Dictionary of the Living Great Russian Language"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q1931388",
+        "valueLabel": "cause of death"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q2347178",
+        "valueLabel": "development of the human body"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q106727050",
+        "valueLabel": "Metropolitan Museum of Art Tagging Vocabulary"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4173137",
+        "valueLabel": "Jewish Encyclopedia of Brockhaus and Efron"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1478",
+        "propertyLabel": "has immediate cause",
+        "value": "Q267505",
+        "valueLabel": "dying"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q22269530",
+        "valueLabel": "single-organism process"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q149086",
+        "valueLabel": "homicide"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q14819852",
+        "valueLabel": "birth"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7022842",
+        "valueLabel": "Category:Death"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q22269697",
+        "valueLabel": "multi-organism process"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q19526941",
+        "valueLabel": "D\u00f6den"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q405101",
+        "valueLabel": "Tod"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q63284758",
+        "valueLabel": "Desktop Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q4",
+        "entityLabel": "Death",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q3",
+        "valueLabel": "life"
+    },
+    {
+        "entity": "Q25047919",
+        "entityLabel": "Outline of death",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q104870117",
+        "entityLabel": "Apeirophobia",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q175854",
+        "valueLabel": "phobia"
+    },
+    {
+        "entity": "Q104870117",
+        "entityLabel": "Apeirophobia",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q205",
+        "valueLabel": "infinity"
+    },
+    {
+        "entity": "Q104870117",
+        "entityLabel": "Apeirophobia",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q509071",
+        "valueLabel": "eternal life"
+    },
+    {
+        "entity": "Q104870117",
+        "entityLabel": "Apeirophobia",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q589",
+        "valueLabel": "black hole"
+    },
+    {
+        "entity": "Q2098451",
+        "entityLabel": "Apparent death",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q199647",
+        "valueLabel": "Thanatos"
+    },
+    {
+        "entity": "Q2098451",
+        "entityLabel": "Apparent death",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5501306",
+        "valueLabel": "freeze response"
+    },
+    {
+        "entity": "Q2098451",
+        "entityLabel": "Apparent death",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2990593",
+        "valueLabel": "animal behavior"
+    },
+    {
+        "entity": "Q2098451",
+        "entityLabel": "Apparent death",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q170028",
+        "valueLabel": "deception"
+    },
+    {
+        "entity": "Q2098451",
+        "entityLabel": "Apparent death",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q77468620",
+        "valueLabel": "psychology terminology"
+    },
+    {
+        "entity": "Q2098451",
+        "entityLabel": "Apparent death",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q92307203",
+        "entityLabel": "Case fatality rate",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20078554",
+        "valueLabel": "Great Soviet Encyclopedia (1926\u20131947)"
+    },
+    {
+        "entity": "Q92307203",
+        "entityLabel": "Case fatality rate",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3481047",
+        "valueLabel": "ratio"
+    },
+    {
+        "entity": "Q3397848",
+        "entityLabel": "Dead pool",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3590573",
+        "valueLabel": "game of chance"
+    },
+    {
+        "entity": "Q17010008",
+        "entityLabel": "Death and adjustment hypotheses",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17737",
+        "valueLabel": "theory"
+    },
+    {
+        "entity": "Q3519556",
+        "entityLabel": "Death anxiety",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q175854",
+        "valueLabel": "phobia"
+    },
+    {
+        "entity": "Q3519556",
+        "entityLabel": "Death anxiety",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q6914402",
+        "valueLabel": "mortality salience"
+    },
+    {
+        "entity": "Q3519556",
+        "entityLabel": "Death anxiety",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q768727",
+        "valueLabel": "necrophobia"
+    },
+    {
+        "entity": "Q3519556",
+        "entityLabel": "Death anxiety",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q54913235",
+        "valueLabel": "attitude to death"
+    },
+    {
+        "entity": "Q3519556",
+        "entityLabel": "Death anxiety",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q544006",
+        "valueLabel": "anxiety disorder"
+    },
+    {
+        "entity": "Q3519556",
+        "entityLabel": "Death anxiety",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q4",
+        "valueLabel": "death"
+    },
+    {
+        "entity": "Q1570600",
+        "entityLabel": "Death drive",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q77468620",
+        "valueLabel": "psychology terminology"
+    },
+    {
+        "entity": "Q1570600",
+        "entityLabel": "Death drive",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q11009445",
+        "valueLabel": "drive theory"
+    },
+    {
+        "entity": "Q1570600",
+        "entityLabel": "Death drive",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q734357",
+        "valueLabel": "drive toward life"
+    },
+    {
+        "entity": "Q1570600",
+        "entityLabel": "Death drive",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q77468620",
+        "valueLabel": "psychology terminology"
+    },
+    {
+        "entity": "Q663998",
+        "entityLabel": "Death rattle",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q169872",
+        "valueLabel": "symptom"
+    },
+    {
+        "entity": "Q663998",
+        "entityLabel": "Death rattle",
+        "property": "P780",
+        "propertyLabel": "symptoms and signs",
+        "value": "Q11461",
+        "valueLabel": "sound"
+    },
+    {
+        "entity": "Q663998",
+        "entityLabel": "Death rattle",
+        "property": "P780",
+        "propertyLabel": "symptoms and signs",
+        "value": "Q188008",
+        "valueLabel": "dyspnea"
+    },
+    {
+        "entity": "Q55639561",
+        "entityLabel": "Death-positive movement",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q1239812",
+        "valueLabel": "mortality"
+    },
+    {
+        "entity": "Q55639561",
+        "entityLabel": "Death-positive movement",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q49773",
+        "valueLabel": "social movement"
+    },
+    {
+        "entity": "Q55639561",
+        "entityLabel": "Death-positive movement",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2915955",
+        "valueLabel": "philosophical movement"
+    },
+    {
+        "entity": "Q1210697",
+        "entityLabel": "Die-in",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q175331",
+        "valueLabel": "demonstration"
+    },
+    {
+        "entity": "Q5276322",
+        "entityLabel": "Dignified death",
+        "property": "P2789",
+        "propertyLabel": "connects with",
+        "value": "Q2044946",
+        "valueLabel": "right to die"
+    },
+    {
+        "entity": "Q5276322",
+        "entityLabel": "Dignified death",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q100159",
+        "valueLabel": "euthanasia"
+    },
+    {
+        "entity": "Q5276322",
+        "entityLabel": "Dignified death",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q29017603",
+        "valueLabel": "control"
+    },
+    {
+        "entity": "Q5276322",
+        "entityLabel": "Dignified death",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q3316017",
+        "valueLabel": "orthothanasia"
+    },
+    {
+        "entity": "Q5276322",
+        "entityLabel": "Dignified death",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q274782",
+        "valueLabel": "dignity"
+    },
+    {
+        "entity": "Q5276322",
+        "entityLabel": "Dignified death",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2044946",
+        "valueLabel": "right to die"
+    },
+    {
+        "entity": "Q5276322",
+        "entityLabel": "Dignified death",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q2044946",
+        "valueLabel": "right to die"
+    },
+    {
+        "entity": "Q5276322",
+        "entityLabel": "Dignified death",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4",
+        "valueLabel": "death"
+    },
+    {
+        "entity": "Q5276322",
+        "entityLabel": "Dignified death",
+        "property": "P6477",
+        "propertyLabel": "does not have characteristic",
+        "value": "Q5780945",
+        "valueLabel": "suffering"
+    },
+    {
+        "entity": "Q65076667",
+        "entityLabel": "Disease of despair",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1931388",
+        "valueLabel": "cause of death"
+    },
+    {
+        "entity": "Q6914399",
+        "entityLabel": "Excess mortality",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q58702",
+        "valueLabel": "mortality rate"
+    },
+    {
+        "entity": "Q2671076",
+        "entityLabel": "Information-theoretic death",
+        "property": "P155",
+        "propertyLabel": "follows",
+        "value": "Q223867",
+        "valueLabel": "brain death"
+    },
+    {
+        "entity": "Q2671076",
+        "entityLabel": "Information-theoretic death",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q632388",
+        "valueLabel": "irreversible process"
+    },
+    {
+        "entity": "Q2671076",
+        "entityLabel": "Information-theoretic death",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q4",
+        "valueLabel": "death"
+    },
+    {
+        "entity": "Q2671076",
+        "entityLabel": "Information-theoretic death",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q33104279",
+        "valueLabel": "philosophical concept"
+    },
+    {
+        "entity": "Q2671076",
+        "entityLabel": "Information-theoretic death",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q194294",
+        "valueLabel": "bioethics"
+    },
+    {
+        "entity": "Q2671076",
+        "entityLabel": "Information-theoretic death",
+        "property": "P1478",
+        "propertyLabel": "has immediate cause",
+        "value": "Q40953843",
+        "valueLabel": "corpse decomposition"
+    },
+    {
+        "entity": "Q2671076",
+        "entityLabel": "Information-theoretic death",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q17781833",
+        "valueLabel": "destruction"
+    },
+    {
+        "entity": "Q2671076",
+        "entityLabel": "Information-theoretic death",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1028964",
+        "valueLabel": "philosophy of biology"
+    },
+    {
+        "entity": "Q1720706",
+        "entityLabel": "Lethality",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3481047",
+        "valueLabel": "ratio"
+    },
+    {
+        "entity": "Q1720706",
+        "entityLabel": "Lethality",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1367554",
+        "valueLabel": "morbidity"
+    },
+    {
+        "entity": "Q1720706",
+        "entityLabel": "Lethality",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q3368718",
+        "valueLabel": "pathologist"
+    },
+    {
+        "entity": "Q1720706",
+        "entityLabel": "Lethality",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q24017732",
+        "valueLabel": "public health scientist"
+    },
+    {
+        "entity": "Q1720706",
+        "entityLabel": "Lethality",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q6914401",
+        "entityLabel": "Mortality forecasting",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2369019",
+        "valueLabel": "population projection"
+    },
+    {
+        "entity": "Q6914402",
+        "entityLabel": "Mortality salience",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4338318",
+        "valueLabel": "awareness"
+    },
+    {
+        "entity": "Q6914402",
+        "entityLabel": "Mortality salience",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1239812",
+        "valueLabel": "mortality"
+    },
+    {
+        "entity": "Q6914402",
+        "entityLabel": "Mortality salience",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q77468620",
+        "valueLabel": "psychology terminology"
     }
 ]

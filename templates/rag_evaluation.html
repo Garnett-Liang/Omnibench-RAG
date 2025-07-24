@@ -333,8 +333,10 @@
                 const result = data.results;
                 const metrics = result.metrics;
                 const params = result.parameters;
+                const perf = metrics.performance; // 性能指标数据
 
                 resultContainer.innerHTML = `
+                    <!-- 准确率展示 -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                         <div class="bg-green-50 p-4 rounded-md">
                             <div class="text-sm text-green-600 mb-1">Basic Accuracy</div>
@@ -345,11 +347,68 @@
                             <div class="text-xl font-bold">${(metrics.rag_accuracy * 100).toFixed(2)}%</div>
                         </div>
                     </div>
+
+                    <!-- 性能提升展示 -->
                     <div class="bg-gray-50 p-4 rounded-md mb-6">
                         <div class="text-sm text-gray-600 mb-1">Performance Improvement</div>
                         <div class="text-xl font-bold ${metrics.improvement > 0 ? 'text-green-600' : 'text-red-600'}">
                             ${metrics.improvement > 0 ? '+' : ''}${(metrics.improvement * 100).toFixed(2)}%
                         </div>
+                    </div>
+
+                    <!-- 性能指标展示（新增部分） -->
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3">Performance Metrics</h3>
+                        
+                        <!-- 基础模型性能 -->
+                        <div class="bg-yellow-50 p-4 rounded-md mb-4">
+                            <div class="text-sm text-yellow-600 font-medium mb-2">Base Model</div>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-sm">
+                                <div>
+                                    <div class="text-gray-500">Avg Response Time</div>
+                                    <div class="font-bold">${perf.basic.response_time.toFixed(4)}s</div>
+                                </div>
+                                <div>
+                                    <div class="text-gray-500">Avg Memory Usage</div>
+                                    <div class="font-bold">${perf.basic.memory_usage.toFixed(4)}MB</div>
+                                </div>
+                                <div>
+                                    <div class="text-gray-500">Avg GPU Utilization</div>
+                                    <div class="font-bold">${perf.basic.gpu_utilization.toFixed(2)}%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- RAG模型性能及相对比例 -->
+                        <div class="bg-purple-50 p-4 rounded-md">
+                            <div class="text-sm text-purple-600 font-medium mb-2">RAG Model (vs Base)</div>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-sm">
+                                <div>
+                                    <div class="text-gray-500">Avg Response Time</div>
+                                    <div class="font-bold">${perf.rag.response_time.toFixed(4)}s (${perf.ratios.response_time.toFixed(2)}x)</div>
+                                </div>
+                                <div>
+                                    <div class="text-gray-500">Avg Memory Usage</div>
+                                    <div class="font-bold">${perf.rag.memory_usage.toFixed(4)}MB (${perf.ratios.memory_usage.toFixed(2)}x)</div>
+                                </div>
+                                <div>
+                                    <div class="text-gray-500">Avg GPU Utilization</div>
+                                    <div class="font-bold">${perf.rag.gpu_utilization.toFixed(2)}% (${perf.ratios.gpu_utilization.toFixed(2)}x)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-indigo-50 p-4 rounded-md mb-4">
+                    <div class="text-sm text-indigo-600 font-medium mb-2">Efficiency Trade-off (Transformation)</div>
+                    <div class="flex items-center">
+                        <div class="text-2xl font-bold ${metrics.transformation > 1 ? 'text-green-600' : 'text-red-600'}">
+                            ${metrics.transformation.toFixed(4)}
+                        </div>
+                        <div class="ml-3 text-sm text-gray-600">
+                            <span>${metrics.transformation > 1 ? '↑ Better efficiency with RAG' : '↓ Higher overhead with RAG'}</span>
+                            <div class="text-xs mt-1">*Combines response time, GPU, and memory trade-offs</div>
+                        </div>
+                    </div>
                     </div>
                     <div class="text-gray-600">
                         <p><strong>Parameter Information:</strong></p>

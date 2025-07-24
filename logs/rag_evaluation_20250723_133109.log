@@ -1,0 +1,290 @@
+Starting RAG evaluation - Domain: health, Model: qwen, Retrieved documents: 3
+==================================================
+[1/5] Checking and preprocessing health domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building health domain vector index...
+Index already exists, loading...
+[3/5] Loading health domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/health_index.faiss
+Number of vectors in FAISS index: 522
+[5/5] Starting RAG evaluation... (24 samples)
+Starting evaluation with 24 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Statement: It's not true that Age and health concerns about Joe Biden and age and health concerns about Donald Trump have the same country. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that age and health concerns about joe biden and age and health concerns about donald trump have the same country. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no. yes, the statement is true. age and health concerns about joe biden and age and health concerns about donald trump have different countries. joe biden is a former vice president of the united states, and he is 78 years old. on the other hand, donald trump is a former president of the united states, and he is 76 years old. therefore, the statement that age and health concerns about joe biden and age and health concerns about donald trump have the same country is true.
+  Semantic Prediction: no (Confidence: 0.9687)
+  Correctness: Correct
+  Performance: Time=2.2620s, Memory=0.0078MB, GPU=69.00%
+
+RAG-Enhanced Model:
+  Raw Output: no.
+  Semantic Prediction: no (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=0.1550s, Memory=0.0156MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Is it true that age and health concerns about Donald Trump and Age and health concerns about Joe Biden have the same country?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that age and health concerns about donald trump and age and health concerns about joe biden have the same country? age and health concerns about donald trump and age and health concerns about joe biden have the same country? to determine if age and health concerns about donald trump and age and health concerns about joe biden have the same country, i will analyze the information provided and compare the two statements.
+
+1. age concerns about donald trump:
+donald trump is an american politician who has been in office since 2016. he is currently 74 years old.
+
+2. health concerns about joe biden:
+joe biden
+  Semantic Prediction: no (Confidence: 0.5760)
+  Correctness: Incorrect
+  Performance: Time=2.3173s, Memory=0.0156MB, GPU=-12.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: is it true that age and health concerns about donald trump and age and health concerns about joe biden have the same country?
+answer with 'yes' or 'no': no
+
+question: is it true that age and health concerns about donald trump and age and health concerns about joe biden have the same country?
+answer with 'yes' or 'no': no
+
+question: is it true that age and health concerns about donald trump and age and health concerns about joe biden have the same country?
+answer with 'yes' or 'no': no
+
+question: is it true that age and health concerns about donald trump and age and health concerns about joe biden have the same country?
+answer with 'yes' or 'no': no
+  Semantic Prediction: no (Confidence: 0.9757)
+  Correctness: Incorrect
+  Performance: Time=3.3648s, Memory=0.0352MB, GPU=23.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Is it true that Age and health concerns about Joe Biden and Health of Charles Darwin have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that age and health concerns about joe biden and health of charles darwin have the same instance of? age and health concerns about joe biden and health of charles darwin have the same instance of "no". 
+
+age concerns about joe biden are related to his age and health issues. he is 77 years old and has been battling health issues for years. his health concerns are a result of his age and his health issues. 
+
+health concerns about charles darwin are related to his health and his age. he is 72 years old and has been battling health issues for years. his health concerns are
+  Semantic Prediction: yes (Confidence: 0.8719)
+  Correctness: Correct
+  Performance: Time=2.2645s, Memory=0.0000MB, GPU=-9.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the instance of age and health concerns about joe biden and health of charles darwin are not the same. age concerns about joe biden are related to his age and health, while health concerns about charles darwin are related to his health and the scientific understanding of evolution.
+  Semantic Prediction: no (Confidence: 0.5024)
+  Correctness: Incorrect
+  Performance: Time=1.2340s, Memory=0.0117MB, GPU=-25.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Is there any possibility for the instance of of Age and health concerns about Joe Biden also related with Health of Adolf Hitler?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility for the instance of of age and health concerns about joe biden also related with health of adolf hitler? yes, there is a possibility for the instance of of age and health concerns about joe biden also related with health of adolf hitler. 
+
+joe biden, the 46th president of the united states, has been facing health concerns in recent years. he has been diagnosed with a variety of health issues, including a blood clot in his brain, a heart attack, and a stroke. these health issues have raised concerns about his ability to serve as president.
+
+adolf hitler, on the other hand,
+  Semantic Prediction: no (Confidence: 0.9653)
+  Correctness: Incorrect
+  Performance: Time=2.2256s, Memory=0.0352MB, GPU=25.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: is there any possibility for the instance of of age and health concerns about joe biden also related with health of adolf hitler?
+answer with 'yes' or 'no': no
+
+question: is there any possibility for the instance of of age and health concerns about joe biden also related with health of adolf hitler?
+answer with 'yes' or 'no': no
+
+question: is there any possibility for the instance of of age and health concerns about joe biden also related with health of adolf hitler?
+answer with 'yes' or 'no': no
+
+question: is there any possibility for the instance of of age and health concerns about joe biden also related with health of adolf hitler?
+answer with 'yes' or 'no': no
+  Semantic Prediction: no (Confidence: 0.9976)
+  Correctness: Incorrect
+  Performance: Time=3.3131s, Memory=0.0039MB, GPU=6.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Is it true that Age and health concerns about Joe Biden and Health of Pope John Paul II have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that age and health concerns about joe biden and health of pope john paul ii have the same instance of? yes, it is true that age and health concerns about joe biden and health of pope john paul ii have the same instance of. both joe biden and pope john paul ii faced health concerns and concerns about their age. joe biden, who was 77 years old at the time of his inauguration, faced health concerns related to his age. pope john paul ii, who was 81 years old at the time of his death, also faced health concerns related to his age. both instances demonstrate that
+  Semantic Prediction: yes (Confidence: 0.7198)
+  Correctness: Correct
+  Performance: Time=2.2764s, Memory=0.0000MB, GPU=-14.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the instance of age and health concerns about joe biden and health of pope john paul ii is not the same. 
+
+joe biden is a former vice president of the united states and a member of the democratic party. he is currently the 46th and current president of the united states. he has been a prominent figure in american politics for decades, serving as a senator, congressman, and vice president before becoming the 46th president in 2009.
+
+on the other hand, pope john paul ii was the 265th and 266th pope of the catholic church. he was born on april 18, 1912, in rome, italy, and served as the head
+  Semantic Prediction: yes (Confidence: 0.9897)
+  Correctness: Correct
+  Performance: Time=3.2470s, Memory=0.0039MB, GPU=16.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Is it true that Age and health concerns about Joe Biden and age and health concerns about Donald Trump have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that age and health concerns about joe biden and age and health concerns about donald trump have the same instance of? age and health concerns about joe biden and age and health concerns about donald trump have the same instance of "yes". 
+
+the reason for this is that both biden and trump are older individuals who have concerns about their health. the concern about biden's health is due to his age, while the concern about trump's health is due to his age. therefore, both concerns are related to age and health, and they have the same instance of "yes".
+  Semantic Prediction: no (Confidence: 0.7859)
+  Correctness: Incorrect
+  Performance: Time=2.0100s, Memory=0.0000MB, GPU=-10.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the instance of age and health concerns about joe biden and age and health concerns about donald trump is not the same. joe biden is a former vice president of the united states and is currently the 46th president of the united states. he has been actively involved in healthcare policy and has been a vocal advocate for healthcare reform. on the other hand, donald trump is a former president of the united states and is currently the 45th president of the united states. he has been criticized for his healthcare policies and has been accused of promoting the interests of the wealthy and the health insurance industry. therefore, the instance of age and health concerns about joe biden and age and health concerns about donald trump are different.
+  Semantic Prediction: yes (Confidence: 0.9004)
+  Correctness: Correct
+  Performance: Time=3.2618s, Memory=0.0039MB, GPU=-12.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Is there any possibility for the instance of of Age and health concerns about Joe Biden also related with Health of Frédéric Chopin?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility for the instance of of age and health concerns about joe biden also related with health of frédéric chopin? yes, there is a possibility for the instance of of age and health concerns about joe biden also related with health of frédéric chopin. 
+
+frédéric chopin was a famous polish composer who lived from 1810 to 1849. he was known for his innovative and complex compositions, as well as his struggles with health issues. one of his major health concerns was his hearing loss, which he struggled to overcome throughout his life. 
+
+in addition to his hearing
+  Semantic Prediction: yes (Confidence: 0.9709)
+  Correctness: Correct
+  Performance: Time=2.2176s, Memory=0.0000MB, GPU=13.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: is there any possibility for the instance of of age and health concerns about joe biden also related with health of frédéric chopin?
+answer with 'yes' or 'no': no
+
+question: is there any possibility for the instance of of age and health concerns about joe biden also related with health of frédéric chopin?
+answer with 'yes' or 'no': no
+
+question: is there any possibility for the instance of of age and health concerns about joe biden also related with health of frédéric chopin?
+answer with 'yes' or 'no': no
+
+question: is there any possibility for the instance of of age and health concerns about joe biden also related with health of frédéric chopin
+  Semantic Prediction: no (Confidence: 0.9971)
+  Correctness: Incorrect
+  Performance: Time=3.3716s, Memory=0.0117MB, GPU=10.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Is there any possibility for the instance of of Age and health concerns about Joe Biden also related with Health of Charles Darwin?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility for the instance of of age and health concerns about joe biden also related with health of charles darwin? yes, there is a possibility that the instance of age and health concerns about joe biden is related to the health of charles darwin. 
+
+charles darwin was a renowned scientist and biologist who made significant contributions to the field of biology. he was known for his work on the theory of evolution, which challenged the prevailing belief that all species were created equally over time. darwin's work was groundbreaking and had a profound impact on the scientific community.
+
+darwin was also known for his health concerns, particularly his poor health
+  Semantic Prediction: yes (Confidence: 0.9996)
+  Correctness: Correct
+  Performance: Time=2.2551s, Memory=0.0000MB, GPU=-28.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the instance of age and health concerns about joe biden also related with health of charles darwin is not mentioned in the given text. the text discusses the health concerns of charles darwin and the social determinants of health, but it does not mention any connection with joe biden's health.
+  Semantic Prediction: no (Confidence: 0.9653)
+  Correctness: Incorrect
+  Performance: Time=1.3271s, Memory=0.0000MB, GPU=13.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Is it true that Age and health concerns about Joe Biden and Health of Adolf Hitler have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that age and health concerns about joe biden and health of adolf hitler have the same instance of? age and health concerns about joe biden and health of adolf hitler have the same instance of no. age and health concerns about joe biden and health of adolf hitler are not the same instance. age concerns about joe biden are related to his age and health, while health concerns about adolf hitler are related to his health and the health of his people.
+  Semantic Prediction: no (Confidence: 0.9822)
+  Correctness: Incorrect
+  Performance: Time=1.5918s, Memory=0.0039MB, GPU=2.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the age and health concerns about joe biden and the health of adolf hitler are not the same instance. joe biden is a former vice president of the united states who is currently the 46th president of the united states. he is 77 years old as of 2021. adolf hitler was a german dictator who ruled germany from 1933 to 1945, and he was 66 years old when he died in 1945. while both individuals had health concerns, they had different contexts and situations. joe biden is a public figure who is widely known for his age and health concerns, while adolf hitler was a historical figure who was known for his health issues and his impact
+  Semantic Prediction: yes (Confidence: 0.9907)
+  Correctness: Correct
+  Performance: Time=3.2027s, Memory=0.0000MB, GPU=14.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 10/24 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Is there any possibility for the instance of of Age and health concerns about Joe Biden also related with Mental health of Jesus?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility for the instance of of age and health concerns about joe biden also related with mental health of jesus? yes, there is a possibility for the instance of of age and health concerns about joe biden also related with mental health of jesus. 
+
+the bible mentions that jesus was a young man when he was crucified, and that he was 33 years old at the time of his death. this suggests that jesus was not yet fully developed in terms of his physical and mental health. additionally, the bible mentions that jesus was a man of great faith and compassion, which may have contributed to his mental health
+  Semantic Prediction: no (Confidence: 0.9626)
+  Correctness: Incorrect
+  Performance: Time=2.1201s, Memory=0.0000MB, GPU=-20.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+the instance of age and health concerns about joe biden also related with mental health of jesus is related to the topic of mental health. the article discusses the mental health concerns of jesus, including his struggles with depression and anxiety, and how these issues impacted his relationship with his followers. it also explores the ways in which mental health issues can impact individuals and communities, and the importance of addressing them through education, therapy, and other forms of support. overall, the article highlights the complex and multifaceted nature of mental health issues and the need for ongoing dialogue and understanding in order to promote healing and well-being.
+  Semantic Prediction: yes (Confidence: 0.9988)
+  Correctness: Correct
+  Performance: Time=2.7361s, Memory=0.0000MB, GPU=16.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 20/24 samples
+Processed 24/24 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 2.0391s (based on 24/24 samples)
+  Avg Memory Usage: 0.0106MB (based on 7/24 samples)
+  Avg GPU Utilization: 15.40% (based on 10/24 samples)
+
+RAG Model:
+  Avg Response Time: 2.9169s (1.43x base)
+  Avg Memory Usage: 0.0219MB (2.07x base)
+  Avg GPU Utilization: 11.76% (0.76x base)
+
+RAG evaluation completed! Results saved to: rag_results/rag_health_qwen_20250723133320.json
+Basic accuracy: 0.4583
+RAG-augmented accuracy: 0.5000
+Performance improvement: 0.0417

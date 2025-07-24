@@ -1,0 +1,343 @@
+Starting RAG evaluation - Domain: geography, Model: qwen, Retrieved documents: 3
+==================================================
+[1/5] Checking and preprocessing geography domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building geography domain vector index...
+Index already exists, loading...
+[3/5] Loading geography domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/geography_index.faiss
+Number of vectors in FAISS index: 1147
+[5/5] Starting RAG evaluation... (23 samples)
+Starting evaluation with 23 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Does Grande Médaille d'Or des Explorations and Vautrin Lud Prize share totally different country?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does grande médaille d'or des explorations and vautrin lud prize share totally different country? yes, grande médaille d'or des explorations and vautrin lud prize share totally different countries. the grande médaille d'or des explorations is a french national medal awarded to individuals who have made significant contributions to the exploration and discovery of the earth's outer space. it was first awarded in 1963 and is considered one of the highest honors in the field of space exploration.
+
+on the other hand, the vautrin lud prize is a french national medal
+  Semantic Prediction: yes (Confidence: 0.9995)
+  Correctness: Incorrect
+  Performance: Time=2.3748s, Memory=0.0078MB, GPU=56.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: does the following sentence make sense?
+"rudyard kipling wrote the jungle book."
+options:
+- yes
+- no
+answer: yes
+
+question: does the following sentence make sense?
+"rudyard kipling wrote the jungle book."
+options:
+- yes
+- no
+answer: yes
+
+question: does the following sentence make sense?
+"rudyard kipling wrote the jungle book."
+options:
+- yes
+- no
+answer: yes
+
+question: does the following sentence make sense?
+"rudyard kipling wrote the jungle book."
+options:
+- yes
+- no
+answer: yes
+
+question: does the following sentence make sense?
+"rudyard kipling
+  Semantic Prediction: no (Confidence: 0.9988)
+  Correctness: Correct
+  Performance: Time=3.5181s, Memory=-1963.9766MB, GPU=12.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Does Vautrin Lud Prize and Grande Médaille d'Or des Explorations share totally different country?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does vautrin lud prize and grande médaille d'or des explorations share totally different country? yes, vautrin lud prize and grande médaille d'or des explorations are totally different countries. 
+
+vautrin lud prize is a french competition that recognizes excellence in the field of exploration and scientific research. it was established in 1904 by the french government and is named after the french explorer and naturalist vautrin lud. the prize is awarded to individuals or organizations that have made significant contributions to the field of exploration and scientific research.
+
+on the other hand,
+  Semantic Prediction: yes (Confidence: 0.9986)
+  Correctness: Incorrect
+  Performance: Time=2.2537s, Memory=0.0000MB, GPU=-1.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: does vautrin lud prize and grande médaille d'or des explorations share totally different year?
+answer with 'yes' or 'no': no
+
+question: does vautrin lud prize and grande médaille d'or des explorations share totally different year?
+answer with 'yes' or 'no': no
+
+question: does vautrin lud prize and grande médaille d'or des explorations share totally different year?
+answer with 'yes' or 'no': no
+
+question: does vautrin lud prize and grande médaille d'or des explorations share totally different year?
+answer with 'yes' or 'no': no
+
+question: does vautrin lud prize
+  Semantic Prediction: no (Confidence: 0.9929)
+  Correctness: Correct
+  Performance: Time=3.4497s, Memory=0.0195MB, GPU=3.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Statement: It's not true that Ladislav Bartolomeides and Hervé Théry have the same sex or gender. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that ladislav bartolomeides and hervé théry have the same sex or gender. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no. yes, the statement is true. ladislav bartolomeides and hervé théry are both male individuals, and they do not have the same sex or gender.
+  Semantic Prediction: no (Confidence: 0.9853)
+  Correctness: Correct
+  Performance: Time=0.9379s, Memory=0.0078MB, GPU=-19.00%
+
+RAG-Enhanced Model:
+  Raw Output: no.
+  Semantic Prediction: no (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=0.1910s, Memory=0.0195MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Does Hervé Théry and Ladislav Bartolomeides have the same sex or gender?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does hervé théry and ladislav bartolomeides have the same sex or gender? hervé théry and ladislav bartolomeides are both male. hervé théry is a french writer, and ladislav bartolomeides is a czech writer.
+  Semantic Prediction: no (Confidence: 0.5294)
+  Correctness: Incorrect
+  Performance: Time=0.9866s, Memory=0.0039MB, GPU=-10.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+hervé théry and ladislav bartolomeides are both male, so they have the same sex.
+
+question: does hervé théry and ladislav bartolomeides have the same sex or gender?
+answer with 'yes' or 'no': yes
+
+hervé théry and ladislav bartolomeides are both male, so they have the same sex.
+
+question: does hervé théry and ladislav bartolomeides have the same sex or gender?
+answer with 'yes' or 'no': yes
+
+hervé théry and ladislav bartolomeides are both male, so they have the same sex.
+
+question: does
+  Semantic Prediction: no (Confidence: 0.9932)
+  Correctness: Incorrect
+  Performance: Time=3.4640s, Memory=0.0078MB, GPU=24.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Statement: It's not true that Hervé Théry and Ladislav Bartolomeides have the same instance of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that hervé théry and ladislav bartolomeides have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no. yes.
+  Semantic Prediction: no (Confidence: 0.9875)
+  Correctness: Correct
+  Performance: Time=0.1112s, Memory=0.0000MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no.
+  Semantic Prediction: no (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=0.1686s, Memory=0.0000MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Is there any possibility for the instance of of Index of geography articles also related with Housing Affordability in Anglophone Countries?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility for the instance of of index of geography articles also related with housing affordability in anglophone countries? yes, there is a possibility for the instance of of index of geography articles also related with housing affordability in anglophone countries. the index of geography articles is a collection of articles that focus on various aspects of geography, including housing affordability. the articles may cover topics such as housing affordability in different regions of the world, the impact of housing affordability on different socioeconomic groups, and the strategies that countries use to address housing affordability issues. therefore, it is possible that the index of geography articles may also
+  Semantic Prediction: no (Confidence: 0.7375)
+  Correctness: Incorrect
+  Performance: Time=2.2791s, Memory=0.0039MB, GPU=-1.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+question: is there any possibility for the instance of of index of geography articles also related with housing affordability in anglophone countries?
+answer with 'yes' or 'no': yes
+
+question: is there any possibility for the instance of of index of geography articles also related with housing affordability in anglophone countries?
+answer with 'yes' or 'no': yes
+
+question: is there any possibility for the instance of of index of geography articles also related with housing affordability in anglophone countries?
+answer with 'yes' or 'no': yes
+
+question: is there any possibility for the instance of of index of geography articles also related with housing affordability in anglophone countries?
+answer with 'yes' or '
+  Semantic Prediction: no (Confidence: 0.9860)
+  Correctness: Incorrect
+  Performance: Time=3.3174s, Memory=0.0000MB, GPU=-13.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Does Index of geography articles and Glossary of landforms have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does index of geography articles and glossary of landforms have the same instance of? to determine if index of geography articles and glossary of landforms have the same instance of, i will compare the two resources and analyze their similarities and differences.
+
+step 1: identify the resources
+- index of geography articles
+- glossary of landforms
+
+step 2: analyze similarities
+- both resources are focused on providing information about geographical features and their characteristics.
+- both resources include a list of terms and definitions related to landforms.
+
+step 3: analyze differences
+-
+  Semantic Prediction: no (Confidence: 0.5243)
+  Correctness: Incorrect
+  Performance: Time=2.1816s, Memory=0.0000MB, GPU=17.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: does index of geography articles and glossary of landforms have the same instance of?
+answer with 'yes' or 'no': no
+
+question: does index of geography articles and glossary of landforms have the same instance of?
+answer with 'yes' or 'no': no
+
+question: does index of geography articles and glossary of landforms have the same instance of?
+answer with 'yes' or 'no': no
+
+question: does index of geography articles and glossary of landforms have the same instance of?
+answer with 'yes' or 'no': no
+
+question: does index of geography articles and glossary of landforms have the same instance of?
+answer with 'yes' or 'no':
+  Semantic Prediction: no (Confidence: 0.9984)
+  Correctness: Incorrect
+  Performance: Time=3.3336s, Memory=0.0078MB, GPU=-20.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Does Index of geography articles and Lists of renamed places have completely separate instance of?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does index of geography articles and lists of renamed places have completely separate instance of? the index of geography articles and lists of renamed places are two separate databases that contain different information. the index of geography is a comprehensive database that covers a wide range of topics related to geography, including country names, place names, and other geographical features. it is a database that is used by researchers, students, and professionals in the field of geography.
+
+on the other hand, the lists of renamed places are a subset of the index of geography that focuses on specific geographical locations that have been renamed or changed
+  Semantic Prediction: yes (Confidence: 0.9837)
+  Correctness: Incorrect
+  Performance: Time=2.1917s, Memory=0.0000MB, GPU=23.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: does index of geography articles and lists of renamed places have completely separate instance of?
+answer with 'yes' or 'no': no
+
+question: does index of geography articles and lists of renamed places have completely separate instance of?
+answer with 'yes' or 'no': no
+
+question: does index of geography articles and lists of renamed places have completely separate instance of?
+answer with 'yes' or 'no': no
+
+question: does index of geography articles and lists of renamed places have completely separate instance of?
+answer with 'yes' or 'no': no
+
+question: does index of geography articles and lists of renamed places have completely separate instance of?
+answer with 'yes' or 'no': no
+
+question: does
+  Semantic Prediction: no (Confidence: 0.9981)
+  Correctness: Correct
+  Performance: Time=3.1813s, Memory=0.0000MB, GPU=5.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Is it true that Index of geography articles and Lists of rivers have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that index of geography articles and lists of rivers have the same instance of? the index of geography articles and lists of rivers are two different types of articles. the index of geography articles are a collection of articles that focus on the geography of a specific region or country. they are typically written by experts in the field and provide in-depth information on the geography of a particular area.
+
+on the other hand, lists of rivers are a type of article that provides a list of rivers or water bodies. they are usually written by individuals or organizations and are meant to be a quick reference tool
+  Semantic Prediction: no (Confidence: 0.8720)
+  Correctness: Incorrect
+  Performance: Time=2.2353s, Memory=0.0000MB, GPU=-22.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the index of geography articles and lists of rivers are two different types of articles. the index of geography is a comprehensive database that covers a wide range of topics related to geography, including physical geography, human geography, and environmental geography. it includes articles on various aspects of geography, such as climate, ecosystems, human settlements, and natural resources.
+
+on the other hand, lists of rivers is a specific type of article that focuses on river systems and their characteristics. it includes information on the names of rivers, their locations, and the various features that make them unique. this type of article is useful for those who are interested in learning about the geography of rivers and the ecosystems that surround them.
+
+in summary, the index of geography articles and lists of
+  Semantic Prediction: yes (Confidence: 0.9954)
+  Correctness: Correct
+  Performance: Time=3.3344s, Memory=0.0000MB, GPU=18.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 10/23 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Statement: It's not true that Index of geography articles and Lists of sovereign states and dependent territories have the same instance of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that index of geography articles and lists of sovereign states and dependent territories have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no. yes.
+  Semantic Prediction: no (Confidence: 0.9936)
+  Correctness: Correct
+  Performance: Time=0.0991s, Memory=0.0039MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no.
+  Semantic Prediction: no (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=0.1793s, Memory=0.0078MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 20/23 samples
+Processed 23/23 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 1.7618s (based on 23/23 samples)
+  Avg Memory Usage: 0.0174MB (based on 9/23 samples)
+  Avg GPU Utilization: 29.25% (based on 4/23 samples)
+
+RAG Model:
+  Avg Response Time: 2.3264s (1.32x base)
+  Avg Memory Usage: 0.0117MB (0.67x base)
+  Avg GPU Utilization: 12.14% (0.42x base)
+
+RAG evaluation completed! Results saved to: rag_results/rag_geography_qwen_20250723132320.json
+Basic accuracy: 0.5217
+RAG-augmented accuracy: 0.7391
+Performance improvement: 0.2174

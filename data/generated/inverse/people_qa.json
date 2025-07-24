@@ -2,6 +2,779 @@
     {
         "category": "people",
         "reasoning": "Inverse Function Inference",
+        "description": "The University of British Columbia (UBC) is a public research university with campuses near Vancouver and Kelowna, in British Columbia, Canada. With an annual research budget of $893 million, UBC funds 9,992 projects annually in various fields of study within the industrial sector, as well as governmental and non-governmental organizations.\nBill Bissett, commonly stylised as bill bissett, is a Canadian poet known for his unconventional style especially regarding unusual orthography and the use of visual elements.",
+        "subject": "University of British Columbia",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Bill Bissett",
+        "evidence": [
+            [
+                "Bill Bissett",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Bill Bissett",
+                "educated at",
+                "Dalhousie University"
+            ]
+        ],
+        "question": "Statement: It's not true that University of British Columbia could be be the alma mater of of Bill Bissett. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Dalhousie University is a large public research university in Nova Scotia, Canada, with three campuses in Halifax, a fourth in Bible Hill, and a second medical school campus in Saint John, New Brunswick. Dalhousie offers over 200 degree programs in 13 undergraduate, graduate, and professional faculties. The university is a member of the U15, a group of research-intensive universities in Canada.\nBill Bissett, commonly stylised as bill bissett, is a Canadian poet known for his unconventional style especially regarding unusual orthography and the use of visual elements.",
+        "subject": "Dalhousie University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Bill Bissett",
+        "evidence": [
+            [
+                "Bill Bissett",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Bill Bissett",
+                "educated at",
+                "Dalhousie University"
+            ]
+        ],
+        "question": "Could Dalhousie University be be the alma mater of of Bill Bissett?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The Massachusetts Institute of Technology (MIT) is a private research university in Cambridge, Massachusetts, United States. Established in 1861, MIT has played a significant role in the development of many areas of modern technology and science.\nDanah boyd is an American technology and social media scholar. She is a partner researcher at Microsoft Research, the founder of Data & Society Research Institute, and a distinguished visiting professor at Georgetown University.",
+        "subject": "Massachusetts Institute of Technology",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Danah boyd",
+        "evidence": [
+            [
+                "Danah boyd",
+                "educated at",
+                "Massachusetts Institute of Technology"
+            ],
+            [
+                "Danah boyd",
+                "educated at",
+                "University of California, Berkeley School of Information"
+            ],
+            [
+                "Danah boyd",
+                "educated at",
+                "Brown University"
+            ],
+            [
+                "Danah boyd",
+                "educated at",
+                "Manheim Township High School"
+            ]
+        ],
+        "question": "Is it true that Massachusetts Institute of Technology could or could be be the alma mater of Danah boyd?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of California, Berkeley School of Information is a graduate school at the University of California, Berkeley, a public university in Berkeley, California. The school was established in 1994 as the School of Information Management and Systems (SIMS) and was renamed to its current name in 2006.\nDanah boyd is an American technology and social media scholar. She is a partner researcher at Microsoft Research, the founder of Data & Society Research Institute, and a distinguished visiting professor at Georgetown University.",
+        "subject": "University of California, Berkeley School of Information",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Danah boyd",
+        "evidence": [
+            [
+                "Danah boyd",
+                "educated at",
+                "Massachusetts Institute of Technology"
+            ],
+            [
+                "Danah boyd",
+                "educated at",
+                "University of California, Berkeley School of Information"
+            ],
+            [
+                "Danah boyd",
+                "educated at",
+                "Brown University"
+            ],
+            [
+                "Danah boyd",
+                "educated at",
+                "Manheim Township High School"
+            ]
+        ],
+        "question": "Does University of California, Berkeley School of Information have the possibility to be be the alma mater of of Danah boyd?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Brown University is a private Ivy League research university in Providence, Rhode Island, United States. It is the seventh-oldest institution of higher education in the US, founded in 1764 as the College in the English Colony of Rhode Island and Providence Plantations. One of nine colonial colleges chartered before the American Revolution, it was the first US college to codify that admission and instruction of students was to be equal regardless of the religious affiliation of students.\nDanah boyd is an American technology and social media scholar. She is a partner researcher at Microsoft Research, the founder of Data & Society Research Institute, and a distinguished visiting professor at Georgetown University.",
+        "subject": "Brown University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Danah boyd",
+        "evidence": [
+            [
+                "Danah boyd",
+                "educated at",
+                "Massachusetts Institute of Technology"
+            ],
+            [
+                "Danah boyd",
+                "educated at",
+                "University of California, Berkeley School of Information"
+            ],
+            [
+                "Danah boyd",
+                "educated at",
+                "Brown University"
+            ],
+            [
+                "Danah boyd",
+                "educated at",
+                "Manheim Township High School"
+            ]
+        ],
+        "question": "Is it true that Brown University could or could be be the alma mater of Danah boyd?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Manheim Township High School is a comprehensive four-year public high school located in Manheim Township, Lancaster County, Pennsylvania, United States. It is the only high school in the Manheim Township School District.\nDanah boyd is an American technology and social media scholar. She is a partner researcher at Microsoft Research, the founder of Data & Society Research Institute, and a distinguished visiting professor at Georgetown University.",
+        "subject": "Manheim Township High School",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Danah boyd",
+        "evidence": [
+            [
+                "Danah boyd",
+                "educated at",
+                "Massachusetts Institute of Technology"
+            ],
+            [
+                "Danah boyd",
+                "educated at",
+                "University of California, Berkeley School of Information"
+            ],
+            [
+                "Danah boyd",
+                "educated at",
+                "Brown University"
+            ],
+            [
+                "Danah boyd",
+                "educated at",
+                "Manheim Township High School"
+            ]
+        ],
+        "question": "Statement: It's not true that Manheim Township High School could be be the alma mater of of Danah boyd. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Columbia University in the City of New York, commonly referred to as Columbia University, is a private Ivy League research university in New York City. Established in 1754 as King's College on the grounds of Trinity Church in Manhattan, it is the oldest institution of higher education in New York and the fifth-oldest in the United States.\nAdrienne Maree Brown, often styled adrienne maree brown, is a writer, activist and facilitator. From 2006 to 2010, she was executive director of the Ruckus Society. She also co-founded and directed the United States League of Young Voters.",
+        "subject": "Columbia University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Adrienne Maree Brown",
+        "evidence": [
+            [
+                "Adrienne Maree Brown",
+                "educated at",
+                "Columbia University"
+            ]
+        ],
+        "question": "Does Columbia University have the possibility to be be the alma mater of of Adrienne Maree Brown?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The New York University Tisch School of the Arts is the performing, cinematic, and media arts school of New York University.\nChristopher Brendan Ward IV, better known by the stage name MC Chris, is an American rapper, voice actor, comedian, and writer. He is recognized for his high-pitched voice and for blending his \"geek” background with a “gangsta rap” persona, contributing to the popularization of the nerdcore genre. He has released ten albums, five EPs, one re-release, and a tenth-anniversary edition of his recordings with the Lee Majors.",
+        "subject": "New York University Tisch School of the Arts",
+        "predicate": "be_the_alma_mater_of",
+        "object": "MC Chris",
+        "evidence": [
+            [
+                "MC Chris",
+                "educated at",
+                "New York University Tisch School of the Arts"
+            ],
+            [
+                "MC Chris",
+                "educated at",
+                "School of the Art Institute of Chicago"
+            ]
+        ],
+        "question": "Does New York University Tisch School of the Arts have the possibility to be be the alma mater of of MC Chris?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The School of the Art Institute of Chicago (SAIC) is a private art school associated with the Art Institute of Chicago (AIC) in Chicago, Illinois. Tracing its history to an art students' cooperative founded in 1866, which grew into the museum and school, SAIC has been accredited since 1936 by the Higher Learning Commission and by the National Association of Schools of Art and Design since 1944. It has been a member of the Association of Independent Colleges of Art and Design (AICAD) since the association's founding in 1991 and is also accredited by the National Architectural Accrediting Board.\nChristopher Brendan Ward IV, better known by the stage name MC Chris, is an American rapper, voice actor, comedian, and writer. He is recognized for his high-pitched voice and for blending his \"geek” background with a “gangsta rap” persona, contributing to the popularization of the nerdcore genre. He has released ten albums, five EPs, one re-release, and a tenth-anniversary edition of his recordings with the Lee Majors.",
+        "subject": "School of the Art Institute of Chicago",
+        "predicate": "be_the_alma_mater_of",
+        "object": "MC Chris",
+        "evidence": [
+            [
+                "MC Chris",
+                "educated at",
+                "New York University Tisch School of the Arts"
+            ],
+            [
+                "MC Chris",
+                "educated at",
+                "School of the Art Institute of Chicago"
+            ]
+        ],
+        "question": "Is there any possibility that School of the Art Institute of Chicago could not be be the alma mater of of MC Chris?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Trinity College is a constituent college of the University of Oxford in England. The college was founded in 1555 by Sir Thomas Pope, on land previously occupied by Durham College, home to Benedictine monks from Durham Cathedral.\n\nSir Arthur Frederic Brownlow fforde GBE was an English solicitor, civil servant, headmaster, writer and businessman.",
+        "subject": "Trinity College",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Arthur fforde",
+        "evidence": [
+            [
+                "Arthur fforde",
+                "educated at",
+                "Trinity College"
+            ],
+            [
+                "Arthur fforde",
+                "educated at",
+                "Rugby School"
+            ]
+        ],
+        "question": "Does Trinity College have the possibility to be be the alma mater of of Arthur fforde?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Rugby School is a private boarding school for pupils aged 13–18, located in the town of Rugby, Warwickshire in England.\n\nSir Arthur Frederic Brownlow fforde GBE was an English solicitor, civil servant, headmaster, writer and businessman.",
+        "subject": "Rugby School",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Arthur fforde",
+        "evidence": [
+            [
+                "Arthur fforde",
+                "educated at",
+                "Trinity College"
+            ],
+            [
+                "Arthur fforde",
+                "educated at",
+                "Rugby School"
+            ]
+        ],
+        "question": "Does Rugby School have the possibility to be be the alma mater of of Arthur fforde?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The School of Medicine at Trinity College in Dublin, Ireland, is the oldest medical school in Ireland. Founded in the early eighteenth century, it was originally situated at the site of the current Berkeley Library. As well as providing an undergraduate degree in medicine, the school provides undergraduate courses in physiotherapy, occupational therapy, radiation therapy, human nutrition & dietetics and human health & disease, over 20 taught postgraduate courses, and research degrees.\nMichael ffrench-O'Carroll was an Irish politician and medical doctor. He was an independent Teachta Dála (TD) and Senator. He served one term in each house of the Oireachtas in the 1950s.",
+        "subject": "School of Medicine, Trinity College Dublin",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Michael ffrench-O'Carroll",
+        "evidence": [
+            [
+                "Michael ffrench-O'Carroll",
+                "educated at",
+                "School of Medicine, Trinity College Dublin"
+            ]
+        ],
+        "question": "Is there any possibility that School of Medicine, Trinity College Dublin could not be be the alma mater of of Michael ffrench-O'Carroll?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of Exeter is a research university in the West Country of England, with its main campus in Exeter, Devon. Its predecessor institutions, St Luke's College, Exeter School of Science, Exeter School of Art, and the Camborne School of Mines were established in 1838, 1855, 1863, and 1888 respectively. These institutions later formed the University of Exeter after receiving its royal charter in 1955. In post-nominals, the University of Exeter is abbreviated as Exon., and is the suffix given to honorary and academic degrees from the university.\n\nRichard ffrench-Constant FRS is professor of molecular natural history at the University of Exeter.",
+        "subject": "University of Exeter",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Richard ffrench-Constant",
+        "evidence": [
+            [
+                "Richard ffrench-Constant",
+                "educated at",
+                "University of Exeter"
+            ],
+            [
+                "Richard ffrench-Constant",
+                "educated at",
+                "Imperial College London"
+            ]
+        ],
+        "question": "Could University of Exeter be be the alma mater of of Richard ffrench-Constant?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Imperial College London, also known as Imperial, is a public research university in London, England. Its history began with Prince Albert, husband of Queen Victoria, who envisioned a cultural district in South Kensington that included museums, colleges, and the Royal Albert Hall. In 1907, these colleges – the Royal College of Science, the Royal School of Mines, and the City and Guilds of London Institute – merged to form the Imperial College of Science and Technology.\n\nRichard ffrench-Constant FRS is professor of molecular natural history at the University of Exeter.",
+        "subject": "Imperial College London",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Richard ffrench-Constant",
+        "evidence": [
+            [
+                "Richard ffrench-Constant",
+                "educated at",
+                "University of Exeter"
+            ],
+            [
+                "Richard ffrench-Constant",
+                "educated at",
+                "Imperial College London"
+            ]
+        ],
+        "question": "Does Imperial College London have the possibility to be be the alma mater of of Richard ffrench-Constant?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of British Columbia (UBC) is a public research university with campuses near Vancouver and Kelowna, in British Columbia, Canada. With an annual research budget of $893 million, UBC funds 9,992 projects annually in various fields of study within the industrial sector, as well as governmental and non-governmental organizations.\nbarbara findlay is a Canadian lawyer and a longtime LGBT rights activist. She is the subject of the documentary In particular, barbara findlay.",
+        "subject": "University of British Columbia",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Barbara findlay",
+        "evidence": [
+            [
+                "Barbara findlay",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Barbara findlay",
+                "educated at",
+                "Queen's University"
+            ]
+        ],
+        "question": "Is there any possibility that University of British Columbia could not be be the alma mater of of Barbara findlay?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Queen's University at Kingston, commonly known as Queen's University or simply Queen's, is a public research university in Kingston, Ontario, Canada. Queen's holds more than 1,400 hectares of land throughout Ontario and owns Herstmonceux Castle in East Sussex, England. Queen's is organized into eight faculties and schools.\nbarbara findlay is a Canadian lawyer and a longtime LGBT rights activist. She is the subject of the documentary In particular, barbara findlay.",
+        "subject": "Queen's University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Barbara findlay",
+        "evidence": [
+            [
+                "Barbara findlay",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Barbara findlay",
+                "educated at",
+                "Queen's University"
+            ]
+        ],
+        "question": "Statement: It's not true that Queen's University could be be the alma mater of of Barbara findlay. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The New York University Tisch School of the Arts is the performing, cinematic, and media arts school of New York University.\ndream hampton is an American filmmaker, producer, and writer. Her work includes the 2019 Lifetime documentary series Surviving R. Kelly, which she executive produced, and the 2012 An Oversimplification of Her Beauty, on which she served as co-executive producer. She co-wrote Jay-Z's 2010 memoir Decoded.",
+        "subject": "New York University Tisch School of the Arts",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Dream Hampton",
+        "evidence": [
+            [
+                "Dream Hampton",
+                "educated at",
+                "New York University Tisch School of the Arts"
+            ]
+        ],
+        "question": "Could New York University Tisch School of the Arts be be the alma mater of of Dream Hampton?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Aalborg University (AAU) is an international public university with campuses in Aalborg, Esbjerg, and Copenhagen, Denmark. Founded in 1974, the university awards bachelor's degrees, master's degrees, and PhD degrees in a wide variety of subjects within humanities, social sciences, information technology, design, engineering, exact sciences, and medicine. The motto of the university in Danish is ad nye veje.\nFredric Joel Harris is an adjunct professor at University of California San Diego. He was a professor of Electrical engineering and was CUBIC signal processing chair at San Diego State University. He is an internationally renowned expert on DSP and Communication Systems. He is also the co-inventor of the Blackman-Harris window. He also has extensively published many technical papers, the most famous being the seminal 1978 paper \"On the use of Windows for Harmonic Analysis with the Discrete Fourier Transform.\" He is also the author of the textbook Multi-rate Signal Processing for Communication Systems and is co-author with Bernard Sklar of the 3-rd edition textbook on Digital Communications. He holds 38 patents on DSP and digital radio receiver technology.",
+        "subject": "Aalborg University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Fredric J. Harris",
+        "evidence": [
+            [
+                "Fredric J. Harris",
+                "educated at",
+                "Aalborg University"
+            ],
+            [
+                "Fredric J. Harris",
+                "educated at",
+                "San Diego State University"
+            ],
+            [
+                "Fredric J. Harris",
+                "educated at",
+                "New York University Tandon School of Engineering"
+            ]
+        ],
+        "question": "Could Aalborg University be be the alma mater of of Fredric J. Harris?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "San Diego State University (SDSU) is a public research university in San Diego, California, United States. Founded in 1897, it is the third-oldest university and southernmost in the 23-member California State University (CSU) system. SDSU is the oldest higher education institution in San Diego; its academic roots were established as a normal school in University Heights, then known as the San Diego Normal School. In the fall of 2024, the university enrolled over 38,000 students.\nFredric Joel Harris is an adjunct professor at University of California San Diego. He was a professor of Electrical engineering and was CUBIC signal processing chair at San Diego State University. He is an internationally renowned expert on DSP and Communication Systems. He is also the co-inventor of the Blackman-Harris window. He also has extensively published many technical papers, the most famous being the seminal 1978 paper \"On the use of Windows for Harmonic Analysis with the Discrete Fourier Transform.\" He is also the author of the textbook Multi-rate Signal Processing for Communication Systems and is co-author with Bernard Sklar of the 3-rd edition textbook on Digital Communications. He holds 38 patents on DSP and digital radio receiver technology.",
+        "subject": "San Diego State University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Fredric J. Harris",
+        "evidence": [
+            [
+                "Fredric J. Harris",
+                "educated at",
+                "Aalborg University"
+            ],
+            [
+                "Fredric J. Harris",
+                "educated at",
+                "San Diego State University"
+            ],
+            [
+                "Fredric J. Harris",
+                "educated at",
+                "New York University Tandon School of Engineering"
+            ]
+        ],
+        "question": "Could San Diego State University be be the alma mater of of Fredric J. Harris?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The New York University Tandon School of Engineering is the engineering and applied sciences school of New York University. Tandon is the second oldest private engineering and technology school in the United States.\nFredric Joel Harris is an adjunct professor at University of California San Diego. He was a professor of Electrical engineering and was CUBIC signal processing chair at San Diego State University. He is an internationally renowned expert on DSP and Communication Systems. He is also the co-inventor of the Blackman-Harris window. He also has extensively published many technical papers, the most famous being the seminal 1978 paper \"On the use of Windows for Harmonic Analysis with the Discrete Fourier Transform.\" He is also the author of the textbook Multi-rate Signal Processing for Communication Systems and is co-author with Bernard Sklar of the 3-rd edition textbook on Digital Communications. He holds 38 patents on DSP and digital radio receiver technology.",
+        "subject": "New York University Tandon School of Engineering",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Fredric J. Harris",
+        "evidence": [
+            [
+                "Fredric J. Harris",
+                "educated at",
+                "Aalborg University"
+            ],
+            [
+                "Fredric J. Harris",
+                "educated at",
+                "San Diego State University"
+            ],
+            [
+                "Fredric J. Harris",
+                "educated at",
+                "New York University Tandon School of Engineering"
+            ]
+        ],
+        "question": "Does New York University Tandon School of Engineering have the possibility to be be the alma mater of of Fredric J. Harris?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of Michigan is a public research university in Ann Arbor, Michigan, United States. Founded in 1817, it is the oldest institution of higher education in the state. The University of Michigan is one of the earliest American research universities and is a founding member of the Association of American Universities. In the fall of 2023, the university employed 8,189 faculty members and enrolled 52,065 students in its programs.\npattrice jones is an American ecofeminist writer, educator, and activist. She is the co-founder of VINE Sanctuary in Springfield, Vermont, an LGBTQ-run farmed-animal sanctuary.",
+        "subject": "University of Michigan",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Pattrice jones",
+        "evidence": [
+            [
+                "Pattrice jones",
+                "educated at",
+                "University of Michigan"
+            ],
+            [
+                "Pattrice jones",
+                "educated at",
+                "Towson University"
+            ]
+        ],
+        "question": "Is there any possibility that University of Michigan could not be be the alma mater of of Pattrice jones?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Towson University is a public university in Towson, Maryland, United States. Founded in 1866 as Maryland's first training school for teachers, Towson University is a part of the University System of Maryland. Since its founding, the university has evolved into eight subsidiary colleges with over 20,000 students. Its 329-acre campus is situated in Baltimore County, Maryland, eight miles north of downtown Baltimore. Towson is one of the largest public universities in Maryland and produces the most teachers of any university in the state.\npattrice jones is an American ecofeminist writer, educator, and activist. She is the co-founder of VINE Sanctuary in Springfield, Vermont, an LGBTQ-run farmed-animal sanctuary.",
+        "subject": "Towson University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Pattrice jones",
+        "evidence": [
+            [
+                "Pattrice jones",
+                "educated at",
+                "University of Michigan"
+            ],
+            [
+                "Pattrice jones",
+                "educated at",
+                "Towson University"
+            ]
+        ],
+        "question": "Statement: It's not true that Towson University could be be the alma mater of of Pattrice jones. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Dalhousie University is a large public research university in Nova Scotia, Canada, with three campuses in Halifax, a fourth in Bible Hill, and a second medical school campus in Saint John, New Brunswick. Dalhousie offers over 200 degree programs in 13 undergraduate, graduate, and professional faculties. The university is a member of the U15, a group of research-intensive universities in Canada.\nshalan joudry is a Mi'kmaw writer, oral storyteller, director, drummer/singer, and ecologist.",
+        "subject": "Dalhousie University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Shalan joudry",
+        "evidence": [
+            [
+                "Shalan joudry",
+                "educated at",
+                "Dalhousie University"
+            ]
+        ],
+        "question": "Does Dalhousie University have the possibility to be be the alma mater of of Shalan joudry?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of New Mexico is a public research university in Albuquerque, New Mexico, United States. Founded in 1889 by the New Mexico Territorial Legislature, it is the state's second oldest university, a flagship university in the state, and the largest by enrollment, with 22,630 students in 2023.\nsj Miller is an American academic whose work commonly centers around social justice, literacy, and the confluence of gender and education. Miller is a Professor of Teacher Education at the Santa Fe Community College.",
+        "subject": "University of New Mexico",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Sj Miller",
+        "evidence": [
+            [
+                "Sj Miller",
+                "educated at",
+                "University of New Mexico"
+            ]
+        ],
+        "question": "Statement: It's not true that University of New Mexico could be be the alma mater of of Sj Miller. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Lick-Wilmerding High School is a private college-preparatory high school located in San Francisco, California, United States.\nMaia, known professionally as mxmtoon, is an American singer-songwriter and YouTuber. Her music is characterized by emotionally transparent, confessional lyrics and often employs the ukulele. She released her first EP, Plum Blossom (2018); her debut album, The Masquerade (2019); the 2020 twin EPs—Dawn, Dusk; and her second studio album Rising (2022). In 2024, she released her third studio album, Liminal Space.",
+        "subject": "Lick-Wilmerding High School",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Mxmtoon",
+        "evidence": [
+            [
+                "Mxmtoon",
+                "educated at",
+                "Lick-Wilmerding High School"
+            ]
+        ],
+        "question": "Is it true that Lick-Wilmerding High School could or could be be the alma mater of Mxmtoon?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The Byam Shaw School of Art, often known simply as Byam Shaw, was an independent art school in London, England, which specialised in fine art and offered foundation and degree level courses. It was founded in 1910 by John Liston Byam Shaw and Rex Vicat Cole. In 2003 it was absorbed by Central Saint Martins College of Arts and Design.\nConrad Fulke Thomond O'Brien-ffrench, 2nd Marquis de Castelthomond was a distinguished British Secret Intelligence officer, captain in the Tipperary Rangers of the Royal Irish Regiment and 16th The Queen's Lancers in World War I, and Mountie for the Royal North-West Mounted Police. He was an accomplished artist, linguist, mountaineer, skier and author.",
+        "subject": "Byam Shaw School of Art",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Conrad O'Brien-ffrench",
+        "evidence": [
+            [
+                "Conrad O'Brien-ffrench",
+                "educated at",
+                "Byam Shaw School of Art"
+            ],
+            [
+                "Conrad O'Brien-ffrench",
+                "educated at",
+                "St. Aubyns School"
+            ]
+        ],
+        "question": "Does Byam Shaw School of Art have the possibility to be be the alma mater of of Conrad O'Brien-ffrench?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "St. Aubyns School was a boys' preparatory school in Rottingdean, East Sussex, England, which in its final years became co-educational and taught children of both sexes between the ages of three and thirteen. The school was founded in 1895, taking over the premises of another school which had been founded in the 18th century by Thomas Hooker, the local vicar who was also reputedly a lookout for the local smugglers.\nConrad Fulke Thomond O'Brien-ffrench, 2nd Marquis de Castelthomond was a distinguished British Secret Intelligence officer, captain in the Tipperary Rangers of the Royal Irish Regiment and 16th The Queen's Lancers in World War I, and Mountie for the Royal North-West Mounted Police. He was an accomplished artist, linguist, mountaineer, skier and author.",
+        "subject": "St. Aubyns School",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Conrad O'Brien-ffrench",
+        "evidence": [
+            [
+                "Conrad O'Brien-ffrench",
+                "educated at",
+                "Byam Shaw School of Art"
+            ],
+            [
+                "Conrad O'Brien-ffrench",
+                "educated at",
+                "St. Aubyns School"
+            ]
+        ],
+        "question": "Statement: It's not true that St. Aubyns School could be be the alma mater of of Conrad O'Brien-ffrench. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of Minnesota Twin Cities is a public land-grant research university in the Twin Cities of Minneapolis and Saint Paul, Minnesota, United States. It is the flagship institution of the University of Minnesota System and is organized into 19 colleges, schools, and other major academic units.\njohn a. powell is an American law professor. He leads the UC Berkeley Othering & Belonging Institute and holds the Robert D. Haas Chancellor's Chair in Equity and Inclusion, Professor of Law and Professor of African American Studies and Ethnic Studies at the University of California, Berkeley School of Law. powell spells his name in lowercase based on the idea that we should be \"part of the universe, not over it, as capitals signify\".",
+        "subject": "University of Minnesota",
+        "predicate": "be_the_alma_mater_of",
+        "object": "John A. Powell",
+        "evidence": [
+            [
+                "John A. Powell",
+                "educated at",
+                "University of Minnesota"
+            ],
+            [
+                "John A. Powell",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "John A. Powell",
+                "educated at",
+                "University of California, Berkeley"
+            ]
+        ],
+        "question": "Is it true that University of Minnesota could or could be be the alma mater of John A. Powell?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Leland Stanford Junior University, commonly referred to as Stanford University, is a private research university in Stanford, California, United States. It was founded in 1885 by railroad magnate Leland Stanford and his wife, Jane, in memory of their only child, Leland Jr.\njohn a. powell is an American law professor. He leads the UC Berkeley Othering & Belonging Institute and holds the Robert D. Haas Chancellor's Chair in Equity and Inclusion, Professor of Law and Professor of African American Studies and Ethnic Studies at the University of California, Berkeley School of Law. powell spells his name in lowercase based on the idea that we should be \"part of the universe, not over it, as capitals signify\".",
+        "subject": "Stanford University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "John A. Powell",
+        "evidence": [
+            [
+                "John A. Powell",
+                "educated at",
+                "University of Minnesota"
+            ],
+            [
+                "John A. Powell",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "John A. Powell",
+                "educated at",
+                "University of California, Berkeley"
+            ]
+        ],
+        "question": "Is it true that Stanford University could or could be be the alma mater of John A. Powell?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of California, Berkeley is a public land-grant research university in Berkeley, California, United States. Founded in 1868 and named after the Anglo-Irish philosopher George Berkeley, it is the state's first land-grant university and is the founding campus of the University of California system.\njohn a. powell is an American law professor. He leads the UC Berkeley Othering & Belonging Institute and holds the Robert D. Haas Chancellor's Chair in Equity and Inclusion, Professor of Law and Professor of African American Studies and Ethnic Studies at the University of California, Berkeley School of Law. powell spells his name in lowercase based on the idea that we should be \"part of the universe, not over it, as capitals signify\".",
+        "subject": "University of California, Berkeley",
+        "predicate": "be_the_alma_mater_of",
+        "object": "John A. Powell",
+        "evidence": [
+            [
+                "John A. Powell",
+                "educated at",
+                "University of Minnesota"
+            ],
+            [
+                "John A. Powell",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "John A. Powell",
+                "educated at",
+                "University of California, Berkeley"
+            ]
+        ],
+        "question": "Could University of California, Berkeley be be the alma mater of of John A. Powell?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of Wisconsin–Madison is a public land-grant research university in Madison, Wisconsin, United States. It was founded in 1848 when Wisconsin achieved statehood and is the flagship campus of the University of Wisconsin System. The 933-acre (378 ha) main campus is located on the shores of Lake Mendota; the university also owns and operates a 1,200-acre (486 ha) arboretum 4 miles (6.4 km) south of the main campus.\nEllsworth Snyder was an American abstract painter, professional pianist, conductor and scholar. He was known as a champion of avant-garde art and music and is associated with composer John Cage and the Fluxus art movement. He preferred that his name be spelled ellsworth snyder, using all lower-case letters.",
+        "subject": "University of Wisconsin–Madison",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Ellsworth Snyder",
+        "evidence": [
+            [
+                "Ellsworth Snyder",
+                "educated at",
+                "University of Wisconsin–Madison"
+            ]
+        ],
+        "question": "Could University of Wisconsin–Madison be be the alma mater of of Ellsworth Snyder?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Loyola University Chicago is a private Jesuit research university in Chicago, Illinois, United States. Founded in 1870 by the Society of Jesus, Loyola is one of the largest Catholic universities in the United States. Its namesake is Saint Ignatius of Loyola. Loyola's professional schools include programs in medicine, nursing, and health sciences anchored by the Loyola University Medical Center, and the Loyola University Chicago School of Law. It is classified among \"R1: Doctoral Universities – Very high research activity\".\navery r. young is an American poet. His work includes the poetry volume neckbone as well as the albums booker t. soltreyne: a race rekkid and tubman. In 2023, he was appointed Poet Laureate of Chicago and inducted to the Chicago LGBT Hall of Fame.",
+        "subject": "Loyola University Chicago",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Avery r. young",
+        "evidence": [
+            [
+                "Avery r. young",
+                "educated at",
+                "Loyola University Chicago"
+            ]
+        ],
+        "question": "Is it true that Loyola University Chicago could or could be be the alma mater of Avery r. young?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Dubai is the most populous city in the United Arab Emirates and the capital of the Emirate of Dubai. It is located on a creek on the south-eastern coast of the Persian Gulf. As of 2025, the city population stands at 4 million, 92% of whom are expatriates. The wider urban area includes Sharjah and has a population of 5 million people as of 2023, while the Dubai–Sharjah–Ajman metropolitan area counts 6 million inhabitants.\nHuman rights in Dubai are based on the Constitution and enacted law, which promise equitable treatment of all people, regardless of race, nationality or social status, per Article 25 of the Constitution of the United Arab Emirates. Despite this, Freedom House has stated: \"Extreme forms of self-censorship are widely practiced, particularly regarding issues such as local politics, culture, religion, or any other subject the government deems politically or culturally sensitive. The Dubai Media Free Zone (DMFZ), an area in which foreign media outlets produce print and broadcast material intended for foreign audiences, is the only arena where the press operates with relative freedom.\"",
+        "subject": "Dubai",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "Human rights in Dubai",
+        "evidence": [
+            [
+                "Human rights in Dubai",
+                "located in the administrative territorial entity",
+                "Dubai"
+            ]
+        ],
+        "question": "Does Dubai have the possibility to be the administrative territorial entity contains of Human rights in Dubai?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "The City of Vancouver Archives is the City of Vancouver's official archival repository for government documents, as well as the home to many personal and corporate records telling the story of the community. The archives serves as the repository for historical records generated by the City of Vancouver, including the Mayor's Office, the Parks Board, the Board of Police Commissioners, the Vancouver Police Department, and the Office of the City Clerk. It also contains numerous collections from private donors, businesses, and community groups. The archives are part of the City Clerk's Department.\nBill Bissett, commonly stylised as bill bissett, is a Canadian poet known for his unconventional style especially regarding unusual orthography and the use of visual elements.",
+        "subject": "City of Vancouver Archives",
+        "predicate": "hold_the_archives_of",
+        "object": "Bill Bissett",
+        "evidence": [
+            [
+                "Bill Bissett",
+                "archives at",
+                "City of Vancouver Archives"
+            ],
+            [
+                "Bill Bissett",
+                "archives at",
+                "Clara Thomas Archives and Special Collections"
+            ]
+        ],
+        "question": "Does City of Vancouver Archives have the possibility to be hold the archives of of Bill Bissett?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
         "description": "James Allen St. John was an American author, artist and illustrator. He is especially remembered for his illustrations for the novels of Edgar Rice Burroughs, although he illustrated works of many types. He taught at the Chicago Art Institute and with the American Academy of Art. He is considered by many to be 'The Godfather of Modern Fantasy Art'. His most famous disciples were Roy Krenkel and Frank Frazetta, the latter of whom has also been styled as the grandmaster of the Genre.\nA Golden Anniversary Bibliography of Edgar Rice Burroughs is a bibliography of the works of Edgar Rice Burroughs by Henry Hardy Heins. It was first published by Donald M. Grant, Publisher, Inc. in an edition of 1,000 copies. The book was revised from a mimeograph edition that Heins had produced in September 1962. The book lists books, stories, and articles by Burroughs. It also contains information about Burroughs and a section on magazine illustrations and publisher's announcements.",
         "subject": "J. Allen St. John",
         "predicate": "design_cover_art_for",
@@ -48,6 +821,883 @@
             ]
         ],
         "question": "Does Ned Dameron have the possibility to be design cover art for of Emperor of Dreams: A Clark Ashton Smith Bibliography?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "James Allen St. John was an American author, artist and illustrator. He is especially remembered for his illustrations for the novels of Edgar Rice Burroughs, although he illustrated works of many types. He taught at the Chicago Art Institute and with the American Academy of Art. He is considered by many to be 'The Godfather of Modern Fantasy Art'. His most famous disciples were Roy Krenkel and Frank Frazetta, the latter of whom has also been styled as the grandmaster of the Genre.\nA Golden Anniversary Bibliography of Edgar Rice Burroughs is a bibliography of the works of Edgar Rice Burroughs by Henry Hardy Heins. It was first published by Donald M. Grant, Publisher, Inc. in an edition of 1,000 copies. The book was revised from a mimeograph edition that Heins had produced in September 1962. The book lists books, stories, and articles by Burroughs. It also contains information about Burroughs and a section on magazine illustrations and publisher's announcements.",
+        "subject": "J. Allen St. John",
+        "predicate": "design_cover_art_for",
+        "object": "A Golden Anniversary Bibliography of Edgar Rice Burroughs",
+        "evidence": [
+            [
+                "A Golden Anniversary Bibliography of Edgar Rice Burroughs",
+                "cover art by",
+                "J. Allen St. John"
+            ]
+        ],
+        "question": "Could J. Allen St. John be design cover art for of A Golden Anniversary Bibliography of Edgar Rice Burroughs?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Salvador Domingo Felipe Jacinto Dalí i Domènech, Marquess of Dalí of Púbol, known as Salvador Dalí, was a Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work.\nThe Works of M. P. Shiel is a bibliography of works by British author M. P. Shiel. The bibliography was compiled by A. Reynolds Morse. It was first published by Fantasy Publishing Company, Inc. in 1948 in an edition of 1,000 copies.",
+        "subject": "Salvador Dalí",
+        "predicate": "design_cover_art_for",
+        "object": "The Works of M. P. Shiel",
+        "evidence": [
+            [
+                "The Works of M. P. Shiel",
+                "cover art by",
+                "Salvador Dalí"
+            ]
+        ],
+        "question": "Statement: It's not true that Salvador Dalí could be design cover art for of The Works of M. P. Shiel. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "\nNed Dameron is a science fiction and fantasy artist.\nEmperor of Dreams: A Clark Ashton Smith Bibliography is a bibliography of Clark Ashton Smith by Donald Sidney-Fryer. It was first published by Donald M. Grant, Publisher, Inc. in 1978 in an edition of 1,375 copies.",
+        "subject": "Ned Dameron",
+        "predicate": "design_cover_art_for",
+        "object": "Emperor of Dreams: A Clark Ashton Smith Bibliography",
+        "evidence": [
+            [
+                "Emperor of Dreams: A Clark Ashton Smith Bibliography",
+                "cover art by",
+                "Ned Dameron"
+            ]
+        ],
+        "question": "Could Ned Dameron be design cover art for of Emperor of Dreams: A Clark Ashton Smith Bibliography?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "John Theophilus Richter and Vera May Richter were an American married couple who ran an early raw food restaurant in Los Angeles, the Eutropheon, which became a meeting place for influential figures in the development of alternative lifestyles in California between 1917 and the late 1940s.\nGeorge Alexander Aberle, known as eden ahbez, was an American songwriter and recording artist of the 1940s to 1960s, whose lifestyle in California was influential in the hippie movement. He was known to friends simply as ahbe.",
+        "subject": "John and Vera Richter",
+        "predicate": "influence",
+        "object": "Eden ahbez",
+        "evidence": [
+            [
+                "Eden ahbez",
+                "influenced by",
+                "John and Vera Richter"
+            ]
+        ],
+        "question": "Statement: It's not true that John and Vera Richter could be influence of Eden ahbez. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Thích Nhất Hạnh was a Vietnamese Thiền Buddhist monk, peace activist, prolific author, poet, and teacher, who founded the Plum Village Tradition, historically recognized as the main inspiration for engaged Buddhism. Known as the \"father of mindfulness\", Nhất Hạnh was a major influence on Western practices of Buddhism.\nGloria Jean Watkins, better known by her pen name bell hooks, was an American author, theorist, educator, and social critic who was a Distinguished Professor in Residence at Berea College. She was best known for her writings on race, feminism, and class. She used the lower-case spelling of her name to decenter herself and draw attention to her work instead. The focus of hooks' writing was to explore the intersectionality of race, capitalism, and gender, and what she described as their ability to produce and perpetuate systems of oppression and class domination. She published around 40 books, including works that ranged from essays, poetry, and children's books. She published numerous scholarly articles, appeared in documentary films, and participated in public lectures. Her work addressed love, race, social class, gender, art, history, sexuality, mass media, and feminism.",
+        "subject": "Thích Nhất Hạnh",
+        "predicate": "influence",
+        "object": "Bell hooks",
+        "evidence": [
+            [
+                "Bell hooks",
+                "influenced by",
+                "Thích Nhất Hạnh"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Gustavo Gutiérrez"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Lorraine Hansberry"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Sojourner Truth"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Toni Morrison"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Martin Luther King Jr."
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Erich Fromm"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Malcolm X"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Paulo Freire"
+            ]
+        ],
+        "question": "Statement: It's not true that Thích Nhất Hạnh could be influence of Bell hooks. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Gustavo Gutiérrez-Merino Díaz was a Peruvian Catholic philosopher, theologian, and Dominican priest who was one of the founders of Latin American liberation theology. His 1971 book A Theology of Liberation is considered pivotal to the formation of liberation theology at large. He held the John Cardinal O'Hara Professorship of Theology at the University of Notre Dame and was a visiting professor at universities in North America and Europe.\nGloria Jean Watkins, better known by her pen name bell hooks, was an American author, theorist, educator, and social critic who was a Distinguished Professor in Residence at Berea College. She was best known for her writings on race, feminism, and class. She used the lower-case spelling of her name to decenter herself and draw attention to her work instead. The focus of hooks' writing was to explore the intersectionality of race, capitalism, and gender, and what she described as their ability to produce and perpetuate systems of oppression and class domination. She published around 40 books, including works that ranged from essays, poetry, and children's books. She published numerous scholarly articles, appeared in documentary films, and participated in public lectures. Her work addressed love, race, social class, gender, art, history, sexuality, mass media, and feminism.",
+        "subject": "Gustavo Gutiérrez",
+        "predicate": "influence",
+        "object": "Bell hooks",
+        "evidence": [
+            [
+                "Bell hooks",
+                "influenced by",
+                "Thích Nhất Hạnh"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Gustavo Gutiérrez"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Lorraine Hansberry"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Sojourner Truth"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Toni Morrison"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Martin Luther King Jr."
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Erich Fromm"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Malcolm X"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Paulo Freire"
+            ]
+        ],
+        "question": "Is it true that Gustavo Gutiérrez could or could be influence Bell hooks?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Lorraine Vivian Hansberry was an American playwright and writer. She was the first African-American female author to have a play performed on Broadway. Her best-known work, the play A Raisin in the Sun, highlights the lives of black Americans in Chicago living under racial segregation. The title of the play was taken from the poem \"Harlem\" by Langston Hughes: \"What happens to a dream deferred? Does it dry up like a raisin in the sun?\" At the age of 29, she won the New York Drama Critics' Circle Award – making her the first African-American dramatist, the fifth woman, and the youngest playwright to do so. Hansberry's family had struggled against segregation, challenging a restrictive covenant in the 1940 U.S. Supreme Court case Hansberry v. Lee.\nGloria Jean Watkins, better known by her pen name bell hooks, was an American author, theorist, educator, and social critic who was a Distinguished Professor in Residence at Berea College. She was best known for her writings on race, feminism, and class. She used the lower-case spelling of her name to decenter herself and draw attention to her work instead. The focus of hooks' writing was to explore the intersectionality of race, capitalism, and gender, and what she described as their ability to produce and perpetuate systems of oppression and class domination. She published around 40 books, including works that ranged from essays, poetry, and children's books. She published numerous scholarly articles, appeared in documentary films, and participated in public lectures. Her work addressed love, race, social class, gender, art, history, sexuality, mass media, and feminism.",
+        "subject": "Lorraine Hansberry",
+        "predicate": "influence",
+        "object": "Bell hooks",
+        "evidence": [
+            [
+                "Bell hooks",
+                "influenced by",
+                "Thích Nhất Hạnh"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Gustavo Gutiérrez"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Lorraine Hansberry"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Sojourner Truth"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Toni Morrison"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Martin Luther King Jr."
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Erich Fromm"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Malcolm X"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Paulo Freire"
+            ]
+        ],
+        "question": "Does Lorraine Hansberry have the possibility to be influence of Bell hooks?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Sojourner Truth was an American abolitionist and activist for African-American civil rights, women's rights, and alcohol temperance. Truth was born into slavery in Swartekill, New York, but escaped with her infant daughter to freedom in 1826. After going to court to recover her son in 1828, she became the first black woman to win such a case against a white man.\nGloria Jean Watkins, better known by her pen name bell hooks, was an American author, theorist, educator, and social critic who was a Distinguished Professor in Residence at Berea College. She was best known for her writings on race, feminism, and class. She used the lower-case spelling of her name to decenter herself and draw attention to her work instead. The focus of hooks' writing was to explore the intersectionality of race, capitalism, and gender, and what she described as their ability to produce and perpetuate systems of oppression and class domination. She published around 40 books, including works that ranged from essays, poetry, and children's books. She published numerous scholarly articles, appeared in documentary films, and participated in public lectures. Her work addressed love, race, social class, gender, art, history, sexuality, mass media, and feminism.",
+        "subject": "Sojourner Truth",
+        "predicate": "influence",
+        "object": "Bell hooks",
+        "evidence": [
+            [
+                "Bell hooks",
+                "influenced by",
+                "Thích Nhất Hạnh"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Gustavo Gutiérrez"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Lorraine Hansberry"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Sojourner Truth"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Toni Morrison"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Martin Luther King Jr."
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Erich Fromm"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Malcolm X"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Paulo Freire"
+            ]
+        ],
+        "question": "Is there any possibility that Sojourner Truth could not be influence of Bell hooks?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Chloe Anthony Wofford Morrison, known as Toni Morrison, was an American novelist and editor. Her first novel, The Bluest Eye, was published in 1970. The critically acclaimed Song of Solomon (1977) brought her national attention and won the National Book Critics Circle Award. In 1988, Morrison won the Pulitzer Prize for Beloved (1987); she was awarded the Nobel Prize in Literature in 1993.\nGloria Jean Watkins, better known by her pen name bell hooks, was an American author, theorist, educator, and social critic who was a Distinguished Professor in Residence at Berea College. She was best known for her writings on race, feminism, and class. She used the lower-case spelling of her name to decenter herself and draw attention to her work instead. The focus of hooks' writing was to explore the intersectionality of race, capitalism, and gender, and what she described as their ability to produce and perpetuate systems of oppression and class domination. She published around 40 books, including works that ranged from essays, poetry, and children's books. She published numerous scholarly articles, appeared in documentary films, and participated in public lectures. Her work addressed love, race, social class, gender, art, history, sexuality, mass media, and feminism.",
+        "subject": "Toni Morrison",
+        "predicate": "influence",
+        "object": "Bell hooks",
+        "evidence": [
+            [
+                "Bell hooks",
+                "influenced by",
+                "Thích Nhất Hạnh"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Gustavo Gutiérrez"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Lorraine Hansberry"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Sojourner Truth"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Toni Morrison"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Martin Luther King Jr."
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Erich Fromm"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Malcolm X"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Paulo Freire"
+            ]
+        ],
+        "question": "Does Toni Morrison have the possibility to be influence of Bell hooks?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Martin Luther King Jr. was an American Baptist minister, civil rights activist and political philosopher who was a leader of the civil rights movement from 1955 until his assassination in 1968. He advanced civil rights for people of color in the United States through the use of nonviolent resistance and civil disobedience against Jim Crow laws and other forms of legalized discrimination.\nGloria Jean Watkins, better known by her pen name bell hooks, was an American author, theorist, educator, and social critic who was a Distinguished Professor in Residence at Berea College. She was best known for her writings on race, feminism, and class. She used the lower-case spelling of her name to decenter herself and draw attention to her work instead. The focus of hooks' writing was to explore the intersectionality of race, capitalism, and gender, and what she described as their ability to produce and perpetuate systems of oppression and class domination. She published around 40 books, including works that ranged from essays, poetry, and children's books. She published numerous scholarly articles, appeared in documentary films, and participated in public lectures. Her work addressed love, race, social class, gender, art, history, sexuality, mass media, and feminism.",
+        "subject": "Martin Luther King Jr.",
+        "predicate": "influence",
+        "object": "Bell hooks",
+        "evidence": [
+            [
+                "Bell hooks",
+                "influenced by",
+                "Thích Nhất Hạnh"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Gustavo Gutiérrez"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Lorraine Hansberry"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Sojourner Truth"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Toni Morrison"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Martin Luther King Jr."
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Erich Fromm"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Malcolm X"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Paulo Freire"
+            ]
+        ],
+        "question": "Statement: It's not true that Martin Luther King Jr. could be influence of Bell hooks. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Erich Seligmann Fromm was a German-American social psychologist, psychoanalyst, sociologist, humanistic philosopher, and democratic socialist. He was a German Jew who fled the Nazi regime and settled in the United States. He was one of the founders of The William Alanson White Institute of Psychiatry, Psychoanalysis and Psychology in New York City and was associated with the Frankfurt School of critical theory.\nGloria Jean Watkins, better known by her pen name bell hooks, was an American author, theorist, educator, and social critic who was a Distinguished Professor in Residence at Berea College. She was best known for her writings on race, feminism, and class. She used the lower-case spelling of her name to decenter herself and draw attention to her work instead. The focus of hooks' writing was to explore the intersectionality of race, capitalism, and gender, and what she described as their ability to produce and perpetuate systems of oppression and class domination. She published around 40 books, including works that ranged from essays, poetry, and children's books. She published numerous scholarly articles, appeared in documentary films, and participated in public lectures. Her work addressed love, race, social class, gender, art, history, sexuality, mass media, and feminism.",
+        "subject": "Erich Fromm",
+        "predicate": "influence",
+        "object": "Bell hooks",
+        "evidence": [
+            [
+                "Bell hooks",
+                "influenced by",
+                "Thích Nhất Hạnh"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Gustavo Gutiérrez"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Lorraine Hansberry"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Sojourner Truth"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Toni Morrison"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Martin Luther King Jr."
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Erich Fromm"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Malcolm X"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Paulo Freire"
+            ]
+        ],
+        "question": "Is it true that Erich Fromm could or could be influence Bell hooks?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Malcolm X was an African American revolutionary, Muslim minister and human rights activist who was a prominent figure during the civil rights movement until his assassination in 1965. A spokesman for the Nation of Islam (NOI) until 1964, after which he left the movement, he was a vocal advocate for Black empowerment and the promotion of Islam within the African American community. A controversial figure accused of preaching violence, Malcolm X is also a celebrated figure within African American and Muslim communities for his pursuit of racial justice.\nGloria Jean Watkins, better known by her pen name bell hooks, was an American author, theorist, educator, and social critic who was a Distinguished Professor in Residence at Berea College. She was best known for her writings on race, feminism, and class. She used the lower-case spelling of her name to decenter herself and draw attention to her work instead. The focus of hooks' writing was to explore the intersectionality of race, capitalism, and gender, and what she described as their ability to produce and perpetuate systems of oppression and class domination. She published around 40 books, including works that ranged from essays, poetry, and children's books. She published numerous scholarly articles, appeared in documentary films, and participated in public lectures. Her work addressed love, race, social class, gender, art, history, sexuality, mass media, and feminism.",
+        "subject": "Malcolm X",
+        "predicate": "influence",
+        "object": "Bell hooks",
+        "evidence": [
+            [
+                "Bell hooks",
+                "influenced by",
+                "Thích Nhất Hạnh"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Gustavo Gutiérrez"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Lorraine Hansberry"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Sojourner Truth"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Toni Morrison"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Martin Luther King Jr."
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Erich Fromm"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Malcolm X"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Paulo Freire"
+            ]
+        ],
+        "question": "Could Malcolm X be influence of Bell hooks?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Paulo Reglus Neves Freire was a Brazilian educator and philosopher whose work revolutionized global thought on education. He is best known for Pedagogy of the Oppressed, in which he reimagines teaching as a collaborative act of liberation rather than transmission. A founder of critical pedagogy, Freire’s influence spans literacy movements, liberation theology, postcolonial education, and contemporary theories of social justice and learning. He is widely regarded as one of the most important educational theorists of the twentieth century, alongside figures such as John Dewey and Maria Montessori, and considered \"the Grandfather of Critical Theory.\"\nGloria Jean Watkins, better known by her pen name bell hooks, was an American author, theorist, educator, and social critic who was a Distinguished Professor in Residence at Berea College. She was best known for her writings on race, feminism, and class. She used the lower-case spelling of her name to decenter herself and draw attention to her work instead. The focus of hooks' writing was to explore the intersectionality of race, capitalism, and gender, and what she described as their ability to produce and perpetuate systems of oppression and class domination. She published around 40 books, including works that ranged from essays, poetry, and children's books. She published numerous scholarly articles, appeared in documentary films, and participated in public lectures. Her work addressed love, race, social class, gender, art, history, sexuality, mass media, and feminism.",
+        "subject": "Paulo Freire",
+        "predicate": "influence",
+        "object": "Bell hooks",
+        "evidence": [
+            [
+                "Bell hooks",
+                "influenced by",
+                "Thích Nhất Hạnh"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Gustavo Gutiérrez"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Lorraine Hansberry"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Sojourner Truth"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Toni Morrison"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Martin Luther King Jr."
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Erich Fromm"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Malcolm X"
+            ],
+            [
+                "Bell hooks",
+                "influenced by",
+                "Paulo Freire"
+            ]
+        ],
+        "question": "Is it true that Paulo Freire could or could be influence Bell hooks?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Ellen Muriel Deason, known professionally as Kitty Wells, was an American pioneering female country music singer. She broke down a barrier for women in country music with her 1952 hit recording \"It Wasn't God Who Made Honky Tonk Angels\", which also made her the first female country singer to top the U.S. country charts and turned her into the first female country superstar. “It Wasn’t God Who Made Honky Tonk Angels” would also be her first of several pop crossover hits. Wells is the only artist to be awarded top female vocalist awards for 14 consecutive years. Her chart-topping hits continued until the mid-1960s, paving the way for and inspiring a long list of female country singers who came to prominence in the 1960s.\nKathryn Dawn Lang, known by her stage name k.d. lang, is a Canadian pop and country singer-songwriter and occasional actress. Lang has won Juno Awards and Grammy Awards for her musical performances. Her hits include the songs \"Constant Craving\" and \"Miss Chatelaine\".",
+        "subject": "Kitty Wells",
+        "predicate": "influence",
+        "object": "K.d. lang",
+        "evidence": [
+            [
+                "K.d. lang",
+                "influenced by",
+                "Kitty Wells"
+            ],
+            [
+                "K.d. lang",
+                "influenced by",
+                "Patsy Cline"
+            ]
+        ],
+        "question": "Does Kitty Wells have the possibility to be influence of K.d. lang?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Patsy Cline was an American singer. One of the most influential vocalists of the 20th century, she was known as one of the first country music artists to successfully cross over into pop music. Cline had several major hits during her eight-year recording career, including two number-one hits on the Billboard Hot Country and Western Sides chart.\nKathryn Dawn Lang, known by her stage name k.d. lang, is a Canadian pop and country singer-songwriter and occasional actress. Lang has won Juno Awards and Grammy Awards for her musical performances. Her hits include the songs \"Constant Craving\" and \"Miss Chatelaine\".",
+        "subject": "Patsy Cline",
+        "predicate": "influence",
+        "object": "K.d. lang",
+        "evidence": [
+            [
+                "K.d. lang",
+                "influenced by",
+                "Kitty Wells"
+            ],
+            [
+                "K.d. lang",
+                "influenced by",
+                "Patsy Cline"
+            ]
+        ],
+        "question": "Does Patsy Cline have the possibility to be influence of K.d. lang?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Richard Dawkins is a British evolutionary biologist, zoologist, science communicator and author. He is an emeritus fellow of New College, Oxford, and was Professor for Public Understanding of Science at the University of Oxford from 1995 to 2008, and is on the advisory board of the University of Austin. His book The Selfish Gene (1976) popularised the gene-centred view of evolution and coined the word meme. Dawkins has won several academic and writing awards.\nGreat ape personhood is a movement to extend personhood and some legal protections to the non-human members of the great ape family: bonobos, chimpanzees, gorillas, and orangutans.",
+        "subject": "Richard Dawkins",
+        "predicate": "influence",
+        "object": "Great ape personhood",
+        "evidence": [
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Richard Dawkins"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Jane Goodall"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Paola Cavalieri"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Peter Singer"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Dawn Prince-Hughes"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Steven M. Wise"
+            ]
+        ],
+        "question": "Statement: It's not true that Richard Dawkins could be influence of Great ape personhood. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Dame Jane Morris Goodall, formerly Baroness Jane van Lawick-Goodall, is an English zoologist, primatologist and anthropologist. She is considered the world's foremost expert on chimpanzees, after 60 years' studying the social and family interactions of wild chimpanzees. Goodall first went to Gombe Stream National Park in Tanzania to observe its chimpanzees in 1960.\nGreat ape personhood is a movement to extend personhood and some legal protections to the non-human members of the great ape family: bonobos, chimpanzees, gorillas, and orangutans.",
+        "subject": "Jane Goodall",
+        "predicate": "influence",
+        "object": "Great ape personhood",
+        "evidence": [
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Richard Dawkins"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Jane Goodall"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Paola Cavalieri"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Peter Singer"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Dawn Prince-Hughes"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Steven M. Wise"
+            ]
+        ],
+        "question": "Is there any possibility that Jane Goodall could not be influence of Great ape personhood?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Paola Cavalieri is an Italian philosopher, most known for her work arguing for extension of human rights to the other great apes and more broadly, \"to mammals and birds, and probably vertebrates in general\". In addition to her books, she was the editor of Etica & Animali, a quarterly international philosophy journal that published nine volumes from 1988 to 1998.\nGreat ape personhood is a movement to extend personhood and some legal protections to the non-human members of the great ape family: bonobos, chimpanzees, gorillas, and orangutans.",
+        "subject": "Paola Cavalieri",
+        "predicate": "influence",
+        "object": "Great ape personhood",
+        "evidence": [
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Richard Dawkins"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Jane Goodall"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Paola Cavalieri"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Peter Singer"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Dawn Prince-Hughes"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Steven M. Wise"
+            ]
+        ],
+        "question": "Statement: It's not true that Paola Cavalieri could be influence of Great ape personhood. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Peter Albert David Singer is an Australian moral philosopher who is Emeritus Ira W. DeCamp Professor of Bioethics at Princeton University. Singer's work specialises in applied ethics, approaching the subject from a secular, utilitarian perspective. He wrote the book Animal Liberation (1975), in which he argues for vegetarianism, and the essay \"Famine, Affluence, and Morality\", which argues the moral imperative of donating to help the poor around the world. For most of his career, he was a preference utilitarian. He revealed in The Point of View of the Universe (2014), coauthored with Katarzyna de Lazari-Radek, that he had become a hedonistic utilitarian.\nGreat ape personhood is a movement to extend personhood and some legal protections to the non-human members of the great ape family: bonobos, chimpanzees, gorillas, and orangutans.",
+        "subject": "Peter Singer",
+        "predicate": "influence",
+        "object": "Great ape personhood",
+        "evidence": [
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Richard Dawkins"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Jane Goodall"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Paola Cavalieri"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Peter Singer"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Dawn Prince-Hughes"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Steven M. Wise"
+            ]
+        ],
+        "question": "Could Peter Singer be influence of Great ape personhood?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Dawn Prince-Hughes is an American anthropologist, primatologist, and ethologist. She is the author of several books, including Gorillas Among Us: A Primate Ethnographer's Book of Days and her memoir Songs of the Gorilla Nation: My Journey Through Autism, and she is the editor of the essay collection Aquamarine Blue 5: Personal Stories of College Students with Autism.\nGreat ape personhood is a movement to extend personhood and some legal protections to the non-human members of the great ape family: bonobos, chimpanzees, gorillas, and orangutans.",
+        "subject": "Dawn Prince-Hughes",
+        "predicate": "influence",
+        "object": "Great ape personhood",
+        "evidence": [
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Richard Dawkins"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Jane Goodall"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Paola Cavalieri"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Peter Singer"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Dawn Prince-Hughes"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Steven M. Wise"
+            ]
+        ],
+        "question": "Could Dawn Prince-Hughes be influence of Great ape personhood?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Inverse Function Inference",
+        "description": "Steven M. Wise was an American lawyer and legal scholar who specialized in animal rights, primatology, and animal intelligence. He taught animal rights law at Harvard Law School, Vermont Law School, John Marshall Law School, Lewis & Clark Law School, Tufts University School of Veterinary Medicine, and at the Master’s in Animal Law and Society of the Autonomous University of Barcelona. He was a former president of the Animal Legal Defense Fund and founder and president of the Nonhuman Rights Project. The Yale Law Journal had called him \"one of the pistons of the animal rights movement.\"\nGreat ape personhood is a movement to extend personhood and some legal protections to the non-human members of the great ape family: bonobos, chimpanzees, gorillas, and orangutans.",
+        "subject": "Steven M. Wise",
+        "predicate": "influence",
+        "object": "Great ape personhood",
+        "evidence": [
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Richard Dawkins"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Jane Goodall"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Paola Cavalieri"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Peter Singer"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Dawn Prince-Hughes"
+            ],
+            [
+                "Great ape personhood",
+                "influenced by",
+                "Steven M. Wise"
+            ]
+        ],
+        "question": "Does Steven M. Wise have the possibility to be influence of Great ape personhood?",
         "answer": "Yes."
     }
 ]

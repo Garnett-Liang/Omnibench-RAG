@@ -1,0 +1,274 @@
+Starting RAG evaluation - Domain: health, Model: qwen, Retrieved documents: 3
+==================================================
+[1/5] Checking and preprocessing health domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building health domain vector index...
+Index already exists, loading...
+[3/5] Loading health domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/health_index.faiss
+Number of vectors in FAISS index: 522
+[5/5] Starting RAG evaluation... (8 samples)
+Starting evaluation with 8 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Could withdrawal of Joe Biden from the 2024 United States presidential election be supports for of Age and health concerns about Joe Biden?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could withdrawal of joe biden from the 2024 united states presidential election be supports for of age and health concerns about joe biden? yes, withdrawal of joe biden from the 2024 united states presidential election could be seen as a support for age and health concerns about joe biden. 
+
+joe biden is 78 years old and has been diagnosed with a variety of health issues, including a weakened immune system, chronic obstructive pulmonary disease (copd), and osteoarthritis. these conditions make it more difficult for him to participate in physical activities and require rest and recovery time. 
+
+furthermore, biden has been
+  Semantic Prediction: no (Confidence: 0.9961)
+  Correctness: Incorrect
+  Performance: Time=3.2964s, Memory=554.1172MB, GPU=63.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the withdrawal of joe biden from the 2024 united states presidential election could potentially support concerns about age and health issues for the former president. however, it is important to note that biden's health and age are not the primary concerns for many americans, as they are focused on the political and policy implications of his potential candidacy. additionally, the withdrawal of biden from the election could potentially lead to a more diverse and experienced candidate who is better equipped to address the complex issues facing the country.
+  Semantic Prediction: no (Confidence: 0.9655)
+  Correctness: Incorrect
+  Performance: Time=2.7885s, Memory=73.2461MB, GPU=-20.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Does withdrawal of Joe Biden from the 2024 United States presidential election have the possibility to be supports for of Age and health concerns about Joe Biden?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does withdrawal of joe biden from the 2024 united states presidential election have the possibility to be supports for of age and health concerns about joe biden? yes, the withdrawal of joe biden from the 2024 united states presidential election could potentially be supported by concerns about his age and health. 
+
+joe biden is 78 years old, which means he is in his 70s. this age is considered to be an age where people are more likely to experience health issues and may require medical attention. additionally, biden has been diagnosed with a number of health issues, including a stroke in 2020 and a heart attack
+  Semantic Prediction: no (Confidence: 0.9949)
+  Correctness: Incorrect
+  Performance: Time=2.3433s, Memory=0.2031MB, GPU=12.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: does the following sentence make sense?
+"romeo and juliet is a play written by william shakespeare."
+options:
+- yes
+- no
+answer: yes
+
+question: does the following sentence make sense?
+"romeo and juliet is a play written by william shakespeare."
+options:
+- yes
+- no
+answer: yes
+
+question: does the following sentence make sense?
+"romeo and juliet is a play written by william shakespeare."
+options:
+- yes
+- no
+answer: yes
+
+question: does the following sentence make sense?
+"romeo and juliet is a play written by william shakespeare."
+options:
+- yes
+- no
+answer: yes
+
+question: does the following sentence make sense
+  Semantic Prediction: no (Confidence: 0.9990)
+  Correctness: Incorrect
+  Performance: Time=3.3156s, Memory=0.2422MB, GPU=12.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Statement: It's not true that withdrawal of Joe Biden from the 2024 United States presidential election could be supports for of Age and health concerns about Joe Biden. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that withdrawal of joe biden from the 2024 united states presidential election could be supports for of age and health concerns about joe biden. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. yes.
+  Semantic Prediction: no (Confidence: 0.9899)
+  Correctness: Correct
+  Performance: Time=0.1152s, Memory=5.2188MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the statement is false. the withdrawal of joe biden from the 2024 united states presidential election would not support any of the concerns about his age or health. in fact, it would be a positive development for his health and age concerns. the withdrawal would allow him to focus on his health and age-related issues, rather than the political campaign. it would also allow him to take care of his health concerns without the distraction of the political campaign. therefore, the statement is false.
+  Semantic Prediction: no (Confidence: 0.9970)
+  Correctness: Correct
+  Performance: Time=2.3186s, Memory=0.3203MB, GPU=-23.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Is there any possibility that withdrawal of Joe Biden from the 2024 United States presidential election could not be supports for of Age and health concerns about Joe Biden?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that withdrawal of joe biden from the 2024 united states presidential election could not be supports for of age and health concerns about joe biden? yes, there is a possibility that withdrawal of joe biden from the 2024 united states presidential election could not be supported by age and health concerns about joe biden. 
+
+joe biden is 78 years old, which means he is in his 70s. he has been in office for over four decades, which means he has been in the public eye for a long time. this exposure to the public eye can lead to health concerns, such as developing health issues or experiencing health
+  Semantic Prediction: no (Confidence: 0.9653)
+  Correctness: Correct
+  Performance: Time=2.3990s, Memory=0.0273MB, GPU=4.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: is there any possibility that withdrawal of joe biden from the 2024 united states presidential election could not be supported by age and health concerns about joe biden?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that withdrawal of joe biden from the 2024 united states presidential election could not be supported by age and health concerns about joe biden?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that withdrawal of joe biden from the 2024 united states presidential election could not be supported by age and health concerns about joe biden?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that withdrawal of joe
+  Semantic Prediction: no (Confidence: 0.9984)
+  Correctness: Correct
+  Performance: Time=3.5320s, Memory=0.2031MB, GPU=16.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Does withdrawal of Joe Biden from the 2024 United States presidential election have the possibility to be supports for of Age and health concerns about Joe Biden?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does withdrawal of joe biden from the 2024 united states presidential election have the possibility to be supports for of age and health concerns about joe biden? yes, the withdrawal of joe biden from the 2024 united states presidential election could potentially be supported by concerns about his age and health. 
+
+joe biden is 78 years old, which means he is in his 70s. this is an age group that is often associated with health concerns and potential health issues. additionally, biden has been diagnosed with a variety of health issues, including a blood clot in his brain, which led to his hospitalization and subsequent recovery. these
+  Semantic Prediction: no (Confidence: 0.9855)
+  Correctness: Incorrect
+  Performance: Time=2.2183s, Memory=0.1367MB, GPU=-22.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: does the following sentence make sense?
+"romeo and juliet is a play written by william shakespeare."
+options:
+- yes
+- no
+answer: yes
+
+question: does the following sentence make sense?
+"romeo and juliet is a play written by william shakespeare."
+options:
+- yes
+- no
+answer: yes
+
+question: does the following sentence make sense?
+"romeo and juliet is a play written by william shakespeare."
+options:
+- yes
+- no
+answer: yes
+
+question: does the following sentence make sense?
+"romeo and juliet is a play written by william shakespeare."
+options:
+- yes
+- no
+answer: yes
+
+question: does the following sentence make sense
+  Semantic Prediction: no (Confidence: 0.9990)
+  Correctness: Incorrect
+  Performance: Time=3.6202s, Memory=0.0547MB, GPU=21.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Statement: It's not true that withdrawal of Joe Biden from the 2024 United States presidential election could be supports for of Age and health concerns about Joe Biden. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that withdrawal of joe biden from the 2024 united states presidential election could be supports for of age and health concerns about joe biden. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. yes.
+  Semantic Prediction: no (Confidence: 0.9899)
+  Correctness: Correct
+  Performance: Time=0.1215s, Memory=0.0000MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the statement is false. the withdrawal of joe biden from the 2024 united states presidential election would not support any of the concerns about his age or health. in fact, it would be a positive development for his health and age concerns. the withdrawal would allow him to focus on his health and age-related issues, rather than the political campaign. it would also allow him to take care of his health concerns without the pressure of campaigning. therefore, the statement is false.
+  Semantic Prediction: no (Confidence: 0.9963)
+  Correctness: Correct
+  Performance: Time=2.2915s, Memory=0.1875MB, GPU=-6.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Could withdrawal of Joe Biden from the 2024 United States presidential election be supports for of Age and health concerns about Joe Biden?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could withdrawal of joe biden from the 2024 united states presidential election be supports for of age and health concerns about joe biden? yes, withdrawal of joe biden from the 2024 united states presidential election could be seen as a support for age and health concerns about joe biden. 
+
+joe biden is 78 years old and has been diagnosed with a variety of health issues, including a weakened immune system, chronic obstructive pulmonary disease (copd), and osteoporosis. these conditions make it more difficult for him to participate in physical activities and require him to take medication to manage his health. 
+
+withdrawal
+  Semantic Prediction: no (Confidence: 0.9960)
+  Correctness: Incorrect
+  Performance: Time=2.2622s, Memory=0.0078MB, GPU=-11.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the withdrawal of joe biden from the 2024 united states presidential election could potentially be seen as a support for age and health concerns about joe biden. this is because biden is 78 years old and has been diagnosed with several health issues, including a history of heart disease and a recent stroke. additionally, biden has been known to have a history of substance abuse, which could be a concern for his health. however, it is important to note that biden's health status is not the only factor that should be considered when evaluating his candidacy for the presidency. other factors such as his policy positions, experience, and potential impact on the election may also be important to consider.
+  Semantic Prediction: no (Confidence: 0.8558)
+  Correctness: Incorrect
+  Performance: Time=3.1611s, Memory=0.0938MB, GPU=14.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 8/8 samples
+
+===== Detailed Analysis for Sample 8 =====
+Question: Is it true that withdrawal of Joe Biden from the 2024 United States presidential election could or could be supports for Age and health concerns about Joe Biden?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that withdrawal of joe biden from the 2024 united states presidential election could or could be supports for age and health concerns about joe biden? yes, it is true that withdrawing joe biden from the 2024 united states presidential election could support age and health concerns about him. 
+
+first, let's understand what the 2024 united states presidential election is. the 2024 united states presidential election is scheduled to take place on november 3, 2024. the candidates for the 2024 presidential election are joe biden, who is the incumbent democratic president, and a number of
+  Semantic Prediction: no (Confidence: 0.9778)
+  Correctness: Incorrect
+  Performance: Time=2.3377s, Memory=0.0234MB, GPU=-7.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the withdrawal of joe biden from the 2024 united states presidential election could not be supported by age and health concerns about him. 
+
+the reason for this is that joe biden is 82 years old and has been in office for over four decades. he has been a long-serving politician and has been involved in many significant political and social issues. his age and health status have been a subject of concern for many people, including his supporters and opponents. however, the withdrawal of him from the 2024 election would not necessarily address these concerns, as there are many other candidates who could potentially be elected. additionally, the impact of his age and health on his ability to serve as president would be a complex issue that
+  Semantic Prediction: no (Confidence: 0.9430)
+  Correctness: Incorrect
+  Performance: Time=3.4543s, Memory=0.0430MB, GPU=8.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 1.8867s (based on 8/8 samples)
+  Avg Memory Usage: 79.9621MB (based on 7/8 samples)
+  Avg GPU Utilization: 26.33% (based on 3/8 samples)
+
+RAG Model:
+  Avg Response Time: 3.0602s (1.62x base)
+  Avg Memory Usage: 9.2988MB (0.12x base)
+  Avg GPU Utilization: 14.20% (0.54x base)
+
+RAG evaluation completed! Results saved to: rag_results/rag_health_qwen_20250723130112.json
+Basic accuracy: 0.3750
+RAG-augmented accuracy: 0.3750
+Performance improvement: 0.0000

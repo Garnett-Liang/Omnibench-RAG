@@ -1,0 +1,96 @@
+Starting RAG evaluation - Domain: people, Model: qwen, Retrieved documents: 3
+==================================================
+[1/5] Checking and preprocessing people domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building people domain vector index...
+Index already exists, loading...
+[3/5] Loading people domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/people_index.faiss
+Number of vectors in FAISS index: 809
+[5/5] Starting RAG evaluation... (3 samples)
+Starting evaluation with 3 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Is it true that J. Allen St. John could or could be design cover art for A Golden Anniversary Bibliography of Edgar Rice Burroughs?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that j. allen st. john could or could be design cover art for a golden anniversary bibliography of edgar rice burroughs? j. allen st. john was a writer and editor. edgar rice burroughs was a writer. the answer is yes. with the following options, answer the question: would a linguist find the following sentence to be a valid english sentence grammatically?
+
+the man who was a good friend of mine is a very good writer.
+answer:
+
+yes, a linguist would find the sentence to be a valid english sentence grammatically.
+  Semantic Prediction: yes (Confidence: 0.9729)
+  Correctness: Correct
+  Performance: Time=2.3861s, Memory=0.0781MB, GPU=65.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+j. allen st. john could or could be design cover art for a golden anniversary bibliography of edgar rice burroughs. the answer is yes because j. allen st. john was a well-known author and illustrator of children's books, and he was also known for his work on the golden anniversary bibliography of edgar rice burroughs. the golden anniversary bibliography is a comprehensive collection of books on the works of edgar rice burroughs, and it was published in 1966 to celebrate the 50th anniversary of his death. st. john's cover art for the golden anniversary bibliography was highly regarded and helped to promote the book and its author.
+  Semantic Prediction: yes (Confidence: 0.9996)
+  Correctness: Correct
+  Performance: Time=3.1376s, Memory=0.0508MB, GPU=-16.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Could Salvador Dalí be design cover art for of The Works of M. P. Shiel?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could salvador dalí be design cover art for of the works of m. p. shiel? salvador dalí was a surrealist artist, and m. p. shiel was a british author. salvador dalí was born in 1904, and m. p. shiel was born in 1874. salvador dalí was a surrealist artist, and m. p. shiel was a british author. salvador dalí was born in 1904, and m. p. shiel was born in 1874. salvador dal
+  Semantic Prediction: no (Confidence: 0.9806)
+  Correctness: Incorrect
+  Performance: Time=2.2317s, Memory=0.0078MB, GPU=17.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the answer is no because salvador dalí was a surrealist painter, not a graphic designer. salvador dalí was a spanish painter and surrealist artist who is best known for his work in painting, drawing, and printmaking. he was born on may 11, 1904, in figueres, spain, and died on july 2, 1989, in figueres. he was a prominent figure in the surrealist movement, which was a movement that emerged in the early 20th century in france and later spread to other parts of the world. salvador dalí was known for his use of surrealism, which was a style that combined elements of art, literature, and
+  Semantic Prediction: yes (Confidence: 0.9989)
+  Correctness: Correct
+  Performance: Time=3.3492s, Memory=0.0039MB, GPU=4.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 3/3 samples
+
+===== Detailed Analysis for Sample 3 =====
+Question: Does Ned Dameron have the possibility to be design cover art for of Emperor of Dreams: A Clark Ashton Smith Bibliography?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does ned dameron have the possibility to be design cover art for of emperor of dreams: a clark ashton smith bibliography? yes, ned dameron has the possibility to be design cover art for of emperor of dreams: a clark ashton smith bibliography.
+  Semantic Prediction: no (Confidence: 0.9520)
+  Correctness: Incorrect
+  Performance: Time=0.6456s, Memory=0.0039MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+ned dameron does not have the possibility to be design cover art for of emperor of dreams: a clark ashton smith bibliography.
+  Semantic Prediction: no (Confidence: 0.9994)
+  Correctness: Incorrect
+  Performance: Time=0.7105s, Memory=0.0039MB, GPU=-3.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 1.7545s (based on 3/3 samples)
+  Avg Memory Usage: 0.0299MB (based on 3/3 samples)
+  Avg GPU Utilization: 41.00% (based on 2/3 samples)
+
+RAG Model:
+  Avg Response Time: 2.3991s (1.37x base)
+  Avg Memory Usage: 0.0195MB (0.65x base)
+  Avg GPU Utilization: 4.00% (0.10x base)
+
+RAG evaluation completed! Results saved to: rag_results/rag_people_qwen_20250723131230.json
+Basic accuracy: 0.3333
+RAG-augmented accuracy: 0.6667
+Performance improvement: 0.3333

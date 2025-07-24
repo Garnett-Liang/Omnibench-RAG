@@ -1,0 +1,279 @@
+Starting RAG evaluation - Domain: history, Model: qwen, Retrieved documents: 3
+==================================================
+[1/5] Checking and preprocessing history domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building history domain vector index...
+Index already exists, loading...
+[3/5] Loading history domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/history_index.faiss
+Number of vectors in FAISS index: 453
+[5/5] Starting RAG evaluation... (17 samples)
+Starting evaluation with 17 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Statement: It's not true that James Lockhart could be found of New Philology (Latin America). Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that james lockhart could be found of new philology (latin america). please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. yes.
+  Semantic Prediction: no (Confidence: 0.9934)
+  Correctness: Correct
+  Performance: Time=0.4206s, Memory=2.4141MB, GPU=38.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+explanation: the statement "it's not true that james lockhart could be found of new philology (latin america)" is not true. james lockhart was indeed a prominent figure in the field of new philology, particularly in latin america. he was a professor at the university of california, berkeley, and was known for his work on the history of latin america and its literature. he was also a member of the american academy of arts and letters and was awarded the pulitzer prize for his work on latin american literature. therefore, the statement is false.
+  Semantic Prediction: no (Confidence: 0.9993)
+  Correctness: Correct
+  Performance: Time=3.5915s, Memory=-1785.0938MB, GPU=40.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Statement: It's not true that Marc Bloch could be found of Annales school. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that marc bloch could be found of annales school. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. no, the statement "it's not true that marc bloch could be found of annales school" is not true. the statement is false because there is evidence to suggest that marc bloch was indeed a student at the annales school. the school was founded in 1887 and is known for its emphasis on mathematics, physics, and engineering. marc bloch was a student at the school from 1894 to 1896, and he was a member
+  Semantic Prediction: no (Confidence: 0.9988)
+  Correctness: Correct
+  Performance: Time=2.5350s, Memory=0.1445MB, GPU=-11.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: statement: the author of the text is not mentioned. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+answer with 'yes' or 'no': no
+
+question: statement: the author of the text is not mentioned. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+answer with 'yes' or 'no': no
+
+question: statement: the author of the text is not mentioned. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+answer with 'yes' or 'no': no
+
+question: statement: the author of the text is
+  Semantic Prediction: no (Confidence: 0.9776)
+  Correctness: Correct
+  Performance: Time=4.5461s, Memory=0.3477MB, GPU=12.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Could Lucien Febvre be found of Annales school?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could lucien febvre be found of annales school? yes, lucien febvre could be found of the annales school. the annales school was a french educational institution founded in 1802 by the french philosopher and mathematician jean-jacques rousseau. it was a school that emphasized the study of human nature, the development of moral character, and the pursuit of knowledge for its own sake. febvre was a student of the annales school and was known for his interest in philosophy, literature, and the arts. he was
+  Semantic Prediction: yes (Confidence: 0.9938)
+  Correctness: Correct
+  Performance: Time=2.5386s, Memory=0.2383MB, GPU=-5.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+lucien febvre was born in 1898 in paris, france. the annales school was a french school of mathematics that was founded in 1927 by pierre and marie curie. the school was named after the curie family, who were prominent members of the french scientific community. the school was founded by pierre curie and his wife, marie curie, who were both renowned physicists and mathematicians. the school was known for its emphasis on experimental research and its focus on the intersection of mathematics and physics. lucien febvre was a french mathematician who was born in 1898 and studied at the école polytechnique in paris. he was a member of the annales school
+  Semantic Prediction: yes (Confidence: 0.9968)
+  Correctness: Correct
+  Performance: Time=4.2577s, Memory=8.1602MB, GPU=6.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Does James Lockhart have the possibility to be found of New Philology (Latin America)?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does james lockhart have the possibility to be found of new philology (latin america)? james lockhart is a former american academic and scholar of latin american literature. he was born in 1929 in new york city, new york, and received his b.a. from yale university in 1951 and his ph.d. from columbia university in 1955. he has written extensively on latin american literature, including works such as "the new latin american novel" (1961) and "the new latin american novel: a reader" (
+  Semantic Prediction: yes (Confidence: 0.9978)
+  Correctness: Correct
+  Performance: Time=2.4851s, Memory=0.2578MB, GPU=-5.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+question: does james lockhart have the possibility to be found of new philology (latin america)?
+answer with 'yes' or 'no': yes
+
+question: does james lockhart have the possibility to be found of new philology (latin america)?
+answer with 'yes' or 'no': yes
+
+question: does james lockhart have the possibility to be found of new philology (latin america)?
+answer with 'yes' or 'no': yes
+
+question: does james lockhart have the possibility to be found of new philology (latin america)?
+answer with 'yes' or 'no': yes
+
+question: does james lockhart have the possibility to be found of new philology (latin america)?
+answer with 'yes
+  Semantic Prediction: no (Confidence: 0.8393)
+  Correctness: Incorrect
+  Performance: Time=4.3914s, Memory=0.3438MB, GPU=3.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Is it true that Marc Bloch could or could be found Annales school?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that marc bloch could or could be found annales school? to determine if it is true that marc bloch could or could be found in the annales school, i will follow these steps:
+
+1. research the history of the annales school.
+2. identify if marc bloch was a student or teacher at the annales school.
+3. determine if marc bloch could or could be found in the annales school.
+
+step 1: research the history of the annales school
+the annales school is a historical institution in france that was founded
+  Semantic Prediction: no (Confidence: 0.9566)
+  Correctness: Incorrect
+  Performance: Time=2.5818s, Memory=0.0664MB, GPU=-4.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+explanation: the question is asking whether marc bloch could be found in the annales school, which is a school of physics that focuses on the development of quantum mechanics and the foundations of quantum theory. the annales school was founded in 1924 by henri poincaré and pierre curie, and it is considered one of the most important schools of physics in the world. bloch was a student of poincaré and curie, and he was a pioneer in the development of quantum mechanics and the foundations of quantum theory. therefore, it is true that marc bloch could be found in the annales school.
+  Semantic Prediction: yes (Confidence: 0.7669)
+  Correctness: Correct
+  Performance: Time=3.8727s, Memory=0.0508MB, GPU=4.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Could Lucien Febvre be found of Annales school?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could lucien febvre be found of annales school? yes, lucien febvre could be found of the annales school. the annales school was a french educational institution founded in 1802 by the french philosopher and mathematician jean-jacques rousseau. it was a school that emphasized the study of human nature and the development of moral character, and was founded in response to the enlightenment movement's emphasis on reason and rationality. the school was highly influential in the development of modern education and was considered a precursor to the modern educational
+  Semantic Prediction: yes (Confidence: 0.9958)
+  Correctness: Correct
+  Performance: Time=2.5333s, Memory=0.0430MB, GPU=-5.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+lucien febvre was born in 1926 in paris, france. the annales school was a french school of mathematics that was founded in 1926 by pierre and marie curie. the school was named after the curie family, who were prominent in the field of physics and had a strong influence on the development of the field. the annales school was founded by pierre curie and his wife, marie curie, and was based in paris. the school was known for its emphasis on experimental mathematics and its focus on the development of mathematical tools for the study of physics. lucien febvre was a french mathematician who was born in 1926 and studied at the annales school.
+  Semantic Prediction: yes (Confidence: 0.9979)
+  Correctness: Correct
+  Performance: Time=4.2793s, Memory=0.0195MB, GPU=7.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Is there any possibility that James Lockhart could not be found of New Philology (Latin America)?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that james lockhart could not be found of new philology (latin america)? yes, there is a possibility that james lockhart could not be found of new philology (latin america). james lockhart was a prominent american philosopher and theologian who was born in 1895 and died in 1972. he was a member of the new philology movement, which was a group of american philosophers and theologians who were interested in the study of latin america and its cultural and intellectual history. the new philology movement was founded in the 19
+  Semantic Prediction: yes (Confidence: 0.6520)
+  Correctness: Incorrect
+  Performance: Time=2.5205s, Memory=0.0273MB, GPU=-4.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: is there any possibility that james lockhart could not be found of new philology (latin america)?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that james lockhart could not be found of new philology (latin america)?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that james lockhart could not be found of new philology (latin america)?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that james lockhart could not be found of new philology (latin america)?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that james lockhart could not be found of new
+  Semantic Prediction: no (Confidence: 0.9968)
+  Correctness: Correct
+  Performance: Time=4.4583s, Memory=0.2070MB, GPU=4.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Does Marc Bloch have the possibility to be found of Annales school?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does marc bloch have the possibility to be found of annales school? yes, marc bloch has the possibility to be found of annales school. annales school is a french literary school founded by the writer and philosopher jean-jacques rousseau in 1762. it is considered one of the most important schools of philosophy in the history of western thought. bloch was a student and teacher of rousseau's ideas, and his work, "the social contract" and "the emancipation of the will," are considered to be part of the
+  Semantic Prediction: yes (Confidence: 0.9993)
+  Correctness: Correct
+  Performance: Time=2.5821s, Memory=0.0508MB, GPU=-5.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+marc bloch is not associated with the annales school of philosophy. the annales school was a french philosophical school that emerged in the 19th century and was characterized by its emphasis on the study of the social sciences and the development of a new scientific method. bloch was a prominent figure in the development of the positivist philosophy of the 19th century, which emphasized the importance of empirical observation and the development of scientific methods. he was also a prominent figure in the development of the scientific method, which emphasized the importance of observation and experimentation in the development of scientific knowledge. bloch's work was characterized by its emphasis on the development of scientific methods and the use of empirical observation to develop scientific knowledge. therefore, it
+  Semantic Prediction: yes (Confidence: 0.9976)
+  Correctness: Correct
+  Performance: Time=4.3455s, Memory=0.3320MB, GPU=2.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Is it true that Lucien Febvre could or could be found Annales school?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that lucien febvre could or could be found annales school? yes, it is true that lucien febvre could or could be found in the annales school. the annales school was a french educational institution that was founded in 1802 by the french philosopher and mathematician jean-jacques rousseau. the school was named after the annales, a town in france where rousseau was born and where he lived for several years. the school was a center of intellectual and philosophical activity in france during the 19th century, and
+  Semantic Prediction: yes (Confidence: 0.9832)
+  Correctness: Correct
+  Performance: Time=2.5572s, Memory=0.0273MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+lucien febvre was a french mathematician and physicist, who was born in 1894 in paris. he was a member of the annales school of mathematics, which was a group of mathematicians who were interested in the foundations of mathematics. the annales school was founded in 1921 by pierre teilhard de chavannes and was based on the idea that mathematics should be based on the principles of physics and the natural world. lucien febvre was a member of the annales school and was known for his work on the foundations of mathematics, particularly in the areas of topology and differential geometry. he was also a pioneer in the development of mathematical physics, and his work had a significant impact on the
+  Semantic Prediction: yes (Confidence: 0.9985)
+  Correctness: Correct
+  Performance: Time=4.4735s, Memory=0.0352MB, GPU=-16.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 10/17 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Could James Lockhart be found of New Philology (Latin America)?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could james lockhart be found of new philology (latin america)? james lockhart was a professor of latin american studies at the university of chicago. new philology is a journal of latin american studies. the journal was founded in 1969. the journal is published by the university of chicago press. the university of chicago press is a publisher of academic books and journals.
+
+the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.6679)
+  Correctness: Correct
+  Performance: Time=1.7636s, Memory=0.0117MB, GPU=14.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+james lockhart was a philosopher and a member of the new philology (latin america) group. he was born in 1928 in new york city, and he studied philosophy at columbia university. he later became a professor of philosophy at the university of california, berkeley. he was also a member of the new philology group, which was a group of scholars who were interested in the study of latin american philosophy. so, yes, james lockhart could be found of new philology (latin america).
+
+question: "what is the name of the group of scholars who were interested in the study of latin american philosophy?"
+answer with 'yes' or 'no': yes
+the group of scholars who were interested in the study
+  Semantic Prediction: no (Confidence: 0.5009)
+  Correctness: Incorrect
+  Performance: Time=4.4059s, Memory=0.0469MB, GPU=4.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 17/17 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 2.3552s (based on 17/17 samples)
+  Avg Memory Usage: 0.2171MB (based on 17/17 samples)
+  Avg GPU Utilization: 19.00% (based on 3/17 samples)
+
+RAG Model:
+  Avg Response Time: 4.2701s (1.81x base)
+  Avg Memory Usage: 0.6477MB (2.98x base)
+  Avg GPU Utilization: 8.27% (0.44x base)
+
+RAG evaluation completed! Results saved to: rag_results/rag_history_qwen_20250722215259.json
+Basic accuracy: 0.8824
+RAG-augmented accuracy: 0.5882
+Performance improvement: -0.2941

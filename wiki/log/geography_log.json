@@ -26,6 +26,46 @@
     {
         "entity": "Q901402",
         "entityLabel": "Geographer",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q28640",
+        "valueLabel": "profession"
+    },
+    {
+        "entity": "Q901402",
+        "entityLabel": "Geographer",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7233691",
+        "valueLabel": "Category:Geographers"
+    },
+    {
+        "entity": "Q901402",
+        "entityLabel": "Geographer",
+        "property": "P425",
+        "propertyLabel": "field of this occupation",
+        "value": "Q124623818",
+        "valueLabel": "Geographical Analysis"
+    },
+    {
+        "entity": "Q901402",
+        "entityLabel": "Geographer",
+        "property": "P425",
+        "propertyLabel": "field of this occupation",
+        "value": "Q1071",
+        "valueLabel": "geography"
+    },
+    {
+        "entity": "Q901402",
+        "entityLabel": "Geographer",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11424604",
+        "valueLabel": "earth scientist"
+    },
+    {
+        "entity": "Q901402",
+        "entityLabel": "Geographer",
         "property": "P2283",
         "propertyLabel": "uses",
         "value": "Q66747519",
@@ -202,6 +242,14 @@
     {
         "entity": "Q223602",
         "entityLabel": "Ladislav Bartolomeides",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q397",
+        "valueLabel": "Latin"
+    },
+    {
+        "entity": "Q223602",
+        "entityLabel": "Ladislav Bartolomeides",
         "property": "P937",
         "propertyLabel": "work location",
         "value": "Q1068529",
@@ -234,10 +282,154 @@
     {
         "entity": "Q223602",
         "entityLabel": "Ladislav Bartolomeides",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q9058",
+        "valueLabel": "Slovak"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
         "property": "P1343",
         "propertyLabel": "described by source",
-        "value": "Q665807",
-        "valueLabel": "Biographisches Lexikon des Kaiserthums Oesterreich"
+        "value": "Q67311526",
+        "valueLabel": "Ob\u00e1lky knih"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q51955019",
+        "valueLabel": "BEIC Digital Library"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
+        "property": "P1299",
+        "propertyLabel": "depicted by",
+        "value": "Q61484470",
+        "valueLabel": "Portrait of Abraham Ortelius"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q21073999",
+        "valueLabel": "Biographisch woordenboek der Nederlanden"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
+        "property": "P937",
+        "propertyLabel": "work location",
+        "value": "Q12892",
+        "valueLabel": "Antwerp"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
+        "property": "P800",
+        "propertyLabel": "notable work",
+        "value": "Q1368633",
+        "valueLabel": "Theatrum Orbis Terrarum"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q17997608",
+        "valueLabel": "Abraham"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q302556",
+        "valueLabel": "Catholic Encyclopedia"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q15987216",
+        "valueLabel": "Dictionary of National Biography, 1885\u20131900"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q590208",
+        "valueLabel": "Allgemeine Deutsche Biographie"
+    },
+    {
+        "entity": "Q232916",
+        "entityLabel": "Abraham Ortelius",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q114077904",
+        "valueLabel": "Q114077904"
+    },
+    {
+        "entity": "Q114582040",
+        "entityLabel": "Supriatna",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q534515",
+        "valueLabel": "University of Indonesia"
+    },
+    {
+        "entity": "Q114582040",
+        "entityLabel": "Supriatna",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q114582040",
+        "entityLabel": "Supriatna",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q252",
+        "valueLabel": "Indonesia"
+    },
+    {
+        "entity": "Q114582040",
+        "entityLabel": "Supriatna",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q114582040",
+        "entityLabel": "Supriatna",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q212238",
+        "valueLabel": "civil servant"
     },
     {
         "entity": "Q3134653",
@@ -330,6 +522,14 @@
     {
         "entity": "Q3134653",
         "entityLabel": "Herv\u00e9 Th\u00e9ry",
+        "property": "P108",
+        "propertyLabel": "employer",
+        "value": "Q280413",
+        "valueLabel": "National Center for Scientific Research"
+    },
+    {
+        "entity": "Q3134653",
+        "entityLabel": "Herv\u00e9 Th\u00e9ry",
         "property": "P734",
         "propertyLabel": "family name",
         "value": "Q88465197",
@@ -394,18 +594,82 @@
     {
         "entity": "Q3134653",
         "entityLabel": "Herv\u00e9 Th\u00e9ry",
-        "property": "P108",
-        "propertyLabel": "employer",
-        "value": "Q280413",
-        "valueLabel": "National Center for Scientific Research"
-    },
-    {
-        "entity": "Q3134653",
-        "entityLabel": "Herv\u00e9 Th\u00e9ry",
         "property": "P26",
         "propertyLabel": "spouse",
         "value": "Q114047409",
         "valueLabel": "Neli Aparecida de Mello-Th\u00e9ry"
+    },
+    {
+        "entity": "Q5806828",
+        "entityLabel": "Diego de Torres y Moyachoque",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q901402",
+        "valueLabel": "geographer"
+    },
+    {
+        "entity": "Q5806828",
+        "entityLabel": "Diego de Torres y Moyachoque",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q5806828",
+        "entityLabel": "Diego de Torres y Moyachoque",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q3579048",
+        "valueLabel": "Diego"
+    },
+    {
+        "entity": "Q5806828",
+        "entityLabel": "Diego de Torres y Moyachoque",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q5806828",
+        "entityLabel": "Diego de Torres y Moyachoque",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q599898",
+        "valueLabel": "cacique"
+    },
+    {
+        "entity": "Q5806828",
+        "entityLabel": "Diego de Torres y Moyachoque",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q236744",
+        "valueLabel": "Tunja"
+    },
+    {
+        "entity": "Q5806828",
+        "entityLabel": "Diego de Torres y Moyachoque",
+        "property": "P20",
+        "propertyLabel": "place of death",
+        "value": "Q2807",
+        "valueLabel": "Madrid"
+    },
+    {
+        "entity": "Q5806828",
+        "entityLabel": "Diego de Torres y Moyachoque",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q1321",
+        "valueLabel": "Spanish"
+    },
+    {
+        "entity": "Q5806828",
+        "entityLabel": "Diego de Torres y Moyachoque",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q2356431",
+        "valueLabel": "Chibcha"
     },
     {
         "entity": "Q6018899",
@@ -480,30 +744,6 @@
         "valueLabel": "urban agglomeration"
     },
     {
-        "entity": "Q5571817",
-        "entityLabel": "Glossary of geography terms (A\u2013M)",
-        "property": "P360",
-        "propertyLabel": "is a list of",
-        "value": "Q66747521",
-        "valueLabel": "geography term"
-    },
-    {
-        "entity": "Q5571817",
-        "entityLabel": "Glossary of geography terms (A\u2013M)",
-        "property": "P31",
-        "propertyLabel": "instance of",
-        "value": "Q63254493",
-        "valueLabel": "Wikimedia glossary list article"
-    },
-    {
-        "entity": "Q5571817",
-        "entityLabel": "Glossary of geography terms (A\u2013M)",
-        "property": "P1754",
-        "propertyLabel": "category related to list",
-        "value": "Q7168963",
-        "valueLabel": "Category:Geography terminology"
-    },
-    {
         "entity": "Q105393916",
         "entityLabel": "Housing Affordability in Anglophone Countries",
         "property": "P31",
@@ -544,6 +784,62 @@
         "valueLabel": "former geographical object"
     },
     {
+        "entity": "Q6634109",
+        "entityLabel": "Lists of political and geographic subdivisions by total area",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q18812095",
+        "entityLabel": "Pond Creek (Little Wapwallopen Creek tributary)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q47521",
+        "valueLabel": "stream"
+    },
+    {
+        "entity": "Q18812095",
+        "entityLabel": "Pond Creek (Little Wapwallopen Creek tributary)",
+        "property": "P4614",
+        "propertyLabel": "drainage basin",
+        "value": "Q46129179",
+        "valueLabel": "Susquehanna River drainage basin"
+    },
+    {
+        "entity": "Q18812095",
+        "entityLabel": "Pond Creek (Little Wapwallopen Creek tributary)",
+        "property": "P1548",
+        "propertyLabel": "maximum Strahler number",
+        "value": "1",
+        "valueLabel": "1"
+    },
+    {
+        "entity": "Q18812095",
+        "entityLabel": "Pond Creek (Little Wapwallopen Creek tributary)",
+        "property": "P403",
+        "propertyLabel": "mouth of the watercourse",
+        "value": "Q16259798",
+        "valueLabel": "Little Wapwallopen Creek"
+    },
+    {
+        "entity": "Q18812095",
+        "entityLabel": "Pond Creek (Little Wapwallopen Creek tributary)",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q18812095",
+        "entityLabel": "Pond Creek (Little Wapwallopen Creek tributary)",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q501292",
+        "valueLabel": "Luzerne County"
+    },
+    {
         "entity": "Q1422929",
         "entityLabel": "Primate city",
         "property": "P279",
@@ -558,5 +854,6285 @@
         "propertyLabel": "instance of",
         "value": "Q13406463",
         "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q2880825",
+        "entityLabel": "Lists of rivers",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q2880825",
+        "entityLabel": "Lists of rivers",
+        "property": "P1754",
+        "propertyLabel": "category related to list",
+        "value": "Q8598368",
+        "valueLabel": "Category:Lists of rivers"
+    },
+    {
+        "entity": "Q2880825",
+        "entityLabel": "Lists of rivers",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8598368",
+        "valueLabel": "Category:Lists of rivers"
+    },
+    {
+        "entity": "Q2880825",
+        "entityLabel": "Lists of rivers",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q3480223",
+        "entityLabel": "Lists of sovereign states and dependent territories",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q6256",
+        "valueLabel": "country"
+    },
+    {
+        "entity": "Q3480223",
+        "entityLabel": "Lists of sovereign states and dependent territories",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q33532284",
+        "valueLabel": "Wikimedia list of lists"
+    },
+    {
+        "entity": "Q3480223",
+        "entityLabel": "Lists of sovereign states and dependent territories",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q3480223",
+        "entityLabel": "Lists of sovereign states and dependent territories",
+        "property": "P1754",
+        "propertyLabel": "category related to list",
+        "value": "Q8597249",
+        "valueLabel": "Category:Lists of countries"
+    },
+    {
+        "entity": "Q6647239",
+        "entityLabel": "Lists of things named after places",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q116948047",
+        "entityLabel": "Timeline of geopolitical changes (1500\u20131899)",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q159385",
+        "valueLabel": "geopolitics"
+    },
+    {
+        "entity": "Q7806039",
+        "entityLabel": "Timeline of geopolitical changes (1900\u20131999)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q186117",
+        "valueLabel": "timeline"
+    },
+    {
+        "entity": "Q113801670",
+        "entityLabel": "Timeline of geopolitical changes (2000\u2013present)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q186117",
+        "valueLabel": "timeline"
+    },
+    {
+        "entity": "Q113801670",
+        "entityLabel": "Timeline of geopolitical changes (2000\u2013present)",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q159385",
+        "valueLabel": "geopolitics"
+    },
+    {
+        "entity": "Q104902143",
+        "entityLabel": "Timeline of geopolitical changes (before 1500)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q186117",
+        "valueLabel": "timeline"
+    },
+    {
+        "entity": "Q104902143",
+        "entityLabel": "Timeline of geopolitical changes (before 1500)",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q159385",
+        "valueLabel": "geopolitics"
+    },
+    {
+        "entity": "Q115121210",
+        "entityLabel": "Aalamul Quran",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q115121210",
+        "entityLabel": "Aalamul Quran",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1617",
+        "valueLabel": "Urdu"
+    },
+    {
+        "entity": "Q115121210",
+        "entityLabel": "Aalamul Quran",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q4665524",
+        "valueLabel": "Abdul Majid Daryabadi"
+    },
+    {
+        "entity": "Q81168110",
+        "entityLabel": "Geography Now",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q1071",
+        "valueLabel": "geography"
+    },
+    {
+        "entity": "Q81168110",
+        "entityLabel": "Geography Now",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "3290000",
+        "valueLabel": "3290000"
+    },
+    {
+        "entity": "Q81168110",
+        "entityLabel": "Geography Now",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "3070000",
+        "valueLabel": "3070000"
+    },
+    {
+        "entity": "Q81168110",
+        "entityLabel": "Geography Now",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17558136",
+        "valueLabel": "YouTube channel"
+    },
+    {
+        "entity": "Q81168110",
+        "entityLabel": "Geography Now",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "3400000",
+        "valueLabel": "3400000"
+    },
+    {
+        "entity": "Q23582520",
+        "entityLabel": "Portrait of Canada",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11424",
+        "valueLabel": "film"
+    },
+    {
+        "entity": "Q23582520",
+        "entityLabel": "Portrait of Canada",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q16",
+        "valueLabel": "Canada"
+    },
+    {
+        "entity": "Q23582520",
+        "entityLabel": "Portrait of Canada",
+        "property": "P364",
+        "propertyLabel": "original language of film or TV show",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q23582520",
+        "entityLabel": "Portrait of Canada",
+        "property": "P462",
+        "propertyLabel": "color",
+        "value": "Q22006653",
+        "valueLabel": "color"
+    },
+    {
+        "entity": "Q23582520",
+        "entityLabel": "Portrait of Canada",
+        "property": "P750",
+        "propertyLabel": "distributed by",
+        "value": "Q461761",
+        "valueLabel": "Canadian Broadcasting Corporation"
+    },
+    {
+        "entity": "Q23582520",
+        "entityLabel": "Portrait of Canada",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q93204",
+        "valueLabel": "documentary film"
+    },
+    {
+        "entity": "Q7189710",
+        "entityLabel": "Physiographic province",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q12018181",
+        "valueLabel": "geomorphological subsystem"
+    },
+    {
+        "entity": "Q7189710",
+        "entityLabel": "Physiographic province",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q59744432",
+        "valueLabel": "physiographic section"
+    },
+    {
+        "entity": "Q7189710",
+        "entityLabel": "Physiographic province",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q59693874",
+        "valueLabel": "physiographic division"
+    },
+    {
+        "entity": "Q7189710",
+        "entityLabel": "Physiographic province",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q12766313",
+        "valueLabel": "geomorphological unit"
+    },
+    {
+        "entity": "Q7189710",
+        "entityLabel": "Physiographic province",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7143603",
+        "valueLabel": "Category:Physiographic provinces"
+    },
+    {
+        "entity": "Q7189710",
+        "entityLabel": "Physiographic province",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q82794",
+        "valueLabel": "region"
+    },
+    {
+        "entity": "Q310342",
+        "entityLabel": "Jebel Akhdar (Libya)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q46831",
+        "valueLabel": "mountain range"
+    },
+    {
+        "entity": "Q310342",
+        "entityLabel": "Jebel Akhdar (Libya)",
+        "property": "P2044",
+        "propertyLabel": "elevation above sea level",
+        "value": "600",
+        "valueLabel": "600"
+    },
+    {
+        "entity": "Q310342",
+        "entityLabel": "Jebel Akhdar (Libya)",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q1016",
+        "valueLabel": "Libya"
+    },
+    {
+        "entity": "Q310342",
+        "entityLabel": "Jebel Akhdar (Libya)",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q1016",
+        "valueLabel": "Libya"
+    },
+    {
+        "entity": "Q310342",
+        "entityLabel": "Jebel Akhdar (Libya)",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8564938",
+        "valueLabel": "Category:Jebel Akhdar (Libya)"
+    },
+    {
+        "entity": "Q310342",
+        "entityLabel": "Jebel Akhdar (Libya)",
+        "property": "P1464",
+        "propertyLabel": "category for people born here",
+        "value": "Q55936059",
+        "valueLabel": "Category:Births in Jebel Akhdar, Libya"
+    },
+    {
+        "entity": "Q11973999",
+        "entityLabel": "Hans Egede Medal",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11448906",
+        "valueLabel": "science award"
+    },
+    {
+        "entity": "Q11973999",
+        "entityLabel": "Hans Egede Medal",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q35",
+        "valueLabel": "Denmark"
+    },
+    {
+        "entity": "Q11973999",
+        "entityLabel": "Hans Egede Medal",
+        "property": "P2517",
+        "propertyLabel": "category for recipients of this award",
+        "value": "Q10105304",
+        "valueLabel": "Q10105304"
+    },
+    {
+        "entity": "Q11973999",
+        "entityLabel": "Hans Egede Medal",
+        "property": "P1027",
+        "propertyLabel": "conferred by",
+        "value": "Q3366651",
+        "valueLabel": "Royal Danish Geographical Society"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P1027",
+        "propertyLabel": "conferred by",
+        "value": "Q15117728",
+        "valueLabel": "The Exploration Museum"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q219417",
+        "valueLabel": "H\u00fasav\u00edk"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q189",
+        "valueLabel": "Iceland"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q618779",
+        "valueLabel": "award"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q42838",
+        "valueLabel": "Leif Erikson"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P2517",
+        "propertyLabel": "category for recipients of this award",
+        "value": "Q127034375",
+        "valueLabel": "Category:Recipients of the Leif Erikson Awards"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q107494396",
+        "valueLabel": "geography award"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q107655869",
+        "valueLabel": "group of awards"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q134126453",
+        "valueLabel": "Leif Erikson Award"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q134126454",
+        "valueLabel": "Leif Erikson Young Explorer Award"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q134126455",
+        "valueLabel": "Leif Erikson Exploration History Award"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q134126456",
+        "valueLabel": "Leif Erikson Social Media Award"
+    },
+    {
+        "entity": "Q22079694",
+        "entityLabel": "Leif Erikson Awards",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q134126458",
+        "valueLabel": "Leif Erikson Lunar Prize"
+    },
+    {
+        "entity": "Q5506936",
+        "entityLabel": "Fuchs Medal",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q618779",
+        "valueLabel": "award"
+    },
+    {
+        "entity": "Q19904118",
+        "entityLabel": "Grande M\u00e9daille d'Or des Explorations",
+        "property": "P2517",
+        "propertyLabel": "category for recipients of this award",
+        "value": "Q65005088",
+        "valueLabel": "Category:Recipients of the Grande M\u00e9daille d'Or des Explorations"
+    },
+    {
+        "entity": "Q19904118",
+        "entityLabel": "Grande M\u00e9daille d'Or des Explorations",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11448906",
+        "valueLabel": "science award"
+    },
+    {
+        "entity": "Q19904118",
+        "entityLabel": "Grande M\u00e9daille d'Or des Explorations",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q142",
+        "valueLabel": "France"
+    },
+    {
+        "entity": "Q19904118",
+        "entityLabel": "Grande M\u00e9daille d'Or des Explorations",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q131647",
+        "valueLabel": "medallion"
+    },
+    {
+        "entity": "Q19904118",
+        "entityLabel": "Grande M\u00e9daille d'Or des Explorations",
+        "property": "P1027",
+        "propertyLabel": "conferred by",
+        "value": "Q2297128",
+        "valueLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie"
+    },
+    {
+        "entity": "Q19904118",
+        "entityLabel": "Grande M\u00e9daille d'Or des Explorations",
+        "property": "P859",
+        "propertyLabel": "sponsor",
+        "value": "Q2297128",
+        "valueLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie"
+    },
+    {
+        "entity": "Q4287207",
+        "entityLabel": "Hubbard Medal",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q4287207",
+        "entityLabel": "Hubbard Medal",
+        "property": "P2517",
+        "propertyLabel": "category for recipients of this award",
+        "value": "Q113653942",
+        "valueLabel": "Category:Recipients of the Hubbard Medal"
+    },
+    {
+        "entity": "Q4287207",
+        "entityLabel": "Hubbard Medal",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q1494134",
+        "valueLabel": "Gardiner Greene Hubbard"
+    },
+    {
+        "entity": "Q4287207",
+        "entityLabel": "Hubbard Medal",
+        "property": "P859",
+        "propertyLabel": "sponsor",
+        "value": "Q167186",
+        "valueLabel": "National Geographic Society"
+    },
+    {
+        "entity": "Q4287207",
+        "entityLabel": "Hubbard Medal",
+        "property": "P1027",
+        "propertyLabel": "conferred by",
+        "value": "Q167186",
+        "valueLabel": "National Geographic Society"
+    },
+    {
+        "entity": "Q4287207",
+        "entityLabel": "Hubbard Medal",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q618779",
+        "valueLabel": "award"
+    },
+    {
+        "entity": "Q3117740",
+        "entityLabel": "Vautrin Lud Prize",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q142",
+        "valueLabel": "France"
+    },
+    {
+        "entity": "Q3117740",
+        "entityLabel": "Vautrin Lud Prize",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11448906",
+        "valueLabel": "science award"
+    },
+    {
+        "entity": "Q3117740",
+        "entityLabel": "Vautrin Lud Prize",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q13342923",
+        "valueLabel": "Category:Prix Vautrin Lud"
+    },
+    {
+        "entity": "Q3117740",
+        "entityLabel": "Vautrin Lud Prize",
+        "property": "P2517",
+        "propertyLabel": "category for recipients of this award",
+        "value": "Q8639079",
+        "valueLabel": "Category:Recipients of the Vautrin Lud International Geography Prize"
+    },
+    {
+        "entity": "Q3117740",
+        "entityLabel": "Vautrin Lud Prize",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q3555111",
+        "valueLabel": "Vautrin Lud"
+    },
+    {
+        "entity": "Q1061245",
+        "entityLabel": "Massey Medal",
+        "property": "P859",
+        "propertyLabel": "sponsor",
+        "value": "Q6784609",
+        "valueLabel": "Massey Foundation"
+    },
+    {
+        "entity": "Q1061245",
+        "entityLabel": "Massey Medal",
+        "property": "P1027",
+        "propertyLabel": "conferred by",
+        "value": "Q3098719",
+        "valueLabel": "Royal Canadian Geographical Society"
+    },
+    {
+        "entity": "Q1061245",
+        "entityLabel": "Massey Medal",
+        "property": "P2517",
+        "propertyLabel": "category for recipients of this award",
+        "value": "Q6275521",
+        "valueLabel": "Category:Massey Medal recipients"
+    },
+    {
+        "entity": "Q1061245",
+        "entityLabel": "Massey Medal",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q5674217",
+        "valueLabel": "Hart Massey"
+    },
+    {
+        "entity": "Q1061245",
+        "entityLabel": "Massey Medal",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6275521",
+        "valueLabel": "Category:Massey Medal recipients"
+    },
+    {
+        "entity": "Q1061245",
+        "entityLabel": "Massey Medal",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q618779",
+        "valueLabel": "award"
+    },
+    {
+        "entity": "Q1061245",
+        "entityLabel": "Massey Medal",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q16",
+        "valueLabel": "Canada"
+    },
+    {
+        "entity": "Q3332237",
+        "entityLabel": "Vega Medal",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q34",
+        "valueLabel": "Sweden"
+    },
+    {
+        "entity": "Q3332237",
+        "entityLabel": "Vega Medal",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q175437",
+        "valueLabel": "SS Vega"
+    },
+    {
+        "entity": "Q3332237",
+        "entityLabel": "Vega Medal",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q131647",
+        "valueLabel": "medallion"
+    },
+    {
+        "entity": "Q3332237",
+        "entityLabel": "Vega Medal",
+        "property": "P2517",
+        "propertyLabel": "category for recipients of this award",
+        "value": "Q10105747",
+        "valueLabel": "Category:Recipients of the Vega Medal"
+    },
+    {
+        "entity": "Q3332237",
+        "entityLabel": "Vega Medal",
+        "property": "P1027",
+        "propertyLabel": "conferred by",
+        "value": "Q7654863",
+        "valueLabel": "Swedish Society for Anthropology and Geography"
+    },
+    {
+        "entity": "Q3332237",
+        "entityLabel": "Vega Medal",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11448906",
+        "valueLabel": "science award"
+    },
+    {
+        "entity": "Q1265938",
+        "entityLabel": "Alpine Club classification of the Eastern Alps",
+        "property": "P170",
+        "propertyLabel": "creator",
+        "value": "Q27862322",
+        "valueLabel": "Franz Grassler"
+    },
+    {
+        "entity": "Q1265938",
+        "entityLabel": "Alpine Club classification of the Eastern Alps",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2352616",
+        "valueLabel": "catalogue"
+    },
+    {
+        "entity": "Q1265938",
+        "entityLabel": "Alpine Club classification of the Eastern Alps",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5962346",
+        "valueLabel": "classification scheme"
+    },
+    {
+        "entity": "Q1564708",
+        "entityLabel": "Classification of objects of the administrative-territorial system of Ukraine",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q317623",
+        "valueLabel": "technical standard"
+    },
+    {
+        "entity": "Q1564708",
+        "entityLabel": "Classification of objects of the administrative-territorial system of Ukraine",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q212",
+        "valueLabel": "Ukraine"
+    },
+    {
+        "entity": "Q2032647",
+        "entityLabel": "Ecological classification",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q121344523",
+        "valueLabel": "type of classification"
+    },
+    {
+        "entity": "Q2032647",
+        "entityLabel": "Ecological classification",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q13582682",
+        "valueLabel": "classification"
+    },
+    {
+        "entity": "Q2032647",
+        "entityLabel": "Ecological classification",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q864896",
+        "valueLabel": "biotypology"
+    },
+    {
+        "entity": "Q925615",
+        "entityLabel": "Hardiness zone",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q219858",
+        "valueLabel": "zone"
+    },
+    {
+        "entity": "Q925615",
+        "entityLabel": "Hardiness zone",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1852702",
+        "valueLabel": "hardiness"
+    },
+    {
+        "entity": "Q2625459",
+        "entityLabel": "Holdridge life zones",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5962346",
+        "valueLabel": "classification scheme"
+    },
+    {
+        "entity": "Q2625459",
+        "entityLabel": "Holdridge life zones",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q321104",
+        "valueLabel": "Leslie Holdridge"
+    },
+    {
+        "entity": "Q2067021",
+        "entityLabel": "Physiographic region",
+        "property": "P2354",
+        "propertyLabel": "has list",
+        "value": "Q23581558",
+        "valueLabel": "list of the physiographic regions of the world"
+    },
+    {
+        "entity": "Q2067021",
+        "entityLabel": "Physiographic region",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q52109",
+        "valueLabel": "geomorphology"
+    },
+    {
+        "entity": "Q2067021",
+        "entityLabel": "Physiographic region",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5962346",
+        "valueLabel": "classification scheme"
+    },
+    {
+        "entity": "Q2067021",
+        "entityLabel": "Physiographic region",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q123560817",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 1"
+    },
+    {
+        "entity": "Q2067021",
+        "entityLabel": "Physiographic region",
+        "property": "P144",
+        "propertyLabel": "based on",
+        "value": "Q58190430",
+        "valueLabel": "Q58190430"
+    },
+    {
+        "entity": "Q2067021",
+        "entityLabel": "Physiographic region",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q52107",
+        "valueLabel": "physical geography"
+    },
+    {
+        "entity": "Q2067021",
+        "entityLabel": "Physiographic region",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q11834037",
+        "valueLabel": "physico-geographical regionalization"
+    },
+    {
+        "entity": "Q2067021",
+        "entityLabel": "Physiographic region",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q11834037",
+        "valueLabel": "physico-geographical regionalization"
+    },
+    {
+        "entity": "Q7990115",
+        "entityLabel": "Wetland classification",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q121344523",
+        "valueLabel": "type of classification"
+    },
+    {
+        "entity": "Q4824209",
+        "entityLabel": "Australian Geography Competition",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q408",
+        "valueLabel": "Australia"
+    },
+    {
+        "entity": "Q5535102",
+        "entityLabel": "Geography Cup",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q35127",
+        "valueLabel": "website"
+    },
+    {
+        "entity": "Q4979789",
+        "entityLabel": "Brussels Geographic Conference",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q635307",
+        "valueLabel": "Royal Palace of Brussels"
+    },
+    {
+        "entity": "Q4979789",
+        "entityLabel": "Brussels Geographic Conference",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q239",
+        "valueLabel": "City of Brussels"
+    },
+    {
+        "entity": "Q4979789",
+        "entityLabel": "Brussels Geographic Conference",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q31",
+        "valueLabel": "Belgium"
+    },
+    {
+        "entity": "Q4979789",
+        "entityLabel": "Brussels Geographic Conference",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q625994",
+        "valueLabel": "convention"
+    },
+    {
+        "entity": "Q5453047",
+        "entityLabel": "First Geography Congress, Turkey",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q43",
+        "valueLabel": "Turkey"
+    },
+    {
+        "entity": "Q1194993",
+        "entityLabel": "International Meridian Conference",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q625994",
+        "valueLabel": "convention"
+    },
+    {
+        "entity": "Q1194993",
+        "entityLabel": "International Meridian Conference",
+        "property": "P1132",
+        "propertyLabel": "number of participants",
+        "value": "41",
+        "valueLabel": "41"
+    },
+    {
+        "entity": "Q1194993",
+        "entityLabel": "International Meridian Conference",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q1194993",
+        "entityLabel": "International Meridian Conference",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q61",
+        "valueLabel": "Washington, D.C."
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q106727050",
+        "valueLabel": "Metropolitan Museum of Art Tagging Vocabulary"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2041543",
+        "valueLabel": "Q2041543"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q37813",
+        "valueLabel": "ecosystem"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q26117270",
+        "valueLabel": "Q26117270"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4173137",
+        "valueLabel": "Jewish Encyclopedia of Brockhaus and Efron"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P2354",
+        "propertyLabel": "has list",
+        "value": "Q593814",
+        "valueLabel": "list of deserts"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q52105",
+        "valueLabel": "habitat"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107425",
+        "valueLabel": "landscape"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7217334",
+        "valueLabel": "Category:Deserts"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q8090685",
+        "valueLabel": "Template:Deserts"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q11644534",
+        "valueLabel": "Template:Infobox desert"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q43619",
+        "valueLabel": "natural environment"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20096917",
+        "valueLabel": "Encyclop\u00e6dia Britannica Ninth Edition"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q123560817",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 1"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5309708",
+        "valueLabel": "drylands"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P2959",
+        "propertyLabel": "permanent duplicated item",
+        "value": "Q127604944",
+        "valueLabel": "Q127604944"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q271669",
+        "valueLabel": "landform"
+    },
+    {
+        "entity": "Q8514",
+        "entityLabel": "Desert",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q319120",
+        "valueLabel": "erg"
+    },
+    {
+        "entity": "Q215839",
+        "entityLabel": "Aeolian processes",
+        "property": "P1542",
+        "propertyLabel": "has effect",
+        "value": "Q4687862",
+        "valueLabel": "aeolian landform"
+    },
+    {
+        "entity": "Q215839",
+        "entityLabel": "Aeolian processes",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q3181656",
+        "valueLabel": "The Nuttall Encyclop\u00e6dia"
+    },
+    {
+        "entity": "Q215839",
+        "entityLabel": "Aeolian processes",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9911702",
+        "valueLabel": "Q9911702"
+    },
+    {
+        "entity": "Q215839",
+        "entityLabel": "Aeolian processes",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11827380",
+        "valueLabel": "geomorphological process"
+    },
+    {
+        "entity": "Q835798",
+        "entityLabel": "Budapest-Bamako",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q28",
+        "valueLabel": "Hungary"
+    },
+    {
+        "entity": "Q835798",
+        "entityLabel": "Budapest-Bamako",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2441722",
+        "valueLabel": "charity event"
+    },
+    {
+        "entity": "Q835798",
+        "entityLabel": "Budapest-Bamako",
+        "property": "P641",
+        "propertyLabel": "sport",
+        "value": "Q569205",
+        "valueLabel": "rally raid"
+    },
+    {
+        "entity": "Q835798",
+        "entityLabel": "Budapest-Bamako",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q569205",
+        "valueLabel": "rally raid"
+    },
+    {
+        "entity": "Q835798",
+        "entityLabel": "Budapest-Bamako",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q24050099",
+        "valueLabel": "auto race"
+    },
+    {
+        "entity": "Q835798",
+        "entityLabel": "Budapest-Bamako",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q56448818",
+        "valueLabel": "road rallying"
+    },
+    {
+        "entity": "Q835798",
+        "entityLabel": "Budapest-Bamako",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406554",
+        "valueLabel": "sports competition"
+    },
+    {
+        "entity": "Q5104345",
+        "entityLabel": "Cholistan Desert Jeep Rally",
+        "property": "P641",
+        "propertyLabel": "sport",
+        "value": "Q5386",
+        "valueLabel": "auto racing"
+    },
+    {
+        "entity": "Q5104345",
+        "entityLabel": "Cholistan Desert Jeep Rally",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q843",
+        "valueLabel": "Pakistan"
+    },
+    {
+        "entity": "Q190946",
+        "entityLabel": "Desert climate",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q23702033",
+        "valueLabel": "category in the K\u00f6ppen climate classification systems"
+    },
+    {
+        "entity": "Q190946",
+        "entityLabel": "Desert climate",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1330709",
+        "valueLabel": "arid"
+    },
+    {
+        "entity": "Q190946",
+        "entityLabel": "Desert climate",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q1330709",
+        "valueLabel": "arid"
+    },
+    {
+        "entity": "Q190946",
+        "entityLabel": "Desert climate",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q124095",
+        "valueLabel": "K\u00f6ppen climate classification"
+    },
+    {
+        "entity": "Q190946",
+        "entityLabel": "Desert climate",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5772644",
+        "valueLabel": "dry climate"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q50315955",
+        "valueLabel": "2019 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q578530",
+        "valueLabel": "1989 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q260738",
+        "valueLabel": "1996 Granada\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1187929",
+        "valueLabel": "2006 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1488043",
+        "valueLabel": "1987 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P641",
+        "propertyLabel": "sport",
+        "value": "Q569205",
+        "valueLabel": "rally raid"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q18",
+        "valueLabel": "South America"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q898330",
+        "valueLabel": "1983 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q836217",
+        "valueLabel": "1999 Granada\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q930782",
+        "valueLabel": "1982 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q56610307",
+        "valueLabel": "rally raid race"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q836561",
+        "valueLabel": "1997 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q20015625",
+        "valueLabel": "2016 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1488638",
+        "valueLabel": "2002 Arras\u2013Madrid\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q511441",
+        "valueLabel": "2011 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q963751",
+        "valueLabel": "1986 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q639492",
+        "valueLabel": "1995 Granada\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q64020868",
+        "valueLabel": "2020 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q369444",
+        "valueLabel": "1988 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q15",
+        "valueLabel": "Africa"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q125747490",
+        "valueLabel": "2025 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1093475",
+        "valueLabel": "1980 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q8574924",
+        "valueLabel": "2014 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q121356764",
+        "valueLabel": "2024 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q647977",
+        "valueLabel": "2004 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q688000",
+        "valueLabel": "2009 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q23927054",
+        "valueLabel": "2017 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q608080",
+        "valueLabel": "1998 Paris\u2013Granada\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q968085",
+        "valueLabel": "2013 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q670029",
+        "valueLabel": "1985 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q112246397",
+        "valueLabel": "2023 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q16624209",
+        "valueLabel": "2015 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q898045",
+        "valueLabel": "2001 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q851",
+        "valueLabel": "Saudi Arabia"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q369819",
+        "valueLabel": "2005 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q898331",
+        "valueLabel": "1984 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q269053",
+        "valueLabel": "1994 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q46",
+        "valueLabel": "Europe"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q633512",
+        "valueLabel": "1981 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q898122",
+        "valueLabel": "2003 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q96211139",
+        "valueLabel": "2021 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q898042",
+        "valueLabel": "2000 Paris\u2013Dakar\u2013Cairo Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q931772",
+        "valueLabel": "2008 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q614043",
+        "valueLabel": "1990 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q29017283",
+        "valueLabel": "2018 Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q774247",
+        "valueLabel": "1979 Paris\u2013Dakar Rally"
+    },
+    {
+        "entity": "Q181336",
+        "entityLabel": "Dakar Rally",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q732381",
+        "valueLabel": "2010 Dakar Rally"
+    },
+    {
+        "entity": "Q5264064",
+        "entityLabel": "Desert ecology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q105375725",
+        "valueLabel": "arid regions ecology"
+    },
+    {
+        "entity": "Q5264064",
+        "entityLabel": "Desert ecology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q7150",
+        "valueLabel": "ecology"
+    },
+    {
+        "entity": "Q5264064",
+        "entityLabel": "Desert ecology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q104193250",
+        "valueLabel": "branch of ecology"
+    },
+    {
+        "entity": "Q5264064",
+        "entityLabel": "Desert ecology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q5264064",
+        "entityLabel": "Desert ecology",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q105550293",
+        "valueLabel": "xeric ecology"
+    },
+    {
+        "entity": "Q5264065",
+        "entityLabel": "Desert exploration",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q6502154",
+        "valueLabel": "exploration"
+    },
+    {
+        "entity": "Q5264065",
+        "entityLabel": "Desert exploration",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2597019",
+        "valueLabel": "W\u00fcste"
+    },
+    {
+        "entity": "Q5477455",
+        "entityLabel": "Desert pavement",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q8514",
+        "valueLabel": "desert"
+    },
+    {
+        "entity": "Q5477455",
+        "entityLabel": "Desert pavement",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q3506581",
+        "valueLabel": "Reg District"
+    },
+    {
+        "entity": "Q5477455",
+        "entityLabel": "Desert pavement",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q49756645",
+        "valueLabel": "Category:Desert pavement"
+    },
+    {
+        "entity": "Q5477455",
+        "entityLabel": "Desert pavement",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4687862",
+        "valueLabel": "aeolian landform"
+    },
+    {
+        "entity": "Q351043",
+        "entityLabel": "Desert varnish",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1570182",
+        "valueLabel": "coating"
+    },
+    {
+        "entity": "Q351043",
+        "entityLabel": "Desert varnish",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q13085",
+        "valueLabel": "sandstone"
+    },
+    {
+        "entity": "Q351043",
+        "entityLabel": "Desert varnish",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q123560817",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 1"
+    },
+    {
+        "entity": "Q351043",
+        "entityLabel": "Desert varnish",
+        "property": "P186",
+        "propertyLabel": "made from material",
+        "value": "Q383713",
+        "valueLabel": "hausmannite"
+    },
+    {
+        "entity": "Q351043",
+        "entityLabel": "Desert varnish",
+        "property": "P186",
+        "propertyLabel": "made from material",
+        "value": "Q103223",
+        "valueLabel": "hematite"
+    },
+    {
+        "entity": "Q351043",
+        "entityLabel": "Desert varnish",
+        "property": "P186",
+        "propertyLabel": "made from material",
+        "value": "Q177342",
+        "valueLabel": "aluminium oxide"
+    },
+    {
+        "entity": "Q351043",
+        "entityLabel": "Desert varnish",
+        "property": "P186",
+        "propertyLabel": "made from material",
+        "value": "Q401047",
+        "valueLabel": "manganite"
+    },
+    {
+        "entity": "Q351043",
+        "entityLabel": "Desert varnish",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q8514",
+        "valueLabel": "desert"
+    },
+    {
+        "entity": "Q351043",
+        "entityLabel": "Desert varnish",
+        "property": "P186",
+        "propertyLabel": "made from material",
+        "value": "Q413391",
+        "valueLabel": "braunite"
+    },
+    {
+        "entity": "Q351043",
+        "entityLabel": "Desert varnish",
+        "property": "P186",
+        "propertyLabel": "made from material",
+        "value": "Q116269",
+        "valueLabel": "silicon dioxide"
+    },
+    {
+        "entity": "Q5450426",
+        "entityLabel": "Finke Desert Race",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q408",
+        "valueLabel": "Australia"
+    },
+    {
+        "entity": "Q3630267",
+        "entityLabel": "Fog desert",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q8514",
+        "valueLabel": "desert"
+    },
+    {
+        "entity": "Q3630267",
+        "entityLabel": "Fog desert",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q5464055",
+        "valueLabel": "Fog drip"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q30639032",
+        "valueLabel": "Category:Desert greening"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2384419",
+        "valueLabel": "afforestation"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q651385",
+        "valueLabel": "revegetation"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2428433",
+        "valueLabel": "restoration ecology"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q8514",
+        "valueLabel": "desert"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q183481",
+        "valueLabel": "desertification"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P3712",
+        "propertyLabel": "has goal",
+        "value": "Q47041",
+        "valueLabel": "biodiversity"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P3712",
+        "propertyLabel": "has goal",
+        "value": "Q2751054",
+        "valueLabel": "sustainable agriculture"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P3712",
+        "propertyLabel": "has goal",
+        "value": "Q38112",
+        "valueLabel": "forestry"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P61",
+        "propertyLabel": "discoverer or inventor",
+        "value": "Q11642047",
+        "valueLabel": "Seiei T\u014dyama"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P1542",
+        "propertyLabel": "has effect",
+        "value": "Q15305550",
+        "valueLabel": "carbon sequestration"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P5869",
+        "propertyLabel": "model item",
+        "value": "Q1073622",
+        "valueLabel": "Green Wall of China"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P5869",
+        "propertyLabel": "model item",
+        "value": "Q387790",
+        "valueLabel": "African Great Green Wall"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q927054",
+        "valueLabel": "pioneer species"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q15544907",
+        "valueLabel": "Acamptopappus shockleyi"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q6527420",
+        "valueLabel": "Lepidium fremontii"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q332788",
+        "valueLabel": "halophyte"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q159525",
+        "valueLabel": "Salicornia"
+    },
+    {
+        "entity": "Q4115648",
+        "entityLabel": "Desert greening",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q2137507",
+        "valueLabel": "rainwater harvesting"
+    },
+    {
+        "entity": "Q1037127",
+        "entityLabel": "Desert planet",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q8514",
+        "valueLabel": "desert"
+    },
+    {
+        "entity": "Q1037127",
+        "entityLabel": "Desert planet",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q80796829",
+        "valueLabel": "hypothetic terrestrial planet"
+    },
+    {
+        "entity": "Q3290007",
+        "entityLabel": "Polar desert",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q8514",
+        "valueLabel": "desert"
+    },
+    {
+        "entity": "Q85816233",
+        "entityLabel": "World Deserts Foundation",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q85816233",
+        "entityLabel": "World Deserts Foundation",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q262",
+        "valueLabel": "Algeria"
+    },
+    {
+        "entity": "Q85816233",
+        "entityLabel": "World Deserts Foundation",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q2962740",
+        "valueLabel": "Cherif Rahmani"
+    },
+    {
+        "entity": "Q85816233",
+        "entityLabel": "World Deserts Foundation",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q622841",
+        "valueLabel": "Ghardaia"
+    },
+    {
+        "entity": "Q4992684",
+        "entityLabel": "Yellow dune",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1606926",
+        "valueLabel": "coastal dune"
+    },
+    {
+        "entity": "Q463178",
+        "entityLabel": "America \u2013 The Freedom to Be",
+        "property": "P1113",
+        "propertyLabel": "number of episodes",
+        "value": "13",
+        "valueLabel": "13"
+    },
+    {
+        "entity": "Q463178",
+        "entityLabel": "America \u2013 The Freedom to Be",
+        "property": "P2437",
+        "propertyLabel": "number of seasons",
+        "value": "1",
+        "valueLabel": "1"
+    },
+    {
+        "entity": "Q463178",
+        "entityLabel": "America \u2013 The Freedom to Be",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q2313213",
+        "valueLabel": "language education"
+    },
+    {
+        "entity": "Q463178",
+        "entityLabel": "America \u2013 The Freedom to Be",
+        "property": "P449",
+        "propertyLabel": "original broadcaster",
+        "value": "Q203453",
+        "valueLabel": "Westdeutscher Rundfunk"
+    },
+    {
+        "entity": "Q463178",
+        "entityLabel": "America \u2013 The Freedom to Be",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q183",
+        "valueLabel": "Germany"
+    },
+    {
+        "entity": "Q463178",
+        "entityLabel": "America \u2013 The Freedom to Be",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5398426",
+        "valueLabel": "television series"
+    },
+    {
+        "entity": "Q5324558",
+        "entityLabel": "EUROGEO-European Association of Geographers",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q239",
+        "valueLabel": "City of Brussels"
+    },
+    {
+        "entity": "Q5324558",
+        "entityLabel": "EUROGEO-European Association of Geographers",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q96888669",
+        "valueLabel": "academic publisher"
+    },
+    {
+        "entity": "Q5324558",
+        "entityLabel": "EUROGEO-European Association of Geographers",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q163740",
+        "valueLabel": "nonprofit organization"
+    },
+    {
+        "entity": "Q5324558",
+        "entityLabel": "EUROGEO-European Association of Geographers",
+        "property": "P1454",
+        "propertyLabel": "legal form",
+        "value": "Q48204",
+        "valueLabel": "voluntary association"
+    },
+    {
+        "entity": "Q5324558",
+        "entityLabel": "EUROGEO-European Association of Geographers",
+        "property": "P463",
+        "propertyLabel": "member of",
+        "value": "Q122976353",
+        "valueLabel": "European Alliance for Social Sciences and Humanities"
+    },
+    {
+        "entity": "Q5324558",
+        "entityLabel": "EUROGEO-European Association of Geographers",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q31",
+        "valueLabel": "Belgium"
+    },
+    {
+        "entity": "Q1324355",
+        "entityLabel": "Geopark",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q473972",
+        "valueLabel": "protected area"
+    },
+    {
+        "entity": "Q1324355",
+        "entityLabel": "Geopark",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8488111",
+        "valueLabel": "Category:Geoparks"
+    },
+    {
+        "entity": "Q1324355",
+        "entityLabel": "Geopark",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q117834546",
+        "valueLabel": "IUGS Geological Heritage Site"
+    },
+    {
+        "entity": "Q1324355",
+        "entityLabel": "Geopark",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q728904",
+        "valueLabel": "nature park"
+    },
+    {
+        "entity": "Q1324355",
+        "entityLabel": "Geopark",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q63438922",
+        "valueLabel": "international recognition"
+    },
+    {
+        "entity": "Q1324355",
+        "entityLabel": "Geopark",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q386426",
+        "valueLabel": "natural heritage"
+    },
+    {
+        "entity": "Q1937932",
+        "entityLabel": "International Geography Olympiad",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q671111",
+        "valueLabel": "International Science Olympiad"
+    },
+    {
+        "entity": "Q1937932",
+        "entityLabel": "International Geography Olympiad",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q1071",
+        "valueLabel": "geography"
+    },
+    {
+        "entity": "Q1937932",
+        "entityLabel": "International Geography Olympiad",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11483816",
+        "valueLabel": "annual event"
+    },
+    {
+        "entity": "Q116967296",
+        "entityLabel": "Exploration",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q4544684",
+        "valueLabel": "search"
+    },
+    {
+        "entity": "Q116967296",
+        "entityLabel": "Exploration",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q61788060",
+        "valueLabel": "human activity"
+    },
+    {
+        "entity": "Q116967296",
+        "entityLabel": "Exploration",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q42240",
+        "valueLabel": "research"
+    },
+    {
+        "entity": "Q133641",
+        "entityLabel": "Age of Discovery",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q123560817",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 1"
+    },
+    {
+        "entity": "Q133641",
+        "entityLabel": "Age of Discovery",
+        "property": "P155",
+        "propertyLabel": "follows",
+        "value": "Q12554",
+        "valueLabel": "Middle Ages"
+    },
+    {
+        "entity": "Q133641",
+        "entityLabel": "Age of Discovery",
+        "property": "P156",
+        "propertyLabel": "followed by",
+        "value": "Q5308718",
+        "valueLabel": "early modern period"
+    },
+    {
+        "entity": "Q133641",
+        "entityLabel": "Age of Discovery",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17522177",
+        "valueLabel": "age"
+    },
+    {
+        "entity": "Q133641",
+        "entityLabel": "Age of Discovery",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7145320",
+        "valueLabel": "Category:Age of Discovery"
+    },
+    {
+        "entity": "Q133641",
+        "entityLabel": "Age of Discovery",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11514315",
+        "valueLabel": "historical period"
+    },
+    {
+        "entity": "Q2667474",
+        "entityLabel": "Age of Sail",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q14971823",
+        "valueLabel": "Marjorie-Wiki"
+    },
+    {
+        "entity": "Q2667474",
+        "entityLabel": "Age of Sail",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q192520",
+        "valueLabel": "sailing"
+    },
+    {
+        "entity": "Q2667474",
+        "entityLabel": "Age of Sail",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11514315",
+        "valueLabel": "historical period"
+    },
+    {
+        "entity": "Q2667474",
+        "entityLabel": "Age of Sail",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q15309213",
+        "valueLabel": "Category:Age of Sail"
+    },
+    {
+        "entity": "Q2667474",
+        "entityLabel": "Age of Sail",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1516975",
+        "valueLabel": "maritime history"
+    },
+    {
+        "entity": "Q2667474",
+        "entityLabel": "Age of Sail",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q170483",
+        "valueLabel": "sailing ship"
+    },
+    {
+        "entity": "Q16999243",
+        "entityLabel": "Botanical expeditions",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q366301",
+        "valueLabel": "research expedition"
+    },
+    {
+        "entity": "Q1046537",
+        "entityLabel": "Casa de Contrataci\u00f3n",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5755091",
+        "valueLabel": "casa de contrataci\u00f3n"
+    },
+    {
+        "entity": "Q1046537",
+        "entityLabel": "Casa de Contrataci\u00f3n",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q29",
+        "valueLabel": "Spain"
+    },
+    {
+        "entity": "Q1046537",
+        "entityLabel": "Casa de Contrataci\u00f3n",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q327333",
+        "valueLabel": "government agency"
+    },
+    {
+        "entity": "Q1046537",
+        "entityLabel": "Casa de Contrataci\u00f3n",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q217196",
+        "valueLabel": "Crown of Castile"
+    },
+    {
+        "entity": "Q1046537",
+        "entityLabel": "Casa de Contrataci\u00f3n",
+        "property": "P2541",
+        "propertyLabel": "operating area",
+        "value": "Q80702",
+        "valueLabel": "Spanish Empire"
+    },
+    {
+        "entity": "Q1046537",
+        "entityLabel": "Casa de Contrataci\u00f3n",
+        "property": "P740",
+        "propertyLabel": "location of formation",
+        "value": "Q8717",
+        "valueLabel": "Seville"
+    },
+    {
+        "entity": "Q1046537",
+        "entityLabel": "Casa de Contrataci\u00f3n",
+        "property": "P355",
+        "propertyLabel": "child organization/unit",
+        "value": "Q123302028",
+        "valueLabel": "Q123302028"
+    },
+    {
+        "entity": "Q1046537",
+        "entityLabel": "Casa de Contrataci\u00f3n",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q123302028",
+        "valueLabel": "Q123302028"
+    },
+    {
+        "entity": "Q1046537",
+        "entityLabel": "Casa de Contrataci\u00f3n",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q56760821",
+        "valueLabel": "Category:Casa de la Contrataci\u00f3n"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P156",
+        "propertyLabel": "followed by",
+        "value": "Q110972612",
+        "valueLabel": "Challenger Office"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P121",
+        "propertyLabel": "item operated",
+        "value": "Q119397",
+        "valueLabel": "HMS Challenger"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q130475091",
+        "valueLabel": "oceanographic cruise"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q3088214",
+        "valueLabel": "Henry Nottidge Moseley"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q174193",
+        "valueLabel": "United Kingdom of Great Britain and Ireland"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P1416",
+        "propertyLabel": "affiliation",
+        "value": "Q110972612",
+        "valueLabel": "Challenger Office"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q18912236",
+        "valueLabel": "John Young Buchanan"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P3712",
+        "propertyLabel": "has goal",
+        "value": "Q3062149",
+        "valueLabel": "Deep-sea exploration"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q3181656",
+        "valueLabel": "The Nuttall Encyclop\u00e6dia"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P11146",
+        "propertyLabel": "collection items at",
+        "value": "Q309388",
+        "valueLabel": "Natural History Museum, London"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q703564",
+        "valueLabel": "John Murray"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q7377374",
+        "valueLabel": "Rudolf von Willemoes-Suhm"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q504761",
+        "valueLabel": "George Nares"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q945539",
+        "valueLabel": "Charles Wyville Thomson"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P1876",
+        "propertyLabel": "vessel",
+        "value": "Q119397",
+        "valueLabel": "HMS Challenger"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q64281303",
+        "valueLabel": "Q64281303"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q124562518",
+        "valueLabel": "Frank Tourle Thomson"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P485",
+        "propertyLabel": "archives at",
+        "value": "Q915603",
+        "valueLabel": "Museum of New Zealand Te Papa Tongarewa"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4532138",
+        "valueLabel": "Granat Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q644521",
+        "entityLabel": "Challenger expedition",
+        "property": "P485",
+        "propertyLabel": "archives at",
+        "value": "Q7374509",
+        "valueLabel": "Royal Museums Greenwich"
+    },
+    {
+        "entity": "Q3563335",
+        "entityLabel": "European and American voyages of scientific exploration",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q6502154",
+        "valueLabel": "exploration"
+    },
+    {
+        "entity": "Q3563335",
+        "entityLabel": "European and American voyages of scientific exploration",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q366301",
+        "valueLabel": "research expedition"
+    },
+    {
+        "entity": "Q3563335",
+        "entityLabel": "European and American voyages of scientific exploration",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3337280",
+        "valueLabel": "marine navigation"
+    },
+    {
+        "entity": "Q6502154",
+        "entityLabel": "Geographical exploration",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7216217",
+        "valueLabel": "Category:Exploration"
+    },
+    {
+        "entity": "Q6502154",
+        "entityLabel": "Geographical exploration",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q10498147",
+        "valueLabel": "scientific explorer"
+    },
+    {
+        "entity": "Q6502154",
+        "entityLabel": "Geographical exploration",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q61509",
+        "valueLabel": "travel"
+    },
+    {
+        "entity": "Q6502154",
+        "entityLabel": "Geographical exploration",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q11900058",
+        "valueLabel": "explorer"
+    },
+    {
+        "entity": "Q6502154",
+        "entityLabel": "Geographical exploration",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q116485046",
+        "valueLabel": "expedition leader"
+    },
+    {
+        "entity": "Q6502154",
+        "entityLabel": "Geographical exploration",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q116967296",
+        "valueLabel": "exploration"
+    },
+    {
+        "entity": "Q6502154",
+        "entityLabel": "Geographical exploration",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q2401485",
+        "valueLabel": "expedition"
+    },
+    {
+        "entity": "Q7732849",
+        "entityLabel": "The Exploration of the Colorado River and Its Canyons",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q7732849",
+        "entityLabel": "The Exploration of the Colorado River and Its Canyons",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q348325",
+        "valueLabel": "John Wesley Powell"
+    },
+    {
+        "entity": "Q7732849",
+        "entityLabel": "The Exploration of the Colorado River and Its Canyons",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7725634",
+        "valueLabel": "literary work"
+    },
+    {
+        "entity": "Q5421337",
+        "entityLabel": "Exploration of the Pacific",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9530853",
+        "valueLabel": "Category:Exploration of the Pacific Ocean"
+    },
+    {
+        "entity": "Q125759073",
+        "entityLabel": "Fool's Cap Map of the World",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q838948",
+        "valueLabel": "work of art"
+    },
+    {
+        "entity": "Q5985372",
+        "entityLabel": "Global Warrior Project",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q6196898",
+        "valueLabel": "Jim McNeill"
+    },
+    {
+        "entity": "Q5985372",
+        "entityLabel": "Global Warrior Project",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q659664",
+        "entityLabel": "Hakluyt Society",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q145",
+        "valueLabel": "United Kingdom"
+    },
+    {
+        "entity": "Q659664",
+        "entityLabel": "Hakluyt Society",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7708430",
+        "valueLabel": "text publication society"
+    },
+    {
+        "entity": "Q659664",
+        "entityLabel": "Hakluyt Society",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2085381",
+        "valueLabel": "publishing company"
+    },
+    {
+        "entity": "Q659664",
+        "entityLabel": "Hakluyt Society",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q84",
+        "valueLabel": "London"
+    },
+    {
+        "entity": "Q659664",
+        "entityLabel": "Hakluyt Society",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q6167602",
+        "valueLabel": "William Desborough Cooley"
+    },
+    {
+        "entity": "Q659664",
+        "entityLabel": "Hakluyt Society",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q955824",
+        "valueLabel": "learned society"
+    },
+    {
+        "entity": "Q659664",
+        "entityLabel": "Hakluyt Society",
+        "property": "P452",
+        "propertyLabel": "industry",
+        "value": "Q136822",
+        "valueLabel": "higher education"
+    },
+    {
+        "entity": "Q7056256",
+        "entityLabel": "North Pacific Exploring and Surveying Expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q721062",
+        "valueLabel": "Charles Wright"
+    },
+    {
+        "entity": "Q7056256",
+        "entityLabel": "North Pacific Exploring and Surveying Expedition",
+        "property": "P1876",
+        "propertyLabel": "vessel",
+        "value": "Q7873026",
+        "valueLabel": "USS Porpoise"
+    },
+    {
+        "entity": "Q7056256",
+        "entityLabel": "North Pacific Exploring and Surveying Expedition",
+        "property": "P4791",
+        "propertyLabel": "commanded by",
+        "value": "Q5016639",
+        "valueLabel": "Cadwalader Ringgold"
+    },
+    {
+        "entity": "Q7056256",
+        "entityLabel": "North Pacific Exploring and Surveying Expedition",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q366301",
+        "valueLabel": "research expedition"
+    },
+    {
+        "entity": "Q7552290",
+        "entityLabel": "Society for the History of Discoveries",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q748019",
+        "valueLabel": "scientific society"
+    },
+    {
+        "entity": "Q542313",
+        "entityLabel": "Timeline of European exploration",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q18340550",
+        "valueLabel": "Wikimedia timeline"
+    },
+    {
+        "entity": "Q28194802",
+        "entityLabel": "Tunnel network",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q44377",
+        "valueLabel": "tunnel"
+    },
+    {
+        "entity": "Q28194802",
+        "entityLabel": "Tunnel network",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2449712",
+        "valueLabel": "structure of transport network"
+    },
+    {
+        "entity": "Q28194802",
+        "entityLabel": "Tunnel network",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q12146012",
+        "valueLabel": "underground structure"
+    },
+    {
+        "entity": "Q28194802",
+        "entityLabel": "Tunnel network",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q924286",
+        "valueLabel": "transport network"
+    },
+    {
+        "entity": "Q116814802",
+        "entityLabel": "Underwater exploration",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q3246517",
+        "valueLabel": "subaquaria"
+    },
+    {
+        "entity": "Q116814802",
+        "entityLabel": "Underwater exploration",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q6502154",
+        "valueLabel": "exploration"
+    },
+    {
+        "entity": "Q116814802",
+        "entityLabel": "Underwater exploration",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q60788452",
+        "valueLabel": "Underwater work"
+    },
+    {
+        "entity": "Q116814802",
+        "entityLabel": "Underwater exploration",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q43518",
+        "valueLabel": "oceanography"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q63760",
+        "valueLabel": "Andreas Franz Wilhelm Schimper"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q43287",
+        "valueLabel": "German Empire"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q101823",
+        "valueLabel": "Otto zur Strassen"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q2508024",
+        "valueLabel": "SS Valdivia"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P11146",
+        "propertyLabel": "collection items at",
+        "value": "Q6940963",
+        "valueLabel": "Museum of Natural History at University of Wroc\u0142aw"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q115701615",
+        "valueLabel": "Wissenschaftliche Ergebnisse der Deutschen Tiefsee-Expedition auf dem Dampfer \u201eValdivia\u201c 1898\u20131899"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q85444",
+        "valueLabel": "August Brauer"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P11146",
+        "propertyLabel": "collection items at",
+        "value": "Q1698550",
+        "valueLabel": "Natural History Museum Leipzig"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q95248572",
+        "valueLabel": "Fritz Braem"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q64283473",
+        "valueLabel": "Q64283473"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q96384",
+        "valueLabel": "Ernst Vanh\u00f6ffen"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P1132",
+        "propertyLabel": "number of participants",
+        "value": "43",
+        "valueLabel": "43"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q366301",
+        "valueLabel": "research expedition"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q62747",
+        "valueLabel": "Carl Chun"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q347529",
+        "valueLabel": "Adalbert Krech"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q43881351",
+        "valueLabel": "Friedrich Wilhelm Winter"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P11146",
+        "propertyLabel": "collection items at",
+        "value": "Q880568",
+        "valueLabel": "Senckenberg \u2013 Leibniz Institution for Biodiversity and Earth System Research"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P11146",
+        "propertyLabel": "collection items at",
+        "value": "Q233098",
+        "valueLabel": "Museum f\u00fcr Naturkunde - Leibniz Institute for Evolution and Biodiversity Science"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P1876",
+        "propertyLabel": "vessel",
+        "value": "Q2508024",
+        "valueLabel": "SS Valdivia"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q104839",
+        "valueLabel": "Carl Apstein"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P485",
+        "propertyLabel": "archives at",
+        "value": "Q113678597",
+        "valueLabel": "Museum f\u00fcr Naturkunde Berlin, Archive"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P859",
+        "propertyLabel": "sponsor",
+        "value": "Q160208",
+        "valueLabel": "Reichstag"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P710",
+        "propertyLabel": "participant",
+        "value": "Q108669",
+        "valueLabel": "Gerhard Schott"
+    },
+    {
+        "entity": "Q1312945",
+        "entityLabel": "Valdivia Expedition",
+        "property": "P1037",
+        "propertyLabel": "director / manager",
+        "value": "Q62747",
+        "valueLabel": "Carl Chun"
+    },
+    {
+        "entity": "Q4841958",
+        "entityLabel": "Bagla Hills",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q1044",
+        "valueLabel": "Sierra Leone"
+    },
+    {
+        "entity": "Q4841958",
+        "entityLabel": "Bagla Hills",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q1014",
+        "valueLabel": "Liberia"
+    },
+    {
+        "entity": "Q4860756",
+        "entityLabel": "Barind Tract",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q902",
+        "valueLabel": "Bangladesh"
+    },
+    {
+        "entity": "Q4860756",
+        "entityLabel": "Barind Tract",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q82794",
+        "valueLabel": "region"
+    },
+    {
+        "entity": "Q4931149",
+        "entityLabel": "Bo Plains",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q1044",
+        "valueLabel": "Sierra Leone"
+    },
+    {
+        "entity": "Q4931149",
+        "entityLabel": "Bo Plains",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q486972",
+        "valueLabel": "human settlement"
+    },
+    {
+        "entity": "Q124333896",
+        "entityLabel": "Dry Zone (Myanmar)",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q836",
+        "valueLabel": "Myanmar"
+    },
+    {
+        "entity": "Q124333896",
+        "entityLabel": "Dry Zone (Myanmar)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q82794",
+        "valueLabel": "region"
+    },
+    {
+        "entity": "Q42225",
+        "entityLabel": "Far East",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q82794",
+        "valueLabel": "region"
+    },
+    {
+        "entity": "Q42225",
+        "entityLabel": "Far East",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4835091",
+        "valueLabel": "territory"
+    },
+    {
+        "entity": "Q42225",
+        "entityLabel": "Far East",
+        "property": "P30",
+        "propertyLabel": "continent",
+        "value": "Q48",
+        "valueLabel": "Asia"
+    },
+    {
+        "entity": "Q42225",
+        "entityLabel": "Far East",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737633",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 6"
+    },
+    {
+        "entity": "Q42225",
+        "entityLabel": "Far East",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9152931",
+        "valueLabel": "Category:Greater East Asia"
+    },
+    {
+        "entity": "Q42225",
+        "entityLabel": "Far East",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4114391",
+        "valueLabel": "Sytin Military Encyclopedia"
+    },
+    {
+        "entity": "Q42225",
+        "entityLabel": "Far East",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q42225",
+        "entityLabel": "Far East",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q98073184",
+        "entityLabel": "The fourth part of the world",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4167410",
+        "valueLabel": "Wikimedia disambiguation page"
+    },
+    {
+        "entity": "Q3557075",
+        "entityLabel": "Geographic regions of the Dominican Republic",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q786",
+        "valueLabel": "Dominican Republic"
+    },
+    {
+        "entity": "Q17045437",
+        "entityLabel": "Madhupur Garh",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q902",
+        "valueLabel": "Bangladesh"
+    },
+    {
+        "entity": "Q17045437",
+        "entityLabel": "Madhupur Garh",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q82794",
+        "valueLabel": "region"
+    },
+    {
+        "entity": "Q127834",
+        "entityLabel": "New World",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q7067273",
+        "valueLabel": "Nowy \u015awiat"
+    },
+    {
+        "entity": "Q127834",
+        "entityLabel": "New World",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19047539",
+        "valueLabel": "Collier's New Encyclopedia, 1921"
+    },
+    {
+        "entity": "Q127834",
+        "entityLabel": "New World",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q828",
+        "valueLabel": "Americas"
+    },
+    {
+        "entity": "Q127834",
+        "entityLabel": "New World",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q174807",
+        "valueLabel": "Old World"
+    },
+    {
+        "entity": "Q127834",
+        "entityLabel": "New World",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q82794",
+        "valueLabel": "region"
+    },
+    {
+        "entity": "Q127834",
+        "entityLabel": "New World",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q231939",
+        "valueLabel": "New World"
+    },
+    {
+        "entity": "Q127834",
+        "entityLabel": "New World",
+        "property": "P2737",
+        "propertyLabel": "union of",
+        "value": "Q23766486",
+        "valueLabel": "list of values as qualifiers"
+    },
+    {
+        "entity": "Q111145615",
+        "entityLabel": "Northern Levant",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q82794",
+        "valueLabel": "region"
+    },
+    {
+        "entity": "Q111145615",
+        "entityLabel": "Northern Levant",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q81483",
+        "valueLabel": "Levant"
+    },
+    {
+        "entity": "Q111145615",
+        "entityLabel": "Northern Levant",
+        "property": "P30",
+        "propertyLabel": "continent",
+        "value": "Q48",
+        "valueLabel": "Asia"
+    },
+    {
+        "entity": "Q383393",
+        "entityLabel": "Palliser's Triangle",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q82794",
+        "valueLabel": "region"
+    },
+    {
+        "entity": "Q383393",
+        "entityLabel": "Palliser's Triangle",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q123991",
+        "valueLabel": "steppe"
+    },
+    {
+        "entity": "Q383393",
+        "entityLabel": "Palliser's Triangle",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q16",
+        "valueLabel": "Canada"
+    },
+    {
+        "entity": "Q3102786",
+        "entityLabel": "Rupununi",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4022",
+        "valueLabel": "river"
+    },
+    {
+        "entity": "Q3102786",
+        "entityLabel": "Rupununi",
+        "property": "P2043",
+        "propertyLabel": "the_length_of",
+        "value": "400",
+        "valueLabel": "400"
+    },
+    {
+        "entity": "Q3102786",
+        "entityLabel": "Rupununi",
+        "property": "P403",
+        "propertyLabel": "mouth of the watercourse",
+        "value": "Q589911",
+        "valueLabel": "Essequibo River"
+    },
+    {
+        "entity": "Q3102786",
+        "entityLabel": "Rupununi",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q1516381",
+        "valueLabel": "Upper Takutu-Upper Essequibo"
+    },
+    {
+        "entity": "Q3102786",
+        "entityLabel": "Rupununi",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q734",
+        "valueLabel": "Guyana"
+    },
+    {
+        "entity": "Q3102786",
+        "entityLabel": "Rupununi",
+        "property": "P2046",
+        "propertyLabel": "area",
+        "value": "57750",
+        "valueLabel": "57750"
+    },
+    {
+        "entity": "Q3102786",
+        "entityLabel": "Rupununi",
+        "property": "P2670",
+        "propertyLabel": "has part(s) of the class",
+        "value": "Q3101238",
+        "valueLabel": "Rupununi savannah"
+    },
+    {
+        "entity": "Q3102786",
+        "entityLabel": "Rupununi",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q107000978",
+        "valueLabel": "Rupununi River"
+    },
+    {
+        "entity": "Q7570085",
+        "entityLabel": "Southern Levant",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q219060",
+        "valueLabel": "State of Palestine"
+    },
+    {
+        "entity": "Q7570085",
+        "entityLabel": "Southern Levant",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q82794",
+        "valueLabel": "region"
+    },
+    {
+        "entity": "Q7570085",
+        "entityLabel": "Southern Levant",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q193714",
+        "valueLabel": "Mandatory Palestine"
+    },
+    {
+        "entity": "Q7570085",
+        "entityLabel": "Southern Levant",
+        "property": "P421",
+        "propertyLabel": "located in time zone",
+        "value": "Q6723",
+        "valueLabel": "UTC+02:00"
+    },
+    {
+        "entity": "Q7570085",
+        "entityLabel": "Southern Levant",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q23792",
+        "valueLabel": "Palestine"
+    },
+    {
+        "entity": "Q7570085",
+        "entityLabel": "Southern Levant",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q810",
+        "valueLabel": "Jordan"
+    },
+    {
+        "entity": "Q7570085",
+        "entityLabel": "Southern Levant",
+        "property": "P30",
+        "propertyLabel": "continent",
+        "value": "Q48",
+        "valueLabel": "Asia"
+    },
+    {
+        "entity": "Q7570085",
+        "entityLabel": "Southern Levant",
+        "property": "P206",
+        "propertyLabel": "located in or next to body of water",
+        "value": "Q748696",
+        "valueLabel": "Levantine Sea"
+    },
+    {
+        "entity": "Q7570085",
+        "entityLabel": "Southern Levant",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q81483",
+        "valueLabel": "Levant"
+    },
+    {
+        "entity": "Q7570085",
+        "entityLabel": "Southern Levant",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8781817",
+        "valueLabel": "Category:Southern Levant"
+    },
+    {
+        "entity": "Q7570085",
+        "entityLabel": "Southern Levant",
+        "property": "P610",
+        "propertyLabel": "highest point",
+        "value": "Q540520",
+        "valueLabel": "Meron"
+    },
+    {
+        "entity": "Q7570085",
+        "entityLabel": "Southern Levant",
+        "property": "P706",
+        "propertyLabel": "located in/on physical feature",
+        "value": "Q170526",
+        "valueLabel": "Fertile Crescent"
+    },
+    {
+        "entity": "Q2393125",
+        "entityLabel": "Southern Ural",
+        "property": "P4552",
+        "propertyLabel": "mountain range",
+        "value": "Q35600",
+        "valueLabel": "Ural Mountains"
+    },
+    {
+        "entity": "Q2393125",
+        "entityLabel": "Southern Ural",
+        "property": "P2044",
+        "propertyLabel": "elevation above sea level",
+        "value": "841",
+        "valueLabel": "841"
+    },
+    {
+        "entity": "Q2393125",
+        "entityLabel": "Southern Ural",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q32217977",
+        "valueLabel": "Category:South Urals"
+    },
+    {
+        "entity": "Q2393125",
+        "entityLabel": "Southern Ural",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q46831",
+        "valueLabel": "mountain range"
+    },
+    {
+        "entity": "Q2393125",
+        "entityLabel": "Southern Ural",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q159",
+        "valueLabel": "Russia"
+    },
+    {
+        "entity": "Q2393125",
+        "entityLabel": "Southern Ural",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q15180",
+        "valueLabel": "Soviet Union"
+    },
+    {
+        "entity": "Q2393125",
+        "entityLabel": "Southern Ural",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1514176",
+        "valueLabel": "Mount Yamantau"
+    },
+    {
+        "entity": "Q2393125",
+        "entityLabel": "Southern Ural",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2624046",
+        "valueLabel": "mountain chain"
+    },
+    {
+        "entity": "Q2393125",
+        "entityLabel": "Southern Ural",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q34266",
+        "valueLabel": "Russian Empire"
+    },
+    {
+        "entity": "Q65117344",
+        "entityLabel": "Valeriepieris circle",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q16885387",
+        "valueLabel": "imaginary line"
+    },
+    {
+        "entity": "Q17651246",
+        "entityLabel": "Land and water hemispheres",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q786270",
+        "valueLabel": "land hemisphere"
+    },
+    {
+        "entity": "Q17651246",
+        "entityLabel": "Land and water hemispheres",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q151885",
+        "valueLabel": "concept"
+    },
+    {
+        "entity": "Q17651246",
+        "entityLabel": "Land and water hemispheres",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q399984",
+        "valueLabel": "hemisphere of the Earth"
+    },
+    {
+        "entity": "Q17651246",
+        "entityLabel": "Land and water hemispheres",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q690092",
+        "valueLabel": "water hemisphere"
+    },
+    {
+        "entity": "Q17651246",
+        "entityLabel": "Land and water hemispheres",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1071",
+        "valueLabel": "geography"
+    },
+    {
+        "entity": "Q186198",
+        "entityLabel": "Eastern Hemisphere",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1149081",
+        "valueLabel": "Eastern world"
+    },
+    {
+        "entity": "Q186198",
+        "entityLabel": "Eastern Hemisphere",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q2",
+        "valueLabel": "Earth"
+    },
+    {
+        "entity": "Q186198",
+        "entityLabel": "Eastern Hemisphere",
+        "property": "P1589",
+        "propertyLabel": "lowest point",
+        "value": "Q459173",
+        "valueLabel": "Challenger Deep"
+    },
+    {
+        "entity": "Q186198",
+        "entityLabel": "Eastern Hemisphere",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q399984",
+        "valueLabel": "hemisphere of the Earth"
+    },
+    {
+        "entity": "Q186198",
+        "entityLabel": "Eastern Hemisphere",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q125684669",
+        "valueLabel": "Category:Eastern Hemisphere"
+    },
+    {
+        "entity": "Q186198",
+        "entityLabel": "Eastern Hemisphere",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q181982",
+        "valueLabel": "Western Hemisphere"
+    },
+    {
+        "entity": "Q186198",
+        "entityLabel": "Eastern Hemisphere",
+        "property": "P610",
+        "propertyLabel": "highest point",
+        "value": "Q513",
+        "valueLabel": "Mount Everest"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q49",
+        "valueLabel": "North America"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q12353254",
+        "valueLabel": "North Pacific Ocean"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q350134",
+        "valueLabel": "North Atlantic Ocean"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P1589",
+        "propertyLabel": "lowest point",
+        "value": "Q510",
+        "valueLabel": "Mariana Trench"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q41228",
+        "valueLabel": "Southern Hemisphere"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q399984",
+        "valueLabel": "hemisphere of the Earth"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1998069",
+        "valueLabel": "Northern celestial hemisphere"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q15",
+        "valueLabel": "Africa"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q48",
+        "valueLabel": "Asia"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q108136656",
+        "valueLabel": "Northern Indian Ocean"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P610",
+        "propertyLabel": "highest point",
+        "value": "Q513",
+        "valueLabel": "Mount Everest"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q659",
+        "valueLabel": "north"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q46",
+        "valueLabel": "Europe"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1239",
+        "valueLabel": "Indian Ocean"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q98",
+        "valueLabel": "Pacific Ocean"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q2",
+        "valueLabel": "Earth"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q55938311",
+        "valueLabel": "Category:Northern Hemisphere"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q97365082",
+        "valueLabel": "Global North"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q27611",
+        "valueLabel": "Central America"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1789452",
+        "valueLabel": "criterion"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q142",
+        "valueLabel": "France"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P7422",
+        "propertyLabel": "minimum temperature record",
+        "value": "-69.6",
+        "valueLabel": "-69.6"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P7422",
+        "propertyLabel": "minimum temperature record",
+        "value": "-67.8",
+        "valueLabel": "-67.8"
+    },
+    {
+        "entity": "Q39061",
+        "entityLabel": "Northern Hemisphere",
+        "property": "P7867",
+        "propertyLabel": "category for maps or plans",
+        "value": "Q84082813",
+        "valueLabel": "Category:Maps of the northern hemisphere"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q667",
+        "valueLabel": "south"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q399984",
+        "valueLabel": "hemisphere of the Earth"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q2",
+        "valueLabel": "Earth"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1482804",
+        "valueLabel": "South Atlantic Ocean"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q51",
+        "valueLabel": "Antarctica"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q98",
+        "valueLabel": "Pacific Ocean"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1239",
+        "valueLabel": "Indian Ocean"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P4777",
+        "propertyLabel": "has boundary",
+        "value": "Q23538",
+        "valueLabel": "equator"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q2380815",
+        "valueLabel": "Southern Celestial Hemisphere"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q408",
+        "valueLabel": "Australia"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q108136663",
+        "valueLabel": "Southern Indian Ocean"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q18",
+        "valueLabel": "South America"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q538",
+        "valueLabel": "Insular Oceania"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P1589",
+        "propertyLabel": "lowest point",
+        "value": "Q1628178",
+        "valueLabel": "Horizon Deep"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q27394",
+        "valueLabel": "Southern Africa"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P610",
+        "propertyLabel": "highest point",
+        "value": "Q39739",
+        "valueLabel": "Aconcagua"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1149903",
+        "valueLabel": "Global South"
+    },
+    {
+        "entity": "Q41228",
+        "entityLabel": "Southern Hemisphere",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q12355425",
+        "valueLabel": "South Pacific Ocean"
+    },
+    {
+        "entity": "Q181982",
+        "entityLabel": "Western Hemisphere",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q399984",
+        "valueLabel": "hemisphere of the Earth"
+    },
+    {
+        "entity": "Q181982",
+        "entityLabel": "Western Hemisphere",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q22154213",
+        "valueLabel": "Category:Western Hemisphere"
+    },
+    {
+        "entity": "Q181982",
+        "entityLabel": "Western Hemisphere",
+        "property": "P610",
+        "propertyLabel": "highest point",
+        "value": "Q39739",
+        "valueLabel": "Aconcagua"
+    },
+    {
+        "entity": "Q181982",
+        "entityLabel": "Western Hemisphere",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q160381",
+        "valueLabel": "Western world"
+    },
+    {
+        "entity": "Q181982",
+        "entityLabel": "Western Hemisphere",
+        "property": "P1589",
+        "propertyLabel": "lowest point",
+        "value": "Q119294",
+        "valueLabel": "Tonga Trench"
+    },
+    {
+        "entity": "Q181982",
+        "entityLabel": "Western Hemisphere",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q2",
+        "valueLabel": "Earth"
+    },
+    {
+        "entity": "Q181982",
+        "entityLabel": "Western Hemisphere",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q186198",
+        "valueLabel": "Eastern Hemisphere"
+    },
+    {
+        "entity": "Q911070",
+        "entityLabel": "History of geography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q911070",
+        "entityLabel": "History of geography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q911070",
+        "entityLabel": "History of geography",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6955007",
+        "valueLabel": "Category:History of geography"
+    },
+    {
+        "entity": "Q911070",
+        "entityLabel": "History of geography",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q14403062",
+        "valueLabel": "Template:History of geography sidebar"
+    },
+    {
+        "entity": "Q911070",
+        "entityLabel": "History of geography",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q108669379",
+        "valueLabel": "historian of geography"
+    },
+    {
+        "entity": "Q911070",
+        "entityLabel": "History of geography",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1071",
+        "valueLabel": "geography"
+    },
+    {
+        "entity": "Q911070",
+        "entityLabel": "History of geography",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q1071",
+        "valueLabel": "geography"
+    },
+    {
+        "entity": "Q911070",
+        "entityLabel": "History of geography",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5076869",
+        "valueLabel": "history of the social sciences"
+    },
+    {
+        "entity": "Q4688702",
+        "entityLabel": "Aethiopian Sea",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q15324",
+        "valueLabel": "body of water"
+    },
+    {
+        "entity": "Q4688702",
+        "entityLabel": "Aethiopian Sea",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q1482804",
+        "valueLabel": "South Atlantic Ocean"
+    },
+    {
+        "entity": "Q4688702",
+        "entityLabel": "Aethiopian Sea",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1482804",
+        "valueLabel": "South Atlantic Ocean"
+    },
+    {
+        "entity": "Q4774615",
+        "entityLabel": "Antichthones",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q27863646",
+        "valueLabel": "mythical people"
+    },
+    {
+        "entity": "Q4816595",
+        "entityLabel": "Atlantic World",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q56061",
+        "valueLabel": "administrative territorial entity"
+    },
+    {
+        "entity": "Q4879166",
+        "entityLabel": "Bedford Level experiment",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q101965",
+        "valueLabel": "experiment"
+    },
+    {
+        "entity": "Q12227696",
+        "entityLabel": "Book of Roads and Kingdoms",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q117317291",
+        "valueLabel": "Q117317291"
+    },
+    {
+        "entity": "Q12227696",
+        "entityLabel": "Book of Roads and Kingdoms",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1071",
+        "valueLabel": "geography"
+    },
+    {
+        "entity": "Q12227696",
+        "entityLabel": "Book of Roads and Kingdoms",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q223393",
+        "valueLabel": "literary genre"
+    },
+    {
+        "entity": "Q12227696",
+        "entityLabel": "Book of Roads and Kingdoms",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q194380",
+        "valueLabel": "Arabic literature"
+    },
+    {
+        "entity": "Q1001180",
+        "entityLabel": "Buenaventura River",
+        "property": "P7867",
+        "propertyLabel": "category for maps or plans",
+        "value": "Q1001180",
+        "valueLabel": "Buenaventura River"
+    },
+    {
+        "entity": "Q1001180",
+        "entityLabel": "Buenaventura River",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q16338046",
+        "valueLabel": "fictional river"
+    },
+    {
+        "entity": "Q1001180",
+        "entityLabel": "Buenaventura River",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q5047384",
+        "entityLabel": "Cartographic expeditions to Greenland",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q5047384",
+        "entityLabel": "Cartographic expeditions to Greenland",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q2401485",
+        "valueLabel": "expedition"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q10916116",
+        "valueLabel": "history book"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9604682",
+        "valueLabel": "Category:Chorographies"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q223393",
+        "valueLabel": "literary genre"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q105726199",
+        "valueLabel": "Q105726199"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q42515",
+        "valueLabel": "cartography"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q5902400",
+        "valueLabel": "Hortonville"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P20",
+        "propertyLabel": "place of death",
+        "value": "Q744948",
+        "valueLabel": "New Rochelle"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q39631",
+        "valueLabel": "physician"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q774306",
+        "valueLabel": "surgeon"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q9149093",
+        "valueLabel": "mountaineer"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q3100195",
+        "valueLabel": "Grossman School of Medicine"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P166",
+        "propertyLabel": "award received",
+        "value": "Q26126",
+        "valueLabel": "Order of Leopold"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q11900058",
+        "valueLabel": "explorer"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q111942529",
+        "valueLabel": "expedition medicine"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P69",
+        "propertyLabel": "educated at",
+        "value": "Q49088",
+        "valueLabel": "Columbia University"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P119",
+        "propertyLabel": "place of burial",
+        "value": "Q5469014",
+        "valueLabel": "Forest Lawn Cemetery"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q11190",
+        "valueLabel": "medicine"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q16082057",
+        "valueLabel": "The New Student's Reference Work"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P1344",
+        "propertyLabel": "participant in",
+        "value": "Q815478",
+        "valueLabel": "Belgian Antarctic Expedition"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P641",
+        "propertyLabel": "sport",
+        "value": "Q36908",
+        "valueLabel": "mountaineering"
+    },
+    {
+        "entity": "Q350190",
+        "entityLabel": "Frederick Cook",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q67311526",
+        "valueLabel": "Ob\u00e1lky knih"
+    },
+    {
+        "entity": "Q2590707",
+        "entityLabel": "Critical geography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q19935939",
+        "valueLabel": "branch of geography"
+    },
+    {
+        "entity": "Q2590707",
+        "entityLabel": "Critical geography",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q524273",
+        "valueLabel": "social geography"
+    },
+    {
+        "entity": "Q21008304",
+        "entityLabel": "De situ orbis from Albi",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q132801",
+        "valueLabel": "Albi"
+    },
+    {
+        "entity": "Q21008304",
+        "entityLabel": "De situ orbis from Albi",
+        "property": "P655",
+        "propertyLabel": "translator",
+        "value": "Q539577",
+        "valueLabel": "Guarino da Verona"
+    },
+    {
+        "entity": "Q21008304",
+        "entityLabel": "De situ orbis from Albi",
+        "property": "P195",
+        "propertyLabel": "collection",
+        "value": "Q2901551",
+        "valueLabel": "Libraries of Albi"
+    },
+    {
+        "entity": "Q21008304",
+        "entityLabel": "De situ orbis from Albi",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q142",
+        "valueLabel": "France"
+    },
+    {
+        "entity": "Q21008304",
+        "entityLabel": "De situ orbis from Albi",
+        "property": "P2049",
+        "propertyLabel": "width",
+        "value": "25",
+        "valueLabel": "25"
+    },
+    {
+        "entity": "Q21008304",
+        "entityLabel": "De situ orbis from Albi",
+        "property": "P1574",
+        "propertyLabel": "exemplar of",
+        "value": "Q690653",
+        "valueLabel": "Geography"
+    },
+    {
+        "entity": "Q21008304",
+        "entityLabel": "De situ orbis from Albi",
+        "property": "P2048",
+        "propertyLabel": "height",
+        "value": "37",
+        "valueLabel": "37"
+    },
+    {
+        "entity": "Q21008304",
+        "entityLabel": "De situ orbis from Albi",
+        "property": "P170",
+        "propertyLabel": "creator",
+        "value": "Q17169",
+        "valueLabel": "Giovanni Bellini"
+    },
+    {
+        "entity": "Q21008304",
+        "entityLabel": "De situ orbis from Albi",
+        "property": "P825",
+        "propertyLabel": "dedicated to",
+        "value": "Q170353",
+        "valueLabel": "Ren\u00e9 of Anjou"
+    },
+    {
+        "entity": "Q21008304",
+        "entityLabel": "De situ orbis from Albi",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q48498",
+        "valueLabel": "illuminated manuscript"
+    },
+    {
+        "entity": "Q2723202",
+        "entityLabel": "Early world maps",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q441903",
+        "valueLabel": "antique map"
+    },
+    {
+        "entity": "Q2723202",
+        "entityLabel": "Early world maps",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q653848",
+        "valueLabel": "world map"
+    },
+    {
+        "entity": "Q2723202",
+        "entityLabel": "Early world maps",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q41362222",
+        "valueLabel": "type of map"
+    },
+    {
+        "entity": "Q1363807",
+        "entityLabel": "Erythraean Sea",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q50918364",
+        "valueLabel": "On the Erythraean Sea"
+    },
+    {
+        "entity": "Q1363807",
+        "entityLabel": "Erythraean Sea",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q23406",
+        "valueLabel": "Red Sea"
+    },
+    {
+        "entity": "Q1363807",
+        "entityLabel": "Erythraean Sea",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q30059240",
+        "valueLabel": "Real\u02b9nyj slovar\u02b9 klassi\u010deskih drevnostej po L\u00fbbkeru"
+    },
+    {
+        "entity": "Q1363807",
+        "entityLabel": "Erythraean Sea",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1239",
+        "valueLabel": "Indian Ocean"
+    },
+    {
+        "entity": "Q1363807",
+        "entityLabel": "Erythraean Sea",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q34675",
+        "valueLabel": "Persian Gulf"
+    },
+    {
+        "entity": "Q1363807",
+        "entityLabel": "Erythraean Sea",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q165",
+        "valueLabel": "sea"
+    },
+    {
+        "entity": "Q1363807",
+        "entityLabel": "Erythraean Sea",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q1138524",
+        "valueLabel": "Pauly\u2013Wissowa"
+    },
+    {
+        "entity": "Q98681686",
+        "entityLabel": "Exploration of North America",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8431935",
+        "valueLabel": "Category:Exploration of North America"
+    },
+    {
+        "entity": "Q98681686",
+        "entityLabel": "Exploration of North America",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q6502154",
+        "valueLabel": "exploration"
+    },
+    {
+        "entity": "Q98681686",
+        "entityLabel": "Exploration of North America",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q221474",
+        "valueLabel": "first arrival of Christopher Columbus to America"
+    },
+    {
+        "entity": "Q98681686",
+        "entityLabel": "Exploration of North America",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q221474",
+        "valueLabel": "first arrival of Christopher Columbus to America"
+    },
+    {
+        "entity": "Q98681686",
+        "entityLabel": "Exploration of North America",
+        "property": "P1542",
+        "propertyLabel": "has effect",
+        "value": "Q184716",
+        "valueLabel": "European colonization of the Americas"
+    },
+    {
+        "entity": "Q390695",
+        "entityLabel": "Farther India",
+        "property": "P30",
+        "propertyLabel": "continent",
+        "value": "Q48",
+        "valueLabel": "Asia"
+    },
+    {
+        "entity": "Q390695",
+        "entityLabel": "Farther India",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q82794",
+        "valueLabel": "region"
+    },
+    {
+        "entity": "Q390695",
+        "entityLabel": "Farther India",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q34763",
+        "valueLabel": "peninsula"
+    },
+    {
+        "entity": "Q42190351",
+        "entityLabel": "Geographia Generalis",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17537576",
+        "valueLabel": "creative work"
+    },
+    {
+        "entity": "Q42190351",
+        "entityLabel": "Geographia Generalis",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q60215",
+        "valueLabel": "Bernhardus Varenius"
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q35497",
+        "valueLabel": "Ancient Greek"
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7725634",
+        "valueLabel": "literary work"
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q162827",
+        "valueLabel": "atlas"
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q34943",
+        "valueLabel": "Ptolemy"
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q384515",
+        "valueLabel": "treatise"
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q42515",
+        "valueLabel": "cartography"
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P747",
+        "propertyLabel": "has edition or translation",
+        "value": "Q19796716",
+        "valueLabel": "Cosmographia"
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1071",
+        "valueLabel": "geography"
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P6216",
+        "propertyLabel": "copyright status",
+        "value": "Q19652",
+        "valueLabel": "public domain"
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q1071",
+        "valueLabel": "geography"
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P747",
+        "propertyLabel": "has edition or translation",
+        "value": "Q62052560",
+        "valueLabel": "Geographia (trans. Jacobus Angeli), et al."
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q105551595",
+        "valueLabel": "Category:Geography (Ptolemy)"
+    },
+    {
+        "entity": "Q1194350",
+        "entityLabel": "Geography (Ptolemy)",
+        "property": "P747",
+        "propertyLabel": "has edition or translation",
+        "value": "Q124055190",
+        "valueLabel": "Francesco Berlinghieri: Geographia"
+    },
+    {
+        "entity": "Q1035847",
+        "entityLabel": "Hesperia (mythology)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4167410",
+        "valueLabel": "Wikimedia disambiguation page"
+    },
+    {
+        "entity": "Q1035847",
+        "entityLabel": "Hesperia (mythology)",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q231057",
+        "valueLabel": "Hesperia"
+    },
+    {
+        "entity": "Q6059846",
+        "entityLabel": "Inventing the Flat Earth",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7725634",
+        "valueLabel": "literary work"
+    },
+    {
+        "entity": "Q6059846",
+        "entityLabel": "Inventing the Flat Earth",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q3271323",
+        "valueLabel": "Jeffrey Burton Russell"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P39",
+        "propertyLabel": "position held",
+        "value": "Q6501749",
+        "valueLabel": "general secretary"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q1734662",
+        "valueLabel": "cartographer"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P119",
+        "propertyLabel": "place of burial",
+        "value": "Q272208",
+        "valueLabel": "Montparnasse Cemetery"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P166",
+        "propertyLabel": "award received",
+        "value": "Q10855271",
+        "valueLabel": "Knight of the Legion of Honour"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q142",
+        "valueLabel": "France"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q901402",
+        "valueLabel": "geographer"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P20",
+        "propertyLabel": "place of death",
+        "value": "Q457389",
+        "valueLabel": "Marcoussis"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P22",
+        "propertyLabel": "father",
+        "value": "Q980235",
+        "valueLabel": "Conrad Malte-Brun"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q90",
+        "valueLabel": "Paris"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P7763",
+        "propertyLabel": "copyright status as a creator",
+        "value": "Q71887839",
+        "valueLabel": "copyrights on works have expired"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q539581",
+        "valueLabel": "Victor"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q150",
+        "valueLabel": "French"
+    },
+    {
+        "entity": "Q176060",
+        "entityLabel": "Victor Adolphe Malte-Brun",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q3443397",
+        "entityLabel": "Quantitative revolution",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q82550",
+        "valueLabel": "buzzword"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P6216",
+        "propertyLabel": "copyright status",
+        "value": "Q19652",
+        "valueLabel": "public domain"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q1138524",
+        "valueLabel": "Pauly\u2013Wissowa"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P144",
+        "propertyLabel": "based on",
+        "value": "Q121856329",
+        "valueLabel": "Geography"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P144",
+        "propertyLabel": "based on",
+        "value": "Q121856326",
+        "valueLabel": "Geography"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P144",
+        "propertyLabel": "based on",
+        "value": "Q121856328",
+        "valueLabel": "Geography"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q1675302",
+        "valueLabel": "itinerarium"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P144",
+        "propertyLabel": "based on",
+        "value": "Q121856334",
+        "valueLabel": "Geography"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P144",
+        "propertyLabel": "based on",
+        "value": "Q122227240",
+        "valueLabel": "Geography"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q47461344",
+        "valueLabel": "written work"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P144",
+        "propertyLabel": "based on",
+        "value": "Q121832985",
+        "valueLabel": "Geography"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q397",
+        "valueLabel": "Latin"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P144",
+        "propertyLabel": "based on",
+        "value": "Q121856358",
+        "valueLabel": "Geography"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P144",
+        "propertyLabel": "based on",
+        "value": "Q121832931",
+        "valueLabel": "Geography"
+    },
+    {
+        "entity": "Q982671",
+        "entityLabel": "Ravenna Cosmography",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q12645689",
+        "valueLabel": "anonymous geographer from Ravenna"
+    },
+    {
+        "entity": "Q817121",
+        "entityLabel": "Regional geography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q19935939",
+        "valueLabel": "branch of geography"
+    },
+    {
+        "entity": "Q817121",
+        "entityLabel": "Regional geography",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q12831143",
+        "valueLabel": "human geography"
+    },
+    {
+        "entity": "Q817121",
+        "entityLabel": "Regional geography",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q11902809",
+        "valueLabel": "systematic geography"
+    },
+    {
+        "entity": "Q817121",
+        "entityLabel": "Regional geography",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q5614750",
+        "valueLabel": "Category:Regional geography"
+    },
+    {
+        "entity": "Q817121",
+        "entityLabel": "Regional geography",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q124758745",
+        "valueLabel": "regional cartography"
+    },
+    {
+        "entity": "Q817121",
+        "entityLabel": "Regional geography",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q46865913",
+        "valueLabel": "geography of geographic location"
+    },
+    {
+        "entity": "Q817121",
+        "entityLabel": "Regional geography",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q82794",
+        "valueLabel": "region"
+    },
+    {
+        "entity": "Q817121",
+        "entityLabel": "Regional geography",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9099332",
+        "valueLabel": "Q9099332"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4135597",
+        "valueLabel": "geographical society"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q1672306",
+        "valueLabel": "Yuly Shokalsky"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q535400",
+        "valueLabel": "Grand Duke Nicholas Mikhailovich of Russia"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q44704",
+        "valueLabel": "Lev Berg"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q446724",
+        "valueLabel": "Grand Duke Konstantin Nikolayevich of Russia"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q4252224",
+        "valueLabel": "Sergey Lavrov"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q656",
+        "valueLabel": "Saint Petersburg"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q4351061",
+        "valueLabel": "Grivtsova Lane"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q1046549",
+        "valueLabel": "Yevgeny Pavlovsky"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q3648056",
+        "valueLabel": "Stanislav Kalesnik"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P463",
+        "propertyLabel": "member of",
+        "value": "Q1580153",
+        "valueLabel": "International Geographical Union"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q4413736",
+        "valueLabel": "Yury Seliverstov"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q2845627",
+        "valueLabel": "Anatoli Komaritsyne"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q214926",
+        "valueLabel": "Nikolai Vavilov"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P1830",
+        "propertyLabel": "owner of",
+        "value": "Q4305465",
+        "valueLabel": "Moya Planeta"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q656",
+        "valueLabel": "Saint Petersburg"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q32024",
+        "valueLabel": "Sergei Shoigu"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q79913",
+        "valueLabel": "non-governmental organization"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q1562193",
+        "valueLabel": "Alexey Tryoshnikov"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9947103",
+        "valueLabel": "Category:Russian Geographical Society"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2657718",
+        "valueLabel": "Armenian Soviet Encyclopedia"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q7525",
+        "valueLabel": "Sevastopol"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q34266",
+        "valueLabel": "Russian Empire"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q649",
+        "valueLabel": "Moscow"
+    },
+    {
+        "entity": "Q726762",
+        "entityLabel": "Russian Geographical Society",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q4322435",
+        "valueLabel": "Novaya Square"
+    },
+    {
+        "entity": "Q3306215",
+        "entityLabel": "Sea of Zanj",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q1019",
+        "valueLabel": "Madagascar"
+    },
+    {
+        "entity": "Q3306215",
+        "entityLabel": "Sea of Zanj",
+        "property": "P205",
+        "propertyLabel": "basin country",
+        "value": "Q1774",
+        "valueLabel": "Zanzibar Islands"
+    },
+    {
+        "entity": "Q3306215",
+        "entityLabel": "Sea of Zanj",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q165",
+        "valueLabel": "sea"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4135597",
+        "valueLabel": "geographical society"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q90",
+        "valueLabel": "Paris"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q1071",
+        "valueLabel": "geography"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q142",
+        "valueLabel": "France"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P488",
+        "propertyLabel": "chairperson",
+        "value": "Q3169951",
+        "valueLabel": "Jean-Robert Pitte"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q150",
+        "valueLabel": "French"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P452",
+        "propertyLabel": "industry",
+        "value": "Q112166193",
+        "valueLabel": "other voluntary membership organizations (France)"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P2813",
+        "propertyLabel": "house publication",
+        "value": "Q3209761",
+        "valueLabel": "La G\u00e9ographie"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q13347054",
+        "valueLabel": "Category:Soci\u00e9t\u00e9 de G\u00e9ographie"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P6886",
+        "propertyLabel": "writing language",
+        "value": "Q150",
+        "valueLabel": "French"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P3989",
+        "propertyLabel": "members have occupation",
+        "value": "Q901402",
+        "valueLabel": "geographer"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P1454",
+        "propertyLabel": "legal form",
+        "value": "Q111166550",
+        "valueLabel": "declared association"
+    },
+    {
+        "entity": "Q2297128",
+        "entityLabel": "Soci\u00e9t\u00e9 de G\u00e9ographie",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q21694619",
+        "valueLabel": "Soci\u00e9t\u00e9 de g\u00e9ographie commerciale (France)"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q11063",
+        "valueLabel": "astronomer"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q901402",
+        "valueLabel": "geographer"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P20",
+        "propertyLabel": "place of death",
+        "value": "Q4190",
+        "valueLabel": "Passau"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q170790",
+        "valueLabel": "mathematician"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P140",
+        "propertyLabel": "religion or worldview",
+        "value": "Q9592",
+        "valueLabel": "Catholic Church"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q12548",
+        "valueLabel": "Holy Roman Empire"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q509536",
+        "valueLabel": "Landau an der Isar"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q1234713",
+        "valueLabel": "theologian"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q188",
+        "valueLabel": "German"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q25999604",
+        "valueLabel": "Jacob"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q67311526",
+        "valueLabel": "Ob\u00e1lky knih"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q16747395",
+        "valueLabel": "Jakob"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q678259",
+        "valueLabel": "Nordisk familjebok"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q51955019",
+        "valueLabel": "BEIC Digital Library"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q590208",
+        "valueLabel": "Allgemeine Deutsche Biographie"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q198857",
+        "valueLabel": "Ziegler"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q397",
+        "valueLabel": "Latin"
+    },
+    {
+        "entity": "Q447318",
+        "entityLabel": "Jacob Ziegler",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q114245308",
+        "valueLabel": "Contemporaries of Erasmus (vol. 3)"
+    },
+    {
+        "entity": "Q13576208",
+        "entityLabel": "Land systems",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8581340",
+        "valueLabel": "Category:Land systems"
+    },
+    {
+        "entity": "Q6484274",
+        "entityLabel": "Land systems of Western Australia",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q408",
+        "valueLabel": "Australia"
+    },
+    {
+        "entity": "Q107425",
+        "entityLabel": "Landscape",
+        "property": "P8989",
+        "propertyLabel": "category for the view of the item",
+        "value": "Q105738936",
+        "valueLabel": "Category:Views of landscapes from above"
+    },
+    {
+        "entity": "Q107425",
+        "entityLabel": "Landscape",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737630",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 4"
+    },
+    {
+        "entity": "Q107425",
+        "entityLabel": "Landscape",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4835091",
+        "valueLabel": "territory"
+    },
+    {
+        "entity": "Q107425",
+        "entityLabel": "Landscape",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1529874",
+        "valueLabel": "landscape element"
+    },
+    {
+        "entity": "Q107425",
+        "entityLabel": "Landscape",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1200511",
+        "valueLabel": "Landscape"
+    },
+    {
+        "entity": "Q107425",
+        "entityLabel": "Landscape",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7143080",
+        "valueLabel": "Category:Landscape"
+    },
+    {
+        "entity": "Q107425",
+        "entityLabel": "Landscape",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q10928427",
+        "valueLabel": "landscape"
+    },
+    {
+        "entity": "Q107425",
+        "entityLabel": "Landscape",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q271669",
+        "valueLabel": "landform"
+    },
+    {
+        "entity": "Q107425",
+        "entityLabel": "Landscape",
+        "property": "P1299",
+        "propertyLabel": "depicted by",
+        "value": "Q131579634",
+        "valueLabel": "Mosaic with Nilotic landscape from Aventine hill"
+    },
+    {
+        "entity": "Q2153369",
+        "entityLabel": "Barkdust",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q112617986",
+        "valueLabel": "soil retention"
+    },
+    {
+        "entity": "Q2153369",
+        "entityLabel": "Barkdust",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q184453",
+        "valueLabel": "bark"
+    },
+    {
+        "entity": "Q2153369",
+        "entityLabel": "Barkdust",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q112617298",
+        "valueLabel": "organic mulch"
+    },
+    {
+        "entity": "Q2153369",
+        "entityLabel": "Barkdust",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q663690",
+        "valueLabel": "woodchips"
+    },
+    {
+        "entity": "Q2153369",
+        "entityLabel": "Barkdust",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q10501532",
+        "valueLabel": "acidification"
+    },
+    {
+        "entity": "Q2153369",
+        "entityLabel": "Barkdust",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q9307563",
+        "valueLabel": "water retention"
+    },
+    {
+        "entity": "Q2153369",
+        "entityLabel": "Barkdust",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q549563",
+        "valueLabel": "mulch"
+    },
+    {
+        "entity": "Q25305344",
+        "entityLabel": "Barrier ridge",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q740445",
+        "valueLabel": "ridge"
+    },
+    {
+        "entity": "Q4086881",
+        "entityLabel": "Bioswale",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q4358090",
+        "valueLabel": "urban runoff"
+    },
+    {
+        "entity": "Q4086881",
+        "entityLabel": "Bioswale",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1413117",
+        "valueLabel": "retention basin"
+    },
+    {
+        "entity": "Q4086881",
+        "entityLabel": "Bioswale",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q5381359",
+        "valueLabel": "environmental soil science"
+    },
+    {
+        "entity": "Q4086881",
+        "entityLabel": "Bioswale",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1421263",
+        "valueLabel": "stormwater"
+    },
+    {
+        "entity": "Q4086881",
+        "entityLabel": "Bioswale",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q4915241",
+        "valueLabel": "bioretention"
+    },
+    {
+        "entity": "Q1425474",
+        "entityLabel": "Botanical garden of Upper Brittany",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q225680",
+        "valueLabel": "Le Ch\u00e2tellier"
+    },
+    {
+        "entity": "Q1425474",
+        "entityLabel": "Botanical garden of Upper Brittany",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q167346",
+        "valueLabel": "botanical garden"
+    },
+    {
+        "entity": "Q1425474",
+        "entityLabel": "Botanical garden of Upper Brittany",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q15835",
+        "valueLabel": "Japanese garden"
+    },
+    {
+        "entity": "Q1425474",
+        "entityLabel": "Botanical garden of Upper Brittany",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q142",
+        "valueLabel": "France"
+    },
+    {
+        "entity": "Q150784",
+        "entityLabel": "Canyon",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q39816",
+        "valueLabel": "valley"
+    },
+    {
+        "entity": "Q150784",
+        "entityLabel": "Canyon",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q55462971",
+        "valueLabel": "fluvial landform"
+    },
+    {
+        "entity": "Q150784",
+        "entityLabel": "Canyon",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737632",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 5"
+    },
+    {
+        "entity": "Q150784",
+        "entityLabel": "Canyon",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q150784",
+        "entityLabel": "Canyon",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q150784",
+        "entityLabel": "Canyon",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8342719",
+        "valueLabel": "Category:Canyons and gorges"
+    },
+    {
+        "entity": "Q150784",
+        "entityLabel": "Canyon",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q5217764",
+        "valueLabel": "National Encyclopedia of Uzbekistan"
+    },
+    {
+        "entity": "Q150784",
+        "entityLabel": "Canyon",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q3699460",
+        "valueLabel": "defile"
+    },
+    {
+        "entity": "Q150784",
+        "entityLabel": "Canyon",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4532138",
+        "valueLabel": "Granat Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q150784",
+        "entityLabel": "Canyon",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q7900102",
+        "valueLabel": "urban canyon"
+    },
+    {
+        "entity": "Q150784",
+        "entityLabel": "Canyon",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q150784",
+        "entityLabel": "Canyon",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q131155202",
+        "valueLabel": "Q131155202"
+    },
+    {
+        "entity": "Q1052083",
+        "entityLabel": "Check dam",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q12323",
+        "valueLabel": "dam"
+    },
+    {
+        "entity": "Q1052083",
+        "entityLabel": "Check dam",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q11554410",
+        "valueLabel": "Q11554410"
+    },
+    {
+        "entity": "Q1052083",
+        "entityLabel": "Check dam",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q4260654",
+        "valueLabel": "Dry dam"
+    },
+    {
+        "entity": "Q1935974",
+        "entityLabel": "Cityscape",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1792379",
+        "valueLabel": "art genre"
+    },
+    {
+        "entity": "Q1935974",
+        "entityLabel": "Cityscape",
+        "property": "P180",
+        "propertyLabel": "depicts",
+        "value": "Q42304051",
+        "valueLabel": "cityscape"
+    },
+    {
+        "entity": "Q1935974",
+        "entityLabel": "Cityscape",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q56753586",
+        "valueLabel": "topographical view"
+    },
+    {
+        "entity": "Q1935974",
+        "entityLabel": "Cityscape",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q42304051",
+        "valueLabel": "cityscape"
+    },
+    {
+        "entity": "Q1935974",
+        "entityLabel": "Cityscape",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q191163",
+        "valueLabel": "landscape painting"
+    },
+    {
+        "entity": "Q107679",
+        "entityLabel": "Cliff",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q271669",
+        "valueLabel": "landform"
+    },
+    {
+        "entity": "Q107679",
+        "entityLabel": "Cliff",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7163233",
+        "valueLabel": "Category:Cliffs"
+    },
+    {
+        "entity": "Q107679",
+        "entityLabel": "Cliff",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1174791",
+        "valueLabel": "escarpment"
+    },
+    {
+        "entity": "Q107679",
+        "entityLabel": "Cliff",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q9362481",
+        "valueLabel": "Centrum Handlowe Klif"
+    },
+    {
+        "entity": "Q107679",
+        "entityLabel": "Cliff",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19085957",
+        "valueLabel": "The Encyclopedia Americana"
+    },
+    {
+        "entity": "Q811252",
+        "entityLabel": "Cottage garden",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1107656",
+        "valueLabel": "garden"
+    },
+    {
+        "entity": "Q811252",
+        "entityLabel": "Cottage garden",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q145",
+        "valueLabel": "United Kingdom"
+    },
+    {
+        "entity": "Q5264414",
+        "entityLabel": "Designed landscape",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q16686448",
+        "valueLabel": "artificial object"
+    },
+    {
+        "entity": "Q5264414",
+        "entityLabel": "Designed landscape",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107425",
+        "valueLabel": "landscape"
+    },
+    {
+        "entity": "Q11700354",
+        "entityLabel": "Environmental impact of electricity generation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2022868",
+        "valueLabel": "environmental effects"
+    },
+    {
+        "entity": "Q11700354",
+        "entityLabel": "Environmental impact of electricity generation",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2022868",
+        "valueLabel": "environmental effects"
+    },
+    {
+        "entity": "Q11700354",
+        "entityLabel": "Environmental impact of electricity generation",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q383973",
+        "valueLabel": "electricity generation"
+    },
+    {
+        "entity": "Q1378142",
+        "entityLabel": "European Landscape Convention",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q1378142",
+        "entityLabel": "European Landscape Convention",
+        "property": "P2058",
+        "propertyLabel": "depositary",
+        "value": "Q2942251",
+        "valueLabel": "Secretary General of the Council of Europe"
+    },
+    {
+        "entity": "Q1378142",
+        "entityLabel": "European Landscape Convention",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1646218",
+        "valueLabel": "international environmental agreement"
+    },
+    {
+        "entity": "Q1378142",
+        "entityLabel": "European Landscape Convention",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q2044",
+        "valueLabel": "Florence"
+    },
+    {
+        "entity": "Q1378142",
+        "entityLabel": "European Landscape Convention",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q16567729",
+        "valueLabel": "Council of Europe treaty"
+    },
+    {
+        "entity": "Q1378142",
+        "entityLabel": "European Landscape Convention",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q150",
+        "valueLabel": "French"
+    },
+    {
+        "entity": "Q1107656",
+        "entityLabel": "Garden",
+        "property": "P166",
+        "propertyLabel": "award received",
+        "value": "Q864861",
+        "valueLabel": "biotope of the year"
+    },
+    {
+        "entity": "Q1107656",
+        "entityLabel": "Garden",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q208195",
+        "valueLabel": "pleasure"
+    },
+    {
+        "entity": "Q1107656",
+        "entityLabel": "Garden",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q1107656",
+        "entityLabel": "Garden",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q1768721",
+        "valueLabel": "Gujin Tushu Jicheng"
+    },
+    {
+        "entity": "Q1107656",
+        "entityLabel": "Garden",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q21950738",
+        "valueLabel": "exterior space"
+    },
+    {
+        "entity": "Q1107656",
+        "entityLabel": "Garden",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q624114",
+        "valueLabel": "kitchen garden"
+    },
+    {
+        "entity": "Q1107656",
+        "entityLabel": "Garden",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q1107656",
+        "entityLabel": "Garden",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q811979",
+        "valueLabel": "architectural structure"
+    },
+    {
+        "entity": "Q1107656",
+        "entityLabel": "Garden",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q35145743",
+        "valueLabel": "artificial geographic object"
     }
 ]

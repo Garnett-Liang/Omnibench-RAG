@@ -66,5 +66,721 @@
     {
         "entity": "http://www.wikidata.org/entity/Q7932136",
         "entityLabel": "Health of Vincent van Gogh"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2574087",
+        "entityLabel": "Health effect"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17021763",
+        "entityLabel": "Health effects of 3D"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4010939",
+        "entityLabel": "Active mobility"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q10771801",
+        "entityLabel": "Impact of Agent Orange in Vietnam"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30314121",
+        "entityLabel": "Health impact of asbestos"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q120897808",
+        "entityLabel": "Autobesity"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q97358163",
+        "entityLabel": "Benefits of physical activity"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4986688",
+        "entityLabel": "Built environment"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q23580836",
+        "entityLabel": "Health effects of coal ash"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q65051719",
+        "entityLabel": "Cycling mobility"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5690909",
+        "entityLabel": "Health consequences of the Deepwater Horizon oil spill"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q131860709",
+        "entityLabel": "Effects of climate change on health in the United Kingdom"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2979220",
+        "entityLabel": "Effects of climate change on human health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q65090615",
+        "entityLabel": "Effects of flooding on skin"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5347379",
+        "entityLabel": "Effects of nuclear explosions on human health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q14932259",
+        "entityLabel": "Electromagnetic radiation and health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1430548",
+        "entityLabel": "Effects of climate change"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16820782",
+        "entityLabel": "GuLF Study"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5381256",
+        "entityLabel": "Health and environmental impact of the petroleum industry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q123134583",
+        "entityLabel": "Health impacts of sawdust"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q42417521",
+        "entityLabel": "Incarceration and health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6449736",
+        "entityLabel": "Kvikk case"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6546168",
+        "entityLabel": "Light effects on circadian rhythm"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5690960",
+        "entityLabel": "Health impact of light rail systems"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q124750856",
+        "entityLabel": "Microplastics and human health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4117845",
+        "entityLabel": "Health effects from noise"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28134681",
+        "entityLabel": "Effects of overtime"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q10302339",
+        "entityLabel": "Health effects of pesticides"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7307660",
+        "entityLabel": "Refugee health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2059842",
+        "entityLabel": "Health effects arising from the September 11 attacks"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5347381",
+        "entityLabel": "Effects of sleep deprivation on cognitive performance"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7551049",
+        "entityLabel": "Social determinants of obesity"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5690942",
+        "entityLabel": "Health effects of sunlight exposure"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5381258",
+        "entityLabel": "Health and environmental effects of transport"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q612254",
+        "entityLabel": "Wireless device radiation and health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106856548",
+        "entityLabel": "Health effects of wood smoke"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q31207",
+        "entityLabel": "Health care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q130442026",
+        "entityLabel": "11-day heart camp"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4676381",
+        "entityLabel": "Acronyms in healthcare"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5113964",
+        "entityLabel": "Chronic care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q104833748",
+        "entityLabel": "Clinical collaboration"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3275615",
+        "entityLabel": "Clinical engineering"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5133834",
+        "entityLabel": "Clinical handover"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1102874",
+        "entityLabel": "Clown Care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1891441",
+        "entityLabel": "Convalescence"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q24962805",
+        "entityLabel": "Decision aids"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q131237050",
+        "entityLabel": "Digital health interventions"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5290187",
+        "entityLabel": "Domestic medicine"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q194517",
+        "entityLabel": "Enema"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48792313",
+        "entityLabel": "Enterprise imaging"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q22031831",
+        "entityLabel": "EuroHealthNet"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q581008",
+        "entityLabel": "Galderma"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17162790",
+        "entityLabel": "Global Health Initiatives"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q126804690",
+        "entityLabel": "GP Liaison"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q22908731",
+        "entityLabel": "GRADE approach"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30314136",
+        "entityLabel": "Granny dumping"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16149213",
+        "entityLabel": "Health advocacy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48996116",
+        "entityLabel": "Health care efficiency"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q23905463",
+        "entityLabel": "Health care provider"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1512929",
+        "entityLabel": "Health equity"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5690948",
+        "entityLabel": "Health fair"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5690958",
+        "entityLabel": "Health humanities"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48997161",
+        "entityLabel": "Health information-seeking behaviour"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5691100",
+        "entityLabel": "Health insurance mandate"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3097973",
+        "entityLabel": "Health literacy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1519812",
+        "entityLabel": "Health policy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q105409324",
+        "entityLabel": "Health politics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q11000047",
+        "entityLabel": "Health system"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48731369",
+        "entityLabel": "Healthcare chaplaincy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q24964202",
+        "entityLabel": "Healthcare engineering"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5691354",
+        "entityLabel": "Healthcare reform in China"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5691433",
+        "entityLabel": "Healthy development measurement tool"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30314228",
+        "entityLabel": "HPV-associated oropharyngeal cancer awareness and prevention"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6011507",
+        "entityLabel": "In absentia health care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q334911",
+        "entityLabel": "Health insurance"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1477478",
+        "entityLabel": "Integrated care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6045391",
+        "entityLabel": "Interactive patient care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q108197300",
+        "entityLabel": "Iron preparation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q123273485",
+        "entityLabel": "LGBTQ life expectancy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6672123",
+        "entityLabel": "Long-term care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q18277190",
+        "entityLabel": "Mais M\u00e9dicos"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q126922667",
+        "entityLabel": "Martha's Rule"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6806472",
+        "entityLabel": "Medical billing"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3045065",
+        "entityLabel": "Medical desert"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6554101",
+        "entityLabel": "Medical device"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17143442",
+        "entityLabel": "Medical escort"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q757232",
+        "entityLabel": "Medical tourism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q130425638",
+        "entityLabel": "Negative air ions"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6632336",
+        "entityLabel": "Nosokinetics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q131459718",
+        "entityLabel": "OCI Foundation International"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17148343",
+        "entityLabel": "Option grid"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16915653",
+        "entityLabel": "Options counseling"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q130619102",
+        "entityLabel": "Paradromics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7144960",
+        "entityLabel": "Patient Activation Measure"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1786594",
+        "entityLabel": "Patient transport"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28130498",
+        "entityLabel": "Patient-initiated violence"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25112484",
+        "entityLabel": "Person-centered care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7186266",
+        "entityLabel": "Philosophy of healthcare"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25111385",
+        "entityLabel": "Physician engagement"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17075487",
+        "entityLabel": "Point of care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7240900",
+        "entityLabel": "Prescriptive analytics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7248592",
+        "entityLabel": "Progress note"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q130542618",
+        "entityLabel": "Public long-term care insurance in Washington (state)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7268788",
+        "entityLabel": "Quality of life (healthcare)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2296665",
+        "entityLabel": "Social franchising"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17082008",
+        "entityLabel": "Socialized medicine"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q122495014",
+        "entityLabel": "Substance-based medical device"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7663871",
+        "entityLabel": "Systems medicine"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q96407863",
+        "entityLabel": "Taxonomy of the burden of treatment"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q130329377",
+        "entityLabel": "Telemedicine in Nepal"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q97359602",
+        "entityLabel": "Tolerated illness"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q115828599",
+        "entityLabel": "Trauma-informed care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28456574",
+        "entityLabel": "Treatment decision support"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3274205",
+        "entityLabel": "Universal health care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q66809506",
+        "entityLabel": "Value-based health care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q19595706",
+        "entityLabel": "Zenana missions"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q11974939",
+        "entityLabel": "Health professional"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q134006825",
+        "entityLabel": "Internship placement for health professionals in Nigeria"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q61341",
+        "entityLabel": "Paraveterinary worker"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q202883",
+        "entityLabel": "Veterinarian"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4615370",
+        "entityLabel": "2009 swine flu pandemic timeline summary"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5417806",
+        "entityLabel": "Everyday Health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7295801",
+        "entityLabel": "Fatty acid ratio in food"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q42417700",
+        "entityLabel": "Phase-out of fossil fuel vehicles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q118906240",
+        "entityLabel": "Health spending as percent of gross domestic product (GDP) by country"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q113987988",
+        "entityLabel": "Incidents at Legoland parks"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2296183",
+        "entityLabel": "Incidents at Six Flags parks"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5774182",
+        "entityLabel": "Historical annual reformulations of the influenza vaccine"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7546043",
+        "entityLabel": "Legal smoking age"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q131765229",
+        "entityLabel": "Mercury in corn syrup"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3273722",
+        "entityLabel": "Minister of health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q104867216",
+        "entityLabel": "Minister of Mental Health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112653",
+        "entityLabel": "Outline of health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112730",
+        "entityLabel": "Outline of smoking"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7894132",
+        "entityLabel": "Universal health care by country"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q24577642",
+        "entityLabel": "Unrest (2017 film)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q110147160",
+        "entityLabel": "1970 Lincoln Hospital takeover"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4806354",
+        "entityLabel": "Asia Catalyst"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5027777",
+        "entityLabel": "Campaign for Access to Essential Medicines"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q120798981",
+        "entityLabel": "Chicago trauma center campaign"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q97353890",
+        "entityLabel": "European Platform for Patients' Organisations, Science and Industry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q97357546",
+        "entityLabel": "Goal-oriented health care"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q110530770",
+        "entityLabel": "Initiative for Medicines, Access, and Knowledge"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q97353907",
+        "entityLabel": "IPPOSI"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6550650",
+        "entityLabel": "Lincoln Detox"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6550756",
+        "entityLabel": "Lincoln Hospital (Bronx)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q111950841",
+        "entityLabel": "Menopause in incarceration"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106254528",
+        "entityLabel": "Menopause in the workplace"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q96398568",
+        "entityLabel": "Patient engagement in Canada"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7144993",
+        "entityLabel": "Patient participation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6375738",
+        "entityLabel": "Kate Rew"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q110322040",
+        "entityLabel": "T1International"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q97495176",
+        "entityLabel": "Committee for Veterinary Medicinal Products"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3474070",
+        "entityLabel": "Animal lead poisoning"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q50972565",
+        "entityLabel": "Veterinary pharmacy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4",
+        "entityLabel": "Death"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25047919",
+        "entityLabel": "Outline of death"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17002251",
+        "entityLabel": "Anxiety buffer disruption theory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q104870117",
+        "entityLabel": "Apeirophobia"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2098451",
+        "entityLabel": "Apparent death"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q92307203",
+        "entityLabel": "Case fatality rate"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3397848",
+        "entityLabel": "Dead pool"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17010008",
+        "entityLabel": "Death and adjustment hypotheses"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3519556",
+        "entityLabel": "Death anxiety"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1570600",
+        "entityLabel": "Death drive"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5247328",
+        "entityLabel": "Death education"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5247627",
+        "entityLabel": "Death rates in the 20th century"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q663998",
+        "entityLabel": "Death rattle"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25048383",
+        "entityLabel": "Death trajectory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q55639561",
+        "entityLabel": "Death-positive movement"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1210697",
+        "entityLabel": "Die-in"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5276322",
+        "entityLabel": "Dignified death"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q65076667",
+        "entityLabel": "Disease of despair"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6914399",
+        "entityLabel": "Excess mortality"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2671076",
+        "entityLabel": "Information-theoretic death"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1720706",
+        "entityLabel": "Lethality"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6914401",
+        "entityLabel": "Mortality forecasting"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q56274517",
+        "entityLabel": "Mortality in the early modern period"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6914402",
+        "entityLabel": "Mortality salience"
     }
 ]

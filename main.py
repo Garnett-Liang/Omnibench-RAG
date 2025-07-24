@@ -1134,7 +1134,7 @@ def get_rag_progress(log_file):
 
 @app.route('/api/rag_results/<log_file>')
 def get_rag_results(log_file):
-    """Retrieve RAG evaluation results"""
+    """Retrieve RAG evaluation results with Transformation metric"""
     # Construct full path from log file name
     log_path = os.path.join("logs", log_file)
     
@@ -1152,14 +1152,12 @@ def get_rag_results(log_file):
         
 
         if not result_file:
-           
             with open(log_path, 'r', encoding='utf-8') as f:
                 logs = f.read()
             
-            if "RAG evaluation completed" in logs:  # Match English log output
+            if "RAG evaluation completed" in logs:
                 return jsonify({"status": "error", "message": "Failed to extract result file path from logs"}), 500
             else:
-                # Evaluation in progress, return current status with full progress checks
                 progress = 0
                 message = "RAG evaluation in progress..."
                 
@@ -1189,30 +1187,49 @@ def get_rag_results(log_file):
                     "log_file": log_file
                 }), 202
         
-        # Check if result file exists
         if not os.path.exists(result_file):
-            # Try relative path if absolute fails
             relative_result_file = os.path.join(os.getcwd(), result_file)
             if os.path.exists(relative_result_file):
                 result_file = relative_result_file
             else:
                 return jsonify({"status": "error", "message": f"Result file not found: {result_file}"}), 404
         
-        # Read result file
         with open(result_file, 'r', encoding='utf-8') as f:
             results = json.load(f)
         
-        # Ensure new metrics are present, default to 0 if not
         metrics = results.get('metrics', {})
+        
         metrics.setdefault('base_avg_response_time', 0)
         metrics.setdefault('base_avg_memory_usage', 0)
         metrics.setdefault('base_avg_gpu_utilization', 0)
         metrics.setdefault('rag_avg_response_time', 0)
         metrics.setdefault('rag_avg_memory_usage', 0)
         metrics.setdefault('rag_avg_gpu_utilization', 0)
-        metrics.setdefault('rag_avg_response_time_ratio', 0)
-        metrics.setdefault('rag_avg_memory_usage_ratio', 0)
-        metrics.setdefault('rag_avg_gpu_utilization_ratio', 0)
+        metrics.setdefault('rag_avg_response_time_ratio', 0)  # 对应 r_time = T_RAG / T_base
+        metrics.setdefault('rag_avg_memory_usage_ratio', 0)  # 对应 r_mem = U_mem_RAG / U_mem_base
+        metrics.setdefault('rag_avg_gpu_utilization_ratio', 0)  # 对应 r_gpu = U_gpu_RAG / U_gpu_base
+        
+        
+        w_time = 0.4
+        w_gpu = 0.3
+        w_mem = 0.3
+        
+        r_time = metrics['rag_avg_response_time_ratio']
+        r_gpu = metrics['rag_avg_gpu_utilization_ratio']
+        r_mem = metrics['rag_avg_memory_usage_ratio']
+        
+        
+        transformation = 0.0
+        if r_time != 0:
+            transformation += w_time / r_time
+        if r_gpu != 0:
+            transformation += w_gpu / r_gpu
+        if r_mem != 0:
+            transformation += w_mem / r_mem
+        
+        
+        metrics['transformation'] = round(transformation, 4)  
+        
         results['metrics'] = metrics
 
         return jsonify({

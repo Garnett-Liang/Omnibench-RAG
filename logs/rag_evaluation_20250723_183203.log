@@ -1,0 +1,900 @@
+Starting RAG evaluation - Domain: geography, Model: gptneo, Retrieved documents: 3
+==================================================
+[1/5] Checking and preprocessing geography domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building geography domain vector index...
+Index already exists, loading...
+[3/5] Loading geography domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Processed 130/223 samples
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/geography_index.faiss
+Number of vectors in FAISS index: 1184
+[5/5] Starting RAG evaluation... (223 samples)
+Starting evaluation with 223 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Could École Normale Supérieure be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could école normale supérieure be be the alma mater of of hervé théry?
+
+a:
+
+i think you're looking for the following:
+
+the following is a list of the most recent articles on the subject:
+
+the following is a list of the most recent articles on the subject:
+
+the following is a list of the most recent articles on the subject:
+
+the following is a list of the most recent articles on the subject:
+
+the following is a list of the most recent articles on the subject:
+
+the following is
+  Semantic Prediction: no (Confidence: 0.9581)
+  Correctness: Incorrect
+  Performance: Time=1.6540s, Memory=1.5391MB, GPU=43.00%
+
+RAG-Enhanced Model:
+  Raw Output: a:
+
+i think it's a good idea to have a list of all the professors who have been in the field since the beginning of the 20th century.
+
+a:
+
+i think it's a good idea to have a list of all the professors who have been in the field since the beginning of the 20th century.
+
+a:
+
+i think it's a good idea to have a list of all the professors who have been in the field since the beginning of the 20th century.
+
+a:
+
+i think it's a good idea to have a list of all the professors who have been in the field since the beginning of the 20th century.
+
+a:
+  Semantic Prediction: yes (Confidence: 0.9990)
+  Correctness: Correct
+  Performance: Time=2.5397s, Memory=0.5781MB, GPU=6.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Could University of Paris 1 Pantheon-Sorbonne be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could university of paris 1 pantheon-sorbonne be be the alma mater of of hervé théry?
+
+the following is a list of the most important works of the french renaissance:
+
+1. the history of the renaissance (18th century)
+
+2. the history of the renaissance (18th century)
+
+3. the history of the renaissance (18th century)
+
+4. the history of the renaissance (18th century)
+
+5. the history of the renaissance (18th century)
+
+6. the history of the renaissance (18th century
+  Semantic Prediction: yes (Confidence: 0.9827)
+  Correctness: Correct
+  Performance: Time=1.7026s, Memory=0.2422MB, GPU=-11.00%
+
+RAG-Enhanced Model:
+  Raw Output: a:
+
+i think the answer is yes.
+
+a:
+
+i think the answer is yes.
+
+a:
+
+i think the answer is yes.
+
+a:
+
+i think the answer is yes.
+
+a:
+
+i think the answer is yes.
+
+a:
+
+i think the answer is yes.
+
+a:
+
+i think the answer is yes.
+
+a:
+
+i think the answer is yes.
+
+a:
+
+i think the answer is yes.
+
+a:
+
+i think the answer is yes.
+
+a:
+
+i think the answer is yes.
+
+a:
+
+i
+  Semantic Prediction: yes (Confidence: 0.9563)
+  Correctness: Correct
+  Performance: Time=2.6204s, Memory=0.0508MB, GPU=3.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Does École Normale Supérieure have the possibility to be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does école normale supérieure have the possibility to be be the alma mater of of hervé théry?
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.9950)
+  Correctness: Correct
+  Performance: Time=1.7151s, Memory=0.0117MB, GPU=-6.00%
+
+RAG-Enhanced Model:
+  Raw Output: a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+  Semantic Prediction: yes (Confidence: 0.9977)
+  Correctness: Correct
+  Performance: Time=14.2133s, Memory=0.5625MB, GPU=-9.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Statement: It's not true that University of Paris 1 Pantheon-Sorbonne could be be the alma mater of of Hervé Théry. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that university of paris 1 pantheon-sorbonne could be be the alma mater of of hervé théry. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.9165)
+  Correctness: Incorrect
+  Performance: Time=10.3120s, Memory=0.0352MB, GPU=4.00%
+
+RAG-Enhanced Model:
+  Raw Output: 1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+
+35.
+
+36.
+
+37.
+  Semantic Prediction: no (Confidence: 0.9678)
+  Correctness: Correct
+  Performance: Time=14.5365s, Memory=-0.0156MB, GPU=-7.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Is it true that École Normale Supérieure could or could be be the alma mater of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that école normale supérieure could or could be be the alma mater of hervé théry?
+
+a:
+
+the answer is yes.
+
+hervé théry was a french mathematician who was a member of the académie de france. he was a member of the académie de france from 1878 to 1881.
+
+hervé théry was a french mathematician who was a member of the académie de france from 1878 to 1881.
+
+hervé théry was a french mathematician who was a member of
+  Semantic Prediction: yes (Confidence: 0.9845)
+  Correctness: Correct
+  Performance: Time=10.7297s, Memory=0.0000MB, GPU=10.00%
+
+RAG-Enhanced Model:
+  Raw Output: 1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+
+35.
+
+36.
+
+37.
+  Semantic Prediction: no (Confidence: 0.9678)
+  Correctness: Incorrect
+  Performance: Time=15.2047s, Memory=0.0000MB, GPU=-8.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Is it true that University of Paris 1 Pantheon-Sorbonne could or could be be the alma mater of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that university of paris 1 pantheon-sorbonne could or could be be the alma mater of hervé théry?
+
+a:
+
+yes, it is true.
+
+a:
+
+yes, it is true.
+
+a:
+
+yes, it is true.
+
+a:
+
+yes, it is true.
+
+a:
+
+yes, it is true.
+
+a:
+
+yes, it is true.
+
+a:
+
+yes, it is true.
+
+a:
+
+yes, it is true.
+
+a:
+  Semantic Prediction: yes (Confidence: 0.9995)
+  Correctness: Correct
+  Performance: Time=10.9006s, Memory=0.0117MB, GPU=2.00%
+
+RAG-Enhanced Model:
+  Raw Output: question: is it true that the university of paris 1 pantheon-sorbonne could or could be the alma mater of hervé théry?
+answer with 'yes' or 'no':
+
+question: is it true that the university of paris 1 pantheon-sorbonne could or could be the alma mater of hervé théry?
+answer with 'yes' or 'no':
+
+question: is it true that the university of paris 1 pantheon-sorbonne could or could be the alma mater of hervé théry?
+answer with 'yes' or 'no':
+
+question: is it true that the university of paris
+  Semantic Prediction: no (Confidence: 0.9747)
+  Correctness: Incorrect
+  Performance: Time=14.9585s, Memory=0.0039MB, GPU=-12.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Could Columbia University be be the alma mater of of Frederick Cook?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could columbia university be be the alma mater of of frederick cook?
+
+a:
+
+yes, the university of california is the alma mater of frederick cook.
+
+a:
+
+yes, the university of california is the alma mater of frederick cook.
+
+a:
+
+yes, the university of california is the alma mater of frederick cook.
+
+a:
+
+yes, the university of california is the alma mater of frederick cook.
+
+a:
+
+yes, the university of california is the alma
+  Semantic Prediction: no (Confidence: 0.9405)
+  Correctness: Incorrect
+  Performance: Time=9.2138s, Memory=0.0039MB, GPU=-1.00%
+
+RAG-Enhanced Model:
+  Raw Output: question: could columbia university be the alma mater of of frederick cook?
+answer with 'yes' or 'no':
+
+question: could columbia university be the alma mater of of frederick cook?
+answer with 'yes' or 'no':
+
+question: could columbia university be the alma mater of of frederick cook?
+answer with 'yes' or 'no':
+
+question: could columbia university be the alma mater of of frederick cook?
+answer with 'yes' or 'no':
+
+question: could columbia university be the alma mater of of frederick cook?
+answer with 'yes' or 'no':
+
+question: could columbia university be the alma mater of of frederick
+  Semantic Prediction: no (Confidence: 0.9987)
+  Correctness: Incorrect
+  Performance: Time=14.3459s, Memory=0.0547MB, GPU=9.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Statement: It's not true that École Normale Supérieure could be be the alma mater of of Hervé Théry. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that école normale supérieure could be be the alma mater of of hervé théry. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+
+a:
+
+the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.7410)
+  Correctness: Incorrect
+  Performance: Time=9.1866s, Memory=0.0195MB, GPU=-8.00%
+
+RAG-Enhanced Model:
+  Raw Output: 1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+
+35.
+
+36.
+
+37.
+  Semantic Prediction: no (Confidence: 0.9678)
+  Correctness: Correct
+  Performance: Time=14.6607s, Memory=0.0000MB, GPU=3.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Could University of Paris 1 Pantheon-Sorbonne be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could university of paris 1 pantheon-sorbonne be be the alma mater of of hervé théry?
+
+the answer is yes.
+
+the answer is no.
+
+the answer is yes.
+
+the answer is no.
+
+the answer is yes.
+
+the answer is no.
+
+the answer is yes.
+
+the answer is no.
+
+the answer is yes.
+
+the answer is no.
+
+the answer is yes.
+
+the answer is no.
+
+the answer is yes.
+
+the answer is no.
+  Semantic Prediction: no (Confidence: 0.9929)
+  Correctness: Incorrect
+  Performance: Time=6.0662s, Memory=0.0000MB, GPU=33.00%
+
+RAG-Enhanced Model:
+  Raw Output: 1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+
+35.
+
+36.
+
+37.
+  Semantic Prediction: no (Confidence: 0.9678)
+  Correctness: Incorrect
+  Performance: Time=2.6857s, Memory=0.0000MB, GPU=-6.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 10/223 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Could École Normale Supérieure be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could école normale supérieure be be the alma mater of of hervé théry?
+
+**_theory of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of the law of
+  Semantic Prediction: no (Confidence: 0.9836)
+  Correctness: Incorrect
+  Performance: Time=1.6641s, Memory=0.0039MB, GPU=-16.00%
+
+RAG-Enhanced Model:
+  Raw Output: a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+
+i think it's a good idea to ask the question.
+
+a:
+  Semantic Prediction: yes (Confidence: 0.9977)
+  Correctness: Correct
+  Performance: Time=2.8979s, Memory=0.0000MB, GPU=18.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 140/223 samples
+Processed 40/223 samples
+Processed 160/223 samples
+Processed 50/223 samples
+Processed 170/223 samples
+Processed 60/223 samples
+Processed 180/223 samples
+Processed 70/223 samples
+Processed 80/223 samples
+Processed 190/223 samples
+Processed 90/223 samples
+Processed 200/223 samples
+Processed 100/223 samples
+Processed 110/223 samples
+Processed 210/223 samples
+Processed 120/223 samples
+Processed 220/223 samples
+Processed 223/223 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 2.7340s (based on 223/223 samples)
+  Avg Memory Usage: 8.4373MB (based on 60/223 samples)
+  Avg GPU Utilization: 11.25% (based on 48/223 samples)
+
+RAG Model:
+  Avg Response Time: 3.9324s (1.44x base)
+  Avg Memory Usage: 3.3837MB (0.40x base)
+  Avg GPU Utilization: 19.18% (1.71x base)
+
+RAG evaluation completed! Results saved to: rag_results/rag_geography_gpt2_20250723184735.json
+Basic accuracy: 0.4529
+RAG-augmented accuracy: 0.6099
+Performance improvement: 0.1570

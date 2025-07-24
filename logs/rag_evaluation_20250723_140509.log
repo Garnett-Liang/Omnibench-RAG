@@ -1,0 +1,260 @@
+Starting RAG evaluation - Domain: culture, Model: qwen, Retrieved documents: 3
+==================================================
+[1/5] Checking and preprocessing culture domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building culture domain vector index...
+Index already exists, loading...
+[3/5] Loading culture domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/culture_index.faiss
+Number of vectors in FAISS index: 719
+[5/5] Starting RAG evaluation... (28 samples)
+Starting evaluation with 28 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Is it true that Dii Consentes and Twelve Olympians have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that dii consentes and twelve olympians have the same instance of? dii consentes is a 1999 novel by american author james patterson. twelve olympians is a 2003 novel by american author james patterson. the answer is no.
+  Semantic Prediction: no (Confidence: 0.8402)
+  Correctness: Incorrect
+  Performance: Time=1.1189s, Memory=0.0156MB, GPU=-23.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+step 1: identify the relevant information in the text.
+in the text, we find the following information:
+- dii consentes and twelve olympians are mentioned.
+- they are described as having the same instance of something.
+
+step 2: analyze the information.
+the text states that dii consentes and twelve olympians have the same instance of something. this means that they have the same occurrence or occurrence of something.
+
+step 3: draw a conclusion.
+since dii consentes and twelve olympians have the same instance of something, we can conclude that the statement "dii consentes and twelve olympians have the same instance of something" is true.
+
+answer: yes
+  Semantic Prediction: no (Confidence: 0.9736)
+  Correctness: Incorrect
+  Performance: Time=3.8368s, Memory=0.0938MB, GPU=2.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Is it true that Federal List of Extremist Materials and New 7 Wonders of the World have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that federal list of extremist materials and new 7 wonders of the world have the same instance of? federal list of extremist materials and new 7 wonders of the world are two different entities. the federal list of extremist materials is a list of extremist materials that are prohibited in the united states. the new 7 wonders of the world is a list of the world's most beautiful natural wonders.
+
+so, the answer is no, they do not have the same instance.
+  Semantic Prediction: no (Confidence: 0.9674)
+  Correctness: Incorrect
+  Performance: Time=1.9461s, Memory=0.0039MB, GPU=9.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the federal list of extremist materials and new 7 wonders of the world are two different entities. the federal list of extremist materials is a list of extremist materials that have been identified by the fbi as containing potential threats to national security. the list includes materials such as hate speech, propaganda, and incitement to violence. the new 7 wonders of the world is a list of the seven wonders of the world, which are considered to be some of the most impressive and awe-inspiring structures in the world.
+
+the two entities are not the same. the federal list of extremist materials is a list of materials that have been identified by the fbi as containing potential threats to national security, while the new
+  Semantic Prediction: no (Confidence: 0.9790)
+  Correctness: Incorrect
+  Performance: Time=3.4845s, Memory=0.0312MB, GPU=1.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Is it true that Four Noble Truths and Three Treasures (Taoism) have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that four noble truths and three treasures (taoism) have the same instance of? four noble truths and three treasures (taoism) are two different philosophical systems that have different beliefs and interpretations. therefore, it is not true that they have the same instance of.
+
+the four noble truths are a set of teachings in buddhism that describe the nature of dukkha (suffering) and the path to its cessation. they are:
+
+1. the truth of dukkha: dukkha is the root of all suffering and is the cause of all the
+  Semantic Prediction: no (Confidence: 0.9936)
+  Correctness: Incorrect
+  Performance: Time=2.2759s, Memory=0.0117MB, GPU=12.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+the four noble truths and three treasures (taoism) are two different concepts. the four noble truths are a set of teachings and principles in buddhism that describe the nature of dukkha (suffering) and the path to liberation from it. the three treasures are a set of teachings and principles in taoism that describe the nature of the universe and the path to enlightenment.
+
+while the four noble truths and three treasures are related to each other in some ways, they are distinct concepts with different meanings and applications. the four noble truths are a set of teachings that describe the nature of dukkha and the path to liberation from it, while the three treasures are a set of teachings that describe
+  Semantic Prediction: yes (Confidence: 0.9977)
+  Correctness: Correct
+  Performance: Time=3.4688s, Memory=0.0117MB, GPU=-23.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Is there any possibility for the instance of of Four Noble Truths also related with Three Turnings of the Wheel of Dharma?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility for the instance of of four noble truths also related with three turnings of the wheel of dharma? yes, there is a possibility for the instance of four noble truths also related with three turnings of the wheel of dharma. 
+
+the four noble truths are a foundational concept in buddhism, and they describe the nature of dukkha (suffering) and the path to liberation from it. the first three truths are:
+
+1. dukkha (suffering) is an inherent part of all existence.
+2. dukkha arises from craving and attachment.
+3. the
+  Semantic Prediction: yes (Confidence: 0.9713)
+  Correctness: Correct
+  Performance: Time=2.3517s, Memory=0.0117MB, GPU=17.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+the instance of four noble truths and three turnings of the wheel of dharma is related. the four noble truths are a foundational concept in buddhism, and the three turnings of the wheel of dharma are a key aspect of buddhist practice. the four noble truths describe the nature of dukkha (suffering), and the three turnings of the wheel of dharma describe the path to liberation from dukkha. together, these concepts provide a comprehensive understanding of buddhist practice and offer a path to liberation from suffering.
+  Semantic Prediction: yes (Confidence: 0.9990)
+  Correctness: Correct
+  Performance: Time=3.0637s, Memory=0.0000MB, GPU=1.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Statement: It's not true that New 7 Wonders of Nature and Seven Wonders of the Ancient World have the same instance of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that new 7 wonders of nature and seven wonders of the ancient world have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no. yes.
+  Semantic Prediction: no (Confidence: 0.9884)
+  Correctness: Correct
+  Performance: Time=0.1051s, Memory=0.0039MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no.
+  Semantic Prediction: no (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=0.1718s, Memory=0.0117MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Does New 7 Wonders of Nature and New 7 Wonders of the World share totally different instance of?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does new 7 wonders of nature and new 7 wonders of the world share totally different instance of? yes, new 7 wonders of nature and new 7 wonders of the world share totally different instance of. the new 7 wonders of nature are a collection of seven natural wonders of the world, whereas the new 7 wonders of the world are a collection of seven wonders of the world. the new 7 wonders of nature are a collection of seven natural wonders of the world, whereas the new 7 wonders of the world are a collection of seven wonders of the
+  Semantic Prediction: yes (Confidence: 0.9971)
+  Correctness: Incorrect
+  Performance: Time=2.3502s, Memory=0.0000MB, GPU=7.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+new 7 wonders of nature and new 7 wonders of the world share a different instance of the concept of wonder. while both lists include natural wonders, they differ in the specific nature of the wonders included. new 7 wonders of nature focuses on natural wonders that are not yet recognized as world wonders, while new 7 wonders of the world includes natural wonders that are recognized as world wonders. this distinction highlights the diversity of natural wonders and the varying levels of recognition and importance that they hold in different cultures and contexts.
+  Semantic Prediction: yes (Confidence: 0.9990)
+  Correctness: Incorrect
+  Performance: Time=2.5143s, Memory=0.0039MB, GPU=5.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Does New 7 Wonders of Nature and Seven Wonders of the Ancient World have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does new 7 wonders of nature and seven wonders of the ancient world have the same instance of? new 7 wonders of nature and seven wonders of the ancient world are both sets of natural wonders that have been recognized as being of exceptional beauty and significance. while they are not identical in terms of their specific locations or features, they do share some similarities.
+
+firstly, both sets of wonders are located in different parts of the world. new 7 wonders of nature is a collection of natural wonders located in various parts of the world, including the united states, canada, mexico, and
+  Semantic Prediction: yes (Confidence: 0.9995)
+  Correctness: Correct
+  Performance: Time=2.3321s, Memory=0.0039MB, GPU=-5.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the new 7 wonders of nature and seven wonders of the ancient world are not the same instance of. the new 7 wonders of nature are a list of natural wonders that were created in 2007 by the united nations educational, scientific and cultural organization (unesco). the list includes the grand canyon, the great barrier reef, the colosseum, the pyramids of giza, the colosseum, the great wall of china, and the sydney opera house. the seven wonders of the ancient world are a list of wonders that were created in ancient times, but were not recognized as such until the 19th century. the seven wonders of the ancient world include the py
+  Semantic Prediction: yes (Confidence: 0.9957)
+  Correctness: Correct
+  Performance: Time=3.2542s, Memory=0.0000MB, GPU=11.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Does New 7 Wonders of the World and Federal List of Extremist Materials have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does new 7 wonders of the world and federal list of extremist materials have the same instance of? new 7 wonders of the world and federal list of extremist materials are two different things. new 7 wonders of the world is a list of the world's most beautiful natural wonders, while the federal list of extremist materials is a list of extremist materials that are prohibited in the united states.
+
+new 7 wonders of the world is a list of the world's most beautiful natural wonders, including the pyramids of giza in egypt, the colosseum in
+  Semantic Prediction: yes (Confidence: 0.9980)
+  Correctness: Correct
+  Performance: Time=2.2090s, Memory=0.0000MB, GPU=-9.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the new 7 wonders of the world and the federal list of extremist materials are not the same instance of something. the new 7 wonders of the world is a list of the seven wonders of the world, while the federal list of extremist materials is a list of extremist materials that are prohibited in the united states. these two lists are not related to each other.
+  Semantic Prediction: no (Confidence: 0.9977)
+  Correctness: Incorrect
+  Performance: Time=1.8172s, Memory=0.0039MB, GPU=5.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Is there any possibility for the instance of of New 7 Wonders of the World also related with Seven Wonders of the Ancient World?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility for the instance of of new 7 wonders of the world also related with seven wonders of the ancient world? yes, there is a possibility for the instance of new 7 wonders of the world also related with seven wonders of the ancient world. the new 7 wonders of the world are a list of the seven wonders of the ancient world, which were selected by the united nations educational, scientific and cultural organization (unesco) in 2007. the list includes the pyramids of giza, the colosseum, the great wall of china, the parthen
+  Semantic Prediction: yes (Confidence: 0.9914)
+  Correctness: Correct
+  Performance: Time=2.2128s, Memory=0.0039MB, GPU=-27.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+the instance of new 7 wonders of the world also relates to seven wonders of the ancient world because both sets of wonders are ancient and significant in their own right. the new 7 wonders of the world are a collection of seven wonders that were recognized as such by the united nations educational, scientific and cultural organization (unesco) in 2007. the seven wonders of the ancient world were a collection of seven wonders that were recognized as such by the ancient greeks in the 1st century bc. while the new 7 wonders of the world are not as well-known as the seven wonders of the ancient world, they are still significant in their own right and are recognized as such by unesco.
+  Semantic Prediction: yes (Confidence: 0.9996)
+  Correctness: Correct
+  Performance: Time=3.3390s, Memory=0.0000MB, GPU=31.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 10/28 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Statement: It's not true that Nine Lyric Poets and Nine Saints have the same instance of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that nine lyric poets and nine saints have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no. yes.
+  Semantic Prediction: no (Confidence: 0.9919)
+  Correctness: Correct
+  Performance: Time=0.1038s, Memory=0.0000MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes, the statement is true.
+  Semantic Prediction: yes (Confidence: 0.9998)
+  Correctness: Incorrect
+  Performance: Time=0.2871s, Memory=0.0000MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 20/28 samples
+Processed 28/28 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 1.9335s (based on 28/28 samples)
+  Avg Memory Usage: 0.0090MB (based on 10/28 samples)
+  Avg GPU Utilization: 11.36% (based on 11/28 samples)
+
+RAG Model:
+  Avg Response Time: 2.5896s (1.34x base)
+  Avg Memory Usage: 0.0153MB (1.70x base)
+  Avg GPU Utilization: 8.42% (0.74x base)
+
+RAG evaluation completed! Results saved to: rag_results/rag_culture_qwen_20250723140729.json
+Basic accuracy: 0.5000
+RAG-augmented accuracy: 0.5714
+Performance improvement: 0.0714

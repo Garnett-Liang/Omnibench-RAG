@@ -1,0 +1,790 @@
+[
+    {
+        "entity": "http://www.wikidata.org/entity/Q132861211",
+        "entityLabel": "Outline of Augustus"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48835067",
+        "entityLabel": "Outline of Albert Einstein"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q65090221",
+        "entityLabel": "Outline of Henry Ford"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q62036531",
+        "entityLabel": "Outline of Jesus"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q55628145",
+        "entityLabel": "Outline of Gottfried Wilhelm Leibniz"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28402356",
+        "entityLabel": "Outline of Abraham Lincoln"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q29025048",
+        "entityLabel": "Outline of Bob Marley"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6594608",
+        "entityLabel": "Outline of Prem Rawat"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q27684061",
+        "entityLabel": "Outline of William Shakespeare"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28228935",
+        "entityLabel": "Outline of Joseph Smith"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q131437420",
+        "entityLabel": "Outline of George Washington"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q43078966",
+        "entityLabel": "Bibliography of John Adams"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q56722555",
+        "entityLabel": "Bibliography of John Quincy Adams"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q22943564",
+        "entityLabel": "Bibliography of Gianni Berengo Gardin"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q121091533",
+        "entityLabel": "Bibliography of Qasim Nanawtawi"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903397",
+        "entityLabel": "Bibliography of Subhas Chandra Bose"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q127163547",
+        "entityLabel": "Bibliography of the Dreyfus Affair"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q124055325",
+        "entityLabel": "Bibliography of Winston Churchill"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28223385",
+        "entityLabel": "Habib Bourguiba bibliography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4657083",
+        "entityLabel": "A Golden Anniversary Bibliography of Edgar Rice Burroughs"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28407713",
+        "entityLabel": "Bibliography of George H. W. Bush"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6608071",
+        "entityLabel": "Bibliography of George W. Bush"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6199781",
+        "entityLabel": "Bibliography of Jimmy Carter"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903405",
+        "entityLabel": "Bibliography of Whittaker Chambers"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48951229",
+        "entityLabel": "Bibliography of Bill Clinton"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6608074",
+        "entityLabel": "Bibliography of Hillary Clinton"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17507392",
+        "entityLabel": "Bibliography of Leonard Cohen"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16951529",
+        "entityLabel": "Bibliography of works on Davy Crockett"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q115115292",
+        "entityLabel": "Bibliography of Abdul Majid Daryabadi"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q115819312",
+        "entityLabel": "Bibliography of Jefferson Davis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903340",
+        "entityLabel": "Bibliography of Duwamish (tribe)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48951242",
+        "entityLabel": "Bibliography of Dwight D. Eisenhower"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q20649333",
+        "entityLabel": "Bibliography of Bobby Fischer"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17007231",
+        "entityLabel": "Bibliography of works on Ulysses S. Grant"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903334",
+        "entityLabel": "Bibliography of works on Che Guevara"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q115518062",
+        "entityLabel": "Bibliography of Haile Selassie"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q134563323",
+        "entityLabel": "Bibliography of Stephen Harper"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4386131",
+        "entityLabel": "Bibliography of Adolf Hitler"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60519297",
+        "entityLabel": "Bibliography of Herbert Hoover"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16985099",
+        "entityLabel": "Bibliography of Sam Houston"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q108730450",
+        "entityLabel": "Iowa Authors and Their Works"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48817811",
+        "entityLabel": "Bibliography of Andrew Jackson"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903400",
+        "entityLabel": "Bibliography of Thomas Jefferson"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q14511694",
+        "entityLabel": "Pope John Paul II bibliography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903320",
+        "entityLabel": "Bibliography of Andrew Johnson"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7772061",
+        "entityLabel": "Bibliography of Lyndon B. Johnson"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60748874",
+        "entityLabel": "Bibliography of Kal\u0101kaua"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q120682833",
+        "entityLabel": "Bibliography of Idris Kandhlawi"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q120569857",
+        "entityLabel": "Bibliography of Anwar Shah Kashmiri"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48951237",
+        "entityLabel": "Bibliography of John F. Kennedy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6645564",
+        "entityLabel": "Bibliography of S\u00f8ren Kierkegaard"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4943280",
+        "entityLabel": "Bibliography of works on Stephen King"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60788362",
+        "entityLabel": "Bibliography of Stanis\u0142aw Lem"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60748767",
+        "entityLabel": "Bibliography of Lili\u02bbuokalani"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903312",
+        "entityLabel": "Bibliography of Abraham Lincoln"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48951254",
+        "entityLabel": "Bibliography of James Madison"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6344178",
+        "entityLabel": "Bibliography of works on Madonna"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903407",
+        "entityLabel": "Bibliography of William McKinley"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q18148446",
+        "entityLabel": "Bibliography of works on Adolfas Mekas"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q130265400",
+        "entityLabel": "Hayao Miyazaki bibliography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60519295",
+        "entityLabel": "Bibliography of James Monroe"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q107616149",
+        "entityLabel": "Bibliography of Abul Hasan Ali Hasani Nadwi"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903370",
+        "entityLabel": "Bibliography of Napoleon"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7328074",
+        "entityLabel": "Bibliography of Richard Nixon"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q107680864",
+        "entityLabel": "Bibliography of Shibli Nomani"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6608066",
+        "entityLabel": "Bibliography of Barack Obama"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903362",
+        "entityLabel": "Bibliography of Louis-Joseph Papineau"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5662035",
+        "entityLabel": "Bibliography of Harold Pinter"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3639534",
+        "entityLabel": "Bibliography of Pope Pius XII"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903388",
+        "entityLabel": "Bibliography of Ramakrishna"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903328",
+        "entityLabel": "Bibliography of Ayn Rand and Objectivism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7365207",
+        "entityLabel": "Bibliography of Ronald Reagan"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q24964368",
+        "entityLabel": "Bibliography of Jacques Rivette"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25055839",
+        "entityLabel": "Bibliography of Jane Roberts"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q99361475",
+        "entityLabel": "Bibliography of Eleanor Roosevelt"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48743419",
+        "entityLabel": "Bibliography of Franklin D. Roosevelt"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48951249",
+        "entityLabel": "Bibliography of Theodore Roosevelt"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q111953110",
+        "entityLabel": "Bibliography of works on Shakira"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7775857",
+        "entityLabel": "The Works of M. P. Shiel"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5373944",
+        "entityLabel": "Emperor of Dreams: A Clark Ashton Smith Bibliography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q107642903",
+        "entityLabel": "Bibliography of Socrates"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q24962262",
+        "entityLabel": "Bibliography of William Howard Taft"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q115825864",
+        "entityLabel": "Bibliography of Ashraf Ali Thanwi"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q52505220",
+        "entityLabel": "Bibliography of Margaret Thatcher"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q134550753",
+        "entityLabel": "Bibliography of Justin Trudeau"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903352",
+        "entityLabel": "Bibliography of Harry S. Truman"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q27791793",
+        "entityLabel": "Bibliography of Donald Trump"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q100323810",
+        "entityLabel": "Bibliography of United States presidential spouses and first ladies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q86290651",
+        "entityLabel": "Bibliography of Martin Van Buren"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4903398",
+        "entityLabel": "Bibliography of Swami Vivekananda"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5546054",
+        "entityLabel": "Bibliography of George Washington"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7104180",
+        "entityLabel": "Bibliography of Orson Welles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48951260",
+        "entityLabel": "Bibliography of Woodrow Wilson"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q119458671",
+        "entityLabel": "Bibliography of Zakariyya Kandhlawi"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q36279",
+        "entityLabel": "Biography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q79770779",
+        "entityLabel": "Autobiografiction"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4184",
+        "entityLabel": "Autobiography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4914873",
+        "entityLabel": "Biographical criticism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q423731",
+        "entityLabel": "Biographical evaluation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4914883",
+        "entityLabel": "Biographical novel"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5364766",
+        "entityLabel": "Portal:Biography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4914889",
+        "entityLabel": "Biography in literature"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1100591",
+        "entityLabel": "Clerihew"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q645928",
+        "entityLabel": "Biographical film"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17118115",
+        "entityLabel": "Legal biography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1162976",
+        "entityLabel": "Metabiography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7187715",
+        "entityLabel": "Photobiography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7226160",
+        "entityLabel": "Polybiography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7256340",
+        "entityLabel": "Psychobiography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4998640",
+        "entityLabel": "Burgher arms"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q550283",
+        "entityLabel": "Coat of arms of Charles V, Holy Roman Emperor"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q110621798",
+        "entityLabel": "Coat of arms of the Ni\u00f1o family"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16839019",
+        "entityLabel": "Giedroy\u0107"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3774899",
+        "entityLabel": "Coat of arms of the King of Spain"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5138574",
+        "entityLabel": "Coat of arms of the Prince of Asturias"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5138573",
+        "entityLabel": "Coat of arms of the Prince of Spain"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q57200536",
+        "entityLabel": "Coat of arms of the Prince of Wales"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5016381",
+        "entityLabel": "Cadency labels of the British royal family"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q165762",
+        "entityLabel": "Coat of arms of the United Kingdom"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q20650771",
+        "entityLabel": "23 People"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q133799876",
+        "entityLabel": "Normie (slang)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q107692975",
+        "entityLabel": "Luciana achugar"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q426657",
+        "entityLabel": "Eden ahbez"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q303464",
+        "entityLabel": "Alan Dawa Dolma"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4911496",
+        "entityLabel": "Bill Bissett"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q818048",
+        "entityLabel": "Benny Blanco"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5214897",
+        "entityLabel": "Danah boyd"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q56380732",
+        "entityLabel": "Adrienne Maree Brown"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q294037",
+        "entityLabel": "MC Chris"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106059562",
+        "entityLabel": "Maia arson crimew"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q298703",
+        "entityLabel": "E. E. Cummings"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5203198",
+        "entityLabel": "D'bi.young anitafrika"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q97750531",
+        "entityLabel": "Steve dePyssler"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28004050",
+        "entityLabel": "Dodie"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4800799",
+        "entityLabel": "Arthur fforde"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5084044",
+        "entityLabel": "Charles ffoulkes"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6835558",
+        "entityLabel": "Michael ffrench-O'Carroll"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q36879261",
+        "entityLabel": "Richard ffrench-Constant"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16198586",
+        "entityLabel": "Rose ffrench, 1st Baroness ffrench"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q97362274",
+        "entityLabel": "Barbara findlay"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q913287",
+        "entityLabel": "Brian d foy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16729420",
+        "entityLabel": "Debbie tucker green"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6112790",
+        "entityLabel": "Jack Green (critic)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5306499",
+        "entityLabel": "Dream Hampton"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5359149",
+        "entityLabel": "Rei Harakami"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5499394",
+        "entityLabel": "Fredric J. Harris"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q259507",
+        "entityLabel": "Bell hooks"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q58866570",
+        "entityLabel": "Imbi the Girl"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16198823",
+        "entityLabel": "Invincible (rapper)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q24851635",
+        "entityLabel": "Pattrice jones"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q110272664",
+        "entityLabel": "Shalan joudry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q230454",
+        "entityLabel": "K.d. lang"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2509574",
+        "entityLabel": "Valter hugo m\u00e3e"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q109968170",
+        "entityLabel": "Iris Menas"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q29016953",
+        "entityLabel": "Sj Miller"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q66809901",
+        "entityLabel": "Mxmtoon"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4953105",
+        "entityLabel": "BpNichol"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5162578",
+        "entityLabel": "Conrad O'Brien-ffrench"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16980150",
+        "entityLabel": "Bart Plantenga"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6217881",
+        "entityLabel": "John A. Powell"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5366161",
+        "entityLabel": "Ellsworth Snyder"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16211133",
+        "entityLabel": "Katherena Vermette"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2177800",
+        "entityLabel": "Ruth weiss (beat poet)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q185610",
+        "entityLabel": "Will.i.am"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28094405",
+        "entityLabel": "Bill Wurtz"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106662772",
+        "entityLabel": "Avery r. young"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4811616",
+        "entityLabel": "Astronaut family"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4821998",
+        "entityLabel": "Aunt Sally"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4853377",
+        "entityLabel": "Bambi effect (slang)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2522199",
+        "entityLabel": "Cassandra (metaphor)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3951787",
+        "entityLabel": "Hobson's choice"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1255083",
+        "entityLabel": "Judgement of Solomon"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6746329",
+        "entityLabel": "Man bites dog"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q735523",
+        "entityLabel": "Master\u2013slave (technology)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3728905",
+        "entityLabel": "McNamara fallacy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7033141",
+        "entityLabel": "Nigger in the woodpile"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2008338",
+        "entityLabel": "O Captain! My Captain!"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7234157",
+        "entityLabel": "Poster child"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q271949",
+        "entityLabel": "Procrustes"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2515525",
+        "entityLabel": "Shooting the messenger"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q108857164",
+        "entityLabel": "Siyokoy (linguistics)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7534424",
+        "entityLabel": "Skeleton in the closet"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7797981",
+        "entityLabel": "Three men make a tiger"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q322212",
+        "entityLabel": "Travelling salesman problem"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q113204",
+        "entityLabel": "Whipping boy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7170675",
+        "entityLabel": "Personhood"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q215627",
+        "entityLabel": "Person"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2549098",
+        "entityLabel": "Abortion debate"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3951828",
+        "entityLabel": "Agency (philosophy)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4880499",
+        "entityLabel": "Beginning of human personhood"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28223890",
+        "entityLabel": "Electronic persons"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q42377878",
+        "entityLabel": "Environmental personhood"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5445916",
+        "entityLabel": "Fetal rights"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5600327",
+        "entityLabel": "Great ape personhood"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5938226",
+        "entityLabel": "Human rights in Dubai"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30325045",
+        "entityLabel": "Hypatia transracialism controversy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q795052",
+        "entityLabel": "Individual"
+    }
+]

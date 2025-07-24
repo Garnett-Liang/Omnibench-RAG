@@ -1,0 +1,300 @@
+Starting RAG evaluation - Domain: nature, Model: qwen, Retrieved documents: 3
+==================================================
+[1/5] Checking and preprocessing nature domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building nature domain vector index...
+Index already exists, loading...
+[3/5] Loading nature domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/nature_index.faiss
+Number of vectors in FAISS index: 584
+[5/5] Starting RAG evaluation... (98 samples)
+Starting evaluation with 98 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Statement: It's not true that Sophie Lissitzky-Küppers could be own of Swamp Legend. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that sophie lissitzky-küppers could be own of swamp legend. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. no.
+  Semantic Prediction: no (Confidence: 0.9979)
+  Correctness: Correct
+  Performance: Time=0.2043s, Memory=12.6094MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no.
+  Semantic Prediction: no (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=0.3127s, Memory=11.1055MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Is there any possibility that Hildebrand Gurlitt could not be own of Swamp Legend?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that hildebrand gurlitt could not be own of swamp legend? hildebrand gurlitt was born in 1898 in england. swamp legend is a 1926 american silent drama film directed by robert j. dighton and written by robert j. dighton and charles vidor. it was released on november 15, 1926, by paramount pictures. the film stars william holden, mary astor, and walter pidgeon. it was filmed on location in the swamps of louisiana. the film was
+  Semantic Prediction: yes (Confidence: 0.8917)
+  Correctness: Incorrect
+  Performance: Time=2.5623s, Memory=0.7578MB, GPU=16.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: is there any possibility that hildebrand gurlitt could not be own of swamp legend?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that hildebrand gurlitt could not be own of swamp legend?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that hildebrand gurlitt could not be own of swamp legend?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that hildebrand gurlitt could not be own of swamp legend?
+answer with 'yes' or 'no': no
+
+question: is there any possibility that hildebrand gurlitt could not be own of swamp legend
+  Semantic Prediction: no (Confidence: 0.9980)
+  Correctness: Correct
+  Performance: Time=3.4096s, Memory=2.0664MB, GPU=26.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Does Munich have the possibility to be own of Swamp Legend?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does munich have the possibility to be own of swamp legend? yes, munich has the possibility to be own of swamp legend. munich is a city located in bavaria, germany, and it is the capital of the state of bavaria. swamp legend is a fictional character from the "the legend of zelda" video game series, and it is a swamp monster that is known for its ability to swallow anything it comes into contact with. therefore, it is possible for munich to be own of swamp legend, as the city is a part of the game's world
+  Semantic Prediction: yes (Confidence: 0.9783)
+  Correctness: Correct
+  Performance: Time=2.2375s, Memory=0.2539MB, GPU=-20.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+explanation: the question is asking if munich is a part of the swamp legend, which is a fictional story about a group of adventurers who travel to a swamp to find a legendary treasure. the answer is no, because munich is not a part of the swamp legend. it is a city in germany that is known for its beautiful architecture and cultural heritage.
+  Semantic Prediction: yes (Confidence: 0.9004)
+  Correctness: Correct
+  Performance: Time=1.7293s, Memory=9.2812MB, GPU=13.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Is it true that Paul Erich Küppers could or could be own Swamp Legend?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that paul erich küppers could or could be own swamp legend? paul erich küppers was a german footballer who played as a forward. he was born on 19 august 1948 in kassel, germany. he played for several clubs including fc schalke 04, borussia mönchengladbach, and borussia dortmund. he was also a member of the german national team. the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.8710)
+  Correctness: Correct
+  Performance: Time=1.6974s, Memory=0.2422MB, GPU=-5.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+paul erich küppers could not be own swamp legend. 
+
+this is because paul erich küppers was a german mathematician and philosopher, and swamp legend is a fictional character from the brothers grimm fairy tale "swamp of the white snake". the brothers grimm were a german folklorists who collected and published fairy tales, and they are known for their work on the grimm's fairy tales. paul erich küppers was not a member of the grimm family, and he was not involved in the creation of the swamp legend character. therefore, it is not true that paul erich küppers could be own swamp legend.
+  Semantic Prediction: no (Confidence: 0.9986)
+  Correctness: Incorrect
+  Performance: Time=2.9701s, Memory=1.3555MB, GPU=9.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Could Ernst Beyeler be own of Swamp Legend?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could ernst beyeler be own of swamp legend? ernst beyeler was a german artist who was born in 1900 and died in 1980. swamp legend is a painting by ernst beyeler. ernst beyeler was a german painter and art theorist. ernst beyeler was born in 1900 and died in 1980. swamp legend is a painting by ernst beyeler. therefore, the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.8841)
+  Correctness: Correct
+  Performance: Time=1.8803s, Memory=0.4805MB, GPU=-4.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+question: could ernst beyeler be own of swamp legend?
+answer with 'yes' or 'no': yes
+
+question: could ernst beyeler be own of swamp legend?
+answer with 'yes' or 'no': yes
+
+question: could ernst beyeler be own of swamp legend?
+answer with 'yes' or 'no': yes
+
+question: could ernst beyeler be own of swamp legend?
+answer with 'yes' or 'no': yes
+
+question: could ernst beyeler be own of swamp legend?
+answer with 'yes' or 'no': yes
+
+question: could ernst beyeler be own of swamp legend?
+answer with 'yes' or 'no': yes
+
+question: could ernst beyeler be own of swamp
+  Semantic Prediction: no (Confidence: 0.9946)
+  Correctness: Incorrect
+  Performance: Time=3.2796s, Memory=0.9258MB, GPU=-12.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Could Sophie Lissitzky-Küppers be own of Swamp Legend?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could sophie lissitzky-küppers be own of swamp legend? sophie lissitzky-küppers was a german artist who was born in 1929. swamp legend is a 1962 painting by the german artist ernst wilhelm bode. the painting depicts a swamp with a man and a woman standing in it. the painting is a work of art that is considered to be a masterpiece of the german expressionist movement. therefore, the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.9985)
+  Correctness: Correct
+  Performance: Time=2.0124s, Memory=0.0430MB, GPU=-17.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+sophie lissitzky-küppers is not a member of the swamp legend. the swamp legend is a fictional group of people who are part of a group of people who are part of a group of people who are part of a group of people who are part of a group of people who are part of a group of people who are part of a group of people who are part of a group of people who are part of a group of people who are part of a group of people who are part of a group of people who are part of a group of people who are part of a group of people who are part of a group of people who are part of a group of people who are part of a group of people who
+  Semantic Prediction: no (Confidence: 0.9795)
+  Correctness: Incorrect
+  Performance: Time=3.4015s, Memory=1.3320MB, GPU=22.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Does Hildebrand Gurlitt have the possibility to be own of Swamp Legend?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does hildebrand gurlitt have the possibility to be own of swamp legend? hildebrand gurlitt was born in 1892 in england. swamp legend is a 1920 american silent drama film directed by robert j. dighton and written by robert j. dighton and charles vidor. it was released on november 17, 1920, by paramount pictures. the film stars william holden, mary pickford, and walter pidgeon. it was released on november 17, 1920,
+  Semantic Prediction: yes (Confidence: 0.9648)
+  Correctness: Correct
+  Performance: Time=2.2151s, Memory=0.0156MB, GPU=-23.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+hildebrand gurlitt is not the owner of the swamp legend. the swamp legend is a fictional character created by the author, stephen king, and is not a real person. the swamp legend is a character in the king's "stephen king" series of novels, which includes "the dark tower" and "the stand." king has stated that he created the swamp legend as a character to explore the idea of a person who is both good and evil, and that he wanted to explore the idea of a character who is both a hero and a villain. king has also stated that he has not owned the swamp legend, and that he has not had any contact with the character in any way. therefore, it is safe to say
+  Semantic Prediction: no (Confidence: 0.9981)
+  Correctness: Incorrect
+  Performance: Time=3.3081s, Memory=0.8047MB, GPU=29.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Is there any possibility that Munich could not be own of Swamp Legend?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that munich could not be own of swamp legend? yes, there is a possibility that munich could not be owned by swamp legend. 
+
+step 1: identify the subject of the question - in this case, the subject is "munich."
+
+step 2: analyze the statement - the statement is "is there any possibility that munich could not be owned by swamp legend?"
+
+step 3: determine the meaning of the statement - the statement is asking if there is any possibility that munich could not be owned by swamp legend.
+
+step 4
+  Semantic Prediction: no (Confidence: 0.9900)
+  Correctness: Correct
+  Performance: Time=2.3274s, Memory=0.0547MB, GPU=-23.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+explanation: the question is asking whether it is possible that munich could not be the owner of swamp legend. the answer is no, because the text clearly states that munich is the owner of swamp legend. the text states, "munich is the owner of swamp legend." therefore, the answer is no.
+  Semantic Prediction: no (Confidence: 0.9996)
+  Correctness: Correct
+  Performance: Time=1.5416s, Memory=0.0469MB, GPU=1.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Statement: It's not true that Paul Erich Küppers could be own of Swamp Legend. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that paul erich küppers could be own of swamp legend. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. yes.
+  Semantic Prediction: no (Confidence: 0.9944)
+  Correctness: Correct
+  Performance: Time=0.1027s, Memory=0.0352MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+step 1: identify the statement
+the statement is "it's not true that paul erich küppers could be own of swamp legend."
+
+step 2: analyze the statement
+the statement claims that paul erich küppers cannot be the owner of swamp legend. this statement is not true because paul erich küppers is a well-known figure in the field of linguistics and has authored numerous books and articles on the topic.
+
+step 3: evaluate the truth of the statement
+since paul erich küppers is a well-known figure in the field of linguistics and has authored numerous books and articles on the topic, it is not true that he cannot be the owner of swamp legend. therefore, the answer is "no
+  Semantic Prediction: no (Confidence: 0.9991)
+  Correctness: Correct
+  Performance: Time=3.4598s, Memory=0.0391MB, GPU=12.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 10/98 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Does Ernst Beyeler have the possibility to be own of Swamp Legend?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does ernst beyeler have the possibility to be own of swamp legend? ernst beyeler is a german musician and composer. swamp legend is a german band formed in 2006. ernst beyeler is a member of swamp legend. the answer is yes.
+  Semantic Prediction: yes (Confidence: 0.9594)
+  Correctness: Correct
+  Performance: Time=1.0233s, Memory=0.0234MB, GPU=-41.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: does ernst beyeler have the possibility to be own of swamp legend?
+answer with 'yes' or 'no': no
+
+question: does ernst beyeler have the possibility to be own of swamp legend?
+answer with 'yes' or 'no': no
+
+question: does ernst beyeler have the possibility to be own of swamp legend?
+answer with 'yes' or 'no': no
+
+question: does ernst beyeler have the possibility to be own of swamp legend?
+answer with 'yes' or 'no': no
+
+question: does ernst beyeler have the possibility to be own of swamp legend?
+answer with 'yes' or 'no': no
+
+question: does ernst beyeler have the possibility to be own of
+  Semantic Prediction: no (Confidence: 0.9972)
+  Correctness: Incorrect
+  Performance: Time=3.3604s, Memory=0.0234MB, GPU=37.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 20/98 samples
+Processed 30/98 samples
+Processed 40/98 samples
+Processed 50/98 samples
+Processed 60/98 samples
+Processed 70/98 samples
+Processed 80/98 samples
+Processed 90/98 samples
+Processed 98/98 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 1.4201s (based on 98/98 samples)
+  Avg Memory Usage: 0.2838MB (based on 60/98 samples)
+  Avg GPU Utilization: 14.82% (based on 17/98 samples)
+
+RAG Model:
+  Avg Response Time: 2.4287s (1.71x base)
+  Avg Memory Usage: 0.5660MB (1.99x base)
+  Avg GPU Utilization: 15.14% (1.02x base)
+
+RAG evaluation completed! Results saved to: rag_results/rag_nature_qwen_20250723131127.json
+Basic accuracy: 0.6531
+RAG-augmented accuracy: 0.5204
+Performance improvement: -0.1327

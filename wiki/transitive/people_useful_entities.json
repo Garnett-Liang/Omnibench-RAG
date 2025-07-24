@@ -1,1 +1,4642 @@
-[]
+[
+    {
+        "subject": "Q28228935",
+        "subjectValue": "Outline of Joseph Smith",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q43078966",
+        "subjectValue": "Bibliography of John Adams",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q43078966",
+        "subjectValue": "Bibliography of John Adams",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q43078966",
+        "subjectValue": "Bibliography of John Adams",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q56722555",
+        "subjectValue": "Bibliography of John Quincy Adams",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q1047113",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q56722555",
+        "subjectValue": "Bibliography of John Quincy Adams",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q22943564",
+        "subjectValue": "Bibliography of Gianni Berengo Gardin",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q1047113",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q22943564",
+        "subjectValue": "Bibliography of Gianni Berengo Gardin",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q4903397",
+        "subjectValue": "Bibliography of Subhas Chandra Bose",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903397",
+        "subjectValue": "Bibliography of Subhas Chandra Bose",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903397",
+        "subjectValue": "Bibliography of Subhas Chandra Bose",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q124055325",
+        "subjectValue": "Bibliography of Winston Churchill",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q124055325",
+        "subjectValue": "Bibliography of Winston Churchill",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q124055325",
+        "subjectValue": "Bibliography of Winston Churchill",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q28223385",
+        "subjectValue": "Habib Bourguiba bibliography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q28223385",
+        "subjectValue": "Habib Bourguiba bibliography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q28223385",
+        "subjectValue": "Habib Bourguiba bibliography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4657083",
+        "subjectValue": "A Golden Anniversary Bibliography of Edgar Rice Burroughs",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q47461344",
+        "objectValue": "written work",
+        "anotherObject": "Q504952",
+        "anotherObjectValue": "collective noun"
+    },
+    {
+        "subject": "Q28407713",
+        "subjectValue": "Bibliography of George H. W. Bush",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q28407713",
+        "subjectValue": "Bibliography of George H. W. Bush",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q28407713",
+        "subjectValue": "Bibliography of George H. W. Bush",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q6199781",
+        "subjectValue": "Bibliography of Jimmy Carter",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q6199781",
+        "subjectValue": "Bibliography of Jimmy Carter",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q6199781",
+        "subjectValue": "Bibliography of Jimmy Carter",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4903405",
+        "subjectValue": "Bibliography of Whittaker Chambers",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903405",
+        "subjectValue": "Bibliography of Whittaker Chambers",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903405",
+        "subjectValue": "Bibliography of Whittaker Chambers",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q48951229",
+        "subjectValue": "Bibliography of Bill Clinton",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q1047113",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q48951229",
+        "subjectValue": "Bibliography of Bill Clinton",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q6608074",
+        "subjectValue": "Bibliography of Hillary Clinton",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q16951529",
+        "subjectValue": "Bibliography of works on Davy Crockett",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q16951529",
+        "subjectValue": "Bibliography of works on Davy Crockett",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q16951529",
+        "subjectValue": "Bibliography of works on Davy Crockett",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q115115292",
+        "subjectValue": "Bibliography of Abdul Majid Daryabadi",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q115115292",
+        "subjectValue": "Bibliography of Abdul Majid Daryabadi",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q115115292",
+        "subjectValue": "Bibliography of Abdul Majid Daryabadi",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4903340",
+        "subjectValue": "Bibliography of Duwamish (tribe)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903340",
+        "subjectValue": "Bibliography of Duwamish (tribe)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903340",
+        "subjectValue": "Bibliography of Duwamish (tribe)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q48951242",
+        "subjectValue": "Bibliography of Dwight D. Eisenhower",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q1047113",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q48951242",
+        "subjectValue": "Bibliography of Dwight D. Eisenhower",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q20649333",
+        "subjectValue": "Bibliography of Bobby Fischer",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q17007231",
+        "subjectValue": "Bibliography of works on Ulysses S. Grant",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q1047113",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q17007231",
+        "subjectValue": "Bibliography of works on Ulysses S. Grant",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q4903334",
+        "subjectValue": "Bibliography of works on Che Guevara",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903334",
+        "subjectValue": "Bibliography of works on Che Guevara",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903334",
+        "subjectValue": "Bibliography of works on Che Guevara",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q115518062",
+        "subjectValue": "Bibliography of Haile Selassie",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q115518062",
+        "subjectValue": "Bibliography of Haile Selassie",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q115518062",
+        "subjectValue": "Bibliography of Haile Selassie",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q134563323",
+        "subjectValue": "Bibliography of Stephen Harper",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q134563323",
+        "subjectValue": "Bibliography of Stephen Harper",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q134563323",
+        "subjectValue": "Bibliography of Stephen Harper",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q60519297",
+        "subjectValue": "Bibliography of Herbert Hoover",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q108730450",
+        "subjectValue": "Iowa Authors and Their Works",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q571",
+        "objectValue": "book",
+        "anotherObject": "Q121132955",
+        "anotherObjectValue": "type of mass media"
+    },
+    {
+        "subject": "Q108730450",
+        "subjectValue": "Iowa Authors and Their Works",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q571",
+        "objectValue": "book",
+        "anotherObject": "Q39725049",
+        "anotherObjectValue": "type of publication"
+    },
+    {
+        "subject": "Q48817811",
+        "subjectValue": "Bibliography of Andrew Jackson",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q48817811",
+        "subjectValue": "Bibliography of Andrew Jackson",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q48817811",
+        "subjectValue": "Bibliography of Andrew Jackson",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q14511694",
+        "subjectValue": "Pope John Paul II bibliography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q14511694",
+        "subjectValue": "Pope John Paul II bibliography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q14511694",
+        "subjectValue": "Pope John Paul II bibliography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4903320",
+        "subjectValue": "Bibliography of Andrew Johnson",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903320",
+        "subjectValue": "Bibliography of Andrew Johnson",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903320",
+        "subjectValue": "Bibliography of Andrew Johnson",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q7772061",
+        "subjectValue": "Bibliography of Lyndon B. Johnson",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q7772061",
+        "subjectValue": "Bibliography of Lyndon B. Johnson",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q7772061",
+        "subjectValue": "Bibliography of Lyndon B. Johnson",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q60748874",
+        "subjectValue": "Bibliography of Kal\u0101kaua",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q60748874",
+        "subjectValue": "Bibliography of Kal\u0101kaua",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q60748874",
+        "subjectValue": "Bibliography of Kal\u0101kaua",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q48951237",
+        "subjectValue": "Bibliography of John F. Kennedy",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q48951237",
+        "subjectValue": "Bibliography of John F. Kennedy",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q48951237",
+        "subjectValue": "Bibliography of John F. Kennedy",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q60788362",
+        "subjectValue": "Bibliography of Stanis\u0142aw Lem",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q60788362",
+        "subjectValue": "Bibliography of Stanis\u0142aw Lem",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q60788362",
+        "subjectValue": "Bibliography of Stanis\u0142aw Lem",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q60748767",
+        "subjectValue": "Bibliography of Lili\u02bbuokalani",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q60748767",
+        "subjectValue": "Bibliography of Lili\u02bbuokalani",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q60748767",
+        "subjectValue": "Bibliography of Lili\u02bbuokalani",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4903312",
+        "subjectValue": "Bibliography of Abraham Lincoln",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903312",
+        "subjectValue": "Bibliography of Abraham Lincoln",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903312",
+        "subjectValue": "Bibliography of Abraham Lincoln",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q48951254",
+        "subjectValue": "Bibliography of James Madison",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q1047113",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q48951254",
+        "subjectValue": "Bibliography of James Madison",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q6344178",
+        "subjectValue": "Bibliography of works on Madonna",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q6344178",
+        "subjectValue": "Bibliography of works on Madonna",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q6344178",
+        "subjectValue": "Bibliography of works on Madonna",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4903407",
+        "subjectValue": "Bibliography of William McKinley",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903407",
+        "subjectValue": "Bibliography of William McKinley",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903407",
+        "subjectValue": "Bibliography of William McKinley",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q18148446",
+        "subjectValue": "Bibliography of works on Adolfas Mekas",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q18148446",
+        "subjectValue": "Bibliography of works on Adolfas Mekas",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q18148446",
+        "subjectValue": "Bibliography of works on Adolfas Mekas",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q130265400",
+        "subjectValue": "Hayao Miyazaki bibliography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q130265400",
+        "subjectValue": "Hayao Miyazaki bibliography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q130265400",
+        "subjectValue": "Hayao Miyazaki bibliography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q60519295",
+        "subjectValue": "Bibliography of James Monroe",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q30",
+        "objectValue": "United States",
+        "anotherObject": "Q30",
+        "anotherObjectValue": "United States"
+    },
+    {
+        "subject": "Q107616149",
+        "subjectValue": "Bibliography of Abul Hasan Ali Hasani Nadwi",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q571",
+        "objectValue": "book",
+        "anotherObject": "Q121132955",
+        "anotherObjectValue": "type of mass media"
+    },
+    {
+        "subject": "Q107616149",
+        "subjectValue": "Bibliography of Abul Hasan Ali Hasani Nadwi",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q571",
+        "objectValue": "book",
+        "anotherObject": "Q39725049",
+        "anotherObjectValue": "type of publication"
+    },
+    {
+        "subject": "Q4903370",
+        "subjectValue": "Bibliography of Napoleon",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903370",
+        "subjectValue": "Bibliography of Napoleon",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903370",
+        "subjectValue": "Bibliography of Napoleon",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q7328074",
+        "subjectValue": "Bibliography of Richard Nixon",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q7328074",
+        "subjectValue": "Bibliography of Richard Nixon",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q7328074",
+        "subjectValue": "Bibliography of Richard Nixon",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q107680864",
+        "subjectValue": "Bibliography of Shibli Nomani",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q571",
+        "objectValue": "book",
+        "anotherObject": "Q121132955",
+        "anotherObjectValue": "type of mass media"
+    },
+    {
+        "subject": "Q107680864",
+        "subjectValue": "Bibliography of Shibli Nomani",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q571",
+        "objectValue": "book",
+        "anotherObject": "Q39725049",
+        "anotherObjectValue": "type of publication"
+    },
+    {
+        "subject": "Q4903362",
+        "subjectValue": "Bibliography of Louis-Joseph Papineau",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903362",
+        "subjectValue": "Bibliography of Louis-Joseph Papineau",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903362",
+        "subjectValue": "Bibliography of Louis-Joseph Papineau",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q5662035",
+        "subjectValue": "Bibliography of Harold Pinter",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q5662035",
+        "subjectValue": "Bibliography of Harold Pinter",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q5662035",
+        "subjectValue": "Bibliography of Harold Pinter",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q3639534",
+        "subjectValue": "Bibliography of Pope Pius XII",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q3639534",
+        "subjectValue": "Bibliography of Pope Pius XII",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q3639534",
+        "subjectValue": "Bibliography of Pope Pius XII",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4903388",
+        "subjectValue": "Bibliography of Ramakrishna",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903388",
+        "subjectValue": "Bibliography of Ramakrishna",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903388",
+        "subjectValue": "Bibliography of Ramakrishna",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4903328",
+        "subjectValue": "Bibliography of Ayn Rand and Objectivism",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903328",
+        "subjectValue": "Bibliography of Ayn Rand and Objectivism",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903328",
+        "subjectValue": "Bibliography of Ayn Rand and Objectivism",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q7365207",
+        "subjectValue": "Bibliography of Ronald Reagan",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q7365207",
+        "subjectValue": "Bibliography of Ronald Reagan",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q7365207",
+        "subjectValue": "Bibliography of Ronald Reagan",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q24964368",
+        "subjectValue": "Bibliography of Jacques Rivette",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q1047113",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q24964368",
+        "subjectValue": "Bibliography of Jacques Rivette",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q25055839",
+        "subjectValue": "Bibliography of Jane Roberts",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q25055839",
+        "subjectValue": "Bibliography of Jane Roberts",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q25055839",
+        "subjectValue": "Bibliography of Jane Roberts",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q99361475",
+        "subjectValue": "Bibliography of Eleanor Roosevelt",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q99361475",
+        "subjectValue": "Bibliography of Eleanor Roosevelt",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q99361475",
+        "subjectValue": "Bibliography of Eleanor Roosevelt",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q48743419",
+        "subjectValue": "Bibliography of Franklin D. Roosevelt",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q48743419",
+        "subjectValue": "Bibliography of Franklin D. Roosevelt",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q48743419",
+        "subjectValue": "Bibliography of Franklin D. Roosevelt",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q48951249",
+        "subjectValue": "Bibliography of Theodore Roosevelt",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q1047113",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q48951249",
+        "subjectValue": "Bibliography of Theodore Roosevelt",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q111953110",
+        "subjectValue": "Bibliography of works on Shakira",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q111953110",
+        "subjectValue": "Bibliography of works on Shakira",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q111953110",
+        "subjectValue": "Bibliography of works on Shakira",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q24962262",
+        "subjectValue": "Bibliography of William Howard Taft",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q24962262",
+        "subjectValue": "Bibliography of William Howard Taft",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q24962262",
+        "subjectValue": "Bibliography of William Howard Taft",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q52505220",
+        "subjectValue": "Bibliography of Margaret Thatcher",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q52505220",
+        "subjectValue": "Bibliography of Margaret Thatcher",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q52505220",
+        "subjectValue": "Bibliography of Margaret Thatcher",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q134550753",
+        "subjectValue": "Bibliography of Justin Trudeau",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q134550753",
+        "subjectValue": "Bibliography of Justin Trudeau",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q134550753",
+        "subjectValue": "Bibliography of Justin Trudeau",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4903352",
+        "subjectValue": "Bibliography of Harry S. Truman",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903352",
+        "subjectValue": "Bibliography of Harry S. Truman",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903352",
+        "subjectValue": "Bibliography of Harry S. Truman",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q100323810",
+        "subjectValue": "Bibliography of United States presidential spouses and first ladies",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q100323810",
+        "subjectValue": "Bibliography of United States presidential spouses and first ladies",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q100323810",
+        "subjectValue": "Bibliography of United States presidential spouses and first ladies",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q86290651",
+        "subjectValue": "Bibliography of Martin Van Buren",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q86290651",
+        "subjectValue": "Bibliography of Martin Van Buren",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q86290651",
+        "subjectValue": "Bibliography of Martin Van Buren",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4903398",
+        "subjectValue": "Bibliography of Swami Vivekananda",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4903398",
+        "subjectValue": "Bibliography of Swami Vivekananda",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q4903398",
+        "subjectValue": "Bibliography of Swami Vivekananda",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q5546054",
+        "subjectValue": "Bibliography of George Washington",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q5546054",
+        "subjectValue": "Bibliography of George Washington",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q5546054",
+        "subjectValue": "Bibliography of George Washington",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q7104180",
+        "subjectValue": "Bibliography of Orson Welles",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q7104180",
+        "subjectValue": "Bibliography of Orson Welles",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q4263830",
+        "anotherObjectValue": "literary form"
+    },
+    {
+        "subject": "Q7104180",
+        "subjectValue": "Bibliography of Orson Welles",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1631107",
+        "objectValue": "bibliography",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q48951260",
+        "subjectValue": "Bibliography of Woodrow Wilson",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q1047113",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q48951260",
+        "subjectValue": "Bibliography of Woodrow Wilson",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q134995",
+        "objectValue": "bibliography",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q119458671",
+        "subjectValue": "Bibliography of Zakariyya Kandhlawi",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P361",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P361",
+        "object": "Q1066186",
+        "objectValue": "study of history",
+        "anotherObject": "Q33122512",
+        "anotherObjectValue": "social sciences and humanities"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q1310296",
+        "objectValue": "vita",
+        "anotherObject": "Q295496",
+        "anotherObjectValue": "Vita"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q8242",
+        "objectValue": "literature",
+        "anotherObject": "Q7725634",
+        "anotherObjectValue": "literary work"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q108329096",
+        "objectValue": "art genre by arts form",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q8242",
+        "objectValue": "literature",
+        "anotherObject": "Q16889133",
+        "anotherObjectValue": "class"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q11862252",
+        "objectValue": "personal history",
+        "anotherObject": "Q112983",
+        "anotherObjectValue": "memoir"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P361",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P361",
+        "object": "Q1066186",
+        "objectValue": "study of history",
+        "anotherObject": "Q113077601",
+        "anotherObjectValue": "history, heritage and archaeology"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q223393",
+        "objectValue": "literary genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q864380",
+        "objectValue": "biographer",
+        "anotherObject": "Q108840114",
+        "anotherObjectValue": "personal historian"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q8242",
+        "objectValue": "literature",
+        "anotherObject": "Q735",
+        "anotherObjectValue": "art"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q11862252",
+        "objectValue": "personal history",
+        "anotherObject": "Q7170512",
+        "anotherObjectValue": "Personal History"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q11862252",
+        "objectValue": "personal history",
+        "anotherObject": "Q4184",
+        "anotherObjectValue": "autobiography"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q20540385",
+        "objectValue": "non-fiction work",
+        "anotherObject": "Q732577",
+        "anotherObjectValue": "publication"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q15706467",
+        "objectValue": "biographical work",
+        "anotherObject": "Q213051",
+        "anotherObjectValue": "non-fiction"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P1343",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1343",
+        "object": "Q19037977",
+        "objectValue": "American Medical Biographies",
+        "anotherObject": "Q19037977",
+        "anotherObjectValue": "American Medical Biographies"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q627436",
+        "objectValue": "field of work",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q36279",
+        "subjectValue": "Biography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q20540385",
+        "objectValue": "non-fiction work",
+        "anotherObject": "Q7725634",
+        "anotherObjectValue": "literary work"
+    },
+    {
+        "subject": "Q79770779",
+        "subjectValue": "Autobiografiction",
+        "predicate": "P527",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P527",
+        "object": "Q8253",
+        "objectValue": "fiction",
+        "anotherObject": "Q87482979",
+        "anotherObjectValue": "work of fiction"
+    },
+    {
+        "subject": "Q79770779",
+        "subjectValue": "Autobiografiction",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q483394",
+        "objectValue": "genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q36279",
+        "objectValue": "biography",
+        "anotherObject": "Q8242",
+        "anotherObjectValue": "literature"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q11862252",
+        "objectValue": "personal history",
+        "anotherObject": "Q112983",
+        "anotherObjectValue": "memoir"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q112983",
+        "objectValue": "memoir",
+        "anotherObject": "Q11862252",
+        "anotherObjectValue": "personal history"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q17108519",
+        "objectValue": "personal narrative",
+        "anotherObject": "Q483394",
+        "anotherObjectValue": "genre"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q17108519",
+        "objectValue": "personal narrative",
+        "anotherObject": "Q1318295",
+        "anotherObjectValue": "narrative"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q223393",
+        "objectValue": "literary genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q17108519",
+        "objectValue": "personal narrative",
+        "anotherObject": "Q10870555",
+        "anotherObjectValue": "report"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q104624828",
+        "objectValue": "book form",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q11862252",
+        "objectValue": "personal history",
+        "anotherObject": "Q7170512",
+        "anotherObjectValue": "Personal History"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q17108519",
+        "objectValue": "personal narrative",
+        "anotherObject": "Q3750478",
+        "anotherObjectValue": "historical source"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q36279",
+        "objectValue": "biography",
+        "anotherObject": "Q20540385",
+        "anotherObjectValue": "non-fiction work"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q11862252",
+        "objectValue": "personal history",
+        "anotherObject": "Q36279",
+        "anotherObjectValue": "biography"
+    },
+    {
+        "subject": "Q4184",
+        "subjectValue": "Autobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q36279",
+        "objectValue": "biography",
+        "anotherObject": "Q15706467",
+        "anotherObjectValue": "biographical work"
+    },
+    {
+        "subject": "Q4914873",
+        "subjectValue": "Biographical criticism",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q58854",
+        "objectValue": "literary criticism",
+        "anotherObject": "Q17955",
+        "anotherObjectValue": "criticism"
+    },
+    {
+        "subject": "Q4914873",
+        "subjectValue": "Biographical criticism",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q208217",
+        "objectValue": "literary studies",
+        "anotherObject": "Q40634",
+        "anotherObjectValue": "philology"
+    },
+    {
+        "subject": "Q4914873",
+        "subjectValue": "Biographical criticism",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q208217",
+        "objectValue": "literary studies",
+        "anotherObject": "Q80083",
+        "anotherObjectValue": "humanities"
+    },
+    {
+        "subject": "Q423731",
+        "subjectValue": "Biographical evaluation",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q423731",
+        "subjectValue": "Biographical evaluation",
+        "predicate": "P361",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P361",
+        "object": "Q2737409",
+        "objectValue": "science of hadith",
+        "anotherObject": "Q843909",
+        "anotherObjectValue": "Islamic studies"
+    },
+    {
+        "subject": "Q4914883",
+        "subjectValue": "Biographical novel",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q108317211",
+        "objectValue": "novel genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4914883",
+        "subjectValue": "Biographical novel",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q123668570",
+        "objectValue": "biographical book",
+        "anotherObject": "Q10916116",
+        "anotherObjectValue": "history book"
+    },
+    {
+        "subject": "Q4914883",
+        "subjectValue": "Biographical novel",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q192239",
+        "objectValue": "historical novel",
+        "anotherObject": "Q8261",
+        "anotherObjectValue": "novel"
+    },
+    {
+        "subject": "Q4914883",
+        "subjectValue": "Biographical novel",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q123668570",
+        "objectValue": "biographical book",
+        "anotherObject": "Q15706467",
+        "anotherObjectValue": "biographical work"
+    },
+    {
+        "subject": "Q4914883",
+        "subjectValue": "Biographical novel",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q123668570",
+        "objectValue": "biographical book",
+        "anotherObject": "Q571",
+        "anotherObjectValue": "book"
+    },
+    {
+        "subject": "Q4914883",
+        "subjectValue": "Biographical novel",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q192239",
+        "objectValue": "historical novel",
+        "anotherObject": "Q136472",
+        "anotherObjectValue": "historical prose literature"
+    },
+    {
+        "subject": "Q4914889",
+        "subjectValue": "Biography in literature",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q109551317",
+        "objectValue": "branch of literature",
+        "anotherObject": "Q109542218",
+        "anotherObjectValue": "class of parts"
+    },
+    {
+        "subject": "Q1100591",
+        "subjectValue": "Clerihew",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q114805151",
+        "objectValue": "humorous poetry",
+        "anotherObject": "Q482",
+        "anotherObjectValue": "poetry"
+    },
+    {
+        "subject": "Q1100591",
+        "subjectValue": "Clerihew",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q110220157",
+        "objectValue": "poetry genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q1100591",
+        "subjectValue": "Clerihew",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q114805151",
+        "objectValue": "humorous poetry",
+        "anotherObject": "Q5977103",
+        "anotherObjectValue": "humorous literature"
+    },
+    {
+        "subject": "Q645928",
+        "subjectValue": "Biographical film",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q201658",
+        "objectValue": "film genre",
+        "anotherObject": "Q24017414",
+        "anotherObjectValue": "second-order class"
+    },
+    {
+        "subject": "Q645928",
+        "subjectValue": "Biographical film",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11424",
+        "objectValue": "film",
+        "anotherObject": "Q4502142",
+        "anotherObjectValue": "visual artwork"
+    },
+    {
+        "subject": "Q645928",
+        "subjectValue": "Biographical film",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11424",
+        "objectValue": "film",
+        "anotherObject": "Q10301427",
+        "anotherObjectValue": "moving image"
+    },
+    {
+        "subject": "Q645928",
+        "subjectValue": "Biographical film",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11424",
+        "objectValue": "film",
+        "anotherObject": "Q2431196",
+        "anotherObjectValue": "audiovisual work"
+    },
+    {
+        "subject": "Q645928",
+        "subjectValue": "Biographical film",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q15706467",
+        "objectValue": "biographical work",
+        "anotherObject": "Q213051",
+        "anotherObjectValue": "non-fiction"
+    },
+    {
+        "subject": "Q17118115",
+        "subjectValue": "Legal biography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q36279",
+        "objectValue": "biography",
+        "anotherObject": "Q8242",
+        "anotherObjectValue": "literature"
+    },
+    {
+        "subject": "Q17118115",
+        "subjectValue": "Legal biography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q36279",
+        "objectValue": "biography",
+        "anotherObject": "Q20540385",
+        "anotherObjectValue": "non-fiction work"
+    },
+    {
+        "subject": "Q17118115",
+        "subjectValue": "Legal biography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q36279",
+        "objectValue": "biography",
+        "anotherObject": "Q15706467",
+        "anotherObjectValue": "biographical work"
+    },
+    {
+        "subject": "Q7187715",
+        "subjectValue": "Photobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q36279",
+        "objectValue": "biography",
+        "anotherObject": "Q8242",
+        "anotherObjectValue": "literature"
+    },
+    {
+        "subject": "Q7187715",
+        "subjectValue": "Photobiography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1792379",
+        "objectValue": "art genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q7187715",
+        "subjectValue": "Photobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q11633",
+        "objectValue": "photography",
+        "anotherObject": "Q1914636",
+        "anotherObjectValue": "activity"
+    },
+    {
+        "subject": "Q7187715",
+        "subjectValue": "Photobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q36279",
+        "objectValue": "biography",
+        "anotherObject": "Q20540385",
+        "anotherObjectValue": "non-fiction work"
+    },
+    {
+        "subject": "Q7187715",
+        "subjectValue": "Photobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q36279",
+        "objectValue": "biography",
+        "anotherObject": "Q15706467",
+        "anotherObjectValue": "biographical work"
+    },
+    {
+        "subject": "Q7256340",
+        "subjectValue": "Psychobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q36279",
+        "objectValue": "biography",
+        "anotherObject": "Q8242",
+        "anotherObjectValue": "literature"
+    },
+    {
+        "subject": "Q7256340",
+        "subjectValue": "Psychobiography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q223393",
+        "objectValue": "literary genre",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q7256340",
+        "subjectValue": "Psychobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q36279",
+        "objectValue": "biography",
+        "anotherObject": "Q20540385",
+        "anotherObjectValue": "non-fiction work"
+    },
+    {
+        "subject": "Q7256340",
+        "subjectValue": "Psychobiography",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q36279",
+        "objectValue": "biography",
+        "anotherObject": "Q15706467",
+        "anotherObjectValue": "biographical work"
+    },
+    {
+        "subject": "Q7256340",
+        "subjectValue": "Psychobiography",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q627436",
+        "objectValue": "field of work",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q4998640",
+        "subjectValue": "Burgher arms",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q14659",
+        "objectValue": "coat of arms",
+        "anotherObject": "Q80071",
+        "anotherObjectValue": "symbol"
+    },
+    {
+        "subject": "Q4998640",
+        "subjectValue": "Burgher arms",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q14659",
+        "objectValue": "coat of arms",
+        "anotherObject": "Q391414",
+        "anotherObjectValue": "architectural element"
+    },
+    {
+        "subject": "Q4998640",
+        "subjectValue": "Burgher arms",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q14659",
+        "objectValue": "coat of arms",
+        "anotherObject": "Q17335294",
+        "anotherObjectValue": "flag or coat of arms"
+    },
+    {
+        "subject": "Q550283",
+        "subjectValue": "Coat of arms of Charles V, Holy Roman Emperor",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q29",
+        "objectValue": "Spain",
+        "anotherObject": "Q29",
+        "anotherObjectValue": "Spain"
+    },
+    {
+        "subject": "Q110621798",
+        "subjectValue": "Coat of arms of the Ni\u00f1o family",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q29",
+        "objectValue": "Spain",
+        "anotherObject": "Q29",
+        "anotherObjectValue": "Spain"
+    },
+    {
+        "subject": "Q16839019",
+        "subjectValue": "Giedroy\u0107",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q101352",
+        "objectValue": "family name",
+        "anotherObject": "Q121493639",
+        "anotherObjectValue": "name particle"
+    },
+    {
+        "subject": "Q16839019",
+        "subjectValue": "Giedroy\u0107",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q36989605",
+        "objectValue": "Giedraitis",
+        "anotherObject": "Q13553570",
+        "anotherObjectValue": "Giedraitis"
+    },
+    {
+        "subject": "Q3774899",
+        "subjectValue": "Coat of arms of the King of Spain",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q29",
+        "objectValue": "Spain",
+        "anotherObject": "Q29",
+        "anotherObjectValue": "Spain"
+    },
+    {
+        "subject": "Q5138574",
+        "subjectValue": "Coat of arms of the Prince of Asturias",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q29",
+        "objectValue": "Spain",
+        "anotherObject": "Q29",
+        "anotherObjectValue": "Spain"
+    },
+    {
+        "subject": "Q5138573",
+        "subjectValue": "Coat of arms of the Prince of Spain",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q29",
+        "objectValue": "Spain",
+        "anotherObject": "Q29",
+        "anotherObjectValue": "Spain"
+    },
+    {
+        "subject": "Q165762",
+        "subjectValue": "Coat of arms of the United Kingdom",
+        "predicate": "P180",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P180",
+        "object": "Q217529",
+        "objectValue": "Royal coat of arms in Scotland",
+        "anotherObject": "Q372254",
+        "anotherObjectValue": "field"
+    },
+    {
+        "subject": "Q165762",
+        "subjectValue": "Coat of arms of the United Kingdom",
+        "predicate": "P180",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P180",
+        "object": "Q217529",
+        "objectValue": "Royal coat of arms in Scotland",
+        "anotherObject": "Q338814",
+        "anotherObjectValue": "lion"
+    },
+    {
+        "subject": "Q165762",
+        "subjectValue": "Coat of arms of the United Kingdom",
+        "predicate": "P180",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P180",
+        "object": "Q338814",
+        "objectValue": "lion",
+        "anotherObject": "Q140",
+        "anotherObjectValue": "lion"
+    },
+    {
+        "subject": "Q165762",
+        "subjectValue": "Coat of arms of the United Kingdom",
+        "predicate": "P527",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P527",
+        "object": "Q7375053",
+        "objectValue": "Royal coat of arms of Great Britain",
+        "anotherObject": "Q217529",
+        "anotherObjectValue": "Royal coat of arms in Scotland"
+    },
+    {
+        "subject": "Q165762",
+        "subjectValue": "Coat of arms of the United Kingdom",
+        "predicate": "P180",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P180",
+        "object": "Q217529",
+        "objectValue": "Royal coat of arms in Scotland",
+        "anotherObject": "Q53672821",
+        "anotherObjectValue": "tressure flory"
+    },
+    {
+        "subject": "Q165762",
+        "subjectValue": "Coat of arms of the United Kingdom",
+        "predicate": "P527",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P527",
+        "object": "Q7375053",
+        "objectValue": "Royal coat of arms of Great Britain",
+        "anotherObject": "Q643999",
+        "anotherObjectValue": "Royal Arms of England"
+    },
+    {
+        "subject": "Q165762",
+        "subjectValue": "Coat of arms of the United Kingdom",
+        "predicate": "P180",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P180",
+        "object": "Q643999",
+        "objectValue": "Royal Arms of England",
+        "anotherObject": "Q372254",
+        "anotherObjectValue": "field"
+    },
+    {
+        "subject": "Q165762",
+        "subjectValue": "Coat of arms of the United Kingdom",
+        "predicate": "P180",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P180",
+        "object": "Q643999",
+        "objectValue": "Royal Arms of England",
+        "anotherObject": "Q338814",
+        "anotherObjectValue": "lion"
+    },
+    {
+        "subject": "Q165762",
+        "subjectValue": "Coat of arms of the United Kingdom",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q145",
+        "objectValue": "United Kingdom",
+        "anotherObject": "Q145",
+        "anotherObjectValue": "United Kingdom"
+    },
+    {
+        "subject": "Q165762",
+        "subjectValue": "Coat of arms of the United Kingdom",
+        "predicate": "P180",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P180",
+        "object": "Q1229420",
+        "objectValue": "thistle",
+        "anotherObject": "Q538906",
+        "anotherObjectValue": "thistle"
+    },
+    {
+        "subject": "Q107692975",
+        "subjectValue": "Luciana achugar",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q426657",
+        "subjectValue": "Eden ahbez",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q303464",
+        "subjectValue": "Alan Dawa Dolma",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q4911496",
+        "subjectValue": "Bill Bissett",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q4911496",
+        "subjectValue": "Bill Bissett",
+        "predicate": "P485",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P485",
+        "object": "Q61467363",
+        "objectValue": "Clara Thomas Archives and Special Collections",
+        "anotherObject": "Q61467363",
+        "anotherObjectValue": "Clara Thomas Archives and Special Collections"
+    },
+    {
+        "subject": "Q818048",
+        "subjectValue": "Benny Blanco",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q818048",
+        "subjectValue": "Benny Blanco",
+        "predicate": "P451",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P451",
+        "object": "Q83287",
+        "objectValue": "Selena Gomez",
+        "anotherObject": "Q34086",
+        "anotherObjectValue": "Justin Bieber"
+    },
+    {
+        "subject": "Q5214897",
+        "subjectValue": "Danah boyd",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q56380732",
+        "subjectValue": "Adrienne Maree Brown",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q56380732",
+        "subjectValue": "Adrienne Maree Brown",
+        "predicate": "P106",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P106",
+        "object": "Q639669",
+        "objectValue": "musician",
+        "anotherObject": "Q1028181",
+        "anotherObjectValue": "painter"
+    },
+    {
+        "subject": "Q294037",
+        "subjectValue": "MC Chris",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q294037",
+        "subjectValue": "MC Chris",
+        "predicate": "P106",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P106",
+        "object": "Q639669",
+        "objectValue": "musician",
+        "anotherObject": "Q1028181",
+        "anotherObjectValue": "painter"
+    },
+    {
+        "subject": "Q106059562",
+        "subjectValue": "Maia arson crimew",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q667868",
+        "objectValue": "Young Socialists Switzerland",
+        "anotherObject": "Q1376486",
+        "anotherObjectValue": "Young European Socialists"
+    },
+    {
+        "subject": "Q106059562",
+        "subjectValue": "Maia arson crimew",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q106059562",
+        "subjectValue": "Maia arson crimew",
+        "predicate": "P553",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P553",
+        "object": "Q77949925",
+        "objectValue": "Ko-fi",
+        "anotherObject": "Q77949925",
+        "anotherObjectValue": "Ko-fi"
+    },
+    {
+        "subject": "Q298703",
+        "subjectValue": "E. E. Cummings",
+        "predicate": "P463",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P463",
+        "object": "Q463281",
+        "objectValue": "American Academy of Arts and Letters",
+        "anotherObject": "Q125470235",
+        "anotherObjectValue": "Museum Association of New York"
+    },
+    {
+        "subject": "Q298703",
+        "subjectValue": "E. E. Cummings",
+        "predicate": "P6379",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P6379",
+        "object": "Q639791",
+        "objectValue": "Whitney Museum of American Art",
+        "anotherObject": "Q1192305",
+        "anotherObjectValue": "Smithsonian American Art Museum"
+    },
+    {
+        "subject": "Q298703",
+        "subjectValue": "E. E. Cummings",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q298703",
+        "subjectValue": "E. E. Cummings",
+        "predicate": "P6379",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P6379",
+        "object": "Q160236",
+        "objectValue": "Metropolitan Museum of Art",
+        "anotherObject": "Q1192305",
+        "anotherObjectValue": "Smithsonian American Art Museum"
+    },
+    {
+        "subject": "Q298703",
+        "subjectValue": "E. E. Cummings",
+        "predicate": "P6379",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P6379",
+        "object": "Q160236",
+        "objectValue": "Metropolitan Museum of Art",
+        "anotherObject": "Q214867",
+        "anotherObjectValue": "National Gallery of Art"
+    },
+    {
+        "subject": "Q298703",
+        "subjectValue": "E. E. Cummings",
+        "predicate": "P6379",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P6379",
+        "object": "Q160236",
+        "objectValue": "Metropolitan Museum of Art",
+        "anotherObject": "Q17153751",
+        "anotherObjectValue": "National Museum of World Cultures"
+    },
+    {
+        "subject": "Q298703",
+        "subjectValue": "E. E. Cummings",
+        "predicate": "P6379",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P6379",
+        "object": "Q809600",
+        "objectValue": "Fogg Museum",
+        "anotherObject": "Q924335",
+        "anotherObjectValue": "Stedelijk Museum Amsterdam"
+    },
+    {
+        "subject": "Q5203198",
+        "subjectValue": "D'bi.young anitafrika",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q5203198",
+        "subjectValue": "D'bi.young anitafrika",
+        "predicate": "P106",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P106",
+        "object": "Q639669",
+        "objectValue": "musician",
+        "anotherObject": "Q1028181",
+        "anotherObjectValue": "painter"
+    },
+    {
+        "subject": "Q97750531",
+        "subjectValue": "Steve dePyssler",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q28004050",
+        "subjectValue": "Dodie",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q4800799",
+        "subjectValue": "Arthur fforde",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q5084044",
+        "subjectValue": "Charles ffoulkes",
+        "predicate": "P25",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P25",
+        "object": "Q76180001",
+        "objectValue": "Anne Strange",
+        "anotherObject": "Q76046134",
+        "anotherObjectValue": "Louisa Burroughs"
+    },
+    {
+        "subject": "Q5084044",
+        "subjectValue": "Charles ffoulkes",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q5084044",
+        "subjectValue": "Charles ffoulkes",
+        "predicate": "P6379",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P6379",
+        "object": "Q749808",
+        "objectValue": "Imperial War Museum London",
+        "anotherObject": "Q430682",
+        "anotherObjectValue": "Tate"
+    },
+    {
+        "subject": "Q6835558",
+        "subjectValue": "Michael ffrench-O'Carroll",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q36879261",
+        "subjectValue": "Richard ffrench-Constant",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q16198586",
+        "subjectValue": "Rose ffrench, 1st Baroness ffrench",
+        "predicate": "P40",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P40",
+        "object": "Q75499546",
+        "objectValue": "Jane ffrench",
+        "anotherObject": "Q75499552",
+        "anotherObjectValue": "Charles ffrench Bromhead"
+    },
+    {
+        "subject": "Q16198586",
+        "subjectValue": "Rose ffrench, 1st Baroness ffrench",
+        "predicate": "P40",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P40",
+        "object": "Q75499546",
+        "objectValue": "Jane ffrench",
+        "anotherObject": "Q75499495",
+        "anotherObjectValue": "Sir Edmund Gonville Bromhead, 3rd Bt."
+    },
+    {
+        "subject": "Q16198586",
+        "subjectValue": "Rose ffrench, 1st Baroness ffrench",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q16198586",
+        "subjectValue": "Rose ffrench, 1st Baroness ffrench",
+        "predicate": "P40",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P40",
+        "object": "Q75929523",
+        "objectValue": "Catherine ffrench",
+        "anotherObject": "Q75979781",
+        "anotherObjectValue": "Ellen Brabazon"
+    },
+    {
+        "subject": "Q16198586",
+        "subjectValue": "Rose ffrench, 1st Baroness ffrench",
+        "predicate": "P40",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P40",
+        "object": "Q75499546",
+        "objectValue": "Jane ffrench",
+        "anotherObject": "Q1291771",
+        "anotherObjectValue": "Edward Bromhead"
+    },
+    {
+        "subject": "Q16198586",
+        "subjectValue": "Rose ffrench, 1st Baroness ffrench",
+        "predicate": "P40",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P40",
+        "object": "Q75860279",
+        "objectValue": "Thomas Hamilton ffrench, 2nd Baron ffrench of Castle ffrench",
+        "anotherObject": "Q75441835",
+        "anotherObjectValue": "Charles Austin ffrench, 3rd Baron ffrench of Castle ffrench"
+    },
+    {
+        "subject": "Q16198586",
+        "subjectValue": "Rose ffrench, 1st Baroness ffrench",
+        "predicate": "P40",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P40",
+        "object": "Q75860279",
+        "objectValue": "Thomas Hamilton ffrench, 2nd Baron ffrench of Castle ffrench",
+        "anotherObject": "Q75655414",
+        "anotherObjectValue": "Martin ffrench"
+    },
+    {
+        "subject": "Q16198586",
+        "subjectValue": "Rose ffrench, 1st Baroness ffrench",
+        "predicate": "P40",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P40",
+        "object": "Q75860279",
+        "objectValue": "Thomas Hamilton ffrench, 2nd Baron ffrench of Castle ffrench",
+        "anotherObject": "Q75860268",
+        "anotherObjectValue": "Rose ffrench"
+    },
+    {
+        "subject": "Q16198586",
+        "subjectValue": "Rose ffrench, 1st Baroness ffrench",
+        "predicate": "P40",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P40",
+        "object": "Q75860279",
+        "objectValue": "Thomas Hamilton ffrench, 2nd Baron ffrench of Castle ffrench",
+        "anotherObject": "Q75929551",
+        "anotherObjectValue": "Gonville ffrench"
+    },
+    {
+        "subject": "Q16198586",
+        "subjectValue": "Rose ffrench, 1st Baroness ffrench",
+        "predicate": "P40",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P40",
+        "object": "Q75860279",
+        "objectValue": "Thomas Hamilton ffrench, 2nd Baron ffrench of Castle ffrench",
+        "anotherObject": "Q75929549",
+        "anotherObjectValue": "Nicholas ffrench"
+    },
+    {
+        "subject": "Q16198586",
+        "subjectValue": "Rose ffrench, 1st Baroness ffrench",
+        "predicate": "P40",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P40",
+        "object": "Q75860279",
+        "objectValue": "Thomas Hamilton ffrench, 2nd Baron ffrench of Castle ffrench",
+        "anotherObject": "Q75929559",
+        "anotherObjectValue": "Sarah ffrench"
+    },
+    {
+        "subject": "Q97362274",
+        "subjectValue": "Barbara findlay",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q913287",
+        "subjectValue": "Brian d foy",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q16729420",
+        "subjectValue": "Debbie tucker green",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q6112790",
+        "subjectValue": "Jack Green (critic)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q5306499",
+        "subjectValue": "Dream Hampton",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q5359149",
+        "subjectValue": "Rei Harakami",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q5359149",
+        "subjectValue": "Rei Harakami",
+        "predicate": "P106",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P106",
+        "object": "Q639669",
+        "objectValue": "musician",
+        "anotherObject": "Q1028181",
+        "anotherObjectValue": "painter"
+    },
+    {
+        "subject": "Q5499394",
+        "subjectValue": "Fredric J. Harris",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q8027",
+        "objectValue": "Martin Luther King Jr.",
+        "anotherObject": "Q1001",
+        "anotherObjectValue": "Mahatma Gandhi"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q72334",
+        "objectValue": "Toni Morrison",
+        "anotherObject": "Q220480",
+        "anotherObjectValue": "Zora Neale Hurston"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q57085",
+        "objectValue": "Erich Fromm",
+        "anotherObject": "Q76709",
+        "anotherObjectValue": "Hermann Cohen"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q57085",
+        "objectValue": "Erich Fromm",
+        "anotherObject": "Q152393",
+        "anotherObjectValue": "Alfred Adler"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q72334",
+        "objectValue": "Toni Morrison",
+        "anotherObject": "Q273210",
+        "anotherObjectValue": "James Baldwin"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q57085",
+        "objectValue": "Erich Fromm",
+        "anotherObject": "Q123861",
+        "anotherObjectValue": "Johann Jakob Bachofen"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q72334",
+        "objectValue": "Toni Morrison",
+        "anotherObject": "Q15500356",
+        "anotherObjectValue": "Henry Dumas"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q57085",
+        "objectValue": "Erich Fromm",
+        "anotherObject": "Q76548",
+        "anotherObjectValue": "Meister Eckhart"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q8027",
+        "objectValue": "Martin Luther King Jr.",
+        "anotherObject": "Q131149",
+        "anotherObjectValue": "Henry David Thoreau"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q8027",
+        "objectValue": "Martin Luther King Jr.",
+        "anotherObject": "Q1345238",
+        "anotherObjectValue": "Walter Rauschenbusch"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q57085",
+        "objectValue": "Erich Fromm",
+        "anotherObject": "Q9061",
+        "anotherObjectValue": "Karl Marx"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q72334",
+        "objectValue": "Toni Morrison",
+        "anotherObject": "Q38392",
+        "anotherObjectValue": "William Faulkner"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q8027",
+        "objectValue": "Martin Luther King Jr.",
+        "anotherObject": "Q358561",
+        "anotherObjectValue": "Reinhold Niebuhr"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q8027",
+        "objectValue": "Martin Luther King Jr.",
+        "anotherObject": "Q3141604",
+        "anotherObjectValue": "Howard Thurman"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q57085",
+        "objectValue": "Erich Fromm",
+        "anotherObject": "Q9333",
+        "anotherObjectValue": "Laozi"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q57085",
+        "objectValue": "Erich Fromm",
+        "anotherObject": "Q9215",
+        "anotherObjectValue": "Sigmund Freud"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q57085",
+        "objectValue": "Erich Fromm",
+        "anotherObject": "Q6512",
+        "anotherObjectValue": "S\u00f8ren Kierkegaard"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q72334",
+        "objectValue": "Toni Morrison",
+        "anotherObject": "Q40909",
+        "anotherObjectValue": "Virginia Woolf"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q72334",
+        "objectValue": "Toni Morrison",
+        "anotherObject": "Q40874",
+        "anotherObjectValue": "Doris Lessing"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q57085",
+        "objectValue": "Erich Fromm",
+        "anotherObject": "Q35802",
+        "anotherObjectValue": "Benedictus de Spinoza"
+    },
+    {
+        "subject": "Q259507",
+        "subjectValue": "Bell hooks",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q72334",
+        "objectValue": "Toni Morrison",
+        "anotherObject": "Q4985",
+        "anotherObjectValue": "Herman Melville"
+    },
+    {
+        "subject": "Q58866570",
+        "subjectValue": "Imbi the Girl",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q16198823",
+        "subjectValue": "Invincible (rapper)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q24851635",
+        "subjectValue": "Pattrice jones",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q110272664",
+        "subjectValue": "Shalan joudry",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q230454",
+        "subjectValue": "K.d. lang",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q230454",
+        "subjectValue": "K.d. lang",
+        "predicate": "P140",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P140",
+        "object": "Q483889",
+        "objectValue": "Tibetan Buddhism",
+        "anotherObject": "Q748",
+        "anotherObjectValue": "Buddhism"
+    },
+    {
+        "subject": "Q2509574",
+        "subjectValue": "Valter hugo m\u00e3e",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q109968170",
+        "subjectValue": "Iris Menas",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q29016953",
+        "subjectValue": "Sj Miller",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q29016953",
+        "subjectValue": "Sj Miller",
+        "predicate": "22-rdf-syntax-ns#type",
+        "predicateValue": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "P6553",
+        "objectValue": "http://www.wikidata.org/prop/novalue/P6553",
+        "anotherObject": "owl#Class",
+        "anotherObjectValue": "http://www.w3.org/2002/07/owl#Class"
+    },
+    {
+        "subject": "Q66809901",
+        "subjectValue": "Mxmtoon",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q4953105",
+        "subjectValue": "BpNichol",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q4953105",
+        "subjectValue": "BpNichol",
+        "predicate": "P6379",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P6379",
+        "object": "Q430682",
+        "objectValue": "Tate",
+        "anotherObject": "Q731126",
+        "anotherObjectValue": "J. Paul Getty Museum"
+    },
+    {
+        "subject": "Q4953105",
+        "subjectValue": "BpNichol",
+        "predicate": "P6379",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P6379",
+        "object": "Q1068063",
+        "objectValue": "National Gallery of Canada",
+        "anotherObject": "Q924335",
+        "anotherObjectValue": "Stedelijk Museum Amsterdam"
+    },
+    {
+        "subject": "Q4953105",
+        "subjectValue": "BpNichol",
+        "predicate": "P6379",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P6379",
+        "object": "Q430682",
+        "objectValue": "Tate",
+        "anotherObject": "Q924335",
+        "anotherObjectValue": "Stedelijk Museum Amsterdam"
+    },
+    {
+        "subject": "Q5162578",
+        "subjectValue": "Conrad O'Brien-ffrench",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q5162578",
+        "subjectValue": "Conrad O'Brien-ffrench",
+        "predicate": "P25",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P25",
+        "object": "Q75525454",
+        "objectValue": "Winifred Thursby",
+        "anotherObject": "Q75525413",
+        "anotherObjectValue": "Harriet Matilda Johnston"
+    },
+    {
+        "subject": "Q5162578",
+        "subjectValue": "Conrad O'Brien-ffrench",
+        "predicate": "P22",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P22",
+        "object": "Q75893752",
+        "objectValue": "Henry Albert de Vreque O'Brien-ffrench, 1st Marquess of Castel Thomond",
+        "anotherObject": "Q75893733",
+        "anotherObjectValue": "Acheson Jeremy Sydney ffrench"
+    },
+    {
+        "subject": "Q16980150",
+        "subjectValue": "Bart Plantenga",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q6217881",
+        "subjectValue": "John A. Powell",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q5366161",
+        "subjectValue": "Ellsworth Snyder",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q16211133",
+        "subjectValue": "Katherena Vermette",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q2177800",
+        "subjectValue": "Ruth weiss (beat poet)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q185610",
+        "subjectValue": "Will.i.am",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q28094405",
+        "subjectValue": "Bill Wurtz",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q28094405",
+        "subjectValue": "Bill Wurtz",
+        "predicate": "P106",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P106",
+        "object": "Q639669",
+        "objectValue": "musician",
+        "anotherObject": "Q1028181",
+        "anotherObjectValue": "painter"
+    },
+    {
+        "subject": "Q106662772",
+        "subjectValue": "Avery r. young",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q55983715",
+        "anotherObjectValue": "organisms known by a particular common name"
+    },
+    {
+        "subject": "Q4811616",
+        "subjectValue": "Astronaut family",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q8436",
+        "objectValue": "family",
+        "anotherObject": "Q874405",
+        "anotherObjectValue": "social group"
+    },
+    {
+        "subject": "Q4821998",
+        "subjectValue": "Aunt Sally",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q11410",
+        "objectValue": "game",
+        "anotherObject": "Q63981612",
+        "anotherObjectValue": "product category"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q161790",
+        "objectValue": "Asperger syndrome",
+        "anotherObject": "Q1436063",
+        "anotherObjectValue": "autism spectrum disorder"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P361",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P361",
+        "object": "Q34726",
+        "objectValue": "Greek mythology",
+        "anotherObject": "Q1367434",
+        "anotherObjectValue": "classical mythology"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q179630",
+        "objectValue": "syndrome",
+        "anotherObject": "Q112193867",
+        "anotherObjectValue": "class of disease"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P780",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P780",
+        "object": "Q133823",
+        "objectValue": "migraine",
+        "anotherObject": "Q86",
+        "anotherObjectValue": "headache"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q18534",
+        "objectValue": "metaphor",
+        "anotherObject": "Q182545",
+        "anotherObjectValue": "stylistic device"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P780",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P780",
+        "object": "Q4340209",
+        "objectValue": "mental depression",
+        "anotherObject": "Q290620",
+        "anotherObjectValue": "dysphoria"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q179630",
+        "objectValue": "syndrome",
+        "anotherObject": "Q130753312",
+        "anotherObjectValue": "symptom type"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P780",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P780",
+        "object": "Q741713",
+        "objectValue": "panic disorder",
+        "anotherObject": "Q696490",
+        "anotherObjectValue": "panic attack"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P780",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P780",
+        "object": "Q741713",
+        "objectValue": "panic disorder",
+        "anotherObject": "Q1123260",
+        "anotherObjectValue": "palpitation"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q161790",
+        "objectValue": "Asperger syndrome",
+        "anotherObject": "Q12136",
+        "anotherObjectValue": "disease"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q179630",
+        "objectValue": "syndrome",
+        "anotherObject": "Q210588",
+        "anotherObjectValue": "umbrella term"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P780",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P780",
+        "object": "Q4340209",
+        "objectValue": "mental depression",
+        "anotherObject": "Q5419936",
+        "anotherObjectValue": "executive disfunction"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P780",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P780",
+        "object": "Q133823",
+        "objectValue": "migraine",
+        "anotherObject": "Q281289",
+        "anotherObjectValue": "photophobia"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P780",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P780",
+        "object": "Q133823",
+        "objectValue": "migraine",
+        "anotherObject": "Q209789",
+        "anotherObjectValue": "burping"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P780",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P780",
+        "object": "Q133823",
+        "objectValue": "migraine",
+        "anotherObject": "Q127076",
+        "anotherObjectValue": "vomiting"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P780",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P780",
+        "object": "Q133823",
+        "objectValue": "migraine",
+        "anotherObject": "Q186889",
+        "anotherObjectValue": "nausea"
+    },
+    {
+        "subject": "Q2522199",
+        "subjectValue": "Cassandra (metaphor)",
+        "predicate": "P780",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P780",
+        "object": "Q4340209",
+        "objectValue": "mental depression",
+        "anotherObject": "Q9690",
+        "anotherObjectValue": "fatigue"
+    },
+    {
+        "subject": "Q1255083",
+        "subjectValue": "Judgement of Solomon",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q1406161",
+        "objectValue": "artistic theme",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q1255083",
+        "subjectValue": "Judgement of Solomon",
+        "predicate": "P361",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P361",
+        "object": "Q131066",
+        "objectValue": "First Book of Kings",
+        "anotherObject": "Q3086228",
+        "anotherObjectValue": "Historical books"
+    },
+    {
+        "subject": "Q1255083",
+        "subjectValue": "Judgement of Solomon",
+        "predicate": "P361",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P361",
+        "object": "Q131066",
+        "objectValue": "First Book of Kings",
+        "anotherObject": "Q4224666",
+        "anotherObjectValue": "Books of Kings"
+    },
+    {
+        "subject": "Q1255083",
+        "subjectValue": "Judgement of Solomon",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q856663",
+        "objectValue": "Bible story",
+        "anotherObject": "Q223393",
+        "anotherObjectValue": "literary genre"
+    },
+    {
+        "subject": "Q6746329",
+        "subjectValue": "Man bites dog",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q165740",
+        "objectValue": "aphorism",
+        "anotherObject": "Q108819314",
+        "anotherObjectValue": "small genre of folklore"
+    },
+    {
+        "subject": "Q6746329",
+        "subjectValue": "Man bites dog",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q165740",
+        "objectValue": "aphorism",
+        "anotherObject": "Q223393",
+        "anotherObjectValue": "literary genre"
+    },
+    {
+        "subject": "Q6746329",
+        "subjectValue": "Man bites dog",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q165740",
+        "objectValue": "aphorism",
+        "anotherObject": "Q182545",
+        "anotherObjectValue": "stylistic device"
+    },
+    {
+        "subject": "Q735523",
+        "subjectValue": "Master\u2013slave (technology)",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q161410",
+        "objectValue": "peer-to-peer",
+        "anotherObject": "Q681349",
+        "anotherObjectValue": "point-to-point"
+    },
+    {
+        "subject": "Q735523",
+        "subjectValue": "Master\u2013slave (technology)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q2623243",
+        "objectValue": "conceptual model",
+        "anotherObject": "Q1047113",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q735523",
+        "subjectValue": "Master\u2013slave (technology)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q2623243",
+        "objectValue": "conceptual model",
+        "anotherObject": "Q2267705",
+        "anotherObjectValue": "field of study"
+    },
+    {
+        "subject": "Q3728905",
+        "subjectValue": "McNamara fallacy",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q2725298",
+        "objectValue": "sampling bias",
+        "anotherObject": "Q11264527",
+        "anotherObjectValue": "estimator bias"
+    },
+    {
+        "subject": "Q3728905",
+        "subjectValue": "McNamara fallacy",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q2725298",
+        "objectValue": "sampling bias",
+        "anotherObject": "Q284172",
+        "anotherObjectValue": "selection bias"
+    },
+    {
+        "subject": "Q7234157",
+        "subjectValue": "Poster child",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q18534",
+        "objectValue": "metaphor",
+        "anotherObject": "Q182545",
+        "anotherObjectValue": "stylistic device"
+    },
+    {
+        "subject": "Q271949",
+        "subjectValue": "Procrustes",
+        "predicate": "P40",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P40",
+        "object": "Q843335",
+        "objectValue": "Sinis",
+        "anotherObject": "Q2022766",
+        "anotherObjectValue": "Perigune"
+    },
+    {
+        "subject": "Q271949",
+        "subjectValue": "Procrustes",
+        "predicate": "P22",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P22",
+        "object": "Q41127",
+        "objectValue": "Poseidon",
+        "anotherObject": "Q44204",
+        "anotherObjectValue": "Cronus"
+    },
+    {
+        "subject": "Q2515525",
+        "subjectValue": "Shooting the messenger",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q151885",
+        "objectValue": "concept",
+        "anotherObject": "Q23958852",
+        "anotherObjectValue": "variable-order class"
+    },
+    {
+        "subject": "Q108857164",
+        "subjectValue": "Siyokoy (linguistics)",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q1377255",
+        "objectValue": "hybrid word",
+        "anotherObject": "Q8171",
+        "anotherObjectValue": "word"
+    },
+    {
+        "subject": "Q7170675",
+        "subjectValue": "Personhood",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q215627",
+        "objectValue": "person",
+        "anotherObject": "Q202575",
+        "anotherObjectValue": "Fulbe people"
+    },
+    {
+        "subject": "Q7170675",
+        "subjectValue": "Personhood",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q5404323",
+        "objectValue": "ethnicity",
+        "anotherObject": "Q231002",
+        "anotherObjectValue": "nationality"
+    },
+    {
+        "subject": "Q7170675",
+        "subjectValue": "Personhood",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q215627",
+        "objectValue": "person",
+        "anotherObject": "Q3376073",
+        "anotherObjectValue": "corporate personhood"
+    },
+    {
+        "subject": "Q7170675",
+        "subjectValue": "Personhood",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q937228",
+        "objectValue": "property",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q7170675",
+        "subjectValue": "Personhood",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q215627",
+        "objectValue": "person",
+        "anotherObject": "Q5",
+        "anotherObjectValue": "human"
+    },
+    {
+        "subject": "Q7170675",
+        "subjectValue": "Personhood",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q937228",
+        "objectValue": "property",
+        "anotherObject": "Q714737",
+        "anotherObjectValue": "category of being"
+    },
+    {
+        "subject": "Q7170675",
+        "subjectValue": "Personhood",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q215627",
+        "objectValue": "person",
+        "anotherObject": "Q97498056",
+        "anotherObjectValue": "fictional person"
+    },
+    {
+        "subject": "Q7170675",
+        "subjectValue": "Personhood",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q215627",
+        "objectValue": "person",
+        "anotherObject": "Q690940",
+        "anotherObjectValue": "person"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q97498056",
+        "objectValue": "fictional person",
+        "anotherObject": "Q95074",
+        "anotherObjectValue": "character"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1552",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1552",
+        "object": "Q48277",
+        "objectValue": "gender",
+        "anotherObject": "Q48264",
+        "anotherObjectValue": "gender identity"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q795052",
+        "objectValue": "individual",
+        "anotherObject": "Q24229398",
+        "anotherObjectValue": "being"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q7170675",
+        "objectValue": "personhood",
+        "anotherObject": "Q3376073",
+        "anotherObjectValue": "corporate personhood"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q97498056",
+        "objectValue": "fictional person",
+        "anotherObject": "Q21070568",
+        "anotherObjectValue": "human whose existence is disputed"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q795052",
+        "objectValue": "individual",
+        "anotherObject": "Q7239",
+        "anotherObjectValue": "organism"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1552",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1552",
+        "object": "Q641118",
+        "objectValue": "personality",
+        "anotherObject": "Q2393196",
+        "anotherObjectValue": "personality trait"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1552",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1552",
+        "object": "Q48277",
+        "objectValue": "gender",
+        "anotherObject": "Q110930308",
+        "anotherObjectValue": "gender norm"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1552",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1552",
+        "object": "Q641118",
+        "objectValue": "personality",
+        "anotherObject": "Q786753",
+        "anotherObjectValue": "personality type"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1552",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1552",
+        "object": "Q641118",
+        "objectValue": "personality",
+        "anotherObject": "Q171841",
+        "anotherObjectValue": "idiosyncrasia"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q114353657",
+        "anotherObjectValue": "Human"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1552",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1552",
+        "object": "Q48277",
+        "objectValue": "gender",
+        "anotherObject": "Q2672163",
+        "anotherObjectValue": "gender role"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q3778211",
+        "objectValue": "legal person",
+        "anotherObject": "Q106559804",
+        "anotherObjectValue": "person or organization"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1552",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1552",
+        "object": "Q48277",
+        "objectValue": "gender",
+        "anotherObject": "Q15404978",
+        "anotherObjectValue": "gender expression"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q97498056",
+        "objectValue": "fictional person",
+        "anotherObject": "Q64520857",
+        "anotherObjectValue": "fictional human formerly considered to be historical"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P460",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P460",
+        "object": "Q155076",
+        "objectValue": "juridical person",
+        "anotherObject": "Q7451779",
+        "anotherObjectValue": "separate legal entity"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q95074",
+        "anotherObjectValue": "character"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q124542004",
+        "anotherObjectValue": "human in the center of cosmos"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q5",
+        "objectValue": "human",
+        "anotherObject": "Q2472587",
+        "anotherObjectValue": "people"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1552",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1552",
+        "object": "Q641118",
+        "objectValue": "personality",
+        "anotherObject": "Q7170663",
+        "anotherObjectValue": "personality style"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1552",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1552",
+        "object": "Q48277",
+        "objectValue": "gender",
+        "anotherObject": "Q4135211",
+        "anotherObjectValue": "gender non-conformity"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1552",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1552",
+        "object": "Q48277",
+        "objectValue": "gender",
+        "anotherObject": "Q4135218",
+        "anotherObjectValue": "gender stereotype"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q97498056",
+        "objectValue": "fictional person",
+        "anotherObject": "Q75855169",
+        "anotherObjectValue": "hypothetical person"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1552",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1552",
+        "object": "Q48277",
+        "objectValue": "gender",
+        "anotherObject": "Q5531001",
+        "anotherObjectValue": "gender polarization"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q7170675",
+        "objectValue": "personhood",
+        "anotherObject": "Q5404323",
+        "anotherObjectValue": "ethnicity"
+    },
+    {
+        "subject": "Q215627",
+        "subjectValue": "Person",
+        "predicate": "P1889",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1889",
+        "object": "Q7170675",
+        "objectValue": "personhood",
+        "anotherObject": "Q6063277",
+        "anotherObjectValue": "persona"
+    },
+    {
+        "subject": "Q3951828",
+        "subjectValue": "Agency (philosophy)",
+        "predicate": "P1542",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1542",
+        "object": "Q4026292",
+        "objectValue": "action",
+        "anotherObject": "Q31983622",
+        "anotherObjectValue": "reaction"
+    },
+    {
+        "subject": "Q3951828",
+        "subjectValue": "Agency (philosophy)",
+        "predicate": "P460",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P460",
+        "object": "Q16625996",
+        "objectValue": "activity",
+        "anotherObject": "Q4691992",
+        "anotherObjectValue": "agency"
+    },
+    {
+        "subject": "Q3951828",
+        "subjectValue": "Agency (philosophy)",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q96253971",
+        "objectValue": "type of property",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q3951828",
+        "subjectValue": "Agency (philosophy)",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q1347367",
+        "objectValue": "aptitude",
+        "anotherObject": "Q1207505",
+        "anotherObjectValue": "quality"
+    },
+    {
+        "subject": "Q3951828",
+        "subjectValue": "Agency (philosophy)",
+        "predicate": "P1542",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1542",
+        "object": "Q4026292",
+        "objectValue": "action",
+        "anotherObject": "Q926230",
+        "anotherObjectValue": "effect"
+    },
+    {
+        "subject": "Q5445916",
+        "subjectValue": "Fetal rights",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q8458",
+        "objectValue": "human rights",
+        "anotherObject": "Q367293",
+        "anotherObjectValue": "convention"
+    },
+    {
+        "subject": "Q5445916",
+        "subjectValue": "Fetal rights",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q8458",
+        "objectValue": "human rights",
+        "anotherObject": "Q129510955",
+        "anotherObjectValue": "type of value"
+    },
+    {
+        "subject": "Q5445916",
+        "subjectValue": "Fetal rights",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q8458",
+        "objectValue": "human rights",
+        "anotherObject": "Q49773",
+        "anotherObjectValue": "social movement"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q44461",
+        "objectValue": "Richard Dawkins",
+        "anotherObject": "Q918334",
+        "anotherObjectValue": "Robert Trivers"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q426",
+        "objectValue": "animal rights",
+        "anotherObject": "Q11857638",
+        "anotherObjectValue": "animal protection"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q44461",
+        "objectValue": "Richard Dawkins",
+        "anotherObject": "Q42",
+        "anotherObjectValue": "Douglas Adams"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P527",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P527",
+        "object": "Q2251595",
+        "objectValue": "protection",
+        "anotherObject": "Q28553760",
+        "anotherObjectValue": "active protection"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P527",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P527",
+        "object": "Q2251595",
+        "objectValue": "protection",
+        "anotherObject": "Q28553669",
+        "anotherObjectValue": "passive protection"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q44461",
+        "objectValue": "Richard Dawkins",
+        "anotherObject": "Q1035",
+        "anotherObjectValue": "Charles Darwin"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q426",
+        "objectValue": "animal rights",
+        "anotherObject": "Q2386606",
+        "anotherObjectValue": "subjective right"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q44461",
+        "objectValue": "Richard Dawkins",
+        "anotherObject": "Q33760",
+        "anotherObjectValue": "Bertrand Russell"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q44461",
+        "objectValue": "Richard Dawkins",
+        "anotherObject": "Q15451",
+        "anotherObjectValue": "W. D. Hamilton"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q319891",
+        "objectValue": "universal suffrage",
+        "anotherObject": "Q185387",
+        "anotherObjectValue": "suffrage"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q2386606",
+        "objectValue": "subjective right",
+        "anotherObject": "Q7748",
+        "anotherObjectValue": "law"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q44461",
+        "objectValue": "Richard Dawkins",
+        "anotherObject": "Q49081",
+        "anotherObjectValue": "Christopher Hitchens"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q49773",
+        "objectValue": "social movement",
+        "anotherObject": "Q110401282",
+        "anotherObjectValue": "type of world view"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q44461",
+        "objectValue": "Richard Dawkins",
+        "anotherObject": "Q216723",
+        "anotherObjectValue": "Ronald Fisher"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q49773",
+        "objectValue": "social movement",
+        "anotherObject": "Q16334295",
+        "anotherObjectValue": "group of humans"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q44461",
+        "objectValue": "Richard Dawkins",
+        "anotherObject": "Q153890",
+        "anotherObjectValue": "Niko Tinbergen"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q184746",
+        "objectValue": "Jane Goodall",
+        "anotherObject": "Q14837",
+        "anotherObjectValue": "Louis Leakey"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q44461",
+        "objectValue": "Richard Dawkins",
+        "anotherObject": "Q215263",
+        "anotherObjectValue": "Daniel Dennett"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q44461",
+        "objectValue": "Richard Dawkins",
+        "anotherObject": "Q323207",
+        "anotherObjectValue": "John Maynard Smith"
+    },
+    {
+        "subject": "Q5600327",
+        "subjectValue": "Great ape personhood",
+        "predicate": "P737",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P737",
+        "object": "Q44461",
+        "objectValue": "Richard Dawkins",
+        "anotherObject": "Q552019",
+        "anotherObjectValue": "George Christopher Williams"
+    },
+    {
+        "subject": "Q5938226",
+        "subjectValue": "Human rights in Dubai",
+        "predicate": "P131",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P131",
+        "object": "Q612",
+        "objectValue": "Dubai",
+        "anotherObject": "Q613",
+        "anotherObjectValue": "Emirate of Dubai"
+    },
+    {
+        "subject": "Q5938226",
+        "subjectValue": "Human rights in Dubai",
+        "predicate": "P17",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P17",
+        "object": "Q878",
+        "objectValue": "United Arab Emirates",
+        "anotherObject": "Q878",
+        "anotherObjectValue": "United Arab Emirates"
+    },
+    {
+        "subject": "Q5938226",
+        "subjectValue": "Human rights in Dubai",
+        "predicate": "P31",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P31",
+        "object": "Q69358181",
+        "objectValue": "human rights by country or territory",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q795052",
+        "subjectValue": "Individual",
+        "predicate": "P361",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P361",
+        "object": "Q171995",
+        "objectValue": "individualism",
+        "anotherObject": "Q118396467",
+        "anotherObjectValue": "collectivism and individualism"
+    },
+    {
+        "subject": "Q795052",
+        "subjectValue": "Individual",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q7239",
+        "objectValue": "organism",
+        "anotherObject": "Q66394244",
+        "anotherObjectValue": "physical anatomical entity"
+    },
+    {
+        "subject": "Q795052",
+        "subjectValue": "Individual",
+        "predicate": "P361",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P361",
+        "object": "Q8425",
+        "objectValue": "society",
+        "anotherObject": "Q1156970",
+        "anotherObjectValue": "humanity"
+    },
+    {
+        "subject": "Q795052",
+        "subjectValue": "Individual",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q7239",
+        "objectValue": "organism",
+        "anotherObject": "Q223557",
+        "anotherObjectValue": "physical object"
+    },
+    {
+        "subject": "Q795052",
+        "subjectValue": "Individual",
+        "predicate": "P279",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P279",
+        "object": "Q24229398",
+        "objectValue": "being",
+        "anotherObject": "Q53617489",
+        "anotherObjectValue": "independent continuant"
+    },
+    {
+        "subject": "Q795052",
+        "subjectValue": "Individual",
+        "predicate": "P1552",
+        "predicateValue": "http://www.wikidata.org/prop/direct/P1552",
+        "object": "Q4503831",
+        "objectValue": "goal",
+        "anotherObject": "Q60617645",
+        "anotherObjectValue": "desirability"
+    }
+]

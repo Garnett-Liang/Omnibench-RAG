@@ -1,0 +1,275 @@
+Starting RAG evaluation - Domain: nature, Model: qwen, Retrieved documents: 3
+==================================================
+[1/5] Checking and preprocessing nature domain data...
+Data already preprocessed, skipping this step
+[2/5] Checking and building nature domain vector index...
+Index already exists, loading...
+[3/5] Loading nature domain evaluation dataset...
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Loading FAISS index from: knowledge_base/nature_index.faiss
+Number of vectors in FAISS index: 584
+[5/5] Starting RAG evaluation... (22 samples)
+Starting evaluation with 22 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Is there any possibility for the instance of of Outline of natural science also related with Outline of Earth?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility for the instance of of outline of natural science also related with outline of earth? yes, there is a possibility for the instance of of outline of natural science also related with outline of earth. 
+
+the outline of natural science is a comprehensive overview of the various fields of study within the natural sciences, including biology, chemistry, physics, geology, and more. it provides a broad overview of the various topics and concepts within these fields, making it a useful resource for those interested in learning more about the natural sciences.
+
+on the other hand, the outline of earth is a more specific
+  Semantic Prediction: yes (Confidence: 0.9995)
+  Correctness: Correct
+  Performance: Time=2.2891s, Memory=0.1523MB, GPU=59.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+explanation: the outline of natural science and the outline of earth are related in that both are systems that study the natural world and its processes. the outline of natural science includes topics such as biology, chemistry, physics, and geology, while the outline of earth includes topics such as geology, geophysics, and astronomy. both are important fields of study that help us understand the natural world and its processes.
+  Semantic Prediction: yes (Confidence: 0.9997)
+  Correctness: Correct
+  Performance: Time=2.0328s, Memory=-1947.1328MB, GPU=-16.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Is it true that Rangeland management and Natural science have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that rangeland management and natural science have the same instance of? rangeland management and natural science are two distinct fields of study with different focuses and applications. while both fields involve the management of natural resources, they differ in their scope, objectives, and approaches.
+
+rangeland management is a field that focuses on the sustainable management of rangelands, which are grasslands, shrublands, and forests that are essential for maintaining biodiversity, supporting wildlife, and providing ecosystem services. rangelands are often subject to human activities such as grazing, fire, and
+  Semantic Prediction: yes (Confidence: 0.9947)
+  Correctness: Correct
+  Performance: Time=2.2609s, Memory=0.0117MB, GPU=14.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+rangeland management and natural science are two different fields of study that have different focuses and objectives. rangeland management is a field of study that focuses on the management of rangelands, which are grasslands, shrublands, and other ecosystems that are important for biodiversity, carbon sequestration, and other ecosystem services. rangeland management involves the use of a range of tools and techniques to manage these ecosystems sustainably and efficiently.
+
+on the other hand, natural science is a broad field of study that encompasses a wide range of disciplines, including biology, chemistry, physics, and geology. natural science focuses on the study of the natural world, including the study of ecosystems, the behavior of organisms, and the processes that
+  Semantic Prediction: yes (Confidence: 0.9905)
+  Correctness: Correct
+  Performance: Time=3.3404s, Memory=0.1016MB, GPU=-15.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Is there any possibility for the instance of of Become Ocean also related with Des Canyons aux étoiles...?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility for the instance of of become ocean also related with des canyons aux étoiles...? yes, there is a possibility for the instance of of become ocean also related with des canyons aux étoiles. the two phrases are closely related in meaning and can be used interchangeably. the first phrase, "become ocean," refers to the act of becoming a sea creature or a marine animal. the second phrase, "des canyons aux étoiles," refers to the mountains of the stars. while the two phrases are not directly related, they can be used interchangeably as
+  Semantic Prediction: yes (Confidence: 0.7069)
+  Correctness: Correct
+  Performance: Time=2.2911s, Memory=0.0234MB, GPU=17.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+
+question: is there any possibility for the instance of of become ocean also related with des canyons aux étoiles...?
+answer with 'yes' or 'no': yes
+
+question: is there any possibility for the instance of of become ocean also related with des canyons aux étoiles...?
+answer with 'yes' or 'no': yes
+
+question: is there any possibility for the instance of of become ocean also related with des canyons aux étoiles...?
+answer with 'yes' or 'no': yes
+
+question: is there any possibility for the instance of of become ocean also related with des canyons aux étoiles...?
+answer with 'yes' or 'no': yes
+  Semantic Prediction: no (Confidence: 0.9760)
+  Correctness: Incorrect
+  Performance: Time=3.3571s, Memory=0.1328MB, GPU=-1.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Does Des Canyons aux étoiles... and Become Ocean have completely separate instance of?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does des canyons aux étoiles... and become ocean have completely separate instance of? des canyons aux étoiles... and become ocean are two different apps that serve different purposes. des canyons aux étoiles... is a french-language app that provides information about the deserts of the world, including their geography, climate, and wildlife. it also includes maps and satellite imagery to help users explore the deserts.
+
+become ocean, on the other hand, is a mobile app that provides information about the oceans and the creatures that inhabit them. it includes information about the
+  Semantic Prediction: yes (Confidence: 0.9442)
+  Correctness: Incorrect
+  Performance: Time=2.1097s, Memory=0.0859MB, GPU=4.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+explanation: the question is asking if the two sentences "des canyons aux étoiles... and become ocean" have the same instance of a particular idea or concept. the answer is "no" because the two sentences do not have the same meaning or context. "des canyons aux étoiles... and become ocean" is a poetic expression that describes the deserts of the desert as shining stars. it does not imply that the deserts become oceans. on the other hand, "ocean and des canyons aux étoiles... become ocean" is a more literal statement that describes the ocean as a desert. it implies that the ocean is formed from the deserts of the desert. therefore, the two sentences
+  Semantic Prediction: no (Confidence: 0.9886)
+  Correctness: Correct
+  Performance: Time=3.1812s, Memory=0.0078MB, GPU=1.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Does Index of conservation articles and Seven Wonders of Canada have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does index of conservation articles and seven wonders of canada have the same instance of? index of conservation articles and seven wonders of canada are two different things. the index of conservation articles is a list of articles that have been published in the index of conservation, which is a magazine that focuses on conservation and environmental issues. the seven wonders of canada is a list of the seven wonders of the world, which are natural wonders that are considered to be some of the most impressive and beautiful things in the world.
+
+so, the answer to your question is no, index of conservation articles
+  Semantic Prediction: yes (Confidence: 0.9962)
+  Correctness: Correct
+  Performance: Time=2.2174s, Memory=0.0039MB, GPU=-25.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+explanation: the index of conservation articles and seven wonders of canada are two different entities. the index of conservation is a scientific index that ranks the world's natural wonders based on their scientific importance and conservation status. it is not related to the seven wonders of canada, which are historical and cultural wonders that are considered to be significant in their own right. therefore, the two entities do not have the same instance of.
+  Semantic Prediction: no (Confidence: 0.9948)
+  Correctness: Incorrect
+  Performance: Time=2.0271s, Memory=0.0391MB, GPU=20.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Statement: It's not true that Seven Wonders of Canada and Index of conservation articles have the same instance of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that seven wonders of canada and index of conservation articles have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no. yes.
+  Semantic Prediction: no (Confidence: 0.9858)
+  Correctness: Correct
+  Performance: Time=0.1070s, Memory=0.0117MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no.
+  Semantic Prediction: no (Confidence: 0.9973)
+  Correctness: Correct
+  Performance: Time=0.1612s, Memory=0.0117MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Does Outline of Earth and Outline of natural science share totally different instance of?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does outline of earth and outline of natural science share totally different instance of? outline of earth and outline of natural science are two distinct topics. outline of earth is a broad topic that covers the physical, chemical, and biological processes that shape the earth's surface and atmosphere. outline of natural science, on the other hand, is a narrower topic that focuses on the study of natural phenomena and processes, such as the behavior of rocks, soils, and ecosystems.
+
+while both outline of earth and outline of natural science are important topics in geology and environmental science, they share some similarities
+  Semantic Prediction: yes (Confidence: 0.9704)
+  Correctness: Incorrect
+  Performance: Time=2.2276s, Memory=0.0156MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+explanation: the outline of earth and outline of natural science share a different instance of the concept of 'number'. in the first outline, the concept of 'number' is used to describe the number of balls in a bin, while in the second outline, the concept of 'number' is used to describe the number of balls in a bin. the first outline does not mention the concept of 'number' at all, while the second outline does. therefore, the two outlines do not share a completely different instance of the concept of 'number'.
+  Semantic Prediction: no (Confidence: 0.9993)
+  Correctness: Correct
+  Performance: Time=2.4220s, Memory=0.0273MB, GPU=3.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Is it true that Geological history of Earth and History of Earth have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that geological history of earth and history of earth have the same instance of? yes, geological history of earth and history of earth have the same instance of. both are historical accounts of the earth's geological history, which is the study of the earth's rocks, minerals, and landscapes over time. they share similarities in terms of their focus on the geological processes that have shaped the earth's surface, such as plate tectonics, sedimentation, and erosion. however, they also have some differences in their scope and emphasis, with geological history of earth focusing more on the
+  Semantic Prediction: yes (Confidence: 0.9940)
+  Correctness: Correct
+  Performance: Time=2.1780s, Memory=0.0078MB, GPU=2.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+the answer is no because the geological history of earth is a geological history of the earth, while the history of earth is a history of the earth. the geological history of earth is a long-term process of geological events and processes that have shaped the earth's surface and its environment over millions of years. it includes the formation of mountains, volcanoes, and other geological features, as well as the movement of tectonic plates and the formation of oceans and seas. the history of earth, on the other hand, is a shorter period of time that covers the earth's history from its formation to the present day. it includes the development of life on earth, the rise of human civilization, and the ongoing process of natural selection and adaptation.
+  Semantic Prediction: yes (Confidence: 0.9541)
+  Correctness: Correct
+  Performance: Time=3.2498s, Memory=0.0117MB, GPU=-2.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Does History of Earth and Geological history of Earth have completely separate instance of?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does history of earth and geological history of earth have completely separate instance of? yes, history of earth and geological history of earth have completely separate instances of. 
+
+history of earth refers to the study of the geological history of earth, which includes the formation of the planet, the evolution of its continents, and the development of its various environments. it is a broad subject that encompasses a wide range of topics, including the history of the earth's crust, the formation of rocks and minerals, and the processes that have shaped the planet over millions of years.
+
+geological history of earth
+  Semantic Prediction: yes (Confidence: 0.9974)
+  Correctness: Incorrect
+  Performance: Time=2.1950s, Memory=0.0078MB, GPU=2.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Correct
+  Performance: Time=0.1236s, Memory=0.0078MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 10/22 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Does Become Desert and Become Ocean share totally different composer?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does become desert and become ocean share totally different composer? become desert is a song by the american rock band the killers. it was released as the lead single from their fifth studio album, scream and shout, on october 1, 2015. it was written by the band's lead singer, brandon flowers, and the song was produced by mark ronson. the song was released on itunes on october 1, 2015, and debuted at number 10 on the uk singles chart. it was released
+  Semantic Prediction: yes (Confidence: 0.9518)
+  Correctness: Incorrect
+  Performance: Time=2.1742s, Memory=0.0000MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+
+question: does become desert and become ocean share totally different composer?
+answer with 'yes' or 'no': no
+
+question: does become desert and become ocean share totally different composer?
+answer with 'yes' or 'no': no
+
+question: does become desert and become ocean share totally different composer?
+answer with 'yes' or 'no': no
+
+question: does become desert and become ocean share totally different composer?
+answer with 'yes' or 'no': no
+
+question: does become desert and become ocean share totally different composer?
+answer with 'yes' or 'no': no
+
+question: does become desert and become ocean share totally different composer?
+answer with 'yes' or 'no': no
+
+question: does become
+  Semantic Prediction: no (Confidence: 0.9799)
+  Correctness: Correct
+  Performance: Time=3.2601s, Memory=0.1016MB, GPU=-8.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 20/22 samples
+Processed 22/22 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 1.8874s (based on 22/22 samples)
+  Avg Memory Usage: 0.0321MB (based on 14/22 samples)
+  Avg GPU Utilization: 17.50% (based on 12/22 samples)
+
+RAG Model:
+  Avg Response Time: 2.2838s (1.21x base)
+  Avg Memory Usage: 0.0391MB (1.22x base)
+  Avg GPU Utilization: 10.90% (0.62x base)
+
+RAG evaluation completed! Results saved to: rag_results/rag_nature_qwen_20250723134856.json
+Basic accuracy: 0.6364
+RAG-augmented accuracy: 0.5909
+Performance improvement: -0.0455
