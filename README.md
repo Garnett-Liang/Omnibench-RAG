@@ -139,6 +139,6 @@ See the [LICENSE](LICENSE) file for full details.
 ## Contact
 
 - Open a [GitHub Issue](https://github.com/Garnett-Liang/Omnibench-RAG/issues)
-- Email: liangjx@qq.com 
+- Email: liangjx@hust.edu.cn 
 # Omnibench-RAG
 A comprehensive platform for evaluating large language models across domains—assess accuracy, efficiency, and RAG-enhanced performance using existing or uploaded data.
