@@ -1,0 +1,782 @@
+[
+    {
+        "entity": "http://www.wikidata.org/entity/Q5571725",
+        "entityLabel": "Glossary of areas of mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q967960",
+        "entityLabel": "Mathematics Subject Classification"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q837863",
+        "entityLabel": "Pure mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q33521",
+        "entityLabel": "Applied mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4669946",
+        "entityLabel": "Abstract family of acceptors"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3065587",
+        "entityLabel": "Abstract family of languages"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4677851",
+        "entityLabel": "Actuarial notation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4677848",
+        "entityLabel": "Actuarial present value"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4751157",
+        "entityLabel": "Analytical regularization"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4759115",
+        "entityLabel": "Andrews plot"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17003925",
+        "entityLabel": "Applicable mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3140874",
+        "entityLabel": "Asymptotology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4867846",
+        "entityLabel": "Basque Center for Applied Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q810438",
+        "entityLabel": "Bass diffusion model"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1311601",
+        "entityLabel": "George David Birkhoff Prize"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17004583",
+        "entityLabel": "Cartesian tensor"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q280951",
+        "entityLabel": "Common cause and special cause (statistics)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1122491",
+        "entityLabel": "Computational mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q117801",
+        "entityLabel": "Computational science"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4129926",
+        "entityLabel": "Computational topology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5165491",
+        "entityLabel": "Continuous modelling"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5165533",
+        "entityLabel": "Continuously compounded nominal and real returns"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q247154",
+        "entityLabel": "Counting"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q897511",
+        "entityLabel": "Cryptanalysis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q8789",
+        "entityLabel": "Cryptography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q120069183",
+        "entityLabel": "Degree-Rips bifiltration"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5272547",
+        "entityLabel": "Dichromatic reflectance model"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q20968946",
+        "entityLabel": "Discrete calculus"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5282053",
+        "entityLabel": "Discrete modelling"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5282064",
+        "entityLabel": "Discrete tomography"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17007827",
+        "entityLabel": "Discretization"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5300176",
+        "entityLabel": "Doubly linked face list"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2235851",
+        "entityLabel": "Engineering mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q55611168",
+        "entityLabel": "European Study Groups with Industry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17012898",
+        "entityLabel": "Explicit algebraic stress model"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5446587",
+        "entityLabel": "Fictitious domain method"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5447001",
+        "entityLabel": "Field equation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q22908431",
+        "entityLabel": "Flail space model"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5475800",
+        "entityLabel": "Fourier shell correlation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17014577",
+        "entityLabel": "Fractal derivative"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q131089",
+        "entityLabel": "Geodesy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5535476",
+        "entityLabel": "Geometric calculus"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q19597282",
+        "entityLabel": "Geometric phase analysis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3751512",
+        "entityLabel": "German tank problem"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4060668",
+        "entityLabel": "Gilbert\u2013Johnson\u2013Keerthi distance algorithm"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q97182021",
+        "entityLabel": "How Round Is Your Circle?"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q89466598",
+        "entityLabel": "Integrable algorithm"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6049878",
+        "entityLabel": "International Council for Industrial and Applied Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q65270133",
+        "entityLabel": "Japan Society for Industrial and Applied Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q13739406",
+        "entityLabel": "Journal of Computational and Applied Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6322851",
+        "entityLabel": "K-mer"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3635280",
+        "entityLabel": "Bart Kosko"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6481089",
+        "entityLabel": "Lambda-connectedness"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q10569022",
+        "entityLabel": "Least-squares spectral analysis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4428892",
+        "entityLabel": "Manley\u2013Rowe relations"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6753742",
+        "entityLabel": "Map algebra"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q135427453",
+        "entityLabel": "Mathematical engineering"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q19859321",
+        "entityLabel": "Mathematical linguistics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1908339",
+        "entityLabel": "Mathematical Magick"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6786863",
+        "entityLabel": "Mathematical methods in electronics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q486902",
+        "entityLabel": "Mathematical model"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1908389",
+        "entityLabel": "Mathematical psychology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4387017",
+        "entityLabel": "Mathematical sciences"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4284723",
+        "entityLabel": "Mathematical sociology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2864650",
+        "entityLabel": "Mathematics and art"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6817666",
+        "entityLabel": "Menu dependence"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3417792",
+        "entityLabel": "Mohr\u2013Coulomb theory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28457093",
+        "entityLabel": "Multi-time-step integration"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6934835",
+        "entityLabel": "Multiparty communication complexity"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30694041",
+        "entityLabel": "Multivalued treatment"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q18477654",
+        "entityLabel": "NeuroMat"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6954615",
+        "entityLabel": "NK model"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16948724",
+        "entityLabel": "Nonlinear complementarity problem"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q837552",
+        "entityLabel": "Numerical weather prediction"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q117063051",
+        "entityLabel": "Offset filtration"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7072656",
+        "entityLabel": "OLGA (technology)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q331309",
+        "entityLabel": "Overfitting"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3455898",
+        "entityLabel": "Patterns in nature"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q118903543",
+        "entityLabel": "Persistence barcode"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7180938",
+        "entityLabel": "Phase boundary"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q11570659",
+        "entityLabel": "Physical mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7233768",
+        "entityLabel": "Postage stamp problem"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16975484",
+        "entityLabel": "PottersWheel"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q109297617",
+        "entityLabel": "Probabilistic numerics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7295425",
+        "entityLabel": "Rata Die"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7302483",
+        "entityLabel": "Reciprocity (engineering)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q119999674",
+        "entityLabel": "Resilience (mathematics)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7371608",
+        "entityLabel": "Routhian mechanics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2845204",
+        "entityLabel": "Scale analysis (mathematics)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25303685",
+        "entityLabel": "Scarborough criterion"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7448041",
+        "entityLabel": "Self-consistent mean field (biology)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17126215",
+        "entityLabel": "Seminar for Applied Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7512907",
+        "entityLabel": "Signed distance function"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48727814",
+        "entityLabel": "Simulation governance"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q107657842",
+        "entityLabel": "Single-particle trajectory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1971461",
+        "entityLabel": "Social choice theory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7575208",
+        "entityLabel": "Spectral signal-to-noise ratio"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7577786",
+        "entityLabel": "Spirangle"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q644758",
+        "entityLabel": "Statistical field theory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3851930",
+        "entityLabel": "Stiffness matrix"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17130757",
+        "entityLabel": "Structural complexity (applied mathematics)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q117531221",
+        "entityLabel": "Subdivision bifiltration"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4003572",
+        "entityLabel": "A Symbolic Analysis of Relay and Switching Circuits"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7663707",
+        "entityLabel": "System equivalence"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7663749",
+        "entityLabel": "System size expansion"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q105638008",
+        "entityLabel": "Tensor network"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4460773",
+        "entityLabel": "Topological data analysis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7828122",
+        "entityLabel": "Total least squares"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7835661",
+        "entityLabel": "Trapping region"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28458391",
+        "entityLabel": "Two-dimensional window design"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7882499",
+        "entityLabel": "Uncertainty quantification"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3695508",
+        "entityLabel": "Vibration"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7917842",
+        "entityLabel": "Vector spherical harmonics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17030347",
+        "entityLabel": "Vflo"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q118905928",
+        "entityLabel": "Vietoris\u2013Rips filtration"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q24963119",
+        "entityLabel": "Viral dynamics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7959743",
+        "entityLabel": "Wahba's problem"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q14325966",
+        "entityLabel": "Weber problem"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q117791335",
+        "entityLabel": "Year loss table"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q170790",
+        "entityLabel": "Mathematician"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16000509",
+        "entityLabel": "Timeline of women in mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17017718",
+        "entityLabel": "Timeline of women in mathematics in the United States"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q65922751",
+        "entityLabel": "African Women in Mathematics Association"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q66180621",
+        "entityLabel": "Anne Bennett Prize"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2867685",
+        "entityLabel": "Association for Women in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106390668",
+        "entityLabel": "Association for Women in Mathematics Newsletter"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q105040724",
+        "entityLabel": "AWM-SIAM Sonia Kovalevsky Lecture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60463384",
+        "entityLabel": "Caucus for Women in Statistics and Data Science"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5059921",
+        "entityLabel": "Center for Women in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q85753699",
+        "entityLabel": "Complexities: Women in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q56686052",
+        "entityLabel": "European Women in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6455900",
+        "entityLabel": "Femmes et Math\u00e9matiques"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q21527677",
+        "entityLabel": "Gifted (2017 film)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5592054",
+        "entityLabel": "Graduate Women in Science"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q23755544",
+        "entityLabel": "Hidden Figures"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28464870",
+        "entityLabel": "Hidden Figures (book)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q134451113",
+        "entityLabel": "International Women in Mathematics Day"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1354618",
+        "entityLabel": "Krieger\u2013Nelson Prize"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q39087310",
+        "entityLabel": "Math Prize for Girls"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q839260",
+        "entityLabel": "Noether Lecture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q96399440",
+        "entityLabel": "Pioneering Women in American Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q91098730",
+        "entityLabel": "Power in Numbers: The Rebel Women of Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2177698",
+        "entityLabel": "Ruth Lyttle Satter Prize in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q96415483",
+        "entityLabel": "Women in Mathematics (book)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6693003",
+        "entityLabel": "Women in STEM"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q120336527",
+        "entityLabel": "Fermat Kitchen"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q56349478",
+        "entityLabel": "Science Fell in Love, So I Tried to Prove It"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q133049333",
+        "entityLabel": "S\u016bgaku Golden"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q102244116",
+        "entityLabel": "S\u016bji de Asobo"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q122658686",
+        "entityLabel": "Trisatika"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3240104",
+        "entityLabel": "Lists of mathematics topics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3532100",
+        "entityLabel": "Index of accounting articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112546",
+        "entityLabel": "Outline of algebra"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112547",
+        "entityLabel": "Outline of algebraic structures"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112559",
+        "entityLabel": "Outline of arithmetic"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112574",
+        "entityLabel": "Outline of calculus"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112576",
+        "entityLabel": "Outline of category theory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60792514",
+        "entityLabel": "Classification of low-dimensional real Lie algebras"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17003192",
+        "entityLabel": "Index of combinatorics articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112584",
+        "entityLabel": "Outline of combinatorics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5156019",
+        "entityLabel": "Comparison of vector algebra and geometric algebra"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5157305",
+        "entityLabel": "Computational complexity of mathematical operations"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6018859",
+        "entityLabel": "Index of cryptography articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1079958",
+        "entityLabel": "Differentiation rules"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112619",
+        "entityLabel": "Outline of discrete mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q858520",
+        "entityLabel": "Divisibility rule"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2298491",
+        "entityLabel": "Table of divisors"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60790352",
+        "entityLabel": "Exterior calculus identities"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16000120",
+        "entityLabel": "Index of fractal-related articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112649",
+        "entityLabel": "Outline of geometry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5592049",
+        "entityLabel": "Graduate Studies in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3113164",
+        "entityLabel": "Graduate Texts in Mathematics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q629958",
+        "entityLabel": "Highly composite number"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17050456",
+        "entityLabel": "Indefinite product"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6018911",
+        "entityLabel": "Index of information theory articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1734364",
+        "entityLabel": "Karp's 21 NP-complete problems"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3981612",
+        "entityLabel": "Table of Lie groups"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17077807",
+        "entityLabel": "Index of logarithm articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112678",
+        "entityLabel": "Outline of logic"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7673219",
+        "entityLabel": "Table of Newtonian series"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q611422",
+        "entityLabel": "Table of prime factors"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q98124957",
+        "entityLabel": "Probability and statistics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112738",
+        "entityLabel": "Outline of statistics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q47016077",
+        "entityLabel": "Sum of squares"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q15051202",
+        "entityLabel": "Sums of powers"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7673229",
+        "entityLabel": "Table of mathematical symbols by introduction date"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q101588440",
+        "entityLabel": "Tarjan's algorithm"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112803",
+        "entityLabel": "Outline of trigonometry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7885120",
+        "entityLabel": "Uniform tilings in hyperbolic plane"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7917817",
+        "entityLabel": "Vector algebra relations"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1066266",
+        "entityLabel": "Vector calculus identities"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q13637840",
+        "entityLabel": "Index of wave articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2864650",
+        "entityLabel": "Mathematics and art"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q123997829",
+        "entityLabel": "99 Variations on a Proof"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q217422",
+        "entityLabel": "Anamorphosis"
+    }
+]

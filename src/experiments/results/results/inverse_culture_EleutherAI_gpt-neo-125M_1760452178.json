@@ -1,0 +1,229 @@
+{
+    "model_name": "EleutherAI/gpt-neo-125M",
+    "questions": [
+        {
+            "question": "Question:\nIs there any possibility that popularity could not be be the natural reservoir in of Fad?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question",
+            "reference_answer": "no",
+            "predicted_label": "no",
+            "confidence": 0.8703001141548157,
+            "is_correct": true,
+            "response_time": 16.419719696044922,
+            "memory_usage": -222.953125,
+            "gpu_utilization": 27.0
+        },
+        {
+            "question": "Question:\nStatement: It's not true that Buckinghamshire New University could be be the alma mater of of Ricardo P. Lloyd. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI",
+            "reference_answer": "no",
+            "predicted_label": "yes",
+            "confidence": 0.9973358511924744,
+            "is_correct": false,
+            "response_time": 16.31087040901184,
+            "memory_usage": -209.30859375,
+            "gpu_utilization": 25.5
+        },
+        {
+            "question": "Question:\nDoes cardboard have the possibility to be be used to make of Carte de visite?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI",
+            "reference_answer": "yes",
+            "predicted_label": "yes",
+            "confidence": 0.9973358511924744,
+            "is_correct": true,
+            "response_time": 16.467012643814087,
+            "memory_usage": -199.55859375,
+            "gpu_utilization": 16.0
+        },
+        {
+            "question": "Question:\nCould advertising be influence of Pop art?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I'm not sure what you mean by 'controlling' or 'controlling' but I think it's a good idea to ask the question.\n\nI'm not sure what you mean by 'controlling' or 'controlling' but I think it's a good idea to ask the question.\n\nI'm not sure what you mean by 'controlling' or 'controlling' but I think it's a good idea to ask the question.\n\nI'm not sure what you mean by 'controlling' or 'controlling' but I think it's a good idea to ask the question.\n\nI'm not sure what you mean by 'controlling' or 'controlling' but I think it's a good idea to ask the question.\n\nI'm not sure what you mean by 'controlling' or 'controlling' but I think it's a good idea to ask the question.\n\nI'm not sure what you mean by 'controlling' or 'controlling' but I think it's a good idea to ask the question.\n\nI'm not sure what you mean by 'controlling' or 'controlling' but I think it's a good idea to ask the question.\n\nI'm not sure what you mean by 'controlling' or 'controlling' but I think it's a good idea to ask the question.\n\nI'm not sure what you mean by 'cont",
+            "reference_answer": "yes",
+            "predicted_label": "yes",
+            "confidence": 0.9982441663742065,
+            "is_correct": true,
+            "response_time": 16.29195284843445,
+            "memory_usage": -200.79296875,
+            "gpu_utilization": 11.5
+        },
+        {
+            "question": "Question:\nIs there any possibility that abstract expressionism could not be influence of Pop art?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one who has heard of this.\n\nI'm not sure if I'm the only one",
+            "reference_answer": "no",
+            "predicted_label": "no",
+            "confidence": 0.9991004467010498,
+            "is_correct": true,
+            "response_time": 17.485995054244995,
+            "memory_usage": -192.296875,
+            "gpu_utilization": 12.0
+        },
+        {
+            "question": "Question:\nIs it true that PlayStation 2 could or could be settlement located in PlayStation (console)?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I have a question:\nIs it true that PlayStation 2 could or could be settlement located in PlayStation (console)?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question:\nIs it true that PlayStation 2 could or could be settlement located in PlayStation (console)?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question:\nIs it true that PlayStation 2 could or could be settlement located in PlayStation (console)?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question:\nIs it true that PlayStation 2 could or could be settlement located in PlayStation (console)?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question:\nIs it true that PlayStation 2 could or could be settlement located in PlayStation (console)?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question:\nIs it true that PlayStation 2 could or could be settlement located in PlayStation (console)?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question:\nIs it true that PlayStation 2 could or could be settlement located in PlayStation (console)?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question:\nIs it true that PlayStation 2 could or could be settlement located in PlayStation (console)?",
+            "reference_answer": "yes",
+            "predicted_label": "no",
+            "confidence": 0.9907026290893555,
+            "is_correct": false,
+            "response_time": 18.084344625473022,
+            "memory_usage": -193.3359375,
+            "gpu_utilization": 12.0
+        },
+        {
+            "question": "Question:\nDoes politeness have the possibility to be be the use of of Etiquette?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI have a question for you.\n\nI",
+            "reference_answer": "yes",
+            "predicted_label": "yes",
+            "confidence": 0.9973358511924744,
+            "is_correct": true,
+            "response_time": 16.97589683532715,
+            "memory_usage": -170.87890625,
+            "gpu_utilization": 17.0
+        },
+        {
+            "question": "Question:\nIs it true that Anglia Ruskin University could or could be be the alma mater of Ricardo P. Lloyd?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.\n\nI have been asked to answer this question for a long time.",
+            "reference_answer": "yes",
+            "predicted_label": "no",
+            "confidence": 0.969505786895752,
+            "is_correct": false,
+            "response_time": 17.103853464126587,
+            "memory_usage": -162.28515625,
+            "gpu_utilization": 20.0
+        },
+        {
+            "question": "Question:\nIs there any possibility that popularity could not be be the natural reservoir in of Fad?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question",
+            "reference_answer": "no",
+            "predicted_label": "no",
+            "confidence": 0.8703001141548157,
+            "is_correct": true,
+            "response_time": 17.617584705352783,
+            "memory_usage": -156.30078125,
+            "gpu_utilization": 17.0
+        },
+        {
+            "question": "Question:\nCould popularity be be the natural reservoir in of Fad?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.",
+            "reference_answer": "yes",
+            "predicted_label": "no",
+            "confidence": 0.999674916267395,
+            "is_correct": false,
+            "response_time": 18.15779423713684,
+            "memory_usage": -161.640625,
+            "gpu_utilization": 27.0
+        },
+        {
+            "question": "Question:\nCould popularity be be the natural reservoir in of Fad?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.\n\nI'm not sure what you mean by 'no'.",
+            "reference_answer": "yes",
+            "predicted_label": "no",
+            "confidence": 0.999674916267395,
+            "is_correct": false,
+            "response_time": 18.243396997451782,
+            "memory_usage": -148.21484375,
+            "gpu_utilization": 36.5
+        },
+        {
+            "question": "Question:\nIs there any possibility that politeness could not be be the use of of Etiquette?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question",
+            "reference_answer": "no",
+            "predicted_label": "no",
+            "confidence": 0.8703001141548157,
+            "is_correct": true,
+            "response_time": 17.94053053855896,
+            "memory_usage": -140.79296875,
+            "gpu_utilization": 26.0
+        },
+        {
+            "question": "Question:\nCould Popular culture be influence of Pop art?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture' movement. I'm a fan of the 'popular culture'",
+            "reference_answer": "yes",
+            "predicted_label": "yes",
+            "confidence": 0.9954872727394104,
+            "is_correct": true,
+            "response_time": 15.909804821014404,
+            "memory_usage": -114.5625,
+            "gpu_utilization": 18.5
+        },
+        {
+            "question": "Question:\nIs it true that comics could or could be influence Pop art?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'contributing' to comics.\n\nI'm not sure what you mean by 'cont",
+            "reference_answer": "yes",
+            "predicted_label": "no",
+            "confidence": 0.9996737241744995,
+            "is_correct": false,
+            "response_time": 18.903892040252686,
+            "memory_usage": -134.29296875,
+            "gpu_utilization": 17.5
+        },
+        {
+            "question": "Question:\nIs there any possibility that Dada could not be influence of Pop art?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I have a question.\n\nIs there any possibility that Dada could not be influence of Pop art?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that Dada could not be influence of Pop art?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that Dada could not be influence of Pop art?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that Dada could not be influence of Pop art?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that Dada could not be influence of Pop art?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that Dada could not be influence of Pop art?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that Dada could not be influence of Pop art?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that Dada could not be influence of Pop art?\n\nAnswer me with ONE word 'yes'",
+            "reference_answer": "no",
+            "predicted_label": "no",
+            "confidence": 0.9967778325080872,
+            "is_correct": true,
+            "response_time": 18.381480932235718,
+            "memory_usage": -120.37109375,
+            "gpu_utilization": 27.5
+        },
+        {
+            "question": "Question:\nIs there any possibility that politeness could not be be the use of of Etiquette?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question",
+            "reference_answer": "no",
+            "predicted_label": "no",
+            "confidence": 0.8703001141548157,
+            "is_correct": true,
+            "response_time": 18.625736951828003,
+            "memory_usage": -120.125,
+            "gpu_utilization": 34.0
+        },
+        {
+            "question": "Question:\nIs there any possibility that Boğaziçi University could not be be the alma mater of of Ayşe Gül Altınay?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gül Altınay. I am a student of Ayşe Gü",
+            "reference_answer": "no",
+            "predicted_label": "yes",
+            "confidence": 0.8712579011917114,
+            "is_correct": false,
+            "response_time": 18.068916082382202,
+            "memory_usage": -107.82421875,
+            "gpu_utilization": 38.0
+        },
+        {
+            "question": "Question:\nStatement: It's not true that Duke University could be be the alma mater of of Ayşe Gül Altınay. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I am not a student, I am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.\n\nI am a student.",
+            "reference_answer": "no",
+            "predicted_label": "yes",
+            "confidence": 0.710951030254364,
+            "is_correct": false,
+            "response_time": 18.062795162200928,
+            "memory_usage": -108.0078125,
+            "gpu_utilization": 20.5
+        },
+        {
+            "question": "Question:\nIs there any possibility that cardboard could not be be used to make of Carte de visite?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I have a question.\n\nIs there any possibility that cardboard could not be used to make of Carte de visite?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that cardboard could not be used to make of Carte de visite?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that cardboard could not be used to make of Carte de visite?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that cardboard could not be used to make of Carte de visite?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that cardboard could not be used to make of Carte de visite?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that cardboard could not be used to make of Carte de visite?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question.\n\nIs there any possibility that cardboard could not be used to make of Carte de visite?\n\nAnswer me with ONE word 'yes' or 'no'.\n\nI have a question",
+            "reference_answer": "no",
+            "predicted_label": "no",
+            "confidence": 0.99820876121521,
+            "is_correct": true,
+            "response_time": 18.461413383483887,
+            "memory_usage": -101.03125,
+            "gpu_utilization": 22.5
+        },
+        {
+            "question": "Question:\nIs there any possibility that politeness could not be be the use of of Etiquette?\n\nAnswer me with ONE word 'yes' or 'no'.",
+            "model_answer": "I have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question.\n\nI have a question",
+            "reference_answer": "no",
+            "predicted_label": "no",
+            "confidence": 0.8703001141548157,
+            "is_correct": true,
+            "response_time": 17.657135248184204,
+            "memory_usage": -86.0703125,
+            "gpu_utilization": 17.5
+        }
+    ],
+    "basic_accuracy": 60.0,
+    "average_response_time": 17.55850633382797,
+    "average_memory_usage": 0,
+    "average_gpu_utilization": 22.175
+}

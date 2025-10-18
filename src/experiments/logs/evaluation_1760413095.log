@@ -1,0 +1,152 @@
+Using device: cuda
+Selected reasoning rule: inverse
+Selected domain: health
+Processing domain: health
+Using dynamically generated dataset...
+Dynamic dataset not found, generating new dataset...
+Selected reasoning rule: inverse
+Selected domain: health
+Processing domain: health
+Step 1: Saving category links...
+Saved 37 category links to d:\Jupyter\DEMO\data\dataset\category\health_links.txt
+Category links saved to d:\Jupyter\DEMO\data\dataset\category\health_links.txt
+Step 3: Saving entity links...
+Processing category: Health by demographic
+Processing category: Health by individual
+Processing category: Health by location
+Processing category: Health by period
+Processing category: Health effects by subject
+Stopping due to failures in category Health effects by subject
+Saved 30 links to d:\Jupyter\DEMO\data\dataset\category\selected\health_wiki_links.txt. Total pages: 30
+Entity links saved to d:\Jupyter\DEMO\data\dataset\category\selected\health_wiki_links.txt (total: 30 links)
+Step 4: Generating Wikidata entities...
+Successfully retrieved 25/30 Wikidata entities
+Wikidata entities saved to d:\Jupyter\DEMO\src\wiki\health_useful_entities.json (total: 25 entities)
+Step 5: Processing transitive entities...
+Transitive entities saved to d:\Jupyter\DEMO\src\wiki\transitive\health_useful_entities.json
+Step 6: Building transitive Prolog...
+No entities found for health, skipping Prolog generation
+Step 7: Building Wiki Prolog...
+Wiki Prolog saved to d:\Jupyter\DEMO\src\wiki\pl_files
+Step 8: Prolog inference for inverse rule...
+success: d:/Jupyter/DEMO/src/wiki/pl_files/health.pl
+success: d:/Jupyter/DEMO/src/prolog_rules/inverse_rules.pl
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+111
+New facts saved to d:\Jupyter\DEMO\data\dataset\derived\inverse\health_new_facts.json (total: 53 facts)
+Step 9: Generating QA pairs for health...
+QA pairs saved to d:\Jupyter\DEMO\data\dataset\dynamic\inverse\health_qa.json (total: 53 pairs)
+Dataset generation completed
+Loaded 50 samples from specified path: d:\Jupyter\DEMO\data\dataset\dynamic\inverse\health_qa.json
+Loaded 50 newly generated questions
+Evaluating with model: Qwen/Qwen-1_8B
+Results saved to: d:\Jupyter\DEMO\src\experiments\results\results\inverse_health_Qwen_Qwen-1_8B_1760413942.json

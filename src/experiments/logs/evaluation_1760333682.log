@@ -1,0 +1,13 @@
+Using device: cuda
+Selected reasoning rule: negation
+Selected domain: health
+Processing domain: health
+Dynamically generating new dataset...
+Selected reasoning rule: negation
+Selected domain: health
+Processing domain: health
+Step 1: Saving category links...
+Error in dynamic dataset generation: Expecting value: line 1 column 1 (char 0)
+JSON解析错误
+问题文件: 
+错误详情: Expecting value: line 1 column 1 (char 0)

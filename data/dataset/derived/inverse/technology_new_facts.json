@@ -1,0 +1,622 @@
+[
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Marjory Stoneman Douglas High School (MSDHS) is a public high school in Parkland, Florida, United States. Established in 1990 as part of the Broward County Public Schools district and named after the writer Marjory Stoneman Douglas, it was the only public high school in Parkland, serving almost the entire city as well as a small section of neighboring Coral Springs.\nNick Bilton is a British-American journalist, author, and filmmaker. He is currently a special correspondent at Vanity Fair, author of several New York Times-bestselling books, and screenwriter.",
+        "subject": "Marjory Stoneman Douglas High School",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Nick Bilton",
+        "evidence": [
+            [
+                "Nick Bilton",
+                "educated at",
+                "Marjory Stoneman Douglas High School"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Trinity College Dublin, officially titled The College of the Holy and Undivided Trinity of Queen Elizabeth near Dublin, and legally incorporated as Trinity College, the University of Dublin (TCD), is the sole constituent college of the University of Dublin in the Republic of Ireland. Founded by Queen Elizabeth I in 1592 through a royal charter, it is one of the extant seven \"ancient universities\" of Great Britain and Ireland. Trinity contributed to Irish literature during the Georgian and Victorian eras, and areas of the natural sciences and medicine.\nChristopher Fabian is a technologist who works for UNICEF. He founded technology and finance initiatives in both the public and private sector, including the creation in 2006, of UNICEF's Innovation Unit.",
+        "subject": "Trinity College Dublin",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Christopher Fabian",
+        "evidence": [
+            [
+                "Christopher Fabian",
+                "educated at",
+                "Trinity College Dublin"
+            ],
+            [
+                "Christopher Fabian",
+                "educated at",
+                "The American University in Cairo"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The American University in Cairo is a private research university in New Cairo, Egypt. The university offers American-style learning programs at undergraduate, graduate, and professional levels, along with a continuing education program.\nChristopher Fabian is a technologist who works for UNICEF. He founded technology and finance initiatives in both the public and private sector, including the creation in 2006, of UNICEF's Innovation Unit.",
+        "subject": "The American University in Cairo",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Christopher Fabian",
+        "evidence": [
+            [
+                "Christopher Fabian",
+                "educated at",
+                "Trinity College Dublin"
+            ],
+            [
+                "Christopher Fabian",
+                "educated at",
+                "The American University in Cairo"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Brooklyn College is a public university in Brooklyn in New York City, United States. It is part of the City University of New York system and enrolls nearly 14,000 students on a 35-acre (14\u00a0ha) campus in the Midwood and Flatbush sections of Brooklyn as of fall 2023.\nEllis Horowitz is an American computer scientist and Professor of Computer Science and Electrical Engineering at the University of Southern California (USC). Horowitz is best known for his computer science textbooks on data structures and algorithms, co-authored with Sartaj Sahni. At USC, Horowitz was chairman of the Computer Science Department from 1990 to 1999. During his tenure he significantly improved relations between Computer Science and the Information Sciences Institute (ISI), hiring senior faculty and establishing the department's first industrial advisory board. From 1983 to 1993 with Lawrence Flon he co-founded Quality Software Products which designed and built UNIX application software. Their products included two spreadsheet programs, Q-calc and eXclaim, a project management system, MasterPlan, and a floating license server, Maitre D. The company was sold to Island Graphics.",
+        "subject": "Brooklyn College",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Ellis Horowitz",
+        "evidence": [
+            [
+                "Ellis Horowitz",
+                "educated at",
+                "Brooklyn College"
+            ],
+            [
+                "Ellis Horowitz",
+                "educated at",
+                "James Madison High School"
+            ],
+            [
+                "Ellis Horowitz",
+                "educated at",
+                "University of Wisconsin\u2013Madison"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "James Madison High School is a public high school in Midwood, Brooklyn. It serves students in grades 9 through 12 and is in Region 6 of the New York City Department of Education.\nEllis Horowitz is an American computer scientist and Professor of Computer Science and Electrical Engineering at the University of Southern California (USC). Horowitz is best known for his computer science textbooks on data structures and algorithms, co-authored with Sartaj Sahni. At USC, Horowitz was chairman of the Computer Science Department from 1990 to 1999. During his tenure he significantly improved relations between Computer Science and the Information Sciences Institute (ISI), hiring senior faculty and establishing the department's first industrial advisory board. From 1983 to 1993 with Lawrence Flon he co-founded Quality Software Products which designed and built UNIX application software. Their products included two spreadsheet programs, Q-calc and eXclaim, a project management system, MasterPlan, and a floating license server, Maitre D. The company was sold to Island Graphics.",
+        "subject": "James Madison High School",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Ellis Horowitz",
+        "evidence": [
+            [
+                "Ellis Horowitz",
+                "educated at",
+                "Brooklyn College"
+            ],
+            [
+                "Ellis Horowitz",
+                "educated at",
+                "James Madison High School"
+            ],
+            [
+                "Ellis Horowitz",
+                "educated at",
+                "University of Wisconsin\u2013Madison"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of Wisconsin\u2013Madison is a public land-grant research university in Madison, Wisconsin, United States. It was founded in 1848 when Wisconsin achieved statehood and is the flagship campus of the University of Wisconsin System. The 933-acre (378\u00a0ha) main campus is located on the shores of Lake Mendota; the university also owns and operates a 1,200-acre (486\u00a0ha) arboretum 4 miles (6.4\u00a0km) south of the main campus.\nEllis Horowitz is an American computer scientist and Professor of Computer Science and Electrical Engineering at the University of Southern California (USC). Horowitz is best known for his computer science textbooks on data structures and algorithms, co-authored with Sartaj Sahni. At USC, Horowitz was chairman of the Computer Science Department from 1990 to 1999. During his tenure he significantly improved relations between Computer Science and the Information Sciences Institute (ISI), hiring senior faculty and establishing the department's first industrial advisory board. From 1983 to 1993 with Lawrence Flon he co-founded Quality Software Products which designed and built UNIX application software. Their products included two spreadsheet programs, Q-calc and eXclaim, a project management system, MasterPlan, and a floating license server, Maitre D. The company was sold to Island Graphics.",
+        "subject": "University of Wisconsin\u2013Madison",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Ellis Horowitz",
+        "evidence": [
+            [
+                "Ellis Horowitz",
+                "educated at",
+                "Brooklyn College"
+            ],
+            [
+                "Ellis Horowitz",
+                "educated at",
+                "James Madison High School"
+            ],
+            [
+                "Ellis Horowitz",
+                "educated at",
+                "University of Wisconsin\u2013Madison"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of California, Berkeley is a public land-grant research university in Berkeley, California, United States. Founded in 1868 and named after the Anglo-Irish philosopher George Berkeley, it is the state's first land-grant university and is the founding campus of the University of California system.\nBoon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.",
+        "subject": "University of California, Berkeley",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Boon Thau Loo",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Leland Stanford Junior University, commonly referred to as Stanford University, is a private research university in Stanford, California, United States. It was founded in 1885 by railroad magnate Leland Stanford and his wife, Jane, in memory of their only child, Leland Jr.\nBoon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.",
+        "subject": "Stanford University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Boon Thau Loo",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of New South Wales (UNSW) is a public research university based in Sydney, New South Wales, Australia. It was established in 1949.\nClement Argwings Ogaja is a Kenyan-born author and research geodesist at the National Oceanic and Atmospheric Administration. Previously, he was a professor of geomatics engineering at California State University, Fresno, having also worked at Geoscience Australia in Canberra.",
+        "subject": "University of New South Wales",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Clement Ogaja",
+        "evidence": [
+            [
+                "Clement Ogaja",
+                "educated at",
+                "University of New South Wales"
+            ],
+            [
+                "Clement Ogaja",
+                "educated at",
+                "University of Nairobi"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of Nairobi is a collegiate research university based in Nairobi and is the largest university in Kenya. Although its history as an educational institution dates back to 1956, it did not become an independent university until 1970. During that year, the University of East Africa was split into three independent universities: the Makerere University in Uganda, the University of Dar es Salaam in Tanzania, and the University of Nairobi in Kenya.\nClement Argwings Ogaja is a Kenyan-born author and research geodesist at the National Oceanic and Atmospheric Administration. Previously, he was a professor of geomatics engineering at California State University, Fresno, having also worked at Geoscience Australia in Canberra.",
+        "subject": "University of Nairobi",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Clement Ogaja",
+        "evidence": [
+            [
+                "Clement Ogaja",
+                "educated at",
+                "University of New South Wales"
+            ],
+            [
+                "Clement Ogaja",
+                "educated at",
+                "University of Nairobi"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Keble College is one of the constituent colleges of the University of Oxford in England. Its main buildings are on Parks Road, opposite the University Museum and the University Parks. The college is bordered to the north by Keble Road, to the south by Museum Road, and to the west by Blackhall Road.\nJason Matthew Daniel Pontin is a British-born venture capitalist and journalist. He is a General Partner at the venture capital firm of DCVC in Palo Alto, California, and is a board member and early investor in a number of life sciences, industrial, climate, and other deep tech companies. He is the former editor in chief and publisher of MIT Technology Review.",
+        "subject": "Keble College",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Jason Pontin",
+        "evidence": [
+            [
+                "Jason Pontin",
+                "educated at",
+                "Keble College"
+            ],
+            [
+                "Jason Pontin",
+                "educated at",
+                "Harrow School"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Harrow School is a public school in Harrow on the Hill, Greater London, England. The school was founded in 1572 by John Lyon, a local landowner and farmer, under a royal charter of Queen Elizabeth I.\nJason Matthew Daniel Pontin is a British-born venture capitalist and journalist. He is a General Partner at the venture capital firm of DCVC in Palo Alto, California, and is a board member and early investor in a number of life sciences, industrial, climate, and other deep tech companies. He is the former editor in chief and publisher of MIT Technology Review.",
+        "subject": "Harrow School",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Jason Pontin",
+        "evidence": [
+            [
+                "Jason Pontin",
+                "educated at",
+                "Keble College"
+            ],
+            [
+                "Jason Pontin",
+                "educated at",
+                "Harrow School"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Leland Stanford Junior University, commonly referred to as Stanford University, is a private research university in Stanford, California, United States. It was founded in 1885 by railroad magnate Leland Stanford and his wife, Jane, in memory of their only child, Leland Jr.\nSheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.",
+        "subject": "Stanford University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Sheizaf Rafaeli",
+        "evidence": [
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The Ohio State University is a public land-grant research university in Columbus, Ohio, United States. A member of the University System of Ohio, it was founded in 1870. It is one of the largest universities by enrollment in the United States, with nearly 50,000 undergraduate students and nearly 15,000 graduate students. The university consists of sixteen colleges and offers over 400 degree programs at the undergraduate and graduate levels.\nSheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.",
+        "subject": "Ohio State University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Sheizaf Rafaeli",
+        "evidence": [
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of Haifa is a public research university located on Mount Carmel in Haifa, Israel. Founded in 1963 as a branch of the Hebrew University of Jerusalem, the University of Haifa received full academic accreditation as an independent university in 1972, becoming Israel's sixth academic institution and the fourth university. The university has the largest university library in Israel. As of 2019, approximately 18,000 students were enrolled at the University of Haifa. Among Israeli higher education institutions the University of Haifa has the largest percentage (41%) of Arab-Israeli students.\nSheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.",
+        "subject": "University of Haifa",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Sheizaf Rafaeli",
+        "evidence": [
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Cornell University is a private Ivy League research university based in Ithaca, New York, United States. The university was co-founded by American philanthropist Ezra Cornell and historian and educator Andrew Dickson White in 1865. Since its founding, Cornell University has been a co-educational and nonsectarian institution. As of fall 2024, the student body included 16,128 undergraduate and 10,665 graduate students from all 50\u00a0U.S. states and 130\u00a0countries.\nProfessor Sartaj Kumar Sahni is a computer scientist based in the United States, and is one of the pioneers in the field of data structures. He is a distinguished professor in the Department of Computer and Information Science and Engineering at the University of Florida.",
+        "subject": "Cornell University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Sartaj Sahni",
+        "evidence": [
+            [
+                "Sartaj Sahni",
+                "educated at",
+                "Cornell University"
+            ],
+            [
+                "Sartaj Sahni",
+                "educated at",
+                "Indian Institute of Technology Kanpur"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The Indian Institute of Technology Kanpur is a public institute of technology located in Kanpur, Uttar Pradesh, India. As an Indian Institute of Technology (IIT), it was declared an Institute of National Importance by the Government of India under the Institutes of Technology Act. IIT Kanpur has been occasionally ranked among the best academic institutions in India. As of January 2025, at least 17 Padma Shri, 4 Padma Bhushan, 1 Padma Vibhushan, and 33 Shanti Swarup Bhatnagar Prize recipients have been affiliated with IIT Kanpur as alumni or faculty members.\nProfessor Sartaj Kumar Sahni is a computer scientist based in the United States, and is one of the pioneers in the field of data structures. He is a distinguished professor in the Department of Computer and Information Science and Engineering at the University of Florida.",
+        "subject": "Indian Institute of Technology Kanpur",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Sartaj Sahni",
+        "evidence": [
+            [
+                "Sartaj Sahni",
+                "educated at",
+                "Cornell University"
+            ],
+            [
+                "Sartaj Sahni",
+                "educated at",
+                "Indian Institute of Technology Kanpur"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Presbyterian Boys' Secondary School is a secondary boarding school for boys. It is located in Legon, Accra, Ghana. It was founded in 1938, under the auspices of the Presbyterian Church of the Gold Coast. The Basel missionary-theologian, Nicholas Timothy Clerk (1862\u20131961), who served as the first Synod Clerk of the Presbyterian Church of the Gold Coast from 1918 to 1932, used his tenure to advocate for the establishment of the secondary school. The school has ties with its sister schools, Aburi Girls' Senior High School and Krobo Girls Senior High School.\nBright Simons is a Ghanaian social innovator, entrepreneur, writer, social and political commentator. He is the vice-president, in charge of research at IMANI Centre for Policy and Education. He is also the founder and president of mPedigree.",
+        "subject": "Presbyterian Boys' Senior High School",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Bright Simons",
+        "evidence": [
+            [
+                "Bright Simons",
+                "educated at",
+                "Presbyterian Boys' Senior High School"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of Toronto is a public research university whose main campus is located on the grounds that surround Queen's Park in Toronto, Ontario, Canada. It was founded by royal charter in 1827 as King's College, the first institution of higher learning in Upper Canada. Originally controlled by the Church of England, the university assumed its present name in 1850 upon becoming a secular institution. It has three campuses: Mississauga, St. George, and Scarborough. Its main campus, St. George, is the oldest of the three and located in Downtown Toronto. U of T operates as a collegiate university, comprising 11 colleges, each with substantial autonomy on financial and institutional affairs and significant differences in character and history.\nThomas Clive Thompson III is a Canadian freelance journalist, blogger, and science and technology writer.",
+        "subject": "University of Toronto",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Clive Thompson (journalist)",
+        "evidence": [
+            [
+                "Clive Thompson (journalist)",
+                "educated at",
+                "University of Toronto"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of Massachusetts Amherst is a public land-grant research university in Amherst, Massachusetts, United States. It is the flagship campus of the University of Massachusetts system and was founded in 1863 as the Massachusetts Agricultural College. It is also a member of the Five College Consortium, along with four other colleges in the Pioneer Valley.\nNick Zhang is CEO of Wuzhen Institute and a writer. In 2017, his book A Brief History of Artificial Intelligence was awarded Top 10 Books of Southern Metropolis Daily. In 2018, he won Wu Wenjun Artificial Intelligence Science and Technology Award.",
+        "subject": "University of Massachusetts Amherst",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Nick Zhang",
+        "evidence": [
+            [
+                "Nick Zhang",
+                "educated at",
+                "University of Massachusetts Amherst"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Matthew William Mahan is an\u00a0American\u00a0politician\u00a0and tech entrepreneur who has served as the\u00a0mayor of San Jose since 2023.\u00a0He previously served as the District 10 Councilmember representing the\u00a0Almaden Valley,\u00a0Blossom Valley, and Vista Park neighborhoods. Mahan also served as the co-founder and CEO of\u00a0Brigade Media, a tech company focused on civic engagement.\nBrigade Media, also known as Brigade, was a civic technology platform that was formed on June 4, 2014, and founded by James Windon, Jason Putorti, John Thrall, Matt Mahan, and Miche Capone. The platform was intended to help users connect with others who share the same or similar views and to voice their opinions, create debates, or organize petitions. This process was intended to make the users' concerns more visible to and influential towards the United States policymakers. In early 2019 the engineering team at Brigade was acqui-hired by Pinterest. The remaining company assets and IP, including the Causes assets, were purchased by GovTech app Countable.",
+        "subject": "Matt Mahan",
+        "predicate": "found",
+        "object": "Brigade Media",
+        "evidence": [
+            [
+                "Brigade Media",
+                "founded by",
+                "Matt Mahan"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Ben Rattray is an American entrepreneur who is the founder and is the CEO of the online petition website Change.org, which he founded in 2007. Rattray was included in the 2012 Time 100 list of the world's most influential people, listed as one of Fortune's 40 Under 40 rising young business leaders of 2012, and given the Commonwealth Club of California's 21st Century Visionary Award in 2014.\nChange.org is a website which allows users to create and sign petitions in an attempt to advance various social causes by raising awareness and influencing decision-makers. The site is a US-based for-profit company and claims to have 555 million users as of July 2025. Petitions often focus on causes such as general justice, economic justice, criminal justice, human rights, education, environmental protection, animal rights, cyber bullying, health, religious freedom, and sustainable food.",
+        "subject": "Ben Rattray",
+        "predicate": "found",
+        "object": "Change.org",
+        "evidence": [
+            [
+                "Change.org",
+                "founded by",
+                "Ben Rattray"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Arecibo is a city and municipality on the northern coast of Puerto Rico, on the shores of the Atlantic Ocean, located north of Utuado and Ciales; east of Hatillo; and west of Barceloneta and Florida. It is about 50 miles (80\u00a0km) west of San Juan, the capital city. Arecibo is the largest municipality in Puerto Rico by area, and it is the core city of the Arecibo Metropolitan Statistical Area and part of the greater San Juan\u2013Bayam\u00f3n, PR Combined Statistical Area. It is spread over 18 barrios and Arecibo Pueblo. Its population in 2020 was 87,754.\nThe Arecibo message is an interstellar radio message carrying basic information about humanity and Earth that was sent to the globular cluster Messier 13 in 1974. It was meant as a demonstration of human technological achievement, rather than a real attempt to enter into a conversation with extraterrestrials.",
+        "subject": "Arecibo",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "Arecibo message",
+        "evidence": [
+            [
+                "Arecibo message",
+                "located in the administrative territorial entity",
+                "Arecibo"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Arecibo is a city and municipality on the northern coast of Puerto Rico, on the shores of the Atlantic Ocean, located north of Utuado and Ciales; east of Hatillo; and west of Barceloneta and Florida. It is about 50 miles (80\u00a0km) west of San Juan, the capital city. Arecibo is the largest municipality in Puerto Rico by area, and it is the core city of the Arecibo Metropolitan Statistical Area and part of the greater San Juan\u2013Bayam\u00f3n, PR Combined Statistical Area. It is spread over 18 barrios and Arecibo Pueblo. Its population in 2020 was 87,754.\nThe Arecibo message is an interstellar radio message carrying basic information about humanity and Earth that was sent to the globular cluster Messier 13 in 1974. It was meant as a demonstration of human technological achievement, rather than a real attempt to enter into a conversation with extraterrestrials.",
+        "subject": "Arecibo",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "Arecibo message",
+        "evidence": [
+            [
+                "Arecibo message",
+                "located in the administrative territorial entity",
+                "Arecibo"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Arecibo is a city and municipality on the northern coast of Puerto Rico, on the shores of the Atlantic Ocean, located north of Utuado and Ciales; east of Hatillo; and west of Barceloneta and Florida. It is about 50 miles (80\u00a0km) west of San Juan, the capital city. Arecibo is the largest municipality in Puerto Rico by area, and it is the core city of the Arecibo Metropolitan Statistical Area and part of the greater San Juan\u2013Bayam\u00f3n, PR Combined Statistical Area. It is spread over 18 barrios and Arecibo Pueblo. Its population in 2020 was 87,754.\nThe Arecibo message is an interstellar radio message carrying basic information about humanity and Earth that was sent to the globular cluster Messier 13 in 1974. It was meant as a demonstration of human technological achievement, rather than a real attempt to enter into a conversation with extraterrestrials.",
+        "subject": "Arecibo",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "Arecibo message",
+        "evidence": [
+            [
+                "Arecibo message",
+                "located in the administrative territorial entity",
+                "Arecibo"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The communication with extraterrestrial intelligence (CETI) is a branch of the search for extraterrestrial intelligence (SETI) that focuses on composing and deciphering interstellar messages that theoretically could be understood by another technological civilization. The best-known CETI experiment of its kind was the 1974 Arecibo message composed by Frank Drake.\nThe Arecibo message is an interstellar radio message carrying basic information about humanity and Earth that was sent to the globular cluster Messier 13 in 1974. It was meant as a demonstration of human technological achievement, rather than a real attempt to enter into a conversation with extraterrestrials.",
+        "subject": "communication with extraterrestrial intelligence",
+        "predicate": "be_the_use_of",
+        "object": "Arecibo message",
+        "evidence": [
+            [
+                "Arecibo message",
+                "has use",
+                "communication with extraterrestrial intelligence"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The communication with extraterrestrial intelligence (CETI) is a branch of the search for extraterrestrial intelligence (SETI) that focuses on composing and deciphering interstellar messages that theoretically could be understood by another technological civilization. The best-known CETI experiment of its kind was the 1974 Arecibo message composed by Frank Drake.\nThe Arecibo message is an interstellar radio message carrying basic information about humanity and Earth that was sent to the globular cluster Messier 13 in 1974. It was meant as a demonstration of human technological achievement, rather than a real attempt to enter into a conversation with extraterrestrials.",
+        "subject": "communication with extraterrestrial intelligence",
+        "predicate": "be_the_use_of",
+        "object": "Arecibo message",
+        "evidence": [
+            [
+                "Arecibo message",
+                "has use",
+                "communication with extraterrestrial intelligence"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "The communication with extraterrestrial intelligence (CETI) is a branch of the search for extraterrestrial intelligence (SETI) that focuses on composing and deciphering interstellar messages that theoretically could be understood by another technological civilization. The best-known CETI experiment of its kind was the 1974 Arecibo message composed by Frank Drake.\nThe Arecibo message is an interstellar radio message carrying basic information about humanity and Earth that was sent to the globular cluster Messier 13 in 1974. It was meant as a demonstration of human technological achievement, rather than a real attempt to enter into a conversation with extraterrestrials.",
+        "subject": "communication with extraterrestrial intelligence",
+        "predicate": "be_the_use_of",
+        "object": "Arecibo message",
+        "evidence": [
+            [
+                "Arecibo message",
+                "has use",
+                "communication with extraterrestrial intelligence"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Geomatics is defined in the ISO/TC 211 series of standards as the \"discipline concerned with the collection, distribution, storage, analysis, processing, presentation of geographic data or geographic information\". Under another definition, it consists of products, services and tools involved in the collection, integration and management of geographic (geospatial) data. Surveying engineering was the widely used name for geomatic(s) engineering in the past. Geomatics was placed by the UNESCO Encyclopedia of Life Support Systems under the branch of technical geography.\nGeomatics is defined in the ISO/TC 211 series of standards as the \"discipline concerned with the collection, distribution, storage, analysis, processing, presentation of geographic data or geographic information\". Under another definition, it consists of products, services and tools involved in the collection, integration and management of geographic (geospatial) data. Surveying engineering was the widely used name for geomatic(s) engineering in the past. Geomatics was placed by the UNESCO Encyclopedia of Life Support Systems under the branch of technical geography.",
+        "subject": "spatial science",
+        "predicate": "settlement_located_in",
+        "object": "Geomatics",
+        "evidence": [
+            [
+                "Geomatics",
+                "replaced by",
+                "spatial science"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Big Tech, also referred to as the Tech Giants or Tech Titans, is a collective term for the largest and most influential technology companies in the world. The label draws a parallel to similar classifications in other industries, such as \"Big Oil\" or \"Big Tobacco\". In the United States, it commonly denotes the five dominant firms\u2014Alphabet, Amazon, Apple, Meta, and Microsoft\u2014often called the \"Big Five\". An expanded grouping, sometimes termed the \"Magnificent Seven\", includes Nvidia and Tesla, which each have a market capitalization larger than Meta. The concept of Big Tech can also extend to the major Chinese technology firms\u2014Baidu, Alibaba, Tencent, and Xiaomi\u2014collectively referred to as BATX.\nBig Tech, also referred to as the Tech Giants or Tech Titans, is a collective term for the largest and most influential technology companies in the world. The label draws a parallel to similar classifications in other industries, such as \"Big Oil\" or \"Big Tobacco\". In the United States, it commonly denotes the five dominant firms\u2014Alphabet, Amazon, Apple, Meta, and Microsoft\u2014often called the \"Big Five\". An expanded grouping, sometimes termed the \"Magnificent Seven\", includes Nvidia and Tesla, which each have a market capitalization larger than Meta. The concept of Big Tech can also extend to the major Chinese technology firms\u2014Baidu, Alibaba, Tencent, and Xiaomi\u2014collectively referred to as BATX.",
+        "subject": "Magnificent Seven",
+        "predicate": "settlement_located_in",
+        "object": "Big Tech",
+        "evidence": [
+            [
+                "Big Tech",
+                "replaced by",
+                "Magnificent Seven"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Geomatics is defined in the ISO/TC 211 series of standards as the \"discipline concerned with the collection, distribution, storage, analysis, processing, presentation of geographic data or geographic information\". Under another definition, it consists of products, services and tools involved in the collection, integration and management of geographic (geospatial) data. Surveying engineering was the widely used name for geomatic(s) engineering in the past. Geomatics was placed by the UNESCO Encyclopedia of Life Support Systems under the branch of technical geography.\nGeomatics is defined in the ISO/TC 211 series of standards as the \"discipline concerned with the collection, distribution, storage, analysis, processing, presentation of geographic data or geographic information\". Under another definition, it consists of products, services and tools involved in the collection, integration and management of geographic (geospatial) data. Surveying engineering was the widely used name for geomatic(s) engineering in the past. Geomatics was placed by the UNESCO Encyclopedia of Life Support Systems under the branch of technical geography.",
+        "subject": "spatial science",
+        "predicate": "settlement_located_in",
+        "object": "Geomatics",
+        "evidence": [
+            [
+                "Geomatics",
+                "replaced by",
+                "spatial science"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Big Tech, also referred to as the Tech Giants or Tech Titans, is a collective term for the largest and most influential technology companies in the world. The label draws a parallel to similar classifications in other industries, such as \"Big Oil\" or \"Big Tobacco\". In the United States, it commonly denotes the five dominant firms\u2014Alphabet, Amazon, Apple, Meta, and Microsoft\u2014often called the \"Big Five\". An expanded grouping, sometimes termed the \"Magnificent Seven\", includes Nvidia and Tesla, which each have a market capitalization larger than Meta. The concept of Big Tech can also extend to the major Chinese technology firms\u2014Baidu, Alibaba, Tencent, and Xiaomi\u2014collectively referred to as BATX.\nBig Tech, also referred to as the Tech Giants or Tech Titans, is a collective term for the largest and most influential technology companies in the world. The label draws a parallel to similar classifications in other industries, such as \"Big Oil\" or \"Big Tobacco\". In the United States, it commonly denotes the five dominant firms\u2014Alphabet, Amazon, Apple, Meta, and Microsoft\u2014often called the \"Big Five\". An expanded grouping, sometimes termed the \"Magnificent Seven\", includes Nvidia and Tesla, which each have a market capitalization larger than Meta. The concept of Big Tech can also extend to the major Chinese technology firms\u2014Baidu, Alibaba, Tencent, and Xiaomi\u2014collectively referred to as BATX.",
+        "subject": "Magnificent Seven",
+        "predicate": "settlement_located_in",
+        "object": "Big Tech",
+        "evidence": [
+            [
+                "Big Tech",
+                "replaced by",
+                "Magnificent Seven"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Geomatics is defined in the ISO/TC 211 series of standards as the \"discipline concerned with the collection, distribution, storage, analysis, processing, presentation of geographic data or geographic information\". Under another definition, it consists of products, services and tools involved in the collection, integration and management of geographic (geospatial) data. Surveying engineering was the widely used name for geomatic(s) engineering in the past. Geomatics was placed by the UNESCO Encyclopedia of Life Support Systems under the branch of technical geography.\nGeomatics is defined in the ISO/TC 211 series of standards as the \"discipline concerned with the collection, distribution, storage, analysis, processing, presentation of geographic data or geographic information\". Under another definition, it consists of products, services and tools involved in the collection, integration and management of geographic (geospatial) data. Surveying engineering was the widely used name for geomatic(s) engineering in the past. Geomatics was placed by the UNESCO Encyclopedia of Life Support Systems under the branch of technical geography.",
+        "subject": "spatial science",
+        "predicate": "settlement_located_in",
+        "object": "Geomatics",
+        "evidence": [
+            [
+                "Geomatics",
+                "replaced by",
+                "spatial science"
+            ]
+        ]
+    },
+    {
+        "category": "technology",
+        "reasoning": "Inverse Function Inference",
+        "description": "Big Tech, also referred to as the Tech Giants or Tech Titans, is a collective term for the largest and most influential technology companies in the world. The label draws a parallel to similar classifications in other industries, such as \"Big Oil\" or \"Big Tobacco\". In the United States, it commonly denotes the five dominant firms\u2014Alphabet, Amazon, Apple, Meta, and Microsoft\u2014often called the \"Big Five\". An expanded grouping, sometimes termed the \"Magnificent Seven\", includes Nvidia and Tesla, which each have a market capitalization larger than Meta. The concept of Big Tech can also extend to the major Chinese technology firms\u2014Baidu, Alibaba, Tencent, and Xiaomi\u2014collectively referred to as BATX.\nBig Tech, also referred to as the Tech Giants or Tech Titans, is a collective term for the largest and most influential technology companies in the world. The label draws a parallel to similar classifications in other industries, such as \"Big Oil\" or \"Big Tobacco\". In the United States, it commonly denotes the five dominant firms\u2014Alphabet, Amazon, Apple, Meta, and Microsoft\u2014often called the \"Big Five\". An expanded grouping, sometimes termed the \"Magnificent Seven\", includes Nvidia and Tesla, which each have a market capitalization larger than Meta. The concept of Big Tech can also extend to the major Chinese technology firms\u2014Baidu, Alibaba, Tencent, and Xiaomi\u2014collectively referred to as BATX.",
+        "subject": "Magnificent Seven",
+        "predicate": "settlement_located_in",
+        "object": "Big Tech",
+        "evidence": [
+            [
+                "Big Tech",
+                "replaced by",
+                "Magnificent Seven"
+            ]
+        ]
+    }
+]

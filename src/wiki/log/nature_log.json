@@ -1,0 +1,5906 @@
+[
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2465832",
+        "valueLabel": "branch of science"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q336",
+        "valueLabel": "science"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P2959",
+        "propertyLabel": "permanent duplicated item",
+        "value": "Q131433092",
+        "valueLabel": "Q131433092"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q1457332",
+        "valueLabel": "Category:Natural sciences"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q413",
+        "valueLabel": "physics"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q188847",
+        "valueLabel": "environmental science"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q864928",
+        "valueLabel": "life sciences"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q484591",
+        "valueLabel": "natural history"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q2522419",
+        "valueLabel": "hard science"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q105467331",
+        "valueLabel": "science student"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q8008",
+        "valueLabel": "Earth science"
+    },
+    {
+        "entity": "Q7991",
+        "entityLabel": "Natural science",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q7860",
+        "valueLabel": "nature"
+    },
+    {
+        "entity": "Q18392234",
+        "entityLabel": "Outline of natural science",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q85741989",
+        "entityLabel": "Anthropocene Working Group",
+        "property": "P749",
+        "propertyLabel": "parent organization",
+        "value": "Q402104",
+        "valueLabel": "International Commission on Stratigraphy"
+    },
+    {
+        "entity": "Q85741989",
+        "entityLabel": "Anthropocene Working Group",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q27493",
+        "valueLabel": "working group"
+    },
+    {
+        "entity": "Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q84",
+        "valueLabel": "London"
+    },
+    {
+        "entity": "Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences",
+        "property": "P749",
+        "propertyLabel": "parent organization",
+        "value": "Q189022",
+        "valueLabel": "Imperial College London"
+    },
+    {
+        "entity": "Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences",
+        "property": "P1365",
+        "propertyLabel": "replaces",
+        "value": "Q7373985",
+        "valueLabel": "Royal College of Science"
+    },
+    {
+        "entity": "Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences",
+        "property": "P355",
+        "propertyLabel": "child organization/unit",
+        "value": "Q96336768",
+        "valueLabel": "Department of Life Sciences, Imperial College London"
+    },
+    {
+        "entity": "Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q180958",
+        "valueLabel": "faculty"
+    },
+    {
+        "entity": "Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences",
+        "property": "P355",
+        "propertyLabel": "child organization/unit",
+        "value": "Q60740266",
+        "valueLabel": "Department of Chemistry, Imperial College London"
+    },
+    {
+        "entity": "Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q7991",
+        "valueLabel": "natural science"
+    },
+    {
+        "entity": "Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences",
+        "property": "P5894",
+        "propertyLabel": "tuition fee",
+        "value": "31000",
+        "valueLabel": "31000"
+    },
+    {
+        "entity": "Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences",
+        "property": "P355",
+        "propertyLabel": "child organization/unit",
+        "value": "Q17986326",
+        "valueLabel": "Centre for Environmental Policy"
+    },
+    {
+        "entity": "Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q145",
+        "valueLabel": "United Kingdom"
+    },
+    {
+        "entity": "Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences",
+        "property": "P355",
+        "propertyLabel": "child organization/unit",
+        "value": "Q29025019",
+        "valueLabel": "Blackett Laboratory"
+    },
+    {
+        "entity": "Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences",
+        "property": "P355",
+        "propertyLabel": "child organization/unit",
+        "value": "Q93263943",
+        "valueLabel": "Department of Mathematics, Imperial College London"
+    },
+    {
+        "entity": "Q6980609",
+        "entityLabel": "Natural Sciences Collections Association",
+        "property": "P2650",
+        "propertyLabel": "interested in",
+        "value": "Q1438125",
+        "valueLabel": "scientific collection"
+    },
+    {
+        "entity": "Q6980609",
+        "entityLabel": "Natural Sciences Collections Association",
+        "property": "P159",
+        "propertyLabel": "headquarters location",
+        "value": "Q145",
+        "valueLabel": "United Kingdom"
+    },
+    {
+        "entity": "Q6980609",
+        "entityLabel": "Natural Sciences Collections Association",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q708676",
+        "valueLabel": "charitable organization"
+    },
+    {
+        "entity": "Q6980609",
+        "entityLabel": "Natural Sciences Collections Association",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "6336",
+        "valueLabel": "6336"
+    },
+    {
+        "entity": "Q6980609",
+        "entityLabel": "Natural Sciences Collections Association",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q7991",
+        "valueLabel": "natural science"
+    },
+    {
+        "entity": "Q6980609",
+        "entityLabel": "Natural Sciences Collections Association",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q6980609",
+        "entityLabel": "Natural Sciences Collections Association",
+        "property": "P452",
+        "propertyLabel": "industry",
+        "value": "Q136822",
+        "valueLabel": "higher education"
+    },
+    {
+        "entity": "Q6980609",
+        "entityLabel": "Natural Sciences Collections Association",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q955824",
+        "valueLabel": "learned society"
+    },
+    {
+        "entity": "Q180445",
+        "entityLabel": "Nature (journal)",
+        "property": "P8875",
+        "propertyLabel": "indexed in bibliographic review",
+        "value": "Q104047209",
+        "valueLabel": "Science Citation Index Expanded"
+    },
+    {
+        "entity": "Q180445",
+        "entityLabel": "Nature (journal)",
+        "property": "P9683",
+        "propertyLabel": "Qualis rank",
+        "value": "Q107264142",
+        "valueLabel": "A1"
+    },
+    {
+        "entity": "Q180445",
+        "entityLabel": "Nature (journal)",
+        "property": "P2284",
+        "propertyLabel": "price",
+        "value": "10290",
+        "valueLabel": "10290"
+    },
+    {
+        "entity": "Q180445",
+        "entityLabel": "Nature (journal)",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q348620",
+        "valueLabel": "Nature"
+    },
+    {
+        "entity": "Q180445",
+        "entityLabel": "Nature (journal)",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q118327527",
+        "valueLabel": "Wikipedia:Vaccine safety/Perennial sources"
+    },
+    {
+        "entity": "Q180445",
+        "entityLabel": "Nature (journal)",
+        "property": "P6954",
+        "propertyLabel": "online access status",
+        "value": "Q910845",
+        "valueLabel": "paywall"
+    },
+    {
+        "entity": "Q24965354",
+        "entityLabel": "Rangeland management",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3743137",
+        "valueLabel": "natural resource management"
+    },
+    {
+        "entity": "Q24965354",
+        "entityLabel": "Rangeland management",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q24965354",
+        "entityLabel": "Rangeland management",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q24965354",
+        "entityLabel": "Rangeland management",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q24965354",
+        "entityLabel": "Rangeland management",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2267705",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q24965354",
+        "entityLabel": "Rangeland management",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5333882",
+        "valueLabel": "ecosystem management"
+    },
+    {
+        "entity": "Q24965354",
+        "entityLabel": "Rangeland management",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q122732671",
+        "valueLabel": "range manager"
+    },
+    {
+        "entity": "Q7865526",
+        "entityLabel": "UPRRP College of Natural Sciences",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3918",
+        "valueLabel": "university"
+    },
+    {
+        "entity": "Q7865526",
+        "entityLabel": "UPRRP College of Natural Sciences",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q7865526",
+        "entityLabel": "UPRRP College of Natural Sciences",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q1183",
+        "valueLabel": "Puerto Rico"
+    },
+    {
+        "entity": "Q6018848",
+        "entityLabel": "Index of conservation articles",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q6018848",
+        "entityLabel": "Index of conservation articles",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q15138389",
+        "valueLabel": "Wikimedia article page"
+    },
+    {
+        "entity": "Q553036",
+        "entityLabel": "Natural regions of Germany",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1970725",
+        "valueLabel": "natural region"
+    },
+    {
+        "entity": "Q553036",
+        "entityLabel": "Natural regions of Germany",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8668646",
+        "valueLabel": "Category:Natural regions of Germany"
+    },
+    {
+        "entity": "Q553036",
+        "entityLabel": "Natural regions of Germany",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q61710144",
+        "valueLabel": "natural region of Germany"
+    },
+    {
+        "entity": "Q553036",
+        "entityLabel": "Natural regions of Germany",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q183",
+        "valueLabel": "Germany"
+    },
+    {
+        "entity": "Q3679744",
+        "entityLabel": "IUCN protected area categories",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q936",
+        "valueLabel": "OpenStreetMap"
+    },
+    {
+        "entity": "Q3679744",
+        "entityLabel": "IUCN protected area categories",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7160006",
+        "valueLabel": "Category:Protected areas by World Conservation Union category"
+    },
+    {
+        "entity": "Q3679744",
+        "entityLabel": "IUCN protected area categories",
+        "property": "P137",
+        "propertyLabel": "operator",
+        "value": "Q48268",
+        "valueLabel": "International Union for Conservation of Nature"
+    },
+    {
+        "entity": "Q3679744",
+        "entityLabel": "IUCN protected area categories",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q16889133",
+        "valueLabel": "class"
+    },
+    {
+        "entity": "Q3679744",
+        "entityLabel": "IUCN protected area categories",
+        "property": "P170",
+        "propertyLabel": "creator",
+        "value": "Q48268",
+        "valueLabel": "International Union for Conservation of Nature"
+    },
+    {
+        "entity": "Q3679744",
+        "entityLabel": "IUCN protected area categories",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q473972",
+        "valueLabel": "protected area"
+    },
+    {
+        "entity": "Q3679744",
+        "entityLabel": "IUCN protected area categories",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13582682",
+        "valueLabel": "classification"
+    },
+    {
+        "entity": "Q846154",
+        "entityLabel": "New 7 Wonders of Nature",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q213360",
+        "valueLabel": "Table Mountain"
+    },
+    {
+        "entity": "Q846154",
+        "entityLabel": "New 7 Wonders of Nature",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q190128",
+        "valueLabel": "Ha Long Bay"
+    },
+    {
+        "entity": "Q846154",
+        "entityLabel": "New 7 Wonders of Nature",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q209287",
+        "valueLabel": "Wonders of the World"
+    },
+    {
+        "entity": "Q846154",
+        "entityLabel": "New 7 Wonders of Nature",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q495733",
+        "valueLabel": "Jeju Volcanic Island and Lava Tubes"
+    },
+    {
+        "entity": "Q846154",
+        "entityLabel": "New 7 Wonders of Nature",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q824602",
+        "valueLabel": "Puerto Princesa River"
+    },
+    {
+        "entity": "Q846154",
+        "entityLabel": "New 7 Wonders of Nature",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q36332",
+        "valueLabel": "Igua\u00e7u Falls"
+    },
+    {
+        "entity": "Q846154",
+        "entityLabel": "New 7 Wonders of Nature",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q10112381",
+        "valueLabel": "Category:New 7 Wonders of Nature"
+    },
+    {
+        "entity": "Q846154",
+        "entityLabel": "New 7 Wonders of Nature",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3703274",
+        "valueLabel": "seven wonders"
+    },
+    {
+        "entity": "Q846154",
+        "entityLabel": "New 7 Wonders of Nature",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q177567",
+        "valueLabel": "Amazon rainforest"
+    },
+    {
+        "entity": "Q846154",
+        "entityLabel": "New 7 Wonders of Nature",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q107640",
+        "valueLabel": "Komodo Island"
+    },
+    {
+        "entity": "Q7457359",
+        "entityLabel": "Seven Natural Wonders",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q7603925",
+        "valueLabel": "television documentary"
+    },
+    {
+        "entity": "Q7457359",
+        "entityLabel": "Seven Natural Wonders",
+        "property": "P364",
+        "propertyLabel": "original language of film or TV show",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q7457359",
+        "entityLabel": "Seven Natural Wonders",
+        "property": "P449",
+        "propertyLabel": "original broadcaster",
+        "value": "Q9531",
+        "valueLabel": "Q9531"
+    },
+    {
+        "entity": "Q7457359",
+        "entityLabel": "Seven Natural Wonders",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5398426",
+        "valueLabel": "television series"
+    },
+    {
+        "entity": "Q7457359",
+        "entityLabel": "Seven Natural Wonders",
+        "property": "P1113",
+        "propertyLabel": "number of episodes",
+        "value": "8",
+        "valueLabel": "8"
+    },
+    {
+        "entity": "Q7457359",
+        "entityLabel": "Seven Natural Wonders",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q145",
+        "valueLabel": "United Kingdom"
+    },
+    {
+        "entity": "Q2157853",
+        "entityLabel": "Seven Wonders of Canada",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q2157853",
+        "entityLabel": "Seven Wonders of Canada",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q16",
+        "valueLabel": "Canada"
+    },
+    {
+        "entity": "Q11379",
+        "entityLabel": "Energy",
+        "property": "P8111",
+        "propertyLabel": "recommended unit of measurement",
+        "value": "Q106681350",
+        "valueLabel": "kilogram square metre per square second"
+    },
+    {
+        "entity": "Q11379",
+        "entityLabel": "Energy",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "227967",
+        "valueLabel": "227967"
+    },
+    {
+        "entity": "Q11379",
+        "entityLabel": "Energy",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "171461",
+        "valueLabel": "171461"
+    },
+    {
+        "entity": "Q11379",
+        "entityLabel": "Energy",
+        "property": "P8111",
+        "propertyLabel": "recommended unit of measurement",
+        "value": "Q83327",
+        "valueLabel": "electronvolt"
+    },
+    {
+        "entity": "Q11379",
+        "entityLabel": "Energy",
+        "property": "P8111",
+        "propertyLabel": "recommended unit of measurement",
+        "value": "Q25269",
+        "valueLabel": "joule"
+    },
+    {
+        "entity": "Q420754",
+        "entityLabel": "Binding energy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3935690",
+        "valueLabel": "form of energy"
+    },
+    {
+        "entity": "Q420754",
+        "entityLabel": "Binding energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107715",
+        "valueLabel": "physical quantity"
+    },
+    {
+        "entity": "Q420754",
+        "entityLabel": "Binding energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737632",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 5"
+    },
+    {
+        "entity": "Q420754",
+        "entityLabel": "Binding energy",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q27824427",
+        "valueLabel": "Category:Binding energy"
+    },
+    {
+        "entity": "Q420754",
+        "entityLabel": "Binding energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q155640",
+        "valueLabel": "potential energy"
+    },
+    {
+        "entity": "Q570714",
+        "entityLabel": "Bioenergetics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q28598684",
+        "valueLabel": "branch of biology"
+    },
+    {
+        "entity": "Q570714",
+        "entityLabel": "Bioenergetics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11790203",
+        "valueLabel": "branch of chemistry"
+    },
+    {
+        "entity": "Q570714",
+        "entityLabel": "Bioenergetics",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q7094",
+        "valueLabel": "biochemistry"
+    },
+    {
+        "entity": "Q570714",
+        "entityLabel": "Bioenergetics",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737632",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 5"
+    },
+    {
+        "entity": "Q570714",
+        "entityLabel": "Bioenergetics",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9542733",
+        "valueLabel": "Category:Bioenergetics"
+    },
+    {
+        "entity": "Q18415473",
+        "entityLabel": "Buchdahl's theorem",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q65943",
+        "valueLabel": "theorem"
+    },
+    {
+        "entity": "Q11382",
+        "entityLabel": "Conservation of energy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q205805",
+        "valueLabel": "conservation law"
+    },
+    {
+        "entity": "Q11382",
+        "entityLabel": "Conservation of energy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q214070",
+        "valueLabel": "physical law"
+    },
+    {
+        "entity": "Q11382",
+        "entityLabel": "Conservation of energy",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6211811",
+        "valueLabel": "Category:Conservation of energy"
+    },
+    {
+        "entity": "Q11382",
+        "entityLabel": "Conservation of energy",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q483948",
+        "valueLabel": "conservation of mass"
+    },
+    {
+        "entity": "Q11382",
+        "entityLabel": "Conservation of energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q3181656",
+        "valueLabel": "The Nuttall Encyclop\u00e6dia"
+    },
+    {
+        "entity": "Q11382",
+        "entityLabel": "Conservation of energy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q380170",
+        "valueLabel": "energy conservation"
+    },
+    {
+        "entity": "Q11382",
+        "entityLabel": "Conservation of energy",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q11379",
+        "valueLabel": "energy"
+    },
+    {
+        "entity": "Q11382",
+        "entityLabel": "Conservation of energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4532138",
+        "valueLabel": "Granat Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q18343",
+        "entityLabel": "Dark energy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3935690",
+        "valueLabel": "form of energy"
+    },
+    {
+        "entity": "Q18343",
+        "entityLabel": "Dark energy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3144351",
+        "valueLabel": "scientific hypothesis"
+    },
+    {
+        "entity": "Q18343",
+        "entityLabel": "Dark energy",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q333",
+        "valueLabel": "astronomy"
+    },
+    {
+        "entity": "Q18343",
+        "entityLabel": "Dark energy",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q37547",
+        "valueLabel": "astrophysics"
+    },
+    {
+        "entity": "Q18343",
+        "entityLabel": "Dark energy",
+        "property": "P6477",
+        "propertyLabel": "does not have characteristic",
+        "value": "Q1076402",
+        "valueLabel": "gravitational mass"
+    },
+    {
+        "entity": "Q18343",
+        "entityLabel": "Dark energy",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q338",
+        "valueLabel": "cosmology"
+    },
+    {
+        "entity": "Q18343",
+        "entityLabel": "Dark energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11379",
+        "valueLabel": "energy"
+    },
+    {
+        "entity": "Q18343",
+        "entityLabel": "Dark energy",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q16919810",
+        "valueLabel": "hidden sector"
+    },
+    {
+        "entity": "Q18343",
+        "entityLabel": "Dark energy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q79925",
+        "valueLabel": "dark matter"
+    },
+    {
+        "entity": "Q18343",
+        "entityLabel": "Dark energy",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q108124839",
+        "valueLabel": "Category:Dark energy"
+    },
+    {
+        "entity": "Q18343",
+        "entityLabel": "Dark energy",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q221392",
+        "valueLabel": "observable universe"
+    },
+    {
+        "entity": "Q5377034",
+        "entityLabel": "Energy current",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q6485344",
+        "valueLabel": "flux"
+    },
+    {
+        "entity": "Q5377034",
+        "entityLabel": "Energy current",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q5377054",
+        "valueLabel": "energy flux"
+    },
+    {
+        "entity": "Q5377034",
+        "entityLabel": "Energy current",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q15211908",
+        "valueLabel": "energy transfer"
+    },
+    {
+        "entity": "Q5377034",
+        "entityLabel": "Energy current",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107715",
+        "valueLabel": "physical quantity"
+    },
+    {
+        "entity": "Q5377034",
+        "entityLabel": "Energy current",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4456944",
+        "valueLabel": "current"
+    },
+    {
+        "entity": "Q5377056",
+        "entityLabel": "Energy functional",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q579600",
+        "valueLabel": "functional"
+    },
+    {
+        "entity": "Q11271324",
+        "entityLabel": "Energy transformation",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q413",
+        "valueLabel": "physics"
+    },
+    {
+        "entity": "Q11271324",
+        "entityLabel": "Energy transformation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1522115",
+        "valueLabel": "energy source"
+    },
+    {
+        "entity": "Q11271324",
+        "entityLabel": "Energy transformation",
+        "property": "P1880",
+        "propertyLabel": "measurement scale",
+        "value": "Q192704",
+        "valueLabel": "energy efficiency"
+    },
+    {
+        "entity": "Q11271324",
+        "entityLabel": "Energy transformation",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q40643813",
+        "valueLabel": "energy transformer"
+    },
+    {
+        "entity": "Q11271324",
+        "entityLabel": "Energy transformation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q65757353",
+        "valueLabel": "transformation"
+    },
+    {
+        "entity": "Q11271324",
+        "entityLabel": "Energy transformation",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q3935690",
+        "valueLabel": "form of energy"
+    },
+    {
+        "entity": "Q11271324",
+        "entityLabel": "Energy transformation",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q11382",
+        "valueLabel": "conservation of energy"
+    },
+    {
+        "entity": "Q11271324",
+        "entityLabel": "Energy transformation",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6960222",
+        "valueLabel": "Category:Energy conversion"
+    },
+    {
+        "entity": "Q11271324",
+        "entityLabel": "Energy transformation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3249551",
+        "valueLabel": "process"
+    },
+    {
+        "entity": "Q161064",
+        "entityLabel": "Enthalpy",
+        "property": "P8111",
+        "propertyLabel": "recommended unit of measurement",
+        "value": "Q106681350",
+        "valueLabel": "kilogram square metre per square second"
+    },
+    {
+        "entity": "Q161064",
+        "entityLabel": "Enthalpy",
+        "property": "P12457",
+        "propertyLabel": "invariant under",
+        "value": "Q907297",
+        "valueLabel": "isenthalpic process"
+    },
+    {
+        "entity": "Q161064",
+        "entityLabel": "Enthalpy",
+        "property": "P8111",
+        "propertyLabel": "recommended unit of measurement",
+        "value": "Q25269",
+        "valueLabel": "joule"
+    },
+    {
+        "entity": "Q161064",
+        "entityLabel": "Enthalpy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2420179",
+        "valueLabel": "thermodynamic potential"
+    },
+    {
+        "entity": "Q161064",
+        "entityLabel": "Enthalpy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q26711934",
+        "valueLabel": "ISO 80000-5:2007 Quantities and units \u2014 Part 5: Thermodynamics"
+    },
+    {
+        "entity": "Q161064",
+        "entityLabel": "Enthalpy",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7031259",
+        "valueLabel": "Category:Enthalpy"
+    },
+    {
+        "entity": "Q161064",
+        "entityLabel": "Enthalpy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11379",
+        "valueLabel": "energy"
+    },
+    {
+        "entity": "Q1544012",
+        "entityLabel": "Gravitational potential",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q181175",
+        "valueLabel": "scalar quantity"
+    },
+    {
+        "entity": "Q1544012",
+        "entityLabel": "Gravitational potential",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q11412",
+        "valueLabel": "gravity"
+    },
+    {
+        "entity": "Q1544012",
+        "entityLabel": "Gravitational potential",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q558066",
+        "valueLabel": "gravitational field"
+    },
+    {
+        "entity": "Q1544012",
+        "entityLabel": "Gravitational potential",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1856609",
+        "valueLabel": "scalar potential"
+    },
+    {
+        "entity": "Q1544012",
+        "entityLabel": "Gravitational potential",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107715",
+        "valueLabel": "physical quantity"
+    },
+    {
+        "entity": "Q1544012",
+        "entityLabel": "Gravitational potential",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q2297853",
+        "valueLabel": "gravitational energy"
+    },
+    {
+        "entity": "Q1544012",
+        "entityLabel": "Gravitational potential",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q558066",
+        "valueLabel": "gravitational field"
+    },
+    {
+        "entity": "Q1544012",
+        "entityLabel": "Gravitational potential",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1423347",
+        "valueLabel": "geopotential"
+    },
+    {
+        "entity": "Q2253702",
+        "entityLabel": "Interaction energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11379",
+        "valueLabel": "energy"
+    },
+    {
+        "entity": "Q2253702",
+        "entityLabel": "Interaction energy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3935690",
+        "valueLabel": "form of energy"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3935690",
+        "valueLabel": "form of energy"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q71550700",
+        "valueLabel": "chemical quantity"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3386703",
+        "valueLabel": "extensive quantity"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107715",
+        "valueLabel": "physical quantity"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2420179",
+        "valueLabel": "thermodynamic potential"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q92157468",
+        "valueLabel": "ISO 80000-5:2019 Quantities and units \u2014 Part 5: Thermodynamics"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11379",
+        "valueLabel": "energy"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20078554",
+        "valueLabel": "Great Soviet Encyclopedia (1926\u20131947)"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q230937",
+        "valueLabel": "state function"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q11473",
+        "valueLabel": "thermodynamics"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q26711934",
+        "valueLabel": "ISO 80000-5:2007 Quantities and units \u2014 Part 5: Thermodynamics"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P8111",
+        "propertyLabel": "recommended unit of measurement",
+        "value": "Q106681350",
+        "valueLabel": "kilogram square metre per square second"
+    },
+    {
+        "entity": "Q180241",
+        "entityLabel": "Internal energy",
+        "property": "P8111",
+        "propertyLabel": "recommended unit of measurement",
+        "value": "Q25269",
+        "valueLabel": "joule"
+    },
+    {
+        "entity": "Q1097654",
+        "entityLabel": "Invariant mass",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11379",
+        "valueLabel": "energy"
+    },
+    {
+        "entity": "Q1097654",
+        "entityLabel": "Invariant mass",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q96941619",
+        "valueLabel": "rest mass"
+    },
+    {
+        "entity": "Q1097654",
+        "entityLabel": "Invariant mass",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q11663629",
+        "valueLabel": "rest energy"
+    },
+    {
+        "entity": "Q1097654",
+        "entityLabel": "Invariant mass",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q1455736",
+        "valueLabel": "symmetry"
+    },
+    {
+        "entity": "Q1097654",
+        "entityLabel": "Invariant mass",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11423",
+        "valueLabel": "mass"
+    },
+    {
+        "entity": "Q1097654",
+        "entityLabel": "Invariant mass",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107715",
+        "valueLabel": "physical quantity"
+    },
+    {
+        "entity": "Q1097654",
+        "entityLabel": "Invariant mass",
+        "property": "P12457",
+        "propertyLabel": "invariant under",
+        "value": "Q217255",
+        "valueLabel": "Lorentz transformation"
+    },
+    {
+        "entity": "Q764228",
+        "entityLabel": "Josephson effect",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3457198",
+        "valueLabel": "macroscopic quantum phenomena"
+    },
+    {
+        "entity": "Q764228",
+        "entityLabel": "Josephson effect",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1293220",
+        "valueLabel": "physical phenomenon"
+    },
+    {
+        "entity": "Q764228",
+        "entityLabel": "Josephson effect",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q181363",
+        "valueLabel": "Brian David Josephson"
+    },
+    {
+        "entity": "Q764228",
+        "entityLabel": "Josephson effect",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q6672752",
+        "valueLabel": "Long Josephson junction"
+    },
+    {
+        "entity": "Q764228",
+        "entityLabel": "Josephson effect",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q6288496",
+        "valueLabel": "Josephson vortex"
+    },
+    {
+        "entity": "Q764228",
+        "entityLabel": "Josephson effect",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q7643234",
+        "valueLabel": "Supercurrent"
+    },
+    {
+        "entity": "Q764228",
+        "entityLabel": "Josephson effect",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8568252",
+        "valueLabel": "Category:Josephson effect"
+    },
+    {
+        "entity": "Q764228",
+        "entityLabel": "Josephson effect",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q17077829",
+        "valueLabel": "Josephson energy"
+    },
+    {
+        "entity": "Q764228",
+        "entityLabel": "Josephson effect",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q6288494",
+        "valueLabel": "Josephson phase"
+    },
+    {
+        "entity": "Q6408112",
+        "entityLabel": "Kilocalorie per mole",
+        "property": "P2370",
+        "propertyLabel": "conversion to SI unit",
+        "value": "4184",
+        "valueLabel": "4184"
+    },
+    {
+        "entity": "Q6408112",
+        "entityLabel": "Kilocalorie per mole",
+        "property": "P111",
+        "propertyLabel": "measured physical quantity",
+        "value": "Q69427512",
+        "valueLabel": "molar energy"
+    },
+    {
+        "entity": "Q6408112",
+        "entityLabel": "Kilocalorie per mole",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q45721316",
+        "valueLabel": "unit of molar energy"
+    },
+    {
+        "entity": "Q35875",
+        "entityLabel": "Mass\u2013energy equivalence",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q12739",
+        "valueLabel": "nuclear power"
+    },
+    {
+        "entity": "Q35875",
+        "entityLabel": "Mass\u2013energy equivalence",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q24034552",
+        "valueLabel": "mathematical concept"
+    },
+    {
+        "entity": "Q35875",
+        "entityLabel": "Mass\u2013energy equivalence",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q12802",
+        "valueLabel": "nuclear weapon"
+    },
+    {
+        "entity": "Q35875",
+        "entityLabel": "Mass\u2013energy equivalence",
+        "property": "P1557",
+        "propertyLabel": "manifestation of",
+        "value": "Q43514",
+        "valueLabel": "theory of relativity"
+    },
+    {
+        "entity": "Q35875",
+        "entityLabel": "Mass\u2013energy equivalence",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q11455",
+        "valueLabel": "special relativity"
+    },
+    {
+        "entity": "Q35875",
+        "entityLabel": "Mass\u2013energy equivalence",
+        "property": "P61",
+        "propertyLabel": "discoverer or inventor",
+        "value": "Q937",
+        "valueLabel": "Q937"
+    },
+    {
+        "entity": "Q35875",
+        "entityLabel": "Mass\u2013energy equivalence",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q33104303",
+        "valueLabel": "concept in physics"
+    },
+    {
+        "entity": "Q184550",
+        "entityLabel": "Mechanical energy",
+        "property": "P8111",
+        "propertyLabel": "recommended unit of measurement",
+        "value": "Q25269",
+        "valueLabel": "joule"
+    },
+    {
+        "entity": "Q184550",
+        "entityLabel": "Mechanical energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11379",
+        "valueLabel": "energy"
+    },
+    {
+        "entity": "Q184550",
+        "entityLabel": "Mechanical energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q73391977",
+        "valueLabel": "ISO 80000-4:2019 Quantities and units \u2014 Part 4: Mechanics"
+    },
+    {
+        "entity": "Q184550",
+        "entityLabel": "Mechanical energy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3935690",
+        "valueLabel": "form of energy"
+    },
+    {
+        "entity": "Q184550",
+        "entityLabel": "Mechanical energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q26711933",
+        "valueLabel": "ISO 80000-4:2006 Quantities and units\u2014Part 4: Mechanics"
+    },
+    {
+        "entity": "Q184550",
+        "entityLabel": "Mechanical energy",
+        "property": "P8111",
+        "propertyLabel": "recommended unit of measurement",
+        "value": "Q106681350",
+        "valueLabel": "kilogram square metre per square second"
+    },
+    {
+        "entity": "Q184550",
+        "entityLabel": "Mechanical energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107715",
+        "valueLabel": "physical quantity"
+    },
+    {
+        "entity": "Q662636",
+        "entityLabel": "Negative energy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q151885",
+        "valueLabel": "concept"
+    },
+    {
+        "entity": "Q7227698",
+        "entityLabel": "Ponderomotive energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11379",
+        "valueLabel": "energy"
+    },
+    {
+        "entity": "Q155640",
+        "entityLabel": "Potential energy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3935690",
+        "valueLabel": "form of energy"
+    },
+    {
+        "entity": "Q155640",
+        "entityLabel": "Potential energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q26711933",
+        "valueLabel": "ISO 80000-4:2006 Quantities and units\u2014Part 4: Mechanics"
+    },
+    {
+        "entity": "Q155640",
+        "entityLabel": "Potential energy",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9538223",
+        "valueLabel": "Category:Potential energy"
+    },
+    {
+        "entity": "Q155640",
+        "entityLabel": "Potential energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107715",
+        "valueLabel": "physical quantity"
+    },
+    {
+        "entity": "Q155640",
+        "entityLabel": "Potential energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q184550",
+        "valueLabel": "mechanical energy"
+    },
+    {
+        "entity": "Q155640",
+        "entityLabel": "Potential energy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1856609",
+        "valueLabel": "scalar potential"
+    },
+    {
+        "entity": "Q155640",
+        "entityLabel": "Potential energy",
+        "property": "P8111",
+        "propertyLabel": "recommended unit of measurement",
+        "value": "Q106681350",
+        "valueLabel": "kilogram square metre per square second"
+    },
+    {
+        "entity": "Q155640",
+        "entityLabel": "Potential energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q73391977",
+        "valueLabel": "ISO 80000-4:2019 Quantities and units \u2014 Part 4: Mechanics"
+    },
+    {
+        "entity": "Q155640",
+        "entityLabel": "Potential energy",
+        "property": "P1542",
+        "propertyLabel": "has effect",
+        "value": "Q46276",
+        "valueLabel": "kinetic energy"
+    },
+    {
+        "entity": "Q155640",
+        "entityLabel": "Potential energy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q12559031",
+        "valueLabel": "potential"
+    },
+    {
+        "entity": "Q348294",
+        "entityLabel": "QED vacuum",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11475",
+        "valueLabel": "vacuum"
+    },
+    {
+        "entity": "Q348294",
+        "entityLabel": "QED vacuum",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q234881",
+        "valueLabel": "quantum electrodynamics"
+    },
+    {
+        "entity": "Q1193821",
+        "entityLabel": "Quantum fluctuation",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1293220",
+        "valueLabel": "physical phenomenon"
+    },
+    {
+        "entity": "Q1193821",
+        "entityLabel": "Quantum fluctuation",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q944",
+        "valueLabel": "quantum mechanics"
+    },
+    {
+        "entity": "Q3023293",
+        "entityLabel": "Specific energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q92157468",
+        "valueLabel": "ISO 80000-5:2019 Quantities and units \u2014 Part 5: Thermodynamics"
+    },
+    {
+        "entity": "Q3023293",
+        "entityLabel": "Specific energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107715",
+        "valueLabel": "physical quantity"
+    },
+    {
+        "entity": "Q3023293",
+        "entityLabel": "Specific energy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q828402",
+        "valueLabel": "energy density"
+    },
+    {
+        "entity": "Q3023293",
+        "entityLabel": "Specific energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q26711934",
+        "valueLabel": "ISO 80000-5:2007 Quantities and units \u2014 Part 5: Thermodynamics"
+    },
+    {
+        "entity": "Q3023293",
+        "entityLabel": "Specific energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q56317611",
+        "valueLabel": "specific quantity"
+    },
+    {
+        "entity": "Q3023293",
+        "entityLabel": "Specific energy",
+        "property": "P8111",
+        "propertyLabel": "recommended unit of measurement",
+        "value": "Q106740890",
+        "valueLabel": "square metre per square second"
+    },
+    {
+        "entity": "Q3023293",
+        "entityLabel": "Specific energy",
+        "property": "P8111",
+        "propertyLabel": "recommended unit of measurement",
+        "value": "Q57175225",
+        "valueLabel": "joule per kilogram"
+    },
+    {
+        "entity": "Q16908654",
+        "entityLabel": "Specific potential energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q56317611",
+        "valueLabel": "specific quantity"
+    },
+    {
+        "entity": "Q16908654",
+        "entityLabel": "Specific potential energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107715",
+        "valueLabel": "physical quantity"
+    },
+    {
+        "entity": "Q1146448",
+        "entityLabel": "Thermodynamic free energy",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q10152649",
+        "valueLabel": "Category:Thermodynamic free energy"
+    },
+    {
+        "entity": "Q1146448",
+        "entityLabel": "Thermodynamic free energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11379",
+        "valueLabel": "energy"
+    },
+    {
+        "entity": "Q1146448",
+        "entityLabel": "Thermodynamic free energy",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q1031553",
+        "valueLabel": "Free energy"
+    },
+    {
+        "entity": "Q1146448",
+        "entityLabel": "Thermodynamic free energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2420179",
+        "valueLabel": "thermodynamic potential"
+    },
+    {
+        "entity": "Q1146448",
+        "entityLabel": "Thermodynamic free energy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q123560817",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 1"
+    },
+    {
+        "entity": "Q1146448",
+        "entityLabel": "Thermodynamic free energy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q33104303",
+        "valueLabel": "concept in physics"
+    },
+    {
+        "entity": "Q1146448",
+        "entityLabel": "Thermodynamic free energy",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q11473",
+        "valueLabel": "thermodynamics"
+    },
+    {
+        "entity": "Q1146448",
+        "entityLabel": "Thermodynamic free energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107715",
+        "valueLabel": "physical quantity"
+    },
+    {
+        "entity": "Q162794",
+        "entityLabel": "Threshold energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11379",
+        "valueLabel": "energy"
+    },
+    {
+        "entity": "Q162794",
+        "entityLabel": "Threshold energy",
+        "property": "P5135",
+        "propertyLabel": "greater than",
+        "value": "Q1097654",
+        "valueLabel": "rest mass (invariant mass) or rest energy"
+    },
+    {
+        "entity": "Q30325097",
+        "entityLabel": "Time-translation symmetry",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1455736",
+        "valueLabel": "symmetry"
+    },
+    {
+        "entity": "Q1143773",
+        "entityLabel": "Vacuum energy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q494243",
+        "valueLabel": "vacuum level"
+    },
+    {
+        "entity": "Q1143773",
+        "entityLabel": "Vacuum energy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q669532",
+        "valueLabel": "energy level"
+    },
+    {
+        "entity": "Q3179491",
+        "entityLabel": "Zero-energy universe",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q41719",
+        "valueLabel": "hypothesis"
+    },
+    {
+        "entity": "Q3179491",
+        "entityLabel": "Zero-energy universe",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q36906466",
+        "valueLabel": "universe"
+    },
+    {
+        "entity": "Q4327971",
+        "entityLabel": "Zero-point energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107715",
+        "valueLabel": "physical quantity"
+    },
+    {
+        "entity": "Q4327971",
+        "entityLabel": "Zero-point energy",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q944",
+        "valueLabel": "quantum mechanics"
+    },
+    {
+        "entity": "Q4327971",
+        "entityLabel": "Zero-point energy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q62057320",
+        "valueLabel": "zero point"
+    },
+    {
+        "entity": "Q4327971",
+        "entityLabel": "Zero-point energy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11379",
+        "valueLabel": "energy"
+    },
+    {
+        "entity": "Q43619",
+        "entityLabel": "Natural environment",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2920644",
+        "valueLabel": "environment"
+    },
+    {
+        "entity": "Q43619",
+        "entityLabel": "Natural environment",
+        "property": "P2959",
+        "propertyLabel": "permanent duplicated item",
+        "value": "Q11220541",
+        "valueLabel": "Q11220541"
+    },
+    {
+        "entity": "Q43619",
+        "entityLabel": "Natural environment",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q4421",
+        "valueLabel": "forest"
+    },
+    {
+        "entity": "Q43619",
+        "entityLabel": "Natural environment",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737635",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 8"
+    },
+    {
+        "entity": "Q43619",
+        "entityLabel": "Natural environment",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8419352",
+        "valueLabel": "Category:Natural environment"
+    },
+    {
+        "entity": "Q43619",
+        "entityLabel": "Natural environment",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q20719696",
+        "valueLabel": "physico-geographical object"
+    },
+    {
+        "entity": "Q43619",
+        "entityLabel": "Natural environment",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q2167019",
+        "valueLabel": "environmental sociology"
+    },
+    {
+        "entity": "Q43619",
+        "entityLabel": "Natural environment",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q7150",
+        "valueLabel": "ecology"
+    },
+    {
+        "entity": "Q43619",
+        "entityLabel": "Natural environment",
+        "property": "P1424",
+        "propertyLabel": "topic has template",
+        "value": "Q19318254",
+        "valueLabel": "Template:Environment sidebar"
+    },
+    {
+        "entity": "Q43619",
+        "entityLabel": "Natural environment",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q1071",
+        "valueLabel": "geography"
+    },
+    {
+        "entity": "Q43619",
+        "entityLabel": "Natural environment",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q1049066",
+        "valueLabel": "ecological economics"
+    },
+    {
+        "entity": "Q8209726",
+        "entityLabel": "Portal:Environment",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6949121",
+        "valueLabel": "Category:Environment portal"
+    },
+    {
+        "entity": "Q8209726",
+        "entityLabel": "Portal:Environment",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4663903",
+        "valueLabel": "Wikimedia portal"
+    },
+    {
+        "entity": "Q134037400",
+        "entityLabel": "Art Safiental",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4801521",
+        "valueLabel": "arts festival"
+    },
+    {
+        "entity": "Q122259953",
+        "entityLabel": "Climate Action Africa",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q1033",
+        "valueLabel": "Nigeria"
+    },
+    {
+        "entity": "Q122259953",
+        "entityLabel": "Climate Action Africa",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q1024647",
+        "valueLabel": "Ikeja"
+    },
+    {
+        "entity": "Q122259953",
+        "entityLabel": "Climate Action Africa",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q117425140",
+        "entityLabel": "Climate change adaptation in Ghana",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q117",
+        "valueLabel": "Ghana"
+    },
+    {
+        "entity": "Q117425140",
+        "entityLabel": "Climate change adaptation in Ghana",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q260607",
+        "valueLabel": "climate change adaptation"
+    },
+    {
+        "entity": "Q117425140",
+        "entityLabel": "Climate change adaptation in Ghana",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5334416",
+        "valueLabel": "atmospheric physics"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q52107",
+        "valueLabel": "physical geography"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q25261",
+        "valueLabel": "meteorology"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q43518",
+        "valueLabel": "oceanography"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q483394",
+        "valueLabel": "genre"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1665984",
+        "valueLabel": "interdisciplinary science"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q25261",
+        "valueLabel": "meteorology"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20078554",
+        "valueLabel": "Great Soviet Encyclopedia (1926\u20131947)"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7143444",
+        "valueLabel": "Category:Climatology"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737632",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 5"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q1113838",
+        "valueLabel": "climatologist"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q52139",
+        "entityLabel": "Climatology",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q757520",
+        "valueLabel": "atmospheric sciences"
+    },
+    {
+        "entity": "Q113245806",
+        "entityLabel": "Lofoten Vortex",
+        "property": "P206",
+        "propertyLabel": "located in or next to body of water",
+        "value": "Q47545",
+        "valueLabel": "Norwegian Sea"
+    },
+    {
+        "entity": "Q113245806",
+        "entityLabel": "Lofoten Vortex",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q129558",
+        "valueLabel": "ocean current"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P3938",
+        "propertyLabel": "named by",
+        "value": "Q67479",
+        "valueLabel": "Ernst Rudorff"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q5333882",
+        "valueLabel": "ecosystem management"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q15629466",
+        "valueLabel": "forest conservation"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7014499",
+        "valueLabel": "Category:Nature conservation"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q766328",
+        "valueLabel": "wildlife conservation"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q28598684",
+        "valueLabel": "branch of biology"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q84861608",
+        "valueLabel": "plant conservation"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q7990118",
+        "valueLabel": "wetland conservation"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q3481436",
+        "valueLabel": "habitat conservation"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q1088777",
+        "valueLabel": "conservation movement"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q219416",
+        "valueLabel": "sustainability"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q641498",
+        "valueLabel": "conservation biology"
+    },
+    {
+        "entity": "Q20113959",
+        "entityLabel": "Nature conservation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q628403",
+        "valueLabel": "conservation"
+    },
+    {
+        "entity": "Q1146099",
+        "entityLabel": "Nature deficit disorder",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1349358",
+        "valueLabel": "sedentary lifestyle"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737632",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 5"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3239681",
+        "valueLabel": "scientific theory"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q9050360",
+        "valueLabel": "Abiogenesis"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q32530143",
+        "valueLabel": "Category:Abiogenesis"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q302556",
+        "valueLabel": "Catholic Encyclopedia"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q123560817",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 1"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4532138",
+        "valueLabel": "Granat Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20078554",
+        "valueLabel": "Great Soviet Encyclopedia (1926\u20131947)"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q3181656",
+        "valueLabel": "The Nuttall Encyclop\u00e6dia"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q215304",
+        "valueLabel": "creation myth"
+    },
+    {
+        "entity": "Q231218",
+        "entityLabel": "Abiogenesis",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q178263",
+        "valueLabel": "spontaneous generation"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7153707",
+        "valueLabel": "Category:Evolution"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q5552256",
+        "valueLabel": "germline mutation"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q11640129",
+        "valueLabel": "theory of evolution"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q486420",
+        "valueLabel": "genetic drift"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q14916834",
+        "valueLabel": "introduction to evolution"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q302556",
+        "valueLabel": "Catholic Encyclopedia"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2996394",
+        "valueLabel": "biological process"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1424",
+        "propertyLabel": "topic has template",
+        "value": "Q8084453",
+        "valueLabel": "Template:Evolution"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1478",
+        "propertyLabel": "has immediate cause",
+        "value": "Q721322",
+        "valueLabel": "survival of the fittest"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20743760",
+        "valueLabel": "Encyclopedia of Political Theory"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q131935072",
+        "valueLabel": "Red Blue Translator"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q63284758",
+        "valueLabel": "Desktop Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1478",
+        "propertyLabel": "has immediate cause",
+        "value": "Q43478",
+        "valueLabel": "natural selection"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q171184",
+        "valueLabel": "phylogenetics"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q27348",
+        "valueLabel": "evolutionary pressure"
+    },
+    {
+        "entity": "Q1063",
+        "entityLabel": "Evolution",
+        "property": "P1478",
+        "propertyLabel": "has immediate cause",
+        "value": "Q4023882",
+        "valueLabel": "selective breeding"
+    },
+    {
+        "entity": "Q25303767",
+        "entityLabel": "Outline of evolution",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1063",
+        "valueLabel": "evolution"
+    },
+    {
+        "entity": "Q25303767",
+        "entityLabel": "Outline of evolution",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q338713",
+        "entityLabel": "Accelerating change",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q762702",
+        "valueLabel": "technological change"
+    },
+    {
+        "entity": "Q277614",
+        "entityLabel": "Anti-predator adaptation",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q2178572",
+        "valueLabel": "predator\u2013prey system"
+    },
+    {
+        "entity": "Q277614",
+        "entityLabel": "Anti-predator adaptation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q483921",
+        "valueLabel": "adaptation"
+    },
+    {
+        "entity": "Q277614",
+        "entityLabel": "Anti-predator adaptation",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6968555",
+        "valueLabel": "Category:Antipredator adaptations"
+    },
+    {
+        "entity": "Q277614",
+        "entityLabel": "Anti-predator adaptation",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4091878",
+        "valueLabel": "Yuzhakov Big Encyclopedia"
+    },
+    {
+        "entity": "Q65065104",
+        "entityLabel": "Assisted evolution",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1063",
+        "valueLabel": "evolution"
+    },
+    {
+        "entity": "Q106131084",
+        "entityLabel": "Astrovirology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q7215",
+        "valueLabel": "virology"
+    },
+    {
+        "entity": "Q106131084",
+        "entityLabel": "Astrovirology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2465832",
+        "valueLabel": "branch of science"
+    },
+    {
+        "entity": "Q106131084",
+        "entityLabel": "Astrovirology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q333",
+        "valueLabel": "astronomy"
+    },
+    {
+        "entity": "Q32919",
+        "entityLabel": "Cambrian explosion",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4914809",
+        "valueLabel": "bioevent"
+    },
+    {
+        "entity": "Q32919",
+        "entityLabel": "Cambrian explosion",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q79064",
+        "valueLabel": "Cambrian"
+    },
+    {
+        "entity": "Q751908",
+        "entityLabel": "Catalytic triad",
+        "property": "P2670",
+        "propertyLabel": "has part(s) of the class",
+        "value": "Q8066",
+        "valueLabel": "amino acid"
+    },
+    {
+        "entity": "Q751908",
+        "entityLabel": "Catalytic triad",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q16887380",
+        "valueLabel": "group"
+    },
+    {
+        "entity": "Q751908",
+        "entityLabel": "Catalytic triad",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q29430681",
+        "valueLabel": "triad"
+    },
+    {
+        "entity": "Q751908",
+        "entityLabel": "Catalytic triad",
+        "property": "P1542",
+        "propertyLabel": "has effect",
+        "value": "Q82264",
+        "valueLabel": "catalysis"
+    },
+    {
+        "entity": "Q751908",
+        "entityLabel": "Catalytic triad",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q423026",
+        "valueLabel": "active site"
+    },
+    {
+        "entity": "Q19596352",
+        "entityLabel": "Character evolution",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3249551",
+        "valueLabel": "process"
+    },
+    {
+        "entity": "Q25303857",
+        "entityLabel": "Evolution of the cochlea",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q420",
+        "valueLabel": "biology"
+    },
+    {
+        "entity": "Q25303857",
+        "entityLabel": "Evolution of the cochlea",
+        "property": "P927",
+        "propertyLabel": "anatomical location",
+        "value": "Q317857",
+        "valueLabel": "cochlea"
+    },
+    {
+        "entity": "Q25303857",
+        "entityLabel": "Evolution of the cochlea",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1063",
+        "valueLabel": "evolution"
+    },
+    {
+        "entity": "Q25303857",
+        "entityLabel": "Evolution of the cochlea",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q569965",
+        "valueLabel": "audiology"
+    },
+    {
+        "entity": "Q96375728",
+        "entityLabel": "Cultural hitchhiking",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q41719",
+        "valueLabel": "hypothesis"
+    },
+    {
+        "entity": "Q5226035",
+        "entityLabel": "Darwin among the Machines",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q191067",
+        "valueLabel": "article"
+    },
+    {
+        "entity": "Q369961",
+        "entityLabel": "Darwin Awards",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q1035",
+        "valueLabel": "Charles Darwin"
+    },
+    {
+        "entity": "Q369961",
+        "entityLabel": "Darwin Awards",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q35874",
+        "valueLabel": "humor"
+    },
+    {
+        "entity": "Q369961",
+        "entityLabel": "Darwin Awards",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q618779",
+        "valueLabel": "award"
+    },
+    {
+        "entity": "Q369961",
+        "entityLabel": "Darwin Awards",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q369961",
+        "entityLabel": "Darwin Awards",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q128758",
+        "valueLabel": "satire"
+    },
+    {
+        "entity": "Q369961",
+        "entityLabel": "Darwin Awards",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q14936523",
+        "valueLabel": "ironic award"
+    },
+    {
+        "entity": "Q369961",
+        "entityLabel": "Darwin Awards",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "15928",
+        "valueLabel": "15928"
+    },
+    {
+        "entity": "Q369961",
+        "entityLabel": "Darwin Awards",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "14016",
+        "valueLabel": "14016"
+    },
+    {
+        "entity": "Q369961",
+        "entityLabel": "Darwin Awards",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q116983523",
+        "valueLabel": "Darwin Prize"
+    },
+    {
+        "entity": "Q369961",
+        "entityLabel": "Darwin Awards",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8363700",
+        "valueLabel": "Category:Darwin Awards"
+    },
+    {
+        "entity": "Q369961",
+        "entityLabel": "Darwin Awards",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "16541",
+        "valueLabel": "16541"
+    },
+    {
+        "entity": "Q1909845",
+        "entityLabel": "Deep time",
+        "property": "P8403",
+        "propertyLabel": "theorized by",
+        "value": "Q1701049",
+        "valueLabel": "John McPhee"
+    },
+    {
+        "entity": "Q1909845",
+        "entityLabel": "Deep time",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q59115",
+        "valueLabel": "philosophy of science"
+    },
+    {
+        "entity": "Q25346144",
+        "entityLabel": "Directed evolution (transhumanism)",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q440681",
+        "valueLabel": "directed evolution"
+    },
+    {
+        "entity": "Q25346144",
+        "entityLabel": "Directed evolution (transhumanism)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1969448",
+        "valueLabel": "term"
+    },
+    {
+        "entity": "Q97358866",
+        "entityLabel": "Distyly",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107708708",
+        "valueLabel": "flower morphology"
+    },
+    {
+        "entity": "Q97358866",
+        "entityLabel": "Distyly",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q506",
+        "valueLabel": "flower"
+    },
+    {
+        "entity": "Q124818238",
+        "entityLabel": "Eve (Bohannon book)",
+        "property": "P7937",
+        "propertyLabel": "form of creative work",
+        "value": "Q20540385",
+        "valueLabel": "non-fiction work"
+    },
+    {
+        "entity": "Q124818238",
+        "entityLabel": "Eve (Bohannon book)",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q123396791",
+        "valueLabel": "Cat Bohannon"
+    },
+    {
+        "entity": "Q124818238",
+        "entityLabel": "Eve (Bohannon book)",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q124818238",
+        "entityLabel": "Eve (Bohannon book)",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q124818238",
+        "entityLabel": "Eve (Bohannon book)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7725634",
+        "valueLabel": "literary work"
+    },
+    {
+        "entity": "Q124818238",
+        "entityLabel": "Eve (Bohannon book)",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q83944",
+        "valueLabel": "human evolution"
+    },
+    {
+        "entity": "Q124818238",
+        "entityLabel": "Eve (Bohannon book)",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q213051",
+        "valueLabel": "non-fiction"
+    },
+    {
+        "entity": "Q124818238",
+        "entityLabel": "Eve (Bohannon book)",
+        "property": "P747",
+        "propertyLabel": "has edition or translation",
+        "value": "Q135405227",
+        "valueLabel": "Q135405227"
+    },
+    {
+        "entity": "Q7732716",
+        "entityLabel": "The Evolution of God",
+        "property": "P156",
+        "propertyLabel": "followed by",
+        "value": "Q48726642",
+        "valueLabel": "Why Buddhism is True"
+    },
+    {
+        "entity": "Q7732716",
+        "entityLabel": "The Evolution of God",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q7732716",
+        "entityLabel": "The Evolution of God",
+        "property": "P747",
+        "propertyLabel": "has edition or translation",
+        "value": "Q126550150",
+        "valueLabel": "The Evolution of God"
+    },
+    {
+        "entity": "Q7732716",
+        "entityLabel": "The Evolution of God",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7725634",
+        "valueLabel": "literary work"
+    },
+    {
+        "entity": "Q7732716",
+        "entityLabel": "The Evolution of God",
+        "property": "P155",
+        "propertyLabel": "follows",
+        "value": "Q16958646",
+        "valueLabel": "Nonzero"
+    },
+    {
+        "entity": "Q7732716",
+        "entityLabel": "The Evolution of God",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q1063",
+        "valueLabel": "evolution"
+    },
+    {
+        "entity": "Q7732716",
+        "entityLabel": "The Evolution of God",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q552959",
+        "valueLabel": "Little, Brown and Company"
+    },
+    {
+        "entity": "Q7732716",
+        "entityLabel": "The Evolution of God",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q7732716",
+        "entityLabel": "The Evolution of God",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q3123126",
+        "valueLabel": "Robert Wright"
+    },
+    {
+        "entity": "Q14489129",
+        "entityLabel": "Evolutionary algorithm",
+        "property": "P1424",
+        "propertyLabel": "topic has template",
+        "value": "Q57543612",
+        "valueLabel": "Template:Evolutionary algorithms"
+    },
+    {
+        "entity": "Q14489129",
+        "entityLabel": "Evolutionary algorithm",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1385229",
+        "valueLabel": "metaheuristic"
+    },
+    {
+        "entity": "Q14489129",
+        "entityLabel": "Evolutionary algorithm",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7019758",
+        "valueLabel": "Category:Evolutionary algorithms"
+    },
+    {
+        "entity": "Q14489129",
+        "entityLabel": "Evolutionary algorithm",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1197129",
+        "valueLabel": "evolutionary computation"
+    },
+    {
+        "entity": "Q14489129",
+        "entityLabel": "Evolutionary algorithm",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2835765",
+        "valueLabel": "optimization algorithm"
+    },
+    {
+        "entity": "Q1197129",
+        "entityLabel": "Evolutionary computation",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7011779",
+        "valueLabel": "Category:Evolutionary computation"
+    },
+    {
+        "entity": "Q1197129",
+        "entityLabel": "Evolutionary computation",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1122090",
+        "valueLabel": "computational intelligence"
+    },
+    {
+        "entity": "Q1197129",
+        "entityLabel": "Evolutionary computation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11660",
+        "valueLabel": "artificial intelligence"
+    },
+    {
+        "entity": "Q1197129",
+        "entityLabel": "Evolutionary computation",
+        "property": "P1424",
+        "propertyLabel": "topic has template",
+        "value": "Q22726421",
+        "valueLabel": "Template:Evolutionary computation"
+    },
+    {
+        "entity": "Q486686",
+        "entityLabel": "Evolutionary epistemology",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q9471",
+        "valueLabel": "epistemology"
+    },
+    {
+        "entity": "Q486686",
+        "entityLabel": "Evolutionary epistemology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q9471",
+        "valueLabel": "epistemology"
+    },
+    {
+        "entity": "Q486686",
+        "entityLabel": "Evolutionary epistemology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q32005570",
+        "valueLabel": "Q32005570"
+    },
+    {
+        "entity": "Q486686",
+        "entityLabel": "Evolutionary epistemology",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1382537",
+        "valueLabel": "evolutionary theory"
+    },
+    {
+        "entity": "Q1382583",
+        "entityLabel": "Evolutionary ethics",
+        "property": "P2670",
+        "propertyLabel": "has part(s) of the class",
+        "value": "Q1778848",
+        "valueLabel": "moral relativism"
+    },
+    {
+        "entity": "Q1382583",
+        "entityLabel": "Evolutionary ethics",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q9465",
+        "valueLabel": "ethics"
+    },
+    {
+        "entity": "Q5418703",
+        "entityLabel": "Evolutionary graph theory",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1936384",
+        "valueLabel": "area of mathematics"
+    },
+    {
+        "entity": "Q5418703",
+        "entityLabel": "Evolutionary graph theory",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q5862903",
+        "valueLabel": "probability theory"
+    },
+    {
+        "entity": "Q5418703",
+        "entityLabel": "Evolutionary graph theory",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q751611",
+        "valueLabel": "mathematical biology"
+    },
+    {
+        "entity": "Q5418703",
+        "entityLabel": "Evolutionary graph theory",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q131476",
+        "valueLabel": "graph theory"
+    },
+    {
+        "entity": "Q105409336",
+        "entityLabel": "Evolutionary toxicology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q7218",
+        "valueLabel": "toxicology"
+    },
+    {
+        "entity": "Q25109742",
+        "entityLabel": "Evolutionary tradeoff",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q840400",
+        "valueLabel": "evolutionary biology"
+    },
+    {
+        "entity": "Q15808610",
+        "entityLabel": "Extended evolutionary synthesis",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11640129",
+        "valueLabel": "theory of evolution"
+    },
+    {
+        "entity": "Q15808610",
+        "entityLabel": "Extended evolutionary synthesis",
+        "property": "P155",
+        "propertyLabel": "follows",
+        "value": "Q337897",
+        "valueLabel": "modern evolutionary synthesis"
+    },
+    {
+        "entity": "Q208184",
+        "entityLabel": "Gaia hypothesis",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3144351",
+        "valueLabel": "scientific hypothesis"
+    },
+    {
+        "entity": "Q208184",
+        "entityLabel": "Gaia hypothesis",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q101314624",
+        "valueLabel": "Lean Logic"
+    },
+    {
+        "entity": "Q460501",
+        "entityLabel": "Historicism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1792379",
+        "valueLabel": "art genre"
+    },
+    {
+        "entity": "Q460501",
+        "entityLabel": "Historicism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q32880",
+        "valueLabel": "architectural style"
+    },
+    {
+        "entity": "Q460501",
+        "entityLabel": "Historicism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5891",
+        "valueLabel": "philosophy"
+    },
+    {
+        "entity": "Q460501",
+        "entityLabel": "Historicism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2915955",
+        "valueLabel": "philosophical movement"
+    },
+    {
+        "entity": "Q460501",
+        "entityLabel": "Historicism",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20743760",
+        "valueLabel": "Encyclopedia of Political Theory"
+    },
+    {
+        "entity": "Q460501",
+        "entityLabel": "Historicism",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q4204473",
+        "valueLabel": "Q4204473"
+    },
+    {
+        "entity": "Q460501",
+        "entityLabel": "Historicism",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1621067",
+        "valueLabel": "historism"
+    },
+    {
+        "entity": "Q11777028",
+        "entityLabel": "Industrial melanism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q725450",
+        "valueLabel": "melanism"
+    },
+    {
+        "entity": "Q184708",
+        "entityLabel": "Information society",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7157636",
+        "valueLabel": "Category:Information society"
+    },
+    {
+        "entity": "Q184708",
+        "entityLabel": "Information society",
+        "property": "P1542",
+        "propertyLabel": "has effect",
+        "value": "Q66018177",
+        "valueLabel": "information poverty"
+    },
+    {
+        "entity": "Q184708",
+        "entityLabel": "Information society",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q8425",
+        "valueLabel": "society"
+    },
+    {
+        "entity": "Q184708",
+        "entityLabel": "Information society",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q113435339",
+        "valueLabel": "classification of societies"
+    },
+    {
+        "entity": "Q184708",
+        "entityLabel": "Information society",
+        "property": "P155",
+        "propertyLabel": "follows",
+        "value": "Q10360266",
+        "valueLabel": "information revolution"
+    },
+    {
+        "entity": "Q184708",
+        "entityLabel": "Information society",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q110663190",
+        "valueLabel": "digital society"
+    },
+    {
+        "entity": "Q96377510",
+        "entityLabel": "Evolution of languages",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q25521366",
+        "valueLabel": "genetic classification"
+    },
+    {
+        "entity": "Q29572919",
+        "entityLabel": "Earliest known life forms",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q176763",
+        "valueLabel": "evidence"
+    },
+    {
+        "entity": "Q29572919",
+        "entityLabel": "Earliest known life forms",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q9050360",
+        "valueLabel": "Abiogenesis"
+    },
+    {
+        "entity": "Q29572919",
+        "entityLabel": "Earliest known life forms",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q3206",
+        "valueLabel": "Western Australia"
+    },
+    {
+        "entity": "Q29572919",
+        "entityLabel": "Earliest known life forms",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q408",
+        "valueLabel": "Australia"
+    },
+    {
+        "entity": "Q6913429",
+        "entityLabel": "Morphobank",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7397",
+        "valueLabel": "software"
+    },
+    {
+        "entity": "Q6913429",
+        "entityLabel": "Morphobank",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q128570",
+        "valueLabel": "bioinformatics"
+    },
+    {
+        "entity": "Q6913429",
+        "entityLabel": "Morphobank",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q336",
+        "valueLabel": "science"
+    },
+    {
+        "entity": "Q6913429",
+        "entityLabel": "Morphobank",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q420",
+        "valueLabel": "biology"
+    },
+    {
+        "entity": "Q6913429",
+        "entityLabel": "Morphobank",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5227240",
+        "valueLabel": "data library"
+    },
+    {
+        "entity": "Q1286517",
+        "entityLabel": "Natural landscape",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9523299",
+        "valueLabel": "Category:Natural landscape"
+    },
+    {
+        "entity": "Q1286517",
+        "entityLabel": "Natural landscape",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q7860",
+        "valueLabel": "nature"
+    },
+    {
+        "entity": "Q1286517",
+        "entityLabel": "Natural landscape",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q56324385",
+        "valueLabel": "natural area"
+    },
+    {
+        "entity": "Q1286517",
+        "entityLabel": "Natural landscape",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q107425",
+        "valueLabel": "landscape"
+    },
+    {
+        "entity": "Q1286517",
+        "entityLabel": "Natural landscape",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q16387823",
+        "valueLabel": "Encyclopedia of Armenian Nature"
+    },
+    {
+        "entity": "Q1286517",
+        "entityLabel": "Natural landscape",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4835091",
+        "valueLabel": "territory"
+    },
+    {
+        "entity": "Q43478",
+        "entityLabel": "Natural selection",
+        "property": "P61",
+        "propertyLabel": "discoverer or inventor",
+        "value": "Q1035",
+        "valueLabel": "Charles Darwin"
+    },
+    {
+        "entity": "Q43478",
+        "entityLabel": "Natural selection",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q43478",
+        "entityLabel": "Natural selection",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q10063433",
+        "valueLabel": "Category:Natural selection"
+    },
+    {
+        "entity": "Q43478",
+        "entityLabel": "Natural selection",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q3181656",
+        "valueLabel": "The Nuttall Encyclop\u00e6dia"
+    },
+    {
+        "entity": "Q43478",
+        "entityLabel": "Natural selection",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q840400",
+        "valueLabel": "evolutionary biology"
+    },
+    {
+        "entity": "Q43478",
+        "entityLabel": "Natural selection",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q995745",
+        "valueLabel": "artificial selection"
+    },
+    {
+        "entity": "Q43478",
+        "entityLabel": "Natural selection",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q12888920",
+        "valueLabel": "selection"
+    },
+    {
+        "entity": "Q43478",
+        "entityLabel": "Natural selection",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2041543",
+        "valueLabel": "Otto's encyclopedia"
+    },
+    {
+        "entity": "Q43478",
+        "entityLabel": "Natural selection",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q840400",
+        "valueLabel": "evolutionary biology"
+    },
+    {
+        "entity": "Q43478",
+        "entityLabel": "Natural selection",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q45767",
+        "valueLabel": "biological competition"
+    },
+    {
+        "entity": "Q43478",
+        "entityLabel": "Natural selection",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q43478",
+        "entityLabel": "Natural selection",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q337897",
+        "valueLabel": "modern evolutionary synthesis"
+    },
+    {
+        "entity": "Q912203",
+        "entityLabel": "Nucleomorph",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q165963",
+        "valueLabel": "plastid"
+    },
+    {
+        "entity": "Q912203",
+        "entityLabel": "Nucleomorph",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q64348999",
+        "valueLabel": "complex plastid"
+    },
+    {
+        "entity": "Q912203",
+        "entityLabel": "Nucleomorph",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5058355",
+        "valueLabel": "cellular component"
+    },
+    {
+        "entity": "Q912203",
+        "entityLabel": "Nucleomorph",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q40260",
+        "valueLabel": "nucleus"
+    },
+    {
+        "entity": "Q912203",
+        "entityLabel": "Nucleomorph",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q20011319",
+        "valueLabel": "plant structure"
+    },
+    {
+        "entity": "Q912203",
+        "entityLabel": "Nucleomorph",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q14349519",
+        "valueLabel": "intracellular membrane-bounded organelle"
+    },
+    {
+        "entity": "Q24963263",
+        "entityLabel": "Phagomimicry",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q192627",
+        "valueLabel": "mimicry"
+    },
+    {
+        "entity": "Q24963263",
+        "entityLabel": "Phagomimicry",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q9332",
+        "valueLabel": "behavior"
+    },
+    {
+        "entity": "Q107049170",
+        "entityLabel": "Red King hypothesis",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q41719",
+        "valueLabel": "hypothesis"
+    },
+    {
+        "entity": "Q25113065",
+        "entityLabel": "Skeletal changes of vertebrates transitioning from water to land",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q73469891",
+        "valueLabel": "Q73469891"
+    },
+    {
+        "entity": "Q265013",
+        "entityLabel": "Software evolution",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q940053",
+        "valueLabel": "software maintenance"
+    },
+    {
+        "entity": "Q115127448",
+        "entityLabel": "Stress gradient hypothesis",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q41719",
+        "valueLabel": "hypothesis"
+    },
+    {
+        "entity": "Q115127448",
+        "entityLabel": "Stress gradient hypothesis",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q7150",
+        "valueLabel": "ecology"
+    },
+    {
+        "entity": "Q1246431",
+        "entityLabel": "Sympatry",
+        "property": "P3342",
+        "propertyLabel": "significant person",
+        "value": "Q5354",
+        "valueLabel": "Ernst Mayr"
+    },
+    {
+        "entity": "Q1246431",
+        "entityLabel": "Sympatry",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1240247",
+        "valueLabel": "sympatric speciation"
+    },
+    {
+        "entity": "Q1246431",
+        "entityLabel": "Sympatry",
+        "property": "P3938",
+        "propertyLabel": "named by",
+        "value": "Q2135978",
+        "valueLabel": "Edward Bagnall Poulton"
+    },
+    {
+        "entity": "Q1246431",
+        "entityLabel": "Sympatry",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q4257161",
+        "valueLabel": "range"
+    },
+    {
+        "entity": "Q1246431",
+        "entityLabel": "Sympatry",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1098652",
+        "valueLabel": "population biology"
+    },
+    {
+        "entity": "Q1246431",
+        "entityLabel": "Sympatry",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q9148656",
+        "valueLabel": "allopatry"
+    },
+    {
+        "entity": "Q1246431",
+        "entityLabel": "Sympatry",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q337897",
+        "valueLabel": "modern evolutionary synthesis"
+    },
+    {
+        "entity": "Q907101",
+        "entityLabel": "Systematic evolution of ligands by exponential enrichment",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q167270",
+        "valueLabel": "trademark"
+    },
+    {
+        "entity": "Q24741119",
+        "entityLabel": "TALE-likes",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q8054",
+        "valueLabel": "protein"
+    },
+    {
+        "entity": "Q24741119",
+        "entityLabel": "TALE-likes",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3273544",
+        "valueLabel": "structural motif"
+    },
+    {
+        "entity": "Q1756507",
+        "entityLabel": "Technological evolution",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5418608",
+        "valueLabel": "evolution"
+    },
+    {
+        "entity": "Q11538360",
+        "entityLabel": "Trabecular cartilage",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19558994",
+        "valueLabel": "Gray's Anatomy (20th edition)"
+    },
+    {
+        "entity": "Q4981195",
+        "entityLabel": "Unequal crossing over",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q244145",
+        "valueLabel": "crossing over"
+    },
+    {
+        "entity": "Q208650",
+        "entityLabel": "Uniformitarianism",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q336",
+        "valueLabel": "science"
+    },
+    {
+        "entity": "Q208650",
+        "entityLabel": "Uniformitarianism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q211364",
+        "valueLabel": "principle"
+    },
+    {
+        "entity": "Q208650",
+        "entityLabel": "Uniformitarianism",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q423506",
+        "valueLabel": "actualism"
+    },
+    {
+        "entity": "Q208650",
+        "entityLabel": "Uniformitarianism",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q59115",
+        "valueLabel": "philosophy of science"
+    },
+    {
+        "entity": "Q208650",
+        "entityLabel": "Uniformitarianism",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q948814",
+        "valueLabel": "gradualism"
+    },
+    {
+        "entity": "Q208650",
+        "entityLabel": "Uniformitarianism",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1069",
+        "valueLabel": "geology"
+    },
+    {
+        "entity": "Q208650",
+        "entityLabel": "Uniformitarianism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5389993",
+        "valueLabel": "philosophical theory"
+    },
+    {
+        "entity": "Q208650",
+        "entityLabel": "Uniformitarianism",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q7434",
+        "valueLabel": "uniform"
+    },
+    {
+        "entity": "Q208650",
+        "entityLabel": "Uniformitarianism",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q1385609",
+        "valueLabel": "Q1385609"
+    },
+    {
+        "entity": "Q208650",
+        "entityLabel": "Uniformitarianism",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q25305381",
+        "valueLabel": "time-variation of fundamental constants"
+    },
+    {
+        "entity": "Q7893935",
+        "entityLabel": "Universal Darwinism",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q183493",
+        "valueLabel": "Darwinism"
+    },
+    {
+        "entity": "Q7893935",
+        "entityLabel": "Universal Darwinism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q183493",
+        "valueLabel": "Darwinism"
+    },
+    {
+        "entity": "Q8065",
+        "entityLabel": "Natural disaster",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q100151658",
+        "valueLabel": "failure mode"
+    },
+    {
+        "entity": "Q8065",
+        "entityLabel": "Natural disaster",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3839081",
+        "valueLabel": "disaster"
+    },
+    {
+        "entity": "Q8065",
+        "entityLabel": "Natural disaster",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q7942",
+        "valueLabel": "global warming"
+    },
+    {
+        "entity": "Q8065",
+        "entityLabel": "Natural disaster",
+        "property": "P1557",
+        "propertyLabel": "manifestation of",
+        "value": "Q3433179",
+        "valueLabel": "natural risk"
+    },
+    {
+        "entity": "Q8065",
+        "entityLabel": "Natural disaster",
+        "property": "P11738",
+        "propertyLabel": "handled, mitigated, or managed by",
+        "value": "Q4583103",
+        "valueLabel": "disaster preparedness"
+    },
+    {
+        "entity": "Q8065",
+        "entityLabel": "Natural disaster",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q106727050",
+        "valueLabel": "Metropolitan Museum of Art Tagging Vocabulary"
+    },
+    {
+        "entity": "Q8065",
+        "entityLabel": "Natural disaster",
+        "property": "P1424",
+        "propertyLabel": "topic has template",
+        "value": "Q8090872",
+        "valueLabel": "Template:Natural disasters"
+    },
+    {
+        "entity": "Q4652675",
+        "entityLabel": "Atlantic meridional overturning circulation",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q129558",
+        "valueLabel": "ocean current"
+    },
+    {
+        "entity": "Q4652675",
+        "entityLabel": "Atlantic meridional overturning circulation",
+        "property": "P706",
+        "propertyLabel": "located in/on physical feature",
+        "value": "Q97",
+        "valueLabel": "Atlantic Ocean"
+    },
+    {
+        "entity": "Q5051569",
+        "entityLabel": "Catastrophe modeling",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q189447",
+        "valueLabel": "risk management"
+    },
+    {
+        "entity": "Q5051569",
+        "entityLabel": "Catastrophe modeling",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q55316619",
+        "valueLabel": "AIR Worldwide"
+    },
+    {
+        "entity": "Q3433166",
+        "entityLabel": "Climate risk",
+        "property": "P11738",
+        "propertyLabel": "handled, mitigated, or managed by",
+        "value": "Q5133622",
+        "valueLabel": "climate risk management"
+    },
+    {
+        "entity": "Q3433166",
+        "entityLabel": "Climate risk",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q6108838",
+        "valueLabel": "environmental risk"
+    },
+    {
+        "entity": "Q3433166",
+        "entityLabel": "Climate risk",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5422048",
+        "valueLabel": "external risk"
+    },
+    {
+        "entity": "Q5138356",
+        "entityLabel": "Coastal hazards",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3433179",
+        "valueLabel": "natural risk"
+    },
+    {
+        "entity": "Q7850174",
+        "entityLabel": "Tsunamis in lakes",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q23397",
+        "valueLabel": "lake"
+    },
+    {
+        "entity": "Q7850174",
+        "entityLabel": "Tsunamis in lakes",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q8070",
+        "valueLabel": "tsunami"
+    },
+    {
+        "entity": "Q607538",
+        "entityLabel": "Whirlpool",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1322005",
+        "valueLabel": "natural phenomenon"
+    },
+    {
+        "entity": "Q607538",
+        "entityLabel": "Whirlpool",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1022922",
+        "valueLabel": "waterspout"
+    },
+    {
+        "entity": "Q607538",
+        "entityLabel": "Whirlpool",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q16082057",
+        "valueLabel": "The New Student's Reference Work"
+    },
+    {
+        "entity": "Q607538",
+        "entityLabel": "Whirlpool",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q5217764",
+        "valueLabel": "National Encyclopedia of Uzbekistan"
+    },
+    {
+        "entity": "Q607538",
+        "entityLabel": "Whirlpool",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q607538",
+        "entityLabel": "Whirlpool",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8126595",
+        "valueLabel": "Category:Whirlpools"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q47041",
+        "valueLabel": "biodiversity"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q226583",
+        "valueLabel": "Life"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q483921",
+        "valueLabel": "adaptation"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q1058876",
+        "valueLabel": "real life"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P2184",
+        "propertyLabel": "history of topic",
+        "value": "Q1098275",
+        "valueLabel": "history of life"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1557",
+        "propertyLabel": "manifestation of",
+        "value": "Q23766486",
+        "valueLabel": "list of values as qualifiers"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q13100823",
+        "valueLabel": "quality of life"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q349124",
+        "valueLabel": "Vida"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q864928",
+        "valueLabel": "life sciences"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q1057",
+        "valueLabel": "metabolism"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q11990",
+        "valueLabel": "reproduction"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P2184",
+        "propertyLabel": "history of topic",
+        "value": "Q3138223",
+        "valueLabel": "timeline of evolutionary history of life"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q10567996",
+        "valueLabel": "Liv"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1478",
+        "propertyLabel": "has immediate cause",
+        "value": "Q59496158",
+        "valueLabel": "not yet determined"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q422742",
+        "valueLabel": "form of life"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q295496",
+        "valueLabel": "Vita"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q22675021",
+        "valueLabel": "lifetime"
+    },
+    {
+        "entity": "Q3",
+        "entityLabel": "Life",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q513359",
+        "valueLabel": "biological life cycle"
+    },
+    {
+        "entity": "Q803888",
+        "entityLabel": "Biological organisation",
+        "property": "P1424",
+        "propertyLabel": "topic has template",
+        "value": "Q8084825",
+        "valueLabel": "Template:Biological organisation"
+    },
+    {
+        "entity": "Q803888",
+        "entityLabel": "Biological organisation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q36993249",
+        "valueLabel": "arranging"
+    },
+    {
+        "entity": "Q803888",
+        "entityLabel": "Biological organisation",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q188619",
+        "valueLabel": "hierarchy"
+    },
+    {
+        "entity": "Q4215735",
+        "entityLabel": "Carbon-based life",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3",
+        "valueLabel": "life"
+    },
+    {
+        "entity": "Q6506039",
+        "entityLabel": "Living systems",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q96116695",
+        "valueLabel": "type of system"
+    },
+    {
+        "entity": "Q6506039",
+        "entityLabel": "Living systems",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q188619",
+        "valueLabel": "hierarchy"
+    },
+    {
+        "entity": "Q6506039",
+        "entityLabel": "Living systems",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q103191",
+        "valueLabel": "homeostasis"
+    },
+    {
+        "entity": "Q6506039",
+        "entityLabel": "Living systems",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q864928",
+        "valueLabel": "life sciences"
+    },
+    {
+        "entity": "Q6506039",
+        "entityLabel": "Living systems",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q106865236",
+        "valueLabel": "natural system"
+    },
+    {
+        "entity": "Q169731",
+        "entityLabel": "Non-cellular life",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9513006",
+        "valueLabel": "Category:Non-cellular life"
+    },
+    {
+        "entity": "Q169731",
+        "entityLabel": "Non-cellular life",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19190511",
+        "valueLabel": "New Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q169731",
+        "entityLabel": "Non-cellular life",
+        "property": "P1424",
+        "propertyLabel": "topic has template",
+        "value": "Q22751601",
+        "valueLabel": "Template:Organisms et al."
+    },
+    {
+        "entity": "Q169731",
+        "entityLabel": "Non-cellular life",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q3322575",
+        "valueLabel": "Cytota"
+    },
+    {
+        "entity": "Q169731",
+        "entityLabel": "Non-cellular life",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q16521",
+        "valueLabel": "taxon"
+    },
+    {
+        "entity": "Q169731",
+        "entityLabel": "Non-cellular life",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q169731",
+        "entityLabel": "Non-cellular life",
+        "property": "P171",
+        "propertyLabel": "parent taxon",
+        "value": "Q2382443",
+        "valueLabel": "Biota"
+    },
+    {
+        "entity": "Q169731",
+        "entityLabel": "Non-cellular life",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q105658190",
+        "valueLabel": "Bio-like structure"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q130077803",
+        "valueLabel": "mode of biological reproduction"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q188193",
+        "valueLabel": "organ system"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q513359",
+        "valueLabel": "biological life cycle"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q420",
+        "valueLabel": "biology"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q1274979",
+        "valueLabel": "creature"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q28845870",
+        "valueLabel": "biological component"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q10753560",
+        "valueLabel": "scientific name"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1557",
+        "propertyLabel": "manifestation of",
+        "value": "Q3",
+        "valueLabel": "life"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q103191",
+        "valueLabel": "homeostasis"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q283",
+        "valueLabel": "water"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q1053008",
+        "valueLabel": "trophic level"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q23852",
+        "valueLabel": "human body"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P2738",
+        "propertyLabel": "disjoint union of",
+        "value": "Q23766486",
+        "valueLabel": "list of values as qualifiers"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q902805",
+        "valueLabel": "primary nutritional group"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q3181656",
+        "valueLabel": "The Nuttall Encyclop\u00e6dia"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q250388",
+        "valueLabel": "species distribution"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q18406856",
+        "valueLabel": "Organism"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q111236253",
+        "valueLabel": "Q111236253"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q48422",
+        "valueLabel": "corpse"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q14819856",
+        "valueLabel": "feeding behavior"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2041543",
+        "valueLabel": "Otto's encyclopedia"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q2389905",
+        "valueLabel": "date of birth"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q170494",
+        "valueLabel": "body"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q7868",
+        "valueLabel": "cell"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q2625603",
+        "valueLabel": "population"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P2354",
+        "propertyLabel": "has list",
+        "value": "Q13644563",
+        "valueLabel": "list of life forms"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q11379",
+        "valueLabel": "energy"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q16521",
+        "valueLabel": "taxon"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q2095",
+        "valueLabel": "food"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q629",
+        "valueLabel": "oxygen"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q66394244",
+        "valueLabel": "physical anatomical entity"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q223557",
+        "valueLabel": "physical object"
+    },
+    {
+        "entity": "Q7239",
+        "entityLabel": "Organism",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q2382443",
+        "valueLabel": "Biota"
+    },
+    {
+        "entity": "Q3405827",
+        "entityLabel": "Natural material",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q11442901",
+        "valueLabel": "Q11442901"
+    },
+    {
+        "entity": "Q3405827",
+        "entityLabel": "Natural material",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q188460",
+        "valueLabel": "natural resource"
+    },
+    {
+        "entity": "Q3405827",
+        "entityLabel": "Natural material",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q901227",
+        "valueLabel": "natural product"
+    },
+    {
+        "entity": "Q3405827",
+        "entityLabel": "Natural material",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q3300022",
+        "valueLabel": "synthetic material"
+    },
+    {
+        "entity": "Q3405827",
+        "entityLabel": "Natural material",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q16686022",
+        "valueLabel": "natural physical object"
+    },
+    {
+        "entity": "Q3405827",
+        "entityLabel": "Natural material",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7195079",
+        "valueLabel": "Category:Natural materials"
+    },
+    {
+        "entity": "Q3405827",
+        "entityLabel": "Natural material",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q214609",
+        "valueLabel": "material"
+    },
+    {
+        "entity": "Q55889388",
+        "entityLabel": "Aleutite",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4796437",
+        "valueLabel": "arsenate mineral"
+    },
+    {
+        "entity": "Q55889388",
+        "entityLabel": "Aleutite",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12089225",
+        "valueLabel": "mineral species"
+    },
+    {
+        "entity": "Q55889388",
+        "entityLabel": "Aleutite",
+        "property": "P579",
+        "propertyLabel": "IMA status and/or rank",
+        "value": "Q13406835",
+        "valueLabel": "approved mineral and/or valid name (A)"
+    },
+    {
+        "entity": "Q55889388",
+        "entityLabel": "Aleutite",
+        "property": "P2695",
+        "propertyLabel": "type locality (geology)",
+        "value": "Q24289111",
+        "valueLabel": "Yadovitaya fumarole"
+    },
+    {
+        "entity": "Q55889388",
+        "entityLabel": "Aleutite",
+        "property": "P556",
+        "propertyLabel": "crystal system",
+        "value": "Q624543",
+        "valueLabel": "monoclinic crystal system"
+    },
+    {
+        "entity": "Q17310218",
+        "entityLabel": "Allendeite",
+        "property": "P2695",
+        "propertyLabel": "type locality (geology)",
+        "value": "Q1930079",
+        "valueLabel": "Allende meteorite"
+    },
+    {
+        "entity": "Q17310218",
+        "entityLabel": "Allendeite",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q945532",
+        "valueLabel": "oxide class of minerals"
+    },
+    {
+        "entity": "Q17310218",
+        "entityLabel": "Allendeite",
+        "property": "P579",
+        "propertyLabel": "IMA status and/or rank",
+        "value": "Q13406835",
+        "valueLabel": "approved mineral and/or valid name (A)"
+    },
+    {
+        "entity": "Q17310218",
+        "entityLabel": "Allendeite",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12089225",
+        "valueLabel": "mineral species"
+    },
+    {
+        "entity": "Q17310218",
+        "entityLabel": "Allendeite",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q1930079",
+        "valueLabel": "Allende meteorite"
+    },
+    {
+        "entity": "Q17310218",
+        "entityLabel": "Allendeite",
+        "property": "P556",
+        "propertyLabel": "crystal system",
+        "value": "Q588274",
+        "valueLabel": "trigonal crystal system"
+    },
+    {
+        "entity": "Q15781205",
+        "entityLabel": "AMSilk",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q183",
+        "valueLabel": "Germany"
+    },
+    {
+        "entity": "Q891670",
+        "entityLabel": "Armenian bole",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q12140",
+        "valueLabel": "medication"
+    },
+    {
+        "entity": "Q891670",
+        "entityLabel": "Armenian bole",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2101322",
+        "valueLabel": "bole"
+    },
+    {
+        "entity": "Q891670",
+        "entityLabel": "Armenian bole",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q891670",
+        "entityLabel": "Armenian bole",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q891670",
+        "entityLabel": "Armenian bole",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q1334300",
+        "valueLabel": "gilding"
+    },
+    {
+        "entity": "Q891670",
+        "entityLabel": "Armenian bole",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q161179",
+        "valueLabel": "pigment"
+    },
+    {
+        "entity": "Q891670",
+        "entityLabel": "Armenian bole",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q891670",
+        "entityLabel": "Armenian bole",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3300034",
+        "valueLabel": "painting material"
+    },
+    {
+        "entity": "Q891670",
+        "entityLabel": "Armenian bole",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q102798",
+        "valueLabel": "ore"
+    },
+    {
+        "entity": "Q891670",
+        "entityLabel": "Armenian bole",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q891665",
+        "valueLabel": "bole"
+    },
+    {
+        "entity": "Q4807905",
+        "entityLabel": "Asperity (geotechnical engineering)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4807910",
+        "valueLabel": "asperity"
+    },
+    {
+        "entity": "Q1269339",
+        "entityLabel": "Bast fibre",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q28823",
+        "valueLabel": "textile"
+    },
+    {
+        "entity": "Q1269339",
+        "entityLabel": "Bast fibre",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q20026824",
+        "valueLabel": "plant fiber"
+    },
+    {
+        "entity": "Q1269339",
+        "entityLabel": "Bast fibre",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q9394462",
+        "valueLabel": "liber"
+    },
+    {
+        "entity": "Q1269339",
+        "entityLabel": "Bast fibre",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q184453",
+        "valueLabel": "bark"
+    },
+    {
+        "entity": "Q1269339",
+        "entityLabel": "Bast fibre",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q1269339",
+        "entityLabel": "Bast fibre",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q11472",
+        "valueLabel": "paper"
+    },
+    {
+        "entity": "Q1269339",
+        "entityLabel": "Bast fibre",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9498287",
+        "valueLabel": "Category:Bast fibre"
+    },
+    {
+        "entity": "Q1269339",
+        "entityLabel": "Bast fibre",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q28888841",
+        "valueLabel": "Fairchild's Dictionary of Textiles"
+    },
+    {
+        "entity": "Q1269339",
+        "entityLabel": "Bast fibre",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q31029",
+        "valueLabel": "rope"
+    },
+    {
+        "entity": "Q1269339",
+        "entityLabel": "Bast fibre",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20078554",
+        "valueLabel": "Great Soviet Encyclopedia (1926\u20131947)"
+    },
+    {
+        "entity": "Q289472",
+        "entityLabel": "Biogenic substance",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q27043948",
+        "valueLabel": "material anatomical entity"
+    },
+    {
+        "entity": "Q289472",
+        "entityLabel": "Biogenic substance",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q103907369",
+        "valueLabel": "biogenic substance type"
+    },
+    {
+        "entity": "Q289472",
+        "entityLabel": "Biogenic substance",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q112826905",
+        "valueLabel": "class of anatomical entity"
+    },
+    {
+        "entity": "Q289472",
+        "entityLabel": "Biogenic substance",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17339814",
+        "valueLabel": "group or class of chemical substances"
+    },
+    {
+        "entity": "Q289472",
+        "entityLabel": "Biogenic substance",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737632",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 5"
+    },
+    {
+        "entity": "Q289472",
+        "entityLabel": "Biogenic substance",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q206229",
+        "valueLabel": "biomolecule"
+    },
+    {
+        "entity": "Q289472",
+        "entityLabel": "Biogenic substance",
+        "property": "P2849",
+        "propertyLabel": "produced by",
+        "value": "Q2996394",
+        "valueLabel": "biological process"
+    },
+    {
+        "entity": "Q289472",
+        "entityLabel": "Biogenic substance",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q19388114",
+        "valueLabel": "secretion or excretion"
+    },
+    {
+        "entity": "Q289472",
+        "entityLabel": "Biogenic substance",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q214609",
+        "valueLabel": "material"
+    },
+    {
+        "entity": "Q289472",
+        "entityLabel": "Biogenic substance",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q104007623",
+        "valueLabel": "anatomical entity class type"
+    },
+    {
+        "entity": "Q4915356",
+        "entityLabel": "Biotic material",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1783121",
+        "valueLabel": "organic matter"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1529874",
+        "valueLabel": "landscape element"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P92",
+        "propertyLabel": "main regulatory text",
+        "value": "Q1153769",
+        "valueLabel": "ISO 14688"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20078554",
+        "valueLabel": "Great Soviet Encyclopedia (1926\u20131947)"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q9284100",
+        "valueLabel": "Glaz"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q3181656",
+        "valueLabel": "The Nuttall Encyclop\u00e6dia"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q47498257",
+        "valueLabel": "Category:Boulders"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q100384264",
+        "valueLabel": "rock fragment"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P2386",
+        "propertyLabel": "diameter",
+        "value": "25.6",
+        "valueLabel": "25.6"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2657718",
+        "valueLabel": "Armenian Soviet Encyclopedia"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q83296",
+        "valueLabel": "lithosphere"
+    },
+    {
+        "entity": "Q581776",
+        "entityLabel": "Boulder",
+        "property": "P2959",
+        "propertyLabel": "permanent duplicated item",
+        "value": "Q113965170",
+        "valueLabel": "boulder"
+    },
+    {
+        "entity": "Q42302",
+        "entityLabel": "Clay",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q283",
+        "valueLabel": "water"
+    },
+    {
+        "entity": "Q42302",
+        "entityLabel": "Clay",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2657718",
+        "valueLabel": "Armenian Soviet Encyclopedia"
+    },
+    {
+        "entity": "Q42302",
+        "entityLabel": "Clay",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q161179",
+        "valueLabel": "pigment"
+    },
+    {
+        "entity": "Q42302",
+        "entityLabel": "Clay",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q12372934",
+        "valueLabel": "clastic sediment"
+    },
+    {
+        "entity": "Q42302",
+        "entityLabel": "Clay",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q42302",
+        "entityLabel": "Clay",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q56441911",
+        "valueLabel": "The Domestic Encyclop\u00e6dia; Or, A Dictionary Of Facts, And Useful Knowledge"
+    },
+    {
+        "entity": "Q42302",
+        "entityLabel": "Clay",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q60808925",
+        "valueLabel": "glaze pottery"
+    },
+    {
+        "entity": "Q42302",
+        "entityLabel": "Clay",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q42302",
+        "entityLabel": "Clay",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q678259",
+        "valueLabel": "Nordisk familjebok"
+    },
+    {
+        "entity": "Q42302",
+        "entityLabel": "Clay",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q34669510",
+        "valueLabel": "malleable material"
+    },
+    {
+        "entity": "Q42302",
+        "entityLabel": "Clay",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q21685333",
+        "valueLabel": "sculpture material"
+    },
+    {
+        "entity": "Q42302",
+        "entityLabel": "Clay",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q1970746",
+        "valueLabel": "Explanatory Dictionary of the Living Great Russian Language"
+    },
+    {
+        "entity": "Q54802",
+        "entityLabel": "Cob (material)",
+        "property": "P186",
+        "propertyLabel": "made from material",
+        "value": "Q283",
+        "valueLabel": "water"
+    },
+    {
+        "entity": "Q54802",
+        "entityLabel": "Cob (material)",
+        "property": "P186",
+        "propertyLabel": "made from material",
+        "value": "Q681004",
+        "valueLabel": "subsoil"
+    },
+    {
+        "entity": "Q54802",
+        "entityLabel": "Cob (material)",
+        "property": "P186",
+        "propertyLabel": "made from material",
+        "value": "Q160066",
+        "valueLabel": "straw"
+    },
+    {
+        "entity": "Q54802",
+        "entityLabel": "Cob (material)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3300024",
+        "valueLabel": "natural building material"
+    },
+    {
+        "entity": "Q2996907",
+        "entityLabel": "Cobblestone",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20078554",
+        "valueLabel": "Great Soviet Encyclopedia (1926\u20131947)"
+    },
+    {
+        "entity": "Q2996907",
+        "entityLabel": "Cobblestone",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q2996907",
+        "entityLabel": "Cobblestone",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q757022",
+        "valueLabel": "sett"
+    },
+    {
+        "entity": "Q2996907",
+        "entityLabel": "Cobblestone",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q12083849",
+        "valueLabel": "Category:Cobbled streets"
+    },
+    {
+        "entity": "Q2996907",
+        "entityLabel": "Cobblestone",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1049667",
+        "valueLabel": "road surface"
+    },
+    {
+        "entity": "Q2996907",
+        "entityLabel": "Cobblestone",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q2996907",
+        "entityLabel": "Cobblestone",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3300024",
+        "valueLabel": "natural building material"
+    },
+    {
+        "entity": "Q2925636",
+        "entityLabel": "Compressed earth block",
+        "property": "P2079",
+        "propertyLabel": "fabrication method",
+        "value": "Q123169606",
+        "valueLabel": "earthen block compresser"
+    },
+    {
+        "entity": "Q2925636",
+        "entityLabel": "Compressed earth block",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q206615",
+        "valueLabel": "building material"
+    },
+    {
+        "entity": "Q1262699",
+        "entityLabel": "Crushed stone",
+        "property": "P186",
+        "propertyLabel": "made from material",
+        "value": "Q22731",
+        "valueLabel": "stone"
+    },
+    {
+        "entity": "Q1262699",
+        "entityLabel": "Crushed stone",
+        "property": "P2079",
+        "propertyLabel": "fabrication method",
+        "value": "Q2991605",
+        "valueLabel": "crushing"
+    },
+    {
+        "entity": "Q1262699",
+        "entityLabel": "Crushed stone",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q63284758",
+        "valueLabel": "Desktop Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q1262699",
+        "entityLabel": "Crushed stone",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2657718",
+        "valueLabel": "Armenian Soviet Encyclopedia"
+    },
+    {
+        "entity": "Q1262699",
+        "entityLabel": "Crushed stone",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q133833",
+        "valueLabel": "gravel"
+    },
+    {
+        "entity": "Q1262699",
+        "entityLabel": "Crushed stone",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q133833",
+        "valueLabel": "gravel"
+    },
+    {
+        "entity": "Q1262699",
+        "entityLabel": "Crushed stone",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3238502",
+        "valueLabel": "construction aggregate"
+    },
+    {
+        "entity": "Q1262699",
+        "entityLabel": "Crushed stone",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20078554",
+        "valueLabel": "Great Soviet Encyclopedia (1926\u20131947)"
+    },
+    {
+        "entity": "Q1262699",
+        "entityLabel": "Crushed stone",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q8205328",
+        "valueLabel": "artificial physical object"
+    },
+    {
+        "entity": "Q1262699",
+        "entityLabel": "Crushed stone",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q125400509",
+        "valueLabel": "Q125400509"
+    },
+    {
+        "entity": "Q3275386",
+        "entityLabel": "Decomposed granite",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q41177",
+        "valueLabel": "granite"
+    },
+    {
+        "entity": "Q3706016",
+        "entityLabel": "Dessauite-(Y)",
+        "property": "P579",
+        "propertyLabel": "IMA status and/or rank",
+        "value": "Q13406835",
+        "valueLabel": "approved mineral and/or valid name (A)"
+    },
+    {
+        "entity": "Q3706016",
+        "entityLabel": "Dessauite-(Y)",
+        "property": "P534",
+        "propertyLabel": "streak color",
+        "value": "Q23445",
+        "valueLabel": "black"
+    },
+    {
+        "entity": "Q3706016",
+        "entityLabel": "Dessauite-(Y)",
+        "property": "P2695",
+        "propertyLabel": "type locality (geology)",
+        "value": "Q24026070",
+        "valueLabel": "Buca della Vena mine"
+    },
+    {
+        "entity": "Q3706016",
+        "entityLabel": "Dessauite-(Y)",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q1488731",
+        "valueLabel": "Gabor Dessau"
+    },
+    {
+        "entity": "Q3706016",
+        "entityLabel": "Dessauite-(Y)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12089225",
+        "valueLabel": "mineral species"
+    },
+    {
+        "entity": "Q3706016",
+        "entityLabel": "Dessauite-(Y)",
+        "property": "P556",
+        "propertyLabel": "crystal system",
+        "value": "Q588274",
+        "valueLabel": "trigonal crystal system"
+    },
+    {
+        "entity": "Q3706016",
+        "entityLabel": "Dessauite-(Y)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3777670",
+        "valueLabel": "crichtonite mineral group"
+    },
+    {
+        "entity": "Q3714392",
+        "entityLabel": "Dorrite",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12089225",
+        "valueLabel": "mineral species"
+    },
+    {
+        "entity": "Q3714392",
+        "entityLabel": "Dorrite",
+        "property": "P534",
+        "propertyLabel": "streak color",
+        "value": "Q42519",
+        "valueLabel": "grey"
+    },
+    {
+        "entity": "Q3714392",
+        "entityLabel": "Dorrite",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3777797",
+        "valueLabel": "rh\u00f6nite group"
+    },
+    {
+        "entity": "Q3714392",
+        "entityLabel": "Dorrite",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q29583524",
+        "valueLabel": "John A. Dorr"
+    },
+    {
+        "entity": "Q3714392",
+        "entityLabel": "Dorrite",
+        "property": "P579",
+        "propertyLabel": "IMA status and/or rank",
+        "value": "Q13406835",
+        "valueLabel": "approved mineral and/or valid name (A)"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q224",
+        "valueLabel": "Croatia"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q37736399",
+        "valueLabel": "traditional craft"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P166",
+        "propertyLabel": "award received",
+        "value": "Q864861",
+        "valueLabel": "biotope of the year"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q811906",
+        "valueLabel": "construction technique"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q148571",
+        "valueLabel": "fence"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P3259",
+        "propertyLabel": "intangible cultural heritage status",
+        "value": "Q117378527",
+        "valueLabel": "Census of the Intangible Cultural Heritage of Asturias"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P3259",
+        "propertyLabel": "intangible cultural heritage status",
+        "value": "Q115536522",
+        "valueLabel": "Ireland\u2019s National Inventory of Intangible Cultural Heritage"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q38",
+        "valueLabel": "Italy"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q229",
+        "valueLabel": "Cyprus"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q19794820",
+        "valueLabel": "stonemasonry"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q32121472",
+        "valueLabel": "Category:Dry stone"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q212",
+        "valueLabel": "Ukraine"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q215",
+        "valueLabel": "Slovenia"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P3259",
+        "propertyLabel": "intangible cultural heritage status",
+        "value": "Q110319947",
+        "valueLabel": "Representative List of the Intangible Cultural Heritage of Humanity"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q27",
+        "valueLabel": "Ireland"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P2341",
+        "propertyLabel": "indigenous to",
+        "value": "Q40",
+        "valueLabel": "Austria"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P3259",
+        "propertyLabel": "intangible cultural heritage status",
+        "value": "Q116447753",
+        "valueLabel": "National Inventory of Intangible Cultural Heritage of Ukraine"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q40",
+        "valueLabel": "Austria"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q544504",
+        "valueLabel": "dry stone wall"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q29",
+        "valueLabel": "Spain"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q224",
+        "valueLabel": "Croatia"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P2341",
+        "propertyLabel": "indigenous to",
+        "value": "Q22890",
+        "valueLabel": "Ireland"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q41",
+        "valueLabel": "Greece"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q142",
+        "valueLabel": "France"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P3259",
+        "propertyLabel": "intangible cultural heritage status",
+        "value": "Q113085118",
+        "valueLabel": "Inventory of Intangible Cultural Heritage in Austria"
+    },
+    {
+        "entity": "Q5608878",
+        "entityLabel": "Dry stone",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q39",
+        "valueLabel": "Switzerland"
+    },
+    {
+        "entity": "Q886974",
+        "entityLabel": "Expanded clay aggregate",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q206615",
+        "valueLabel": "building material"
+    },
+    {
+        "entity": "Q886974",
+        "entityLabel": "Expanded clay aggregate",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q216678",
+        "valueLabel": "hygroscopy"
+    },
+    {
+        "entity": "Q3760415",
+        "entityLabel": "George-ericksenite",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q64021211",
+        "valueLabel": "George E. Ericksen"
+    },
+    {
+        "entity": "Q3760415",
+        "entityLabel": "George-ericksenite",
+        "property": "P579",
+        "propertyLabel": "IMA status and/or rank",
+        "value": "Q13406860",
+        "valueLabel": "renamed mineral (Rn)"
+    },
+    {
+        "entity": "Q3760415",
+        "entityLabel": "George-ericksenite",
+        "property": "P579",
+        "propertyLabel": "IMA status and/or rank",
+        "value": "Q13406835",
+        "valueLabel": "approved mineral and/or valid name (A)"
+    },
+    {
+        "entity": "Q3760415",
+        "entityLabel": "George-ericksenite",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q945532",
+        "valueLabel": "oxide class of minerals"
+    },
+    {
+        "entity": "Q3760415",
+        "entityLabel": "George-ericksenite",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q108660566",
+        "valueLabel": "Q108660566"
+    },
+    {
+        "entity": "Q3760415",
+        "entityLabel": "George-ericksenite",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12089225",
+        "valueLabel": "mineral species"
+    },
+    {
+        "entity": "Q3760415",
+        "entityLabel": "George-ericksenite",
+        "property": "P556",
+        "propertyLabel": "crystal system",
+        "value": "Q624543",
+        "valueLabel": "monoclinic crystal system"
+    },
+    {
+        "entity": "Q133833",
+        "entityLabel": "Gravel",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q133833",
+        "entityLabel": "Gravel",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q47498290",
+        "valueLabel": "Category:Gravel"
+    },
+    {
+        "entity": "Q133833",
+        "entityLabel": "Gravel",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1262699",
+        "valueLabel": "crushed stone"
+    },
+    {
+        "entity": "Q133833",
+        "entityLabel": "Gravel",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2259909",
+        "valueLabel": "dry bulk cargo"
+    },
+    {
+        "entity": "Q3775963",
+        "entityLabel": "Grayite",
+        "property": "P579",
+        "propertyLabel": "IMA status and/or rank",
+        "value": "Q13406846",
+        "valueLabel": "grandfathered mineral (G)"
+    },
+    {
+        "entity": "Q3775963",
+        "entityLabel": "Grayite",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q29464934",
+        "valueLabel": "Anton Gray"
+    },
+    {
+        "entity": "Q3775963",
+        "entityLabel": "Grayite",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3777796",
+        "valueLabel": "rhabdophane structural group"
+    },
+    {
+        "entity": "Q3775963",
+        "entityLabel": "Grayite",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12089225",
+        "valueLabel": "mineral species"
+    }
+]

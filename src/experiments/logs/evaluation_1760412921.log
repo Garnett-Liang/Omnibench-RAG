@@ -1,0 +1,11 @@
+Using device: cuda
+Selected reasoning rule: inverse
+Selected domain: history
+Processing domain: history
+Using dynamically generated dataset...
+Found existing dynamic dataset: d:\Jupyter\DEMO\data\dataset\dynamic\inverse\history_qa.json
+Loaded 0 samples from specified path: d:\Jupyter\DEMO\data\dataset\dynamic\inverse\history_qa.json
+Loaded 0 questions from existing dynamic dataset
+评估失败
+当前处理文件: d:\Jupyter\DEMO\data\dataset\dynamic\inverse\history_qa.json
+错误详情: No valid questions/answers for evaluation

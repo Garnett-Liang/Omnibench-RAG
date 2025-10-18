@@ -1,0 +1,3594 @@
+[
+    {
+        "entity": "Q816829",
+        "entityLabel": "Periodization",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q13582682",
+        "valueLabel": "classification"
+    },
+    {
+        "entity": "Q816829",
+        "entityLabel": "Periodization",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q3181656",
+        "valueLabel": "The Nuttall Encyclop\u00e6dia"
+    },
+    {
+        "entity": "Q816829",
+        "entityLabel": "Periodization",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q816829",
+        "entityLabel": "Periodization",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4532138",
+        "valueLabel": "Granat Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q816829",
+        "entityLabel": "Periodization",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q112613332",
+        "valueLabel": "dating method"
+    },
+    {
+        "entity": "Q816829",
+        "entityLabel": "Periodization",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q11514315",
+        "valueLabel": "historical period"
+    },
+    {
+        "entity": "Q816829",
+        "entityLabel": "Periodization",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q30325332",
+        "entityLabel": "Administrative history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q81517619",
+        "valueLabel": "branch of history"
+    },
+    {
+        "entity": "Q358120",
+        "entityLabel": "Historical anthropology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q23404",
+        "valueLabel": "anthropology"
+    },
+    {
+        "entity": "Q358120",
+        "entityLabel": "Historical anthropology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q358120",
+        "entityLabel": "Historical anthropology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q358120",
+        "entityLabel": "Historical anthropology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9463515",
+        "valueLabel": "Q9463515"
+    },
+    {
+        "entity": "Q358120",
+        "entityLabel": "Historical anthropology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q106720965",
+        "valueLabel": "branch of anthropology"
+    },
+    {
+        "entity": "Q358120",
+        "entityLabel": "Historical anthropology",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q3136952",
+        "valueLabel": "history of anthropology"
+    },
+    {
+        "entity": "Q4781600",
+        "entityLabel": "Applied history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q4781600",
+        "entityLabel": "Applied history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q50641",
+        "valueLabel": "history of art"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q80083",
+        "valueLabel": "Humanities"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q1792450",
+        "valueLabel": "art historian"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9560932",
+        "valueLabel": "Q9560932"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1757598",
+        "valueLabel": "visual art education"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q50641",
+        "valueLabel": "history of art"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q120234397",
+        "valueLabel": "art history teacher"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q113296040",
+        "valueLabel": "Q113296040"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q62302889",
+        "valueLabel": "art practice"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737604",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 2"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q98641248",
+        "valueLabel": "curatorial studies"
+    },
+    {
+        "entity": "Q770723",
+        "entityLabel": "Auxiliary sciences of history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q770723",
+        "entityLabel": "Auxiliary sciences of history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q770723",
+        "entityLabel": "Auxiliary sciences of history",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q47307",
+        "valueLabel": "genealogy"
+    },
+    {
+        "entity": "Q770723",
+        "entityLabel": "Auxiliary sciences of history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11790198",
+        "valueLabel": "auxiliary science"
+    },
+    {
+        "entity": "Q770723",
+        "entityLabel": "Auxiliary sciences of history",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q10708496",
+        "valueLabel": "Q10708496"
+    },
+    {
+        "entity": "Q770723",
+        "entityLabel": "Auxiliary sciences of history",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q770723",
+        "entityLabel": "Auxiliary sciences of history",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q770723",
+        "entityLabel": "Auxiliary sciences of history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6457001",
+        "valueLabel": "Category:Auxiliary sciences of history"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q10916116",
+        "valueLabel": "history book"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9604682",
+        "valueLabel": "Category:Chorographies"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q223393",
+        "valueLabel": "literary genre"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q105726199",
+        "valueLabel": "Q105726199"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q42515",
+        "valueLabel": "cartography"
+    },
+    {
+        "entity": "Q1800439",
+        "entityLabel": "Church history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q1800439",
+        "entityLabel": "Church history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q1800439",
+        "entityLabel": "Church history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q846742",
+        "valueLabel": "history of religions"
+    },
+    {
+        "entity": "Q1800439",
+        "entityLabel": "Church history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2267705",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q1800439",
+        "entityLabel": "Church history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q81517619",
+        "valueLabel": "branch of history"
+    },
+    {
+        "entity": "Q1800439",
+        "entityLabel": "Church history",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q1800439",
+        "entityLabel": "Church history",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q5043",
+        "valueLabel": "Christianity"
+    },
+    {
+        "entity": "Q1800439",
+        "entityLabel": "Church history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8983249",
+        "valueLabel": "Category:Church history"
+    },
+    {
+        "entity": "Q1800439",
+        "entityLabel": "Church history",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q34651",
+        "valueLabel": "Christian Church"
+    },
+    {
+        "entity": "Q1800439",
+        "entityLabel": "Church history",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q1743122",
+        "valueLabel": "church historian"
+    },
+    {
+        "entity": "Q1800439",
+        "entityLabel": "Church history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q216545",
+        "valueLabel": "Christian theology"
+    },
+    {
+        "entity": "Q1800439",
+        "entityLabel": "Church history",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q235329",
+        "valueLabel": "history of Christianity"
+    },
+    {
+        "entity": "Q2708569",
+        "entityLabel": "Comparative history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q621368",
+        "valueLabel": "cross-cultural studies"
+    },
+    {
+        "entity": "Q2708569",
+        "entityLabel": "Comparative history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q2708569",
+        "entityLabel": "Comparative history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q935780",
+        "entityLabel": "Counterfactual history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q224989",
+        "valueLabel": "alternate history"
+    },
+    {
+        "entity": "Q935780",
+        "entityLabel": "Counterfactual history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q30277550",
+        "valueLabel": "historiography"
+    },
+    {
+        "entity": "Q935780",
+        "entityLabel": "Counterfactual history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6257753",
+        "valueLabel": "Q6257753"
+    },
+    {
+        "entity": "Q935780",
+        "entityLabel": "Counterfactual history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q16681629",
+        "valueLabel": "alternate historical fiction"
+    },
+    {
+        "entity": "Q858517",
+        "entityLabel": "Cultural history",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q858517",
+        "entityLabel": "Cultural history",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q11042",
+        "valueLabel": "culture"
+    },
+    {
+        "entity": "Q858517",
+        "entityLabel": "Cultural history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1143546",
+        "valueLabel": "cultural studies"
+    },
+    {
+        "entity": "Q858517",
+        "entityLabel": "Cultural history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6462213",
+        "valueLabel": "Category:Cultural history"
+    },
+    {
+        "entity": "Q858517",
+        "entityLabel": "Cultural history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q81517619",
+        "valueLabel": "branch of history"
+    },
+    {
+        "entity": "Q858517",
+        "entityLabel": "Cultural history",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q15462162",
+        "valueLabel": "cultural historian"
+    },
+    {
+        "entity": "Q858517",
+        "entityLabel": "Cultural history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q858517",
+        "entityLabel": "Cultural history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q858517",
+        "entityLabel": "Cultural history",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q11042",
+        "valueLabel": "culture"
+    },
+    {
+        "entity": "Q858517",
+        "entityLabel": "Cultural history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q10297573",
+        "entityLabel": "Demographic history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4167410",
+        "valueLabel": "Wikimedia disambiguation page"
+    },
+    {
+        "entity": "Q119285919",
+        "entityLabel": "Dress history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q119285919",
+        "entityLabel": "Dress history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q47398",
+        "entityLabel": "Economic history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q81517619",
+        "valueLabel": "branch of history"
+    },
+    {
+        "entity": "Q47398",
+        "entityLabel": "Economic history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q47398",
+        "entityLabel": "Economic history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5076869",
+        "valueLabel": "history of the social sciences"
+    },
+    {
+        "entity": "Q47398",
+        "entityLabel": "Economic history",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q8134",
+        "valueLabel": "economics"
+    },
+    {
+        "entity": "Q47398",
+        "entityLabel": "Economic history",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q47398",
+        "entityLabel": "Economic history",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q20323370",
+        "valueLabel": "Template:Economic history"
+    },
+    {
+        "entity": "Q47398",
+        "entityLabel": "Economic history",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q47398",
+        "entityLabel": "Economic history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7235792",
+        "valueLabel": "Category:Economic history"
+    },
+    {
+        "entity": "Q47398",
+        "entityLabel": "Economic history",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q17488363",
+        "valueLabel": "economic historian"
+    },
+    {
+        "entity": "Q47398",
+        "entityLabel": "Economic history",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q8134",
+        "valueLabel": "economics"
+    },
+    {
+        "entity": "Q47398",
+        "entityLabel": "Economic history",
+        "property": "P3342",
+        "propertyLabel": "significant person",
+        "value": "Q185105",
+        "valueLabel": "Fernand Braudel"
+    },
+    {
+        "entity": "Q47398",
+        "entityLabel": "Economic history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q11896198",
+        "valueLabel": "history of economics"
+    },
+    {
+        "entity": "Q1561862",
+        "entityLabel": "Environmental history",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q55590651",
+        "valueLabel": "environmental historian"
+    },
+    {
+        "entity": "Q1561862",
+        "entityLabel": "Environmental history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q1561862",
+        "entityLabel": "Environmental history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8419858",
+        "valueLabel": "Category:Environmental history"
+    },
+    {
+        "entity": "Q1561862",
+        "entityLabel": "Environmental history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q1561862",
+        "entityLabel": "Environmental history",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q2249676",
+        "valueLabel": "environment"
+    },
+    {
+        "entity": "Q1561862",
+        "entityLabel": "Environmental history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q1561862",
+        "entityLabel": "Environmental history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1349928",
+        "valueLabel": "evenemential history"
+    },
+    {
+        "entity": "Q5404269",
+        "entityLabel": "Ethnic history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q132151",
+        "valueLabel": "ethnography"
+    },
+    {
+        "entity": "Q5404269",
+        "entityLabel": "Ethnic history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q81517619",
+        "valueLabel": "branch of history"
+    },
+    {
+        "entity": "Q5404269",
+        "entityLabel": "Ethnic history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q908604",
+        "valueLabel": "social history"
+    },
+    {
+        "entity": "Q2181985",
+        "entityLabel": "Ethnohistory",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q2181985",
+        "entityLabel": "Ethnohistory",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q29051",
+        "valueLabel": "social anthropology"
+    },
+    {
+        "entity": "Q2181985",
+        "entityLabel": "Ethnohistory",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q59294814",
+        "valueLabel": "ethnohistorian"
+    },
+    {
+        "entity": "Q2181985",
+        "entityLabel": "Ethnohistory",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q2181985",
+        "entityLabel": "Ethnohistory",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q81517619",
+        "valueLabel": "branch of history"
+    },
+    {
+        "entity": "Q580130",
+        "entityLabel": "Historical demography",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q37732",
+        "valueLabel": "demography"
+    },
+    {
+        "entity": "Q580130",
+        "entityLabel": "Historical demography",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q5830794",
+        "valueLabel": "Template:Historical populations"
+    },
+    {
+        "entity": "Q580130",
+        "entityLabel": "Historical demography",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q15252600",
+        "valueLabel": "Category:Demographic history"
+    },
+    {
+        "entity": "Q580130",
+        "entityLabel": "Historical demography",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q580130",
+        "entityLabel": "Historical demography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q6031108",
+        "entityLabel": "Information history",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q11028",
+        "valueLabel": "information"
+    },
+    {
+        "entity": "Q6031108",
+        "entityLabel": "Information history",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q6031108",
+        "entityLabel": "Information history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q336",
+        "valueLabel": "science"
+    },
+    {
+        "entity": "Q6031108",
+        "entityLabel": "Information history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q6485101",
+        "entityLabel": "Landscape history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8582538",
+        "valueLabel": "Category:Landscape history"
+    },
+    {
+        "entity": "Q6485101",
+        "entityLabel": "Landscape history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q6485101",
+        "entityLabel": "Landscape history",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q107425",
+        "valueLabel": "landscape"
+    },
+    {
+        "entity": "Q6485101",
+        "entityLabel": "Landscape history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q1886448",
+        "entityLabel": "Macrohistory",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q1886448",
+        "entityLabel": "Macrohistory",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q1140541",
+        "valueLabel": "microhistory"
+    },
+    {
+        "entity": "Q1140541",
+        "entityLabel": "Microhistory",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2465832",
+        "valueLabel": "branch of science"
+    },
+    {
+        "entity": "Q1140541",
+        "entityLabel": "Microhistory",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q1140541",
+        "entityLabel": "Microhistory",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q1886448",
+        "valueLabel": "macrohistory"
+    },
+    {
+        "entity": "Q1140541",
+        "entityLabel": "Microhistory",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q32558191",
+        "valueLabel": "Q32558191"
+    },
+    {
+        "entity": "Q7010974",
+        "entityLabel": "New Philology (Latin America)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q7010974",
+        "entityLabel": "New Philology (Latin America)",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q597695",
+        "valueLabel": "Mesoamerican codex"
+    },
+    {
+        "entity": "Q7010974",
+        "entityLabel": "New Philology (Latin America)",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q864216",
+        "valueLabel": "James Lockhart"
+    },
+    {
+        "entity": "Q1147507",
+        "entityLabel": "Political history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q1147507",
+        "entityLabel": "Political history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7469777",
+        "valueLabel": "Category:Political history"
+    },
+    {
+        "entity": "Q1147507",
+        "entityLabel": "Political history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q1147507",
+        "entityLabel": "Political history",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q266994",
+        "valueLabel": "XYZ Affair"
+    },
+    {
+        "entity": "Q1147507",
+        "entityLabel": "Political history",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q60233168",
+        "valueLabel": "political historian"
+    },
+    {
+        "entity": "Q1147507",
+        "entityLabel": "Political history",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q7163",
+        "valueLabel": "politics"
+    },
+    {
+        "entity": "Q1147507",
+        "entityLabel": "Political history",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q7163",
+        "valueLabel": "politics"
+    },
+    {
+        "entity": "Q118905902",
+        "entityLabel": "Political history in the United States",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q118905902",
+        "entityLabel": "Political history in the United States",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q74817647",
+        "valueLabel": "aspect in a geographic region"
+    },
+    {
+        "entity": "Q118905902",
+        "entityLabel": "Political history in the United States",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q118905902",
+        "entityLabel": "Political history in the United States",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1147507",
+        "valueLabel": "political history"
+    },
+    {
+        "entity": "Q7234117",
+        "entityLabel": "Post-classical history",
+        "property": "P155",
+        "propertyLabel": "follows",
+        "value": "Q41493",
+        "valueLabel": "ancient history"
+    },
+    {
+        "entity": "Q7234117",
+        "entityLabel": "Post-classical history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q65636132",
+        "valueLabel": "Category:Post-classical history"
+    },
+    {
+        "entity": "Q7234117",
+        "entityLabel": "Post-classical history",
+        "property": "P156",
+        "propertyLabel": "followed by",
+        "value": "Q5308718",
+        "valueLabel": "early modern period"
+    },
+    {
+        "entity": "Q7234117",
+        "entityLabel": "Post-classical history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17522177",
+        "valueLabel": "age"
+    },
+    {
+        "entity": "Q7234117",
+        "entityLabel": "Post-classical history",
+        "property": "P156",
+        "propertyLabel": "followed by",
+        "value": "Q3281534",
+        "valueLabel": "modern period"
+    },
+    {
+        "entity": "Q7256340",
+        "entityLabel": "Psychobiography",
+        "property": "P5869",
+        "propertyLabel": "model item",
+        "value": "Q669072",
+        "valueLabel": "Leonardo da Vinci, A Memory of His Childhood"
+    },
+    {
+        "entity": "Q7256340",
+        "entityLabel": "Psychobiography",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q36279",
+        "valueLabel": "biography"
+    },
+    {
+        "entity": "Q7256340",
+        "entityLabel": "Psychobiography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q223393",
+        "valueLabel": "literary genre"
+    },
+    {
+        "entity": "Q7256340",
+        "entityLabel": "Psychobiography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q627436",
+        "valueLabel": "field of work"
+    },
+    {
+        "entity": "Q764526",
+        "entityLabel": "Psychohistory",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q764526",
+        "entityLabel": "Psychohistory",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q32764508",
+        "valueLabel": "Q32764508"
+    },
+    {
+        "entity": "Q764526",
+        "entityLabel": "Psychohistory",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1241212",
+        "valueLabel": "psychohistory"
+    },
+    {
+        "entity": "Q764526",
+        "entityLabel": "Psychohistory",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q19843738",
+        "valueLabel": "socio-history"
+    },
+    {
+        "entity": "Q764526",
+        "entityLabel": "Psychohistory",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q34749",
+        "valueLabel": "social science"
+    },
+    {
+        "entity": "Q764526",
+        "entityLabel": "Psychohistory",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q41630",
+        "valueLabel": "psychoanalysis"
+    },
+    {
+        "entity": "Q441989",
+        "entityLabel": "Public history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q441989",
+        "entityLabel": "Public history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q441989",
+        "entityLabel": "Public history",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q7257753",
+        "valueLabel": "public historian"
+    },
+    {
+        "entity": "Q369848",
+        "entityLabel": "Quantitative history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q25111456",
+        "entityLabel": "Renaissance studies",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q4692",
+        "valueLabel": "Renaissance"
+    },
+    {
+        "entity": "Q25111456",
+        "entityLabel": "Renaissance studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q25111456",
+        "entityLabel": "Renaissance studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q7380580",
+        "entityLabel": "Rural history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q7380580",
+        "entityLabel": "Rural history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q34749",
+        "valueLabel": "social science"
+    },
+    {
+        "entity": "Q7380580",
+        "entityLabel": "Rural history",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q116250315",
+        "valueLabel": "rural social sciences"
+    },
+    {
+        "entity": "Q7380580",
+        "entityLabel": "Rural history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q908604",
+        "entityLabel": "Social history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q81517619",
+        "valueLabel": "branch of history"
+    },
+    {
+        "entity": "Q908604",
+        "entityLabel": "Social history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q80083",
+        "valueLabel": "Humanities"
+    },
+    {
+        "entity": "Q908604",
+        "entityLabel": "Social history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q908604",
+        "entityLabel": "Social history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2267705",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q908604",
+        "entityLabel": "Social history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q7551154",
+        "valueLabel": "social history"
+    },
+    {
+        "entity": "Q908604",
+        "entityLabel": "Social history",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q8425",
+        "valueLabel": "society"
+    },
+    {
+        "entity": "Q908604",
+        "entityLabel": "Social history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q908604",
+        "entityLabel": "Social history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q908604",
+        "entityLabel": "Social history",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q8425",
+        "valueLabel": "society"
+    },
+    {
+        "entity": "Q908604",
+        "entityLabel": "Social history",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q17504992",
+        "valueLabel": "social historian"
+    },
+    {
+        "entity": "Q908604",
+        "entityLabel": "Social history",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q908604",
+        "entityLabel": "Social history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7469815",
+        "valueLabel": "Category:Social history"
+    },
+    {
+        "entity": "Q2449515",
+        "entityLabel": "Transnational history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q2449515",
+        "entityLabel": "Transnational history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q2449515",
+        "entityLabel": "Transnational history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q2449515",
+        "entityLabel": "Transnational history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q1569011",
+        "entityLabel": "Urban history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q1569011",
+        "entityLabel": "Urban history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q1569011",
+        "entityLabel": "Urban history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q1569011",
+        "entityLabel": "Urban history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q1569011",
+        "entityLabel": "Urban history",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q59950",
+        "valueLabel": "urbanism"
+    },
+    {
+        "entity": "Q1569011",
+        "entityLabel": "Urban history",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q515",
+        "valueLabel": "city"
+    },
+    {
+        "entity": "Q1569011",
+        "entityLabel": "Urban history",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q1569011",
+        "entityLabel": "Urban history",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q30324006",
+        "valueLabel": "history of cities"
+    },
+    {
+        "entity": "Q1569011",
+        "entityLabel": "Urban history",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q112076836",
+        "valueLabel": "urban historian"
+    },
+    {
+        "entity": "Q1569011",
+        "entityLabel": "Urban history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9126651",
+        "valueLabel": "Category:Urban history"
+    },
+    {
+        "entity": "Q6457238",
+        "entityLabel": "World history (field)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q6457238",
+        "entityLabel": "World history (field)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q6457238",
+        "entityLabel": "World history (field)",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q200325",
+        "valueLabel": "human history"
+    },
+    {
+        "entity": "Q6457238",
+        "entityLabel": "World history (field)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q6457238",
+        "entityLabel": "World history (field)",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q19929711",
+        "valueLabel": "Universal History"
+    },
+    {
+        "entity": "Q6457238",
+        "entityLabel": "World history (field)",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q18882",
+        "valueLabel": "universal history (genre)"
+    },
+    {
+        "entity": "Q6457238",
+        "entityLabel": "World history (field)",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q16502",
+        "valueLabel": "world"
+    },
+    {
+        "entity": "Q6457238",
+        "entityLabel": "World history (field)",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q54817642",
+        "valueLabel": "World History Encyclopedia"
+    },
+    {
+        "entity": "Q50675",
+        "entityLabel": "Historiography",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q30117093",
+        "valueLabel": "Template:Historiography"
+    },
+    {
+        "entity": "Q50675",
+        "entityLabel": "Historiography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q50675",
+        "entityLabel": "Historiography",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q50675",
+        "entityLabel": "Historiography",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q107923750",
+        "valueLabel": "school of history"
+    },
+    {
+        "entity": "Q50675",
+        "entityLabel": "Historiography",
+        "property": "P2184",
+        "propertyLabel": "history of topic",
+        "value": "Q2699662",
+        "valueLabel": "history of historiography"
+    },
+    {
+        "entity": "Q50675",
+        "entityLabel": "Historiography",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q50675",
+        "entityLabel": "Historiography",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q201788",
+        "valueLabel": "historian"
+    },
+    {
+        "entity": "Q1525748",
+        "entityLabel": "Ages of Man",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q6428674",
+        "valueLabel": "era"
+    },
+    {
+        "entity": "Q1525748",
+        "entityLabel": "Ages of Man",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q1525748",
+        "entityLabel": "Ages of Man",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q2805136",
+        "valueLabel": "Iron age"
+    },
+    {
+        "entity": "Q1525748",
+        "entityLabel": "Ages of Man",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q67484198",
+        "valueLabel": "heroic age"
+    },
+    {
+        "entity": "Q1525748",
+        "entityLabel": "Ages of Man",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q7516506",
+        "valueLabel": "Silver age"
+    },
+    {
+        "entity": "Q1525748",
+        "entityLabel": "Ages of Man",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q1525748",
+        "entityLabel": "Ages of Man",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q65465035",
+        "valueLabel": "Ages of Man"
+    },
+    {
+        "entity": "Q1525748",
+        "entityLabel": "Ages of Man",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q238526",
+        "valueLabel": "golden age"
+    },
+    {
+        "entity": "Q1525748",
+        "entityLabel": "Ages of Man",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q67484121",
+        "valueLabel": "Bronze age"
+    },
+    {
+        "entity": "Q1525748",
+        "entityLabel": "Ages of Man",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q34726",
+        "valueLabel": "Greek mythology"
+    },
+    {
+        "entity": "Q1525748",
+        "entityLabel": "Ages of Man",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q1138524",
+        "valueLabel": "Pauly\u2013Wissowa"
+    },
+    {
+        "entity": "Q15783552",
+        "entityLabel": "Annales Petaviani",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q193866",
+        "valueLabel": "annals"
+    },
+    {
+        "entity": "Q336241",
+        "entityLabel": "Annales school",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q156585",
+        "valueLabel": "Marc Bloch"
+    },
+    {
+        "entity": "Q336241",
+        "entityLabel": "Annales school",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q10232528",
+        "valueLabel": "Category:Annales School"
+    },
+    {
+        "entity": "Q336241",
+        "entityLabel": "Annales school",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q14339553",
+        "valueLabel": "Template:Annales School"
+    },
+    {
+        "entity": "Q336241",
+        "entityLabel": "Annales school",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q107923750",
+        "valueLabel": "school of history"
+    },
+    {
+        "entity": "Q336241",
+        "entityLabel": "Annales school",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q3098897",
+        "valueLabel": "Annales. Histoire, Sciences sociales"
+    },
+    {
+        "entity": "Q336241",
+        "entityLabel": "Annales school",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1387659",
+        "valueLabel": "school of thought"
+    },
+    {
+        "entity": "Q336241",
+        "entityLabel": "Annales school",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q142",
+        "valueLabel": "France"
+    },
+    {
+        "entity": "Q336241",
+        "entityLabel": "Annales school",
+        "property": "P2813",
+        "propertyLabel": "house publication",
+        "value": "Q3098897",
+        "valueLabel": "Annales. Histoire, Sciences sociales"
+    },
+    {
+        "entity": "Q336241",
+        "entityLabel": "Annales school",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q156999",
+        "valueLabel": "Lucien Febvre"
+    },
+    {
+        "entity": "Q336241",
+        "entityLabel": "Annales school",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q3351707",
+        "valueLabel": "Pax Leksikon"
+    },
+    {
+        "entity": "Q5697103",
+        "entityLabel": "Antiquarian",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q28640",
+        "valueLabel": "profession"
+    },
+    {
+        "entity": "Q5697103",
+        "entityLabel": "Antiquarian",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q20826540",
+        "valueLabel": "scholar"
+    },
+    {
+        "entity": "Q5697103",
+        "entityLabel": "Antiquarian",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q5697103",
+        "entityLabel": "Antiquarian",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8256465",
+        "valueLabel": "Category:Antiquarians"
+    },
+    {
+        "entity": "Q5697103",
+        "entityLabel": "Antiquarian",
+        "property": "P425",
+        "propertyLabel": "field of this occupation",
+        "value": "Q56418598",
+        "valueLabel": "antiquarianism"
+    },
+    {
+        "entity": "Q5697103",
+        "entityLabel": "Antiquarian",
+        "property": "P2348",
+        "propertyLabel": "time period",
+        "value": "Q5308718",
+        "valueLabel": "early modern period"
+    },
+    {
+        "entity": "Q4787243",
+        "entityLabel": "Archival research",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q42240",
+        "valueLabel": "research"
+    },
+    {
+        "entity": "Q4787243",
+        "entityLabel": "Archival research",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q380313",
+        "valueLabel": "archival science"
+    },
+    {
+        "entity": "Q22907091",
+        "entityLabel": "Muhammad Ardabili",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q22907091",
+        "entityLabel": "Muhammad Ardabili",
+        "property": "P140",
+        "propertyLabel": "religion or worldview",
+        "value": "Q432",
+        "valueLabel": "Islam"
+    },
+    {
+        "entity": "Q22907091",
+        "entityLabel": "Muhammad Ardabili",
+        "property": "P101",
+        "propertyLabel": "field of work",
+        "value": "Q423731",
+        "valueLabel": "Biographical evaluation"
+    },
+    {
+        "entity": "Q22907091",
+        "entityLabel": "Muhammad Ardabili",
+        "property": "P800",
+        "propertyLabel": "notable work",
+        "value": "Q62603998",
+        "valueLabel": "Jami Al Rowat"
+    },
+    {
+        "entity": "Q22907091",
+        "entityLabel": "Muhammad Ardabili",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q22907091",
+        "entityLabel": "Muhammad Ardabili",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q5837762",
+        "valueLabel": "Muhammad"
+    },
+    {
+        "entity": "Q22907091",
+        "entityLabel": "Muhammad Ardabili",
+        "property": "P27",
+        "propertyLabel": "country of citizenship",
+        "value": "Q161205",
+        "valueLabel": "Safavid dynasty"
+    },
+    {
+        "entity": "Q1148453",
+        "entityLabel": "George Ballard (biographer)",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q1148453",
+        "entityLabel": "George Ballard (biographer)",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q864380",
+        "valueLabel": "biographer"
+    },
+    {
+        "entity": "Q1148453",
+        "entityLabel": "George Ballard (biographer)",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q36180",
+        "valueLabel": "writer"
+    },
+    {
+        "entity": "Q1148453",
+        "entityLabel": "George Ballard (biographer)",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q201788",
+        "valueLabel": "historian"
+    },
+    {
+        "entity": "Q1148453",
+        "entityLabel": "George Ballard (biographer)",
+        "property": "P20",
+        "propertyLabel": "place of death",
+        "value": "Q34217",
+        "valueLabel": "Oxford"
+    },
+    {
+        "entity": "Q1148453",
+        "entityLabel": "George Ballard (biographer)",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q23165",
+        "valueLabel": "Gloucestershire"
+    },
+    {
+        "entity": "Q1148453",
+        "entityLabel": "George Ballard (biographer)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q1148453",
+        "entityLabel": "George Ballard (biographer)",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q15921732",
+        "valueLabel": "George"
+    },
+    {
+        "entity": "Q1148453",
+        "entityLabel": "George Ballard (biographer)",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q15987216",
+        "valueLabel": "Dictionary of National Biography, 1885\u20131900"
+    },
+    {
+        "entity": "Q1148453",
+        "entityLabel": "George Ballard (biographer)",
+        "property": "P734",
+        "propertyLabel": "family name",
+        "value": "Q16479781",
+        "valueLabel": "Ballard"
+    },
+    {
+        "entity": "Q1148453",
+        "entityLabel": "George Ballard (biographer)",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19036877",
+        "valueLabel": "Alumni Oxonienses: the Members of the University of Oxford, 1715\u20131886"
+    },
+    {
+        "entity": "Q5019498",
+        "entityLabel": "Calendar of Regrets",
+        "property": "P747",
+        "propertyLabel": "has edition or translation",
+        "value": "Q60417498",
+        "valueLabel": "Calendar of Regrets"
+    },
+    {
+        "entity": "Q5019498",
+        "entityLabel": "Calendar of Regrets",
+        "property": "P135",
+        "propertyLabel": "movement",
+        "value": "Q113013",
+        "valueLabel": "postmodern literature"
+    },
+    {
+        "entity": "Q5019498",
+        "entityLabel": "Calendar of Regrets",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q5019498",
+        "entityLabel": "Calendar of Regrets",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q47461344",
+        "valueLabel": "written work"
+    },
+    {
+        "entity": "Q5019498",
+        "entityLabel": "Calendar of Regrets",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q5019498",
+        "entityLabel": "Calendar of Regrets",
+        "property": "P123",
+        "propertyLabel": "publisher",
+        "value": "Q1386759",
+        "valueLabel": "FC2"
+    },
+    {
+        "entity": "Q5019498",
+        "entityLabel": "Calendar of Regrets",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q6483502",
+        "valueLabel": "Lance Olsen"
+    },
+    {
+        "entity": "Q5019498",
+        "entityLabel": "Calendar of Regrets",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q850525",
+        "valueLabel": "historiographic metafiction"
+    },
+    {
+        "entity": "Q15623879",
+        "entityLabel": "Chronicle of Fredegar",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q47461344",
+        "valueLabel": "written work"
+    },
+    {
+        "entity": "Q15623879",
+        "entityLabel": "Chronicle of Fredegar",
+        "property": "P170",
+        "propertyLabel": "creator",
+        "value": "8a5b568048e684446be71d0d596f154f",
+        "valueLabel": "http://www.wikidata.org/.well-known/genid/8a5b568048e684446be71d0d596f154f"
+    },
+    {
+        "entity": "Q15623879",
+        "entityLabel": "Chronicle of Fredegar",
+        "property": "P170",
+        "propertyLabel": "creator",
+        "value": "Q120441702",
+        "valueLabel": "Pseudo-Fredegar"
+    },
+    {
+        "entity": "Q15623879",
+        "entityLabel": "Chronicle of Fredegar",
+        "property": "P12020",
+        "propertyLabel": "state of transmission",
+        "value": "Q122238694",
+        "valueLabel": "full"
+    },
+    {
+        "entity": "Q15623879",
+        "entityLabel": "Chronicle of Fredegar",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q397",
+        "valueLabel": "Latin"
+    },
+    {
+        "entity": "Q15623879",
+        "entityLabel": "Chronicle of Fredegar",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19538713",
+        "valueLabel": "Vlastensk\u00fd slovn\u00edk historick\u00fd"
+    },
+    {
+        "entity": "Q3825721",
+        "entityLabel": "Columbus's letter on the first voyage",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q133492",
+        "valueLabel": "letter"
+    },
+    {
+        "entity": "Q3825721",
+        "entityLabel": "Columbus's letter on the first voyage",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1321",
+        "valueLabel": "Spanish"
+    },
+    {
+        "entity": "Q3825721",
+        "entityLabel": "Columbus's letter on the first voyage",
+        "property": "P1433",
+        "propertyLabel": "published in",
+        "value": "Q1492",
+        "valueLabel": "Barcelona"
+    },
+    {
+        "entity": "Q3825721",
+        "entityLabel": "Columbus's letter on the first voyage",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q7322",
+        "valueLabel": "Christopher Columbus"
+    },
+    {
+        "entity": "Q3825721",
+        "entityLabel": "Columbus's letter on the first voyage",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q3771259",
+        "valueLabel": "first voyage of Christopher Columbus"
+    },
+    {
+        "entity": "Q3825721",
+        "entityLabel": "Columbus's letter on the first voyage",
+        "property": "P747",
+        "propertyLabel": "has edition or translation",
+        "value": "Q24196071",
+        "valueLabel": "A Letter of Christopher Columbus"
+    },
+    {
+        "entity": "Q3825721",
+        "entityLabel": "Columbus's letter on the first voyage",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3331189",
+        "valueLabel": "version, edition or translation"
+    },
+    {
+        "entity": "Q3825721",
+        "entityLabel": "Columbus's letter on the first voyage",
+        "property": "P747",
+        "propertyLabel": "has edition or translation",
+        "value": "Q131600965",
+        "valueLabel": "Q131600965"
+    },
+    {
+        "entity": "Q5155640",
+        "entityLabel": "Comparative historical research",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q16819543",
+        "valueLabel": "Category:Comparative historical research"
+    },
+    {
+        "entity": "Q30324191",
+        "entityLabel": "Computational history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q16827757",
+        "entityLabel": "Conjectural history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17524420",
+        "valueLabel": "aspect of history"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q118383689",
+        "valueLabel": "Constitution of the Arcadians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q118384158",
+        "valueLabel": "Constitution of the Opuntians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q118384097",
+        "valueLabel": "Constitution of the Cypriots"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q382282",
+        "valueLabel": "Constitution of the Athenians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P12020",
+        "propertyLabel": "state of transmission",
+        "value": "Q122238708",
+        "valueLabel": "fragmentary"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q42740642",
+        "valueLabel": "Constitution of the Thessalians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q119295403",
+        "valueLabel": "Constitution of the Colophonians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q119295590",
+        "valueLabel": "Constitution of the Methonians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q119295809",
+        "valueLabel": "Constitution of the Crotonians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q17518870",
+        "valueLabel": "group of literary works"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q119295732",
+        "valueLabel": "Constitution of the Troezenians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q118384247",
+        "valueLabel": "Constitution of the Lacedaemonians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q119294911",
+        "valueLabel": "Constitution of the Aeginetans"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q118384174",
+        "valueLabel": "Constitution of the Eleians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q119295752",
+        "valueLabel": "Constitution of the Syracusans"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q35497",
+        "valueLabel": "Ancient Greek"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P291",
+        "propertyLabel": "place of publication",
+        "value": "Q1524",
+        "valueLabel": "Athens"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q119295621",
+        "valueLabel": "Constitution of the Naxians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q868",
+        "valueLabel": "Aristotle"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q118384693",
+        "valueLabel": "Constitution of the Massaliotae"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q160362",
+        "valueLabel": "Theophrastus"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q119295066",
+        "valueLabel": "Constitution of the Delians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q118384769",
+        "valueLabel": "Constitution of the Pellenians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q118384664",
+        "valueLabel": "Constitution of the Cythnians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q131826423",
+        "valueLabel": "Constitution of the Locrians"
+    },
+    {
+        "entity": "Q3875285",
+        "entityLabel": "Constitutions (Aristotle)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q277759",
+        "valueLabel": "book series"
+    },
+    {
+        "entity": "Q131447581",
+        "entityLabel": "Consularia Caesaraugustana",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q185363",
+        "valueLabel": "chronicle"
+    },
+    {
+        "entity": "Q131447581",
+        "entityLabel": "Consularia Caesaraugustana",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q397",
+        "valueLabel": "Latin"
+    },
+    {
+        "entity": "Q186075",
+        "entityLabel": "Contemporary history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q186075",
+        "entityLabel": "Contemporary history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q6495391",
+        "valueLabel": "late modern period"
+    },
+    {
+        "entity": "Q186075",
+        "entityLabel": "Contemporary history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q186075",
+        "entityLabel": "Contemporary history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q111146040",
+        "valueLabel": "newest history"
+    },
+    {
+        "entity": "Q186075",
+        "entityLabel": "Contemporary history",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q816829",
+        "valueLabel": "periodization"
+    },
+    {
+        "entity": "Q186075",
+        "entityLabel": "Contemporary history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q6958983",
+        "valueLabel": "Category:Contemporary history"
+    },
+    {
+        "entity": "Q186075",
+        "entityLabel": "Contemporary history",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q3281534",
+        "valueLabel": "modern period"
+    },
+    {
+        "entity": "Q186075",
+        "entityLabel": "Contemporary history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q3137989",
+        "valueLabel": "contemporary history"
+    },
+    {
+        "entity": "Q186075",
+        "entityLabel": "Contemporary history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11514315",
+        "valueLabel": "historical period"
+    },
+    {
+        "entity": "Q186075",
+        "entityLabel": "Contemporary history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q6428674",
+        "valueLabel": "era"
+    },
+    {
+        "entity": "Q110536152",
+        "entityLabel": "Criterion of contextual credibility",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q211364",
+        "valueLabel": "principle"
+    },
+    {
+        "entity": "Q110536152",
+        "entityLabel": "Criterion of contextual credibility",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q794605",
+        "valueLabel": "biblical studies"
+    },
+    {
+        "entity": "Q5186573",
+        "entityLabel": "Criterion of dissimilarity",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q508091",
+        "valueLabel": "historical criticism"
+    },
+    {
+        "entity": "Q4119155",
+        "entityLabel": "Criterion of embarrassment",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q4119155",
+        "entityLabel": "Criterion of embarrassment",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q373665",
+        "valueLabel": "biblical criticism"
+    },
+    {
+        "entity": "Q4119155",
+        "entityLabel": "Criterion of embarrassment",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q201413",
+        "valueLabel": "heuristic"
+    },
+    {
+        "entity": "Q4119175",
+        "entityLabel": "Criterion of multiple attestation",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1789452",
+        "valueLabel": "criterion"
+    },
+    {
+        "entity": "Q4119175",
+        "entityLabel": "Criterion of multiple attestation",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1517710",
+        "valueLabel": "historicity"
+    },
+    {
+        "entity": "Q574613",
+        "entityLabel": "Cultural memory",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1474639",
+        "valueLabel": "Q1474639"
+    },
+    {
+        "entity": "Q574613",
+        "entityLabel": "Cultural memory",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q2699662",
+        "valueLabel": "history of historiography"
+    },
+    {
+        "entity": "Q574613",
+        "entityLabel": "Cultural memory",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q483247",
+        "valueLabel": "phenomenon"
+    },
+    {
+        "entity": "Q574613",
+        "entityLabel": "Cultural memory",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q254217",
+        "valueLabel": "collective memory"
+    },
+    {
+        "entity": "Q574613",
+        "entityLabel": "Cultural memory",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q2308594",
+        "valueLabel": "Q2308594"
+    },
+    {
+        "entity": "Q574613",
+        "entityLabel": "Cultural memory",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q1143546",
+        "valueLabel": "cultural studies"
+    },
+    {
+        "entity": "Q574613",
+        "entityLabel": "Cultural memory",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q844569",
+        "valueLabel": "identity"
+    },
+    {
+        "entity": "Q574613",
+        "entityLabel": "Cultural memory",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q15427394",
+        "valueLabel": "culture of remembrance"
+    },
+    {
+        "entity": "Q574613",
+        "entityLabel": "Cultural memory",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q82821",
+        "valueLabel": "tradition"
+    },
+    {
+        "entity": "Q574613",
+        "entityLabel": "Cultural memory",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1780551",
+        "valueLabel": "Q1780551"
+    },
+    {
+        "entity": "Q129478803",
+        "entityLabel": "De-commemoration",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q6815577",
+        "valueLabel": "memorialization"
+    },
+    {
+        "entity": "Q17166797",
+        "entityLabel": "Dictionary of Art Historians",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q615699",
+        "valueLabel": "online encyclopedia"
+    },
+    {
+        "entity": "Q17166797",
+        "entityLabel": "Dictionary of Art Historians",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q50637",
+        "valueLabel": "art history"
+    },
+    {
+        "entity": "Q17166797",
+        "entityLabel": "Dictionary of Art Historians",
+        "property": "P6216",
+        "propertyLabel": "copyright status",
+        "value": "Q50423863",
+        "valueLabel": "copyrighted"
+    },
+    {
+        "entity": "Q17166797",
+        "entityLabel": "Dictionary of Art Historians",
+        "property": "P275",
+        "propertyLabel": "copyright license",
+        "value": "Q18199165",
+        "valueLabel": "Creative Commons Attribution-ShareAlike 4.0 International"
+    },
+    {
+        "entity": "Q17166797",
+        "entityLabel": "Dictionary of Art Historians",
+        "property": "P495",
+        "propertyLabel": "country of origin",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q17166797",
+        "entityLabel": "Dictionary of Art Historians",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q301785",
+        "entityLabel": "Diocles of Peparethus",
+        "property": "P1412",
+        "propertyLabel": "languages spoken, written or signed",
+        "value": "Q35497",
+        "valueLabel": "Ancient Greek"
+    },
+    {
+        "entity": "Q301785",
+        "entityLabel": "Diocles of Peparethus",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q5",
+        "valueLabel": "human"
+    },
+    {
+        "entity": "Q301785",
+        "entityLabel": "Diocles of Peparethus",
+        "property": "P735",
+        "propertyLabel": "given name",
+        "value": "Q117824631",
+        "valueLabel": "\u0394\u03b9\u03bf\u03ba\u03bb\u03ae\u03c2"
+    },
+    {
+        "entity": "Q301785",
+        "entityLabel": "Diocles of Peparethus",
+        "property": "P21",
+        "propertyLabel": "sex or gender",
+        "value": "Q6581097",
+        "valueLabel": "male"
+    },
+    {
+        "entity": "Q301785",
+        "entityLabel": "Diocles of Peparethus",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q30059240",
+        "valueLabel": "Real\u02b9nyj slovar\u02b9 klassi\u010deskih drevnostej po L\u00fbbkeru"
+    },
+    {
+        "entity": "Q301785",
+        "entityLabel": "Diocles of Peparethus",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q120729622",
+        "valueLabel": "Pseudo-Diocles"
+    },
+    {
+        "entity": "Q301785",
+        "entityLabel": "Diocles of Peparethus",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q36180",
+        "valueLabel": "writer"
+    },
+    {
+        "entity": "Q301785",
+        "entityLabel": "Diocles of Peparethus",
+        "property": "P7763",
+        "propertyLabel": "copyright status as a creator",
+        "value": "Q71887839",
+        "valueLabel": "copyrights on works have expired"
+    },
+    {
+        "entity": "Q301785",
+        "entityLabel": "Diocles of Peparethus",
+        "property": "P106",
+        "propertyLabel": "occupation",
+        "value": "Q201788",
+        "valueLabel": "historian"
+    },
+    {
+        "entity": "Q301785",
+        "entityLabel": "Diocles of Peparethus",
+        "property": "P6886",
+        "propertyLabel": "writing language",
+        "value": "Q35497",
+        "valueLabel": "Ancient Greek"
+    },
+    {
+        "entity": "Q301785",
+        "entityLabel": "Diocles of Peparethus",
+        "property": "P19",
+        "propertyLabel": "place of birth",
+        "value": "Q212027",
+        "valueLabel": "Skopelos"
+    },
+    {
+        "entity": "Q301785",
+        "entityLabel": "Diocles of Peparethus",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q1138524",
+        "valueLabel": "Pauly\u2013Wissowa"
+    },
+    {
+        "entity": "Q378426",
+        "entityLabel": "Diplomatics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q378426",
+        "entityLabel": "Diplomatics",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q47520669",
+        "valueLabel": "diplomatician"
+    },
+    {
+        "entity": "Q378426",
+        "entityLabel": "Diplomatics",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8934233",
+        "valueLabel": "Category:Diplomatics"
+    },
+    {
+        "entity": "Q378426",
+        "entityLabel": "Diplomatics",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1889",
+        "valueLabel": "diplomacy"
+    },
+    {
+        "entity": "Q378426",
+        "entityLabel": "Diplomatics",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q770723",
+        "valueLabel": "auxiliary science of history"
+    },
+    {
+        "entity": "Q378426",
+        "entityLabel": "Diplomatics",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q378426",
+        "entityLabel": "Diplomatics",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124355862",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 11"
+    },
+    {
+        "entity": "Q378426",
+        "entityLabel": "Diplomatics",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2041543",
+        "valueLabel": "Q2041543"
+    },
+    {
+        "entity": "Q378426",
+        "entityLabel": "Diplomatics",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q11812270",
+        "valueLabel": "Q11812270"
+    },
+    {
+        "entity": "Q378426",
+        "entityLabel": "Diplomatics",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q40634",
+        "valueLabel": "philology"
+    },
+    {
+        "entity": "Q5788659",
+        "entityLabel": "Dominant narrative",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q54427",
+        "valueLabel": "cultural hegemony"
+    },
+    {
+        "entity": "Q5788659",
+        "entityLabel": "Dominant narrative",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q5177021",
+        "valueLabel": "counterpropaganda"
+    },
+    {
+        "entity": "Q104901736",
+        "entityLabel": "Earth's Deep History",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q460393",
+        "valueLabel": "Martin J. S. Rudwick"
+    },
+    {
+        "entity": "Q104901736",
+        "entityLabel": "Earth's Deep History",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q571",
+        "valueLabel": "book"
+    },
+    {
+        "entity": "Q104901736",
+        "entityLabel": "Earth's Deep History",
+        "property": "P407",
+        "propertyLabel": "language of work or name",
+        "value": "Q1860",
+        "valueLabel": "English"
+    },
+    {
+        "entity": "Q3048988",
+        "entityLabel": "Effect of reality",
+        "property": "P136",
+        "propertyLabel": "genre",
+        "value": "Q35760",
+        "valueLabel": "essay"
+    },
+    {
+        "entity": "Q3048988",
+        "entityLabel": "Effect of reality",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q47461344",
+        "valueLabel": "written work"
+    },
+    {
+        "entity": "Q3048988",
+        "entityLabel": "Effect of reality",
+        "property": "P50",
+        "propertyLabel": "author",
+        "value": "Q179109",
+        "valueLabel": "Roland Barthes"
+    },
+    {
+        "entity": "Q5378287",
+        "entityLabel": "English Historical Documents",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q277759",
+        "valueLabel": "book series"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1714118",
+        "valueLabel": "online publication"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q8513",
+        "valueLabel": "database"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q593744",
+        "valueLabel": "knowledge base"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P112",
+        "propertyLabel": "founded by",
+        "value": "Q63216650",
+        "valueLabel": "Olaf Simons"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1668024",
+        "valueLabel": "service on Internet"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q33002955",
+        "valueLabel": "knowledge graph"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q16695773",
+        "valueLabel": "WikiProject"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P137",
+        "propertyLabel": "operator",
+        "value": "Q702524",
+        "valueLabel": "University of Erfurt"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P859",
+        "propertyLabel": "sponsor",
+        "value": "Q98231721",
+        "valueLabel": "NFDI4Memory"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P1833",
+        "propertyLabel": "number of registered users/contributors",
+        "value": "322",
+        "valueLabel": "322"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P408",
+        "propertyLabel": "software engine",
+        "value": "Q83",
+        "valueLabel": "MediaWiki"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q92615993",
+        "valueLabel": "historical data"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P408",
+        "propertyLabel": "software engine",
+        "value": "Q16354758",
+        "valueLabel": "Wikibase"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "129",
+        "valueLabel": "129"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P1833",
+        "propertyLabel": "number of registered users/contributors",
+        "value": "222",
+        "valueLabel": "222"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P2283",
+        "propertyLabel": "uses",
+        "value": "Q16354758",
+        "valueLabel": "Wikibase"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "132",
+        "valueLabel": "132"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P859",
+        "propertyLabel": "sponsor",
+        "value": "Q702524",
+        "valueLabel": "University of Erfurt"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P275",
+        "propertyLabel": "copyright license",
+        "value": "Q6938433",
+        "valueLabel": "Creative Commons CC0 License"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "127",
+        "valueLabel": "127"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q119421066",
+        "valueLabel": "Q119421066"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P6216",
+        "propertyLabel": "copyright status",
+        "value": "Q88088423",
+        "valueLabel": "copyrighted, dedicated to the public domain by copyright holder"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P1833",
+        "propertyLabel": "number of registered users/contributors",
+        "value": "448",
+        "valueLabel": "448"
+    },
+    {
+        "entity": "Q90405608",
+        "entityLabel": "FactGrid",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q133297793",
+        "valueLabel": "FactGrid based research project"
+    },
+    {
+        "entity": "Q3656236",
+        "entityLabel": "Feminist history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q2297554",
+        "valueLabel": "history of feminism"
+    },
+    {
+        "entity": "Q3656236",
+        "entityLabel": "Feminist history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2699662",
+        "valueLabel": "history of historiography"
+    },
+    {
+        "entity": "Q1499017",
+        "entityLabel": "Geistesgeschichte",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1969448",
+        "valueLabel": "term"
+    },
+    {
+        "entity": "Q1499017",
+        "entityLabel": "Geistesgeschichte",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q19610271",
+        "valueLabel": "literary term"
+    },
+    {
+        "entity": "Q1499017",
+        "entityLabel": "Geistesgeschichte",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q570018",
+        "valueLabel": "history of ideas"
+    },
+    {
+        "entity": "Q1499017",
+        "entityLabel": "Geistesgeschichte",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q858517",
+        "valueLabel": "cultural history"
+    },
+    {
+        "entity": "Q1499017",
+        "entityLabel": "Geistesgeschichte",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q570018",
+        "valueLabel": "history of ideas"
+    },
+    {
+        "entity": "Q1499017",
+        "entityLabel": "Geistesgeschichte",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q3181656",
+        "valueLabel": "The Nuttall Encyclop\u00e6dia"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P156",
+        "propertyLabel": "followed by",
+        "value": "Q7516506",
+        "valueLabel": "Silver age"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737635",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 8"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1525748",
+        "valueLabel": "Ages of Man"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q6428674",
+        "valueLabel": "era"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12827256",
+        "valueLabel": "myth"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q31917414",
+        "valueLabel": "Golden Age"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q15177520",
+        "valueLabel": "literary topos"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q18230293",
+        "valueLabel": "fictional historical period"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P1299",
+        "propertyLabel": "depicted by",
+        "value": "Q131632036",
+        "valueLabel": "Q131632036"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q667285",
+        "valueLabel": "Works and Days"
+    },
+    {
+        "entity": "Q238526",
+        "entityLabel": "Golden Age",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q123397",
+        "valueLabel": "The Republic"
+    },
+    {
+        "entity": "Q3233738",
+        "entityLabel": "Golden age (metaphor)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q17522177",
+        "valueLabel": "age"
+    },
+    {
+        "entity": "Q3233738",
+        "entityLabel": "Golden age (metaphor)",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q30510363",
+        "valueLabel": "Category:Golden ages (metaphor)"
+    },
+    {
+        "entity": "Q3233738",
+        "entityLabel": "Golden age (metaphor)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q186081",
+        "valueLabel": "time interval"
+    },
+    {
+        "entity": "Q3233738",
+        "entityLabel": "Golden age (metaphor)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2245405",
+        "valueLabel": "key event"
+    },
+    {
+        "entity": "Q3233738",
+        "entityLabel": "Golden age (metaphor)",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q1399118",
+        "valueLabel": "retrospective"
+    },
+    {
+        "entity": "Q3233738",
+        "entityLabel": "Golden age (metaphor)",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q12151852",
+        "valueLabel": "nostalgia"
+    },
+    {
+        "entity": "Q3233738",
+        "entityLabel": "Golden age (metaphor)",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q10966539",
+        "valueLabel": "Template:Paxes"
+    },
+    {
+        "entity": "Q25324607",
+        "entityLabel": "G\u00f6ttingen school of history",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q183",
+        "valueLabel": "Germany"
+    },
+    {
+        "entity": "Q25324607",
+        "entityLabel": "G\u00f6ttingen school of history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q107923750",
+        "valueLabel": "school of history"
+    },
+    {
+        "entity": "Q25324607",
+        "entityLabel": "G\u00f6ttingen school of history",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q152838",
+        "valueLabel": "University of G\u00f6ttingen"
+    },
+    {
+        "entity": "Q1451746",
+        "entityLabel": "Herstory",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1969448",
+        "valueLabel": "term"
+    },
+    {
+        "entity": "Q1451746",
+        "entityLabel": "Herstory",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1279400",
+        "valueLabel": "women's history"
+    },
+    {
+        "entity": "Q1451746",
+        "entityLabel": "Herstory",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q14916674",
+        "valueLabel": "Dresdner Hefte"
+    },
+    {
+        "entity": "Q2917166",
+        "entityLabel": "Historian's fallacy",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q2917166",
+        "entityLabel": "Historian's fallacy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3312438",
+        "valueLabel": "informal fallacy"
+    },
+    {
+        "entity": "Q2917166",
+        "entityLabel": "Historian's fallacy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1960297",
+        "valueLabel": "hindsight bias"
+    },
+    {
+        "entity": "Q5773798",
+        "entityLabel": "Historic recurrence",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q151885",
+        "valueLabel": "concept"
+    },
+    {
+        "entity": "Q1196545",
+        "entityLabel": "Historical method",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q1196545",
+        "entityLabel": "Historical method",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q17079481",
+        "valueLabel": "scholarly method"
+    },
+    {
+        "entity": "Q1196545",
+        "entityLabel": "Historical method",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q185698",
+        "valueLabel": "methodology"
+    },
+    {
+        "entity": "Q1196545",
+        "entityLabel": "Historical method",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1193625",
+        "valueLabel": "social science methodology"
+    },
+    {
+        "entity": "Q874803",
+        "entityLabel": "Historical revisionism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q151885",
+        "valueLabel": "concept"
+    },
+    {
+        "entity": "Q874803",
+        "entityLabel": "Historical revisionism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1780190",
+        "valueLabel": "revisionism"
+    },
+    {
+        "entity": "Q874803",
+        "entityLabel": "Historical revisionism",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8516541",
+        "valueLabel": "Category:Historical revisionism"
+    },
+    {
+        "entity": "Q874803",
+        "entityLabel": "Historical revisionism",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q574456",
+        "valueLabel": "historical negationism"
+    },
+    {
+        "entity": "Q65082096",
+        "entityLabel": "Historical significance",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4993710",
+        "valueLabel": "notability"
+    },
+    {
+        "entity": "Q65082096",
+        "entityLabel": "Historical significance",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q24457356",
+        "valueLabel": "historiographical concept"
+    },
+    {
+        "entity": "Q65082096",
+        "entityLabel": "Historical significance",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q65082096",
+        "entityLabel": "Historical significance",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q21075805",
+        "valueLabel": "significance"
+    },
+    {
+        "entity": "Q3750478",
+        "entityLabel": "Historical source",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3523102",
+        "valueLabel": "source of information"
+    },
+    {
+        "entity": "Q3750478",
+        "entityLabel": "Historical source",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q2122746",
+        "valueLabel": "source criticism"
+    },
+    {
+        "entity": "Q3750478",
+        "entityLabel": "Historical source",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q3750478",
+        "entityLabel": "Historical source",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q20826856",
+        "entityLabel": "Historical thinking",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1156402",
+        "valueLabel": "reasoning"
+    }
+]

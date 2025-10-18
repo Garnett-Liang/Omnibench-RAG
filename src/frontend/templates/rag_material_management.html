@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omnibench-RAG - RAG Material Management</title>
+    <!-- Import Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <style>
+        .materials-container { max-height: 400px; overflow-y: auto; }
+        .option-group { display: none; }
+        .option-group.active { display: block; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation bar -->
+    <header class="bg-blue-600 text-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <a href="/" class="flex items-center space-x-2">
+                <i class="fas fa-arrow-left"></i>
+                <span class="text-lg font-semibold">Back to Home</span>
+            </a>
+            <h1 class="text-xl font-bold">RAG Material Management</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-6">
+        <!-- Domain Selection Card -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                <i class="fas fa-globe mr-2 text-blue-600"></i>Select Domain
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2">Domain</label>
+                    <select id="domainSelect" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option value="geography">Geography</option>
+                        <option value="history">History</option>
+                        <option value="health">Health</option>
+                        <option value="mathematics">Mathematics</option>
+                        <option value="nature">Nature</option>
+                        <option value="people">People</option>
+                        <option value="society">Society</option>
+                        <option value="technology">Technology</option>
+                        <option value="culture">Culture</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- RAG Material Source Selection -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                <i class="fas fa-cog mr-2 text-green-600"></i>RAG Material Source Selection
+            </h2>
+
+            <!-- Material Type Selection -->
+            <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-medium mb-3">Choose RAG Material Type</label>
+                <div class="flex space-x-6">
+                    <label class="flex items-center">
+                        <input type="radio" name="materialType" value="flexible" class="mr-2" checked>
+                        <span class="font-medium">Flexible Upload RAG Material</span>
+                    </label>
+                    <label class="flex items-center">
+                        <input type="radio" name="materialType" value="wiki_strong" class="mr-2">
+                        <span class="font-medium">Wiki Strong RAG Material</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Flexible Upload Option Group -->
+            <div id="flexibleOptionGroup" class="option-group active">
+                <!-- PDF Upload Card -->
+                <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                    <h3 class="font-medium text-gray-800 mb-3">Upload PDF Files</h3>
+                    <div class="flex flex-col md:flex-row gap-4">
+                        <div class="flex-1">
+                            <label class="block text-gray-700 text-sm font-medium mb-2">Choose PDF Files</label>
+                            <input type="file" id="pdfUploadInput" accept=".pdf" multiple class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+                            <p class="text-xs text-gray-500 mt-1">Supports multiple PDF files (max 16MB total)</p>
+                        </div>
+                    </div>
+                    <button id="uploadBtn" class="mt-4 bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-6 rounded-md flex items-center">
+                        <i class="fas fa-file-pdf mr-2"></i> Upload & Process
+                    </button>
+                    <div id="uploadStatus" class="mt-3 text-sm hidden"></div>
+                </div>
+            </div>
+
+            <!-- Wiki Strong Option Group -->
+            <div id="wikiStrongOptionGroup" class="option-group">
+                <!-- Dataset Source Selection for Wiki Strong -->
+                <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                    <h3 class="font-medium text-gray-800 mb-3">Dataset Source for Wiki Strong Material</h3>
+                    <div class="flex space-x-6">
+                        <label class="flex items-center">
+                            <input type="radio" name="datasetSource" value="reproducible" class="mr-2" checked>
+                            <span class="font-medium">Reproducible Dataset (generated)</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="radio" name="datasetSource" value="dynamic" class="mr-2">
+                            <span class="font-medium">Dynamic Dataset</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Generate Wiki Strong Material Button -->
+                <button id="generateStrongBtn" class="bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-6 rounded-md flex items-center">
+                    <i class="fas fa-magic mr-2"></i> Generate Wiki Strong Material
+                </button>
+                <div id="generateStatus" class="mt-3 text-sm hidden"></div>
+            </div>
+        </div>
+
+        <!-- RAG Materials Display Card -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                <i class="fas fa-database mr-2 text-blue-600"></i>RAG Materials Display
+            </h2>
+
+            <!-- Material Source Selection for Display -->
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-medium mb-2">Choose Material Source to Display</label>
+                <select id="displayMaterialSource" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <option value="flexible">Flexible Uploaded Material (knowledge_base)</option>
+                    <option value="strong">Wiki Strong Material (Strong_base)</option>
+                    <option value="dynamic_strong">Dynamic Wiki Strong Material (Dynamic_Strong_base)</option>
+                </select>
+            </div>
+
+            <button id="showRagMaterialsBtn" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-md flex items-center">
+                <i class="fas fa-eye mr-2"></i> Show RAG Materials
+            </button>
+
+            <div id="ragMaterialsContainer" class="materials-container border border-gray-200 rounded-md p-4 text-sm mt-4">
+                <p class="text-gray-500 italic">Select material source and click "Show RAG Materials" to display...</p>
+            </div>
+        </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const materialTypeRadios = document.getElementsByName('materialType');
+            const flexibleOptionGroup = document.getElementById('flexibleOptionGroup');
+            const wikiStrongOptionGroup = document.getElementById('wikiStrongOptionGroup');
+            const domainSelect = document.getElementById('domainSelect');
+            const generateStrongBtn = document.getElementById('generateStrongBtn');
+            const uploadBtn = document.getElementById('uploadBtn');
+            const showRagMaterialsBtn = document.getElementById('showRagMaterialsBtn');
+            const displayMaterialSource = document.getElementById('displayMaterialSource');
+
+            const ragMaterialsContainer = document.getElementById('ragMaterialsContainer');
+
+
+
+            // Toggle option groups based on material type selection
+            materialTypeRadios.forEach(radio => {
+                radio.addEventListener('change', function() {
+                    currentMaterialType = this.value;
+                    toggleOptionGroups();
+                });
+            });
+
+            // Listen for dataset source selection (for Wiki Strong)
+            const datasetSourceRadios = document.getElementsByName('datasetSource');
+            datasetSourceRadios.forEach(radio => {
+                radio.addEventListener('change', function() {
+                    currentDatasetSource = this.value;
+                });
+            });
+
+            function toggleOptionGroups() {
+                if (currentMaterialType === 'flexible') {
+                    flexibleOptionGroup.classList.add('active');
+                    flexibleOptionGroup.classList.remove('hidden');
+                    wikiStrongOptionGroup.classList.remove('active');
+                    wikiStrongOptionGroup.classList.add('hidden');
+                } else {
+                    wikiStrongOptionGroup.classList.add('active');
+                    wikiStrongOptionGroup.classList.remove('hidden');
+                    flexibleOptionGroup.classList.remove('active');
+                    flexibleOptionGroup.classList.add('hidden');
+                }
+            }
+
+            // Generate Wiki Strong Material
+            generateStrongBtn.addEventListener('click', async () => {
+                const domain = domainSelect.value;
+
+                if (!domain) {
+                    alert('Please select a domain');
+                    return;
+                }
+
+                generateStrongBtn.disabled = true;
+                generateStrongBtn.classList.add('opacity-50', 'cursor-not-allowed');
+
+                try {
+                    const response = await fetch('/api/generate_strong_material_sync', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            domain: domain,
+                            dataset_source: currentDatasetSource
+                        })
+                    });
+                    const data = await response.json();
+
+                    if (data.status === 'success') {
+                        alert('Wiki Strong Material generated successfully!');
+                        // Optionally refresh the display
+                        showRagMaterialsBtn.click();
+                    } else {
+                        throw new Error(data.message || 'Generation failed');
+                    }
+                } catch (error) {
+                    console.error('Generation request error:', error);
+                    alert('Generation failed: ' + error.message);
+                } finally {
+                    generateStrongBtn.disabled = false;
+                    generateStrongBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+                }
+            });
+
+            // Upload PDF files
+            uploadBtn.addEventListener('click', async () => {
+                const domain = domainSelect.value;
+                const fileInput = document.getElementById('pdfUploadInput');
+                const files = fileInput.files;
+
+                if (files.length === 0) {
+                    alert('Please select at least one PDF file');
+                    return;
+                }
+
+                if (!domain) {
+                    alert('Please select a domain');
+                    return;
+                }
+
+                uploadBtn.disabled = true;
+                uploadBtn.classList.add('opacity-50', 'cursor-not-allowed');
+
+                const formData = new FormData();
+                formData.append('domain', domain);
+                for (const file of files) {
+                    formData.append('pdf_files', file);
+                }
+
+                try {
+                    const response = await fetch('/api/upload_rag_materials', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    const data = await response.json();
+
+                    if (data.status === 'success') {
+                        progressMsg.textContent = 'Upload and processing completed successfully';
+                        fileInput.value = '';
+                    } else {
+                        throw new Error(data.message || 'Upload failed');
+                    }
+                } catch (error) {
+                    progressMsg.textContent = 'Upload failed: ' + error.message;
+                } finally {
+                    uploadBtn.disabled = false;
+                    uploadBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+                }
+            });
+
+            // Show RAG Materials
+            showRagMaterialsBtn.addEventListener('click', async () => {
+                const domain = domainSelect.value;
+                const materialSource = displayMaterialSource.value;
+
+                if (!domain) {
+                    alert('Please select a domain');
+                    return;
+                }
+
+                ragMaterialsContainer.innerHTML = `
+                    <div class="flex items-center justify-center py-6">
+                        <i class="fas fa-spinner fa-spin text-blue-600 mr-2"></i>
+                        <span>Loading RAG materials...</span>
+                    </div>
+                `;
+
+                try {
+                    const response = await fetch(`/api/get_rag_materials/${domain}/${materialSource}`);
+                    const data = await response.json();
+
+                    if (data.status === 'success') {
+                        ragMaterialsContainer.innerHTML = `
+                            <div class="mb-6">
+                                <h3 class="text-base font-semibold text-gray-800 mb-2 flex items-center">
+                                    <i class="fas fa-file-alt text-blue-500 mr-2"></i>Preprocessed Data (Top 10 lines)
+                                </h3>
+                                <div class="bg-gray-50 p-3 rounded-md whitespace-pre-wrap">${data.data_content}</div>
+                            </div>
+                            <div>
+                                <h3 class="text-base font-semibold text-gray-800 mb-2 flex items-center">
+                                    <i class="fas fa-search text-purple-500 mr-2"></i>Vector Index Information
+                                </h3>
+                                <div class="bg-gray-50 p-3 rounded-md">${data.index_content}</div>
+                            </div>
+                        `;
+                    } else {
+                        ragMaterialsContainer.innerHTML = `
+                            <div class="text-red-500 p-3 bg-red-50 rounded-md">
+                                <i class="fas fa-exclamation-circle mr-2"></i>${data.message}
+                            </div>
+                        `;
+                    }
+                } catch (error) {
+                    ragMaterialsContainer.innerHTML = `
+                        <div class="text-red-500 p-3 bg-red-50 rounded-md">
+                            <i class="fas fa-exclamation-circle mr-2"></i>Failed to load materials: ${error.message}
+                        </div>
+                    `;
+                }
+            });
+
+
+            // Initialize
+            toggleOptionGroups();
+        });
+    </script>
+</body>
+</html>

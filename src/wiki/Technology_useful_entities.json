@@ -1,0 +1,402 @@
+[
+    {
+        "entity": "http://www.wikidata.org/entity/Q3823319",
+        "entityLabel": "Ancient Egyptian technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4704909",
+        "entityLabel": "Ancient Greek technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17073664",
+        "entityLabel": "Inca technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3180036",
+        "entityLabel": "Medieval technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6822924",
+        "entityLabel": "Metallurgy during the Copper Age in Europe"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112702",
+        "entityLabel": "Prehistoric technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q15855916",
+        "entityLabel": "Outline of prehistoric technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7312473",
+        "entityLabel": "Renaissance technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q9031060",
+        "entityLabel": "History of timekeeping devices in Egypt"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3499620",
+        "entityLabel": "Alternative technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q96572804",
+        "entityLabel": "Animal technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4787070",
+        "entityLabel": "Architectural technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3603312",
+        "entityLabel": "Clothing technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16930522",
+        "entityLabel": "Creative technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5264382",
+        "entityLabel": "Design technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1192297",
+        "entityLabel": "Disruptive innovation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5357718",
+        "entityLabel": "Electrical engineering technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5375154",
+        "entityLabel": "Enabling technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5380492",
+        "entityLabel": "Entertainment technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q466410",
+        "entityLabel": "High tech"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q10952243",
+        "entityLabel": "Industrial technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q786887",
+        "entityLabel": "Low technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6764311",
+        "entityLabel": "Marine technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1484779",
+        "entityLabel": "Microtechnology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4378395",
+        "entityLabel": "Open-source appropriate technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q14898686",
+        "entityLabel": "Subsea technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q98113878",
+        "entityLabel": "Track technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7026784",
+        "entityLabel": "Nick Bilton"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q15039928",
+        "entityLabel": "Christopher Fabian"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q135224698",
+        "entityLabel": "Yannik Heinze"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q18631179",
+        "entityLabel": "Ellis Horowitz"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q64853131",
+        "entityLabel": "Boon Thau Loo"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6722390",
+        "entityLabel": "Mac the Knife"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q110822323",
+        "entityLabel": "Clement Ogaja"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5079973",
+        "entityLabel": "Charles L. Perkins"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6163277",
+        "entityLabel": "Jason Pontin"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7493196",
+        "entityLabel": "Sheizaf Rafaeli"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q92684",
+        "entityLabel": "Sartaj Sahni"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17145806",
+        "entityLabel": "Bright Simons"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6162279",
+        "entityLabel": "Jason Cranford Teague"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5134683",
+        "entityLabel": "Clive Thompson (journalist)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7177623",
+        "entityLabel": "Peter Wayner"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q65923736",
+        "entityLabel": "Nick Zhang"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3537694",
+        "entityLabel": "Geographic information science"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q619798",
+        "entityLabel": "Geomatics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7782393",
+        "entityLabel": "Theories of technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112740",
+        "entityLabel": "Outline of technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1985691",
+        "entityLabel": "Electrical polarity"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3610525",
+        "entityLabel": "Outline of manufacturing"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112686",
+        "entityLabel": "Outline of mining"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7112706",
+        "entityLabel": "Outline of production"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q104858868",
+        "entityLabel": "Outline of rocketry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2892152",
+        "entityLabel": "Outline of space exploration"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2445082",
+        "entityLabel": "Science and technology studies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1380539",
+        "entityLabel": "Sociotechnology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4115079",
+        "entityLabel": "Technology and society"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4676510",
+        "entityLabel": "Across the Universe (message)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1368086",
+        "entityLabel": "Active SETI"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q124450143",
+        "entityLabel": "Age of artificial intelligence"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4057127",
+        "entityLabel": "Agricultural technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q117336820",
+        "entityLabel": "AI boom"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q113540710",
+        "entityLabel": "AIRO Group"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q98915099",
+        "entityLabel": "Alt-tech"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q574854",
+        "entityLabel": "Anti-nuclear movement in Australia"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q574572",
+        "entityLabel": "Anti-nuclear movement in Germany"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q15466187",
+        "entityLabel": "Anti-nuclear protests"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q384071",
+        "entityLabel": "Arecibo message"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q130603111",
+        "entityLabel": "Asian News International vs. Wikimedia Foundation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3122864",
+        "entityLabel": "Big Tech"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4927065",
+        "entityLabel": "Blobject"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q54958381",
+        "entityLabel": "Brigade Media"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q124842672",
+        "entityLabel": "Cerebral Valley"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3090589",
+        "entityLabel": "Change.org"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5087473",
+        "entityLabel": "Chat line"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5121620",
+        "entityLabel": "Circuit rider (technology)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q9158476",
+        "entityLabel": "Civic application"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60741616",
+        "entityLabel": "Coding it Forward"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q15206825",
+        "entityLabel": "Communication with extraterrestrial intelligence"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5155069",
+        "entityLabel": "Community technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7727554",
+        "entityLabel": "The Cool Stuff Collective"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4036598",
+        "entityLabel": "Cosmic Call"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5185963",
+        "entityLabel": "Crisis camp"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5186700",
+        "entityLabel": "Critical code studies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1260036",
+        "entityLabel": "Criticism of technology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q348303",
+        "entityLabel": "Crowdfunding"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q842550",
+        "entityLabel": "Cultural lag"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q107284444",
+        "entityLabel": "Current (financial services company)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4455123",
+        "entityLabel": "Cute cat theory of digital activism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3008151",
+        "entityLabel": "Cyber-dissident"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q62691",
+        "entityLabel": "De-Mail"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q108370415",
+        "entityLabel": "Dead Internet theory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5255776",
+        "entityLabel": "Democratic rationalization"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5264213",
+        "entityLabel": "Desicritics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5267027",
+        "entityLabel": "Device paradigm"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q601854",
+        "entityLabel": "Digital anthropology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q85756879",
+        "entityLabel": "Digital empathy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1055825",
+        "entityLabel": "Digital journalism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60661815",
+        "entityLabel": "Digital media use and mental health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60752784",
+        "entityLabel": "Digital redlining"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q135094803",
+        "entityLabel": "Education by algorithm"
+    }
+]

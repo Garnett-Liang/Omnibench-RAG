@@ -1,0 +1,1152 @@
+[
+    {
+        "subject": "Q816829",
+        "subjectValue": "Periodization",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q13582682",
+        "objectValue": "classification",
+        "anotherObject": "Q99194088",
+        "anotherObjectValue": "information handling"
+    },
+    {
+        "subject": "Q816829",
+        "subjectValue": "Periodization",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q13582682",
+        "objectValue": "classification",
+        "anotherObject": "Q29182544",
+        "anotherObjectValue": "assignment"
+    },
+    {
+        "subject": "Q816829",
+        "subjectValue": "Periodization",
+        "predicate": "P361",
+        "predicateValue": "part of",
+        "object": "Q1066186",
+        "objectValue": "study of history",
+        "anotherObject": "Q113077601",
+        "anotherObjectValue": "history, heritage and archaeology"
+    },
+    {
+        "subject": "Q816829",
+        "subjectValue": "Periodization",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q112613332",
+        "objectValue": "dating method",
+        "anotherObject": "Q88321276",
+        "anotherObjectValue": "determination method"
+    },
+    {
+        "subject": "Q816829",
+        "subjectValue": "Periodization",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q1047113",
+        "objectValue": "field of study",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q816829",
+        "subjectValue": "Periodization",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q112613332",
+        "objectValue": "dating method",
+        "anotherObject": "Q46857",
+        "anotherObjectValue": "scientific method"
+    },
+    {
+        "subject": "Q816829",
+        "subjectValue": "Periodization",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q13582682",
+        "objectValue": "classification",
+        "anotherObject": "Q3249551",
+        "anotherObjectValue": "process"
+    },
+    {
+        "subject": "Q816829",
+        "subjectValue": "Periodization",
+        "predicate": "P361",
+        "predicateValue": "part of",
+        "object": "Q1066186",
+        "objectValue": "study of history",
+        "anotherObject": "Q33122512",
+        "anotherObjectValue": "social sciences and humanities"
+    },
+    {
+        "subject": "Q471043",
+        "subjectValue": "History of aviation",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q3798668",
+        "objectValue": "aerospace engineering",
+        "anotherObject": "Q8421",
+        "anotherObjectValue": "aeronautics"
+    },
+    {
+        "subject": "Q471043",
+        "subjectValue": "History of aviation",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q3798668",
+        "objectValue": "aerospace engineering",
+        "anotherObject": "Q22719",
+        "anotherObjectValue": "astronautics"
+    },
+    {
+        "subject": "Q471043",
+        "subjectValue": "History of aviation",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q468305",
+        "objectValue": "history of transport",
+        "anotherObject": "Q465352",
+        "anotherObjectValue": "history of technology"
+    },
+    {
+        "subject": "Q471043",
+        "subjectValue": "History of aviation",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q465352",
+        "objectValue": "history of technology",
+        "anotherObject": "Q2183341",
+        "anotherObjectValue": "history of science and technology"
+    },
+    {
+        "subject": "Q471043",
+        "subjectValue": "History of aviation",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q471043",
+        "subjectValue": "History of aviation",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q471043",
+        "subjectValue": "History of aviation",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q3798668",
+        "objectValue": "aerospace engineering",
+        "anotherObject": "Q2876213",
+        "anotherObjectValue": "aerospace"
+    },
+    {
+        "subject": "Q471043",
+        "subjectValue": "History of aviation",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q465352",
+        "objectValue": "history of technology",
+        "anotherObject": "Q11016",
+        "anotherObjectValue": "technology"
+    },
+    {
+        "subject": "Q116967296",
+        "subjectValue": "Exploration",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q61788060",
+        "objectValue": "human activity",
+        "anotherObject": "Q1914636",
+        "anotherObjectValue": "activity"
+    },
+    {
+        "subject": "Q116967296",
+        "subjectValue": "Exploration",
+        "predicate": "P460",
+        "predicateValue": "said to be the same as",
+        "object": "Q42240",
+        "objectValue": "research",
+        "anotherObject": "Q1782301",
+        "anotherObjectValue": "study"
+    },
+    {
+        "subject": "Q116967296",
+        "subjectValue": "Exploration",
+        "predicate": "P460",
+        "predicateValue": "said to be the same as",
+        "object": "Q4544684",
+        "objectValue": "search",
+        "anotherObject": "Q96754350",
+        "anotherObjectValue": "seeking"
+    },
+    {
+        "subject": "Q15129390",
+        "subjectValue": "History of flower arrangement",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q3137179",
+        "subjectValue": "History of accounting",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q471400",
+        "objectValue": "business history",
+        "anotherObject": "Q309",
+        "anotherObjectValue": "history"
+    },
+    {
+        "subject": "Q3137179",
+        "subjectValue": "History of accounting",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q471400",
+        "objectValue": "business history",
+        "anotherObject": "Q47398",
+        "anotherObjectValue": "economic history"
+    },
+    {
+        "subject": "Q3137179",
+        "subjectValue": "History of accounting",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q952080",
+        "subjectValue": "History of agriculture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q2495041",
+        "objectValue": "history of botany",
+        "anotherObject": "Q746656",
+        "anotherObjectValue": "history of biology"
+    },
+    {
+        "subject": "Q952080",
+        "subjectValue": "History of agriculture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q1190554",
+        "anotherObjectValue": "occurrence"
+    },
+    {
+        "subject": "Q952080",
+        "subjectValue": "History of agriculture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q2495041",
+        "objectValue": "history of botany",
+        "anotherObject": "Q441",
+        "anotherObjectValue": "botany"
+    },
+    {
+        "subject": "Q952080",
+        "subjectValue": "History of agriculture",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q952080",
+        "subjectValue": "History of agriculture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q47398",
+        "objectValue": "economic history",
+        "anotherObject": "Q5076869",
+        "anotherObjectValue": "history of the social sciences"
+    },
+    {
+        "subject": "Q952080",
+        "subjectValue": "History of agriculture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q4330518",
+        "anotherObjectValue": "object of study"
+    },
+    {
+        "subject": "Q952080",
+        "subjectValue": "History of agriculture",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q5067949",
+        "anotherObjectValue": "chain of events"
+    },
+    {
+        "subject": "Q998434",
+        "subjectValue": "History of books",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q1190554",
+        "anotherObjectValue": "occurrence"
+    },
+    {
+        "subject": "Q998434",
+        "subjectValue": "History of books",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q998434",
+        "subjectValue": "History of books",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q4330518",
+        "anotherObjectValue": "object of study"
+    },
+    {
+        "subject": "Q998434",
+        "subjectValue": "History of books",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q5067949",
+        "anotherObjectValue": "chain of events"
+    },
+    {
+        "subject": "Q2501507",
+        "subjectValue": "History of clothing and textiles",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q1190554",
+        "anotherObjectValue": "occurrence"
+    },
+    {
+        "subject": "Q2501507",
+        "subjectValue": "History of clothing and textiles",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q12684",
+        "objectValue": "fashion",
+        "anotherObject": "Q9053464",
+        "anotherObjectValue": "costume"
+    },
+    {
+        "subject": "Q2501507",
+        "subjectValue": "History of clothing and textiles",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q2501507",
+        "subjectValue": "History of clothing and textiles",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q2501507",
+        "subjectValue": "History of clothing and textiles",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q2465832",
+        "objectValue": "branch of science",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q2501507",
+        "subjectValue": "History of clothing and textiles",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q4330518",
+        "anotherObjectValue": "object of study"
+    },
+    {
+        "subject": "Q2501507",
+        "subjectValue": "History of clothing and textiles",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q9053464",
+        "objectValue": "costume",
+        "anotherObject": "Q2143054",
+        "anotherObjectValue": "material culture"
+    },
+    {
+        "subject": "Q2501507",
+        "subjectValue": "History of clothing and textiles",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q5067949",
+        "anotherObjectValue": "chain of events"
+    },
+    {
+        "subject": "Q2501507",
+        "subjectValue": "History of clothing and textiles",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q9053464",
+        "objectValue": "costume",
+        "anotherObject": "Q28598",
+        "anotherObjectValue": "cultural anthropology"
+    },
+    {
+        "subject": "Q3633560",
+        "subjectValue": "History of communication",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q908604",
+        "objectValue": "social history",
+        "anotherObject": "Q1066186",
+        "anotherObjectValue": "study of history"
+    },
+    {
+        "subject": "Q3633560",
+        "subjectValue": "History of communication",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q908604",
+        "objectValue": "social history",
+        "anotherObject": "Q309",
+        "anotherObjectValue": "history"
+    },
+    {
+        "subject": "Q3633560",
+        "subjectValue": "History of communication",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q465352",
+        "objectValue": "history of technology",
+        "anotherObject": "Q2183341",
+        "anotherObjectValue": "history of science and technology"
+    },
+    {
+        "subject": "Q3633560",
+        "subjectValue": "History of communication",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q3633560",
+        "subjectValue": "History of communication",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q465352",
+        "objectValue": "history of technology",
+        "anotherObject": "Q11016",
+        "anotherObjectValue": "technology"
+    },
+    {
+        "subject": "Q5867819",
+        "subjectValue": "History of engineering",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q11023",
+        "objectValue": "engineering",
+        "anotherObject": "Q28797",
+        "anotherObjectValue": "applied science"
+    },
+    {
+        "subject": "Q5867819",
+        "subjectValue": "History of engineering",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q2183341",
+        "objectValue": "history of science and technology",
+        "anotherObject": "Q200325",
+        "anotherObjectValue": "human history"
+    },
+    {
+        "subject": "Q5867819",
+        "subjectValue": "History of engineering",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q5867819",
+        "subjectValue": "History of engineering",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q5867819",
+        "subjectValue": "History of engineering",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q2465832",
+        "objectValue": "branch of science",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q113861741",
+        "subjectValue": "History of finance",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q113861741",
+        "subjectValue": "History of finance",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q47398",
+        "objectValue": "economic history",
+        "anotherObject": "Q5076869",
+        "anotherObjectValue": "history of the social sciences"
+    },
+    {
+        "subject": "Q6497044",
+        "subjectValue": "History of literature",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q208217",
+        "objectValue": "literary studies",
+        "anotherObject": "Q80083",
+        "anotherObjectValue": "humanities"
+    },
+    {
+        "subject": "Q6497044",
+        "subjectValue": "History of literature",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q858517",
+        "objectValue": "cultural history",
+        "anotherObject": "Q309",
+        "anotherObjectValue": "history"
+    },
+    {
+        "subject": "Q6497044",
+        "subjectValue": "History of literature",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q6497044",
+        "subjectValue": "History of literature",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q6497044",
+        "subjectValue": "History of literature",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q208217",
+        "objectValue": "literary studies",
+        "anotherObject": "Q40634",
+        "anotherObjectValue": "philology"
+    },
+    {
+        "subject": "Q6497044",
+        "subjectValue": "History of literature",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q858517",
+        "objectValue": "cultural history",
+        "anotherObject": "Q1066186",
+        "anotherObjectValue": "study of history"
+    },
+    {
+        "subject": "Q6497044",
+        "subjectValue": "History of literature",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q858517",
+        "objectValue": "cultural history",
+        "anotherObject": "Q1143546",
+        "anotherObjectValue": "cultural studies"
+    },
+    {
+        "subject": "Q380274",
+        "subjectValue": "History of medicine",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q188952",
+        "objectValue": "medical history",
+        "anotherObject": "Q7142931",
+        "anotherObjectValue": "past medical history"
+    },
+    {
+        "subject": "Q380274",
+        "subjectValue": "History of medicine",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q201486",
+        "objectValue": "history of science",
+        "anotherObject": "Q1066186",
+        "anotherObjectValue": "study of history"
+    },
+    {
+        "subject": "Q380274",
+        "subjectValue": "History of medicine",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q380274",
+        "subjectValue": "History of medicine",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q380274",
+        "subjectValue": "History of medicine",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q201486",
+        "objectValue": "history of science",
+        "anotherObject": "Q309",
+        "anotherObjectValue": "history"
+    },
+    {
+        "subject": "Q380274",
+        "subjectValue": "History of medicine",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q188952",
+        "objectValue": "medical history",
+        "anotherObject": "Q1324077",
+        "anotherObjectValue": "medical record"
+    },
+    {
+        "subject": "Q380274",
+        "subjectValue": "History of medicine",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q188952",
+        "objectValue": "medical history",
+        "anotherObject": "Q1423967",
+        "anotherObjectValue": "catamnesis"
+    },
+    {
+        "subject": "Q380274",
+        "subjectValue": "History of medicine",
+        "predicate": "P361",
+        "predicateValue": "part of",
+        "object": "Q201486",
+        "objectValue": "history of science",
+        "anotherObject": "Q1066186",
+        "anotherObjectValue": "study of history"
+    },
+    {
+        "subject": "Q167328",
+        "subjectValue": "History of money",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q167328",
+        "subjectValue": "History of money",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q47398",
+        "objectValue": "economic history",
+        "anotherObject": "Q5076869",
+        "anotherObjectValue": "history of the social sciences"
+    },
+    {
+        "subject": "Q846047",
+        "subjectValue": "History of music",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q846047",
+        "subjectValue": "History of music",
+        "predicate": "P361",
+        "predicateValue": "part of",
+        "object": "Q164204",
+        "objectValue": "musicology",
+        "anotherObject": "Q113296040",
+        "anotherObjectValue": "Art, Music, Theatre and Media Studies"
+    },
+    {
+        "subject": "Q3137280",
+        "subjectValue": "History of navigation",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q1772393",
+        "subjectValue": "History of painting",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q50641",
+        "objectValue": "history of art",
+        "anotherObject": "Q858517",
+        "anotherObjectValue": "cultural history"
+    },
+    {
+        "subject": "Q1772393",
+        "subjectValue": "History of painting",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q1811550",
+        "subjectValue": "History of paper",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q27654",
+        "subjectValue": "History of philosophy",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q22811234",
+        "objectValue": "branch of philosophy",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q27654",
+        "subjectValue": "History of philosophy",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q22811234",
+        "objectValue": "branch of philosophy",
+        "anotherObject": "Q5962346",
+        "anotherObjectValue": "classification scheme"
+    },
+    {
+        "subject": "Q27654",
+        "subjectValue": "History of philosophy",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q27654",
+        "subjectValue": "History of philosophy",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q5891",
+        "objectValue": "philosophy",
+        "anotherObject": "Q105948247",
+        "anotherObjectValue": "knowledge system"
+    },
+    {
+        "subject": "Q27654",
+        "subjectValue": "History of philosophy",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q1066186",
+        "objectValue": "study of history",
+        "anotherObject": "Q80083",
+        "anotherObjectValue": "humanities"
+    },
+    {
+        "subject": "Q27654",
+        "subjectValue": "History of philosophy",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q81517619",
+        "objectValue": "branch of history",
+        "anotherObject": "Q109542218",
+        "anotherObjectValue": "class of parts"
+    },
+    {
+        "subject": "Q27654",
+        "subjectValue": "History of philosophy",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q22811234",
+        "objectValue": "branch of philosophy",
+        "anotherObject": "Q109542218",
+        "anotherObjectValue": "class of parts"
+    },
+    {
+        "subject": "Q257933",
+        "subjectValue": "History of printing",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q1190554",
+        "anotherObjectValue": "occurrence"
+    },
+    {
+        "subject": "Q257933",
+        "subjectValue": "History of printing",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q257933",
+        "subjectValue": "History of printing",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q4330518",
+        "anotherObjectValue": "object of study"
+    },
+    {
+        "subject": "Q257933",
+        "subjectValue": "History of printing",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q5067949",
+        "anotherObjectValue": "chain of events"
+    },
+    {
+        "subject": "Q257933",
+        "subjectValue": "History of printing",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q81517619",
+        "objectValue": "branch of history",
+        "anotherObject": "Q109542218",
+        "anotherObjectValue": "class of parts"
+    },
+    {
+        "subject": "Q5868036",
+        "subjectValue": "History of scholarship",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q11862829",
+        "objectValue": "academic discipline",
+        "anotherObject": "Q110402867",
+        "anotherObjectValue": "knowledge classification"
+    },
+    {
+        "subject": "Q5868036",
+        "subjectValue": "History of scholarship",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q2183341",
+        "subjectValue": "History of science and technology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q200325",
+        "objectValue": "human history",
+        "anotherObject": "Q309",
+        "anotherObjectValue": "history"
+    },
+    {
+        "subject": "Q2183341",
+        "subjectValue": "History of science and technology",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q2183341",
+        "subjectValue": "History of science and technology",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q34104",
+        "objectValue": "science and technology",
+        "anotherObject": "Q11016",
+        "anotherObjectValue": "technology"
+    },
+    {
+        "subject": "Q2183341",
+        "subjectValue": "History of science and technology",
+        "predicate": "P1269",
+        "predicateValue": "facet of",
+        "object": "Q34104",
+        "objectValue": "science and technology",
+        "anotherObject": "Q336",
+        "anotherObjectValue": "science"
+    },
+    {
+        "subject": "Q465352",
+        "subjectValue": "History of technology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q2183341",
+        "objectValue": "history of science and technology",
+        "anotherObject": "Q200325",
+        "anotherObjectValue": "human history"
+    },
+    {
+        "subject": "Q465352",
+        "subjectValue": "History of technology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q11016",
+        "objectValue": "technology",
+        "anotherObject": "Q34104",
+        "anotherObjectValue": "science and technology"
+    },
+    {
+        "subject": "Q465352",
+        "subjectValue": "History of technology",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q911270",
+        "subjectValue": "History of the alphabet",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q1190554",
+        "anotherObjectValue": "occurrence"
+    },
+    {
+        "subject": "Q911270",
+        "subjectValue": "History of the alphabet",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q911270",
+        "subjectValue": "History of the alphabet",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q4330518",
+        "anotherObjectValue": "object of study"
+    },
+    {
+        "subject": "Q911270",
+        "subjectValue": "History of the alphabet",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q309",
+        "objectValue": "history",
+        "anotherObject": "Q5067949",
+        "anotherObjectValue": "chain of events"
+    },
+    {
+        "subject": "Q911270",
+        "subjectValue": "History of the alphabet",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q4563817",
+        "objectValue": "segmental writing system",
+        "anotherObject": "Q8192",
+        "anotherObjectValue": "writing system"
+    },
+    {
+        "subject": "Q1129377",
+        "subjectValue": "History of the automobile",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q1061140",
+        "subjectValue": "History of theatre",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q50641",
+        "objectValue": "history of art",
+        "anotherObject": "Q858517",
+        "anotherObjectValue": "cultural history"
+    },
+    {
+        "subject": "Q1061140",
+        "subjectValue": "History of theatre",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q468305",
+        "subjectValue": "History of transport",
+        "predicate": "P1343",
+        "predicateValue": "described by source",
+        "object": "Q14916674",
+        "objectValue": "Dresdner Hefte",
+        "anotherObject": "Q14916674",
+        "anotherObjectValue": "Dresdner Hefte"
+    },
+    {
+        "subject": "Q468305",
+        "subjectValue": "History of transport",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q465352",
+        "objectValue": "history of technology",
+        "anotherObject": "Q2183341",
+        "anotherObjectValue": "history of science and technology"
+    },
+    {
+        "subject": "Q468305",
+        "subjectValue": "History of transport",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q468305",
+        "subjectValue": "History of transport",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q465352",
+        "objectValue": "history of technology",
+        "anotherObject": "Q11016",
+        "anotherObjectValue": "technology"
+    },
+    {
+        "subject": "Q5871067",
+        "subjectValue": "History of web syndication technology",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q1340267",
+        "subjectValue": "History of writing",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q17524420",
+        "objectValue": "aspect of history",
+        "anotherObject": "Q19478619",
+        "anotherObjectValue": "metaclass"
+    },
+    {
+        "subject": "Q1620887",
+        "subjectValue": "Historical metrology",
+        "predicate": "P31",
+        "predicateValue": "instance of",
+        "object": "Q770723",
+        "objectValue": "auxiliary science of history",
+        "anotherObject": "Q11862829",
+        "anotherObjectValue": "academic discipline"
+    },
+    {
+        "subject": "Q1620887",
+        "subjectValue": "Historical metrology",
+        "predicate": "P279",
+        "predicateValue": "subclass of",
+        "object": "Q394",
+        "objectValue": "metrology",
+        "anotherObject": "Q14632398",
+        "anotherObjectValue": "physical sciences"
+    }
+]

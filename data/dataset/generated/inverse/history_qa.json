@@ -1,0 +1,351 @@
+[
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "James Lockhart was a U.S. historian of colonial Spanish America, especially the Nahua people and Nahuatl language.\nNew Philology generally refers to a branch of Mexican ethnohistory and philology that uses colonial-era native language texts written by Indians to construct history from the indigenous point of view. The name New Philology was coined by James Lockhart to describe work that he and his doctoral students and scholarly collaborators in history, anthropology, and linguistics had pursued since the mid-1970s. Lockhart published a great many essays elaborating on the concept and content of the New Philology and Matthew Restall published a description of it in the Latin American Research Review.",
+        "subject": "James Lockhart",
+        "predicate": "found",
+        "object": "New Philology (Latin America)",
+        "evidence": [
+            [
+                "New Philology (Latin America)",
+                "founded by",
+                "James Lockhart"
+            ]
+        ],
+        "question": "Statement: It's not true that James Lockhart could be found of New Philology (Latin America). Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "Marc Léopold Benjamin Bloch was a French historian. He was a founding member of the Annales School of French social history. Bloch specialised in medieval history and published widely on medieval France over the course of his career. As an academic, he worked at the University of Strasbourg, the University of Paris, and the University of Montpellier.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.",
+        "subject": "Marc Bloch",
+        "predicate": "found",
+        "object": "Annales school",
+        "evidence": [
+            [
+                "Annales school",
+                "founded by",
+                "Marc Bloch"
+            ],
+            [
+                "Annales school",
+                "founded by",
+                "Lucien Febvre"
+            ]
+        ],
+        "question": "Statement: It's not true that Marc Bloch could be found of Annales school. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "Lucien Paul Victor Febvre was a French historian best known for the role he played in establishing the Annales School of history. He was the initial editor of the Encyclopédie française together with Anatole de Monzie.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.",
+        "subject": "Lucien Febvre",
+        "predicate": "found",
+        "object": "Annales school",
+        "evidence": [
+            [
+                "Annales school",
+                "founded by",
+                "Marc Bloch"
+            ],
+            [
+                "Annales school",
+                "founded by",
+                "Lucien Febvre"
+            ]
+        ],
+        "question": "Could Lucien Febvre be found of Annales school?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "James Lockhart was a U.S. historian of colonial Spanish America, especially the Nahua people and Nahuatl language.\nNew Philology generally refers to a branch of Mexican ethnohistory and philology that uses colonial-era native language texts written by Indians to construct history from the indigenous point of view. The name New Philology was coined by James Lockhart to describe work that he and his doctoral students and scholarly collaborators in history, anthropology, and linguistics had pursued since the mid-1970s. Lockhart published a great many essays elaborating on the concept and content of the New Philology and Matthew Restall published a description of it in the Latin American Research Review.",
+        "subject": "James Lockhart",
+        "predicate": "found",
+        "object": "New Philology (Latin America)",
+        "evidence": [
+            [
+                "New Philology (Latin America)",
+                "founded by",
+                "James Lockhart"
+            ]
+        ],
+        "question": "Does James Lockhart have the possibility to be found of New Philology (Latin America)?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "Marc Léopold Benjamin Bloch was a French historian. He was a founding member of the Annales School of French social history. Bloch specialised in medieval history and published widely on medieval France over the course of his career. As an academic, he worked at the University of Strasbourg, the University of Paris, and the University of Montpellier.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.",
+        "subject": "Marc Bloch",
+        "predicate": "found",
+        "object": "Annales school",
+        "evidence": [
+            [
+                "Annales school",
+                "founded by",
+                "Marc Bloch"
+            ],
+            [
+                "Annales school",
+                "founded by",
+                "Lucien Febvre"
+            ]
+        ],
+        "question": "Is it true that Marc Bloch could or could be found Annales school?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "Lucien Paul Victor Febvre was a French historian best known for the role he played in establishing the Annales School of history. He was the initial editor of the Encyclopédie française together with Anatole de Monzie.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.",
+        "subject": "Lucien Febvre",
+        "predicate": "found",
+        "object": "Annales school",
+        "evidence": [
+            [
+                "Annales school",
+                "founded by",
+                "Marc Bloch"
+            ],
+            [
+                "Annales school",
+                "founded by",
+                "Lucien Febvre"
+            ]
+        ],
+        "question": "Could Lucien Febvre be found of Annales school?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "James Lockhart was a U.S. historian of colonial Spanish America, especially the Nahua people and Nahuatl language.\nNew Philology generally refers to a branch of Mexican ethnohistory and philology that uses colonial-era native language texts written by Indians to construct history from the indigenous point of view. The name New Philology was coined by James Lockhart to describe work that he and his doctoral students and scholarly collaborators in history, anthropology, and linguistics had pursued since the mid-1970s. Lockhart published a great many essays elaborating on the concept and content of the New Philology and Matthew Restall published a description of it in the Latin American Research Review.",
+        "subject": "James Lockhart",
+        "predicate": "found",
+        "object": "New Philology (Latin America)",
+        "evidence": [
+            [
+                "New Philology (Latin America)",
+                "founded by",
+                "James Lockhart"
+            ]
+        ],
+        "question": "Is there any possibility that James Lockhart could not be found of New Philology (Latin America)?",
+        "answer": "No."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "Marc Léopold Benjamin Bloch was a French historian. He was a founding member of the Annales School of French social history. Bloch specialised in medieval history and published widely on medieval France over the course of his career. As an academic, he worked at the University of Strasbourg, the University of Paris, and the University of Montpellier.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.",
+        "subject": "Marc Bloch",
+        "predicate": "found",
+        "object": "Annales school",
+        "evidence": [
+            [
+                "Annales school",
+                "founded by",
+                "Marc Bloch"
+            ],
+            [
+                "Annales school",
+                "founded by",
+                "Lucien Febvre"
+            ]
+        ],
+        "question": "Does Marc Bloch have the possibility to be found of Annales school?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "Lucien Paul Victor Febvre was a French historian best known for the role he played in establishing the Annales School of history. He was the initial editor of the Encyclopédie française together with Anatole de Monzie.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.",
+        "subject": "Lucien Febvre",
+        "predicate": "found",
+        "object": "Annales school",
+        "evidence": [
+            [
+                "Annales school",
+                "founded by",
+                "Marc Bloch"
+            ],
+            [
+                "Annales school",
+                "founded by",
+                "Lucien Febvre"
+            ]
+        ],
+        "question": "Is it true that Lucien Febvre could or could be found Annales school?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "James Lockhart was a U.S. historian of colonial Spanish America, especially the Nahua people and Nahuatl language.\nNew Philology generally refers to a branch of Mexican ethnohistory and philology that uses colonial-era native language texts written by Indians to construct history from the indigenous point of view. The name New Philology was coined by James Lockhart to describe work that he and his doctoral students and scholarly collaborators in history, anthropology, and linguistics had pursued since the mid-1970s. Lockhart published a great many essays elaborating on the concept and content of the New Philology and Matthew Restall published a description of it in the Latin American Research Review.",
+        "subject": "James Lockhart",
+        "predicate": "found",
+        "object": "New Philology (Latin America)",
+        "evidence": [
+            [
+                "New Philology (Latin America)",
+                "founded by",
+                "James Lockhart"
+            ]
+        ],
+        "question": "Could James Lockhart be found of New Philology (Latin America)?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "Marc Léopold Benjamin Bloch was a French historian. He was a founding member of the Annales School of French social history. Bloch specialised in medieval history and published widely on medieval France over the course of his career. As an academic, he worked at the University of Strasbourg, the University of Paris, and the University of Montpellier.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.",
+        "subject": "Marc Bloch",
+        "predicate": "found",
+        "object": "Annales school",
+        "evidence": [
+            [
+                "Annales school",
+                "founded by",
+                "Marc Bloch"
+            ],
+            [
+                "Annales school",
+                "founded by",
+                "Lucien Febvre"
+            ]
+        ],
+        "question": "Does Marc Bloch have the possibility to be found of Annales school?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "Lucien Paul Victor Febvre was a French historian best known for the role he played in establishing the Annales School of history. He was the initial editor of the Encyclopédie française together with Anatole de Monzie.\nThe Annales school is a group of historians associated with a style of historiography developed by French historians in the 20th century to stress long-term social history. It is named after its scholarly journal Annales. Histoire, Sciences Sociales, which remains the main source of scholarship, along with many books and monographs. The school has been influential in setting the agenda for historiography in France and numerous other countries, especially regarding the use of social scientific methods by historians, emphasizing social and economic rather than political or diplomatic themes.",
+        "subject": "Lucien Febvre",
+        "predicate": "found",
+        "object": "Annales school",
+        "evidence": [
+            [
+                "Annales school",
+                "founded by",
+                "Marc Bloch"
+            ],
+            [
+                "Annales school",
+                "founded by",
+                "Lucien Febvre"
+            ]
+        ],
+        "question": "Does Lucien Febvre have the possibility to be found of Annales school?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "Barcelona is a city on the northeastern coast of Spain. It is the capital and largest city of the autonomous community of Catalonia, as well as the second-most populous municipality of Spain. With a population of 1.6 million within city limits, its urban area extends to numerous neighbouring municipalities within the province of Barcelona and is home to around 5.3 million people, making it the fifth most populous urban area of the European Union after Paris, the Ruhr area, Madrid and Milan. It is one of the largest metropolises on the Mediterranean Sea, located on the coast between the mouths of the rivers Llobregat and Besòs, bounded to the west by the Serra de Collserola mountain range.\nA letter written by Christopher Columbus on 15 February 1493, is the first known document announcing the completion of his first voyage across the Atlantic, which set out in 1492 and reached the Americas. The letter was ostensibly written by Columbus himself, aboard the caravel Niña, on the return leg of his voyage. A postscript was added upon his arrival in Lisbon on 4 March 1493, and it was probably from there that Columbus dispatched two copies of his letter to the Spanish court.",
+        "subject": "Barcelona",
+        "predicate": "the_fictional_universe_happened_to_meet",
+        "object": "Columbus's letter on the first voyage",
+        "evidence": [
+            [
+                "Columbus's letter on the first voyage",
+                "published in",
+                "Barcelona"
+            ]
+        ],
+        "question": "Could Barcelona be the fictional universe happened to meet of Columbus's letter on the first voyage?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "A retrospective, generally, is a look back at events that took place, or works that were produced, in the past. As a noun, retrospective has specific meanings in software development, popular culture, and the arts. It is applied as an adjective, synonymous with the term retroactive, to laws, standards, and awards.\nA golden age is a period considered the peak in the history of a country or people, a time period when the greatest achievements were made. The term originated from early Greek and Roman poets, who used it to refer to a time when mankind lived in a better time and was pure.",
+        "subject": "retrospective",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "Golden age (metaphor)",
+        "evidence": [
+            [
+                "Golden age (metaphor)",
+                "has characteristic",
+                "retrospective"
+            ],
+            [
+                "Golden age (metaphor)",
+                "has characteristic",
+                "nostalgia"
+            ]
+        ],
+        "question": "Does retrospective have the possibility to be be the natural reservoir in of Golden age (metaphor)?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "Nostalgia is a sentimentality for the past, typically for a period or place with happy personal associations. The word nostalgia is a neoclassical compound derived from Greek, consisting of νόστος (nóstos), a Homeric word meaning \"homecoming\", and ἄλγος (álgos), meaning \"pain\"; the word was coined by a 17th-century medical student to describe the anxieties displayed by Swiss mercenaries fighting away from home. Described as a medical condition—a form of melancholy—in the early modern period, it became an important trope in Romanticism.\nA golden age is a period considered the peak in the history of a country or people, a time period when the greatest achievements were made. The term originated from early Greek and Roman poets, who used it to refer to a time when mankind lived in a better time and was pure.",
+        "subject": "nostalgia",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "Golden age (metaphor)",
+        "evidence": [
+            [
+                "Golden age (metaphor)",
+                "has characteristic",
+                "retrospective"
+            ],
+            [
+                "Golden age (metaphor)",
+                "has characteristic",
+                "nostalgia"
+            ]
+        ],
+        "question": "Does nostalgia have the possibility to be be the natural reservoir in of Golden age (metaphor)?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "A retrospective, generally, is a look back at events that took place, or works that were produced, in the past. As a noun, retrospective has specific meanings in software development, popular culture, and the arts. It is applied as an adjective, synonymous with the term retroactive, to laws, standards, and awards.\nA golden age is a period considered the peak in the history of a country or people, a time period when the greatest achievements were made. The term originated from early Greek and Roman poets, who used it to refer to a time when mankind lived in a better time and was pure.",
+        "subject": "retrospective",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "Golden age (metaphor)",
+        "evidence": [
+            [
+                "Golden age (metaphor)",
+                "has characteristic",
+                "retrospective"
+            ],
+            [
+                "Golden age (metaphor)",
+                "has characteristic",
+                "nostalgia"
+            ]
+        ],
+        "question": "Does retrospective have the possibility to be be the natural reservoir in of Golden age (metaphor)?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Inverse Function Inference",
+        "description": "Nostalgia is a sentimentality for the past, typically for a period or place with happy personal associations. The word nostalgia is a neoclassical compound derived from Greek, consisting of νόστος (nóstos), a Homeric word meaning \"homecoming\", and ἄλγος (álgos), meaning \"pain\"; the word was coined by a 17th-century medical student to describe the anxieties displayed by Swiss mercenaries fighting away from home. Described as a medical condition—a form of melancholy—in the early modern period, it became an important trope in Romanticism.\nA golden age is a period considered the peak in the history of a country or people, a time period when the greatest achievements were made. The term originated from early Greek and Roman poets, who used it to refer to a time when mankind lived in a better time and was pure.",
+        "subject": "nostalgia",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "Golden age (metaphor)",
+        "evidence": [
+            [
+                "Golden age (metaphor)",
+                "has characteristic",
+                "retrospective"
+            ],
+            [
+                "Golden age (metaphor)",
+                "has characteristic",
+                "nostalgia"
+            ]
+        ],
+        "question": "Is it true that nostalgia could or could be be the natural reservoir in Golden age (metaphor)?",
+        "answer": "Yes."
+    }
+]

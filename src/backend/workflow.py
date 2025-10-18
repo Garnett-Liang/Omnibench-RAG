@@ -1,0 +1,777 @@
+# src/backend/workflow.py
+import os
+import re
+import io
+import json
+import torch
+import requests
+from tqdm import tqdm
+import psutil
+import subprocess
+import pandas as pd
+from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
+from contextlib import redirect_stdout
+import time
+import threading
+import sys
+from werkzeug.utils import secure_filename
+import random
+import traceback
+from datetime import datetime
+import numpy as np
+from datasets import load_dataset, Dataset
+from difflib import SequenceMatcher
+from sklearn.metrics import accuracy_score
+from sentence_transformers import SentenceTransformer, util
+from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline, AutoModelForSequenceClassification
+from work_models.data_preprocess import rag_preprocess
+from work_models.embed_faiss import build_faiss_index, load_embedding_model, load_faiss_index
+from work_models.get_wiki_cat_id import (
+    get_category_pages, save_links_to_file, 
+    get_category_members, extract_entity_pages, save_entity_links_to_file
+)
+from work_models.transitive_entity_extract import (
+    get_entity_info, get_predicate_labels, replace_predicates_with_labels
+)
+from work_models.transitive_pl_build import (
+    replace_special_characters, save_to_pl_file, process_prolog_file
+)
+from work_models.wiki_pl_build import (
+    get_related_entity_list, get_prop_list, 
+    replace_special_characters1, save_to_pl_file1, process_prolog_file1
+)
+from work_models.rule_generation import RuleGenerator
+from work_models.prolog_inference import (
+    normalize_path, safe_consult, get_wikipedia_summary, 
+    replace_special_characters2, is_q_followed_by_digits, 
+    negation_prolog_inference, composite_prolog_inference, inverse_prolog_inference
+)
+from work_models.question_generation import inverse_template, negation_template, composite_template
+from evaluate import loadset, get_wikidata_id_from_wikipedia_url
+from dynamic_dataset import generate_dynamic_dataset
+
+# global
+current_log_file = None
+rag_processes = {}  
+current_rag_log = None
+
+class BinaryAnswerClassifier:
+    def __init__(self, model_name="distilbert-base-uncased-finetuned-sst-2-english"):
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.model = AutoModelForSequenceClassification.from_pretrained(model_name)
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.model.to(self.device)
+        self.labels = {0: "no", 1: "yes"}  
+    
+    def predict(self, text: str) -> tuple[str, float]:
+        inputs = self.tokenizer(text, return_tensors="pt", truncation=True, padding="max_length", max_length=128)
+        inputs = {k: v.to(self.device) for k, v in inputs.items()}
+        with torch.no_grad():
+            outputs = self.model(**inputs)
+        
+        logits = outputs.logits
+        prediction = torch.argmax(logits, dim=1).item()
+        probabilities = torch.softmax(logits, dim=1)
+        confidence = probabilities[0][prediction].item()
+        return self.labels[prediction], confidence
+    
+answer_classifier = BinaryAnswerClassifier()
+
+
+
+def extract_valid_answer(full_output: str, prompt: str) -> str:
+    prompt_end_idx = full_output.find(prompt) + len(prompt)
+    valid_answer = full_output[prompt_end_idx:].strip()
+    return valid_answer if valid_answer else full_output
+
+def get_memory_usage():
+    process = psutil.Process(os.getpid())
+    memory_info = process.memory_info()
+    return memory_info.rss / (1024 ** 2)  
+
+def get_gpu_utilization():
+    try:
+        result = subprocess.run(['nvidia-smi', '--query-gpu=utilization.gpu', '--format=csv,noheader,nounits'], capture_output=True, text=True)
+        gpu_utilization = int(result.stdout.strip())
+        return gpu_utilization
+    except Exception as e:
+        print(f"Error getting GPU utilization: {e}")
+        return 0
+
+def get_device():
+    
+    if torch.cuda.is_available():
+        return 0  
+    elif torch.backends.mps.is_available():
+        return "mps"  
+    else:
+        return -1
+
+def generate_answers(model_name, questions):
+    tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True, clean_up_tokenization_spaces=False, torch_dtype=torch.float32)
+    model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True, is_decoder=True)
+
+    text_generator = pipeline("text-generation", model=model, tokenizer=tokenizer, device=0)
+
+    answers = []
+    response_times = []
+    memory_usages = []
+    gpu_utilizations = []
+
+    for question in questions:
+        start_time = time.time()
+        start_memory = get_memory_usage()
+        start_gpu = get_gpu_utilization()
+
+        response = text_generator(question, max_new_tokens=300, num_return_sequences=1)
+
+        end_time = time.time()
+        end_memory = get_memory_usage()
+        end_gpu = get_gpu_utilization()
+
+        response_time = end_time - start_time
+        response_times.append(response_time)
+        memory_usages.append(end_memory - start_memory)
+        gpu_utilizations.append((start_gpu + end_gpu) / 2)
+
+        generated_text = response[0]['generated_text'].strip()
+
+        if generated_text.startswith(question):
+            answer = generated_text[len(question):].strip()
+        else:
+            answer = generated_text
+        if not answer:
+            answer = "No answer"
+        answers.append(answer)
+
+    return answers, response_times, memory_usages, gpu_utilizations  
+
+
+def evaluate_model(model_name, questions, standard_answers):
+    model_answers, response_times, memory_usages, gpu_utilizations = generate_answers(model_name, questions)
+
+    basic_correct = 0
+    total = len(questions)
+    total_response_time = sum(response_times)
+    average_response_time = total_response_time / total if total > 0 else 0
+
+    positive_memory_usages = [mem for mem in memory_usages if mem > 0]
+    if positive_memory_usages:
+        average_memory_usage = sum(positive_memory_usages) / len(positive_memory_usages)
+    else:
+        average_memory_usage = 0
+    average_gpu_utilization = sum(gpu_utilizations) / total if total > 0 else 0
+
+  
+
+    results = {
+        "model_name": model_name,
+        "questions": [],
+        "basic_accuracy": 0.0,
+        "average_response_time": average_response_time,
+        "average_memory_usage": average_memory_usage,
+        "average_gpu_utilization": average_gpu_utilization,
+    }
+
+    for i, (question, model_answer, standard_answer, response_time, memory_usage, gpu_utilization) in enumerate(
+            zip(questions, model_answers, standard_answers, response_times, memory_usages, gpu_utilizations)):
+        raw_reference = standard_answer.strip().lower()
+        reference_answer = re.sub(r'[^a-z]', '', raw_reference)
+
+        predicted_label, confidence = answer_classifier.predict(model_answer)
+
+        if not model_answer or model_answer in ["No answer"]:
+            predicted_label = "none"
+            is_correct = False
+        else:
+            is_correct = (predicted_label == reference_answer)
+            if is_correct:
+                basic_correct += 1
+
+        results["questions"].append({
+            "question": question,
+            "model_answer": model_answer,
+            "reference_answer": reference_answer,
+            "predicted_label": predicted_label,
+            "confidence": confidence,
+            "is_correct": is_correct,
+            "response_time": response_time,
+            "memory_usage": memory_usage,
+            "gpu_utilization": gpu_utilization
+        })
+
+    basic_accuracy = (basic_correct / total) * 100 if total > 0 else 0
+    results["basic_accuracy"] = basic_accuracy
+
+    return json.dumps(results, indent=4, ensure_ascii=False)
+
+
+def run_evaluation(rule_choice, domain_choice, model_choice, log_file, dataset_source):
+    global current_log_file
+    current_log_file = log_file
+    
+    # 核心：获取当前脚本绝对路径（固定路径基准）
+    current_script_path = os.path.abspath(__file__)
+    current_script_dir = os.path.dirname(current_script_path)
+    results_root = os.path.abspath(os.path.join(current_script_dir, '..', 'experiments', 'results', 'results'))
+    os.makedirs(results_root, exist_ok=True)  # 确保结果目录存在
+    
+    with open(log_file, 'w', encoding='utf-8') as f:
+        with redirect_stdout(f):  # 所有打印重定向到日志文件
+            try:
+                # 1. 设备检测（CPU/GPU）
+                device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+                print(f"Using device: {device}")
+                
+                # 2. 推理规则与领域映射
+                rule_map = {"1": "inverse", "2": "negation", "3": "composite"}
+                reasoning_type = rule_map.get(rule_choice, "inverse")
+                print(f"Selected reasoning rule: {reasoning_type}")
+                
+                domains = ["geography", "history", "health", "mathematics", "nature", 
+                           "people", "society", "technology", "culture"]
+                domain = domains[int(domain_choice) - 1] if (
+                    domain_choice.isdigit() and 1 <= int(domain_choice) <= 9
+                ) else "geography"
+                print(f"Selected domain: {domain}")
+                print(f"Processing domain: {domain}")
+                
+                questions, standard_answers = [], []
+                current_file_path = ""  # 关键：初始化路径变量，每个文件操作前更新
+                
+                # -------------------------- 数据集加载/生成逻辑 --------------------------
+                if dataset_source == "existing":
+                    print("Using reproducible dataset...")
+                    # 加载现有数据集路径
+                    dataset_path = os.path.abspath(os.path.join(
+                        current_script_dir, '../../', 'data', 'dataset', 'generated', reasoning_type,
+                        f'{domain}_qa.json'
+                    ))
+                    current_file_path = dataset_path
+                    questions, standard_answers = loadset(reasoning_type, domain, current_file_path)
+                    print(f"Loaded {len(questions)} questions from {current_file_path}")
+                else:  
+                    print("Using dynamically generated dataset...")
+                    
+                    # 检查dynamic文件夹下是否存在数据集
+                    dynamic_dataset_path = os.path.abspath(os.path.join(
+                        current_script_dir, '../../', 'data', 'dataset', 'dynamic', reasoning_type,
+                        f'{domain}_qa.json'
+                    ))
+                    
+                    if os.path.exists(dynamic_dataset_path):
+                        print(f"Found existing dynamic dataset: {dynamic_dataset_path}")
+                        current_file_path = dynamic_dataset_path
+                        questions, standard_answers = loadset(reasoning_type, domain, current_file_path)
+                        print(f"Loaded {len(questions)} questions from existing dynamic dataset")
+                    else:
+                        print("Dynamic dataset not found, generating new dataset...")
+                        
+
+                        qa_file_path = generate_dynamic_dataset(rule_choice, domain_choice, current_script_dir)
+                        
+
+                        questions, standard_answers = loadset(reasoning_type, domain, qa_file_path)
+                        print(f"Loaded {len(questions)} newly generated questions")
+
+                # -------------------------- 模型评估逻辑 --------------------------
+                if not questions or not standard_answers:
+                    raise ValueError("No valid questions/answers for evaluation")
+                
+                model_map = {"1": "Qwen/Qwen-1_8B", "2": "gpt2-medium", "3": "EleutherAI/gpt-neo-125M", "4": "microsoft/DialoGPT-medium", "5": "facebook/opt-1.3b"}
+                model_name = model_map.get(model_choice)
+                if not model_name:
+                    raise ValueError(f"Invalid model choice: {model_choice}")
+                
+                print(f"Evaluating with model: {model_name}")
+                json_result = evaluate_model(model_name, questions, standard_answers)
+                
+                # 保存评估结果
+                timestamp = int(time.time())
+                result_filename = f"{reasoning_type}_{domain}_{model_name.replace('/', '_')}_{timestamp}.json"
+                result_path = os.path.join(results_root, result_filename)
+                
+                with open(result_path, "w", encoding="utf-8") as f_result:
+                    f_result.write(json_result)
+                
+                print(f"Results saved to: {result_path}")  
+                return {
+                    "status": "complete", 
+                    "message": "Evaluation successful", 
+                    "evaluation_result": json.loads(json_result), 
+                    "sample_questions": questions[:5],
+                    "sample_answers": standard_answers[:5],
+                    "result_path": result_path  
+                }
+
+            # -------------------------- 异常捕获 --------------------------
+            except json.JSONDecodeError as e:
+                error_msg = f"JSON解析错误\n问题文件: {current_file_path}\n错误详情: {str(e)}"
+                print(error_msg)
+                return {"status": "error", "message": error_msg}
+            
+            except FileNotFoundError as e:
+                error_msg = f"文件未找到\n目标文件: {current_file_path}\n错误详情: {str(e)}"
+                print(error_msg)
+                return {"status": "error", "message": error_msg}
+            
+            except Exception as e:
+                error_msg = f"评估失败\n当前处理文件: {current_file_path}\n错误详情: {str(e)}"
+                print(error_msg)
+                return {"status": "error", "message": error_msg}
+
+
+def evaluate_rag_model(model_name, domain, test_questions, top_k):
+    """Core logic for RAG evaluation with performance metrics tracking"""
+    global model, index, cleaned_abstracts  # Use pre-loaded global variables
+    
+    # 1. Initialize generative model (select based on model_name)
+    try:
+        if model_name == "qwen":
+            tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen-1_8B", trust_remote_code=True)
+            generate_model = AutoModelForCausalLM.from_pretrained(
+                "Qwen/Qwen-1_8B", 
+                trust_remote_code=True,
+                # device_map="auto" 
+            )
+        elif model_name == "gpt2":
+            tokenizer = AutoTokenizer.from_pretrained("gpt2-medium")
+            generate_model = AutoModelForCausalLM.from_pretrained("gpt2-medium")
+        elif model_name == "gptneo":
+            tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-neo-125M")
+            generate_model = AutoModelForCausalLM.from_pretrained("EleutherAI/gpt-neo-125M")
+        elif model_name == "dialogpt":
+            tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium",trust_remote_code=True)
+            generate_model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
+        elif model_name == "opt":
+            tokenizer = AutoTokenizer.from_pretrained("facebook/opt-1.3b",trust_remote_code=True)
+            generate_model = AutoModelForCausalLM.from_pretrained("facebook/opt-1.3b")
+
+    except ValueError as e:
+        print(f"Failed to load model: {e}")
+        return 0.0, 0.0, {}, {}  # 返回空的性能指标
+    
+    device = get_device()
+    generator = pipeline("text-generation", model=generate_model, tokenizer=tokenizer, device=device)
+    
+    # 2. Initialize counters and total samples
+    basic_correct = 0
+    rag_correct = 0
+    total = len(test_questions)
+    print(f"Starting evaluation with {total} samples")  
+    
+    # 性能指标收集
+    basic_metrics = {
+        "response_time": [],
+        "memory_usage": [],
+        "gpu_utilization": []
+    }
+    
+    rag_metrics = {
+        "response_time": [],
+        "memory_usage": [],
+        "gpu_utilization": []
+    }
+    
+    # 3. Iterate through test questions with progress tracking
+    for i, question_item in enumerate(test_questions):
+        # Print progress (every 10 samples or last sample)
+        if (i + 1) % 10 == 0 or (i + 1) == total:
+            print(f"Processed {i + 1}/{total} samples")
+        
+        # Extract question and reference answer
+        question = question_item["question"]
+        raw_reference = question_item["answer"].strip().lower()
+        # Clean reference answer (remove punctuation, keep letters only)
+        reference_answer = re.sub(r'[^a-z]', '', raw_reference)
+        
+        # 基础模型评估（带性能指标）
+        basic_start_time = time.time()
+        basic_start_memory = get_memory_usage()
+        basic_start_gpu = get_gpu_utilization() if torch.cuda.is_available() else 0
+        
+        basic_prompt = f"Answer with 'yes' or 'no': {question}"
+        basic_output = generator(
+            basic_prompt,
+            max_new_tokens=100,
+            temperature=0.1,
+            truncation=True,
+            do_sample=True
+        )
+
+        basic_generated_text = basic_output[0]["generated_text"].strip().lower()
+
+        if basic_generated_text.startswith(basic_prompt):
+            basic_answer = basic_generated_text[len(basic_prompt):].strip()
+        else:
+            basic_answer = basic_generated_text
+        
+        # 记录基础模型性能指标
+        basic_end_time = time.time()
+        basic_end_memory = get_memory_usage()
+        basic_end_gpu = get_gpu_utilization() if torch.cuda.is_available() else 0
+        
+        # 只记录大于0的值
+        basic_time = basic_end_time - basic_start_time
+        basic_mem = basic_end_memory - basic_start_memory
+        basic_gpu = basic_end_gpu - basic_start_gpu
+        
+        if basic_time > 0:
+            basic_metrics["response_time"].append(basic_time)
+        if basic_mem > 0:
+            basic_metrics["memory_usage"].append(basic_mem)
+        if basic_gpu > 0:
+            basic_metrics["gpu_utilization"].append(basic_gpu)
+        
+        # Use classifier to predict basic model answer
+        basic_prediction, basic_confidence = answer_classifier.predict(basic_answer)
+        # Check correctness
+        if basic_prediction == reference_answer:
+            basic_correct += 1
+        
+        # RAG模型评估（带性能指标）
+        rag_start_time = time.time()
+        rag_start_memory = get_memory_usage()
+        rag_start_gpu = get_gpu_utilization() if torch.cuda.is_available() else 0
+        
+        # Retrieve relevant documents
+        query_embedding = model.encode(question, convert_to_tensor=True)
+        query_embedding_2d = np.expand_dims(query_embedding.cpu().numpy(), axis=0)
+        distances, indices = index.search(query_embedding_2d, top_k)
+        retrieved_docs = [cleaned_abstracts[i] for i in indices[0] if i < len(cleaned_abstracts)]
+        
+        # Build context-aware prompt
+        context = "\n".join(retrieved_docs)
+        rag_prompt = f"Context:\n{context}\n\nQuestion: {question}\nAnswer with 'yes' or 'no':"
+        
+        # Generate RAG model answer
+        rag_output = generator(
+            rag_prompt,
+            max_new_tokens=150,
+            temperature=0.1,
+            truncation=True,
+            do_sample=True
+        )
+        rag_generated_text = rag_output[0]["generated_text"].strip().lower()
+
+        target_phrase = "answer with 'yes' or 'no':"
+        target_pos = rag_generated_text.find(target_phrase)
+        if target_pos != -1:
+            rag_answer = rag_generated_text[target_pos + len(target_phrase):].strip()
+        elif rag_generated_text.startswith(rag_prompt):
+            
+            rag_answer = rag_generated_text[len(rag_prompt):].strip()
+        else:
+            rag_answer = rag_generated_text
+        
+        # 记录RAG模型性能指标
+        rag_end_time = time.time()
+        rag_end_memory = get_memory_usage()
+        rag_end_gpu = get_gpu_utilization() if torch.cuda.is_available() else 0
+        
+        # 只记录大于0的值
+        rag_time = rag_end_time - rag_start_time
+        rag_mem = rag_end_memory - rag_start_memory
+        rag_gpu = rag_end_gpu - rag_start_gpu
+        
+        if rag_time > 0:
+            rag_metrics["response_time"].append(rag_time)
+        if rag_mem > 0:
+            rag_metrics["memory_usage"].append(rag_mem)
+        if rag_gpu > 0:
+            rag_metrics["gpu_utilization"].append(rag_gpu)
+        
+        # Use classifier to predict RAG model answer
+        rag_prediction, rag_confidence = answer_classifier.predict(rag_answer)
+        # Check correctness
+        if rag_prediction == reference_answer:
+            rag_correct += 1
+        
+        # 7. Print detailed debug information for first 10 samples
+        if i < 10:
+            print(f"\n===== Detailed Analysis for Sample {i + 1} =====")
+            print(f"Question: {question}")
+            print(f"Reference Answer: {raw_reference} → Cleaned: {reference_answer}")
+            
+            print(f"\nBase Model (No RAG):")
+            print(f"  Raw Output: {basic_answer}")
+            print(f"  Semantic Prediction: {basic_prediction} (Confidence: {basic_confidence:.4f})")
+            print(f"  Correctness: {'Correct' if basic_prediction == reference_answer else 'Incorrect'}")
+            print(f"  Performance: Time={basic_time:.4f}s, "
+                  f"Memory={basic_mem:.4f}MB, "
+                  f"GPU={basic_gpu:.2f}%")
+            
+            print(f"\nRAG-Enhanced Model:")
+            print(f"  Raw Output: {rag_answer}")
+            print(f"  Semantic Prediction: {rag_prediction} (Confidence: {rag_confidence:.4f})")
+            print(f"  Correctness: {'Correct' if rag_prediction == reference_answer else 'Incorrect'}")
+            print(f"  Performance: Time={rag_time:.4f}s, "
+                  f"Memory={rag_mem:.4f}MB, "
+                  f"GPU={rag_gpu:.2f}%")
+            print(f"  Retrieved Documents: {len(retrieved_docs)}")
+            print("=" * 70)  # Separator line
+    
+    # Calculate accuracy
+    basic_accuracy = basic_correct / total if total > 0 else 0
+    rag_accuracy = rag_correct / total if total > 0 else 0
+    
+    # 计算性能指标平均值（只考虑大于0的值）
+    basic_avg_metrics = {
+        "response_time": sum(basic_metrics["response_time"]) / len(basic_metrics["response_time"]) if basic_metrics["response_time"] else 0,
+        "memory_usage": sum(basic_metrics["memory_usage"]) / len(basic_metrics["memory_usage"]) if basic_metrics["memory_usage"] else 0,
+        "gpu_utilization": sum(basic_metrics["gpu_utilization"]) / len(basic_metrics["gpu_utilization"]) if basic_metrics["gpu_utilization"] else 0
+    }
+    
+    rag_avg_metrics = {
+        "response_time": sum(rag_metrics["response_time"]) / len(rag_metrics["response_time"]) if rag_metrics["response_time"] else 0,
+        "memory_usage": sum(rag_metrics["memory_usage"]) / len(rag_metrics["memory_usage"]) if rag_metrics["memory_usage"] else 0,
+        "gpu_utilization": sum(rag_metrics["gpu_utilization"]) / len(rag_metrics["gpu_utilization"]) if rag_metrics["gpu_utilization"] else 0
+    }
+    
+    # 计算增幅（RAG/基础）
+    performance_ratios = {
+        "response_time": rag_avg_metrics["response_time"] / basic_avg_metrics["response_time"] if basic_avg_metrics["response_time"] > 0 else 0,
+        "memory_usage": rag_avg_metrics["memory_usage"] / basic_avg_metrics["memory_usage"] if basic_avg_metrics["memory_usage"] > 0 else 0,
+        "gpu_utilization": rag_avg_metrics["gpu_utilization"] / basic_avg_metrics["gpu_utilization"] if basic_avg_metrics["gpu_utilization"] > 0 else 0
+    }
+    
+    print("\n===== Performance Metrics Summary =====")
+    print(f"Base Model:")
+    print(f"  Avg Response Time: {basic_avg_metrics['response_time']:.4f}s (based on {len(basic_metrics['response_time'])}/{total} samples)")
+    print(f"  Avg Memory Usage: {basic_avg_metrics['memory_usage']:.4f}MB (based on {len(basic_metrics['memory_usage'])}/{total} samples)")
+    print(f"  Avg GPU Utilization: {basic_avg_metrics['gpu_utilization']:.2f}% (based on {len(basic_metrics['gpu_utilization'])}/{total} samples)")
+    
+    print(f"\nRAG Model:")
+    print(f"  Avg Response Time: {rag_avg_metrics['response_time']:.4f}s ({performance_ratios['response_time']:.2f}x base)")
+    print(f"  Avg Memory Usage: {rag_avg_metrics['memory_usage']:.4f}MB ({performance_ratios['memory_usage']:.2f}x base)")
+    print(f"  Avg GPU Utilization: {rag_avg_metrics['gpu_utilization']:.2f}% ({performance_ratios['gpu_utilization']:.2f}x base)")
+    
+    return basic_accuracy, rag_accuracy, basic_avg_metrics, rag_avg_metrics, performance_ratios
+
+
+def run_rag_evaluation(rule, domain, model_name, top_k, log_file, dataset_source='existing', rag_material_source='strong'):
+    """Background task for RAG evaluation with performance metrics"""
+    global current_rag_log
+    current_rag_log = log_file
+    
+    # 核心：获取当前脚本(workflow.py)的绝对路径和目录，所有路径基于此计算
+    current_script_path = os.path.abspath(__file__)
+    current_script_dir = os.path.dirname(current_script_path)
+    
+    try:
+        # 重定向输出到日志文件
+        with open(log_file, 'w', encoding='utf-8') as f:
+            with redirect_stdout(f):
+                print(f"Starting RAG evaluation - Domain: {domain}, Model: {model_name}, Top-K: {top_k}")
+                print(f"Dataset source: {dataset_source}, RAG material source: {rag_material_source}")
+                print("=" * 50)
+                
+                # -------------------------- 1. 检查RAG预处理数据 --------------------------
+                print(f"[1/5] Checking and preprocessing {domain} domain data...")
+                
+                # 根据RAG材料来源选择正确的路径
+                if rag_material_source == "strong":
+                    print("Using Strong Wiki material...")
+                    # RAG预处理文件路径：../../data/RAG_material/Strong_cleaned/Strong_{domain}.txt
+                    rag_cleaned_dir = os.path.abspath(os.path.join(
+                        current_script_dir, '../../', 'data', 'RAG_material', 'Strong_cleaned'
+                    ))
+                    data_file_path = os.path.join(rag_cleaned_dir, f'Strong_{domain}.txt')
+                    
+                    if not os.path.exists(data_file_path):
+                        print(f"Strong data not found, generating from descriptions...")
+                        # 调用修改后的description_collector来生成Strong材料
+                        from work_models.description_collector import collect_descriptions_to_strong
+                        collect_descriptions_to_strong(domain, 'reproducible')
+                    else:
+                        print(f"Strong data already exists (path: {data_file_path}), skipping generation")
+                elif rag_material_source == "dynamic_strong":
+                    print("Using Dynamic Strong Wiki material...")
+                    # RAG预处理文件路径：../../data/RAG_material/Dynamic_Strong_cleaned/Dynamic_Strong_{domain}.txt
+                    rag_cleaned_dir = os.path.abspath(os.path.join(
+                        current_script_dir, '../../', 'data', 'RAG_material', 'Dynamic_Strong_cleaned'
+                    ))
+                    data_file_path = os.path.join(rag_cleaned_dir, f'Dynamic_Strong_{domain}.txt')
+                    
+                    if not os.path.exists(data_file_path):
+                        print(f"Dynamic Strong data not found, generating from descriptions...")
+                        # 调用修改后的description_collector来生成Dynamic Strong材料
+                        from work_models.description_collector import collect_descriptions_to_strong
+                        collect_descriptions_to_strong(domain, 'dynamic')
+                    else:
+                        print(f"Dynamic Strong data already exists (path: {data_file_path}), skipping generation")
+                else:  # rag_material_source == "flexible"
+                    print("Using flexible uploaded material...")
+                    # RAG预处理文件路径：../../data/RAG_material/cleaned/cleaned_{domain}.txt
+                    rag_cleaned_dir = os.path.abspath(os.path.join(
+                        current_script_dir, '../../', 'data', 'RAG_material', 'cleaned'
+                    ))
+                    data_file_path = os.path.join(rag_cleaned_dir, f'cleaned_{domain}.txt')
+                    
+                    if not os.path.exists(data_file_path):
+                        print(f"Flexible data not found, starting rag_preprocess({domain})...")
+                        rag_preprocess(domain, data_file_path)
+                    else:
+                        print(f"Flexible data already processed (path: {data_file_path}), skipping")
+
+                # -------------------------- 2. 检查FAISS向量索引 --------------------------
+                print(f"[2/5] Checking and building {domain} domain vector index...")
+                
+                # 根据RAG材料来源选择正确的索引路径
+                if rag_material_source == "strong":
+                    print("Using Strong Wiki material index...")
+                    # 向量索引路径：../../data/RAG_material/Strong_base/{domain}_index.faiss
+                    knowledge_base_dir = os.path.abspath(os.path.join(
+                        current_script_dir, '../../', 'data', 'RAG_material', 'Strong_base'
+                    ))
+                    index_file_path = os.path.join(knowledge_base_dir, f'{domain}_index.faiss')
+                    
+                    if not os.path.exists(index_file_path):
+                        print(f"Strong index not found, generating from descriptions...")
+                        # 调用修改后的description_collector来生成Strong索引
+                        from work_models.description_collector import collect_descriptions_to_strong
+                        collect_descriptions_to_strong(domain, 'reproducible')
+                    else:
+                        print(f"Strong index already exists (path: {index_file_path}), loading...")
+                elif rag_material_source == "dynamic_strong":
+                    print("Using Dynamic Strong Wiki material index...")
+                    # 向量索引路径：../../data/RAG_material/Dynamic_Strong_base/{domain}_index.faiss
+                    knowledge_base_dir = os.path.abspath(os.path.join(
+                        current_script_dir, '../../', 'data', 'RAG_material', 'Dynamic_Strong_base'
+                    ))
+                    index_file_path = os.path.join(knowledge_base_dir, f'{domain}_index.faiss')
+                    
+                    if not os.path.exists(index_file_path):
+                        print(f"Dynamic Strong index not found, generating from descriptions...")
+                        # 调用修改后的description_collector来生成Dynamic Strong索引
+                        from work_models.description_collector import collect_descriptions_to_strong
+                        collect_descriptions_to_strong(domain, 'dynamic')
+                    else:
+                        print(f"Dynamic Strong index already exists (path: {index_file_path}), loading...")
+                else:  # rag_material_source == "flexible"
+                    print("Using flexible uploaded material index...")
+                    # 向量索引路径：../../data/RAG_material/knowledge_base/{domain}_index.faiss
+                    knowledge_base_dir = os.path.abspath(os.path.join(
+                        current_script_dir, '../../', 'data', 'RAG_material', 'knowledge_base'
+                    ))
+                    index_file_path = os.path.join(knowledge_base_dir, f'{domain}_index.faiss')
+                    
+                    if not os.path.exists(index_file_path):
+                        print(f"Flexible index not built, starting build_faiss_index({domain})...")
+                        build_faiss_index(domain, index_file_path)
+                    else:
+                        print(f"Flexible index already exists (path: {index_file_path}), loading...")
+                
+                # -------------------------- 3. 加载评估数据集 --------------------------
+                print(f"[3/5] Loading {domain} domain evaluation dataset...")
+                
+                # 根据数据集来源选择正确的路径
+                if dataset_source == "existing":
+                    print("Using reproducible dataset...")
+                    # 加载现有数据集路径：../../data/dataset/generated/{rule}/{domain}_qa.json
+                    dataset_path = os.path.abspath(os.path.join(
+                        current_script_dir, '../../', 'data', 'dataset', 'generated', rule,
+                        f'{domain}_qa.json'
+                    ))
+                else:  # dataset_source == "new"
+                    print("Using dynamically generated dataset...")
+                    # 使用动态数据集路径：../../data/dataset/dynamic/{rule}/{domain}_qa.json
+                    dataset_path = os.path.abspath(os.path.join(
+                        current_script_dir, '../../', 'data', 'dataset', 'dynamic', rule,
+                        f'{domain}_qa.json'
+                    ))
+                
+                if not os.path.exists(dataset_path):
+                    print(f"Error: Dataset not found - {dataset_path}")
+                    return
+                with open(dataset_path, 'r', encoding='utf-8') as f:
+                    test_dataset = json.load(f)
+
+                max_samples = 50
+                if len(test_dataset) > max_samples:
+                    test_dataset = test_dataset[:max_samples]  # 截取前50条
+                    print(f"Limited dataset to first {max_samples} samples")
+
+                print(f"Loaded {len(test_dataset)} samples from {dataset_path}")
+                # -------------------------- 4. 初始化模型和检索器 --------------------------
+                print(f"[4/5] Initializing model and retriever...")
+                global model, index, cleaned_abstracts
+                
+                # 加载嵌入模型
+                model = load_embedding_model()
+                print(f"Embedding model device: {model.device if hasattr(model, 'device') else 'CPU'}") 
+
+                # 加载FAISS索引（复用步骤2的index_file_path）
+                # 注意：需确保load_faiss_index支持传入自定义路径
+                index = load_faiss_index(domain, index_file_path)
+                
+                # 加载预处理文档（复用步骤1的data_file_path）
+                with open(data_file_path, 'r', encoding='utf-8') as f:
+                    cleaned_abstracts = [line.strip() for line in f.readlines() if line.strip()]
+                print(f"Loaded {len(cleaned_abstracts)} preprocessed document chunks")
+                
+                # -------------------------- 5. 执行RAG评估 --------------------------
+                print(f"[5/5] Starting RAG evaluation... ({len(test_dataset)} samples)")
+                basic_score, rag_score, basic_metrics, rag_metrics, perf_ratios = evaluate_rag_model(
+                    model_name=model_name,
+                    domain=domain,
+                    test_questions=test_dataset,
+                    top_k=top_k
+                )
+                
+                # -------------------------- 6. 保存RAG评估结果 --------------------------
+                timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+                # 结果保存路径：../experiments/results/rag_results/...
+                rag_results_dir = os.path.abspath(os.path.join(
+                    current_script_dir, '..', 'experiments', 'results', 'rag_results'
+                ))
+                os.makedirs(rag_results_dir, exist_ok=True)
+                result_filename = f"rag_{domain}_{model_name}_{timestamp}.json"
+                result_path = os.path.join(rag_results_dir, result_filename)
+                
+                # 组织结果数据
+                result_data = {
+                    "rule": rule,
+                    "domain": domain,
+                    "model_name": model_name,
+                    "evaluation_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "metrics": {
+                        "basic_accuracy": basic_score,
+                        "rag_accuracy": rag_score,
+                        "improvement": rag_score - basic_score,
+                        "performance": {
+                            "basic": basic_metrics,
+                            "rag": rag_metrics,
+                            "ratios": perf_ratios
+                        }
+                    },
+                    "parameters": {
+                        "top_k": top_k,
+                        "dataset_size": len(test_dataset)
+                    }
+                }
+                
+                with open(result_path, 'w', encoding='utf-8') as f:
+                    json.dump(result_data, f, indent=2, ensure_ascii=False)
+                
+                print(f"\nRAG evaluation completed! Results saved to: {result_path}")
+                print(f"Basic accuracy: {basic_score:.4f} | RAG accuracy: {rag_score:.4f} | Improvement: {rag_score - basic_score:.4f}")
+                
+                # 更新进程状态（若需要）
+                process_id = log_file.split('_')[-1].split('.')[0]
+                if process_id in rag_processes:
+                    rag_processes[process_id]["status"] = "completed"
+                    rag_processes[process_id]["result_file"] = result_path
+    
+    except Exception as e:
+        # 追加错误信息到日志
+        with open(log_file, 'a', encoding='utf-8') as f:
+            f.write(f"\nError: {str(e)}\n")
+            f.write(traceback.format_exc())  # 打印详细错误栈
+        
+        # 更新进程错误状态
+        process_id = log_file.split('_')[-1].split('.')[0]
+        if process_id in rag_processes:
+            rag_processes[process_id]["status"] = "error"
+            rag_processes[process_id]["error_message"] = str(e)

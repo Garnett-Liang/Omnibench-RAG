@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omnibench-RAG - Dynamic Dataset Generation</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #3b82f6;
+            --color-secondary: #1e40af;
+            --color-success: #10b981;
+            --color-warning: #f59e0b;
+            --color-error: #ef4444;
+            --color-info: #06b6d4;
+            --font-inter: 'Inter', sans-serif;
+        }
+        
+        @utility card-shadow {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+        }
+        
+        @utility card-shadow-hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <style>
+        body {
+            font-family: var(--font-inter);
+            background-color: #f8fafc;
+        }
+        
+        .log-container {
+            max-height: 400px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .progress-bar {
+            transition: width 0.5s ease-in-out;
+        }
+        
+        .generation-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .generation-card:hover {
+            transform: translateY(-5px);
+            box-shadow: card-shadow-hover;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Header Navigation -->
+    <header class="bg-primary text-white shadow-md">
+        <div class="container mx-auto px-4 py-3">
+            <nav class="flex items-center justify-between">
+                <a href="/" class="flex items-center">  
+                    <i class="fas fa-arrow-left mr-2"></i>
+                    <h1 class="text-xl font-bold">Back to Home</h1>
+                </a>
+                <h1 class="text-xl font-bold">Dynamic Dataset Generation</h1>
+                <div></div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-6">
+        <!-- Generation Parameter Card -->
+        <div class="bg-white rounded-xl card-shadow p-6 mb-6">
+            <h2 class="text-xl font-bold text-secondary mb-4 flex items-center">
+                <i class="fas fa-sliders-h mr-2 text-primary"></i>Dataset Generation Parameters
+            </h2>
+            
+            <!-- Domain Selection -->
+            <div class="mb-6">
+                <h3 class="font-medium text-secondary mb-3 flex items-center">
+                    <i class="fas fa-globe mr-2 text-primary"></i>Domain Selection
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="flex items-center">
+                        <input type="radio" id="geography" name="domainChoice" value="1" class="mr-2" checked>
+                        <label for="geography" class="font-medium">Geography</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="history" name="domainChoice" value="2" class="mr-2">
+                        <label for="history" class="font-medium">History</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="health" name="domainChoice" value="3" class="mr-2">
+                        <label for="health" class="font-medium">Health</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="mathematics" name="domainChoice" value="4" class="mr-2">
+                        <label for="mathematics" class="font-medium">Mathematics</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="nature" name="domainChoice" value="5" class="mr-2">
+                        <label for="nature" class="font-medium">Nature</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="people" name="domainChoice" value="6" class="mr-2">
+                        <label for="people" class="font-medium">People</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="society" name="domainChoice" value="7" class="mr-2">
+                        <label for="society" class="font-medium">Society</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="technology" name="domainChoice" value="8" class="mr-2">
+                        <label for="technology" class="font-medium">Technology</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="culture" name="domainChoice" value="9" class="mr-2">
+                        <label for="culture" class="font-medium">Culture</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Reasoning Rule Selection -->
+            <div class="mb-6">
+                <h3 class="font-medium text-secondary mb-3 flex items-center">
+                    <i class="fas fa-project-diagram mr-2 text-primary"></i>Reasoning Rule Selection
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="flex items-center">
+                        <input type="radio" id="inverseRule" name="ruleChoice" value="1" class="mr-2" checked>
+                        <label for="inverseRule" class="font-medium">Inverse Inference</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="negationRule" name="ruleChoice" value="2" class="mr-2">
+                        <label for="negationRule" class="font-medium">Negation Inference</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input type="radio" id="compositeRule" name="ruleChoice" value="3" class="mr-2">
+                        <label for="compositeRule" class="font-medium">Composite Inference</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Operation Buttons -->
+            <div class="flex flex-col sm:flex-row gap-3">
+                <button id="startGeneration" class="bg-primary hover:bg-secondary text-white font-medium py-2 px-6 rounded-lg flex-1 flex items-center justify-center">
+                    <i class="fas fa-play mr-2"></i> Start Dataset Generation
+                </button>
+                <button id="clearResults" class="bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 px-6 rounded-lg flex-1 flex items-center justify-center">
+                    <i class="fas fa-trash mr-2"></i> Clear Results
+                </button>
+            </div>
+        </div>
+        
+        <!-- Progress Card -->
+        <div class="bg-white rounded-xl card-shadow p-6 mb-6">
+            <h2 class="text-xl font-bold text-secondary mb-4 flex items-center">
+                <i class="fas fa-spinner mr-2 text-primary"></i>Generation Progress
+            </h2>
+            <div class="mb-4">
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div id="progressBar" class="bg-primary h-2.5 rounded-full progress-bar" style="width: 0%"></div>
+                </div>
+                <div id="progressMessage" class="text-gray-600 mt-2">Ready to start dataset generation...</div>
+            </div>
+        </div>
+        
+        <!-- Log Card -->
+        <div class="bg-white rounded-xl card-shadow p-6 mb-6">
+            <h2 class="text-xl font-bold text-secondary mb-4 flex items-center">
+                <i class="fas fa-terminal mr-2 text-primary"></i>Generation Logs
+            </h2>
+            <div id="logContainer" class="log-container border border-gray-200 rounded-lg p-3 text-sm">
+                <p class="text-gray-500">Click the "Start Dataset Generation" button to begin the generation process, and the logs will be displayed here...</p>
+            </div>
+        </div>
+        
+        <!-- Result Card -->
+        <div class="bg-white rounded-xl card-shadow p-6">
+            <h2 class="text-xl font-bold text-secondary mb-4 flex items-center">
+                <i class="fas fa-check-circle mr-2 text-primary"></i>Generation Results
+            </h2>
+            <div id="resultsContainer" class="py-6">
+                <p class="text-gray-500 text-center py-10">Results will be displayed here after generation is completed...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-100 border-t border-gray-200 mt-12 py-4">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-600">&copy; 2024 Omnibench-RAG. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const startButton = document.getElementById('startGeneration');
+            const clearButton = document.getElementById('clearResults');
+            const progressBar = document.getElementById('progressBar');
+            const progressMessage = document.getElementById('progressMessage');
+            const logContainer = document.getElementById('logContainer');
+            const resultsContainer = document.getElementById('resultsContainer');
+            
+            let logFile = null;
+            let logPollingInterval = null;
+            
+            // Start generation button click event
+            startButton.addEventListener('click', function() {
+                // Get selected parameters
+                const ruleChoice = document.querySelector('input[name="ruleChoice"]:checked').value;
+                const domainChoice = document.querySelector('input[name="domainChoice"]:checked').value;
+                
+                // Validate parameters
+                if (!ruleChoice || !domainChoice) {
+                    alert('Please select both domain and reasoning rule');
+                    return;
+                }
+                
+                // Reset the interface
+                progressBar.style.width = '0%';
+                progressMessage.textContent = 'Dataset generation has started, processing...';
+                logContainer.innerHTML = '<p class="text-info"><i class="fas fa-spinner fa-spin mr-1"></i> Dataset generation is starting, please wait...</p>';
+                resultsContainer.innerHTML = '<p class="text-gray-500 text-center py-10"><i class="fas fa-spinner fa-spin mr-1"></i> Generation is in progress, results will be displayed here...</p>';
+                startButton.disabled = true;
+                startButton.classList.add('opacity-50', 'cursor-not-allowed');
+                clearButton.disabled = true;
+                
+                // Send generation request
+                fetch('/api/generate_dataset', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        rule_choice: ruleChoice,
+                        domain_choice: domainChoice
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'processing') {
+                        logFile = data.log_file;
+                        console.log('Log file:', logFile);
+                        
+                        // Periodically fetch logs and progress
+                        logPollingInterval = setInterval(function() {
+                            fetchLogAndProgress(logFile);
+                        }, 1000);
+                    } else {
+                        progressMessage.textContent = 'Request processing error: ' + data.message;
+                        logContainer.innerHTML = `<p class="text-error">${data.message}</p>`;
+                        startButton.disabled = false;
+                        startButton.classList.remove('opacity-50', 'cursor-not-allowed');
+                        clearButton.disabled = false;
+                    }
+                })
+                .catch(error => {
+                    console.error('Error sending request:', error);
+                    progressMessage.textContent = 'Error sending request: ' + error.message;
+                    logContainer.innerHTML = `<p class="text-error">Error sending request: ${error.message}</p>`;
+                    startButton.disabled = false;
+                    startButton.classList.remove('opacity-50', 'cursor-not-allowed');
+                    clearButton.disabled = false;
+                });
+            });
+            
+            clearButton.addEventListener('click', function() {
+                if (logPollingInterval) {
+                    clearInterval(logPollingInterval);
+                }
+                progressBar.style.width = '0%';
+                progressMessage.textContent = 'Ready to start dataset generation...';
+                logContainer.innerHTML = '<p class="text-gray-500">Click the "Start Dataset Generation" button to begin the generation process, and the logs will be displayed here...</p>';
+                resultsContainer.innerHTML = '<p class="text-gray-500 text-center py-10">Results will be displayed here after generation is completed...</p>';
+                logFile = null;
+                startButton.disabled = false;
+                startButton.classList.remove('opacity-50', 'cursor-not-allowed');
+                clearButton.disabled = false;
+            });
+            
+            // Fetch logs and progress
+            function fetchLogAndProgress(logFile) {
+                if (!logFile) return;
+                
+                // Fetch progress and logs in parallel
+                Promise.all([
+                    fetch(`/api/dataset_progress/${logFile}`).then(res => res.json()),
+                    fetch(`/api/dataset_logs/${logFile}`).then(res => res.json())
+                ])
+                .then(([progressData, logData]) => {
+                    // Update progress
+                    progressBar.style.width = progressData.progress + '%';
+                    progressMessage.textContent = progressData.message;
+                    
+                    // Update logs
+                    displayLogs(logData.logs);
+                    
+                    // Check if generation is completed
+                    if (progressData.progress >= 100 || logData.logs.includes('Dataset generation completed') || logData.logs.includes('Results saved to:')) {
+                        clearInterval(logPollingInterval);
+                        fetchResults(logFile);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching logs/progress:', error);
+                });
+            }
+            
+            // Display logs
+            function displayLogs(logs) {
+                if (!logs) return;
+                
+                logContainer.innerHTML = '';
+                const logLines = logs.split('\n');
+                
+                logLines.forEach(line => {
+                    if (line.trim() === '') return;
+                    
+                    const logLine = document.createElement('p');
+                    logLine.className = 'mb-1';
+                    
+                    if (line.includes('Error:') || line.includes('错误:') || line.includes('异常:') || line.includes('失败:')) {
+                        logLine.className += ' text-error';
+                    } else if (line.includes('Warning:') || line.includes('注意:')) {
+                        logLine.className += ' text-warning';
+                    } else if (line.includes('Saved') || line.includes('Completed') || line.includes('Success') || line.includes('Loaded')) {
+                        logLine.className += ' text-info';
+                    } else {
+                        logLine.className += ' text-gray-600';
+                    }
+                    
+                    logLine.textContent = line;
+                    logContainer.appendChild(logLine);
+                });
+                
+                // Scroll to the bottom
+                logContainer.scrollTop = logContainer.scrollHeight;
+            }
+            
+            // Fetch generation results
+            function fetchResults(logFile) {
+                fetch(`/api/dataset_results/${logFile}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        progressMessage.textContent = 'Dataset generation completed';
+                        
+                        // Get selected parameters for display
+                        const ruleChoice = document.querySelector('input[name="ruleChoice"]:checked').value;
+                        const domainChoice = document.querySelector('input[name="domainChoice"]:checked').value;
+                        
+                        const ruleMap = {"1": "Inverse", "2": "Negation", "3": "Composite"};
+                        const domainMap = {
+                            "1": "Geography", "2": "History", "3": "Health", 
+                            "4": "Mathematics", "5": "Nature", "6": "People", 
+                            "7": "Society", "8": "Technology", "9": "Culture"
+                        };
+                        
+                        const ruleName = ruleMap[ruleChoice] || 'Unknown';
+                        const domainName = domainMap[domainChoice] || 'Unknown';
+                        
+                        // Build results HTML
+                        let resultsHTML = `
+                            <div class="text-center mb-8">
+                                <div class="text-4xl font-bold text-success mb-2">
+                                    <i class="fas fa-check-circle mr-2"></i>Success!
+                                </div>
+                                <div class="text-gray-600">Dataset generation completed successfully</div>
+                            </div>
+                            
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                                <div class="bg-blue-50 p-4 rounded-lg">
+                                    <div class="text-sm text-blue-600 mb-1">Reasoning Rule</div>
+                                    <div class="text-lg font-medium">${ruleName} Inference</div>
+                                </div>
+                                <div class="bg-green-50 p-4 rounded-lg">
+                                    <div class="text-sm text-green-600 mb-1">Domain</div>
+                                    <div class="text-lg font-medium">${domainName}</div>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                                <h3 class="font-medium text-primary mb-3">Generated Dataset Information</h3>
+                                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                    <div>
+                                        <div class="text-sm text-gray-600 mb-1">Total Questions</div>
+                                        <div class="text-lg font-medium">${data.total_questions || 'N/A'}</div>
+                                    </div>
+                                    <div>
+                                        <div class="text-sm text-gray-600 mb-1">Dataset Size</div>
+                                        <div class="text-lg font-medium">${data.dataset_size || 'N/A'}</div>
+                                    </div>
+                                    <div>
+                                        <div class="text-sm text-gray-600 mb-1">Generation Time</div>
+                                        <div class="text-lg font-medium">${data.generation_time || 'N/A'}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        
+                        if (data.file_path) {
+                            resultsHTML += `
+                                <div class="bg-gray-50 p-3 rounded-lg text-sm text-gray-600">
+                                    <i class="fas fa-file-code mr-1 text-info"></i>
+                                    Dataset has been saved to: ${data.file_path}
+                                </div>
+                            `;
+                        }
+                        
+                        resultsContainer.innerHTML = resultsHTML;
+                    } else {
+                        progressMessage.textContent = 'Dataset generation error: ' + data.message;
+                        resultsContainer.innerHTML = `
+                            <div class="bg-red-50 border-l-4 border-error p-4">
+                                <h3 class="font-medium text-error mb-2">Dataset Generation Error</h3>
+                                <p class="text-gray-700">${data.message}</p>
+                            </div>
+                        `;
+                    }
+                    
+                    startButton.disabled = false;
+                    startButton.classList.remove('opacity-50', 'cursor-not-allowed');
+                    clearButton.disabled = false;
+                })
+                .catch(error => {
+                    console.error('Error fetching results:', error);
+                    resultsContainer.innerHTML = `
+                        <div class="bg-red-50 border-l-4 border-error p-4">
+                            <h3 class="font-medium text-error mb-2">Error Fetching Results</h3>
+                            <p class="text-gray-700">${error.message}</p>
+                        </div>
+                    `;
+                    startButton.disabled = false;
+                    startButton.classList.remove('opacity-50', 'cursor-not-allowed');
+                    clearButton.disabled = false;
+                });
+            }
+        });
+    </script>
+</body>
+</html>

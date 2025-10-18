@@ -1,0 +1,22 @@
+[
+    {
+        "subject": "Q13427002",
+        "subjectValue": "Fad",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q3007130",
+        "objectValue": "Q3007130",
+        "anotherObject": "Q12684",
+        "anotherObjectValue": "fashion"
+    },
+    {
+        "subject": "Q13495118",
+        "subjectValue": "Middlebrow",
+        "predicate": "P1343",
+        "predicateValue": "described by source",
+        "object": "Q27802941",
+        "objectValue": "Masscult and Midcult",
+        "anotherObject": "Q58276911",
+        "anotherObjectValue": "Q58276911"
+    }
+]

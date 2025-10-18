@@ -1,0 +1,2746 @@
+[
+    {
+        "entity": "Q56064315",
+        "entityLabel": "Wahkohtowin",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q111955892",
+        "valueLabel": "Canadian Indigenous law"
+    },
+    {
+        "entity": "Q56064315",
+        "entityLabel": "Wahkohtowin",
+        "property": "P2596",
+        "propertyLabel": "culture",
+        "value": "Q117191",
+        "valueLabel": "Cree"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q2267705",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q16889133",
+        "valueLabel": "class"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q14565700",
+        "valueLabel": "social studies"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q944537",
+        "valueLabel": "Geisteswissenschaften"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q34187",
+        "valueLabel": "religious studies"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q27654",
+        "valueLabel": "history of philosophy"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q315",
+        "valueLabel": "language"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q8242",
+        "valueLabel": "literature"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q1587903",
+        "valueLabel": "human science"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q459381",
+        "valueLabel": "literary theory"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q34749",
+        "valueLabel": "social science"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q8162",
+        "valueLabel": "linguistics"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q179805",
+        "valueLabel": "political philosophy"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q6684096",
+        "valueLabel": "Template:Humanities"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q23404",
+        "valueLabel": "anthropology"
+    },
+    {
+        "entity": "Q80083",
+        "entityLabel": "Humanities",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q23498",
+        "valueLabel": "archaeology"
+    },
+    {
+        "entity": "Q16149747",
+        "entityLabel": "Humanities Indicators",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q7112793",
+        "entityLabel": "Outline of the humanities",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q55336315",
+        "valueLabel": "art"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q16082057",
+        "valueLabel": "The New Student's Reference Work"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q6670897",
+        "valueLabel": "Template:Aesthetics"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q3181656",
+        "valueLabel": "The Nuttall Encyclop\u00e6dia"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q186531",
+        "valueLabel": "axiology"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q63284758",
+        "valueLabel": "Desktop Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8807864",
+        "valueLabel": "Category:Aesthetics"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7210394",
+        "valueLabel": "Category:Theories of aesthetics"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5891",
+        "valueLabel": "philosophy"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q35986",
+        "entityLabel": "Aesthetics",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2041543",
+        "valueLabel": "Q2041543"
+    },
+    {
+        "entity": "Q928786",
+        "entityLabel": "Area studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q928786",
+        "entityLabel": "Area studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1665984",
+        "valueLabel": "interdisciplinary science"
+    },
+    {
+        "entity": "Q928786",
+        "entityLabel": "Area studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q23010558",
+        "valueLabel": "area, ethnic, cultural, gender, and group studies"
+    },
+    {
+        "entity": "Q928786",
+        "entityLabel": "Area studies",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q1595873",
+        "valueLabel": "domestic studies"
+    },
+    {
+        "entity": "Q928786",
+        "entityLabel": "Area studies",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1781695",
+        "valueLabel": "regional science"
+    },
+    {
+        "entity": "Q928786",
+        "entityLabel": "Area studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1143546",
+        "valueLabel": "cultural studies"
+    },
+    {
+        "entity": "Q928786",
+        "entityLabel": "Area studies",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q17135920",
+        "valueLabel": "scholar of area studies"
+    },
+    {
+        "entity": "Q928786",
+        "entityLabel": "Area studies",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7007113",
+        "valueLabel": "Category:Area studies"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q50641",
+        "valueLabel": "history of art"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q80083",
+        "valueLabel": "humanities"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q1792450",
+        "valueLabel": "art historian"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9560932",
+        "valueLabel": "Q9560932"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1757598",
+        "valueLabel": "visual art education"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q50641",
+        "valueLabel": "history of art"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q120234397",
+        "valueLabel": "art history teacher"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q113296040",
+        "valueLabel": "Q113296040"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q62302889",
+        "valueLabel": "art practice"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737604",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 2"
+    },
+    {
+        "entity": "Q50637",
+        "entityLabel": "Art history",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q98641248",
+        "valueLabel": "curatorial studies"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q3958441",
+        "valueLabel": "economic sector"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P2184",
+        "propertyLabel": "history of topic",
+        "value": "Q50641",
+        "valueLabel": "history of art"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q451967",
+        "valueLabel": "intentional human activity"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737604",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 2"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q42314818",
+        "valueLabel": "art"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q4104783",
+        "valueLabel": "Category:The arts"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q56441911",
+        "valueLabel": "The Domestic Encyclop\u00e6dia; Or, A Dictionary Of Facts, And Useful Knowledge"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q11042",
+        "valueLabel": "culture"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q80083",
+        "valueLabel": "humanities"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q3918365",
+        "valueLabel": "Portal:Arts"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q101314624",
+        "valueLabel": "Lean Logic"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q735",
+        "valueLabel": "art"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q3181656",
+        "valueLabel": "The Nuttall Encyclop\u00e6dia"
+    },
+    {
+        "entity": "Q2018526",
+        "entityLabel": "The arts",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q838948",
+        "valueLabel": "work of art"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q4806809",
+        "valueLabel": "Asian studies"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q12237297",
+        "valueLabel": "languages of the Caucasus"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1377029",
+        "valueLabel": "European studies"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q10173107",
+        "valueLabel": "Category:Caucasology"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q928786",
+        "valueLabel": "area studies"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q18869",
+        "valueLabel": "Caucasus"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q116234171",
+        "valueLabel": "Caucasologist"
+    },
+    {
+        "entity": "Q41259",
+        "entityLabel": "Caucasology",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737632",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 5"
+    },
+    {
+        "entity": "Q26697825",
+        "entityLabel": "Change and continuity",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q10361123",
+        "valueLabel": "dichotomy"
+    },
+    {
+        "entity": "Q26697825",
+        "entityLabel": "Change and continuity",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q1150070",
+        "valueLabel": "change"
+    },
+    {
+        "entity": "Q26697825",
+        "entityLabel": "Change and continuity",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q12030090",
+        "valueLabel": "continuity"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q10916116",
+        "valueLabel": "history book"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9604682",
+        "valueLabel": "Category:Chorographies"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q223393",
+        "valueLabel": "literary genre"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q105726199",
+        "valueLabel": "Q105726199"
+    },
+    {
+        "entity": "Q2088593",
+        "entityLabel": "Chorography",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q42515",
+        "valueLabel": "cartography"
+    },
+    {
+        "entity": "Q841090",
+        "entityLabel": "Classics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q841090",
+        "entityLabel": "Classics",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q928786",
+        "valueLabel": "area studies"
+    },
+    {
+        "entity": "Q841090",
+        "entityLabel": "Classics",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q35497",
+        "valueLabel": "Ancient Greek"
+    },
+    {
+        "entity": "Q841090",
+        "entityLabel": "Classics",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q495527",
+        "valueLabel": "classical philology"
+    },
+    {
+        "entity": "Q841090",
+        "entityLabel": "Classics",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q2468727",
+        "valueLabel": "classical scholar"
+    },
+    {
+        "entity": "Q841090",
+        "entityLabel": "Classics",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q124737616",
+        "valueLabel": "Armenian Soviet Encyclopedia, vol. 3"
+    },
+    {
+        "entity": "Q841090",
+        "entityLabel": "Classics",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q309",
+        "valueLabel": "history"
+    },
+    {
+        "entity": "Q841090",
+        "entityLabel": "Classics",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7007177",
+        "valueLabel": "Category:Classical studies"
+    },
+    {
+        "entity": "Q841090",
+        "entityLabel": "Classics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q841090",
+        "entityLabel": "Classics",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q541923",
+        "valueLabel": "ancient literature"
+    },
+    {
+        "entity": "Q841090",
+        "entityLabel": "Classics",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q397",
+        "valueLabel": "Latin"
+    },
+    {
+        "entity": "Q841090",
+        "entityLabel": "Classics",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q439072",
+        "valueLabel": "classical studies"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q105760881",
+        "valueLabel": "branch of sociology"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P61",
+        "propertyLabel": "discoverer or inventor",
+        "value": "Q76826",
+        "valueLabel": "Max Horkheimer"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q119007932",
+        "valueLabel": "sociological methodology"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q7472393",
+        "valueLabel": "Category:Critical theory"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q4455170",
+        "valueLabel": "social conflict theory"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q44850682",
+        "valueLabel": "normative sociology"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1639471",
+        "valueLabel": "Marxist philosophy"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q1144757",
+        "valueLabel": "Marxist sociology"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P1535",
+        "propertyLabel": "used by",
+        "value": "Q4455170",
+        "valueLabel": "social conflict theory"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q7741887",
+        "valueLabel": "Template:Critical theory"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q20743760",
+        "valueLabel": "Encyclopedia of Political Theory"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q110353090",
+        "valueLabel": "critical social theory"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q151843",
+        "valueLabel": "Frankfurt School"
+    },
+    {
+        "entity": "Q301751",
+        "entityLabel": "Critical theory",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1377163",
+        "valueLabel": "sociological theory"
+    },
+    {
+        "entity": "Q166153",
+        "entityLabel": "German studies",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q181287",
+        "valueLabel": "German-language literature"
+    },
+    {
+        "entity": "Q166153",
+        "entityLabel": "German studies",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q188",
+        "valueLabel": "German"
+    },
+    {
+        "entity": "Q166153",
+        "entityLabel": "German studies",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q2599593",
+        "valueLabel": "germanist"
+    },
+    {
+        "entity": "Q166153",
+        "entityLabel": "German studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1047113",
+        "valueLabel": "field of study"
+    },
+    {
+        "entity": "Q166153",
+        "entityLabel": "German studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q2620112",
+        "valueLabel": "Germanic philology"
+    },
+    {
+        "entity": "Q166153",
+        "entityLabel": "German studies",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8491004",
+        "valueLabel": "Category:Germanic philology"
+    },
+    {
+        "entity": "Q166153",
+        "entityLabel": "German studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4532138",
+        "valueLabel": "Granat Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q1457595",
+        "valueLabel": "Category:History"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P2670",
+        "propertyLabel": "has part(s) of the class",
+        "value": "Q209815",
+        "valueLabel": "oral tradition"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P2959",
+        "propertyLabel": "permanent duplicated item",
+        "value": "Q58237100",
+        "valueLabel": "Q58237100"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q50675",
+        "valueLabel": "historiography"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q192630",
+        "valueLabel": "past"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q5067949",
+        "valueLabel": "chain of events"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P2959",
+        "propertyLabel": "permanent duplicated item",
+        "value": "Q20829341",
+        "valueLabel": "Q20829341"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q14403588",
+        "valueLabel": "Template:History of science and technology in the United States"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1066186",
+        "valueLabel": "study of history"
+    },
+    {
+        "entity": "Q309",
+        "entityLabel": "History",
+        "property": "P2670",
+        "propertyLabel": "has part(s) of the class",
+        "value": "Q13418847",
+        "valueLabel": "historical event"
+    },
+    {
+        "entity": "Q5939567",
+        "entityLabel": "Humanities in the United States",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q936749",
+        "entityLabel": "Literary nonsense",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q333625",
+        "valueLabel": "absurdism"
+    },
+    {
+        "entity": "Q936749",
+        "entityLabel": "Literary nonsense",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q60548032",
+        "valueLabel": "humor"
+    },
+    {
+        "entity": "Q936749",
+        "entityLabel": "Literary nonsense",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q223393",
+        "valueLabel": "literary genre"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P2959",
+        "propertyLabel": "permanent duplicated item",
+        "value": "Q27131939",
+        "valueLabel": "Q27131939"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q223393",
+        "valueLabel": "literary genre"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P2670",
+        "propertyLabel": "has part(s) of the class",
+        "value": "Q7725634",
+        "valueLabel": "literary work"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4173137",
+        "valueLabel": "Jewish Encyclopedia of Brockhaus and Efron"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q1768721",
+        "valueLabel": "Gujin Tushu Jicheng"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P2737",
+        "propertyLabel": "union of",
+        "value": "Q23766486",
+        "valueLabel": "list of values as qualifiers"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q6067896",
+        "valueLabel": "Template:Literature"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q58854",
+        "valueLabel": "literary criticism"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q440848",
+        "valueLabel": "sociology of literature"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P1552",
+        "propertyLabel": "has characteristic",
+        "value": "Q6888090",
+        "valueLabel": "mode"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2041543",
+        "valueLabel": "Q2041543"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8259",
+        "valueLabel": "Category:Literature"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q6486703",
+        "valueLabel": "language arts"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q106727050",
+        "valueLabel": "Metropolitan Museum of Art Tagging Vocabulary"
+    },
+    {
+        "entity": "Q8242",
+        "entityLabel": "Literature",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q16889133",
+        "valueLabel": "class"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q4671286",
+        "valueLabel": "academic major"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q113128088",
+        "valueLabel": "media industry studies"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P3342",
+        "propertyLabel": "significant person",
+        "value": "Q193871",
+        "valueLabel": "Marshall McLuhan"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q11033",
+        "valueLabel": "mass media"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q22758772",
+        "valueLabel": "Template:Media studies"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q449981",
+        "valueLabel": "Category:Media studies"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q34749",
+        "valueLabel": "social science"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q187084",
+        "valueLabel": "newspaper studies"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P2184",
+        "propertyLabel": "history of topic",
+        "value": "Q50636",
+        "valueLabel": "media history"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q11680831",
+        "valueLabel": "communication studies"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q6386271",
+        "valueLabel": "media scholar"
+    },
+    {
+        "entity": "Q165650",
+        "entityLabel": "Media studies",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q11881925",
+        "valueLabel": "media science"
+    },
+    {
+        "entity": "Q6975018",
+        "entityLabel": "National Postdoctoral Association",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "16387",
+        "valueLabel": "16387"
+    },
+    {
+        "entity": "Q6975018",
+        "entityLabel": "National Postdoctoral Association",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q61",
+        "valueLabel": "Washington, D.C."
+    },
+    {
+        "entity": "Q6975018",
+        "entityLabel": "National Postdoctoral Association",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1110684",
+        "valueLabel": "regulatory college"
+    },
+    {
+        "entity": "Q6975018",
+        "entityLabel": "National Postdoctoral Association",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q18325436",
+        "valueLabel": "501(c)(3) organization"
+    },
+    {
+        "entity": "Q6975018",
+        "entityLabel": "National Postdoctoral Association",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q829080",
+        "valueLabel": "professional association"
+    },
+    {
+        "entity": "Q6975018",
+        "entityLabel": "National Postdoctoral Association",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "14986",
+        "valueLabel": "14986"
+    },
+    {
+        "entity": "Q6975018",
+        "entityLabel": "National Postdoctoral Association",
+        "property": "P8687",
+        "propertyLabel": "social media followers",
+        "value": "13197",
+        "valueLabel": "13197"
+    },
+    {
+        "entity": "Q6975018",
+        "entityLabel": "National Postdoctoral Association",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q472263",
+        "entityLabel": "Parergon",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q33104279",
+        "valueLabel": "philosophical concept"
+    },
+    {
+        "entity": "Q472263",
+        "entityLabel": "Parergon",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q7257903",
+        "entityLabel": "Public humanities",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q80083",
+        "valueLabel": "humanities"
+    },
+    {
+        "entity": "Q7257903",
+        "entityLabel": "Public humanities",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q1277348",
+        "entityLabel": "Romance studies",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q2504617",
+        "valueLabel": "romanist"
+    },
+    {
+        "entity": "Q1277348",
+        "entityLabel": "Romance studies",
+        "property": "P2578",
+        "propertyLabel": "is the study of",
+        "value": "Q19814",
+        "valueLabel": "Romance languages"
+    },
+    {
+        "entity": "Q1277348",
+        "entityLabel": "Romance studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1377029",
+        "valueLabel": "European studies"
+    },
+    {
+        "entity": "Q1277348",
+        "entityLabel": "Romance studies",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11790583",
+        "valueLabel": "modern philology"
+    },
+    {
+        "entity": "Q1277348",
+        "entityLabel": "Romance studies",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q9105822",
+        "valueLabel": "Category:Romance studies"
+    },
+    {
+        "entity": "Q1277348",
+        "entityLabel": "Romance studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q11862829",
+        "valueLabel": "academic discipline"
+    },
+    {
+        "entity": "Q1277348",
+        "entityLabel": "Romance studies",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q10894548",
+        "valueLabel": "particular linguistics"
+    },
+    {
+        "entity": "Q1277348",
+        "entityLabel": "Romance studies",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q99976367",
+        "valueLabel": "Q99976367"
+    },
+    {
+        "entity": "Q128758",
+        "entityLabel": "Satire",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1792379",
+        "valueLabel": "art genre"
+    },
+    {
+        "entity": "Q128758",
+        "entityLabel": "Satire",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q128758",
+        "entityLabel": "Satire",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q128758",
+        "entityLabel": "Satire",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q4173137",
+        "valueLabel": "Jewish Encyclopedia of Brockhaus and Efron"
+    },
+    {
+        "entity": "Q128758",
+        "entityLabel": "Satire",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q2657718",
+        "valueLabel": "Armenian Soviet Encyclopedia"
+    },
+    {
+        "entity": "Q128758",
+        "entityLabel": "Satire",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q106727050",
+        "valueLabel": "Metropolitan Museum of Art Tagging Vocabulary"
+    },
+    {
+        "entity": "Q128758",
+        "entityLabel": "Satire",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q1355340",
+        "valueLabel": "Satir"
+    },
+    {
+        "entity": "Q128758",
+        "entityLabel": "Satire",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8705283",
+        "valueLabel": "Category:Satire"
+    },
+    {
+        "entity": "Q128758",
+        "entityLabel": "Satire",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q128758",
+        "entityLabel": "Satire",
+        "property": "P3095",
+        "propertyLabel": "practiced by",
+        "value": "Q9334029",
+        "valueLabel": "satirist"
+    },
+    {
+        "entity": "Q7432492",
+        "entityLabel": "School of Letters",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q7559244",
+        "entityLabel": "Somatic theory",
+        "property": "P361",
+        "propertyLabel": "part of",
+        "value": "Q77468620",
+        "valueLabel": "psychology terminology"
+    },
+    {
+        "entity": "Q1658414",
+        "entityLabel": "Spatial turn",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q34749",
+        "valueLabel": "social science"
+    },
+    {
+        "entity": "Q1658414",
+        "entityLabel": "Spatial turn",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q689971",
+        "valueLabel": "paradigm shift"
+    },
+    {
+        "entity": "Q1658414",
+        "entityLabel": "Spatial turn",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1143546",
+        "valueLabel": "cultural studies"
+    },
+    {
+        "entity": "Q80930",
+        "entityLabel": "Tragedy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q192881",
+        "valueLabel": "tragicomedy"
+    },
+    {
+        "entity": "Q80930",
+        "entityLabel": "Tragedy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q30059240",
+        "valueLabel": "Real\u02b9nyj slovar\u02b9 klassi\u010deskih drevnostej po L\u00fbbkeru"
+    },
+    {
+        "entity": "Q80930",
+        "entityLabel": "Tragedy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q80930",
+        "entityLabel": "Tragedy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q80930",
+        "entityLabel": "Tragedy",
+        "property": "P1299",
+        "propertyLabel": "depicted by",
+        "value": "Q126727129",
+        "valueLabel": "La Tragedia"
+    },
+    {
+        "entity": "Q192881",
+        "entityLabel": "Tragicomedy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q40831",
+        "valueLabel": "comedy"
+    },
+    {
+        "entity": "Q192881",
+        "entityLabel": "Tragicomedy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q859369",
+        "valueLabel": "comedy drama"
+    },
+    {
+        "entity": "Q192881",
+        "entityLabel": "Tragicomedy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q80930",
+        "valueLabel": "tragedy"
+    },
+    {
+        "entity": "Q192881",
+        "entityLabel": "Tragicomedy",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q40831",
+        "valueLabel": "comedy"
+    },
+    {
+        "entity": "Q192881",
+        "entityLabel": "Tragicomedy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q80930",
+        "valueLabel": "tragedy"
+    },
+    {
+        "entity": "Q192881",
+        "entityLabel": "Tragicomedy",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q5151421",
+        "valueLabel": "comedy"
+    },
+    {
+        "entity": "Q192881",
+        "entityLabel": "Tragicomedy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19180675",
+        "valueLabel": "Small Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q192881",
+        "entityLabel": "Tragicomedy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7777573",
+        "valueLabel": "theatrical genre"
+    },
+    {
+        "entity": "Q192881",
+        "entityLabel": "Tragicomedy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q223393",
+        "valueLabel": "literary genre"
+    },
+    {
+        "entity": "Q192881",
+        "entityLabel": "Tragicomedy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q602358",
+        "valueLabel": "Brockhaus and Efron Encyclopedic Dictionary"
+    },
+    {
+        "entity": "Q192881",
+        "entityLabel": "Tragicomedy",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q24068289",
+        "valueLabel": "Category:Tragicomedy"
+    },
+    {
+        "entity": "Q192881",
+        "entityLabel": "Tragicomedy",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q19219752",
+        "valueLabel": "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+    },
+    {
+        "entity": "Q535347",
+        "entityLabel": "Transparency (behavior)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1207505",
+        "valueLabel": "quality"
+    },
+    {
+        "entity": "Q535347",
+        "entityLabel": "Transparency (behavior)",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q2798912",
+        "valueLabel": "accountability"
+    },
+    {
+        "entity": "Q535347",
+        "entityLabel": "Transparency (behavior)",
+        "property": "P366",
+        "propertyLabel": "has use",
+        "value": "Q60698104",
+        "valueLabel": "oversight"
+    },
+    {
+        "entity": "Q535347",
+        "entityLabel": "Transparency (behavior)",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q10090650",
+        "valueLabel": "Category:Transparency (behavior)"
+    },
+    {
+        "entity": "Q535347",
+        "entityLabel": "Transparency (behavior)",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q1503443",
+        "valueLabel": "secrecy"
+    },
+    {
+        "entity": "Q535347",
+        "entityLabel": "Transparency (behavior)",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q11024",
+        "valueLabel": "communication"
+    },
+    {
+        "entity": "Q535347",
+        "entityLabel": "Transparency (behavior)",
+        "property": "P828",
+        "propertyLabel": "has cause",
+        "value": "Q2798912",
+        "valueLabel": "accountability"
+    },
+    {
+        "entity": "Q535347",
+        "entityLabel": "Transparency (behavior)",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q1683540",
+        "valueLabel": "openness"
+    },
+    {
+        "entity": "Q8036557",
+        "entityLabel": "World community",
+        "property": "P460",
+        "propertyLabel": "said to be the same as",
+        "value": "Q8432",
+        "valueLabel": "civilization"
+    },
+    {
+        "entity": "Q4354243",
+        "entityLabel": "Blasphemy Day",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1656682",
+        "valueLabel": "event"
+    },
+    {
+        "entity": "Q4354243",
+        "entityLabel": "Blasphemy Day",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q573",
+        "valueLabel": "day"
+    },
+    {
+        "entity": "Q4354243",
+        "entityLabel": "Blasphemy Day",
+        "property": "P837",
+        "propertyLabel": "day in year for periodic occurrence",
+        "value": "Q2881",
+        "valueLabel": "September 30"
+    },
+    {
+        "entity": "Q5059967",
+        "entityLabel": "Center for the Study of Religion and Society",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q24191994",
+        "entityLabel": "Chester Ronning Centre for the Study of Religion and Public Life",
+        "property": "P138",
+        "propertyLabel": "named after",
+        "value": "Q5093702",
+        "valueLabel": "Chester Ronning"
+    },
+    {
+        "entity": "Q24191994",
+        "entityLabel": "Chester Ronning Centre for the Study of Religion and Public Life",
+        "property": "P131",
+        "propertyLabel": "located in the administrative territorial entity",
+        "value": "Q775610",
+        "valueLabel": "Camrose"
+    },
+    {
+        "entity": "Q24191994",
+        "entityLabel": "Chester Ronning Centre for the Study of Religion and Public Life",
+        "property": "P276",
+        "propertyLabel": "location",
+        "value": "Q7895039",
+        "valueLabel": "University of Alberta Augustana Campus"
+    },
+    {
+        "entity": "Q24191994",
+        "entityLabel": "Chester Ronning Centre for the Study of Religion and Public Life",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q16",
+        "valueLabel": "Canada"
+    },
+    {
+        "entity": "Q24191994",
+        "entityLabel": "Chester Ronning Centre for the Study of Religion and Public Life",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q7315155",
+        "valueLabel": "research center"
+    },
+    {
+        "entity": "Q24191994",
+        "entityLabel": "Chester Ronning Centre for the Study of Religion and Public Life",
+        "property": "P127",
+        "propertyLabel": "owned by",
+        "value": "Q640694",
+        "valueLabel": "University of Alberta"
+    },
+    {
+        "entity": "Q97274524",
+        "entityLabel": "Colloquium on Violence & Religion",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q955824",
+        "valueLabel": "learned society"
+    },
+    {
+        "entity": "Q2749417",
+        "entityLabel": "Confessionalism (politics)",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q20076236",
+        "valueLabel": "state system"
+    },
+    {
+        "entity": "Q2749417",
+        "entityLabel": "Confessionalism (politics)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q183039",
+        "valueLabel": "form of state"
+    },
+    {
+        "entity": "Q2749417",
+        "entityLabel": "Confessionalism (politics)",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1307214",
+        "valueLabel": "form of government"
+    },
+    {
+        "entity": "Q5431245",
+        "entityLabel": "Faith and Globalisation Initiative",
+        "property": "P17",
+        "propertyLabel": "country",
+        "value": "Q30",
+        "valueLabel": "United States"
+    },
+    {
+        "entity": "Q5431255",
+        "entityLabel": "Faith community nursing",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1530022",
+        "valueLabel": "religious organization"
+    },
+    {
+        "entity": "Q5431255",
+        "entityLabel": "Faith community nursing",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11424265",
+        "valueLabel": "community health nursing"
+    },
+    {
+        "entity": "Q7068394",
+        "entityLabel": "Nudity in religion",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q86521024",
+        "valueLabel": "Category:Nudity in religion"
+    },
+    {
+        "entity": "Q7068394",
+        "entityLabel": "Nudity in religion",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q10791",
+        "valueLabel": "nudity"
+    },
+    {
+        "entity": "Q7311129",
+        "entityLabel": "Religion and agriculture",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q11451",
+        "valueLabel": "agriculture"
+    },
+    {
+        "entity": "Q7311129",
+        "entityLabel": "Religion and agriculture",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q930933",
+        "valueLabel": "relation"
+    },
+    {
+        "entity": "Q7311129",
+        "entityLabel": "Religion and agriculture",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q9174",
+        "valueLabel": "religion"
+    },
+    {
+        "entity": "Q7311129",
+        "entityLabel": "Religion and agriculture",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q115144015",
+        "valueLabel": "religion and society"
+    },
+    {
+        "entity": "Q7311141",
+        "entityLabel": "Religion and peacebuilding",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q9174",
+        "valueLabel": "religion"
+    },
+    {
+        "entity": "Q7311141",
+        "entityLabel": "Religion and peacebuilding",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q454",
+        "valueLabel": "peace"
+    },
+    {
+        "entity": "Q7311231",
+        "entityLabel": "Religion in Scouting",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q9174",
+        "valueLabel": "religion"
+    },
+    {
+        "entity": "Q7311357",
+        "entityLabel": "Religious exclusivism",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q3237985",
+        "valueLabel": "religious liberalism"
+    },
+    {
+        "entity": "Q7311357",
+        "entityLabel": "Religious exclusivism",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q3109612",
+        "valueLabel": "inclusivism"
+    },
+    {
+        "entity": "Q7311357",
+        "entityLabel": "Religious exclusivism",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11499334",
+        "valueLabel": "religious doctrine"
+    },
+    {
+        "entity": "Q111951164",
+        "entityLabel": "Religious exemption",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q11985577",
+        "valueLabel": "exemption"
+    },
+    {
+        "entity": "Q111951164",
+        "entityLabel": "Religious exemption",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q670732",
+        "valueLabel": "religious law"
+    },
+    {
+        "entity": "Q4392985",
+        "entityLabel": "Religious identity",
+        "property": "P910",
+        "propertyLabel": "topic's main category",
+        "value": "Q8650185",
+        "valueLabel": "Category:Religious identity"
+    },
+    {
+        "entity": "Q4392985",
+        "entityLabel": "Religious identity",
+        "property": "P1557",
+        "propertyLabel": "manifestation of",
+        "value": "Q2728698",
+        "valueLabel": "religious belief"
+    },
+    {
+        "entity": "Q4392985",
+        "entityLabel": "Religious identity",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q844569",
+        "valueLabel": "identity"
+    },
+    {
+        "entity": "Q13408093",
+        "entityLabel": "Religious intolerance",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q1920219",
+        "valueLabel": "social issue"
+    },
+    {
+        "entity": "Q13408093",
+        "entityLabel": "Religious intolerance",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q859781",
+        "valueLabel": "bigotry"
+    },
+    {
+        "entity": "Q7311382",
+        "entityLabel": "Religious offense",
+        "property": "P2579",
+        "propertyLabel": "studied by",
+        "value": "Q34187",
+        "valueLabel": "religious studies"
+    },
+    {
+        "entity": "Q7311382",
+        "entityLabel": "Religious offense",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q3537603",
+        "valueLabel": "transgression"
+    },
+    {
+        "entity": "Q7311382",
+        "entityLabel": "Religious offense",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q459409",
+        "valueLabel": "hate crime"
+    },
+    {
+        "entity": "Q7311382",
+        "entityLabel": "Religious offense",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q124457721",
+        "valueLabel": "religious crime"
+    },
+    {
+        "entity": "Q2086472",
+        "entityLabel": "Religious tolerance",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q9174",
+        "valueLabel": "religion"
+    },
+    {
+        "entity": "Q2086472",
+        "entityLabel": "Religious tolerance",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q183225",
+        "valueLabel": "toleration"
+    },
+    {
+        "entity": "Q7311417",
+        "entityLabel": "Religious views on smoking",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q63367731",
+        "valueLabel": "religious view"
+    },
+    {
+        "entity": "Q7311417",
+        "entityLabel": "Religious views on smoking",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q662860",
+        "valueLabel": "smoking"
+    },
+    {
+        "entity": "Q15303501",
+        "entityLabel": "Secularity",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q1207505",
+        "valueLabel": "quality"
+    },
+    {
+        "entity": "Q15303501",
+        "entityLabel": "Secularity",
+        "property": "P1343",
+        "propertyLabel": "described by source",
+        "value": "Q867541",
+        "valueLabel": "Encyclop\u00e6dia Britannica 11th edition"
+    },
+    {
+        "entity": "Q15303501",
+        "entityLabel": "Secularity",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q21162314",
+        "valueLabel": "isolation"
+    },
+    {
+        "entity": "Q15303501",
+        "entityLabel": "Secularity",
+        "property": "P461",
+        "propertyLabel": "opposite of",
+        "value": "Q46135267",
+        "valueLabel": "affiliation"
+    },
+    {
+        "entity": "Q15303501",
+        "entityLabel": "Secularity",
+        "property": "P1889",
+        "propertyLabel": "different from",
+        "value": "Q7066",
+        "valueLabel": "atheism"
+    },
+    {
+        "entity": "Q15303501",
+        "entityLabel": "Secularity",
+        "property": "P1382",
+        "propertyLabel": "partially coincident with",
+        "value": "Q134670827",
+        "valueLabel": "laicity"
+    },
+    {
+        "entity": "Q7578128",
+        "entityLabel": "Spiritual left",
+        "property": "P279",
+        "propertyLabel": "subclass of",
+        "value": "Q164597",
+        "valueLabel": "left-wing"
+    },
+    {
+        "entity": "Q7578128",
+        "entityLabel": "Spiritual left",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q12909644",
+        "valueLabel": "political ideology"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P1128",
+        "propertyLabel": "employees",
+        "value": "27",
+        "valueLabel": "27"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q43229",
+        "valueLabel": "organization"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P1128",
+        "propertyLabel": "employees",
+        "value": "30",
+        "valueLabel": "30"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P8093",
+        "propertyLabel": "donations",
+        "value": "1596000",
+        "valueLabel": "1596000"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P1128",
+        "propertyLabel": "employees",
+        "value": "39",
+        "valueLabel": "39"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P1454",
+        "propertyLabel": "legal form",
+        "value": "Q157031",
+        "valueLabel": "foundation"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P2139",
+        "propertyLabel": "total revenue",
+        "value": "2971000",
+        "valueLabel": "2971000"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P8093",
+        "propertyLabel": "donations",
+        "value": "4059000",
+        "valueLabel": "4059000"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P2139",
+        "propertyLabel": "total revenue",
+        "value": "2621000",
+        "valueLabel": "2621000"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P1128",
+        "propertyLabel": "employees",
+        "value": "33",
+        "valueLabel": "33"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P8093",
+        "propertyLabel": "donations",
+        "value": "4413000",
+        "valueLabel": "4413000"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P8093",
+        "propertyLabel": "donations",
+        "value": "2459000",
+        "valueLabel": "2459000"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P8093",
+        "propertyLabel": "donations",
+        "value": "2965000",
+        "valueLabel": "2965000"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P2139",
+        "propertyLabel": "total revenue",
+        "value": "4067000",
+        "valueLabel": "4067000"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P2139",
+        "propertyLabel": "total revenue",
+        "value": "4440000",
+        "valueLabel": "4440000"
+    },
+    {
+        "entity": "Q7821912",
+        "entityLabel": "Tony Blair Faith Foundation",
+        "property": "P2139",
+        "propertyLabel": "total revenue",
+        "value": "1618000",
+        "valueLabel": "1618000"
+    },
+    {
+        "entity": "Q7112731",
+        "entityLabel": "Outline of society",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q28130112",
+        "entityLabel": "Outline of adoption",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112548",
+        "entityLabel": "Outline of agriculture",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112543",
+        "entityLabel": "Outline of alchemy",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112554",
+        "entityLabel": "Outline of anthropology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112195",
+        "entityLabel": "Outline of BDSM",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112210",
+        "entityLabel": "Outline of British pornography",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112586",
+        "entityLabel": "Outline of childhood",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q7112587",
+        "entityLabel": "Outline of communication",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112588",
+        "entityLabel": "Outline of community",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q4773237",
+        "entityLabel": "Outline of culture",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112623",
+        "entityLabel": "Outline of environmental journalism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112622",
+        "entityLabel": "Outline of environmentalism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112635",
+        "entityLabel": "Outline of firefighting",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112791",
+        "entityLabel": "Outline of the fishing industry",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q1497296",
+        "entityLabel": "Outline of food preparation",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q1497296",
+        "entityLabel": "Outline of food preparation",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q16920758",
+        "valueLabel": "food and drink preparation"
+    },
+    {
+        "entity": "Q1497296",
+        "entityLabel": "Outline of food preparation",
+        "property": "P1269",
+        "propertyLabel": "facet of",
+        "value": "Q38695",
+        "valueLabel": "cooking"
+    },
+    {
+        "entity": "Q1497296",
+        "entityLabel": "Outline of food preparation",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q16920758",
+        "valueLabel": "food and drink preparation"
+    },
+    {
+        "entity": "Q7112639",
+        "entityLabel": "Outline of forgery",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q17164731",
+        "entityLabel": "Outline of globalization",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112651",
+        "entityLabel": "Outline of green politics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112658",
+        "entityLabel": "Outline of human intelligence",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112659",
+        "entityLabel": "Outline of human sexuality",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112659",
+        "entityLabel": "Outline of human sexuality",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q48264",
+        "valueLabel": "gender identity"
+    },
+    {
+        "entity": "Q7112659",
+        "entityLabel": "Outline of human sexuality",
+        "property": "P1754",
+        "propertyLabel": "category related to list",
+        "value": "Q104156031",
+        "valueLabel": "Category:Human gender and sexuality"
+    },
+    {
+        "entity": "Q7112659",
+        "entityLabel": "Outline of human sexuality",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q15404978",
+        "valueLabel": "gender expression"
+    },
+    {
+        "entity": "Q7112659",
+        "entityLabel": "Outline of human sexuality",
+        "property": "P1424",
+        "propertyLabel": "topic's main template",
+        "value": "Q5613326",
+        "valueLabel": "Template:Gender and sexual identities"
+    },
+    {
+        "entity": "Q7112659",
+        "entityLabel": "Outline of human sexuality",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q112252477",
+        "valueLabel": "list of gender identities"
+    },
+    {
+        "entity": "Q7112659",
+        "entityLabel": "Outline of human sexuality",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q7112659",
+        "entityLabel": "Outline of human sexuality",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q17888",
+        "valueLabel": "sexual orientation"
+    },
+    {
+        "entity": "Q7112659",
+        "entityLabel": "Outline of human sexuality",
+        "property": "P527",
+        "propertyLabel": "has part(s)",
+        "value": "Q112274052",
+        "valueLabel": "list of sexual orientations"
+    },
+    {
+        "entity": "Q7112659",
+        "entityLabel": "Outline of human sexuality",
+        "property": "P360",
+        "propertyLabel": "is a list of",
+        "value": "Q1165905",
+        "valueLabel": "sexual identity"
+    },
+    {
+        "entity": "Q134389569",
+        "entityLabel": "Outline of humans",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112670",
+        "entityLabel": "Outline of journalism",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q3444692",
+        "entityLabel": "Outline of transgender topics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q55285572",
+        "entityLabel": "Outline of LGBTQ topics",
+        "property": "P921",
+        "propertyLabel": "main subject",
+        "value": "Q17884",
+        "valueLabel": "LGBTQ"
+    },
+    {
+        "entity": "Q55285572",
+        "entityLabel": "Outline of LGBTQ topics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112675",
+        "entityLabel": "Outline of linguistics",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q3610525",
+        "entityLabel": "Outline of manufacturing",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q3276378",
+        "entityLabel": "Outline of marketing",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q7112794",
+        "entityLabel": "Outline of the metric system",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q6631775",
+        "entityLabel": "Outline of organic gardening and farming",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q13406463",
+        "valueLabel": "Wikimedia list article"
+    },
+    {
+        "entity": "Q7112698",
+        "entityLabel": "Outline of parapsychology",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    },
+    {
+        "entity": "Q7112701",
+        "entityLabel": "Outline of poker",
+        "property": "P31",
+        "propertyLabel": "instance of",
+        "value": "Q26884324",
+        "valueLabel": "Wikimedia outline article"
+    }
+]

@@ -1,0 +1,332 @@
+[
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of Tokyo is a public research university in Bunky\u014d, Tokyo, Japan. Founded in 1877 as the nation's first modern university by the merger of several pre-westernisation era institutions, its direct precursors include the Tenmongata, founded in 1684, and the Sh\u014dheizaka Institute.\nHideki Omori is a Japanese mathematician who specialized in geometry and worked at Tokyo University of Science.",
+        "subject": "University of Tokyo",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Hideki Omori",
+        "evidence": [
+            [
+                "Hideki Omori",
+                "educated at",
+                "University of Tokyo"
+            ],
+            [
+                "Hideki Omori",
+                "educated at",
+                "Q11453677"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of Michigan is a public research university in Ann Arbor, Michigan, United States. Founded in 1817, it is the oldest institution of higher education in the state. The University of Michigan is one of the earliest American research universities and is a founding member of the Association of American Universities. In the fall of 2023, the university employed 8,189 faculty members and enrolled 52,065 students in its programs.\nsarah-marie belcastro is an American mathematician and book author. She is an instructor at the Art of Problem Solving Online School and is the director of MathILy, a residential math summer program hosted at Bryn Mawr. Although her doctoral research was in algebraic geometry, she has also worked extensively in topological graph theory. She is known for and has written extensively about mathematical knitting, and has co-edited three books on fiber mathematics. She exclusively uses the form \"sarah-marie belcastro\".",
+        "subject": "University of Michigan",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Sarah-marie belcastro",
+        "evidence": [
+            [
+                "Sarah-marie belcastro",
+                "educated at",
+                "University of Michigan"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Annie Laurer Alexander Selden is an expert in mathematics education. She is a professor emeritus at Tennessee Technological University, and an adjunct professor at New Mexico State University. She was one of the original founders of the Association for Women in Mathematics in 1971.\nThe Association for Women in Mathematics (AWM) is a professional society whose mission is to encourage women and girls to study and to have active careers in the mathematical sciences, and to promote equal opportunity for and the equal treatment of women and girls in the mathematical sciences. The AWM was founded in 1971 and incorporated in the state of Massachusetts. AWM has approximately 5200 members, including over 250 institutional members, such as colleges, universities, institutes, and mathematical societies. It offers numerous programs and workshops to mentor women and girls in the mathematical sciences. Much of AWM's work is supported through federal grants.",
+        "subject": "Annie Selden",
+        "predicate": "found",
+        "object": "Association for Women in Mathematics",
+        "evidence": [
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Annie Selden"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Alice T. Schafer"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Mary W. Gray"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Gloria Olive"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Alice Turner Schafer was an American mathematician. She was one of the founding members of the Association for Women in Mathematics in 1971.\nThe Association for Women in Mathematics (AWM) is a professional society whose mission is to encourage women and girls to study and to have active careers in the mathematical sciences, and to promote equal opportunity for and the equal treatment of women and girls in the mathematical sciences. The AWM was founded in 1971 and incorporated in the state of Massachusetts. AWM has approximately 5200 members, including over 250 institutional members, such as colleges, universities, institutes, and mathematical societies. It offers numerous programs and workshops to mentor women and girls in the mathematical sciences. Much of AWM's work is supported through federal grants.",
+        "subject": "Alice T. Schafer",
+        "predicate": "found",
+        "object": "Association for Women in Mathematics",
+        "evidence": [
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Annie Selden"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Alice T. Schafer"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Mary W. Gray"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Gloria Olive"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Mary Lee Wheat Gray is an American mathematician, statistician, and lawyer. She is the author of books and papers in the fields of mathematics, mathematics education, computer science, applied statistics, economic equity, discrimination law, and academic freedom. She is currently on the Board of Advisers for POMED and is the chair of the Board of Directors of AMIDEAST.\nThe Association for Women in Mathematics (AWM) is a professional society whose mission is to encourage women and girls to study and to have active careers in the mathematical sciences, and to promote equal opportunity for and the equal treatment of women and girls in the mathematical sciences. The AWM was founded in 1971 and incorporated in the state of Massachusetts. AWM has approximately 5200 members, including over 250 institutional members, such as colleges, universities, institutes, and mathematical societies. It offers numerous programs and workshops to mentor women and girls in the mathematical sciences. Much of AWM's work is supported through federal grants.",
+        "subject": "Mary W. Gray",
+        "predicate": "found",
+        "object": "Association for Women in Mathematics",
+        "evidence": [
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Annie Selden"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Alice T. Schafer"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Mary W. Gray"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Gloria Olive"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Gloria Olive was a New Zealand academic mathematician.\nThe Association for Women in Mathematics (AWM) is a professional society whose mission is to encourage women and girls to study and to have active careers in the mathematical sciences, and to promote equal opportunity for and the equal treatment of women and girls in the mathematical sciences. The AWM was founded in 1971 and incorporated in the state of Massachusetts. AWM has approximately 5200 members, including over 250 institutional members, such as colleges, universities, institutes, and mathematical societies. It offers numerous programs and workshops to mentor women and girls in the mathematical sciences. Much of AWM's work is supported through federal grants.",
+        "subject": "Gloria Olive",
+        "predicate": "found",
+        "object": "Association for Women in Mathematics",
+        "evidence": [
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Annie Selden"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Alice T. Schafer"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Mary W. Gray"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Gloria Olive"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Joan Sylvia Lyttle Birman is an American mathematician, specializing in low-dimensional topology. She has made contributions to the study of knots, 3-manifolds, mapping class groups of surfaces, geometric group theory, contact structures and dynamical systems. Birman is research professor emerita at Barnard College, Columbia University, where she has been since 1973.\nThe Ruth Lyttle Satter Prize in Mathematics, also called the Satter Prize, is one of twenty-one prizes given out by the American Mathematical Society (AMS). It is presented biennially in recognition of an outstanding contribution to mathematics research by a woman in the previous six years. The award was funded in 1990 using a donation from Joan Birman, in memory of her sister, Ruth Lyttle Satter, who worked primarily in biological sciences, and was a proponent for equal opportunities for women in science. First awarded in 1991, the award is intended to \"honor [Satter's] commitment to research and to encourage women in science\". The winner is selected by the council of the AMS, based on the recommendation of a selection committee. The prize is awarded at the Joint Mathematics Meetings during odd numbered years, and has always carried a modest cash reward. Since 2003, the prize has been $5,000, while from 1997 to 2001, the prize came with $1,200, and $4,000 prior to that. If a joint award is given, the prize money is split between the recipients.",
+        "subject": "Joan Birman",
+        "predicate": "found",
+        "object": "Ruth Lyttle Satter Prize in Mathematics",
+        "evidence": [
+            [
+                "Ruth Lyttle Satter Prize in Mathematics",
+                "founded by",
+                "Joan Birman"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Fairfax is an independent city in Virginia and the county seat of Fairfax County, Virginia, in the United States. As of the 2020 census, the population was 24,146.\nThe Association for Women in Mathematics (AWM) is a professional society whose mission is to encourage women and girls to study and to have active careers in the mathematical sciences, and to promote equal opportunity for and the equal treatment of women and girls in the mathematical sciences. The AWM was founded in 1971 and incorporated in the state of Massachusetts. AWM has approximately 5200 members, including over 250 institutional members, such as colleges, universities, institutes, and mathematical societies. It offers numerous programs and workshops to mentor women and girls in the mathematical sciences. Much of AWM's work is supported through federal grants.",
+        "subject": "Fairfax",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "Association for Women in Mathematics",
+        "evidence": [
+            [
+                "Association for Women in Mathematics",
+                "located in the administrative territorial entity",
+                "Fairfax"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Europe is a continent located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere. It is bordered by the Arctic Ocean to the north, the Atlantic Ocean to the west, the Mediterranean Sea to the south, and Asia to the east. Europe shares the landmass of Eurasia with Asia, and of Afro-Eurasia with both Africa and Asia. Europe is commonly considered to be separated from Asia by the watershed of the Ural Mountains, the Ural River, the Caspian Sea, the Greater Caucasus, the Black Sea, and the Turkish straits.\nEuropean Women in Mathematics (EWM) is an international association of women working in the field of mathematics in Europe. The association participates in political and strategic work to promote the role of women in mathematics and offers its members direct support. Its goals include encouraging women to study mathematics and providing visibility to women mathematicians. It is the \"first and best known\" of several organizations devoted to women in mathematics in Europe.",
+        "subject": "Europe",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "European Women in Mathematics",
+        "evidence": [
+            [
+                "European Women in Mathematics",
+                "located in the administrative territorial entity",
+                "Europe"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Minneapolis is a city in Hennepin County, Minnesota, United States, and its county seat. With a population of 429,954 as of the 2020 census, it is the state's most populous city. Located in the state's center near the eastern border, it occupies both banks of the Upper Mississippi River and adjoins Saint Paul, the state capital of Minnesota. Minneapolis, Saint Paul, and the surrounding area are collectively known as the Twin Cities, a metropolitan area with 3.69 million residents. Minneapolis is built on an artesian aquifer on flat terrain and is known for cold, snowy winters and hot, humid summers. Nicknamed the \"City of Lakes\", Minneapolis is abundant in water, with thirteen lakes, wetlands, the Mississippi River, creeks, and waterfalls. The city's public park system is connected by the Grand Rounds National Scenic Byway.\nGraduate Women in Science (GWIS), formerly known as Sigma Delta Epsilon (\u03a3\u0394\u0395), is an international professional organization for women in science. It was established as a scientific women's fraternity in 1921 at Cornell University, United States. It played an important role for women scientists for some fifty years when they were not allowed membership in most mainstream scientific organizations. GWIS is a non-profit 501(c)(3) organization with over 1,000 active members and more than 30 active chapters.",
+        "subject": "Minneapolis",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "Graduate Women in Science",
+        "evidence": [
+            [
+                "Graduate Women in Science",
+                "located in the administrative territorial entity",
+                "Minneapolis"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Mathematics and architecture are related, since architecture, like some other arts, uses mathematics for several reasons. Apart from the mathematics needed when engineering buildings, architects use geometry: to define the spatial form of a building; from the Pythagoreans of the sixth century BC onwards, to create architectural forms considered harmonious, and thus to lay out buildings and their surroundings according to mathematical, aesthetic and sometimes religious principles; to decorate buildings with mathematical objects such as tessellations; and to meet environmental goals, such as to minimise wind speeds around the bases of tall buildings.\nIn mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities. Expressed algebraically, for quantities \u2060\u2060 and \u2060\u2060 with \u2060\u2060, \u2060\u2060 is in a golden ratio to \u2060\u2060 if",
+        "subject": "mathematics and architecture",
+        "predicate": "be_the_use_of",
+        "object": "Golden ratio",
+        "evidence": [
+            [
+                "Golden ratio",
+                "has use",
+                "mathematics and architecture"
+            ],
+            [
+                "Golden ratio",
+                "has use",
+                "mathematics and art"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Mathematics and art are related in a variety of ways. Mathematics has itself been described as an art motivated by beauty. Mathematics can be discerned in arts such as music, dance, painting, architecture, sculpture, and textiles. This article focuses, however, on mathematics in the visual arts.\nIn mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities. Expressed algebraically, for quantities \u2060\u2060 and \u2060\u2060 with \u2060\u2060, \u2060\u2060 is in a golden ratio to \u2060\u2060 if",
+        "subject": "Mathematics and art",
+        "predicate": "be_the_use_of",
+        "object": "Golden ratio",
+        "evidence": [
+            [
+                "Golden ratio",
+                "has use",
+                "mathematics and architecture"
+            ],
+            [
+                "Golden ratio",
+                "has use",
+                "mathematics and art"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "The London Mathematical Society (LMS) is one of the United Kingdom's learned societies for mathematics (the others being the Royal Statistical Society, the Institute of Mathematics and its Applications, the Edinburgh Mathematical Society and the Operational Research Society.\nThe Anne Bennett Prize and Senior Anne Bennett Prize are awards given by the London Mathematical Society.",
+        "subject": "London Mathematical Society",
+        "predicate": "confer_to",
+        "object": "Anne Bennett Prize",
+        "evidence": [
+            [
+                "Anne Bennett Prize",
+                "conferred by",
+                "London Mathematical Society"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "The Canadian Mathematical Society is an association of professional mathematicians dedicated to advancing mathematical research, outreach, scholarship and education in Canada. The Society serves the national and international communities through the publication of high-quality academic journals and community bulletins, as well as by organizing a variety of mathematical competitions and enrichment programs. These include the Canadian Open Mathematics Challenge (COMC), the Canadian Mathematical Olympiad (CMO), and the selection and training of Canada's team for the International Mathematical Olympiad (IMO) and the European Girls\u2019 Mathematical Olympiad (EGMO).\nThe Krieger\u2013Nelson Prize is presented by the Canadian Mathematical Society in recognition of an outstanding woman in mathematics. It was first\nawarded in 1995. The award is named after Cecilia Krieger and Evelyn Nelson, both known for their contributions to mathematics in Canada.",
+        "subject": "Canadian Mathematical Society",
+        "predicate": "confer_to",
+        "object": "Krieger\u2013Nelson Prize",
+        "evidence": [
+            [
+                "Krieger\u2013Nelson Prize",
+                "conferred by",
+                "Canadian Mathematical Society"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "The American Mathematical Society (AMS) is an association of professional mathematicians dedicated to the interests of mathematical research and scholarship, and serves the national and international community through its publications, meetings, advocacy and other programs.\nThe Ruth Lyttle Satter Prize in Mathematics, also called the Satter Prize, is one of twenty-one prizes given out by the American Mathematical Society (AMS). It is presented biennially in recognition of an outstanding contribution to mathematics research by a woman in the previous six years. The award was funded in 1990 using a donation from Joan Birman, in memory of her sister, Ruth Lyttle Satter, who worked primarily in biological sciences, and was a proponent for equal opportunities for women in science. First awarded in 1991, the award is intended to \"honor [Satter's] commitment to research and to encourage women in science\". The winner is selected by the council of the AMS, based on the recommendation of a selection committee. The prize is awarded at the Joint Mathematics Meetings during odd numbered years, and has always carried a modest cash reward. Since 2003, the prize has been $5,000, while from 1997 to 2001, the prize came with $1,200, and $4,000 prior to that. If a joint award is given, the prize money is split between the recipients.",
+        "subject": "American Mathematical Society",
+        "predicate": "confer_to",
+        "object": "Ruth Lyttle Satter Prize in Mathematics",
+        "evidence": [
+            [
+                "Ruth Lyttle Satter Prize in Mathematics",
+                "conferred by",
+                "American Mathematical Society"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Monthly Sh\u014dnen Magazine  is a monthly sh\u014dnen manga magazine published in Japan by Kodansha. It was launched in 1964 under the name Bessatsu Sh\u014dnen Magazine (\u5225\u518a\u5c11\u5e74\u30de\u30ac\u30b8\u30f3). In 1969 it was retitled as Monthly Bessatsu Sh\u014dnen Magazine (\u6708\u520a\u5225\u518a\u5c11\u5e74\u30de\u30ac\u30b8\u30f3) and its publication frequency increased from quarterly to monthly. After suspension in 1974 it started publishing again, in 1975 it was renamed as current magazine title.\nFermat Kitchen  is a Japanese manga series written and illustrated by Y\u016bgo Kobayashi. It has been serialized in Kodansha's sh\u014dnen manga magazine Monthly Sh\u014dnen Magazine since September 2018. A television drama adaptation aired from October to December 2023. An anime television series adaptation produced by Domerica premiered in July 2025.",
+        "subject": "Monthly Sh\u014dnen Magazine",
+        "predicate": "the_fictional_universe_happened_to_meet",
+        "object": "Fermat Kitchen",
+        "evidence": [
+            [
+                "Fermat Kitchen",
+                "published in",
+                "Monthly Sh\u014dnen Magazine"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Flowers (\u30d5\u30e9\u30ef\u30fc\u30ba) is a monthly Japanese Josei manga manga magazine published by Shogakukan and issued on the 28th of every month.\nS\u016bji de Asobo  is a Japanese manga series written and illustrated by Murako Kinuta. It has been serialized in Shogakukan's josei manga magazine Flowers since June 2018, with its chapters collected in fourteen tank\u014dbon volumes as of July 2025.",
+        "subject": "Flowers",
+        "predicate": "the_fictional_universe_happened_to_meet",
+        "object": "S\u016bji de Asobo",
+        "evidence": [
+            [
+                "S\u016bji de Asobo",
+                "published in",
+                "Flowers"
+            ]
+        ]
+    }
+]

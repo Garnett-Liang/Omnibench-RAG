@@ -1,0 +1,8 @@
+Using device: cuda
+Selected reasoning rule: inverse
+Selected domain: geography
+Processing domain: geography
+Using reproducible dataset...
+Loaded 50 samples from specified path: d:\Jupyter\DEMO\data\dataset\generated\inverse\geography_qa.json
+Loaded 50 questions from d:\Jupyter\DEMO\data\dataset\generated\inverse\geography_qa.json
+Evaluating with model: facebook/opt-1.3b

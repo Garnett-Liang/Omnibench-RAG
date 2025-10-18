@@ -1,0 +1,798 @@
+[
+    {
+        "entity": "http://www.wikidata.org/entity/Q7991",
+        "entityLabel": "Natural science"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q18392234",
+        "entityLabel": "Outline of natural science"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q85741989",
+        "entityLabel": "Anthropocene Working Group"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16937419",
+        "entityLabel": "Imperial College Faculty of Natural Sciences"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6980609",
+        "entityLabel": "Natural Sciences Collections Association"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q180445",
+        "entityLabel": "Nature (journal)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16944368",
+        "entityLabel": "Prodromus"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q24965354",
+        "entityLabel": "Rangeland management"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7865526",
+        "entityLabel": "UPRRP College of Natural Sciences"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6018848",
+        "entityLabel": "Index of conservation articles"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q553036",
+        "entityLabel": "Natural regions of Germany"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3679744",
+        "entityLabel": "IUCN protected area categories"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q846154",
+        "entityLabel": "New 7 Wonders of Nature"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7457359",
+        "entityLabel": "Seven Natural Wonders"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17097269",
+        "entityLabel": "Seven Natural Wonders of Africa"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2157853",
+        "entityLabel": "Seven Wonders of Canada"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q11379",
+        "entityLabel": "Energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4765462",
+        "entityLabel": "Anisotropy energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q420754",
+        "entityLabel": "Binding energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q570714",
+        "entityLabel": "Bioenergetics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q18415473",
+        "entityLabel": "Buchdahl's theorem"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5073759",
+        "entityLabel": "Characteristic energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q11382",
+        "entityLabel": "Conservation of energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q18343",
+        "entityLabel": "Dark energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5377034",
+        "entityLabel": "Energy current"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5377056",
+        "entityLabel": "Energy functional"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q11271324",
+        "entityLabel": "Energy transformation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q161064",
+        "entityLabel": "Enthalpy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5384720",
+        "entityLabel": "Equivalent dumping coefficient"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1544012",
+        "entityLabel": "Gravitational potential"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2253702",
+        "entityLabel": "Interaction energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q180241",
+        "entityLabel": "Internal energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1097654",
+        "entityLabel": "Invariant mass"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q764228",
+        "entityLabel": "Josephson effect"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6408112",
+        "entityLabel": "Kilocalorie per mole"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q35875",
+        "entityLabel": "Mass\u2013energy equivalence"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q184550",
+        "entityLabel": "Mechanical energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q662636",
+        "entityLabel": "Negative energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7227698",
+        "entityLabel": "Ponderomotive energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q155640",
+        "entityLabel": "Potential energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q348294",
+        "entityLabel": "QED vacuum"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1193821",
+        "entityLabel": "Quantum fluctuation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3023293",
+        "entityLabel": "Specific energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16866039",
+        "entityLabel": "Specific mechanical energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16908654",
+        "entityLabel": "Specific potential energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3382044",
+        "entityLabel": "Synergetic theory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1146448",
+        "entityLabel": "Thermodynamic free energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q162794",
+        "entityLabel": "Threshold energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30325097",
+        "entityLabel": "Time-translation symmetry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7854776",
+        "entityLabel": "Turbulence kinetic energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1143773",
+        "entityLabel": "Vacuum energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3179491",
+        "entityLabel": "Zero-energy universe"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4327971",
+        "entityLabel": "Zero-point energy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q43619",
+        "entityLabel": "Natural environment"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q8209726",
+        "entityLabel": "Portal:Environment"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q134037400",
+        "entityLabel": "Art Safiental"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60747636",
+        "entityLabel": "Bioresilience"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q122259953",
+        "entityLabel": "Climate Action Africa"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q117425140",
+        "entityLabel": "Climate change adaptation in Ghana"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q52139",
+        "entityLabel": "Climatology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q133461857",
+        "entityLabel": "Leaf bag"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q113245806",
+        "entityLabel": "Lofoten Vortex"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q96391350",
+        "entityLabel": "Macroscope (science concept)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q20113959",
+        "entityLabel": "Nature conservation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1146099",
+        "entityLabel": "Nature deficit disorder"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q130425638",
+        "entityLabel": "Negative air ions"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q231218",
+        "entityLabel": "Abiogenesis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1063",
+        "entityLabel": "Evolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25303767",
+        "entityLabel": "Outline of evolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q338713",
+        "entityLabel": "Accelerating change"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q24976083",
+        "entityLabel": "Aerobic fermentation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q41475484",
+        "entityLabel": "Amity\u2013enmity complex"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q277614",
+        "entityLabel": "Anti-predator adaptation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4781509",
+        "entityLabel": "Applications of evolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q65065104",
+        "entityLabel": "Assisted evolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106131084",
+        "entityLabel": "Astrovirology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q96372810",
+        "entityLabel": "Autogamy depression"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q32919",
+        "entityLabel": "Cambrian explosion"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q751908",
+        "entityLabel": "Catalytic triad"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q132068710",
+        "entityLabel": "Cell autonomous sex identity"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q19596352",
+        "entityLabel": "Character evolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106311410",
+        "entityLabel": "Chemosensory speciation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25303857",
+        "entityLabel": "Evolution of the cochlea"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30324876",
+        "entityLabel": "Coloration evidence for natural selection"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q96375728",
+        "entityLabel": "Cultural hitchhiking"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5226035",
+        "entityLabel": "Darwin among the Machines"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q369961",
+        "entityLabel": "Darwin Awards"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5226043",
+        "entityLabel": "Darwin machine"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1909845",
+        "entityLabel": "Deep time"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q22907717",
+        "entityLabel": "Deistic evolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5264897",
+        "entityLabel": "Despeciation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25346144",
+        "entityLabel": "Directed evolution (transhumanism)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q97358866",
+        "entityLabel": "Distyly"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25110724",
+        "entityLabel": "Diversification rates"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106959436",
+        "entityLabel": "Eco-evolutionary dynamics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28136298",
+        "entityLabel": "Endogenosymbiosis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17012434",
+        "entityLabel": "Escape and radiate coevolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q124818238",
+        "entityLabel": "Eve (Bohannon book)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q56274590",
+        "entityLabel": "Evolution in fiction"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5418645",
+        "entityLabel": "Evolution of emotion"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7732716",
+        "entityLabel": "The Evolution of God"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q107176785",
+        "entityLabel": "Evolution of the human oral microbiome"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q14489129",
+        "entityLabel": "Evolutionary algorithm"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1197129",
+        "entityLabel": "Evolutionary computation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q486686",
+        "entityLabel": "Evolutionary epistemology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1382583",
+        "entityLabel": "Evolutionary ethics"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5418703",
+        "entityLabel": "Evolutionary graph theory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30314737",
+        "entityLabel": "Evolutionary models of human drug use"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q105409336",
+        "entityLabel": "Evolutionary toxicology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25109742",
+        "entityLabel": "Evolutionary tradeoff"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q15808610",
+        "entityLabel": "Extended evolutionary synthesis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q13424686",
+        "entityLabel": "Disposable soma theory of aging"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5508811",
+        "entityLabel": "Functional divergence"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q208184",
+        "entityLabel": "Gaia hypothesis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q107335505",
+        "entityLabel": "Generalized exchange"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q11201261",
+        "entityLabel": "GNC hypothesis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5655544",
+        "entityLabel": "Hard inheritance"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q460501",
+        "entityLabel": "Historicism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2496306",
+        "entityLabel": "Homeosis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q11777028",
+        "entityLabel": "Industrial melanism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q184708",
+        "entityLabel": "Information society"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6047155",
+        "entityLabel": "Interlocus contest evolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q96377510",
+        "entityLabel": "Evolution of languages"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4119126",
+        "entityLabel": "Level of support for evolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q29572919",
+        "entityLabel": "Earliest known life forms"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6823267",
+        "entityLabel": "Metasystem transition"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6913429",
+        "entityLabel": "Morphobank"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q107604674",
+        "entityLabel": "Mutualism Parasitism Continuum"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1286517",
+        "entityLabel": "Natural landscape"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q43478",
+        "entityLabel": "Natural selection"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q912203",
+        "entityLabel": "Nucleomorph"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3826287",
+        "entityLabel": "Orphan gene"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q24963263",
+        "entityLabel": "Phagomimicry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q126946112",
+        "entityLabel": "Philosophy of evolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25304815",
+        "entityLabel": "Phylogenetic inertia"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30314643",
+        "entityLabel": "Phylosymbiosis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q108673349",
+        "entityLabel": "Protists in the fossil record"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48999383",
+        "entityLabel": "Reciprocal causation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q107049170",
+        "entityLabel": "Red King hypothesis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q85796401",
+        "entityLabel": "Reductive evolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q25113065",
+        "entityLabel": "Skeletal changes of vertebrates transitioning from water to land"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q265013",
+        "entityLabel": "Software evolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q115127448",
+        "entityLabel": "Stress gradient hypothesis"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1246431",
+        "entityLabel": "Sympatry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q907101",
+        "entityLabel": "Systematic evolution of ligands by exponential enrichment"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q24741119",
+        "entityLabel": "TALE-likes"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16918869",
+        "entityLabel": "Talk Reason"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1756507",
+        "entityLabel": "Technological evolution"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2094327",
+        "entityLabel": "Teleonomy"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7782364",
+        "entityLabel": "Theoretical foundations of evolutionary psychology"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q11538360",
+        "entityLabel": "Trabecular cartilage"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q18354549",
+        "entityLabel": "Triploid block"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4981195",
+        "entityLabel": "Unequal crossing over"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q208650",
+        "entityLabel": "Uniformitarianism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7885135",
+        "entityLabel": "Uniformity of motive"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7893935",
+        "entityLabel": "Universal Darwinism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q8065",
+        "entityLabel": "Natural disaster"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4652675",
+        "entityLabel": "Atlantic meridional overturning circulation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q19596027",
+        "entityLabel": "Beach advisory"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5051569",
+        "entityLabel": "Catastrophe modeling"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3433166",
+        "entityLabel": "Climate risk"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5138356",
+        "entityLabel": "Coastal hazards"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7850174",
+        "entityLabel": "Tsunamis in lakes"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q607538",
+        "entityLabel": "Whirlpool"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3",
+        "entityLabel": "Life"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q803888",
+        "entityLabel": "Biological organisation"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4215735",
+        "entityLabel": "Carbon-based life"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6506039",
+        "entityLabel": "Living systems"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q169731",
+        "entityLabel": "Non-cellular life"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7239",
+        "entityLabel": "Organism"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7763448",
+        "entityLabel": "The Seven Pillars of Life"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3405827",
+        "entityLabel": "Natural material"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4736537",
+        "entityLabel": "Alternative natural materials"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q55889388",
+        "entityLabel": "Aleutite"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q17310218",
+        "entityLabel": "Allendeite"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q15781205",
+        "entityLabel": "AMSilk"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4791481",
+        "entityLabel": "Arizona flagstone"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q891670",
+        "entityLabel": "Armenian bole"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4807905",
+        "entityLabel": "Asperity (geotechnical engineering)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q133321482",
+        "entityLabel": "Balata (latex)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1269339",
+        "entityLabel": "Bast fibre"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q289472",
+        "entityLabel": "Biogenic substance"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4915356",
+        "entityLabel": "Biotic material"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q581776",
+        "entityLabel": "Boulder"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3610429",
+        "entityLabel": "Certified wood"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q42302",
+        "entityLabel": "Clay"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q54802",
+        "entityLabel": "Cob (material)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2996907",
+        "entityLabel": "Cobblestone"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2925636",
+        "entityLabel": "Compressed earth block"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q41804837",
+        "entityLabel": "Contained earth"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1262699",
+        "entityLabel": "Crushed stone"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3275386",
+        "entityLabel": "Decomposed granite"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3706016",
+        "entityLabel": "Dessauite-(Y)"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3714392",
+        "entityLabel": "Dorrite"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5608878",
+        "entityLabel": "Dry stone"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q886974",
+        "entityLabel": "Expanded clay aggregate"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3760415",
+        "entityLabel": "George-ericksenite"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q133833",
+        "entityLabel": "Gravel"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3775963",
+        "entityLabel": "Grayite"
+    }
+]

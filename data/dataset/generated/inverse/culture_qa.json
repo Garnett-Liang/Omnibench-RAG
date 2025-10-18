@@ -1,0 +1,472 @@
+[
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Buckinghamshire New University (BNU) is a public university in Buckinghamshire, England, with campuses in High Wycombe, Aylesbury, Uxbridge and Great Missenden. The institution dates from 1891, when it was founded as the School of Science and Art, and has since then has variously been known as Wycombe Technical Institute, High Wycombe College of Technology and Art and the Buckinghamshire College of Higher Education. It was a university college from 1999 until 2007, when its application for university status was accepted.\nRicardo P Lloyd is a British actor, presenter and writer. He began his career in theatre, appearing in productions, including those by Shakespeare's Globe. In 2020, The Voice named him one of the Top 20 to watch out for. In 2022, Lloyd presented and produced his own documentary for BBC Radio 4.",
+        "subject": "Buckinghamshire New University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Ricardo P. Lloyd",
+        "evidence": [
+            [
+                "Ricardo P. Lloyd",
+                "educated at",
+                "Buckinghamshire New University"
+            ],
+            [
+                "Ricardo P. Lloyd",
+                "educated at",
+                "Anglia Ruskin University"
+            ]
+        ],
+        "question": "Statement: It's not true that Buckinghamshire New University could be be the alma mater of of Ricardo P. Lloyd. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Anglia Ruskin University (ARU) is a public research university in the region of East Anglia, United Kingdom. Its origins date back to the Cambridge School of Art (CSA), founded by William John Beamont, a Fellow of Trinity College at the University of Cambridge, in 1858. The institution became a university in 1992 and was renamed after John Ruskin, the Oxford University professor and author, in 2005. Ruskin delivered the inaugural speech at the Cambridge School of Art in 1858. ARU is classified as one of the \"post-1992 universities.\" The university's motto is in Latin: Excellentia per societatem, which translates to Excellence through partnership in English.\nRicardo P Lloyd is a British actor, presenter and writer. He began his career in theatre, appearing in productions, including those by Shakespeare's Globe. In 2020, The Voice named him one of the Top 20 to watch out for. In 2022, Lloyd presented and produced his own documentary for BBC Radio 4.",
+        "subject": "Anglia Ruskin University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Ricardo P. Lloyd",
+        "evidence": [
+            [
+                "Ricardo P. Lloyd",
+                "educated at",
+                "Buckinghamshire New University"
+            ],
+            [
+                "Ricardo P. Lloyd",
+                "educated at",
+                "Anglia Ruskin University"
+            ]
+        ],
+        "question": "Is it true that Anglia Ruskin University could or could be be the alma mater of Ricardo P. Lloyd?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Duke University is a private research university in Durham, North Carolina, United States. Founded by Methodists and Quakers in the present-day city of Trinity in 1838, the school moved to Durham in 1892. In 1924, tobacco and electric power industrialist James Buchanan Duke established the Duke Endowment and the institution changed its name to honor his deceased father, Washington Duke.\nAyşe Gül Altınay is a Turkish academic working in the disciplines of anthropology, cultural studies, and gender studies, focusing especially on militarism, violence, and memory. She is a professor of anthropology at Sabancı University and director of the university's Gender and Women's Studies Center of Excellence. Altınay stated that \"the main question that shapes my work and my life\" is \"Are we going to turn our pain into more violence, hate, pain and injustice, or into steps that multiply life, beauty, love, peace and justice?\" She is a signatory of the Academics for Peace petition \"We will not be party to this crime!\" and advocates a peaceful resolution of the Kurdish-Turkish conflict.",
+        "subject": "Duke University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Ayşe Gül Altınay",
+        "evidence": [
+            [
+                "Ayşe Gül Altınay",
+                "educated at",
+                "Duke University"
+            ],
+            [
+                "Ayşe Gül Altınay",
+                "educated at",
+                "Boğaziçi University"
+            ]
+        ],
+        "question": "Statement: It's not true that Duke University could be be the alma mater of of Ayşe Gül Altınay. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Boğaziçi University, also known as Bosphorus University, is a public research university in Istanbul, Turkey, historically tied to a former American educational institution, Robert College. Robert College was the first American college to be founded outside the United States. The main campus of Boğaziçi University is located on the European side of the Bosphorus strait. It has seven faculties and two schools offering undergraduate degrees and seven institutes offering graduate degrees. Traditionally, the language of instruction is English.\nAyşe Gül Altınay is a Turkish academic working in the disciplines of anthropology, cultural studies, and gender studies, focusing especially on militarism, violence, and memory. She is a professor of anthropology at Sabancı University and director of the university's Gender and Women's Studies Center of Excellence. Altınay stated that \"the main question that shapes my work and my life\" is \"Are we going to turn our pain into more violence, hate, pain and injustice, or into steps that multiply life, beauty, love, peace and justice?\" She is a signatory of the Academics for Peace petition \"We will not be party to this crime!\" and advocates a peaceful resolution of the Kurdish-Turkish conflict.",
+        "subject": "Boğaziçi University",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Ayşe Gül Altınay",
+        "evidence": [
+            [
+                "Ayşe Gül Altınay",
+                "educated at",
+                "Duke University"
+            ],
+            [
+                "Ayşe Gül Altınay",
+                "educated at",
+                "Boğaziçi University"
+            ]
+        ],
+        "question": "Is there any possibility that Boğaziçi University could not be be the alma mater of of Ayşe Gül Altınay?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Cardboard is a generic term for heavy paper-based products. Their construction can range from a thick paper known as paperboard to corrugated fiberboard, made of multiple plies of material. Natural cardboards can range from grey to light brown in color, depending on the specific product; dyes, pigments, printing, and coatings are available.\nThe carte de visite was a format of small photograph which was patented in Paris by photographer André Adolphe Eugène Disdéri in 1854, although first used by Louis Dodero in 1851.",
+        "subject": "cardboard",
+        "predicate": "be_used_to_make",
+        "object": "Carte de visite",
+        "evidence": [
+            [
+                "Carte de visite",
+                "made from material",
+                "albumin paper"
+            ],
+            [
+                "Carte de visite",
+                "made from material",
+                "cardboard"
+            ]
+        ],
+        "question": "Is there any possibility that cardboard could not be be used to make of Carte de visite?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Cardboard is a generic term for heavy paper-based products. Their construction can range from a thick paper known as paperboard to corrugated fiberboard, made of multiple plies of material. Natural cardboards can range from grey to light brown in color, depending on the specific product; dyes, pigments, printing, and coatings are available.\nThe carte de visite was a format of small photograph which was patented in Paris by photographer André Adolphe Eugène Disdéri in 1854, although first used by Louis Dodero in 1851.",
+        "subject": "cardboard",
+        "predicate": "be_used_to_make",
+        "object": "Carte de visite",
+        "evidence": [
+            [
+                "Carte de visite",
+                "made from material",
+                "albumin paper"
+            ],
+            [
+                "Carte de visite",
+                "made from material",
+                "cardboard"
+            ]
+        ],
+        "question": "Does cardboard have the possibility to be be used to make of Carte de visite?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Politeness is the practical application of good manners or etiquette so as not to offend others and to put them at ease. It is a culturally defined phenomenon, and therefore what is considered polite in one culture can sometimes be quite rude or simply eccentric in another cultural context.\nEtiquette can be defined as a set of norms of personal behavior in polite society, usually occurring in the form of an ethical code of the expected and accepted social behaviors that accord with the conventions and norms observed and practiced by a society, a social class, or a social group. In modern English usage, the French word étiquette dates from the year 1750 and also originates from the French word for \"ticket,\" possibly symbolizing a person’s entry into society through proper behavior. There are many important historical figures that have helped to shape the meaning of the term as well as provide varying perspectives.",
+        "subject": "politeness",
+        "predicate": "be_the_use_of",
+        "object": "Etiquette",
+        "evidence": [
+            [
+                "Etiquette",
+                "has use",
+                "politeness"
+            ]
+        ],
+        "question": "Is there any possibility that politeness could not be be the use of of Etiquette?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Politeness is the practical application of good manners or etiquette so as not to offend others and to put them at ease. It is a culturally defined phenomenon, and therefore what is considered polite in one culture can sometimes be quite rude or simply eccentric in another cultural context.\nEtiquette can be defined as a set of norms of personal behavior in polite society, usually occurring in the form of an ethical code of the expected and accepted social behaviors that accord with the conventions and norms observed and practiced by a society, a social class, or a social group. In modern English usage, the French word étiquette dates from the year 1750 and also originates from the French word for \"ticket,\" possibly symbolizing a person’s entry into society through proper behavior. There are many important historical figures that have helped to shape the meaning of the term as well as provide varying perspectives.",
+        "subject": "politeness",
+        "predicate": "be_the_use_of",
+        "object": "Etiquette",
+        "evidence": [
+            [
+                "Etiquette",
+                "has use",
+                "politeness"
+            ]
+        ],
+        "question": "Is there any possibility that politeness could not be be the use of of Etiquette?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Politeness is the practical application of good manners or etiquette so as not to offend others and to put them at ease. It is a culturally defined phenomenon, and therefore what is considered polite in one culture can sometimes be quite rude or simply eccentric in another cultural context.\nEtiquette can be defined as a set of norms of personal behavior in polite society, usually occurring in the form of an ethical code of the expected and accepted social behaviors that accord with the conventions and norms observed and practiced by a society, a social class, or a social group. In modern English usage, the French word étiquette dates from the year 1750 and also originates from the French word for \"ticket,\" possibly symbolizing a person’s entry into society through proper behavior. There are many important historical figures that have helped to shape the meaning of the term as well as provide varying perspectives.",
+        "subject": "politeness",
+        "predicate": "be_the_use_of",
+        "object": "Etiquette",
+        "evidence": [
+            [
+                "Etiquette",
+                "has use",
+                "politeness"
+            ]
+        ],
+        "question": "Does politeness have the possibility to be be the use of of Etiquette?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Politeness is the practical application of good manners or etiquette so as not to offend others and to put them at ease. It is a culturally defined phenomenon, and therefore what is considered polite in one culture can sometimes be quite rude or simply eccentric in another cultural context.\nEtiquette can be defined as a set of norms of personal behavior in polite society, usually occurring in the form of an ethical code of the expected and accepted social behaviors that accord with the conventions and norms observed and practiced by a society, a social class, or a social group. In modern English usage, the French word étiquette dates from the year 1750 and also originates from the French word for \"ticket,\" possibly symbolizing a person’s entry into society through proper behavior. There are many important historical figures that have helped to shape the meaning of the term as well as provide varying perspectives.",
+        "subject": "politeness",
+        "predicate": "be_the_use_of",
+        "object": "Etiquette",
+        "evidence": [
+            [
+                "Etiquette",
+                "has use",
+                "politeness"
+            ]
+        ],
+        "question": "Is there any possibility that politeness could not be be the use of of Etiquette?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Abstract expressionism in the United States emerged as a distinct art movement in the aftermath of World War II and gained mainstream acceptance in the 1950s, a shift from the American social realism of the 1930s influenced by the Great Depression and Mexican muralists. The term was first applied to American art in 1946 by the art critic Robert Coates. Key figures in the New York School, which was the center of this movement, included such artists as Arshile Gorky, Jackson Pollock, Franz Kline, Mark Rothko, Norman Lewis, Willem de Kooning, Adolph Gottlieb, Clyfford Still, Robert Motherwell, Theodoros Stamos, and Lee Krasner among others.\nPop art is an art movement that emerged in the United Kingdom and the United States during the mid- to late 1950s. The movement presented a challenge to traditions of fine art by including imagery from popular and mass culture, such as advertising, comic books and mundane mass-produced objects. One of its aims is to use images of popular culture in art, emphasizing the banal or kitschy elements of any culture, most often through the use of irony. It is also associated with the artists' use of mechanical means of reproduction or rendering techniques. In pop art, material is sometimes visually removed from its known context, isolated, or combined with unrelated material.",
+        "subject": "abstract expressionism",
+        "predicate": "influence",
+        "object": "Pop art",
+        "evidence": [
+            [
+                "Pop art",
+                "influenced by",
+                "abstract expressionism"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "comics"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "popular culture"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "Dada"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "advertising"
+            ]
+        ],
+        "question": "Is there any possibility that abstract expressionism could not be influence of Pop art?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Comics is a medium used to express ideas with images, often combined with text or other visual information. It typically takes the form of a sequence of panels of images. Textual devices such as speech balloons, captions, and onomatopoeia can indicate dialogue, narration, sound effects, or other information. There is no consensus among theorists and historians on a definition of comics; some emphasize the combination of images and text, some sequentiality or other image relations, and others historical aspects such as mass reproduction or the use of recurring characters. Cartooning and other forms of illustration are the most common means of image-making in comics. Photo comics is a form that uses photographic images. Common forms include comic strips, editorial and gag cartoons, and comic books. Since the late 20th century, bound volumes such as graphic novels, and comic albums, have become increasingly common, along with webcomics as well as scientific/medical comics.\nPop art is an art movement that emerged in the United Kingdom and the United States during the mid- to late 1950s. The movement presented a challenge to traditions of fine art by including imagery from popular and mass culture, such as advertising, comic books and mundane mass-produced objects. One of its aims is to use images of popular culture in art, emphasizing the banal or kitschy elements of any culture, most often through the use of irony. It is also associated with the artists' use of mechanical means of reproduction or rendering techniques. In pop art, material is sometimes visually removed from its known context, isolated, or combined with unrelated material.",
+        "subject": "comics",
+        "predicate": "influence",
+        "object": "Pop art",
+        "evidence": [
+            [
+                "Pop art",
+                "influenced by",
+                "abstract expressionism"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "comics"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "popular culture"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "Dada"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "advertising"
+            ]
+        ],
+        "question": "Is it true that comics could or could be influence Pop art?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Popular culture is generally recognized by members of a society as a set of practices, beliefs, artistic output and objects that are dominant or prevalent in a society at a given point in time. Popular culture also encompasses the activities and feelings produced as a result of interaction with these dominant objects. Mass media, marketing, and the imperatives of mass appeal within capitalism constitute the primary engines of Western popular culture—a system philosopher Theodor Adorno critically termed the 'culture industry'.\nPop art is an art movement that emerged in the United Kingdom and the United States during the mid- to late 1950s. The movement presented a challenge to traditions of fine art by including imagery from popular and mass culture, such as advertising, comic books and mundane mass-produced objects. One of its aims is to use images of popular culture in art, emphasizing the banal or kitschy elements of any culture, most often through the use of irony. It is also associated with the artists' use of mechanical means of reproduction or rendering techniques. In pop art, material is sometimes visually removed from its known context, isolated, or combined with unrelated material.",
+        "subject": "Popular culture",
+        "predicate": "influence",
+        "object": "Pop art",
+        "evidence": [
+            [
+                "Pop art",
+                "influenced by",
+                "abstract expressionism"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "comics"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "popular culture"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "Dada"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "advertising"
+            ]
+        ],
+        "question": "Could Popular culture be influence of Pop art?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Dada or Dadaism was an anti-establishment art movement that developed in 1915 in the context of the Great War and the earlier anti-art movement. Early centers for dadaism included Zürich and Berlin. Within a few years, the movement had spread to New York City and a variety of artistic centers in Europe and Asia.\nPop art is an art movement that emerged in the United Kingdom and the United States during the mid- to late 1950s. The movement presented a challenge to traditions of fine art by including imagery from popular and mass culture, such as advertising, comic books and mundane mass-produced objects. One of its aims is to use images of popular culture in art, emphasizing the banal or kitschy elements of any culture, most often through the use of irony. It is also associated with the artists' use of mechanical means of reproduction or rendering techniques. In pop art, material is sometimes visually removed from its known context, isolated, or combined with unrelated material.",
+        "subject": "Dada",
+        "predicate": "influence",
+        "object": "Pop art",
+        "evidence": [
+            [
+                "Pop art",
+                "influenced by",
+                "abstract expressionism"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "comics"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "popular culture"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "Dada"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "advertising"
+            ]
+        ],
+        "question": "Is there any possibility that Dada could not be influence of Pop art?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Advertising is the practice and techniques employed to bring attention to a product or service. Advertising aims to present a product or service in terms of utility, advantages, and qualities of interest to consumers. It is typically used to promote a specific good or service, but there are a wide range of uses, the most common being commercial advertisement.\nPop art is an art movement that emerged in the United Kingdom and the United States during the mid- to late 1950s. The movement presented a challenge to traditions of fine art by including imagery from popular and mass culture, such as advertising, comic books and mundane mass-produced objects. One of its aims is to use images of popular culture in art, emphasizing the banal or kitschy elements of any culture, most often through the use of irony. It is also associated with the artists' use of mechanical means of reproduction or rendering techniques. In pop art, material is sometimes visually removed from its known context, isolated, or combined with unrelated material.",
+        "subject": "advertising",
+        "predicate": "influence",
+        "object": "Pop art",
+        "evidence": [
+            [
+                "Pop art",
+                "influenced by",
+                "abstract expressionism"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "comics"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "popular culture"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "Dada"
+            ],
+            [
+                "Pop art",
+                "influenced by",
+                "advertising"
+            ]
+        ],
+        "question": "Could advertising be influence of Pop art?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "The PlayStation 2 (PS2) is a home video game console developed and marketed by Sony Computer Entertainment. It was first released in Japan on 4 March 2000, in North America on October 26, in Europe on November 24, in Australia on November 30, and other regions thereafter. It is the successor to the original PlayStation, as well as the second instalment in the PlayStation brand of consoles. As a sixth-generation console, it competed with Nintendo's GameCube, Sega's Dreamcast, and Microsoft's Xbox.\nThe PlayStation is a home video game console developed and marketed by Sony Computer Entertainment. It was released in Japan on December 3, 1994, followed by North America on September 9, 1995, Europe on September 29, 1995, and other regions following thereafter. As a fifth-generation console, the PlayStation primarily competed with the Nintendo 64 and the Sega Saturn.",
+        "subject": "PlayStation 2",
+        "predicate": "settlement_located_in",
+        "object": "PlayStation (console)",
+        "evidence": [
+            [
+                "PlayStation (console)",
+                "replaced by",
+                "PlayStation 2"
+            ]
+        ],
+        "question": "Is it true that PlayStation 2 could or could be settlement located in PlayStation (console)?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "In sociology, popularity is how much a person, idea, place, item or other concept is either liked or accorded status by other people. Liking can be due to reciprocal liking, interpersonal attraction, and similar factors. Social status can be due to dominance, superiority, and similar factors. For example, a kind person may be considered likable and therefore more popular than another person, and a wealthy person may be considered superior and therefore more popular than another person.\nA fad, trend, or craze is any form of collective behavior that develops within a culture, a generation, or social group in which a group of people enthusiastically follow an impulse for a short time period.",
+        "subject": "popularity",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "Fad",
+        "evidence": [
+            [
+                "Fad",
+                "has characteristic",
+                "popularity"
+            ]
+        ],
+        "question": "Could popularity be be the natural reservoir in of Fad?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "In sociology, popularity is how much a person, idea, place, item or other concept is either liked or accorded status by other people. Liking can be due to reciprocal liking, interpersonal attraction, and similar factors. Social status can be due to dominance, superiority, and similar factors. For example, a kind person may be considered likable and therefore more popular than another person, and a wealthy person may be considered superior and therefore more popular than another person.\nA fad, trend, or craze is any form of collective behavior that develops within a culture, a generation, or social group in which a group of people enthusiastically follow an impulse for a short time period.",
+        "subject": "popularity",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "Fad",
+        "evidence": [
+            [
+                "Fad",
+                "has characteristic",
+                "popularity"
+            ]
+        ],
+        "question": "Could popularity be be the natural reservoir in of Fad?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "In sociology, popularity is how much a person, idea, place, item or other concept is either liked or accorded status by other people. Liking can be due to reciprocal liking, interpersonal attraction, and similar factors. Social status can be due to dominance, superiority, and similar factors. For example, a kind person may be considered likable and therefore more popular than another person, and a wealthy person may be considered superior and therefore more popular than another person.\nA fad, trend, or craze is any form of collective behavior that develops within a culture, a generation, or social group in which a group of people enthusiastically follow an impulse for a short time period.",
+        "subject": "popularity",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "Fad",
+        "evidence": [
+            [
+                "Fad",
+                "has characteristic",
+                "popularity"
+            ]
+        ],
+        "question": "Is there any possibility that popularity could not be be the natural reservoir in of Fad?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "In sociology, popularity is how much a person, idea, place, item or other concept is either liked or accorded status by other people. Liking can be due to reciprocal liking, interpersonal attraction, and similar factors. Social status can be due to dominance, superiority, and similar factors. For example, a kind person may be considered likable and therefore more popular than another person, and a wealthy person may be considered superior and therefore more popular than another person.\nA fad, trend, or craze is any form of collective behavior that develops within a culture, a generation, or social group in which a group of people enthusiastically follow an impulse for a short time period.",
+        "subject": "popularity",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "Fad",
+        "evidence": [
+            [
+                "Fad",
+                "has characteristic",
+                "popularity"
+            ]
+        ],
+        "question": "Is there any possibility that popularity could not be be the natural reservoir in of Fad?",
+        "answer": "No."
+    }
+]

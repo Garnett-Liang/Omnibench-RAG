@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omnibench-RAG - RAG Evaluation</title>
+    <!-- Import Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <style>
+        .log-container { height: 200px; overflow-y: auto; white-space: pre-wrap; }
+        .log-error { color: #ef4444; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation bar -->
+    <header class="bg-green-600 text-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <a href="/" class="flex items-center space-x-2">
+                <i class="fas fa-arrow-left"></i>
+                <span class="text-lg font-semibold">Back to Home</span>
+            </a>
+            <h1 class="text-xl font-bold">RAG-Enhanced Evaluation</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-6">
+        <!-- Parameter configuration card -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                <i class="fas fa-cog mr-2 text-green-600"></i>Evaluation Parameter Configuration
+            </h2>
+            
+            <!-- Dataset Source Selection -->
+            <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                <h3 class="font-medium text-gray-800 mb-3">Dataset Source Selection</h3>
+                <div class="flex items-center mb-2">
+                    <input type="radio" id="existingDataset" name="datasetSource" value="existing" class="mr-2" checked>
+                    <label for="existingDataset" class="font-medium">Use reproducible dataset (as of Oct 14)</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="radio" id="newDataset" name="datasetSource" value="new" class="mr-2">
+                    <label for="newDataset" class="font-medium">Use dynamically generated dataset</label>
+                </div>
+            </div>
+
+            <!-- RAG Material Selection -->
+            <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                <h3 class="font-medium text-gray-800 mb-3">RAG Material Selection</h3>
+                <div class="flex items-center mb-2">
+                    <input type="radio" id="strongWikiMaterial" name="ragMaterialSource" value="strong" class="mr-2" checked>
+                    <label for="strongWikiMaterial" class="font-medium">Use Strong Wiki material</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="radio" id="flexibleMaterial" name="ragMaterialSource" value="flexible" class="mr-2">
+                    <label for="flexibleMaterial" class="font-medium">Use flexible uploaded material</label>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <!-- Inference rule selection -->
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2">Inference Rule</label>
+                    <select id="ruleSelect" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+                        <option value="inverse">Inverse Reasoning</option>
+                        <option value="negation">Negation Reasoning</option>
+                        <option value="composite">Composite Reasoning</option>
+                    </select>
+                </div>
+
+                <!-- Domain selection -->
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2">Evaluation Domain</label>
+                    <select id="domainSelect" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+                        <option value="geography">Geography</option>
+                        <option value="history">History</option>
+                        <option value="health">Health</option>
+                        <option value="mathematics">Mathematics</option>
+                        <option value="nature">Nature</option>
+                        <option value="people">People</option>
+                        <option value="society">Society</option>
+                        <option value="technology">Technology</option>
+                        <option value="culture">Culture</option>
+                    </select>
+                </div>
+
+                <!-- Model selection -->
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2">Base Model</label>
+                    <select id="modelSelect" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+                        <option value="qwen">Qwen/Qwen-1_8B</option>
+                        <option value="gpt2">GPT-2 (gpt2-medium)</option>
+                        <option value="gptneo">EleutherAI GPT-Neo (125M)</option>
+                        <option value="dialogpt">DialoGPT (medium)</option>
+                        <option value="opt">OPT (1.3B)</option>
+                    </select>
+                </div>
+
+                <!-- Number of retrieved documents -->
+                <div>
+                    <label class="block text-gray-700 text-sm font-medium mb-2">Number of Retrieved Documents (Top-K)</label>
+                    <input type="number" id="topKInput" value="3" min="1" max="10" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+                </div>
+            </div>
+
+            <!-- Operation buttons -->
+            <div class="flex flex-col sm:flex-row gap-3 mt-6">
+                <button id="startBtn" class="bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-6 rounded-md flex-1 flex items-center justify-center">
+                    <i class="fas fa-play mr-2"></i> Start RAG Evaluation
+                </button>
+                <button id="clearBtn" class="bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 px-6 rounded-md flex-1 flex items-center justify-center">
+                    <i class="fas fa-trash mr-2"></i> Clear Results
+                </button>
+            </div>
+        </div>
+
+        <!-- Progress display card -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                <i class="fas fa-spinner mr-2 text-green-600"></i>Evaluation Progress
+            </h2>
+            <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
+                <div id="progressBar" class="bg-green-600 h-4 rounded-full" style="width: 0%"></div>
+            </div>
+            <p id="progressMsg" class="text-gray-600">Waiting for evaluation to start...</p>
+        </div>
+
+        <!-- Log display card -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                <i class="fas fa-terminal mr-2 text-green-600"></i>Evaluation Logs
+            </h2>
+            <div id="logContainer" class="log-container border border-gray-200 rounded-md p-3 text-sm">
+                <p class="text-gray-500">After clicking "Start RAG Evaluation", the logs will be displayed here in real-time...</p>
+            </div>
+        </div>
+
+        <!-- Result display card -->
+        <div class="bg-white rounded-lg shadow p-6">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                <i class="fas fa-chart-line mr-2 text-green-600"></i>Evaluation Results
+            </h2>
+            <div id="resultContainer" class="py-4 text-gray-500 text-center">
+                <p>The results will be displayed here after the evaluation is completed...</p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const startBtn = document.getElementById('startBtn');
+            const clearBtn = document.getElementById('clearBtn');
+            const ruleSelect = document.getElementById('ruleSelect');
+            const domainSelect = document.getElementById('domainSelect');
+            const modelSelect = document.getElementById('modelSelect');
+            const topKInput = document.getElementById('topKInput');
+            const progressBar = document.getElementById('progressBar');
+            const progressMsg = document.getElementById('progressMsg');
+            const logContainer = document.getElementById('logContainer');
+            const resultContainer = document.getElementById('resultContainer');
+
+            let pollingInterval = null;
+            let currentLogFile = null;
+            let datasetSource = 'existing'; // Default dataset source
+            let ragMaterialSource = 'strong'; // Default RAG material source
+
+            // Listen for dataset source selection
+            const datasetRadios = document.getElementsByName('datasetSource');
+            datasetRadios.forEach(radio => {
+                radio.addEventListener('change', function() {
+                    datasetSource = this.value;
+                });
+            });
+
+            // Listen for RAG material source selection
+            const ragMaterialRadios = document.getElementsByName('ragMaterialSource');
+            ragMaterialRadios.forEach(radio => {
+                radio.addEventListener('change', function() {
+                    ragMaterialSource = this.value;
+                });
+            });
+
+            // Start evaluation logic
+            startBtn.addEventListener('click', async () => {
+                const rule = ruleSelect.value;
+                const domain = domainSelect.value;
+                const modelName = modelSelect.value;
+                const topK = parseInt(topKInput.value);
+
+                // Parameter validation
+                if (!rule || !domain || !modelName || isNaN(topK) || topK < 1 || topK > 10) {
+                    alert('Please fill in valid parameters (inference rule, domain, model, number of retrievals between 1-10)');
+                    return;
+                }
+
+                // Disable buttons
+                startBtn.disabled = true;
+                startBtn.classList.add('opacity-50', 'cursor-not-allowed');
+                clearBtn.disabled = true;
+
+                // Initiate RAG evaluation request
+                try {
+                    const response = await fetch('/api/evaluate_rag', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ 
+                            rule, 
+                            domain, 
+                            model_name: modelName, 
+                            top_k: topK,
+                            dataset_source: datasetSource,
+                            rag_material_source: ragMaterialSource
+                        })
+                    });
+                    const data = await response.json();
+
+                    if (data.status !== 'processing') {
+                        throw new Error(data.message || 'Request failed');
+                    }
+
+                    currentLogFile = data.log_file;
+
+                    // Start polling for progress and logs
+                    pollingInterval = setInterval(() => {
+                        fetchProgressAndLogs(currentLogFile);
+                    }, 2000);
+                } catch (error) {
+                    console.error('Evaluation request error:', error);
+                    progressMsg.textContent = 'Evaluation request error: ' + error.message;
+                    startBtn.disabled = false;
+                    startBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+                    clearBtn.disabled = false;
+                }
+            });
+
+            // Poll for progress and logs
+            async function fetchProgressAndLogs(logFile) {
+                if (!logFile) return;
+
+                // Get progress
+                const progressResp = await fetch(`/api/rag_progress/${logFile}`);
+                const progressData = await progressResp.json();
+
+                // Update progress bar
+                progressBar.style.width = `${progressData.progress}%`;
+                progressMsg.textContent = progressData.message;
+
+                // Get logs
+                const logResp = await fetch(`/api/logs/${logFile}`);
+                const logData = await logResp.json();
+
+                if (logData.status === 'success') {
+                    displayLogs(logData.logs);
+                }
+
+                // Check if completed
+                if (progressData.progress >= 100) {
+                    clearInterval(pollingInterval);
+                    await fetchResults(logFile);
+                }
+            }
+
+            // Display logs
+            function displayLogs(logs) {
+                logContainer.innerHTML = '';
+                logs.split('\n').forEach(line => {
+                    if (!line.trim()) return;
+                    const p = document.createElement('p');
+                    p.className = 'mb-1';
+                    if (line.includes('Error:') || line.includes('错误:')) {
+                        p.className += ' log-error';
+                    }
+                    p.textContent = line;
+                    logContainer.appendChild(p);
+                });
+                logContainer.scrollTop = logContainer.scrollHeight;
+            }
+
+            // Get evaluation results
+            async function fetchResults(logFile) {
+                const resp = await fetch(`/api/rag_results/${logFile}`);
+                const data = await resp.json();
+
+                if (data.status !== 'success') {
+                    resultContainer.innerHTML = `<p class="text-red-500">Failed to get results: ${data.message}</p>`;
+                    return;
+                }
+
+                const result = data.results;
+                const metrics = result.metrics;
+                const params = result.parameters;
+                const perf = metrics.performance; // 性能指标数据
+
+                resultContainer.innerHTML = `
+                    <!-- 准确率展示 -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        <div class="bg-green-50 p-4 rounded-md">
+                            <div class="text-sm text-green-600 mb-1">Basic Accuracy</div>
+                            <div class="text-xl font-bold">${(metrics.basic_accuracy * 100).toFixed(2)}%</div>
+                        </div>
+                        <div class="bg-blue-50 p-4 rounded-md">
+                            <div class="text-sm text-blue-600 mb-1">RAG Accuracy</div>
+                            <div class="text-xl font-bold">${(metrics.rag_accuracy * 100).toFixed(2)}%</div>
+                        </div>
+                    </div>
+
+                    <!-- 性能提升展示 -->
+                    <div class="bg-gray-50 p-4 rounded-md mb-6">
+                        <div class="text-sm text-gray-600 mb-1">Performance Improvement</div>
+                        <div class="text-xl font-bold ${metrics.improvement > 0 ? 'text-green-600' : 'text-red-600'}">
+                            ${metrics.improvement > 0 ? '+' : ''}${(metrics.improvement * 100).toFixed(2)}%
+                        </div>
+                    </div>
+
+                    <!-- 性能指标展示（新增部分） -->
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3">Performance Metrics</h3>
+                        
+                        <!-- 基础模型性能 -->
+                        <div class="bg-yellow-50 p-4 rounded-md mb-4">
+                            <div class="text-sm text-yellow-600 font-medium mb-2">Base Model</div>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-sm">
+                                <div>
+                                    <div class="text-gray-500">Avg Response Time</div>
+                                    <div class="font-bold">${perf.basic.response_time.toFixed(4)}s</div>
+                                </div>
+                                <div>
+                                    <div class="text-gray-500">Avg Memory Usage</div>
+                                    <div class="font-bold">${perf.basic.memory_usage.toFixed(4)}MB</div>
+                                </div>
+                                <div>
+                                    <div class="text-gray-500">Avg GPU Utilization</div>
+                                    <div class="font-bold">${perf.basic.gpu_utilization.toFixed(2)}%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- RAG模型性能及相对比例 -->
+                        <div class="bg-purple-50 p-4 rounded-md">
+                            <div class="text-sm text-purple-600 font-medium mb-2">RAG Model (vs Base)</div>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-sm">
+                                <div>
+                                    <div class="text-gray-500">Avg Response Time</div>
+                                    <div class="font-bold">${perf.rag.response_time.toFixed(4)}s (${perf.ratios.response_time.toFixed(2)}x)</div>
+                                </div>
+                                <div>
+                                    <div class="text-gray-500">Avg Memory Usage</div>
+                                    <div class="font-bold">${perf.rag.memory_usage.toFixed(4)}MB (${perf.ratios.memory_usage.toFixed(2)}x)</div>
+                                </div>
+                                <div>
+                                    <div class="text-gray-500">Avg GPU Utilization</div>
+                                    <div class="font-bold">${perf.rag.gpu_utilization.toFixed(2)}% (${perf.ratios.gpu_utilization.toFixed(2)}x)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-indigo-50 p-4 rounded-md mb-4">
+                    <div class="text-sm text-indigo-600 font-medium mb-2">Efficiency Trade-off (Transformation)</div>
+                    <div class="flex items-center">
+                        <div class="text-2xl font-bold ${metrics.transformation > 1 ? 'text-green-600' : 'text-red-600'}">
+                            ${metrics.transformation.toFixed(4)}
+                        </div>
+                        <div class="ml-3 text-sm text-gray-600">
+                            <span>${metrics.transformation > 1 ? '↑ Better efficiency with RAG' : '↓ Higher overhead with RAG'}</span>
+                            <div class="text-xs mt-1">*Combines response time, GPU, and memory trade-offs</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="text-gray-600">
+                        <p><strong>Parameter Information:</strong></p>
+                        <p>Inference Rule: ${getRuleText(result.rule)}</p>
+                        <p>Domain: ${result.domain}</p>
+                        <p>Model: ${result.model_name}</p>
+                        <p>Number of Retrieved Documents: ${params.top_k}</p>
+                        <p>Dataset Size: ${params.dataset_size}</p>
+                    </div>
+                `;
+            }
+
+            // Get rule text description
+            function getRuleText(rule) {
+                const ruleMap = {
+                    'basic': 'Basic Reasoning',
+                    'inverse': 'Inverse Reasoning',
+                    'negation': 'Negation Reasoning',
+                    'composite': 'Composite Reasoning'
+                };
+                return ruleMap[rule] || rule;
+            }
+
+            // Clear results
+            clearBtn.addEventListener('click', () => {
+                if (pollingInterval) {
+                    clearInterval(pollingInterval);
+                    pollingInterval = null;
+                }
+                progressBar.style.width = '0%';
+                progressMsg.textContent = 'Waiting for evaluation to start...';
+                logContainer.innerHTML = '<p class="text-gray-500">After clicking "Start RAG Evaluation", the logs will be displayed here in real-time...</p>';
+                resultContainer.innerHTML = '<p>The results will be displayed here after the evaluation is completed...</p>';
+                startBtn.disabled = false;
+                startBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+                clearBtn.disabled = false;
+                currentLogFile = null;
+            });
+        });
+    </script>
+</body>
+</html>
