@@ -109,10 +109,22 @@ OmniBench-RAG/
 - **Python**: 3.8 or higher
 - **pip**: Python package manager
 - **Git**: Version control system
-- **GPU Support (Optional)**: Requires manual configuration for NVIDIA GPUs
-  - Install CUDA-enabled PyTorch: `pip install torch==2.0.1+cu118` (must match your CUDA version)
-  - Install GPU version of FAISS: `pip install faiss-gpu` (replace `faiss-cpu`)
-  - Ensure CUDA 11.0+ and a compatible NVIDIA GPU
+- **GPU Support (Optional)**: Automatic GPU detection and utilization
+  - **NVIDIA GPU (CUDA)**: 
+    - Install CUDA-enabled PyTorch: `pip install torch==2.0.1+cu118` (must match your CUDA version)
+    - Install GPU version of FAISS: `pip install faiss-gpu` (replace `faiss-cpu` if installed)
+    - Ensure CUDA 11.0+ and a compatible NVIDIA GPU
+    - The platform automatically detects CUDA availability using `torch.cuda.is_available()`
+    - Models are automatically loaded to GPU device 0 when CUDA is available
+    - GPU utilization is monitored via `nvidia-smi` during evaluation
+  - **Apple Silicon (MPS)**:
+    - PyTorch with MPS support (automatically available in recent PyTorch versions)
+    - The platform automatically detects MPS availability using `torch.backends.mps.is_available()`
+  - **CPU Fallback**:
+    - If no GPU is detected, the platform automatically falls back to CPU execution
+    - No manual configuration required - device selection is handled automatically by the `get_device()` function
+
+**Note**: The platform uses a unified device detection function that prioritizes CUDA → MPS → CPU. The Hugging Face `pipeline` API is configured with `device=0` for CUDA or `device=-1` for CPU/MPS, ensuring optimal performance based on available hardware.
 
 ### Step 1: Clone the Repository
 
