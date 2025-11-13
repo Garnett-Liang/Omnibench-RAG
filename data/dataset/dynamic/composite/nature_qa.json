@@ -1,0 +1,789 @@
+[
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nNature conservation is the ethic/moral philosophy and conservation movement focused on protecting species from extinction, maintaining and restoring habitats, enhancing ecosystem services, and protecting biological diversity. A range of values underlie conservation, which can be guided by biocentrism, anthropocentrism, ecocentrism, and sentientism, environmental ideologies that inform ecocultural practices and identities. There has recently been a movement towards evidence-based conservation which calls for greater use of scientific evidence to improve the effectiveness of conservation efforts. As of 2018 15% of land and 7.3% of the oceans were protected. Many environmentalists set a target of protecting 30% of land and marine territory by 2030. In 2021, 16.64% of land and 7.9% of the oceans were protected. The 2022 IPCC report on climate impacts and adaptation, underlines the need to conserve 30% to 50% of the Earth's land, freshwater and ocean areas – echoing the 30% goal of the U.N.'s Convention on Biodiversity.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Nature conservation",
+        "evidence": [
+            [
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Nature conservation",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ]
+        ],
+        "question": "Statement: It's not true that Natural science and Nature conservation have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nArmenian bole, also known as bolus armenus or bole armoniac, is an earthy clay, usually red, native to Armenia but also found in other places. The term Armenian was later referred to a specific quality of the clay. Originally used in medication, it has also been used as a pigment, as a poliment or base for gilding, and for other uses. It is red due to the presence of iron oxide; the clay also contains hydrous silicates of aluminum and possibly magnesium.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Armenian bole",
+        "evidence": [
+            [
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of Natural science also related with Armenian bole?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nClay is a type of fine-grained natural soil material containing clay minerals. Most pure clay minerals are white or light-coloured, but natural clays show a variety of colours from impurities, such as a reddish or brownish colour from small amounts of iron oxide.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Clay",
+        "evidence": [
+            [
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Nordisk familjebok"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Explanatory Dictionary of the Living Great Russian Language"
+            ]
+        ],
+        "question": "Does Natural science and Clay have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "The Gaia hypothesis, also known as the Gaia theory, Gaia paradigm, or the Gaia principle, proposes that living organisms interact with their inorganic surroundings on Earth to form a synergistic and self-regulating complex system that helps to maintain and perpetuate the conditions for life on the planet.\nEnergy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity—the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).",
+        "subject": "Gaia hypothesis",
+        "predicate": "same_described_by_source",
+        "object": "Energy",
+        "evidence": [
+            [
+                "Gaia hypothesis",
+                "described by source",
+                "Lean Logic"
+            ]
+        ],
+        "question": "Does Gaia hypothesis and Energy have completely separate described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nNature conservation is the ethic/moral philosophy and conservation movement focused on protecting species from extinction, maintaining and restoring habitats, enhancing ecosystem services, and protecting biological diversity. A range of values underlie conservation, which can be guided by biocentrism, anthropocentrism, ecocentrism, and sentientism, environmental ideologies that inform ecocultural practices and identities. There has recently been a movement towards evidence-based conservation which calls for greater use of scientific evidence to improve the effectiveness of conservation efforts. As of 2018 15% of land and 7.3% of the oceans were protected. Many environmentalists set a target of protecting 30% of land and marine territory by 2030. In 2021, 16.64% of land and 7.9% of the oceans were protected. The 2022 IPCC report on climate impacts and adaptation, underlines the need to conserve 30% to 50% of the Earth's land, freshwater and ocean areas – echoing the 30% goal of the U.N.'s Convention on Biodiversity.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Nature conservation",
+        "evidence": [
+            [
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Nature conservation",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ]
+        ],
+        "question": "Statement: It's not true that Natural science and Nature conservation have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nArmenian bole, also known as bolus armenus or bole armoniac, is an earthy clay, usually red, native to Armenia but also found in other places. The term Armenian was later referred to a specific quality of the clay. Originally used in medication, it has also been used as a pigment, as a poliment or base for gilding, and for other uses. It is red due to the presence of iron oxide; the clay also contains hydrous silicates of aluminum and possibly magnesium.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Armenian bole",
+        "evidence": [
+            [
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ]
+        ],
+        "question": "Does Natural science and Armenian bole share totally different described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nClay is a type of fine-grained natural soil material containing clay minerals. Most pure clay minerals are white or light-coloured, but natural clays show a variety of colours from impurities, such as a reddish or brownish colour from small amounts of iron oxide.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Clay",
+        "evidence": [
+            [
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Nordisk familjebok"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Explanatory Dictionary of the Living Great Russian Language"
+            ]
+        ],
+        "question": "Statement: It's not true that Natural science and Clay have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "The Gaia hypothesis, also known as the Gaia theory, Gaia paradigm, or the Gaia principle, proposes that living organisms interact with their inorganic surroundings on Earth to form a synergistic and self-regulating complex system that helps to maintain and perpetuate the conditions for life on the planet.\nEnergy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity—the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).",
+        "subject": "Gaia hypothesis",
+        "predicate": "same_described_by_source",
+        "object": "Energy",
+        "evidence": [
+            [
+                "Gaia hypothesis",
+                "described by source",
+                "Lean Logic"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of Gaia hypothesis also related with Energy?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nNature conservation is the ethic/moral philosophy and conservation movement focused on protecting species from extinction, maintaining and restoring habitats, enhancing ecosystem services, and protecting biological diversity. A range of values underlie conservation, which can be guided by biocentrism, anthropocentrism, ecocentrism, and sentientism, environmental ideologies that inform ecocultural practices and identities. There has recently been a movement towards evidence-based conservation which calls for greater use of scientific evidence to improve the effectiveness of conservation efforts. As of 2018 15% of land and 7.3% of the oceans were protected. Many environmentalists set a target of protecting 30% of land and marine territory by 2030. In 2021, 16.64% of land and 7.9% of the oceans were protected. The 2022 IPCC report on climate impacts and adaptation, underlines the need to conserve 30% to 50% of the Earth's land, freshwater and ocean areas – echoing the 30% goal of the U.N.'s Convention on Biodiversity.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Nature conservation",
+        "evidence": [
+            [
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Nature conservation",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of Natural science also related with Nature conservation?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nArmenian bole, also known as bolus armenus or bole armoniac, is an earthy clay, usually red, native to Armenia but also found in other places. The term Armenian was later referred to a specific quality of the clay. Originally used in medication, it has also been used as a pigment, as a poliment or base for gilding, and for other uses. It is red due to the presence of iron oxide; the clay also contains hydrous silicates of aluminum and possibly magnesium.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Armenian bole",
+        "evidence": [
+            [
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ]
+        ],
+        "question": "Does Natural science and Armenian bole have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nClay is a type of fine-grained natural soil material containing clay minerals. Most pure clay minerals are white or light-coloured, but natural clays show a variety of colours from impurities, such as a reddish or brownish colour from small amounts of iron oxide.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Clay",
+        "evidence": [
+            [
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Nordisk familjebok"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Explanatory Dictionary of the Living Great Russian Language"
+            ]
+        ],
+        "question": "Does Natural science and Clay share totally different described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Energy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity—the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).\nEnergy transformation, also known as energy conversion, is the process of changing energy from one form to another. In physics, energy is a quantity that provides the capacity to perform work or provides heat. In addition to being converted, according to the law of conservation of energy, energy is transferable to a different location or object or living being, but it cannot be created or destroyed.",
+        "subject": "Energy",
+        "predicate": "same_has_characteristic",
+        "object": "Energy transformation",
+        "evidence": [
+            [
+                "Energy transformation",
+                "has characteristic",
+                "conservation of energy"
+            ]
+        ],
+        "question": "Is there any possibility for the has characteristic of Energy also related with Energy transformation?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Energy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity—the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).\nEnergy transformation, also known as energy conversion, is the process of changing energy from one form to another. In physics, energy is a quantity that provides the capacity to perform work or provides heat. In addition to being converted, according to the law of conservation of energy, energy is transferable to a different location or object or living being, but it cannot be created or destroyed.",
+        "subject": "Energy",
+        "predicate": "same_has_characteristic",
+        "object": "Energy transformation",
+        "evidence": [
+            [
+                "Energy transformation",
+                "has characteristic",
+                "conservation of energy"
+            ]
+        ],
+        "question": "Is there any possibility for the has characteristic of Energy also related with Energy transformation?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Energy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity—the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).\nEnergy transformation, also known as energy conversion, is the process of changing energy from one form to another. In physics, energy is a quantity that provides the capacity to perform work or provides heat. In addition to being converted, according to the law of conservation of energy, energy is transferable to a different location or object or living being, but it cannot be created or destroyed.",
+        "subject": "Energy",
+        "predicate": "same_has_characteristic",
+        "object": "Energy transformation",
+        "evidence": [
+            [
+                "Energy transformation",
+                "has characteristic",
+                "conservation of energy"
+            ]
+        ],
+        "question": "Does Energy and Energy transformation have the same has characteristic?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Energy transformation, also known as energy conversion, is the process of changing energy from one form to another. In physics, energy is a quantity that provides the capacity to perform work or provides heat. In addition to being converted, according to the law of conservation of energy, energy is transferable to a different location or object or living being, but it cannot be created or destroyed.\nEnergy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity—the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).",
+        "subject": "Energy transformation",
+        "predicate": "same_has_characteristic",
+        "object": "Energy",
+        "evidence": [
+            [
+                "Energy transformation",
+                "has characteristic",
+                "conservation of energy"
+            ]
+        ],
+        "question": "Is it true that Energy transformation and Energy have the same has characteristic?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Energy transformation, also known as energy conversion, is the process of changing energy from one form to another. In physics, energy is a quantity that provides the capacity to perform work or provides heat. In addition to being converted, according to the law of conservation of energy, energy is transferable to a different location or object or living being, but it cannot be created or destroyed.\nEnergy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity—the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).",
+        "subject": "Energy transformation",
+        "predicate": "same_has_characteristic",
+        "object": "Energy",
+        "evidence": [
+            [
+                "Energy transformation",
+                "has characteristic",
+                "conservation of energy"
+            ]
+        ],
+        "question": "Is it true that Energy transformation and Energy have the same has characteristic?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Life, also known as biota, refers to matter that has biological processes, such as signaling and self-sustaining processes. It is defined descriptively by the capacity for homeostasis, organisation, metabolism, growth, adaptation, response to stimuli, and reproduction. All life over time eventually reaches a state of death, and none is immortal. Many philosophical definitions of living systems have been proposed, such as self-organizing systems. Defining life is further complicated by viruses, which replicate only in host cells, and the possibility of extraterrestrial life, which is likely to be very different from terrestrial life. Life exists all over the Earth in air, water, and soil, with many ecosystems forming the biosphere. Some of these are harsh environments occupied only by extremophiles.\nAn organism is any living thing that functions as an individual. Such a definition raises more problems than it solves, not least because the concept of an individual is also difficult. Several criteria, few of which are widely accepted, have been proposed to define what constitutes an organism. Among the most common is that an organism has autonomous reproduction, growth, and metabolism. This would exclude viruses, even though they evolve like organisms.",
+        "subject": "Life",
+        "predicate": "same_has_characteristic",
+        "object": "Organism",
+        "evidence": [
+            [
+                "Life",
+                "has characteristic",
+                "biodiversity"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "adaptation"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "quality of life"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "metabolism"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "reproduction"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "form of life"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "lifetime"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "biological life cycle"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "mode of biological reproduction"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "biological life cycle"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "scientific name"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "homeostasis"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "trophic level"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "primary nutritional group"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "species distribution"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "feeding behavior"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "date of birth"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "taxon"
+            ]
+        ],
+        "question": "Is it true that Life and Organism have the same has characteristic?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Living systems are life forms treated as a system. They are said to be open self-organizing and said to interact with their environment. These systems are maintained by flows of information, energy and matter. Multiple theories of living systems have been proposed. Such theories attempt to map general principles for how all living systems work.\nAn organism is any living thing that functions as an individual. Such a definition raises more problems than it solves, not least because the concept of an individual is also difficult. Several criteria, few of which are widely accepted, have been proposed to define what constitutes an organism. Among the most common is that an organism has autonomous reproduction, growth, and metabolism. This would exclude viruses, even though they evolve like organisms.",
+        "subject": "Living systems",
+        "predicate": "same_has_characteristic",
+        "object": "Organism",
+        "evidence": [
+            [
+                "Living systems",
+                "has characteristic",
+                "hierarchy"
+            ],
+            [
+                "Living systems",
+                "has characteristic",
+                "homeostasis"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "mode of biological reproduction"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "biological life cycle"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "scientific name"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "homeostasis"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "trophic level"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "primary nutritional group"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "species distribution"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "feeding behavior"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "date of birth"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "taxon"
+            ]
+        ],
+        "question": "Does Living systems and Organism have the same has characteristic?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "An organism is any living thing that functions as an individual. Such a definition raises more problems than it solves, not least because the concept of an individual is also difficult. Several criteria, few of which are widely accepted, have been proposed to define what constitutes an organism. Among the most common is that an organism has autonomous reproduction, growth, and metabolism. This would exclude viruses, even though they evolve like organisms.\nLife, also known as biota, refers to matter that has biological processes, such as signaling and self-sustaining processes. It is defined descriptively by the capacity for homeostasis, organisation, metabolism, growth, adaptation, response to stimuli, and reproduction. All life over time eventually reaches a state of death, and none is immortal. Many philosophical definitions of living systems have been proposed, such as self-organizing systems. Defining life is further complicated by viruses, which replicate only in host cells, and the possibility of extraterrestrial life, which is likely to be very different from terrestrial life. Life exists all over the Earth in air, water, and soil, with many ecosystems forming the biosphere. Some of these are harsh environments occupied only by extremophiles.",
+        "subject": "Organism",
+        "predicate": "same_has_characteristic",
+        "object": "Life",
+        "evidence": [
+            [
+                "Life",
+                "has characteristic",
+                "biodiversity"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "adaptation"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "quality of life"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "metabolism"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "reproduction"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "form of life"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "lifetime"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "biological life cycle"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "mode of biological reproduction"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "biological life cycle"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "scientific name"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "homeostasis"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "trophic level"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "primary nutritional group"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "species distribution"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "feeding behavior"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "date of birth"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "taxon"
+            ]
+        ],
+        "question": "Is there any possibility for the has characteristic of Organism also related with Life?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "An organism is any living thing that functions as an individual. Such a definition raises more problems than it solves, not least because the concept of an individual is also difficult. Several criteria, few of which are widely accepted, have been proposed to define what constitutes an organism. Among the most common is that an organism has autonomous reproduction, growth, and metabolism. This would exclude viruses, even though they evolve like organisms.\nLiving systems are life forms treated as a system. They are said to be open self-organizing and said to interact with their environment. These systems are maintained by flows of information, energy and matter. Multiple theories of living systems have been proposed. Such theories attempt to map general principles for how all living systems work.",
+        "subject": "Organism",
+        "predicate": "same_has_characteristic",
+        "object": "Living systems",
+        "evidence": [
+            [
+                "Living systems",
+                "has characteristic",
+                "hierarchy"
+            ],
+            [
+                "Living systems",
+                "has characteristic",
+                "homeostasis"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "mode of biological reproduction"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "biological life cycle"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "scientific name"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "homeostasis"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "trophic level"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "primary nutritional group"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "species distribution"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "feeding behavior"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "date of birth"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "taxon"
+            ]
+        ],
+        "question": "Is it true that Organism and Living systems have the same has characteristic?",
+        "answer": "Yes."
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Energy transformation, also known as energy conversion, is the process of changing energy from one form to another. In physics, energy is a quantity that provides the capacity to perform work or provides heat. In addition to being converted, according to the law of conservation of energy, energy is transferable to a different location or object or living being, but it cannot be created or destroyed.\nEnergy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity—the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).",
+        "subject": "Energy transformation",
+        "predicate": "same_has_characteristic",
+        "object": "Energy",
+        "evidence": [
+            [
+                "Energy transformation",
+                "has characteristic",
+                "conservation of energy"
+            ]
+        ],
+        "question": "Does Energy transformation and Energy share totally different has characteristic?",
+        "answer": "No."
+    }
+]

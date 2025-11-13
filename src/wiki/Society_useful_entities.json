@@ -1,13 +1,5 @@
 [
     {
-        "entity": "http://www.wikidata.org/entity/Q56064315",
-        "entityLabel": "Wahkohtowin"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q1773811",
-        "entityLabel": "Proto-Indo-European society"
-    },
-    {
         "entity": "http://www.wikidata.org/entity/Q80083",
         "entityLabel": "Humanities"
     },
@@ -18,10 +10,6 @@
     {
         "entity": "http://www.wikidata.org/entity/Q7112793",
         "entityLabel": "Outline of the humanities"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q35986",
-        "entityLabel": "Aesthetics"
     },
     {
         "entity": "http://www.wikidata.org/entity/Q928786",
@@ -68,10 +56,6 @@
         "entityLabel": "History"
     },
     {
-        "entity": "http://www.wikidata.org/entity/Q3365021",
-        "entityLabel": "Hprints"
-    },
-    {
         "entity": "http://www.wikidata.org/entity/Q5939567",
         "entityLabel": "Humanities in the United States"
     },
@@ -90,6 +74,10 @@
     {
         "entity": "http://www.wikidata.org/entity/Q165650",
         "entityLabel": "Media studies"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28456007",
+        "entityLabel": "Memory studies"
     },
     {
         "entity": "http://www.wikidata.org/entity/Q6975018",
@@ -136,10 +124,6 @@
         "entityLabel": "Tragicomedy"
     },
     {
-        "entity": "http://www.wikidata.org/entity/Q535347",
-        "entityLabel": "Transparency (behavior)"
-    },
-    {
         "entity": "http://www.wikidata.org/entity/Q4016454",
         "entityLabel": "Vorlage"
     },
@@ -154,122 +138,6 @@
     {
         "entity": "http://www.wikidata.org/entity/Q8036557",
         "entityLabel": "World community"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q4354243",
-        "entityLabel": "Blasphemy Day"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q5059967",
-        "entityLabel": "Center for the Study of Religion and Society"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q24191994",
-        "entityLabel": "Chester Ronning Centre for the Study of Religion and Public Life"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q97274524",
-        "entityLabel": "Colloquium on Violence & Religion"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q2749417",
-        "entityLabel": "Confessionalism (politics)"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q5431245",
-        "entityLabel": "Faith and Globalisation Initiative"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q5431255",
-        "entityLabel": "Faith community nursing"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q4187007",
-        "entityLabel": "Forbidden Art \u2014 2006"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q17006268",
-        "entityLabel": "Jealousy in religion"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7068394",
-        "entityLabel": "Nudity in religion"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q986516",
-        "entityLabel": "Open-source religion"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7125969",
-        "entityLabel": "Pakistanism"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7311129",
-        "entityLabel": "Religion and agriculture"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7311139",
-        "entityLabel": "Religion and human migration"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7311141",
-        "entityLabel": "Religion and peacebuilding"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q24943902",
-        "entityLabel": "Religion and video games"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7311231",
-        "entityLabel": "Religion in Scouting"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7311357",
-        "entityLabel": "Religious exclusivism"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q111951164",
-        "entityLabel": "Religious exemption"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q4392985",
-        "entityLabel": "Religious identity"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q13408093",
-        "entityLabel": "Religious intolerance"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7311382",
-        "entityLabel": "Religious offense"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q4392994",
-        "entityLabel": "Religious stratification"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q2086472",
-        "entityLabel": "Religious tolerance"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7311417",
-        "entityLabel": "Religious views on smoking"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q48968953",
-        "entityLabel": "Retribution principle"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q15303501",
-        "entityLabel": "Secularity"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7578128",
-        "entityLabel": "Spiritual left"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7821912",
-        "entityLabel": "Tony Blair Faith Foundation"
     },
     {
         "entity": "http://www.wikidata.org/entity/Q7112731",
@@ -382,21 +250,5 @@
     {
         "entity": "http://www.wikidata.org/entity/Q3276378",
         "entityLabel": "Outline of marketing"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7112794",
-        "entityLabel": "Outline of the metric system"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q6631775",
-        "entityLabel": "Outline of organic gardening and farming"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7112698",
-        "entityLabel": "Outline of parapsychology"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q7112701",
-        "entityLabel": "Outline of poker"
     }
 ]

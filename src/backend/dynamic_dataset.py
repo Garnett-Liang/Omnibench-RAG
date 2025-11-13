@@ -243,7 +243,7 @@ def generate_dynamic_dataset(rule_choice, domain_choice, current_script_dir, log
         os.makedirs(selected_dir, exist_ok=True)
         current_file_path = os.path.join(selected_dir, f'{domain.lower()}_wiki_links.txt')
         
-        max_pages_limit = 50  
+        max_pages_limit = 100  
         wikipedia_urls = save_entity_links_to_file(
             categories=selected_categories, 
             filename=current_file_path, 

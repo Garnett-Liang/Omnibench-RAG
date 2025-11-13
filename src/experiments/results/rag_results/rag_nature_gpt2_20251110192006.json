@@ -1,0 +1,35 @@
+{
+  "rule": "inverse",
+  "domain": "nature",
+  "model_name": "gpt2",
+  "evaluation_time": "2025-11-10 19:20:06",
+  "metrics": {
+    "basic_accuracy": 0.5306122448979592,
+    "rag_accuracy": 0.5816326530612245,
+    "improvement": 0.05102040816326525,
+    "performance": {
+      "basic": {
+        "response_time": 1.8079191884215997,
+        "memory_usage": 0.010610526315790176,
+        "gpu_utilization": 67.92647058823529
+      },
+      "rag": {
+        "response_time": 3.917073736385423,
+        "memory_usage": 0.014681318681317572,
+        "retrieval_memory_avg": -0.22528469387755073,
+        "final_increment_avg": -0.24430306122449094,
+        "gpu_utilization": 66.01785714285714
+      },
+      "ratios": {
+        "response_time": 2.166619924978625,
+        "memory_usage": 1.3836560265129734,
+        "gpu_utilization": 0.9719017721832184
+      }
+    },
+    "transformation": 0.7101
+  },
+  "parameters": {
+    "top_k": 3,
+    "dataset_size": 98
+  }
+}

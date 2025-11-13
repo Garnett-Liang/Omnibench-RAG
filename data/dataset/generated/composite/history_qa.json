@@ -1094,5 +1094,493 @@
         ],
         "question": "Does Economic history and social history share totally different described by source?",
         "answer": "No."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "In historiography, periodization is the process or study of categorizing the past into discrete, quantified, and named blocks of time for the purpose of study or analysis. This is usually done to understand current and historical processes, and the causality that might have linked those events.\nThe term Golden Age comes from Greek mythology, particularly the Works and Days of Hesiod, and is part of the description of temporal decline of the state of peoples through five Ages, Gold being the first and the one during which the Golden Race of humanity lived. After the end of the first age was the Silver, then the Bronze, after this the Heroic age, with the fifth and current age being Iron.",
+        "subject": "Periodization",
+        "predicate": "same_described_by_source",
+        "object": "golden age",
+        "evidence": [
+            [
+                "Periodization",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Periodization",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ]
+        ],
+        "question": "Statement: It's not true that Periodization and golden age have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "In historiography, periodization is the process or study of categorizing the past into discrete, quantified, and named blocks of time for the purpose of study or analysis. This is usually done to understand current and historical processes, and the causality that might have linked those events.\nThe term Golden Age comes from Greek mythology, particularly the Works and Days of Hesiod, and is part of the description of temporal decline of the state of peoples through five Ages, Gold being the first and the one during which the Golden Race of humanity lived. After the end of the first age was the Silver, then the Bronze, after this the Heroic age, with the fifth and current age being Iron.",
+        "subject": "Periodization",
+        "predicate": "same_described_by_source",
+        "object": "golden age",
+        "evidence": [
+            [
+                "Periodization",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Periodization",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ]
+        ],
+        "question": "Does Periodization and golden age have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Chorography is the art of describing or mapping a region or district, and by extension such a description or map. This term derives from the writings of the ancient geographer Pomponius Mela and Ptolemy, where it meant the geographical description of regions. However, its resonances of meaning have varied at different times. Richard Helgerson states that \"chorography defines itself by opposition to chronicle. It is the genre devoted to place, and chronicle is the genre devoted to time\". Darrell Rohl prefers a broad definition of \"the representation of space or place\".\nAn antiquarian or antiquary is an aficionado or student of antiquities or things of the past. More specifically, the term is used for those who study history with particular attention to ancient artefacts, archaeological and historic sites, or historic archives and manuscripts. The essence of antiquarianism is a focus on the empirical evidence of the past, and is perhaps best encapsulated in the motto adopted by the 18th-century antiquary Sir Richard Colt Hoare, \"We speak from facts, not theory.\"",
+        "subject": "Chorography",
+        "predicate": "same_described_by_source",
+        "object": "Antiquarian",
+        "evidence": [
+            [
+                "Chorography",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Chorography",
+                "described by source",
+                "Q105726199"
+            ],
+            [
+                "Antiquarian",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ]
+        ],
+        "question": "Does Chorography and Antiquarian share totally different described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Chorography is the art of describing or mapping a region or district, and by extension such a description or map. This term derives from the writings of the ancient geographer Pomponius Mela and Ptolemy, where it meant the geographical description of regions. However, its resonances of meaning have varied at different times. Richard Helgerson states that \"chorography defines itself by opposition to chronicle. It is the genre devoted to place, and chronicle is the genre devoted to time\". Darrell Rohl prefers a broad definition of \"the representation of space or place\".\nAn antiquarian or antiquary is an aficionado or student of antiquities or things of the past. More specifically, the term is used for those who study history with particular attention to ancient artefacts, archaeological and historic sites, or historic archives and manuscripts. The essence of antiquarianism is a focus on the empirical evidence of the past, and is perhaps best encapsulated in the motto adopted by the 18th-century antiquary Sir Richard Colt Hoare, \"We speak from facts, not theory.\"",
+        "subject": "Chorography",
+        "predicate": "same_described_by_source",
+        "object": "Antiquarian",
+        "evidence": [
+            [
+                "Chorography",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Chorography",
+                "described by source",
+                "Q105726199"
+            ],
+            [
+                "Antiquarian",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ]
+        ],
+        "question": "Is it true that Chorography and Antiquarian have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Chorography is the art of describing or mapping a region or district, and by extension such a description or map. This term derives from the writings of the ancient geographer Pomponius Mela and Ptolemy, where it meant the geographical description of regions. However, its resonances of meaning have varied at different times. Richard Helgerson states that \"chorography defines itself by opposition to chronicle. It is the genre devoted to place, and chronicle is the genre devoted to time\". Darrell Rohl prefers a broad definition of \"the representation of space or place\".\nAn antiquarian or antiquary is an aficionado or student of antiquities or things of the past. More specifically, the term is used for those who study history with particular attention to ancient artefacts, archaeological and historic sites, or historic archives and manuscripts. The essence of antiquarianism is a focus on the empirical evidence of the past, and is perhaps best encapsulated in the motto adopted by the 18th-century antiquary Sir Richard Colt Hoare, \"We speak from facts, not theory.\"",
+        "subject": "Chorography",
+        "predicate": "same_described_by_source",
+        "object": "Antiquarian",
+        "evidence": [
+            [
+                "Chorography",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Chorography",
+                "described by source",
+                "Q105726199"
+            ],
+            [
+                "Antiquarian",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ]
+        ],
+        "question": "Does Chorography and Antiquarian share totally different described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Chorography is the art of describing or mapping a region or district, and by extension such a description or map. This term derives from the writings of the ancient geographer Pomponius Mela and Ptolemy, where it meant the geographical description of regions. However, its resonances of meaning have varied at different times. Richard Helgerson states that \"chorography defines itself by opposition to chronicle. It is the genre devoted to place, and chronicle is the genre devoted to time\". Darrell Rohl prefers a broad definition of \"the representation of space or place\".\nAn antiquarian or antiquary is an aficionado or student of antiquities or things of the past. More specifically, the term is used for those who study history with particular attention to ancient artefacts, archaeological and historic sites, or historic archives and manuscripts. The essence of antiquarianism is a focus on the empirical evidence of the past, and is perhaps best encapsulated in the motto adopted by the 18th-century antiquary Sir Richard Colt Hoare, \"We speak from facts, not theory.\"",
+        "subject": "Chorography",
+        "predicate": "same_described_by_source",
+        "object": "Antiquarian",
+        "evidence": [
+            [
+                "Chorography",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Chorography",
+                "described by source",
+                "Q105726199"
+            ],
+            [
+                "Antiquarian",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of Chorography also related with Antiquarian?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Church history or ecclesiastical history as an academic discipline studies the history of Christianity and the way the Christian Church has developed since its inception.\nCultural history records and interprets past events involving human beings through the social, cultural, and political milieu of or relating to the arts and manners that a group favors. Jacob Burckhardt (1818–1897) helped found cultural history as a discipline. Cultural history studies and interprets the record of human societies by denoting the various distinctive ways of living built up by a group of people under consideration. Cultural history involves the aggregate of past cultural activity, such as ceremony, class in practices, and the interaction with locales. It combines the approaches of anthropology and history to examine popular cultural traditions and cultural interpretations of historical experience.",
+        "subject": "Church history",
+        "predicate": "same_described_by_source",
+        "object": "Cultural history",
+        "evidence": [
+            [
+                "Church history",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Cultural history",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ]
+        ],
+        "question": "Does Church history and Cultural history have completely separate described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Church history or ecclesiastical history as an academic discipline studies the history of Christianity and the way the Christian Church has developed since its inception.\nHistorical demography is the quantitative study of human population in the past. It is concerned with population size, with the three basic components of population change, and with population characteristics related to those components, such as marriage, socioeconomic status, and the configuration of families.",
+        "subject": "Church history",
+        "predicate": "same_described_by_source",
+        "object": "Historical demography",
+        "evidence": [
+            [
+                "Church history",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Historical demography",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ]
+        ],
+        "question": "Statement: It's not true that Church history and Historical demography have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Church history or ecclesiastical history as an academic discipline studies the history of Christianity and the way the Christian Church has developed since its inception.\nThe Ages of Man are the historical stages of human existence according to Greek mythology and its subsequent Roman interpretation.",
+        "subject": "Church history",
+        "predicate": "same_described_by_source",
+        "object": "Ages of Man",
+        "evidence": [
+            [
+                "Church history",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Ages of Man",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Ages of Man",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Ages of Man",
+                "described by source",
+                "Pauly–Wissowa"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of Church history also related with Ages of Man?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Church history or ecclesiastical history as an academic discipline studies the history of Christianity and the way the Christian Church has developed since its inception.\nCultural history records and interprets past events involving human beings through the social, cultural, and political milieu of or relating to the arts and manners that a group favors. Jacob Burckhardt (1818–1897) helped found cultural history as a discipline. Cultural history studies and interprets the record of human societies by denoting the various distinctive ways of living built up by a group of people under consideration. Cultural history involves the aggregate of past cultural activity, such as ceremony, class in practices, and the interaction with locales. It combines the approaches of anthropology and history to examine popular cultural traditions and cultural interpretations of historical experience.",
+        "subject": "Church history",
+        "predicate": "same_described_by_source",
+        "object": "Cultural history",
+        "evidence": [
+            [
+                "Church history",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Cultural history",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ]
+        ],
+        "question": "Is it true that Church history and Cultural history have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Church history or ecclesiastical history as an academic discipline studies the history of Christianity and the way the Christian Church has developed since its inception.\nHistorical demography is the quantitative study of human population in the past. It is concerned with population size, with the three basic components of population change, and with population characteristics related to those components, such as marriage, socioeconomic status, and the configuration of families.",
+        "subject": "Church history",
+        "predicate": "same_described_by_source",
+        "object": "Historical demography",
+        "evidence": [
+            [
+                "Church history",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Historical demography",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ]
+        ],
+        "question": "Statement: It's not true that Church history and Historical demography have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "The criterion of embarrassment is a type of biblical historical analysis in which a historical account is deemed more likely to be true if the author would have no reason to invent a historical account which might embarrass them. It is logically similar to statements against interest in a legal context. Certain Biblical scholars have used this as a meter for assessing whether the New Testament's accounts of Jesus's actions and words are historically probable.\nHistorical method is the collection of techniques and guidelines that historians use to research and write histories of the past. Secondary sources, primary sources and material evidence such as that derived from archaeology may all be drawn on, and the historian's skill lies in identifying these sources, evaluating their relative authority, and combining their testimony appropriately in order to construct an accurate and reliable picture of past events and environments.",
+        "subject": "Criterion of embarrassment",
+        "predicate": "same_used_by",
+        "object": "Historical method",
+        "evidence": [
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "study of history"
+            ],
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "biblical criticism"
+            ],
+            [
+                "Historical method",
+                "used by",
+                "study of history"
+            ]
+        ],
+        "question": "Does Criterion of embarrassment and Historical method have completely separate used by?",
+        "answer": "No."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "The criterion of embarrassment is a type of biblical historical analysis in which a historical account is deemed more likely to be true if the author would have no reason to invent a historical account which might embarrass them. It is logically similar to statements against interest in a legal context. Certain Biblical scholars have used this as a meter for assessing whether the New Testament's accounts of Jesus's actions and words are historically probable.\nHistorical method is the collection of techniques and guidelines that historians use to research and write histories of the past. Secondary sources, primary sources and material evidence such as that derived from archaeology may all be drawn on, and the historian's skill lies in identifying these sources, evaluating their relative authority, and combining their testimony appropriately in order to construct an accurate and reliable picture of past events and environments.",
+        "subject": "Criterion of embarrassment",
+        "predicate": "same_used_by",
+        "object": "Historical method",
+        "evidence": [
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "study of history"
+            ],
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "biblical criticism"
+            ],
+            [
+                "Historical method",
+                "used by",
+                "study of history"
+            ]
+        ],
+        "question": "Does Criterion of embarrassment and Historical method have the same used by?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Historical method is the collection of techniques and guidelines that historians use to research and write histories of the past. Secondary sources, primary sources and material evidence such as that derived from archaeology may all be drawn on, and the historian's skill lies in identifying these sources, evaluating their relative authority, and combining their testimony appropriately in order to construct an accurate and reliable picture of past events and environments.\nThe criterion of embarrassment is a type of biblical historical analysis in which a historical account is deemed more likely to be true if the author would have no reason to invent a historical account which might embarrass them. It is logically similar to statements against interest in a legal context. Certain Biblical scholars have used this as a meter for assessing whether the New Testament's accounts of Jesus's actions and words are historically probable.",
+        "subject": "Historical method",
+        "predicate": "same_used_by",
+        "object": "Criterion of embarrassment",
+        "evidence": [
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "study of history"
+            ],
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "biblical criticism"
+            ],
+            [
+                "Historical method",
+                "used by",
+                "study of history"
+            ]
+        ],
+        "question": "Is there any possibility for the used by of Historical method also related with Criterion of embarrassment?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Historical method is the collection of techniques and guidelines that historians use to research and write histories of the past. Secondary sources, primary sources and material evidence such as that derived from archaeology may all be drawn on, and the historian's skill lies in identifying these sources, evaluating their relative authority, and combining their testimony appropriately in order to construct an accurate and reliable picture of past events and environments.\nThe criterion of embarrassment is a type of biblical historical analysis in which a historical account is deemed more likely to be true if the author would have no reason to invent a historical account which might embarrass them. It is logically similar to statements against interest in a legal context. Certain Biblical scholars have used this as a meter for assessing whether the New Testament's accounts of Jesus's actions and words are historically probable.",
+        "subject": "Historical method",
+        "predicate": "same_used_by",
+        "object": "Criterion of embarrassment",
+        "evidence": [
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "study of history"
+            ],
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "biblical criticism"
+            ],
+            [
+                "Historical method",
+                "used by",
+                "study of history"
+            ]
+        ],
+        "question": "Is it true that Historical method and Criterion of embarrassment have the same used by?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "The criterion of embarrassment is a type of biblical historical analysis in which a historical account is deemed more likely to be true if the author would have no reason to invent a historical account which might embarrass them. It is logically similar to statements against interest in a legal context. Certain Biblical scholars have used this as a meter for assessing whether the New Testament's accounts of Jesus's actions and words are historically probable.\nHistorical method is the collection of techniques and guidelines that historians use to research and write histories of the past. Secondary sources, primary sources and material evidence such as that derived from archaeology may all be drawn on, and the historian's skill lies in identifying these sources, evaluating their relative authority, and combining their testimony appropriately in order to construct an accurate and reliable picture of past events and environments.",
+        "subject": "Criterion of embarrassment",
+        "predicate": "same_used_by",
+        "object": "Historical method",
+        "evidence": [
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "study of history"
+            ],
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "biblical criticism"
+            ],
+            [
+                "Historical method",
+                "used by",
+                "study of history"
+            ]
+        ],
+        "question": "Is it true that Criterion of embarrassment and Historical method have the same used by?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "The criterion of embarrassment is a type of biblical historical analysis in which a historical account is deemed more likely to be true if the author would have no reason to invent a historical account which might embarrass them. It is logically similar to statements against interest in a legal context. Certain Biblical scholars have used this as a meter for assessing whether the New Testament's accounts of Jesus's actions and words are historically probable.\nHistorical method is the collection of techniques and guidelines that historians use to research and write histories of the past. Secondary sources, primary sources and material evidence such as that derived from archaeology may all be drawn on, and the historian's skill lies in identifying these sources, evaluating their relative authority, and combining their testimony appropriately in order to construct an accurate and reliable picture of past events and environments.",
+        "subject": "Criterion of embarrassment",
+        "predicate": "same_used_by",
+        "object": "Historical method",
+        "evidence": [
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "study of history"
+            ],
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "biblical criticism"
+            ],
+            [
+                "Historical method",
+                "used by",
+                "study of history"
+            ]
+        ],
+        "question": "Is there any possibility for the used by of Criterion of embarrassment also related with Historical method?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Historical method is the collection of techniques and guidelines that historians use to research and write histories of the past. Secondary sources, primary sources and material evidence such as that derived from archaeology may all be drawn on, and the historian's skill lies in identifying these sources, evaluating their relative authority, and combining their testimony appropriately in order to construct an accurate and reliable picture of past events and environments.\nThe criterion of embarrassment is a type of biblical historical analysis in which a historical account is deemed more likely to be true if the author would have no reason to invent a historical account which might embarrass them. It is logically similar to statements against interest in a legal context. Certain Biblical scholars have used this as a meter for assessing whether the New Testament's accounts of Jesus's actions and words are historically probable.",
+        "subject": "Historical method",
+        "predicate": "same_used_by",
+        "object": "Criterion of embarrassment",
+        "evidence": [
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "study of history"
+            ],
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "biblical criticism"
+            ],
+            [
+                "Historical method",
+                "used by",
+                "study of history"
+            ]
+        ],
+        "question": "Is there any possibility for the used by of Historical method also related with Criterion of embarrassment?",
+        "answer": "Yes."
+    },
+    {
+        "category": "history",
+        "reasoning": "Composite Inference",
+        "description": "Historical method is the collection of techniques and guidelines that historians use to research and write histories of the past. Secondary sources, primary sources and material evidence such as that derived from archaeology may all be drawn on, and the historian's skill lies in identifying these sources, evaluating their relative authority, and combining their testimony appropriately in order to construct an accurate and reliable picture of past events and environments.\nThe criterion of embarrassment is a type of biblical historical analysis in which a historical account is deemed more likely to be true if the author would have no reason to invent a historical account which might embarrass them. It is logically similar to statements against interest in a legal context. Certain Biblical scholars have used this as a meter for assessing whether the New Testament's accounts of Jesus's actions and words are historically probable.",
+        "subject": "Historical method",
+        "predicate": "same_used_by",
+        "object": "Criterion of embarrassment",
+        "evidence": [
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "study of history"
+            ],
+            [
+                "Criterion of embarrassment",
+                "used by",
+                "biblical criticism"
+            ],
+            [
+                "Historical method",
+                "used by",
+                "study of history"
+            ]
+        ],
+        "question": "Does Historical method and Criterion of embarrassment have completely separate used by?",
+        "answer": "No."
     }
 ]

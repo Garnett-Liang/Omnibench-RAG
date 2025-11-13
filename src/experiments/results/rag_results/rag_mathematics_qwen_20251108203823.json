@@ -1,0 +1,35 @@
+{
+  "rule": "inverse",
+  "domain": "mathematics",
+  "model_name": "qwen",
+  "evaluation_time": "2025-11-08 20:38:23",
+  "metrics": {
+    "basic_accuracy": 0.7361111111111112,
+    "rag_accuracy": 0.75,
+    "improvement": 0.01388888888888884,
+    "performance": {
+      "basic": {
+        "response_time": 9.853158232238558,
+        "memory_usage": 0.01964776119402245,
+        "gpu_utilization": 23.457142857142856
+      },
+      "rag": {
+        "response_time": 10.55998189912902,
+        "memory_usage": 0.09823970588234399,
+        "retrieval_memory_avg": -30.06738055555557,
+        "final_increment_avg": -43.61886666666666,
+        "gpu_utilization": 36.36585365853659
+      },
+      "ratios": {
+        "response_time": 1.0717357470803428,
+        "memory_usage": 5.000045802278582,
+        "gpu_utilization": 1.5503104482932772
+      }
+    },
+    "transformation": 0.6267
+  },
+  "parameters": {
+    "top_k": 6,
+    "dataset_size": 72
+  }
+}

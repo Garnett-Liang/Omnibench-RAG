@@ -1,8 +1,0 @@
-Using device: cuda
-Selected reasoning rule: negation
-Selected domain: health
-Processing domain: health
-Dynamically generating new dataset...
-评估失败
-当前处理文件: d:\Jupyter\DEMO\data\dataset\category\health_links.txt
-错误详情: save_links_to_file() got an unexpected keyword argument 'category_name'

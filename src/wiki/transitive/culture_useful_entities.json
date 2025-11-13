@@ -18,5 +18,15 @@
         "objectValue": "Masscult and Midcult",
         "anotherObject": "Q58276911",
         "anotherObjectValue": "Q58276911"
+    },
+    {
+        "subject": "Q224530",
+        "subjectValue": "Spectacle",
+        "predicate": "P1889",
+        "predicateValue": "different from",
+        "object": "Q35140",
+        "objectValue": "performance",
+        "anotherObject": "Q13538566",
+        "anotherObjectValue": "Q13538566"
     }
 ]

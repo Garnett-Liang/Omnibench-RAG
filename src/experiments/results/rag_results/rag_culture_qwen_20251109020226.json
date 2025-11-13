@@ -1,0 +1,35 @@
+{
+  "rule": "inverse",
+  "domain": "culture",
+  "model_name": "qwen",
+  "evaluation_time": "2025-11-09 02:02:26",
+  "metrics": {
+    "basic_accuracy": 0.5416666666666666,
+    "rag_accuracy": 0.7083333333333334,
+    "improvement": 0.16666666666666674,
+    "performance": {
+      "basic": {
+        "response_time": 7.344183698296547,
+        "memory_usage": 0.0344021276595887,
+        "gpu_utilization": 23.344827586206897
+      },
+      "rag": {
+        "response_time": 10.107520058751106,
+        "memory_usage": 0.037465909090893874,
+        "retrieval_memory_avg": -37.30542083333334,
+        "final_increment_avg": -55.77221458333332,
+        "gpu_utilization": 29.192307692307693
+      },
+      "ratios": {
+        "response_time": 1.3762618793284682,
+        "memory_usage": 1.0890579054185685,
+        "gpu_utilization": 1.250482899670492
+      }
+    },
+    "transformation": 0.806
+  },
+  "parameters": {
+    "top_k": 6,
+    "dataset_size": 48
+  }
+}

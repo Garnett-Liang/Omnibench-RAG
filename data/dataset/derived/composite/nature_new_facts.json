@@ -2,495 +2,745 @@
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "The following outline is provided as an overview of and topical guide to natural science:\nThe following outline is provided as an overview of and topical guide to the planet Earth:",
-        "subject": "Outline of natural science",
-        "predicate": "same_instance_of",
-        "object": "Outline of Earth",
-        "evidence": [
-            [
-                "Outline of natural science",
-                "instance of",
-                "Wikimedia outline article"
-            ],
-            [
-                "Outline of Earth",
-                "instance of",
-                "Wikimedia outline article"
-            ]
-        ]
-    },
-    {
-        "category": "nature",
-        "reasoning": "Composite Inference",
-        "description": "Rangeland management is a natural science that centers around the study of rangelands and the \"conservation and sustainable management [of Arid-Lands] for the benefit of current societies and future generations\". Range management is defined by Holechek et al. as the \"manipulation of rangeland components to obtain optimum combination of goods and services for society on a sustained basis\". The United Nations (UN) has declared 2026 the International Year of Rangelands and Pastoralists, with the Food and Agriculture Organization leading the initiative.\n\nNatural science or empirical science is one of the branches of science concerned with the description, understanding and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.",
-        "subject": "Rangeland management",
-        "predicate": "same_instance_of",
-        "object": "Natural science",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nNature conservation is the ethic/moral philosophy and conservation movement focused on protecting species from extinction, maintaining and restoring habitats, enhancing ecosystem services, and protecting biological diversity. A range of values underlie conservation, which can be guided by biocentrism, anthropocentrism, ecocentrism, and sentientism, environmental ideologies that inform ecocultural practices and identities. There has recently been a movement towards evidence-based conservation which calls for greater use of scientific evidence to improve the effectiveness of conservation efforts. As of 2018 15% of land and 7.3% of the oceans were protected. Many environmentalists set a target of protecting 30% of land and marine territory by 2030. In 2021, 16.64% of land and 7.9% of the oceans were protected. The 2022 IPCC report on climate impacts and adaptation, underlines the need to conserve 30% to 50% of the Earth's land, freshwater and ocean areas \u2013 echoing the 30% goal of the U.N.'s Convention on Biodiversity.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Nature conservation",
         "evidence": [
             [
                 "Natural science",
-                "instance of",
-                "academic discipline"
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ],
+            [
+                "Nature conservation",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ]
+        ]
+    },
+    {
+        "category": "nature",
+        "reasoning": "Composite Inference",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nArmenian bole, also known as bolus armenus or bole armoniac, is an earthy clay, usually red, native to Armenia but also found in other places. The term Armenian was later referred to a specific quality of the clay. Originally used in medication, it has also been used as a pigment, as a poliment or base for gilding, and for other uses. It is red due to the presence of iron oxide; the clay also contains hydrous silicates of aluminum and possibly magnesium.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Armenian bole",
+        "evidence": [
             [
                 "Natural science",
-                "instance of",
-                "branch of science"
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ],
             [
-                "Rangeland management",
-                "instance of",
-                "academic discipline"
+                "Armenian bole",
+                "described by source",
+                "Encyclop\u00e6dia Britannica 11th edition"
             ],
             [
-                "Rangeland management",
-                "instance of",
-                "field of study"
+                "Armenian bole",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ],
             [
-                "Rangeland management",
-                "instance of",
-                "academic major"
-            ],
-            [
-                "Rangeland management",
-                "instance of",
-                "field of study"
+                "Armenian bole",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "Become Ocean is an orchestral composition by American composer John Luther Adams. The Seattle Symphony Orchestra commissioned the work and premiered it at Benaroya Hall, Seattle, on 20 and 22 June 2013. The work won the 2014 Pulitzer Prize for Music and the 2015 Grammy Award for Best Classical Contemporary Composition. In 2019, writers of The Guardian ranked it the 10th greatest work of art music since 2000.\nDes canyons aux \u00e9toiles... is a large twelve-movement orchestral work by the French composer Olivier Messiaen. American Alice Tully commissioned the piece in 1971 to celebrate the bicentenary of the United States Declaration of Independence in 1976.",
-        "subject": "Become Ocean",
-        "predicate": "same_instance_of",
-        "object": "Des Canyons aux \u00e9toiles...",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nClay is a type of fine-grained natural soil material containing clay minerals. Most pure clay minerals are white or light-coloured, but natural clays show a variety of colours from impurities, such as a reddish or brownish colour from small amounts of iron oxide.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Clay",
         "evidence": [
             [
-                "Become Ocean",
-                "instance of",
-                "musical work/composition"
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ],
             [
-                "Des Canyons aux \u00e9toiles...",
-                "instance of",
-                "musical work/composition"
+                "Clay",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "The Domestic Encyclop\u00e6dia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Encyclop\u00e6dia Britannica 11th edition"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Nordisk familjebok"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Explanatory Dictionary of the Living Great Russian Language"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "Des canyons aux \u00e9toiles... is a large twelve-movement orchestral work by the French composer Olivier Messiaen. American Alice Tully commissioned the piece in 1971 to celebrate the bicentenary of the United States Declaration of Independence in 1976.\nBecome Ocean is an orchestral composition by American composer John Luther Adams. The Seattle Symphony Orchestra commissioned the work and premiered it at Benaroya Hall, Seattle, on 20 and 22 June 2013. The work won the 2014 Pulitzer Prize for Music and the 2015 Grammy Award for Best Classical Contemporary Composition. In 2019, writers of The Guardian ranked it the 10th greatest work of art music since 2000.",
-        "subject": "Des Canyons aux \u00e9toiles...",
-        "predicate": "same_instance_of",
-        "object": "Become Ocean",
+        "description": "The Gaia hypothesis, also known as the Gaia theory, Gaia paradigm, or the Gaia principle, proposes that living organisms interact with their inorganic surroundings on Earth to form a synergistic and self-regulating complex system that helps to maintain and perpetuate the conditions for life on the planet.\nEnergy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity\u2014the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).",
+        "subject": "Gaia hypothesis",
+        "predicate": "same_described_by_source",
+        "object": "Energy",
         "evidence": [
             [
-                "Become Ocean",
-                "instance of",
-                "musical work/composition"
-            ],
-            [
-                "Des Canyons aux \u00e9toiles...",
-                "instance of",
-                "musical work/composition"
+                "Gaia hypothesis",
+                "described by source",
+                "Lean Logic"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "\nThis is an index of conservation topics. It is an alphabetical index of articles relating to conservation biology and conservation of the natural environment.\nThe Seven Wonders of Canada was a 2007 competition sponsored by CBC Television's The National and CBC Radio One's Sounds Like Canada. They sought to determine Canada's \"seven wonders\" by receiving nominations from viewers, and then from on-line voting of the short list. After the vote, a panel of judges, Ra McGuire, Roy MacGregor and Roberta L. Jamieson, picked the winners based on geographic and poetic criteria. Their seven picks were revealed on The National on June 7, 2007, making the official Seven Wonders of Canada, the Canoe, the Igloo, Niagara Falls, Old Quebec City, Pier 21 Halifax, Prairie Skies, and the Rockies. CBC anchor Peter Mansbridge commented on the top winner, \u201cit\u2019s hard to imagine Canada being Canada without the canoe. Explorers, missionaries, fur traders and First Nations\u2014they\u2019re all linked by this subtle and simple craft. To many, the quintessential Canadian experience begins by picking up a paddle. That\u2019s why the canoe is one of the seven wonders\u201d. There were over 25,000 nominations and 1 million votes cast, according to the CBC website. The top audience votes were the Sleeping Giant, Niagara Falls, the Bay of Fundy, Nahanni National Park Reserve, the Northern Lights, the Rockies, and the Cabot Trail. The CBC website has a dedicated section for the Seven Wonders of Canada.",
-        "subject": "Index of conservation articles",
-        "predicate": "same_instance_of",
-        "object": "Seven Wonders of Canada",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nNature conservation is the ethic/moral philosophy and conservation movement focused on protecting species from extinction, maintaining and restoring habitats, enhancing ecosystem services, and protecting biological diversity. A range of values underlie conservation, which can be guided by biocentrism, anthropocentrism, ecocentrism, and sentientism, environmental ideologies that inform ecocultural practices and identities. There has recently been a movement towards evidence-based conservation which calls for greater use of scientific evidence to improve the effectiveness of conservation efforts. As of 2018 15% of land and 7.3% of the oceans were protected. Many environmentalists set a target of protecting 30% of land and marine territory by 2030. In 2021, 16.64% of land and 7.9% of the oceans were protected. The 2022 IPCC report on climate impacts and adaptation, underlines the need to conserve 30% to 50% of the Earth's land, freshwater and ocean areas \u2013 echoing the 30% goal of the U.N.'s Convention on Biodiversity.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Nature conservation",
         "evidence": [
             [
-                "Index of conservation articles",
-                "instance of",
-                "Wikimedia list article"
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ],
             [
-                "Seven Wonders of Canada",
-                "instance of",
-                "Wikimedia list article"
+                "Nature conservation",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "The Seven Wonders of Canada was a 2007 competition sponsored by CBC Television's The National and CBC Radio One's Sounds Like Canada. They sought to determine Canada's \"seven wonders\" by receiving nominations from viewers, and then from on-line voting of the short list. After the vote, a panel of judges, Ra McGuire, Roy MacGregor and Roberta L. Jamieson, picked the winners based on geographic and poetic criteria. Their seven picks were revealed on The National on June 7, 2007, making the official Seven Wonders of Canada, the Canoe, the Igloo, Niagara Falls, Old Quebec City, Pier 21 Halifax, Prairie Skies, and the Rockies. CBC anchor Peter Mansbridge commented on the top winner, \u201cit\u2019s hard to imagine Canada being Canada without the canoe. Explorers, missionaries, fur traders and First Nations\u2014they\u2019re all linked by this subtle and simple craft. To many, the quintessential Canadian experience begins by picking up a paddle. That\u2019s why the canoe is one of the seven wonders\u201d. There were over 25,000 nominations and 1 million votes cast, according to the CBC website. The top audience votes were the Sleeping Giant, Niagara Falls, the Bay of Fundy, Nahanni National Park Reserve, the Northern Lights, the Rockies, and the Cabot Trail. The CBC website has a dedicated section for the Seven Wonders of Canada.\n\nThis is an index of conservation topics. It is an alphabetical index of articles relating to conservation biology and conservation of the natural environment.",
-        "subject": "Seven Wonders of Canada",
-        "predicate": "same_instance_of",
-        "object": "Index of conservation articles",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nArmenian bole, also known as bolus armenus or bole armoniac, is an earthy clay, usually red, native to Armenia but also found in other places. The term Armenian was later referred to a specific quality of the clay. Originally used in medication, it has also been used as a pigment, as a poliment or base for gilding, and for other uses. It is red due to the presence of iron oxide; the clay also contains hydrous silicates of aluminum and possibly magnesium.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Armenian bole",
         "evidence": [
             [
-                "Index of conservation articles",
-                "instance of",
-                "Wikimedia list article"
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ],
             [
-                "Seven Wonders of Canada",
-                "instance of",
-                "Wikimedia list article"
+                "Armenian bole",
+                "described by source",
+                "Encyclop\u00e6dia Britannica 11th edition"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "The following outline is provided as an overview of and topical guide to the planet Earth:\nThe following outline is provided as an overview of and topical guide to natural science:",
-        "subject": "Outline of Earth",
-        "predicate": "same_instance_of",
-        "object": "Outline of natural science",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nClay is a type of fine-grained natural soil material containing clay minerals. Most pure clay minerals are white or light-coloured, but natural clays show a variety of colours from impurities, such as a reddish or brownish colour from small amounts of iron oxide.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Clay",
         "evidence": [
             [
-                "Outline of natural science",
-                "instance of",
-                "Wikimedia outline article"
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ],
             [
-                "Outline of Earth",
-                "instance of",
-                "Wikimedia outline article"
+                "Clay",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "The Domestic Encyclop\u00e6dia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Encyclop\u00e6dia Britannica 11th edition"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Nordisk familjebok"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Explanatory Dictionary of the Living Great Russian Language"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "The geological history of Earth follows the major geological events in Earth's past based on the geologic time scale, a system of chronological measurement based on the study of the planet's rock layers (stratigraphy). Earth formed about 4.54 billion years ago by accretion from the solar nebula, a disk-shaped mass of dust and gas left over from the formation of the Sun, which also created the rest of the Solar System.\nThe natural history of Earth concerns the development of planet Earth from its formation to the present day. Nearly all branches of natural science have contributed to understanding of the main events of Earth's past, characterized by constant geological change and biological evolution.",
-        "subject": "Geological history of Earth",
-        "predicate": "same_instance_of",
-        "object": "History of Earth",
+        "description": "The Gaia hypothesis, also known as the Gaia theory, Gaia paradigm, or the Gaia principle, proposes that living organisms interact with their inorganic surroundings on Earth to form a synergistic and self-regulating complex system that helps to maintain and perpetuate the conditions for life on the planet.\nEnergy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity\u2014the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).",
+        "subject": "Gaia hypothesis",
+        "predicate": "same_described_by_source",
+        "object": "Energy",
         "evidence": [
             [
-                "Geological history of Earth",
-                "instance of",
-                "aspect of history"
-            ],
-            [
-                "History of Earth",
-                "instance of",
-                "aspect of history"
+                "Gaia hypothesis",
+                "described by source",
+                "Lean Logic"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "The natural history of Earth concerns the development of planet Earth from its formation to the present day. Nearly all branches of natural science have contributed to understanding of the main events of Earth's past, characterized by constant geological change and biological evolution.\nThe geological history of Earth follows the major geological events in Earth's past based on the geologic time scale, a system of chronological measurement based on the study of the planet's rock layers (stratigraphy). Earth formed about 4.54 billion years ago by accretion from the solar nebula, a disk-shaped mass of dust and gas left over from the formation of the Sun, which also created the rest of the Solar System.",
-        "subject": "History of Earth",
-        "predicate": "same_instance_of",
-        "object": "Geological history of Earth",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nNature conservation is the ethic/moral philosophy and conservation movement focused on protecting species from extinction, maintaining and restoring habitats, enhancing ecosystem services, and protecting biological diversity. A range of values underlie conservation, which can be guided by biocentrism, anthropocentrism, ecocentrism, and sentientism, environmental ideologies that inform ecocultural practices and identities. There has recently been a movement towards evidence-based conservation which calls for greater use of scientific evidence to improve the effectiveness of conservation efforts. As of 2018 15% of land and 7.3% of the oceans were protected. Many environmentalists set a target of protecting 30% of land and marine territory by 2030. In 2021, 16.64% of land and 7.9% of the oceans were protected. The 2022 IPCC report on climate impacts and adaptation, underlines the need to conserve 30% to 50% of the Earth's land, freshwater and ocean areas \u2013 echoing the 30% goal of the U.N.'s Convention on Biodiversity.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Nature conservation",
         "evidence": [
             [
-                "Geological history of Earth",
-                "instance of",
-                "aspect of history"
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ],
             [
-                "History of Earth",
-                "instance of",
-                "aspect of history"
+                "Nature conservation",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "Become Desert is a composition for choir and orchestra written in 2017 by the American composer John Luther Adams. The work was commissioned by the New York Philharmonic and the Seattle Symphony with co-commissions from the San Diego Symphony and the Rotterdam Philharmonic Orchestra. Its world premiere was given by the Seattle Symphony conducted by Ludovic Morlot on March 29, 2018. Become Desert is the third part of a musical trilogy, following Adams's Become River (2010) and the Pulitzer Prize for Music-winning Become Ocean (2014).\nBecome Ocean is an orchestral composition by American composer John Luther Adams. The Seattle Symphony Orchestra commissioned the work and premiered it at Benaroya Hall, Seattle, on 20 and 22 June 2013. The work won the 2014 Pulitzer Prize for Music and the 2015 Grammy Award for Best Classical Contemporary Composition. In 2019, writers of The Guardian ranked it the 10th greatest work of art music since 2000.",
-        "subject": "Become Desert",
-        "predicate": "same_composer",
-        "object": "Become Ocean",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nArmenian bole, also known as bolus armenus or bole armoniac, is an earthy clay, usually red, native to Armenia but also found in other places. The term Armenian was later referred to a specific quality of the clay. Originally used in medication, it has also been used as a pigment, as a poliment or base for gilding, and for other uses. It is red due to the presence of iron oxide; the clay also contains hydrous silicates of aluminum and possibly magnesium.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Armenian bole",
         "evidence": [
             [
-                "Become Desert",
-                "composer",
-                "John Luther Adams"
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ],
             [
-                "Become Ocean",
-                "composer",
-                "John Luther Adams"
+                "Armenian bole",
+                "described by source",
+                "Encyclop\u00e6dia Britannica 11th edition"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Armenian bole",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "Become Ocean is an orchestral composition by American composer John Luther Adams. The Seattle Symphony Orchestra commissioned the work and premiered it at Benaroya Hall, Seattle, on 20 and 22 June 2013. The work won the 2014 Pulitzer Prize for Music and the 2015 Grammy Award for Best Classical Contemporary Composition. In 2019, writers of The Guardian ranked it the 10th greatest work of art music since 2000.\nBecome Desert is a composition for choir and orchestra written in 2017 by the American composer John Luther Adams. The work was commissioned by the New York Philharmonic and the Seattle Symphony with co-commissions from the San Diego Symphony and the Rotterdam Philharmonic Orchestra. Its world premiere was given by the Seattle Symphony conducted by Ludovic Morlot on March 29, 2018. Become Desert is the third part of a musical trilogy, following Adams's Become River (2010) and the Pulitzer Prize for Music-winning Become Ocean (2014).",
-        "subject": "Become Ocean",
-        "predicate": "same_composer",
-        "object": "Become Desert",
+        "description": "Natural science or empirical science is a branch of science concerned with the description, understanding, and prediction of natural phenomena, based on empirical evidence from observation and experimentation. Mechanisms such as peer review and reproducibility of findings are used to try to ensure the validity of scientific advances.\nClay is a type of fine-grained natural soil material containing clay minerals. Most pure clay minerals are white or light-coloured, but natural clays show a variety of colours from impurities, such as a reddish or brownish colour from small amounts of iron oxide.",
+        "subject": "Natural science",
+        "predicate": "same_described_by_source",
+        "object": "Clay",
         "evidence": [
             [
-                "Become Desert",
-                "composer",
-                "John Luther Adams"
+                "Natural science",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ],
             [
-                "Become Ocean",
-                "composer",
-                "John Luther Adams"
+                "Clay",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "The Domestic Encyclop\u00e6dia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Encyclop\u00e6dia Britannica 11th edition"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Nordisk familjebok"
+            ],
+            [
+                "Clay",
+                "described by source",
+                "Explanatory Dictionary of the Living Great Russian Language"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "The Faculty of Natural Sciences is one of four faculties of Imperial College London in London, England. It was formed in 2001 from the former Royal College of Science, a constituent college of Imperial College which dated back to 1848, and the faculty largely consists of the original departments of the college. Undergraduate teaching occurs for all departments at the South Kensington campus, with research being split between South Kensington and the new innovation campus at White City.\nThe Natural Sciences Collections Association (NatSCA) is a United Kingdom based membership organisation and charitable organization (No.1098156) run by volunteers from the membership. NatSCA's mission is \"to promote and support natural science collections, the institutions that house them and the people that work with them, in order to improve collections care, understanding, accessibility and enjoyment for all.\" The subject specialist network promotes research and exchange of ideas, advances in technical and ethical standards, and raises the public profile of the conservation and preservation of natural science collections and objects.",
-        "subject": "Imperial College Faculty of Natural Sciences",
-        "predicate": "same_field_of_work",
-        "object": "Natural Sciences Collections Association",
+        "description": "Energy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity\u2014the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).\nEnergy transformation, also known as energy conversion, is the process of changing energy from one form to another. In physics, energy is a quantity that provides the capacity to perform work or provides heat. In addition to being converted, according to the law of conservation of energy, energy is transferable to a different location or object or living being, but it cannot be created or destroyed.",
+        "subject": "Energy",
+        "predicate": "same_has_characteristic",
+        "object": "Energy transformation",
         "evidence": [
             [
-                "Imperial College Faculty of Natural Sciences",
-                "field of work",
-                "natural science"
-            ],
-            [
-                "Natural Sciences Collections Association",
-                "field of work",
-                "natural science"
+                "Energy transformation",
+                "has characteristic",
+                "conservation of energy"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "The Natural Sciences Collections Association (NatSCA) is a United Kingdom based membership organisation and charitable organization (No.1098156) run by volunteers from the membership. NatSCA's mission is \"to promote and support natural science collections, the institutions that house them and the people that work with them, in order to improve collections care, understanding, accessibility and enjoyment for all.\" The subject specialist network promotes research and exchange of ideas, advances in technical and ethical standards, and raises the public profile of the conservation and preservation of natural science collections and objects.\nThe Faculty of Natural Sciences is one of four faculties of Imperial College London in London, England. It was formed in 2001 from the former Royal College of Science, a constituent college of Imperial College which dated back to 1848, and the faculty largely consists of the original departments of the college. Undergraduate teaching occurs for all departments at the South Kensington campus, with research being split between South Kensington and the new innovation campus at White City.",
-        "subject": "Natural Sciences Collections Association",
-        "predicate": "same_field_of_work",
-        "object": "Imperial College Faculty of Natural Sciences",
+        "description": "Energy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity\u2014the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).\nEnergy transformation, also known as energy conversion, is the process of changing energy from one form to another. In physics, energy is a quantity that provides the capacity to perform work or provides heat. In addition to being converted, according to the law of conservation of energy, energy is transferable to a different location or object or living being, but it cannot be created or destroyed.",
+        "subject": "Energy",
+        "predicate": "same_has_characteristic",
+        "object": "Energy transformation",
         "evidence": [
             [
-                "Imperial College Faculty of Natural Sciences",
-                "field of work",
-                "natural science"
-            ],
-            [
-                "Natural Sciences Collections Association",
-                "field of work",
-                "natural science"
+                "Energy transformation",
+                "has characteristic",
+                "conservation of energy"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "Earth has a human population of over 8 billion as of 2024, with an overall population density of 50 people per km2. Nearly 60% of the world's population lives in Asia, with more than 2.8 billion in the countries of India and China combined. The percentage shares of China, India and rest of South Asia of the world population have remained at similar levels for the last few thousand years of recorded history.\nThe gravity of Earth, denoted by g, is the net acceleration that is imparted to objects due to the combined effect of gravitation and the centrifugal force .\nIt is a vector quantity, whose direction coincides with a plumb bob and strength or magnitude is given by the norm .",
-        "subject": "Demographics of the world",
-        "predicate": "same_location",
-        "object": "Gravity of Earth",
+        "description": "Energy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity\u2014the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).\nEnergy transformation, also known as energy conversion, is the process of changing energy from one form to another. In physics, energy is a quantity that provides the capacity to perform work or provides heat. In addition to being converted, according to the law of conservation of energy, energy is transferable to a different location or object or living being, but it cannot be created or destroyed.",
+        "subject": "Energy",
+        "predicate": "same_has_characteristic",
+        "object": "Energy transformation",
         "evidence": [
             [
-                "Demographics of the world",
-                "location",
-                "Earth"
-            ],
-            [
-                "Gravity of Earth",
-                "location",
-                "Earth"
+                "Energy transformation",
+                "has characteristic",
+                "conservation of energy"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "The gravity of Earth, denoted by g, is the net acceleration that is imparted to objects due to the combined effect of gravitation and the centrifugal force .\nIt is a vector quantity, whose direction coincides with a plumb bob and strength or magnitude is given by the norm .\nEarth has a human population of over 8 billion as of 2024, with an overall population density of 50 people per km2. Nearly 60% of the world's population lives in Asia, with more than 2.8 billion in the countries of India and China combined. The percentage shares of China, India and rest of South Asia of the world population have remained at similar levels for the last few thousand years of recorded history.",
-        "subject": "Gravity of Earth",
-        "predicate": "same_location",
-        "object": "Demographics of the world",
+        "description": "Energy transformation, also known as energy conversion, is the process of changing energy from one form to another. In physics, energy is a quantity that provides the capacity to perform work or provides heat. In addition to being converted, according to the law of conservation of energy, energy is transferable to a different location or object or living being, but it cannot be created or destroyed.\nEnergy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity\u2014the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).",
+        "subject": "Energy transformation",
+        "predicate": "same_has_characteristic",
+        "object": "Energy",
         "evidence": [
             [
-                "Demographics of the world",
-                "location",
-                "Earth"
-            ],
-            [
-                "Gravity of Earth",
-                "location",
-                "Earth"
+                "Energy transformation",
+                "has characteristic",
+                "conservation of energy"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "Forest 404 was a science fiction podcast produced by the BBC that starred Pearl Mackie. The series debuted in 2019 on BBC Sounds and was later broadcast on BBC Radio 4. The 27-part show was composed of nine narrative episodes, each accompanied by a soundscape and a discussion on the show's themes. The story was written by Timothy X Atak, and the theme music was by Bonobo.\nSeven Natural Wonders is a television series that was broadcast on BBC Two from 3 May to 20 June 2005. The programme takes an area of England each week and, from votes by the people living in that area, shows the 'seven natural wonders' of that area in a programme.",
-        "subject": "Forest 404",
-        "predicate": "same_country_of_origin",
-        "object": "Seven Natural Wonders",
+        "description": "Energy transformation, also known as energy conversion, is the process of changing energy from one form to another. In physics, energy is a quantity that provides the capacity to perform work or provides heat. In addition to being converted, according to the law of conservation of energy, energy is transferable to a different location or object or living being, but it cannot be created or destroyed.\nEnergy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity\u2014the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).",
+        "subject": "Energy transformation",
+        "predicate": "same_has_characteristic",
+        "object": "Energy",
         "evidence": [
             [
-                "Forest 404",
-                "country of origin",
-                "United Kingdom"
-            ],
-            [
-                "Seven Natural Wonders",
-                "country of origin",
-                "United Kingdom"
+                "Energy transformation",
+                "has characteristic",
+                "conservation of energy"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "Seven Natural Wonders is a television series that was broadcast on BBC Two from 3 May to 20 June 2005. The programme takes an area of England each week and, from votes by the people living in that area, shows the 'seven natural wonders' of that area in a programme.\nForest 404 was a science fiction podcast produced by the BBC that starred Pearl Mackie. The series debuted in 2019 on BBC Sounds and was later broadcast on BBC Radio 4. The 27-part show was composed of nine narrative episodes, each accompanied by a soundscape and a discussion on the show's themes. The story was written by Timothy X Atak, and the theme music was by Bonobo.",
-        "subject": "Seven Natural Wonders",
-        "predicate": "same_country_of_origin",
-        "object": "Forest 404",
+        "description": "Life, also known as biota, refers to matter that has biological processes, such as signaling and self-sustaining processes. It is defined descriptively by the capacity for homeostasis, organisation, metabolism, growth, adaptation, response to stimuli, and reproduction. All life over time eventually reaches a state of death, and none is immortal. Many philosophical definitions of living systems have been proposed, such as self-organizing systems. Defining life is further complicated by viruses, which replicate only in host cells, and the possibility of extraterrestrial life, which is likely to be very different from terrestrial life. Life exists all over the Earth in air, water, and soil, with many ecosystems forming the biosphere. Some of these are harsh environments occupied only by extremophiles.\nAn organism is any living thing that functions as an individual. Such a definition raises more problems than it solves, not least because the concept of an individual is also difficult. Several criteria, few of which are widely accepted, have been proposed to define what constitutes an organism. Among the most common is that an organism has autonomous reproduction, growth, and metabolism. This would exclude viruses, even though they evolve like organisms.",
+        "subject": "Life",
+        "predicate": "same_has_characteristic",
+        "object": "Organism",
         "evidence": [
             [
-                "Forest 404",
-                "country of origin",
-                "United Kingdom"
+                "Life",
+                "has characteristic",
+                "biodiversity"
             ],
             [
-                "Seven Natural Wonders",
-                "country of origin",
-                "United Kingdom"
+                "Life",
+                "has characteristic",
+                "adaptation"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "quality of life"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "metabolism"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "reproduction"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "form of life"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "lifetime"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "biological life cycle"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "mode of biological reproduction"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "biological life cycle"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "scientific name"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "homeostasis"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "trophic level"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "primary nutritional group"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "species distribution"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "feeding behavior"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "date of birth"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "taxon"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "The biological and geological future of Earth can be extrapolated based on the estimated effects of several long-term influences. These include the chemistry at Earth's surface, the cooling rate of the planet's interior, gravitational interactions with other objects in the Solar System, and a steady increase in the Sun's luminosity. An uncertain factor is the influence of human technology such as climate engineering, which could cause significant changes to the planet. For example, the current Holocene extinction is being caused by technology, and the effects may last for up to five million years. In turn, technology may result in the extinction of humanity, leaving the planet to gradually return to a slower evolutionary pace resulting solely from long-term natural processes.\nThe natural history of Earth concerns the development of planet Earth from its formation to the present day. Nearly all branches of natural science have contributed to understanding of the main events of Earth's past, characterized by constant geological change and biological evolution.",
-        "subject": "Future of Earth",
-        "predicate": "same_facet_of",
-        "object": "History of Earth",
+        "description": "Living systems are life forms treated as a system. They are said to be open self-organizing and said to interact with their environment. These systems are maintained by flows of information, energy and matter. Multiple theories of living systems have been proposed. Such theories attempt to map general principles for how all living systems work.\nAn organism is any living thing that functions as an individual. Such a definition raises more problems than it solves, not least because the concept of an individual is also difficult. Several criteria, few of which are widely accepted, have been proposed to define what constitutes an organism. Among the most common is that an organism has autonomous reproduction, growth, and metabolism. This would exclude viruses, even though they evolve like organisms.",
+        "subject": "Living systems",
+        "predicate": "same_has_characteristic",
+        "object": "Organism",
         "evidence": [
             [
-                "Future of Earth",
-                "facet of",
-                "Earth"
+                "Living systems",
+                "has characteristic",
+                "hierarchy"
             ],
             [
-                "Future of Earth",
-                "facet of",
-                "future"
+                "Living systems",
+                "has characteristic",
+                "homeostasis"
             ],
             [
-                "History of Earth",
-                "facet of",
-                "history"
+                "Organism",
+                "has characteristic",
+                "mode of biological reproduction"
             ],
             [
-                "History of Earth",
-                "facet of",
-                "Earth"
+                "Organism",
+                "has characteristic",
+                "biological life cycle"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "scientific name"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "homeostasis"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "trophic level"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "primary nutritional group"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "species distribution"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "feeding behavior"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "date of birth"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "taxon"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "The geological history of Earth follows the major geological events in Earth's past based on the geologic time scale, a system of chronological measurement based on the study of the planet's rock layers (stratigraphy). Earth formed about 4.54 billion years ago by accretion from the solar nebula, a disk-shaped mass of dust and gas left over from the formation of the Sun, which also created the rest of the Solar System.\nThe biological and geological future of Earth can be extrapolated based on the estimated effects of several long-term influences. These include the chemistry at Earth's surface, the cooling rate of the planet's interior, gravitational interactions with other objects in the Solar System, and a steady increase in the Sun's luminosity. An uncertain factor is the influence of human technology such as climate engineering, which could cause significant changes to the planet. For example, the current Holocene extinction is being caused by technology, and the effects may last for up to five million years. In turn, technology may result in the extinction of humanity, leaving the planet to gradually return to a slower evolutionary pace resulting solely from long-term natural processes.",
-        "subject": "Geological history of Earth",
-        "predicate": "same_facet_of",
-        "object": "Future of Earth",
+        "description": "An organism is any living thing that functions as an individual. Such a definition raises more problems than it solves, not least because the concept of an individual is also difficult. Several criteria, few of which are widely accepted, have been proposed to define what constitutes an organism. Among the most common is that an organism has autonomous reproduction, growth, and metabolism. This would exclude viruses, even though they evolve like organisms.\nLife, also known as biota, refers to matter that has biological processes, such as signaling and self-sustaining processes. It is defined descriptively by the capacity for homeostasis, organisation, metabolism, growth, adaptation, response to stimuli, and reproduction. All life over time eventually reaches a state of death, and none is immortal. Many philosophical definitions of living systems have been proposed, such as self-organizing systems. Defining life is further complicated by viruses, which replicate only in host cells, and the possibility of extraterrestrial life, which is likely to be very different from terrestrial life. Life exists all over the Earth in air, water, and soil, with many ecosystems forming the biosphere. Some of these are harsh environments occupied only by extremophiles.",
+        "subject": "Organism",
+        "predicate": "same_has_characteristic",
+        "object": "Life",
         "evidence": [
             [
-                "Future of Earth",
-                "facet of",
-                "Earth"
+                "Life",
+                "has characteristic",
+                "biodiversity"
             ],
             [
-                "Future of Earth",
-                "facet of",
-                "future"
+                "Life",
+                "has characteristic",
+                "adaptation"
             ],
             [
-                "Geological history of Earth",
-                "facet of",
-                "Earth"
+                "Life",
+                "has characteristic",
+                "quality of life"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "metabolism"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "reproduction"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "form of life"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "lifetime"
+            ],
+            [
+                "Life",
+                "has characteristic",
+                "biological life cycle"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "mode of biological reproduction"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "biological life cycle"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "scientific name"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "homeostasis"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "trophic level"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "primary nutritional group"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "species distribution"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "feeding behavior"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "date of birth"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "taxon"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "The geological history of Earth follows the major geological events in Earth's past based on the geologic time scale, a system of chronological measurement based on the study of the planet's rock layers (stratigraphy). Earth formed about 4.54 billion years ago by accretion from the solar nebula, a disk-shaped mass of dust and gas left over from the formation of the Sun, which also created the rest of the Solar System.\nThe natural history of Earth concerns the development of planet Earth from its formation to the present day. Nearly all branches of natural science have contributed to understanding of the main events of Earth's past, characterized by constant geological change and biological evolution.",
-        "subject": "Geological history of Earth",
-        "predicate": "same_facet_of",
-        "object": "History of Earth",
+        "description": "An organism is any living thing that functions as an individual. Such a definition raises more problems than it solves, not least because the concept of an individual is also difficult. Several criteria, few of which are widely accepted, have been proposed to define what constitutes an organism. Among the most common is that an organism has autonomous reproduction, growth, and metabolism. This would exclude viruses, even though they evolve like organisms.\nLiving systems are life forms treated as a system. They are said to be open self-organizing and said to interact with their environment. These systems are maintained by flows of information, energy and matter. Multiple theories of living systems have been proposed. Such theories attempt to map general principles for how all living systems work.",
+        "subject": "Organism",
+        "predicate": "same_has_characteristic",
+        "object": "Living systems",
         "evidence": [
             [
-                "Geological history of Earth",
-                "facet of",
-                "Earth"
+                "Living systems",
+                "has characteristic",
+                "hierarchy"
             ],
             [
-                "History of Earth",
-                "facet of",
-                "history"
+                "Living systems",
+                "has characteristic",
+                "homeostasis"
             ],
             [
-                "History of Earth",
-                "facet of",
-                "Earth"
+                "Organism",
+                "has characteristic",
+                "mode of biological reproduction"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "biological life cycle"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "scientific name"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "homeostasis"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "trophic level"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "primary nutritional group"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "species distribution"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "feeding behavior"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "date of birth"
+            ],
+            [
+                "Organism",
+                "has characteristic",
+                "taxon"
             ]
         ]
     },
     {
         "category": "nature",
         "reasoning": "Composite Inference",
-        "description": "The natural history of Earth concerns the development of planet Earth from its formation to the present day. Nearly all branches of natural science have contributed to understanding of the main events of Earth's past, characterized by constant geological change and biological evolution.\nThe biological and geological future of Earth can be extrapolated based on the estimated effects of several long-term influences. These include the chemistry at Earth's surface, the cooling rate of the planet's interior, gravitational interactions with other objects in the Solar System, and a steady increase in the Sun's luminosity. An uncertain factor is the influence of human technology such as climate engineering, which could cause significant changes to the planet. For example, the current Holocene extinction is being caused by technology, and the effects may last for up to five million years. In turn, technology may result in the extinction of humanity, leaving the planet to gradually return to a slower evolutionary pace resulting solely from long-term natural processes.",
-        "subject": "History of Earth",
-        "predicate": "same_facet_of",
-        "object": "Future of Earth",
+        "description": "Energy transformation, also known as energy conversion, is the process of changing energy from one form to another. In physics, energy is a quantity that provides the capacity to perform work or provides heat. In addition to being converted, according to the law of conservation of energy, energy is transferable to a different location or object or living being, but it cannot be created or destroyed.\nEnergy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity\u2014the law of conservation of energy states that energy can be converted in form, but not created or destroyed. The unit of measurement for energy in the International System of Units (SI) is the joule (J).",
+        "subject": "Energy transformation",
+        "predicate": "same_has_characteristic",
+        "object": "Energy",
         "evidence": [
             [
-                "Future of Earth",
-                "facet of",
-                "Earth"
-            ],
-            [
-                "Future of Earth",
-                "facet of",
-                "future"
-            ],
-            [
-                "History of Earth",
-                "facet of",
-                "history"
-            ],
-            [
-                "History of Earth",
-                "facet of",
-                "Earth"
-            ]
-        ]
-    },
-    {
-        "category": "nature",
-        "reasoning": "Composite Inference",
-        "description": "The natural history of Earth concerns the development of planet Earth from its formation to the present day. Nearly all branches of natural science have contributed to understanding of the main events of Earth's past, characterized by constant geological change and biological evolution.\nThe geological history of Earth follows the major geological events in Earth's past based on the geologic time scale, a system of chronological measurement based on the study of the planet's rock layers (stratigraphy). Earth formed about 4.54 billion years ago by accretion from the solar nebula, a disk-shaped mass of dust and gas left over from the formation of the Sun, which also created the rest of the Solar System.",
-        "subject": "History of Earth",
-        "predicate": "same_facet_of",
-        "object": "Geological history of Earth",
-        "evidence": [
-            [
-                "Geological history of Earth",
-                "facet of",
-                "Earth"
-            ],
-            [
-                "History of Earth",
-                "facet of",
-                "history"
-            ],
-            [
-                "History of Earth",
-                "facet of",
-                "Earth"
+                "Energy transformation",
+                "has characteristic",
+                "conservation of energy"
             ]
         ]
     }

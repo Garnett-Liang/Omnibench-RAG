@@ -1,0 +1,665 @@
+[
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Boon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.\nSheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.",
+        "subject": "Boon Thau Loo",
+        "predicate": "same_educated_at",
+        "object": "Sheizaf Rafaeli",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ],
+        "question": "Does Boon Thau Loo and Sheizaf Rafaeli share totally different educated at?",
+        "answer": "No."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Boon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.\nSheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.",
+        "subject": "Boon Thau Loo",
+        "predicate": "same_educated_at",
+        "object": "Sheizaf Rafaeli",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ],
+        "question": "Does Boon Thau Loo and Sheizaf Rafaeli share totally different educated at?",
+        "answer": "No."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Boon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.\nSheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.",
+        "subject": "Boon Thau Loo",
+        "predicate": "same_educated_at",
+        "object": "Sheizaf Rafaeli",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ],
+        "question": "Statement: It's not true that Boon Thau Loo and Sheizaf Rafaeli have the same educated at. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Boon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.\nSheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.",
+        "subject": "Boon Thau Loo",
+        "predicate": "same_educated_at",
+        "object": "Sheizaf Rafaeli",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ],
+        "question": "Does Boon Thau Loo and Sheizaf Rafaeli share totally different educated at?",
+        "answer": "No."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Sheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.\nBoon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.",
+        "subject": "Sheizaf Rafaeli",
+        "predicate": "same_educated_at",
+        "object": "Boon Thau Loo",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ],
+        "question": "Is it true that Sheizaf Rafaeli and Boon Thau Loo have the same educated at?",
+        "answer": "Yes."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Sheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.\nBoon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.",
+        "subject": "Sheizaf Rafaeli",
+        "predicate": "same_educated_at",
+        "object": "Boon Thau Loo",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ],
+        "question": "Statement: It's not true that Sheizaf Rafaeli and Boon Thau Loo have the same educated at. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Sheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.\nBoon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.",
+        "subject": "Sheizaf Rafaeli",
+        "predicate": "same_educated_at",
+        "object": "Boon Thau Loo",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ],
+        "question": "Does Sheizaf Rafaeli and Boon Thau Loo have the same educated at?",
+        "answer": "Yes."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Sheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.\nBoon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.",
+        "subject": "Sheizaf Rafaeli",
+        "predicate": "same_educated_at",
+        "object": "Boon Thau Loo",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ],
+        "question": "Does Sheizaf Rafaeli and Boon Thau Loo share totally different educated at?",
+        "answer": "No."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Boon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.\nSheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.",
+        "subject": "Boon Thau Loo",
+        "predicate": "same_educated_at",
+        "object": "Sheizaf Rafaeli",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ],
+        "question": "Does Boon Thau Loo and Sheizaf Rafaeli share totally different educated at?",
+        "answer": "No."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Boon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.\nSheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.",
+        "subject": "Boon Thau Loo",
+        "predicate": "same_educated_at",
+        "object": "Sheizaf Rafaeli",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ],
+        "question": "Does Boon Thau Loo and Sheizaf Rafaeli share totally different educated at?",
+        "answer": "No."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Boon Thau Loo is a Singaporean-American computer scientist, college administrator, and technology entrepreneur. He is currently the RCA professor in the Computer and Information Science department at the University of Pennsylvania where he leads a research lab working on distributed systems, and serves as the Associate Dean for Graduate Programs at the University of Pennsylvania School of Engineering and Applied Science.\nSheizaf Rafaeli is an Israeli researcher, scholar of computer-mediated communication and newspaper columnist. He is professor and dean at the School of Management Haifa GSB, University of Haifa Israel and additionally director of the Center for Internet Research Center for Internet Research and the Games for Managers Project. In the 1980s and 1990s he served as head of the Information Systems area at the Graduate School of business in the Hebrew University of Jerusalem. He is a senior research fellow at the Samuel Neaman Institute for National Policy, Technion.",
+        "subject": "Boon Thau Loo",
+        "predicate": "same_educated_at",
+        "object": "Sheizaf Rafaeli",
+        "evidence": [
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "University of California, Berkeley"
+            ],
+            [
+                "Boon Thau Loo",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Stanford University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "Ohio State University"
+            ],
+            [
+                "Sheizaf Rafaeli",
+                "educated at",
+                "University of Haifa"
+            ]
+        ],
+        "question": "Is there any possibility for the educated at of Boon Thau Loo also related with Sheizaf Rafaeli?",
+        "answer": "Yes."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Jason Matthew Daniel Pontin is a British-born venture capitalist and journalist. He is a General Partner at the venture capital firm of DCVC in Palo Alto, California, and is a board member and early investor in a number of life sciences, industrial, climate, and other deep tech companies. He is the former editor in chief and publisher of MIT Technology Review.\nThomas Clive Thompson III is a Canadian freelance journalist, blogger, and science and technology writer.",
+        "subject": "Jason Pontin",
+        "predicate": "same_has_written_for",
+        "object": "Clive Thompson (journalist)",
+        "evidence": [
+            [
+                "Jason Pontin",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Jason Pontin",
+                "has written for",
+                "Q9684"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Slate"
+            ]
+        ],
+        "question": "Does Jason Pontin and Clive Thompson (journalist) share totally different has written for?",
+        "answer": "No."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Jason Matthew Daniel Pontin is a British-born venture capitalist and journalist. He is a General Partner at the venture capital firm of DCVC in Palo Alto, California, and is a board member and early investor in a number of life sciences, industrial, climate, and other deep tech companies. He is the former editor in chief and publisher of MIT Technology Review.\nThomas Clive Thompson III is a Canadian freelance journalist, blogger, and science and technology writer.",
+        "subject": "Jason Pontin",
+        "predicate": "same_has_written_for",
+        "object": "Clive Thompson (journalist)",
+        "evidence": [
+            [
+                "Jason Pontin",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Jason Pontin",
+                "has written for",
+                "Q9684"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Slate"
+            ]
+        ],
+        "question": "Statement: It's not true that Jason Pontin and Clive Thompson (journalist) have the same has written for. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Thomas Clive Thompson III is a Canadian freelance journalist, blogger, and science and technology writer.\nJason Matthew Daniel Pontin is a British-born venture capitalist and journalist. He is a General Partner at the venture capital firm of DCVC in Palo Alto, California, and is a board member and early investor in a number of life sciences, industrial, climate, and other deep tech companies. He is the former editor in chief and publisher of MIT Technology Review.",
+        "subject": "Clive Thompson (journalist)",
+        "predicate": "same_has_written_for",
+        "object": "Jason Pontin",
+        "evidence": [
+            [
+                "Jason Pontin",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Jason Pontin",
+                "has written for",
+                "Q9684"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Slate"
+            ]
+        ],
+        "question": "Is it true that Clive Thompson (journalist) and Jason Pontin have the same has written for?",
+        "answer": "Yes."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Thomas Clive Thompson III is a Canadian freelance journalist, blogger, and science and technology writer.\nJason Matthew Daniel Pontin is a British-born venture capitalist and journalist. He is a General Partner at the venture capital firm of DCVC in Palo Alto, California, and is a board member and early investor in a number of life sciences, industrial, climate, and other deep tech companies. He is the former editor in chief and publisher of MIT Technology Review.",
+        "subject": "Clive Thompson (journalist)",
+        "predicate": "same_has_written_for",
+        "object": "Jason Pontin",
+        "evidence": [
+            [
+                "Jason Pontin",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Jason Pontin",
+                "has written for",
+                "Q9684"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Slate"
+            ]
+        ],
+        "question": "Is it true that Clive Thompson (journalist) and Jason Pontin have the same has written for?",
+        "answer": "Yes."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Thomas Clive Thompson III is a Canadian freelance journalist, blogger, and science and technology writer.\nJason Matthew Daniel Pontin is a British-born venture capitalist and journalist. He is a General Partner at the venture capital firm of DCVC in Palo Alto, California, and is a board member and early investor in a number of life sciences, industrial, climate, and other deep tech companies. He is the former editor in chief and publisher of MIT Technology Review.",
+        "subject": "Clive Thompson (journalist)",
+        "predicate": "same_has_written_for",
+        "object": "Jason Pontin",
+        "evidence": [
+            [
+                "Jason Pontin",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Jason Pontin",
+                "has written for",
+                "Q9684"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Slate"
+            ]
+        ],
+        "question": "Does Clive Thompson (journalist) and Jason Pontin have completely separate has written for?",
+        "answer": "No."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Thomas Clive Thompson III is a Canadian freelance journalist, blogger, and science and technology writer.\nJason Matthew Daniel Pontin is a British-born venture capitalist and journalist. He is a General Partner at the venture capital firm of DCVC in Palo Alto, California, and is a board member and early investor in a number of life sciences, industrial, climate, and other deep tech companies. He is the former editor in chief and publisher of MIT Technology Review.",
+        "subject": "Clive Thompson (journalist)",
+        "predicate": "same_has_written_for",
+        "object": "Jason Pontin",
+        "evidence": [
+            [
+                "Jason Pontin",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Jason Pontin",
+                "has written for",
+                "Q9684"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Slate"
+            ]
+        ],
+        "question": "Is it true that Clive Thompson (journalist) and Jason Pontin have the same has written for?",
+        "answer": "Yes."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Jason Matthew Daniel Pontin is a British-born venture capitalist and journalist. He is a General Partner at the venture capital firm of DCVC in Palo Alto, California, and is a board member and early investor in a number of life sciences, industrial, climate, and other deep tech companies. He is the former editor in chief and publisher of MIT Technology Review.\nThomas Clive Thompson III is a Canadian freelance journalist, blogger, and science and technology writer.",
+        "subject": "Jason Pontin",
+        "predicate": "same_has_written_for",
+        "object": "Clive Thompson (journalist)",
+        "evidence": [
+            [
+                "Jason Pontin",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Jason Pontin",
+                "has written for",
+                "Q9684"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Slate"
+            ]
+        ],
+        "question": "Does Jason Pontin and Clive Thompson (journalist) share totally different has written for?",
+        "answer": "No."
+    },
+    {
+        "category": "technology",
+        "reasoning": "Composite Inference",
+        "description": "Jason Matthew Daniel Pontin is a British-born venture capitalist and journalist. He is a General Partner at the venture capital firm of DCVC in Palo Alto, California, and is a board member and early investor in a number of life sciences, industrial, climate, and other deep tech companies. He is the former editor in chief and publisher of MIT Technology Review.\nThomas Clive Thompson III is a Canadian freelance journalist, blogger, and science and technology writer.",
+        "subject": "Jason Pontin",
+        "predicate": "same_has_written_for",
+        "object": "Clive Thompson (journalist)",
+        "evidence": [
+            [
+                "Jason Pontin",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Jason Pontin",
+                "has written for",
+                "Q9684"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Wired"
+            ],
+            [
+                "Clive Thompson (journalist)",
+                "has written for",
+                "Slate"
+            ]
+        ],
+        "question": "Is it true that Jason Pontin and Clive Thompson (journalist) have the same has written for?",
+        "answer": "Yes."
+    }
+]

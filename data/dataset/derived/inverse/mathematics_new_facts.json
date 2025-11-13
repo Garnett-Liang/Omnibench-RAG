@@ -2,35 +2,80 @@
     {
         "category": "mathematics",
         "reasoning": "Inverse Function Inference",
-        "description": "The University of Tokyo is a public research university in Bunky\u014d, Tokyo, Japan. Founded in 1877 as the nation's first modern university by the merger of several pre-westernisation era institutions, its direct precursors include the Tenmongata, founded in 1684, and the Sh\u014dheizaka Institute.\nHideki Omori is a Japanese mathematician who specialized in geometry and worked at Tokyo University of Science.",
-        "subject": "University of Tokyo",
+        "description": "The University of Southern California is a private research university in Los Angeles, California, United States. Founded in 1880 by Robert M. Widney, it is the oldest private research university in California and has an enrollment of more than 47,000 students.\nBart Andrew Kosko is an American writer and professor of electrical engineering and law at the University of Southern California (USC). He is a researcher and popularizer of fuzzy logic, neural networks, and noise, and the author of several trade books and textbooks on these and related subjects of machine intelligence. He was awarded the 2022 Donald O. Hebb Award for neural learning by the International Neural Network Society.",
+        "subject": "University of Southern California",
         "predicate": "be_the_alma_mater_of",
-        "object": "Hideki Omori",
+        "object": "Bart Kosko",
         "evidence": [
             [
-                "Hideki Omori",
+                "Bart Kosko",
                 "educated at",
-                "University of Tokyo"
+                "University of Southern California"
             ],
             [
-                "Hideki Omori",
+                "Bart Kosko",
                 "educated at",
-                "Q11453677"
+                "University of California, San Diego"
             ]
         ]
     },
     {
         "category": "mathematics",
         "reasoning": "Inverse Function Inference",
-        "description": "The University of Michigan is a public research university in Ann Arbor, Michigan, United States. Founded in 1817, it is the oldest institution of higher education in the state. The University of Michigan is one of the earliest American research universities and is a founding member of the Association of American Universities. In the fall of 2023, the university employed 8,189 faculty members and enrolled 52,065 students in its programs.\nsarah-marie belcastro is an American mathematician and book author. She is an instructor at the Art of Problem Solving Online School and is the director of MathILy, a residential math summer program hosted at Bryn Mawr. Although her doctoral research was in algebraic geometry, she has also worked extensively in topological graph theory. She is known for and has written extensively about mathematical knitting, and has co-edited three books on fiber mathematics. She exclusively uses the form \"sarah-marie belcastro\".",
-        "subject": "University of Michigan",
+        "description": "The University of California, San Diego is a public land-grant research university in La Jolla, San Diego, California, United States. Established in 1960 near the pre-existing Scripps Institution of Oceanography in La Jolla, UC San Diego is the southernmost of the ten campuses of the University of California. It offers over 200 undergraduate and graduate degree programs, enrolling 33,096 undergraduate and 9,872 graduate students, tied with UCLA for the largest student housing capacity in the nation. The university occupies 2,178 acres (881\u00a0ha) near the Pacific coast.\nBart Andrew Kosko is an American writer and professor of electrical engineering and law at the University of Southern California (USC). He is a researcher and popularizer of fuzzy logic, neural networks, and noise, and the author of several trade books and textbooks on these and related subjects of machine intelligence. He was awarded the 2022 Donald O. Hebb Award for neural learning by the International Neural Network Society.",
+        "subject": "University of California, San Diego",
         "predicate": "be_the_alma_mater_of",
-        "object": "Sarah-marie belcastro",
+        "object": "Bart Kosko",
         "evidence": [
             [
-                "Sarah-marie belcastro",
+                "Bart Kosko",
                 "educated at",
-                "University of Michigan"
+                "University of Southern California"
+            ],
+            [
+                "Bart Kosko",
+                "educated at",
+                "University of California, San Diego"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of Southern California is a private research university in Los Angeles, California, United States. Founded in 1880 by Robert M. Widney, it is the oldest private research university in California and has an enrollment of more than 47,000 students.\nBart Andrew Kosko is an American writer and professor of electrical engineering and law at the University of Southern California (USC). He is a researcher and popularizer of fuzzy logic, neural networks, and noise, and the author of several trade books and textbooks on these and related subjects of machine intelligence. He was awarded the 2022 Donald O. Hebb Award for neural learning by the International Neural Network Society.",
+        "subject": "University of Southern California",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Bart Kosko",
+        "evidence": [
+            [
+                "Bart Kosko",
+                "educated at",
+                "University of Southern California"
+            ],
+            [
+                "Bart Kosko",
+                "educated at",
+                "University of California, San Diego"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "The University of California, San Diego is a public land-grant research university in La Jolla, San Diego, California, United States. Established in 1960 near the pre-existing Scripps Institution of Oceanography in La Jolla, UC San Diego is the southernmost of the ten campuses of the University of California. It offers over 200 undergraduate and graduate degree programs, enrolling 33,096 undergraduate and 9,872 graduate students, tied with UCLA for the largest student housing capacity in the nation. The university occupies 2,178 acres (881\u00a0ha) near the Pacific coast.\nBart Andrew Kosko is an American writer and professor of electrical engineering and law at the University of Southern California (USC). He is a researcher and popularizer of fuzzy logic, neural networks, and noise, and the author of several trade books and textbooks on these and related subjects of machine intelligence. He was awarded the 2022 Donald O. Hebb Award for neural learning by the International Neural Network Society.",
+        "subject": "University of California, San Diego",
+        "predicate": "be_the_alma_mater_of",
+        "object": "Bart Kosko",
+        "evidence": [
+            [
+                "Bart Kosko",
+                "educated at",
+                "University of Southern California"
+            ],
+            [
+                "Bart Kosko",
+                "educated at",
+                "University of California, San Diego"
             ]
         ]
     },
@@ -172,7 +217,157 @@
     {
         "category": "mathematics",
         "reasoning": "Inverse Function Inference",
-        "description": "Fairfax is an independent city in Virginia and the county seat of Fairfax County, Virginia, in the United States. As of the 2020 census, the population was 24,146.\nThe Association for Women in Mathematics (AWM) is a professional society whose mission is to encourage women and girls to study and to have active careers in the mathematical sciences, and to promote equal opportunity for and the equal treatment of women and girls in the mathematical sciences. The AWM was founded in 1971 and incorporated in the state of Massachusetts. AWM has approximately 5200 members, including over 250 institutional members, such as colleges, universities, institutes, and mathematical societies. It offers numerous programs and workshops to mentor women and girls in the mathematical sciences. Much of AWM's work is supported through federal grants.",
+        "description": "Annie Laurer Alexander Selden is an expert in mathematics education. She is a professor emeritus at Tennessee Technological University, and an adjunct professor at New Mexico State University. She was one of the original founders of the Association for Women in Mathematics in 1971.\nThe Association for Women in Mathematics (AWM) is a professional society whose mission is to encourage women and girls to study and to have active careers in the mathematical sciences, and to promote equal opportunity for and the equal treatment of women and girls in the mathematical sciences. The AWM was founded in 1971 and incorporated in the state of Massachusetts. AWM has approximately 5200 members, including over 250 institutional members, such as colleges, universities, institutes, and mathematical societies. It offers numerous programs and workshops to mentor women and girls in the mathematical sciences. Much of AWM's work is supported through federal grants.",
+        "subject": "Annie Selden",
+        "predicate": "found",
+        "object": "Association for Women in Mathematics",
+        "evidence": [
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Annie Selden"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Alice T. Schafer"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Mary W. Gray"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Gloria Olive"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Alice Turner Schafer was an American mathematician. She was one of the founding members of the Association for Women in Mathematics in 1971.\nThe Association for Women in Mathematics (AWM) is a professional society whose mission is to encourage women and girls to study and to have active careers in the mathematical sciences, and to promote equal opportunity for and the equal treatment of women and girls in the mathematical sciences. The AWM was founded in 1971 and incorporated in the state of Massachusetts. AWM has approximately 5200 members, including over 250 institutional members, such as colleges, universities, institutes, and mathematical societies. It offers numerous programs and workshops to mentor women and girls in the mathematical sciences. Much of AWM's work is supported through federal grants.",
+        "subject": "Alice T. Schafer",
+        "predicate": "found",
+        "object": "Association for Women in Mathematics",
+        "evidence": [
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Annie Selden"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Alice T. Schafer"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Mary W. Gray"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Gloria Olive"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Mary Lee Wheat Gray is an American mathematician, statistician, and lawyer. She is the author of books and papers in the fields of mathematics, mathematics education, computer science, applied statistics, economic equity, discrimination law, and academic freedom. She is currently on the Board of Advisers for POMED and is the chair of the Board of Directors of AMIDEAST.\nThe Association for Women in Mathematics (AWM) is a professional society whose mission is to encourage women and girls to study and to have active careers in the mathematical sciences, and to promote equal opportunity for and the equal treatment of women and girls in the mathematical sciences. The AWM was founded in 1971 and incorporated in the state of Massachusetts. AWM has approximately 5200 members, including over 250 institutional members, such as colleges, universities, institutes, and mathematical societies. It offers numerous programs and workshops to mentor women and girls in the mathematical sciences. Much of AWM's work is supported through federal grants.",
+        "subject": "Mary W. Gray",
+        "predicate": "found",
+        "object": "Association for Women in Mathematics",
+        "evidence": [
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Annie Selden"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Alice T. Schafer"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Mary W. Gray"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Gloria Olive"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Gloria Olive was a New Zealand academic mathematician.\nThe Association for Women in Mathematics (AWM) is a professional society whose mission is to encourage women and girls to study and to have active careers in the mathematical sciences, and to promote equal opportunity for and the equal treatment of women and girls in the mathematical sciences. The AWM was founded in 1971 and incorporated in the state of Massachusetts. AWM has approximately 5200 members, including over 250 institutional members, such as colleges, universities, institutes, and mathematical societies. It offers numerous programs and workshops to mentor women and girls in the mathematical sciences. Much of AWM's work is supported through federal grants.",
+        "subject": "Gloria Olive",
+        "predicate": "found",
+        "object": "Association for Women in Mathematics",
+        "evidence": [
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Annie Selden"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Alice T. Schafer"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Mary W. Gray"
+            ],
+            [
+                "Association for Women in Mathematics",
+                "founded by",
+                "Gloria Olive"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Joan Sylvia Lyttle Birman is an American mathematician, specializing in low-dimensional topology. She has made contributions to the study of knots, 3-manifolds, mapping class groups of surfaces, geometric group theory, contact structures and dynamical systems. Birman is research professor emerita at Barnard College, Columbia University, where she has been since 1973.\nThe Ruth Lyttle Satter Prize in Mathematics, also called the Satter Prize, is one of twenty-one prizes given out by the American Mathematical Society (AMS). It is presented biennially in recognition of an outstanding contribution to mathematics research by a woman in the previous six years. The award was funded in 1990 using a donation from Joan Birman, in memory of her sister, Ruth Lyttle Satter, who worked primarily in biological sciences, and was a proponent for equal opportunities for women in science. First awarded in 1991, the award is intended to \"honor [Satter's] commitment to research and to encourage women in science\". The winner is selected by the council of the AMS, based on the recommendation of a selection committee. The prize is awarded at the Joint Mathematics Meetings during odd numbered years, and has always carried a modest cash reward. Since 2003, the prize has been $5,000, while from 1997 to 2001, the prize came with $1,200, and $4,000 prior to that. If a joint award is given, the prize money is split between the recipients.",
+        "subject": "Joan Birman",
+        "predicate": "found",
+        "object": "Ruth Lyttle Satter Prize in Mathematics",
+        "evidence": [
+            [
+                "Ruth Lyttle Satter Prize in Mathematics",
+                "founded by",
+                "Joan Birman"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Schlumberger, doing business as SLB, is a global multinational oilfield services company. Founded in France in 1926, the company is now incorporated as Schlumberger NV in Willemstad, Cura\u00e7ao, with principal executive offices in Houston, Texas. As of 2022, it is both the world's largest offshore drilling company and the world's largest offshore drilling contractor by revenue.\nOLGA is a modelling tool for transportation of oil, natural gas and water in the same pipeline, so-called multiphase transportation. The name is short for \"oil and gas simulator\". The main challenge with multiphase fluid flow is the formation of slugs in the pipelines, which causes large problems at the receiving end at the platform or the onshore plant. The modelling tool makes it possible to calculate the fluid flow and safely bring the flow to the receiving destination on shore, on a platform or a production ship through the pipes.",
+        "subject": "Schlumberger",
+        "predicate": "own",
+        "object": "OLGA (technology)",
+        "evidence": [
+            [
+                "OLGA (technology)",
+                "owned by",
+                "Schlumberger"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Fairfax is an independent city in Virginia and the county seat of Fairfax County, Virginia, United States. As of the 2020 census, the population was 24,146.\nThe Association for Women in Mathematics (AWM) is a professional society whose mission is to encourage women and girls to study and to have active careers in the mathematical sciences, and to promote equal opportunity for and the equal treatment of women and girls in the mathematical sciences. The AWM was founded in 1971 and incorporated in the state of Massachusetts. AWM has approximately 5200 members, including over 250 institutional members, such as colleges, universities, institutes, and mathematical societies. It offers numerous programs and workshops to mentor women and girls in the mathematical sciences. Much of AWM's work is supported through federal grants.",
         "subject": "Fairfax",
         "predicate": "the_administrative_territorial_entity_contains",
         "object": "Association for Women in Mathematics",
@@ -217,40 +412,321 @@
     {
         "category": "mathematics",
         "reasoning": "Inverse Function Inference",
-        "description": "Mathematics and architecture are related, since architecture, like some other arts, uses mathematics for several reasons. Apart from the mathematics needed when engineering buildings, architects use geometry: to define the spatial form of a building; from the Pythagoreans of the sixth century BC onwards, to create architectural forms considered harmonious, and thus to lay out buildings and their surroundings according to mathematical, aesthetic and sometimes religious principles; to decorate buildings with mathematical objects such as tessellations; and to meet environmental goals, such as to minimise wind speeds around the bases of tall buildings.\nIn mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities. Expressed algebraically, for quantities \u2060\u2060 and \u2060\u2060 with \u2060\u2060, \u2060\u2060 is in a golden ratio to \u2060\u2060 if",
-        "subject": "mathematics and architecture",
-        "predicate": "be_the_use_of",
-        "object": "Golden ratio",
+        "description": "Bilbao is a city in northern Spain, the largest city in the province of Biscay and in the Basque Country as a whole. With a population of 347,342 as of 2024, it is the 11th-largest city in Spain, and the largest in northern Spain. The Bilbao metropolitan area has 1,037,847 inhabitants, making it the most populous metropolitan area in northern Spain. The comarca of Greater Bilbao is the fifth-largest urban area in Spain. Bilbao is also the main urban area in what is defined as the Greater Basque region.\nThe Basque Center of Applied Mathematics (BCAM) is a research center on applied mathematics, created with the support of the Basque Government and the University of the Basque Country. The BCAM headquarters are in Alda. Mazarredo, 14 in Bilbao, the capital of the province of Biscay in the Basque Country of northern Spain.",
+        "subject": "Bilbao",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "Basque Center for Applied Mathematics",
         "evidence": [
             [
-                "Golden ratio",
-                "has use",
-                "mathematics and architecture"
-            ],
-            [
-                "Golden ratio",
-                "has use",
-                "mathematics and art"
+                "Basque Center for Applied Mathematics",
+                "located in the administrative territorial entity",
+                "Bilbao"
             ]
         ]
     },
     {
         "category": "mathematics",
         "reasoning": "Inverse Function Inference",
-        "description": "Mathematics and art are related in a variety of ways. Mathematics has itself been described as an art motivated by beauty. Mathematics can be discerned in arts such as music, dance, painting, architecture, sculpture, and textiles. This article focuses, however, on mathematics in the visual arts.\nIn mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities. Expressed algebraically, for quantities \u2060\u2060 and \u2060\u2060 with \u2060\u2060, \u2060\u2060 is in a golden ratio to \u2060\u2060 if",
-        "subject": "Mathematics and art",
-        "predicate": "be_the_use_of",
-        "object": "Golden ratio",
+        "description": "Fairfax is an independent city in Virginia and the county seat of Fairfax County, Virginia, United States. As of the 2020 census, the population was 24,146.\nThe Association for Women in Mathematics (AWM) is a professional society whose mission is to encourage women and girls to study and to have active careers in the mathematical sciences, and to promote equal opportunity for and the equal treatment of women and girls in the mathematical sciences. The AWM was founded in 1971 and incorporated in the state of Massachusetts. AWM has approximately 5200 members, including over 250 institutional members, such as colleges, universities, institutes, and mathematical societies. It offers numerous programs and workshops to mentor women and girls in the mathematical sciences. Much of AWM's work is supported through federal grants.",
+        "subject": "Fairfax",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "Association for Women in Mathematics",
         "evidence": [
             [
-                "Golden ratio",
-                "has use",
-                "mathematics and architecture"
-            ],
+                "Association for Women in Mathematics",
+                "located in the administrative territorial entity",
+                "Fairfax"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Europe is a continent located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere. It is bordered by the Arctic Ocean to the north, the Atlantic Ocean to the west, the Mediterranean Sea to the south, and Asia to the east. Europe shares the landmass of Eurasia with Asia, and of Afro-Eurasia with both Africa and Asia. Europe is commonly considered to be separated from Asia by the watershed of the Ural Mountains, the Ural River, the Caspian Sea, the Greater Caucasus, the Black Sea, and the Turkish straits.\nEuropean Women in Mathematics (EWM) is an international association of women working in the field of mathematics in Europe. The association participates in political and strategic work to promote the role of women in mathematics and offers its members direct support. Its goals include encouraging women to study mathematics and providing visibility to women mathematicians. It is the \"first and best known\" of several organizations devoted to women in mathematics in Europe.",
+        "subject": "Europe",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "European Women in Mathematics",
+        "evidence": [
             [
-                "Golden ratio",
+                "European Women in Mathematics",
+                "located in the administrative territorial entity",
+                "Europe"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Minneapolis is a city in Hennepin County, Minnesota, United States, and its county seat. With a population of 429,954 as of the 2020 census, it is the state's most populous city. Located in the state's center near the eastern border, it occupies both banks of the Upper Mississippi River and adjoins Saint Paul, the state capital of Minnesota. Minneapolis, Saint Paul, and the surrounding area are collectively known as the Twin Cities, a metropolitan area with 3.69 million residents. Minneapolis is built on an artesian aquifer on flat terrain and is known for cold, snowy winters and hot, humid summers. Nicknamed the \"City of Lakes\", Minneapolis is abundant in water, with thirteen lakes, wetlands, the Mississippi River, creeks, and waterfalls. The city's public park system is connected by the Grand Rounds National Scenic Byway.\nGraduate Women in Science (GWIS), formerly known as Sigma Delta Epsilon (\u03a3\u0394\u0395), is an international professional organization for women in science. It was established as a scientific women's fraternity in 1921 at Cornell University, United States. It played an important role for women scientists for some fifty years when they were not allowed membership in most mainstream scientific organizations. GWIS is a non-profit 501(c)(3) organization with over 1,000 active members and more than 30 active chapters.",
+        "subject": "Minneapolis",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "Graduate Women in Science",
+        "evidence": [
+            [
+                "Graduate Women in Science",
+                "located in the administrative territorial entity",
+                "Minneapolis"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Bilbao is a city in northern Spain, the largest city in the province of Biscay and in the Basque Country as a whole. With a population of 347,342 as of 2024, it is the 11th-largest city in Spain, and the largest in northern Spain. The Bilbao metropolitan area has 1,037,847 inhabitants, making it the most populous metropolitan area in northern Spain. The comarca of Greater Bilbao is the fifth-largest urban area in Spain. Bilbao is also the main urban area in what is defined as the Greater Basque region.\nThe Basque Center of Applied Mathematics (BCAM) is a research center on applied mathematics, created with the support of the Basque Government and the University of the Basque Country. The BCAM headquarters are in Alda. Mazarredo, 14 in Bilbao, the capital of the province of Biscay in the Basque Country of northern Spain.",
+        "subject": "Bilbao",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "Basque Center for Applied Mathematics",
+        "evidence": [
+            [
+                "Basque Center for Applied Mathematics",
+                "located in the administrative territorial entity",
+                "Bilbao"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Actuarial science is the discipline that applies mathematical and statistical methods to assess risk in insurance, pension, finance, investment, psychology, medicine, and other industries and professions.\nActuarial notation is a shorthand method to allow actuaries to record mathematical formulas that deal with interest rates and life tables.",
+        "subject": "actuarial science",
+        "predicate": "be_the_use_of",
+        "object": "Actuarial notation",
+        "evidence": [
+            [
+                "Actuarial notation",
                 "has use",
-                "mathematics and art"
+                "actuarial science"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Chemistry is the scientific study of the properties and behavior of matter. It is a physical science within the natural sciences that studies the chemical elements that make up matter and compounds made of atoms, molecules and ions: their composition, structure, properties, behavior and the changes they undergo during reactions with other substances. Chemistry also addresses the nature of chemical bonds in chemical compounds.\n\nComputational science, also known as scientific computing, technical computing or scientific computation (SC), is a division of science, and more specifically the computer sciences, which uses advanced computing capabilities to understand and solve complex physical problems. While this typically extends into computational specializations, this field of study includes:Algorithms : mathematical models, computational models, and computer simulations developed to solve sciences, engineering, and humanities problems\nComputer hardware that develops and optimizes the advanced system hardware, firmware, networking, and data management components needed to solve computationally demanding problems\nThe computing infrastructure that supports both the science and engineering problem solving and the developmental computer and information science",
+        "subject": "chemistry",
+        "predicate": "be_the_use_of",
+        "object": "computational science",
+        "evidence": []
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Materials science is an interdisciplinary field of researching and discovering materials. Materials engineering is an engineering field of finding uses for materials in other fields and industries.\n\nComputational science, also known as scientific computing, technical computing or scientific computation (SC), is a division of science, and more specifically the computer sciences, which uses advanced computing capabilities to understand and solve complex physical problems. While this typically extends into computational specializations, this field of study includes:Algorithms : mathematical models, computational models, and computer simulations developed to solve sciences, engineering, and humanities problems\nComputer hardware that develops and optimizes the advanced system hardware, firmware, networking, and data management components needed to solve computationally demanding problems\nThe computing infrastructure that supports both the science and engineering problem solving and the developmental computer and information science",
+        "subject": "materials science",
+        "predicate": "be_the_use_of",
+        "object": "computational science",
+        "evidence": []
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Electronics is a scientific and engineering discipline that studies and applies the principles of physics to design, create, and operate devices that manipulate electrons and other electrically charged particles. It is a subfield of physics and electrical engineering which uses active devices such as transistors, diodes, and integrated circuits to control and amplify the flow of electric current and to convert it from one form to another, such as from alternating current (AC) to direct current (DC) or from analog signals to digital signals. Electronics is often contrasted with electrical power engineering, which focuses on generation, transmission, and distribution of electric power rather than signal processing or device level control.\nMathematical methods are integral to the study of electronics.",
+        "subject": "electronics",
+        "predicate": "be_the_use_of",
+        "object": "Mathematical methods in electronics",
+        "evidence": [
+            [
+                "Mathematical methods in electronics",
+                "has use",
+                "electronics"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Weather forecasting or weather prediction is the application of science and technology to predict the conditions of the atmosphere for a given location and time. People have attempted to predict the weather informally for thousands of years and formally since the 19th century.\nNumerical weather prediction (NWP) uses mathematical models of the atmosphere and oceans to predict the weather based on current weather conditions. Though first attempted in the 1920s, it was not until the advent of computer simulation in the 1950s that numerical weather predictions produced realistic results. A number of global and regional forecast models are run in different countries worldwide, using current weather observations relayed from radiosondes, weather satellites and other observing systems as inputs.",
+        "subject": "weather forecasting",
+        "predicate": "be_the_use_of",
+        "object": "Numerical weather prediction",
+        "evidence": [
+            [
+                "Numerical weather prediction",
+                "has use",
+                "weather forecasting"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "\nScience is a systematic discipline that builds and organises knowledge in the form of testable hypotheses and predictions about the universe. Modern science is typically divided into two\u00a0\u2013 or three\u00a0\u2013 major branches: the natural sciences, which study the physical world, and the social sciences, which study individuals and societies. While referred to as the formal sciences, the study of logic, mathematics, and theoretical computer science are typically regarded as separate because they rely on deductive reasoning instead of the scientific method as their main methodology. Meanwhile, applied sciences are disciplines that use scientific knowledge for practical purposes, such as engineering and medicine.\nOLGA is a modelling tool for transportation of oil, natural gas and water in the same pipeline, so-called multiphase transportation. The name is short for \"oil and gas simulator\". The main challenge with multiphase fluid flow is the formation of slugs in the pipelines, which causes large problems at the receiving end at the platform or the onshore plant. The modelling tool makes it possible to calculate the fluid flow and safely bring the flow to the receiving destination on shore, on a platform or a production ship through the pipes.",
+        "subject": "science",
+        "predicate": "be_the_use_of",
+        "object": "OLGA (technology)",
+        "evidence": [
+            [
+                "OLGA (technology)",
+                "has use",
+                "science"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "\nA mathematical model is an abstract description of a concrete system using mathematical concepts and language. The process of developing a mathematical model is termed mathematical modeling. Mathematical models are used in many fields, including applied mathematics, natural sciences, social sciences and engineering. In particular, the field of operations research studies the use of mathematical modelling and related tools to solve problems in business or military operations. A model may help to characterize a system by studying the effects of different components, which may be used to make predictions about behavior or solve specific problems.\nPottersWheel is a MATLAB toolbox for mathematical modeling of time-dependent dynamical systems that can be expressed as chemical reaction networks or ordinary differential equations (ODEs). It allows the automatic calibration of model parameters by fitting the model to experimental measurements. CPU-intensive functions are written or \u2013 in case of model dependent functions \u2013 dynamically generated in C. Modeling can be done interactively using graphical user interfaces or based on MATLAB scripts using the PottersWheel function library. The software is intended to support the work of a mathematical modeler as a real potter's wheel eases the modeling of pottery.",
+        "subject": "Mathematical model",
+        "predicate": "be_the_use_of",
+        "object": "PottersWheel",
+        "evidence": [
+            [
+                "PottersWheel",
+                "has use",
+                "mathematical model"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Visualization, also known as graphics visualization, is any technique for creating images, diagrams, or animations to communicate a message. Visualization through visual imagery has been an effective way to communicate both abstract and concrete ideas since the dawn of humanity. Examples from history include cave paintings, Egyptian hieroglyphs, Greek geometry, and Leonardo da Vinci's revolutionary methods of technical drawing for engineering purposes that actively involve scientific requirements.\nIn scientific imaging, the two-dimensional spectral signal-to-noise ratio (SSNR) is a signal-to-noise ratio measure which measures the normalised cross-correlation coefficient between several two-dimensional images over corresponding rings in Fourier space as a function of spatial frequency. It is a multi-particle extension of the Fourier ring correlation (FRC), which is related to the Fourier shell correlation. The SSNR is a popular method for finding the resolution of a class average in cryo-electron microscopy.",
+        "subject": "visualization",
+        "predicate": "be_the_use_of",
+        "object": "Spectral signal-to-noise ratio",
+        "evidence": [
+            [
+                "Spectral signal-to-noise ratio",
+                "has use",
+                "visualization"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Actuarial science is the discipline that applies mathematical and statistical methods to assess risk in insurance, pension, finance, investment, psychology, medicine, and other industries and professions.\nActuarial notation is a shorthand method to allow actuaries to record mathematical formulas that deal with interest rates and life tables.",
+        "subject": "actuarial science",
+        "predicate": "be_the_use_of",
+        "object": "Actuarial notation",
+        "evidence": [
+            [
+                "Actuarial notation",
+                "has use",
+                "actuarial science"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Chemistry is the scientific study of the properties and behavior of matter. It is a physical science within the natural sciences that studies the chemical elements that make up matter and compounds made of atoms, molecules and ions: their composition, structure, properties, behavior and the changes they undergo during reactions with other substances. Chemistry also addresses the nature of chemical bonds in chemical compounds.\n\nComputational science, also known as scientific computing, technical computing or scientific computation (SC), is a division of science, and more specifically the computer sciences, which uses advanced computing capabilities to understand and solve complex physical problems. While this typically extends into computational specializations, this field of study includes:Algorithms : mathematical models, computational models, and computer simulations developed to solve sciences, engineering, and humanities problems\nComputer hardware that develops and optimizes the advanced system hardware, firmware, networking, and data management components needed to solve computationally demanding problems\nThe computing infrastructure that supports both the science and engineering problem solving and the developmental computer and information science",
+        "subject": "chemistry",
+        "predicate": "be_the_use_of",
+        "object": "computational science",
+        "evidence": []
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Materials science is an interdisciplinary field of researching and discovering materials. Materials engineering is an engineering field of finding uses for materials in other fields and industries.\n\nComputational science, also known as scientific computing, technical computing or scientific computation (SC), is a division of science, and more specifically the computer sciences, which uses advanced computing capabilities to understand and solve complex physical problems. While this typically extends into computational specializations, this field of study includes:Algorithms : mathematical models, computational models, and computer simulations developed to solve sciences, engineering, and humanities problems\nComputer hardware that develops and optimizes the advanced system hardware, firmware, networking, and data management components needed to solve computationally demanding problems\nThe computing infrastructure that supports both the science and engineering problem solving and the developmental computer and information science",
+        "subject": "materials science",
+        "predicate": "be_the_use_of",
+        "object": "computational science",
+        "evidence": []
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Electronics is a scientific and engineering discipline that studies and applies the principles of physics to design, create, and operate devices that manipulate electrons and other electrically charged particles. It is a subfield of physics and electrical engineering which uses active devices such as transistors, diodes, and integrated circuits to control and amplify the flow of electric current and to convert it from one form to another, such as from alternating current (AC) to direct current (DC) or from analog signals to digital signals. Electronics is often contrasted with electrical power engineering, which focuses on generation, transmission, and distribution of electric power rather than signal processing or device level control.\nMathematical methods are integral to the study of electronics.",
+        "subject": "electronics",
+        "predicate": "be_the_use_of",
+        "object": "Mathematical methods in electronics",
+        "evidence": [
+            [
+                "Mathematical methods in electronics",
+                "has use",
+                "electronics"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Weather forecasting or weather prediction is the application of science and technology to predict the conditions of the atmosphere for a given location and time. People have attempted to predict the weather informally for thousands of years and formally since the 19th century.\nNumerical weather prediction (NWP) uses mathematical models of the atmosphere and oceans to predict the weather based on current weather conditions. Though first attempted in the 1920s, it was not until the advent of computer simulation in the 1950s that numerical weather predictions produced realistic results. A number of global and regional forecast models are run in different countries worldwide, using current weather observations relayed from radiosondes, weather satellites and other observing systems as inputs.",
+        "subject": "weather forecasting",
+        "predicate": "be_the_use_of",
+        "object": "Numerical weather prediction",
+        "evidence": [
+            [
+                "Numerical weather prediction",
+                "has use",
+                "weather forecasting"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "\nA mathematical model is an abstract description of a concrete system using mathematical concepts and language. The process of developing a mathematical model is termed mathematical modeling. Mathematical models are used in many fields, including applied mathematics, natural sciences, social sciences and engineering. In particular, the field of operations research studies the use of mathematical modelling and related tools to solve problems in business or military operations. A model may help to characterize a system by studying the effects of different components, which may be used to make predictions about behavior or solve specific problems.\nPottersWheel is a MATLAB toolbox for mathematical modeling of time-dependent dynamical systems that can be expressed as chemical reaction networks or ordinary differential equations (ODEs). It allows the automatic calibration of model parameters by fitting the model to experimental measurements. CPU-intensive functions are written or \u2013 in case of model dependent functions \u2013 dynamically generated in C. Modeling can be done interactively using graphical user interfaces or based on MATLAB scripts using the PottersWheel function library. The software is intended to support the work of a mathematical modeler as a real potter's wheel eases the modeling of pottery.",
+        "subject": "Mathematical model",
+        "predicate": "be_the_use_of",
+        "object": "PottersWheel",
+        "evidence": [
+            [
+                "PottersWheel",
+                "has use",
+                "mathematical model"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "\nA mathematical model is an abstract description of a concrete system using mathematical concepts and language. The process of developing a mathematical model is termed mathematical modeling. Mathematical models are used in many fields, including applied mathematics, natural sciences, social sciences and engineering. In particular, the field of operations research studies the use of mathematical modelling and related tools to solve problems in business or military operations. A model may help to characterize a system by studying the effects of different components, which may be used to make predictions about behavior or solve specific problems.\n\nA mathematical model is an abstract description of a concrete system using mathematical concepts and language. The process of developing a mathematical model is termed mathematical modeling. Mathematical models are used in many fields, including applied mathematics, natural sciences, social sciences and engineering. In particular, the field of operations research studies the use of mathematical modelling and related tools to solve problems in business or military operations. A model may help to characterize a system by studying the effects of different components, which may be used to make predictions about behavior or solve specific problems.",
+        "subject": "mathematical modelling",
+        "predicate": "be_the_cause_of",
+        "object": "Mathematical model",
+        "evidence": [
+            [
+                "Mathematical model",
+                "has cause",
+                "mathematical modelling"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Self-organization, also called spontaneous order in the social sciences, is a process where some form of overall order arises from local interactions between parts of an initially disordered system. The process can be spontaneous when sufficient energy is available, not needing control by any external agent. It is often triggered by seemingly random fluctuations, amplified by positive feedback. The resulting organization is wholly decentralized, distributed over all the components of the system. As such, the organization is typically robust and able to survive or self-repair substantial perturbation. Chaos theory discusses self-organization in terms of islands of predictability in a sea of chaotic unpredictability.\nPatterns in nature are visible regularities of form found in the natural world. These patterns recur in different contexts and can sometimes be modelled mathematically. Natural patterns include symmetries, trees, spirals, meanders, waves, foams, tessellations, cracks and stripes. Early Greek philosophers studied pattern, with Plato, Pythagoras and Empedocles attempting to explain order in nature. The modern understanding of visible patterns developed gradually over time.",
+        "subject": "auto-organisation",
+        "predicate": "be_the_cause_of",
+        "object": "Patterns in nature",
+        "evidence": [
+            [
+                "Patterns in nature",
+                "has cause",
+                "auto-organisation"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "\nA mathematical model is an abstract description of a concrete system using mathematical concepts and language. The process of developing a mathematical model is termed mathematical modeling. Mathematical models are used in many fields, including applied mathematics, natural sciences, social sciences and engineering. In particular, the field of operations research studies the use of mathematical modelling and related tools to solve problems in business or military operations. A model may help to characterize a system by studying the effects of different components, which may be used to make predictions about behavior or solve specific problems.\n\nA mathematical model is an abstract description of a concrete system using mathematical concepts and language. The process of developing a mathematical model is termed mathematical modeling. Mathematical models are used in many fields, including applied mathematics, natural sciences, social sciences and engineering. In particular, the field of operations research studies the use of mathematical modelling and related tools to solve problems in business or military operations. A model may help to characterize a system by studying the effects of different components, which may be used to make predictions about behavior or solve specific problems.",
+        "subject": "mathematical modelling",
+        "predicate": "be_the_cause_of",
+        "object": "Mathematical model",
+        "evidence": [
+            [
+                "Mathematical model",
+                "has cause",
+                "mathematical modelling"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Self-organization, also called spontaneous order in the social sciences, is a process where some form of overall order arises from local interactions between parts of an initially disordered system. The process can be spontaneous when sufficient energy is available, not needing control by any external agent. It is often triggered by seemingly random fluctuations, amplified by positive feedback. The resulting organization is wholly decentralized, distributed over all the components of the system. As such, the organization is typically robust and able to survive or self-repair substantial perturbation. Chaos theory discusses self-organization in terms of islands of predictability in a sea of chaotic unpredictability.\nPatterns in nature are visible regularities of form found in the natural world. These patterns recur in different contexts and can sometimes be modelled mathematically. Natural patterns include symmetries, trees, spirals, meanders, waves, foams, tessellations, cracks and stripes. Early Greek philosophers studied pattern, with Plato, Pythagoras and Empedocles attempting to explain order in nature. The modern understanding of visible patterns developed gradually over time.",
+        "subject": "auto-organisation",
+        "predicate": "be_the_cause_of",
+        "object": "Patterns in nature",
+        "evidence": [
+            [
+                "Patterns in nature",
+                "has cause",
+                "auto-organisation"
             ]
         ]
     },
@@ -302,7 +778,52 @@
     {
         "category": "mathematics",
         "reasoning": "Inverse Function Inference",
-        "description": "Monthly Sh\u014dnen Magazine  is a monthly sh\u014dnen manga magazine published in Japan by Kodansha. It was launched in 1964 under the name Bessatsu Sh\u014dnen Magazine (\u5225\u518a\u5c11\u5e74\u30de\u30ac\u30b8\u30f3). In 1969 it was retitled as Monthly Bessatsu Sh\u014dnen Magazine (\u6708\u520a\u5225\u518a\u5c11\u5e74\u30de\u30ac\u30b8\u30f3) and its publication frequency increased from quarterly to monthly. After suspension in 1974 it started publishing again, in 1975 it was renamed as current magazine title.\nFermat Kitchen  is a Japanese manga series written and illustrated by Y\u016bgo Kobayashi. It has been serialized in Kodansha's sh\u014dnen manga magazine Monthly Sh\u014dnen Magazine since September 2018. A television drama adaptation aired from October to December 2023. An anime television series adaptation produced by Domerica premiered in July 2025.",
+        "description": "The London Mathematical Society (LMS) is one of the United Kingdom's learned societies for mathematics (the others being the Royal Statistical Society, the Institute of Mathematics and its Applications, the Edinburgh Mathematical Society and the Operational Research Society.\nThe Anne Bennett Prize and Senior Anne Bennett Prize are awards given by the London Mathematical Society.",
+        "subject": "London Mathematical Society",
+        "predicate": "confer_to",
+        "object": "Anne Bennett Prize",
+        "evidence": [
+            [
+                "Anne Bennett Prize",
+                "conferred by",
+                "London Mathematical Society"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "The Canadian Mathematical Society is an association of professional mathematicians dedicated to advancing mathematical research, outreach, scholarship and education in Canada. The Society serves the national and international communities through the publication of high-quality academic journals and community bulletins, as well as by organizing a variety of mathematical competitions and enrichment programs. These include the Canadian Open Mathematics Challenge (COMC), the Canadian Mathematical Olympiad (CMO), and the selection and training of Canada's team for the International Mathematical Olympiad (IMO) and the European Girls\u2019 Mathematical Olympiad (EGMO).\nThe Krieger\u2013Nelson Prize is presented by the Canadian Mathematical Society in recognition of an outstanding woman in mathematics. It was first\nawarded in 1995. The award is named after Cecilia Krieger and Evelyn Nelson, both known for their contributions to mathematics in Canada.",
+        "subject": "Canadian Mathematical Society",
+        "predicate": "confer_to",
+        "object": "Krieger\u2013Nelson Prize",
+        "evidence": [
+            [
+                "Krieger\u2013Nelson Prize",
+                "conferred by",
+                "Canadian Mathematical Society"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "The American Mathematical Society (AMS) is an association of professional mathematicians dedicated to the interests of mathematical research and scholarship, and serves the national and international community through its publications, meetings, advocacy and other programs.\nThe Ruth Lyttle Satter Prize in Mathematics, also called the Satter Prize, is one of twenty-one prizes given out by the American Mathematical Society (AMS). It is presented biennially in recognition of an outstanding contribution to mathematics research by a woman in the previous six years. The award was funded in 1990 using a donation from Joan Birman, in memory of her sister, Ruth Lyttle Satter, who worked primarily in biological sciences, and was a proponent for equal opportunities for women in science. First awarded in 1991, the award is intended to \"honor [Satter's] commitment to research and to encourage women in science\". The winner is selected by the council of the AMS, based on the recommendation of a selection committee. The prize is awarded at the Joint Mathematics Meetings during odd numbered years, and has always carried a modest cash reward. Since 2003, the prize has been $5,000, while from 1997 to 2001, the prize came with $1,200, and $4,000 prior to that. If a joint award is given, the prize money is split between the recipients.",
+        "subject": "American Mathematical Society",
+        "predicate": "confer_to",
+        "object": "Ruth Lyttle Satter Prize in Mathematics",
+        "evidence": [
+            [
+                "Ruth Lyttle Satter Prize in Mathematics",
+                "conferred by",
+                "American Mathematical Society"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Monthly Sh\u014dnen Magazine  is a monthly sh\u014dnen manga magazine published in Japan by Kodansha. It was launched in 1964 under the name Bessatsu Sh\u014dnen Magazine (\u5225\u518a\u5c11\u5e74\u30de\u30ac\u30b8\u30f3). In 1969 it was retitled as Monthly Bessatsu Sh\u014dnen Magazine (\u6708\u520a\u5225\u518a\u5c11\u5e74\u30de\u30ac\u30b8\u30f3) and its publication frequency increased from quarterly to monthly. After suspension in 1974 it started publishing again, in 1975 it was renamed as current magazine title.\nFermat Kitchen  is a Japanese manga series written and illustrated by Y\u016bgo Kobayashi. It has been serialized in Kodansha's sh\u014dnen manga magazine Monthly Sh\u014dnen Magazine since September 2018. A television drama adaptation aired from October to December 2023. An anime television series adaptation produced by Domerica aired from July to September 2025.",
         "subject": "Monthly Sh\u014dnen Magazine",
         "predicate": "the_fictional_universe_happened_to_meet",
         "object": "Fermat Kitchen",
@@ -326,6 +847,96 @@
                 "S\u016bji de Asobo",
                 "published in",
                 "Flowers"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Monthly Sh\u014dnen Magazine  is a monthly sh\u014dnen manga magazine published in Japan by Kodansha. It was launched in 1964 under the name Bessatsu Sh\u014dnen Magazine (\u5225\u518a\u5c11\u5e74\u30de\u30ac\u30b8\u30f3). In 1969 it was retitled as Monthly Bessatsu Sh\u014dnen Magazine (\u6708\u520a\u5225\u518a\u5c11\u5e74\u30de\u30ac\u30b8\u30f3) and its publication frequency increased from quarterly to monthly. After suspension in 1974 it started publishing again, in 1975 it was renamed as current magazine title.\nFermat Kitchen  is a Japanese manga series written and illustrated by Y\u016bgo Kobayashi. It has been serialized in Kodansha's sh\u014dnen manga magazine Monthly Sh\u014dnen Magazine since September 2018. A television drama adaptation aired from October to December 2023. An anime television series adaptation produced by Domerica aired from July to September 2025.",
+        "subject": "Monthly Sh\u014dnen Magazine",
+        "predicate": "the_fictional_universe_happened_to_meet",
+        "object": "Fermat Kitchen",
+        "evidence": [
+            [
+                "Fermat Kitchen",
+                "published in",
+                "Monthly Sh\u014dnen Magazine"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Flowers (\u30d5\u30e9\u30ef\u30fc\u30ba) is a monthly Japanese Josei manga manga magazine published by Shogakukan and issued on the 28th of every month.\nS\u016bji de Asobo  is a Japanese manga series written and illustrated by Murako Kinuta. It has been serialized in Shogakukan's josei manga magazine Flowers since June 2018, with its chapters collected in fourteen tank\u014dbon volumes as of July 2025.",
+        "subject": "Flowers",
+        "predicate": "the_fictional_universe_happened_to_meet",
+        "object": "S\u016bji de Asobo",
+        "evidence": [
+            [
+                "S\u016bji de Asobo",
+                "published in",
+                "Flowers"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "A number is a mathematical object used to count, measure, and label. The most basic examples are the natural numbers 1, 2, 3, 4, 5, and so forth. Individual numbers can be represented in language with number words or by dedicated symbols called numerals; for example, \"five\" is a number word and \"5\" is the corresponding numeral. As only a relatively small number of symbols can be memorized, basic numerals are commonly arranged in a numeral system, which is an organized way to represent any number. The most common numeral system is the Hindu\u2013Arabic numeral system, which allows for the representation of any non-negative integer using a combination of ten fundamental numeric symbols, called digits. In addition to their use in counting and measuring, numerals are often used for labels, for ordering, and for codes. In common usage, a numeral is not clearly distinguished from the number that it represents.\nCounting is the process of determining the number of elements of a finite set of objects; that is, determining the size of a set. The traditional way of counting consists of continually increasing a counter by a unit for every element of the set, in some order, while marking those elements to avoid visiting the same element more than once, until no unmarked elements are left; if the counter was set to one after the first object, the value after visiting the final object gives the desired number of elements. The related term enumeration refers to uniquely identifying the elements of a finite (combinatorial) set or infinite set by assigning a number to each element.",
+        "subject": "number",
+        "predicate": "supports_for",
+        "object": "Counting",
+        "evidence": [
+            [
+                "Counting",
+                "has effect",
+                "number"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Discrete may refer to:Discrete particle or quantum in physics, for example in quantum theory\nDiscrete device, an electronic component with just one circuit element, either passive or active, other than an integrated circuit\nDiscrete group, a group with the discrete topology\nDiscrete category, category whose only arrows are identity arrows\nDiscrete mathematics, the study of structures without continuity\nDiscrete optimization, a branch of optimization in applied mathematics and computer science\nDiscrete probability distribution, a random variable that can be counted\nDiscrete space, a simple example of a topological space\nDiscrete spline interpolation, the discrete analog of ordinary spline interpolation\nDiscrete time, non-continuous time, which results in discrete-time samples\nDiscrete variable, non-continuous variable\nDiscrete pitch, a pitch with a steady frequency, rather than an indiscrete gliding, glissando or portamento, pitch\n\n\nIn applied mathematics, discretization is the process of transferring continuous functions, models, variables, and equations into discrete counterparts. This process is usually carried out as a first step toward making them suitable for numerical evaluation and implementation on digital computers. Dichotomization is the special case of discretization in which the number of discrete classes is 2, which can approximate a continuous variable as a binary variable.",
+        "subject": "discreteness",
+        "predicate": "supports_for",
+        "object": "Discretization",
+        "evidence": [
+            [
+                "Discretization",
+                "has effect",
+                "discreteness"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "A number is a mathematical object used to count, measure, and label. The most basic examples are the natural numbers 1, 2, 3, 4, 5, and so forth. Individual numbers can be represented in language with number words or by dedicated symbols called numerals; for example, \"five\" is a number word and \"5\" is the corresponding numeral. As only a relatively small number of symbols can be memorized, basic numerals are commonly arranged in a numeral system, which is an organized way to represent any number. The most common numeral system is the Hindu\u2013Arabic numeral system, which allows for the representation of any non-negative integer using a combination of ten fundamental numeric symbols, called digits. In addition to their use in counting and measuring, numerals are often used for labels, for ordering, and for codes. In common usage, a numeral is not clearly distinguished from the number that it represents.\nCounting is the process of determining the number of elements of a finite set of objects; that is, determining the size of a set. The traditional way of counting consists of continually increasing a counter by a unit for every element of the set, in some order, while marking those elements to avoid visiting the same element more than once, until no unmarked elements are left; if the counter was set to one after the first object, the value after visiting the final object gives the desired number of elements. The related term enumeration refers to uniquely identifying the elements of a finite (combinatorial) set or infinite set by assigning a number to each element.",
+        "subject": "number",
+        "predicate": "supports_for",
+        "object": "Counting",
+        "evidence": [
+            [
+                "Counting",
+                "has effect",
+                "number"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Inverse Function Inference",
+        "description": "Discrete may refer to:Discrete particle or quantum in physics, for example in quantum theory\nDiscrete device, an electronic component with just one circuit element, either passive or active, other than an integrated circuit\nDiscrete group, a group with the discrete topology\nDiscrete category, category whose only arrows are identity arrows\nDiscrete mathematics, the study of structures without continuity\nDiscrete optimization, a branch of optimization in applied mathematics and computer science\nDiscrete probability distribution, a random variable that can be counted\nDiscrete space, a simple example of a topological space\nDiscrete spline interpolation, the discrete analog of ordinary spline interpolation\nDiscrete time, non-continuous time, which results in discrete-time samples\nDiscrete variable, non-continuous variable\nDiscrete pitch, a pitch with a steady frequency, rather than an indiscrete gliding, glissando or portamento, pitch\n\n\nIn applied mathematics, discretization is the process of transferring continuous functions, models, variables, and equations into discrete counterparts. This process is usually carried out as a first step toward making them suitable for numerical evaluation and implementation on digital computers. Dichotomization is the special case of discretization in which the number of discrete classes is 2, which can approximate a continuous variable as a binary variable.",
+        "subject": "discreteness",
+        "predicate": "supports_for",
+        "object": "Discretization",
+        "evidence": [
+            [
+                "Discretization",
+                "has effect",
+                "discreteness"
             ]
         ]
     }

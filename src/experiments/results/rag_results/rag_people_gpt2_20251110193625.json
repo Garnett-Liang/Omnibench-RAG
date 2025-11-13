@@ -1,0 +1,35 @@
+{
+  "rule": "inverse",
+  "domain": "people",
+  "model_name": "gpt2",
+  "evaluation_time": "2025-11-10 19:36:25",
+  "metrics": {
+    "basic_accuracy": 0.5517241379310345,
+    "rag_accuracy": 0.6551724137931034,
+    "improvement": 0.10344827586206895,
+    "performance": {
+      "basic": {
+        "response_time": 5.087475994537616,
+        "memory_usage": 0.008254716981133683,
+        "gpu_utilization": 31.696969696969695
+      },
+      "rag": {
+        "response_time": 8.67805185811273,
+        "memory_usage": 0.013015686274510538,
+        "retrieval_memory_avg": -0.011315517241379094,
+        "final_increment_avg": -0.11059137931034625,
+        "gpu_utilization": 28.806451612903224
+      },
+      "ratios": {
+        "response_time": 1.7057676276861624,
+        "memory_usage": 1.5767574229689694,
+        "gpu_utilization": 0.9088077468697958
+      }
+    },
+    "transformation": 0.7549
+  },
+  "parameters": {
+    "top_k": 3,
+    "dataset_size": 58
+  }
+}

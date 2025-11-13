@@ -1,0 +1,467 @@
+Starting RAG evaluation - Domain: technology, Model: gpt2, Top-K: 3
+Dataset source: existing, RAG material source: strong
+==================================================
+[1/5] Checking and preprocessing technology domain data...
+Using Strong Wiki material...
+Strong data already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_cleaned\Strong_technology.txt), skipping generation
+[2/5] Checking and building technology domain vector index...
+Using Strong Wiki material index...
+Strong index already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\technology_index.faiss), loading...
+[3/5] Loading technology domain evaluation dataset...
+Using reproducible dataset...
+Limited dataset to first 99 samples
+Loaded 99 samples from d:\Jupyter\OmniBench-RAG\data\dataset\generated\inverse\technology_qa.json
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Successfully loaded FAISS index from: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\technology_index.faiss
+Loaded 143 preprocessed document chunks
+[5/5] Starting RAG evaluation... (99 samples)
+Starting evaluation with 99 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Is it true that Marjory Stoneman Douglas High School could or could be be the alma mater of Nick Bilton?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that marjory stoneman douglas high school could or could be be the alma mater of nick bilton?
+
+yes.
+
+no.
+
+the answer is 'yes'.
+
+the answer is 'no'.
+
+the answer is 'yes'.
+
+the answer is 'no'.
+
+the answer is 'yes'.
+
+the answer is 'no'.
+
+the answer is 'yes'.
+
+the answer is 'no'.
+
+the answer is 'yes'.
+
+the answer is 'no'.
+
+the answer is 'yes'.
+
+the answer
+  Semantic Prediction: no (Confidence: 0.9749)
+  Correctness: Incorrect
+  Performance: Time=5.6654s, Memory=0.0273MB (included), GPU=35.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: marjory stoneman douglas high school msdhs public high school parkland florida united states established broward county public schools district named writer marjory stoneman douglas public high school parkland serving entire city small section neighboring coral springs nick bilton british american journalist author filmmaker currently special correspondent vanity fair author new york times bestselling books screenwriter
+
+question: is it true that marjory stoneman douglas high school could or could be be the alma mater of nick bilton?
+
+answer with 'yes' or 'no':
+
+marjory stoneman douglas high school msdhs public high school parkland florida united states established broward county public schools district named writer marjory
+  Semantic Prediction: yes (Confidence: 0.5081)
+  Correctness: Correct
+  Performance: Time=9.3926s, Retrieval Memory=-7.4219MB, Final Increment=-7.4063MB, Total Memory=-14.8282MB (excluded), GPU=17.00% (included)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Statement: It's not true that Trinity College Dublin could be be the alma mater of of Christopher Fabian. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that trinity college dublin could be be the alma mater of of christopher fabian. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+question: i am a student at trinity college dublin. i am a member of the irish catholic community. i am a member of the catholic church. i am a member of the catholic church. i am a member of the catholic church. i am a member of the catholic church. i am a member of the catholic church. i am a member of the catholic church. i am a member of the catholic church. i am a member of the catholic church. i am a member of
+  Semantic Prediction: no (Confidence: 0.9796)
+  Correctness: Correct
+  Performance: Time=5.3875s, Memory=0.0039MB (included), GPU=8.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: question: statement: it's not true that trinity college dublin could be be the alma mater of christopher fabian. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. answer with 'yes' or 'no':
+
+answer with 'yes' or 'no':
+
+question: statement: it's not true that trinity college dublin could be be the alma mater of christopher fabian. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. answer with 'yes' or 'no':
+
+answer with 'yes' or 'no':
+
+question: statement: it's not true that trinity college dublin
+  Semantic Prediction: no (Confidence: 0.9919)
+  Correctness: Correct
+  Performance: Time=10.2240s, Retrieval Memory=0.0000MB, Final Increment=0.0078MB, Total Memory=0.0078MB (included), GPU=17.00% (included)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Does The American University in Cairo have the possibility to be be the alma mater of of Christopher Fabian?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does the american university in cairo have the possibility to be be the alma mater of of christopher fabian?
+
+the answer is 'yes'.
+
+the american university in cairo is a private university located in cairo, egypt. it is a private university that is accredited by the higher education commission of egypt.
+
+the american university in cairo is a private university that is accredited by the higher education commission of egypt. the american university in cairo is a private university that is accredited by the higher education commission of egypt. the american university in cairo is a private university that is accredited by the higher education commission
+  Semantic Prediction: yes (Confidence: 0.9619)
+  Correctness: Correct
+  Performance: Time=4.7858s, Memory=0.0000MB (included), GPU=12.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: the american university in cairo has the possibility to be be the alma mater of christopher fabian.
+
+question: is the american university in cairo a private university?
+
+answer with 'yes' or 'no':
+
+the american university in cairo is a private university.
+
+question: is the american university in cairo a public university?
+
+answer with 'yes' or 'no':
+
+the american university in cairo is a public university.
+
+question: is the american university in cairo a private university?
+
+answer with 'yes' or 'no':
+
+the american university in cairo is a private university.
+
+question: is the american university in cairo a public university?
+
+answer
+  Semantic Prediction: no (Confidence: 0.9961)
+  Correctness: Incorrect
+  Performance: Time=8.6922s, Retrieval Memory=0.0040MB, Final Increment=0.0118MB, Total Memory=0.0158MB (included), GPU=27.00% (included)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Could Brooklyn College be be the alma mater of of Ellis Horowitz?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could brooklyn college be be the alma mater of of ellis horowitz?
+
+the answer is yes.
+
+the school, which opened in 1892, is the oldest public college in the country, and it's also one of the oldest private colleges in the country.
+
+the school's founder, ellis horowitz, was a lawyer who was born in brooklyn, new york, and raised in the bronx. he was a member of the jewish community, and he was a member of the american jewish congress.
+
+he was also a member of the american jewish
+  Semantic Prediction: yes (Confidence: 0.9985)
+  Correctness: Correct
+  Performance: Time=5.1876s, Memory=0.0000MB (included), GPU=28.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: brooklyn college public university brooklyn new york city united states city university new york system enrolls nearly students acre ha campus midwood flatbush sections brooklyn fall
+
+question: could brooklyn college be be the alma mater of ellis horowitz?
+
+answer with 'yes' or 'no':
+
+brooklyn college public university brooklyn new york city united states city university new york system enrolls nearly students acre ha campus midwood flatbush sections brooklyn fall
+
+question: could brooklyn college be be the alma mater of ellis horowitz?
+
+answer with 'yes' or 'no':
+
+brooklyn college public university brooklyn new york city united states city university new york system enrolls nearly students acre ha campus midwood flatbush sections
+  Semantic Prediction: no (Confidence: 0.9970)
+  Correctness: Incorrect
+  Performance: Time=8.1213s, Retrieval Memory=0.0039MB, Final Increment=0.0078MB, Total Memory=0.0117MB (included), GPU=29.00% (included)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Is there any possibility that James Madison High School could not be be the alma mater of of Ellis Horowitz?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that james madison high school could not be be the alma mater of of ellis horowitz?
+
+the answer is no.
+
+the school was founded in 1852 by the late john h. ellis, who was a member of the first congress of the united states.
+
+ellis was a member of the first congress of the united states, and he was a member of the first congress of the united states.
+
+the school was founded in 1852 by the late john h. ellis, who was a member of the first congress of the united states.
+
+the
+  Semantic Prediction: no (Confidence: 0.9910)
+  Correctness: Correct
+  Performance: Time=4.7166s, Memory=0.0000MB (included), GPU=-2.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: james madison high school is a public high school located in midwood brooklyn, new york. the school is a member of the university of wisconsin system. the school is located in the city of columbus, ohio. the school is located in the city of columbus, ohio. the school is located in the city of columbus, ohio. the school is located in the city of columbus, ohio. the school is located in the city of columbus, ohio. the school is located in the city of columbus, ohio. the school is located in the city of columbus, ohio. the school is located in the city of columbus, ohio. the school is located in the city of columbus, ohio. the school is located in the city of columbus,
+  Semantic Prediction: yes (Confidence: 0.9738)
+  Correctness: Incorrect
+  Performance: Time=8.2329s, Retrieval Memory=0.0000MB, Final Increment=0.0195MB, Total Memory=0.0195MB (included), GPU=0.00% (excluded)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Is it true that University of Wisconsin–Madison could or could be be the alma mater of Ellis Horowitz?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that university of wisconsin–madison could or could be be the alma mater of ellis horowitz?
+
+the answer is yes.
+
+the university of wisconsin–madison is the alma mater of ellis horowitz, the man who founded the notorious hate group the national alliance.
+
+the university of wisconsin–madison is the alma mater of the man who founded the notorious hate group the national alliance.
+
+the university of wisconsin–madison is the alma mater of the man who founded the notorious hate group the national alliance.
+
+the university of wisconsin–madison is the alma
+  Semantic Prediction: no (Confidence: 0.9229)
+  Correctness: Incorrect
+  Performance: Time=4.9530s, Memory=0.0000MB (included), GPU=40.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: university of wisconsin–madison public land grant research university madison wisconsin united states founded wisconsin achieved statehood flagship campus university wisconsin system acre ha main campus located shores lake mendota university owns operates acre ha arboretum miles km south main campus ellis horowitz american computer scientist professor computer science electrical engineering university southern california usc horowitz best known computer science textbooks data structures algorithms co authored sartaj sahni usc horowitz chairman computer science department tenure significantly improved relations computer science information sciences institute isi hiring senior faculty establishing department industrial advisory board lawrence flon co founded quality software products designed built
+
+christopher fabian technologist works unicef founded technology finance initiatives public private sector including creation unicef innovation unit university wisconsin madison public land grant research university madison wisconsin united states
+  Semantic Prediction: yes (Confidence: 0.9158)
+  Correctness: Correct
+  Performance: Time=8.2985s, Retrieval Memory=0.0000MB, Final Increment=0.0196MB, Total Memory=0.0196MB (included), GPU=12.00% (included)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Is there any possibility that University of California, Berkeley could not be be the alma mater of of Boon Thau Loo?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that university of california, berkeley could not be be the alma mater of of boon thau loo?
+
+yes, there is.
+
+the university of california, berkeley is the alma mater of boon thau loo.
+
+the university of california, berkeley is the alma mater of boon thau loo.
+
+the university of california, berkeley is the alma mater of boon thau loo.
+
+the university of california, berkeley is the alma mater of boon thau loo.
+
+the university of california, berkeley is
+  Semantic Prediction: no (Confidence: 0.9842)
+  Correctness: Correct
+  Performance: Time=5.1763s, Memory=0.0000MB (included), GPU=23.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+
+yes:
+  Semantic Prediction: yes (Confidence: 0.9923)
+  Correctness: Incorrect
+  Performance: Time=9.2770s, Retrieval Memory=0.0000MB, Final Increment=0.0039MB, Total Memory=0.0039MB (included), GPU=27.00% (included)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Is it true that Stanford University could or could be be the alma mater of Boon Thau Loo?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that stanford university could or could be be the alma mater of boon thau loo?
+
+yes: yes, stanford university is the alma mater of boon thau loo.
+
+no: no, stanford university is not the alma mater of boon thau loo.
+
+i'm not sure: i'm not sure.
+
+i'm not sure: i'm not sure.
+
+i'm not sure: i'm not sure.
+
+i'm not sure: i'm not sure.
+
+i'm not sure: i'm
+  Semantic Prediction: no (Confidence: 0.9995)
+  Correctness: Incorrect
+  Performance: Time=6.5843s, Memory=0.0000MB (included), GPU=12.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: boon thau loo singaporean american computer scientist college administrator technology entrepreneur currently rca professor computer information science department university pennsylvania leads research lab working distributed systems serves associate dean graduate programs university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering applied science university pennsylvania school engineering
+  Semantic Prediction: yes (Confidence: 0.8514)
+  Correctness: Correct
+  Performance: Time=10.0800s, Retrieval Memory=0.0000MB, Final Increment=0.0000MB, Total Memory=0.0000MB (included), GPU=26.00% (included)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Is it true that University of New South Wales could or could be be the alma mater of Clement Ogaja?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that university of new south wales could or could be be the alma mater of clement ogaja?
+
+yes: the university of new south wales is the alma mater of clement ogaja.
+
+no: the university of new south wales is not the alma mater of clement ogaja.
+
+the answer is 'yes' or 'no': is it true that the university of new south wales could or could be be the alma mater of clement ogaja?
+
+yes: the university of new south wales is the alma mater of clement ogaja.
+
+no
+  Semantic Prediction: no (Confidence: 0.9846)
+  Correctness: Incorrect
+  Performance: Time=5.3777s, Memory=0.0000MB (included), GPU=27.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: university of new south wales unsw public research university based sydney new south wales australia established clement argwings ogaja kenyan born author research geodesist national oceanic atmospheric administration previously professor geomatics engineering california state university fresno having worked geoscience australia canberra
+
+clement argwings ogaja kenyan born author research geodesist national oceanic atmospheric administration previously professor geomatics engineering california state university fresno having worked geoscience australia canberra
+
+university of new south wales unsw public research university based sydney new south wales australia established clement argwings ogaja kenyan born author research geodesist national oceanic atmospheric administration previously professor geomatics engineering california state university fresno having worked geoscience australia canberra
+
+university of new south wales
+  Semantic Prediction: yes (Confidence: 0.9087)
+  Correctness: Correct
+  Performance: Time=8.5694s, Retrieval Memory=0.0039MB, Final Increment=0.0195MB, Total Memory=0.0234MB (included), GPU=0.00% (excluded)
+  Retrieved Documents: 3
+======================================================================
+Processed 10/99 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Is it true that University of Nairobi could or could be be the alma mater of Clement Ogaja?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that university of nairobi could or could be be the alma mater of clement ogaja?
+
+yes: yes.
+
+no: no.
+
+the answer is 'yes' or 'no': is it true that university of nairobi could or could be be the alma mater of clement ogaja?
+
+yes: yes.
+
+no: no.
+
+the answer is 'yes' or 'no': is it true that university of nairobi could or could be be the alma mater of clement ogaja?
+
+yes: yes.
+  Semantic Prediction: no (Confidence: 0.9179)
+  Correctness: Incorrect
+  Performance: Time=5.3666s, Memory=0.0000MB (included), GPU=0.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: university of nairobi is a public university in kenya. it is located in nairobi, kenya. it is a public university with a population of approximately 1.5 million. the university is located in the city of nairobi, kenya. it is a public university with a population of approximately 1.5 million. the university is located in the city of nairobi, kenya. it is a public university with a population of approximately 1.5 million. the university is located in the city of nairobi, kenya. it is a public university with a population of approximately 1.5 million. the university is located in the city of nairobi, kenya. it is a public university with a population of approximately
+  Semantic Prediction: yes (Confidence: 0.9988)
+  Correctness: Correct
+  Performance: Time=8.8114s, Retrieval Memory=0.0000MB, Final Increment=0.0000MB, Total Memory=0.0000MB (included), GPU=16.00% (included)
+  Retrieved Documents: 3
+======================================================================
+Processed 20/99 samples
+Processed 30/99 samples
+Processed 40/99 samples
+Processed 50/99 samples
+Processed 60/99 samples
+Processed 70/99 samples
+Processed 80/99 samples
+Processed 90/99 samples
+Processed 99/99 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 5.4635s (based on 99/99 samples)
+  Avg Memory Usage: 0.0064MB (based on 98/99 samples, 0-5MB only)
+  Avg GPU Utilization: 25.81% (based on 54/99 samples, >0 only)
+
+RAG Model:
+  Avg Response Time: 9.1526s (1.68x base)
+  Avg Total Memory: 0.0079MB (1.24x base) (based on 94/99 samples, 0-5MB only)
+  - Breakdown: Retrieval=-0.0743MB, Final Increment=-1.1781MB
+  Avg GPU Utilization: 24.53% (0.95x base) (based on 58/99 samples, >0 only)
+
+RAG evaluation completed! Results saved to: d:\Jupyter\OmniBench-RAG\src\experiments\results\rag_results\rag_technology_gpt2_20251110202216.json
+Basic accuracy: 0.5152 | RAG accuracy: 0.5556 | Improvement: 0.0404

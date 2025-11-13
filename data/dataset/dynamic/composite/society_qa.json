@@ -1,0 +1,679 @@
+[
+    {
+        "category": "society",
+        "reasoning": "Composite Inference",
+        "description": "Aesthetics is the branch of philosophy that studies beauty, taste, and related phenomena. In a broad sense, it includes the philosophy of art, which examines the nature of art, artistic creativity, the meanings of artworks, and audience appreciation.\nThe arts, or creative arts, are a vast range of human practices involving creative expression, storytelling, and cultural participation. The arts encompass diverse and plural modes of thought, deeds, and existence in an extensive range of media. Both a dynamic and characteristically constant feature of human life, the arts have developed into increasingly stylized and intricate forms. This is achieved through sustained and deliberate study, training, or theorizing within a particular tradition, generations, and even between civilizations. The arts are a medium through which humans cultivate distinct social, cultural, and individual identities while transmitting values, impressions, judgments, ideas, visions, spiritual meanings, patterns of life, and experiences across time and space.",
+        "subject": "Aesthetics",
+        "predicate": "same_described_by_source",
+        "object": "The arts",
+        "evidence": [
+            [
+                "Aesthetics",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Q2041543"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 2"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Lean Logic"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Is it true that Aesthetics and The arts have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "society",
+        "reasoning": "Composite Inference",
+        "description": "Aesthetics is the branch of philosophy that studies beauty, taste, and related phenomena. In a broad sense, it includes the philosophy of art, which examines the nature of art, artistic creativity, the meanings of artworks, and audience appreciation.\nPhilosophy is a systematic study of general and fundamental questions concerning topics like existence, knowledge, mind, reason, language, and value. It is a rational and critical inquiry that reflects on its methods and assumptions.",
+        "subject": "Aesthetics",
+        "predicate": "same_described_by_source",
+        "object": "philosophy",
+        "evidence": [
+            [
+                "Aesthetics",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Q2041543"
+            ]
+        ],
+        "question": "Is it true that Aesthetics and philosophy have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "society",
+        "reasoning": "Composite Inference",
+        "description": "Aesthetics is the branch of philosophy that studies beauty, taste, and related phenomena. In a broad sense, it includes the philosophy of art, which examines the nature of art, artistic creativity, the meanings of artworks, and audience appreciation.\nThe arts, or creative arts, are a vast range of human practices involving creative expression, storytelling, and cultural participation. The arts encompass diverse and plural modes of thought, deeds, and existence in an extensive range of media. Both a dynamic and characteristically constant feature of human life, the arts have developed into increasingly stylized and intricate forms. This is achieved through sustained and deliberate study, training, or theorizing within a particular tradition, generations, and even between civilizations. The arts are a medium through which humans cultivate distinct social, cultural, and individual identities while transmitting values, impressions, judgments, ideas, visions, spiritual meanings, patterns of life, and experiences across time and space.",
+        "subject": "Aesthetics",
+        "predicate": "same_described_by_source",
+        "object": "The arts",
+        "evidence": [
+            [
+                "Aesthetics",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Q2041543"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 2"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Lean Logic"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of Aesthetics also related with The arts?",
+        "answer": "Yes."
+    },
+    {
+        "category": "society",
+        "reasoning": "Composite Inference",
+        "description": "Aesthetics is the branch of philosophy that studies beauty, taste, and related phenomena. In a broad sense, it includes the philosophy of art, which examines the nature of art, artistic creativity, the meanings of artworks, and audience appreciation.\nPhilosophy is a systematic study of general and fundamental questions concerning topics like existence, knowledge, mind, reason, language, and value. It is a rational and critical inquiry that reflects on its methods and assumptions.",
+        "subject": "Aesthetics",
+        "predicate": "same_described_by_source",
+        "object": "philosophy",
+        "evidence": [
+            [
+                "Aesthetics",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Q2041543"
+            ]
+        ],
+        "question": "Does Aesthetics and philosophy have completely separate described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "society",
+        "reasoning": "Composite Inference",
+        "description": "Aesthetics is the branch of philosophy that studies beauty, taste, and related phenomena. In a broad sense, it includes the philosophy of art, which examines the nature of art, artistic creativity, the meanings of artworks, and audience appreciation.\nThe arts, or creative arts, are a vast range of human practices involving creative expression, storytelling, and cultural participation. The arts encompass diverse and plural modes of thought, deeds, and existence in an extensive range of media. Both a dynamic and characteristically constant feature of human life, the arts have developed into increasingly stylized and intricate forms. This is achieved through sustained and deliberate study, training, or theorizing within a particular tradition, generations, and even between civilizations. The arts are a medium through which humans cultivate distinct social, cultural, and individual identities while transmitting values, impressions, judgments, ideas, visions, spiritual meanings, patterns of life, and experiences across time and space.",
+        "subject": "Aesthetics",
+        "predicate": "same_described_by_source",
+        "object": "The arts",
+        "evidence": [
+            [
+                "Aesthetics",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Q2041543"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 2"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Lean Logic"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Does Aesthetics and The arts have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "society",
+        "reasoning": "Composite Inference",
+        "description": "Aesthetics is the branch of philosophy that studies beauty, taste, and related phenomena. In a broad sense, it includes the philosophy of art, which examines the nature of art, artistic creativity, the meanings of artworks, and audience appreciation.\nThe arts, or creative arts, are a vast range of human practices involving creative expression, storytelling, and cultural participation. The arts encompass diverse and plural modes of thought, deeds, and existence in an extensive range of media. Both a dynamic and characteristically constant feature of human life, the arts have developed into increasingly stylized and intricate forms. This is achieved through sustained and deliberate study, training, or theorizing within a particular tradition, generations, and even between civilizations. The arts are a medium through which humans cultivate distinct social, cultural, and individual identities while transmitting values, impressions, judgments, ideas, visions, spiritual meanings, patterns of life, and experiences across time and space.",
+        "subject": "Aesthetics",
+        "predicate": "same_described_by_source",
+        "object": "The arts",
+        "evidence": [
+            [
+                "Aesthetics",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Q2041543"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 2"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Lean Logic"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Statement: It's not true that Aesthetics and The arts have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "society",
+        "reasoning": "Composite Inference",
+        "description": "Aesthetics is the branch of philosophy that studies beauty, taste, and related phenomena. In a broad sense, it includes the philosophy of art, which examines the nature of art, artistic creativity, the meanings of artworks, and audience appreciation.\nThe arts, or creative arts, are a vast range of human practices involving creative expression, storytelling, and cultural participation. The arts encompass diverse and plural modes of thought, deeds, and existence in an extensive range of media. Both a dynamic and characteristically constant feature of human life, the arts have developed into increasingly stylized and intricate forms. This is achieved through sustained and deliberate study, training, or theorizing within a particular tradition, generations, and even between civilizations. The arts are a medium through which humans cultivate distinct social, cultural, and individual identities while transmitting values, impressions, judgments, ideas, visions, spiritual meanings, patterns of life, and experiences across time and space.",
+        "subject": "Aesthetics",
+        "predicate": "same_described_by_source",
+        "object": "The arts",
+        "evidence": [
+            [
+                "Aesthetics",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Q2041543"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 2"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Lean Logic"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Does Aesthetics and The arts have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "society",
+        "reasoning": "Composite Inference",
+        "description": "Aesthetics is the branch of philosophy that studies beauty, taste, and related phenomena. In a broad sense, it includes the philosophy of art, which examines the nature of art, artistic creativity, the meanings of artworks, and audience appreciation.\nThe arts, or creative arts, are a vast range of human practices involving creative expression, storytelling, and cultural participation. The arts encompass diverse and plural modes of thought, deeds, and existence in an extensive range of media. Both a dynamic and characteristically constant feature of human life, the arts have developed into increasingly stylized and intricate forms. This is achieved through sustained and deliberate study, training, or theorizing within a particular tradition, generations, and even between civilizations. The arts are a medium through which humans cultivate distinct social, cultural, and individual identities while transmitting values, impressions, judgments, ideas, visions, spiritual meanings, patterns of life, and experiences across time and space.",
+        "subject": "Aesthetics",
+        "predicate": "same_described_by_source",
+        "object": "The arts",
+        "evidence": [
+            [
+                "Aesthetics",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Q2041543"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 2"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Lean Logic"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Does Aesthetics and The arts have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "society",
+        "reasoning": "Composite Inference",
+        "description": "Aesthetics is the branch of philosophy that studies beauty, taste, and related phenomena. In a broad sense, it includes the philosophy of art, which examines the nature of art, artistic creativity, the meanings of artworks, and audience appreciation.\nThe arts, or creative arts, are a vast range of human practices involving creative expression, storytelling, and cultural participation. The arts encompass diverse and plural modes of thought, deeds, and existence in an extensive range of media. Both a dynamic and characteristically constant feature of human life, the arts have developed into increasingly stylized and intricate forms. This is achieved through sustained and deliberate study, training, or theorizing within a particular tradition, generations, and even between civilizations. The arts are a medium through which humans cultivate distinct social, cultural, and individual identities while transmitting values, impressions, judgments, ideas, visions, spiritual meanings, patterns of life, and experiences across time and space.",
+        "subject": "Aesthetics",
+        "predicate": "same_described_by_source",
+        "object": "The arts",
+        "evidence": [
+            [
+                "Aesthetics",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Q2041543"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 2"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Lean Logic"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Does Aesthetics and The arts have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "society",
+        "reasoning": "Composite Inference",
+        "description": "Aesthetics is the branch of philosophy that studies beauty, taste, and related phenomena. In a broad sense, it includes the philosophy of art, which examines the nature of art, artistic creativity, the meanings of artworks, and audience appreciation.\nThe arts, or creative arts, are a vast range of human practices involving creative expression, storytelling, and cultural participation. The arts encompass diverse and plural modes of thought, deeds, and existence in an extensive range of media. Both a dynamic and characteristically constant feature of human life, the arts have developed into increasingly stylized and intricate forms. This is achieved through sustained and deliberate study, training, or theorizing within a particular tradition, generations, and even between civilizations. The arts are a medium through which humans cultivate distinct social, cultural, and individual identities while transmitting values, impressions, judgments, ideas, visions, spiritual meanings, patterns of life, and experiences across time and space.",
+        "subject": "Aesthetics",
+        "predicate": "same_described_by_source",
+        "object": "The arts",
+        "evidence": [
+            [
+                "Aesthetics",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Q2041543"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 2"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "Lean Logic"
+            ],
+            [
+                "The arts",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of Aesthetics also related with The arts?",
+        "answer": "Yes."
+    },
+    {
+        "category": "society",
+        "reasoning": "Composite Inference",
+        "description": "Aesthetics is the branch of philosophy that studies beauty, taste, and related phenomena. In a broad sense, it includes the philosophy of art, which examines the nature of art, artistic creativity, the meanings of artworks, and audience appreciation.\nLiterature is any collection of written work, but it is also used more narrowly for writings specifically considered to be an art form, especially novels, plays, and poems. It includes both print and digital writing. In recent centuries, the definition has expanded to include oral literature, much of which has been transcribed. Literature is a method of recording, preserving, and transmitting knowledge and entertainment. It can also have a social, psychological, spiritual, or political role.",
+        "subject": "Aesthetics",
+        "predicate": "same_described_by_source",
+        "object": "literature",
+        "evidence": [
+            [
+                "Aesthetics",
+                "described by source",
+                "Encyclopædia Britannica 11th edition"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Aesthetics",
+                "described by source",
+                "Q2041543"
+            ]
+        ],
+        "question": "Statement: It's not true that Aesthetics and literature have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    }
+]

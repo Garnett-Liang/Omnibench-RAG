@@ -698,6 +698,10 @@ instance_of('mathemalchemy', 'organization').
 instance_of('organization', 'social_science_concept').
 instance_of('a_new_kind_of_science', 'written_work').
 instance_of('written_work', 'collective_noun').
+instance_of('potterswheel', 'visual_programming_language').
+instance_of('visual_programming_language', 'q116481801').
+instance_of('potterswheel', 'visual_programming_language').
+instance_of('visual_programming_language', 'q116481801').
 sibling('hideki_omori', 'akemi__mori').
 sibling('akemi__mori', 'rei__mori').
 sibling('hideki_omori', 'rei__mori').
@@ -714,6 +718,10 @@ facet_of('women_in_stem', 'occupational_segregation').
 facet_of('occupational_segregation', 'gender_role').
 facet_of('mathematical_beauty', 'mathematics').
 facet_of('mathematics', 'mathematics_education').
+facet_of('patterns_in_nature', 'auto_organisation').
+facet_of('auto_organisation', 'q2377063').
+facet_of('patterns_in_nature', 'auto_organisation').
+facet_of('auto_organisation', 'q2377063').
 country('timeline_of_women_in_mathematics_in_the_united_states', 'united_states').
 country('united_states', 'united_states').
 country('association_for_women_in_mathematics', 'united_states').

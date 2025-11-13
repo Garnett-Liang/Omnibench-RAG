@@ -78,6 +78,9 @@ def get_wikidata_id_from_wikipedia_url(wikipedia_url):
 
 
 
+import os
+import json
+
 def loadset(rule, domain, file_path=None):
     questions = []
     standard_answers = []
@@ -87,8 +90,10 @@ def loadset(rule, domain, file_path=None):
             with open(file_path, 'r', encoding='utf-8') as f:
                 new_facts_data = json.load(f)
 
-            # 保持原有的采样逻辑（最多50条）
-            sampled_facts = random.sample(new_facts_data, min(50, len(new_facts_data)))
+            # 从数据集最前面提取样本，最多100个（若数据集长度不足100则取全部）
+            sample_count = min(100, len(new_facts_data))
+            sampled_facts = new_facts_data[:sample_count]  # 切片取前N个样本
+            
             for fact in sampled_facts:
                 full_question = (
                     f"Question:\n{fact['question']}\n\n"  

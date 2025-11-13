@@ -1628,3 +1628,7 @@ http___www_wikidata_org_prop_direct_p463('sartaj_sahni', 'association_for_comput
 http___www_wikidata_org_prop_direct_p463('association_for_computing_machinery', 'chorus').
 http___www_wikidata_org_prop_direct_p463('sartaj_sahni', 'institute_of_electrical_and_electronics_engineers').
 http___www_wikidata_org_prop_direct_p463('institute_of_electrical_and_electronics_engineers', 'datacite').
+doctoral_student('sartaj_sahni', 'andrew_leong_chye_lim').
+doctoral_student('andrew_leong_chye_lim', 'qun_chen').
+doctoral_student('sartaj_sahni', 'andrew_leong_chye_lim').
+doctoral_student('andrew_leong_chye_lim', 'qun_chen').

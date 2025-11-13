@@ -1,0 +1,35 @@
+{
+  "rule": "composite",
+  "domain": "history",
+  "model_name": "gpt2",
+  "evaluation_time": "2025-11-12 22:07:11",
+  "metrics": {
+    "basic_accuracy": 0.5645161290322581,
+    "rag_accuracy": 0.5483870967741935,
+    "improvement": -0.016129032258064613,
+    "performance": {
+      "basic": {
+        "response_time": 3.9102448724931285,
+        "memory_usage": 0.022050847457625946,
+        "gpu_utilization": 34.57142857142857
+      },
+      "rag": {
+        "response_time": 6.948298600412184,
+        "memory_usage": 0.016701851851853126,
+        "retrieval_memory_avg": 0.3072709677419352,
+        "final_increment_avg": 0.3405290322580699,
+        "gpu_utilization": 45.73809523809524
+      },
+      "ratios": {
+        "response_time": 1.7769471802879768,
+        "memory_usage": 0.7574244882854626,
+        "gpu_utilization": 1.3230027548209369
+      }
+    },
+    "transformation": 0.8479
+  },
+  "parameters": {
+    "top_k": 3,
+    "dataset_size": 62
+  }
+}

@@ -54,6 +54,20 @@ def evaluate():
         model_choice = data.get('model_choice')
         dataset_source = data.get('dataset_source', 'existing')  
         
+        # Check for custom API configuration
+        custom_api_config = None
+        if model_choice == 'api':
+            custom_api_config = {
+                'api_endpoint': data.get('api_endpoint'),
+                'api_key': data.get('api_key'),
+                'api_model_name': data.get('api_model_name'),
+                'api_max_tokens': data.get('api_max_tokens', 1000),
+                'api_prompt_template': data.get('api_prompt_template', 'Answer with "yes" or "no": {question}')
+            }
+            
+            if not custom_api_config['api_endpoint'] or not custom_api_config['api_model_name']:
+                return jsonify({"status": "error", "message": "API endpoint and model name are required for custom API"}), 400
+        
         if not all([rule_choice, domain_choice, model_choice]):
             return jsonify({"status": "error", "message": "Missing required parameters"}), 400
         
@@ -66,7 +80,7 @@ def evaluate():
         
         thread = threading.Thread(
             target=run_evaluation, 
-            args=(rule_choice, domain_choice, model_choice, log_file, dataset_source)
+            args=(rule_choice, domain_choice, model_choice, log_file, dataset_source, custom_api_config)
         )
         thread.daemon = True
         thread.start()
@@ -80,7 +94,6 @@ def evaluate():
         
     except Exception as e:
         return jsonify({"status": "error", "message": f"Error processing request: {str(e)}"}), 500
-
 
 @app.route('/api/dataset/<rule>/<domain>')
 def get_dataset(rule, domain):
@@ -275,7 +288,21 @@ def evaluate_rag():
         dataset_source = data.get('dataset_source', 'existing')  # Default to existing dataset
         rag_material_source = data.get('rag_material_source', 'strong')  # Default to strong wiki material
         
-        if not domain or not model_name:
+        # Check for custom API configuration
+        custom_api_config = None
+        if model_name == 'api':
+            custom_api_config = {
+                'api_endpoint': data.get('api_endpoint'),
+                'api_key': data.get('api_key'),
+                'api_model_name': data.get('api_model_name'),
+                'api_max_tokens': data.get('api_max_tokens', 1000),
+                'api_prompt_template': data.get('api_prompt_template', 'Answer with "yes" or "no": {question}')
+            }
+            
+            if not custom_api_config['api_endpoint'] or not custom_api_config['api_model_name']:
+                return jsonify({"status": "error", "message": "API endpoint and model name are required for custom API"}), 400
+        
+        if not domain:
             return jsonify({"status": "error", "message": "Missing required parameters"}), 400
         
         current_script_path = os.path.abspath(__file__)
@@ -295,7 +322,7 @@ def evaluate_rag():
         
         thread = threading.Thread(
             target=run_rag_evaluation,
-            args=(rule, domain, model_name, top_k, log_file, dataset_source, rag_material_source)
+            args=(rule, domain, model_name, top_k, log_file, dataset_source, rag_material_source, custom_api_config)
         )
         thread.daemon = True
         thread.start()
@@ -319,7 +346,6 @@ def evaluate_rag():
     except Exception as e:
         traceback.print_exc()  
         return jsonify({"status": "error", "message": f"Error processing request: {str(e)}"}), 500
-
 
 @app.route('/api/rag_progress/<log_file>')
 def get_rag_progress(log_file):
@@ -493,9 +519,9 @@ def get_rag_results(log_file):
         w_gpu = 0.3
         w_mem = 0.3
         
-        r_time = metrics['rag_avg_response_time_ratio']
-        r_gpu = metrics['rag_avg_gpu_utilization_ratio']
-        r_mem = metrics['rag_avg_memory_usage_ratio']
+        r_time = metrics.get('performance', {}).get('ratios', {}).get('response_time', 0)
+        r_gpu = metrics.get('performance', {}).get('ratios', {}).get('gpu_utilization', 0)  
+        r_mem = metrics.get('performance', {}).get('ratios', {}).get('memory_usage', 0)
         
         transformation = 0.0
         if r_time != 0:
@@ -945,6 +971,71 @@ def get_rag_materials_with_source(domain, material_source):
         }), 200
     except Exception as e:
         return jsonify({"status": "error", "message": f"Failed to get RAG materials: {str(e)}"}), 500
+
+@app.route('/api/statistics/<model_id>')
+def get_model_statistics(model_id):
+    """获取指定模型的统计数据"""
+    try:
+        # 导入统计功能
+        import importlib.util
+        current_script_path = os.path.abspath(__file__)
+        current_script_dir = os.path.dirname(current_script_path)
+        
+        # statistics_utils.py现在在work_models文件夹下
+        statistics_utils_file = os.path.abspath(os.path.join(current_script_dir, 'work_models', 'statistics_utils.py'))
+        # rag_results文件夹路径
+        rag_results_dir = os.path.abspath(os.path.join(current_script_dir, '..', 'experiments', 'results', 'rag_results'))
+        
+        # 使用importlib导入指定路径的模块
+        spec = importlib.util.spec_from_file_location("statistics_utils", statistics_utils_file)
+        statistics_module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(statistics_module)
+        
+        # 加载统计数据
+        results = statistics_module.load_rag_results(rag_results_dir)
+        statistics = statistics_module.get_model_statistics(results, model_id)
+        
+        return jsonify({
+            "status": "success",
+            "statistics": statistics
+        }), 200
+        
+    except Exception as e:
+        return jsonify({"status": "error", "message": f"Failed to get statistics: {str(e)}"}), 500
+
+@app.route('/api/radar_chart/<model_id>')
+def get_radar_chart(model_id):
+    """获取指定模型的雷达图"""
+    try:
+        import importlib.util
+        current_script_path = os.path.abspath(__file__)
+        current_script_dir = os.path.dirname(current_script_path)
+        
+        # statistics_utils.py现在在work_models文件夹下
+        statistics_utils_file = os.path.abspath(os.path.join(current_script_dir, 'work_models', 'statistics_utils.py'))
+        
+        # 使用importlib导入指定路径的模块
+        spec = importlib.util.spec_from_file_location("statistics_utils", statistics_utils_file)
+        statistics_module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(statistics_module)
+        
+        # 生成雷达图的base64数据
+        chart_base64 = statistics_module.generate_model_radar_chart(model_id, "base64")
+        
+        if chart_base64:
+            return jsonify({
+                "status": "success",
+                "chart_base64": chart_base64,
+                "model_id": model_id
+            }), 200
+        else:
+            return jsonify({"status": "error", "message": "Failed to generate radar chart"}), 500
+        
+    except Exception as e:
+        return jsonify({"status": "error", "message": f"Failed to get radar chart: {str(e)}"}), 500
+
+
+
 if __name__ == "__main__":
     if not os.path.exists(app.config['UPLOAD_FOLDER']):
         os.makedirs(app.config['UPLOAD_FOLDER'])

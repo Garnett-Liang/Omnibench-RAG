@@ -1,0 +1,459 @@
+Starting RAG evaluation - Domain: health, Model: gpt2, Top-K: 6
+Dataset source: existing, RAG material source: strong
+==================================================
+[1/5] Checking and preprocessing health domain data...
+Using Strong Wiki material...
+Strong data already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_cleaned\Strong_health.txt), skipping generation
+[2/5] Checking and building health domain vector index...
+Using Strong Wiki material index...
+Strong index already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\health_index.faiss), loading...
+[3/5] Loading health domain evaluation dataset...
+Using reproducible dataset...
+Limited dataset to first 99 samples
+Loaded 99 samples from d:\Jupyter\OmniBench-RAG\data\dataset\generated\inverse\health_qa.json
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Successfully loaded FAISS index from: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\health_index.faiss
+Loaded 100 preprocessed document chunks
+[5/5] Starting RAG evaluation... (99 samples)
+Starting evaluation with 99 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Is there any possibility that University of Oxford could not be be the alma mater of of Kate Rew?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that university of oxford could not be be the alma mater of of kate rew?
+
+the answer is no.
+
+the university of oxford is the alma mater of kate rew, the daughter of a former oxford university president and a former head of the royal society.
+
+the university of oxford is the alma mater of kate rew, the daughter of a former oxford university president and a former head of the royal society.
+
+the university of oxford is the alma mater of kate rew, the daughter of a former oxford university president and a former head of the
+  Semantic Prediction: no (Confidence: 0.8453)
+  Correctness: Correct
+  Performance: Time=1.6814s, Memory=0.2617MB (included), GPU=46.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: university of oxford is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is the oldest university in the world. it is
+  Semantic Prediction: yes (Confidence: 0.9993)
+  Correctness: Incorrect
+  Performance: Time=13.5630s, Retrieval Memory=-19.2578MB, Final Increment=-18.7461MB, Total Memory=-38.0039MB (excluded), GPU=14.00% (included)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Does Doctors Without Borders have the possibility to be found of Campaign for Access to Essential Medicines?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does doctors without borders have the possibility to be found of campaign for access to essential medicines?
+
+yes: yes
+
+no: no
+
+the answer is 'yes' or 'no': no
+
+the answer is 'yes' or 'no': yes
+
+the answer is 'yes' or 'no': no
+
+the answer is 'yes' or 'no': yes
+
+the answer is 'yes' or 'no': yes
+
+the answer is 'yes' or 'no': yes
+
+the answer is 'yes' or 'no':
+  Semantic Prediction: no (Confidence: 0.9898)
+  Correctness: Incorrect
+  Performance: Time=5.8597s, Memory=0.0312MB (included), GPU=-10.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: question: is doctors without borders able to be found of campaign for access to essential medicines?
+
+answer with 'yes' or 'no':
+
+question: is doctors without borders able to be found of campaign for access to essential medicines?
+
+answer with 'yes' or 'no':
+
+question: is doctors without borders able to be found of campaign for access to essential medicines?
+
+answer with 'yes' or 'no':
+
+question: is doctors without borders able to be found of campaign for access to essential medicines?
+
+answer with 'yes' or 'no':
+
+question: is doctors without borders able to be found of campaign for access to essential medicines?
+  Semantic Prediction: no (Confidence: 0.9937)
+  Correctness: Incorrect
+  Performance: Time=10.4696s, Retrieval Memory=0.0039MB, Final Increment=0.3633MB, Total Memory=0.3672MB (included), GPU=42.00% (included)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Could J2 Global be own of Everyday Health?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could j2 global be own of everyday health?
+
+the answer is yes.
+
+j2 global is owned by the same company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns the company that owns
+  Semantic Prediction: no (Confidence: 0.9892)
+  Correctness: Incorrect
+  Performance: Time=6.2701s, Memory=0.0000MB (included), GPU=37.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: question: could j2 global be owned by everyday health?
+
+answer with 'yes' or 'no':
+
+question: could j2 global be owned by everyday health?
+
+answer with 'yes' or 'no':
+
+question: could j2 global be owned by everyday health?
+
+answer with 'yes' or 'no':
+
+question: could j2 global be owned by everyday health?
+
+answer with 'yes' or 'no':
+
+question: could j2 global be owned by everyday health?
+
+answer with 'yes' or 'no':
+
+question: could j2 global be owned by everyday health?
+
+answer with 'yes' or 'no':
+  Semantic Prediction: no (Confidence: 0.9974)
+  Correctness: Incorrect
+  Performance: Time=10.2425s, Retrieval Memory=0.0117MB, Final Increment=-97.9805MB, Total Memory=-97.9688MB (excluded), GPU=27.00% (included)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Is there any possibility that City of Brussels could not be the administrative territorial entity contains of EuroHealthNet?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that city of brussels could not be the administrative territorial entity contains of eurohealthnet?
+
+yes, there is.
+
+q: what is the status of the project?
+
+the project is in the planning stage.
+
+q: what is the status of the project?
+
+the project is in the planning stage.
+
+q: what is the status of the project?
+
+the project is in the planning stage.
+
+q: what is the status of the project?
+
+the project is in the planning stage.
+
+q: what
+  Semantic Prediction: no (Confidence: 0.9935)
+  Correctness: Correct
+  Performance: Time=6.2298s, Memory=0.0078MB (included), GPU=22.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: city of brussels largest municipality historical centre brussels capital region capital french community belgium flemish region belgium city brussels administrative centre european union hosts number principal eu institutions european quarter eurohealthnet non profit partnership organisations agencies statutory bodies working contribute healthier europe promoting health equity european countries eurohealthnet promotes health partnership framework supporting members work eu associated states policy project development networking communications
+
+city of brussels largest municipality historical centre brussels capital region capital french community belgium flemish region belgium city brussels administrative centre european union hosts number principal eu institutions european quarter eurohealthnet non profit partnership organisations agencies statutory bodies working contribute healthier europe promoting health equity european countries eurohealthnet promotes health partnership framework supporting members work eu associated states policy project development networking communications
+
+city of brussels largest municipality historical
+  Semantic Prediction: yes (Confidence: 0.9884)
+  Correctness: Incorrect
+  Performance: Time=11.5592s, Retrieval Memory=0.0039MB, Final Increment=0.0078MB, Total Memory=0.0117MB (included), GPU=22.00% (included)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Is there any possibility that The Bronx could not be the administrative territorial entity contains of Lincoln Hospital (Bronx)?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that the bronx could not be the administrative territorial entity contains of lincoln hospital (bronx)?
+
+yes. the bronx is the administrative territorial entity of lincoln hospital.
+
+no. the bronx is the administrative territorial entity of lincoln hospital.
+
+yes. the bronx is the administrative territorial entity of lincoln hospital.
+
+no. the bronx is the administrative territorial entity of lincoln hospital.
+
+yes. the bronx is the administrative territorial entity of lincoln hospital.
+
+no. the bronx is the administrative territorial entity of lincoln hospital.
+
+yes. the bronx is the administrative territorial
+  Semantic Prediction: no (Confidence: 0.9921)
+  Correctness: Correct
+  Performance: Time=7.2428s, Memory=0.0078MB (included), GPU=27.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: the bronx is a borough of new york city. it is located in the bronx county, new york state. it is the largest borough in the bronx county, new york state. it is the largest borough in the bronx county, new york state. it is the largest borough in the bronx county, new york state. it is the largest borough in the bronx county, new york state. it is the largest borough in the bronx county, new york state. it is the largest borough in the bronx county, new york state. it is the largest borough in the bronx county, new york state. it is the largest borough in the bronx county, new york state. it is the largest borough in the bronx county, new york state.
+  Semantic Prediction: yes (Confidence: 0.9994)
+  Correctness: Incorrect
+  Performance: Time=11.4095s, Retrieval Memory=0.0000MB, Final Increment=0.0313MB, Total Memory=0.0313MB (included), GPU=35.00% (included)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Could cardiology be be the use of of 11-day heart camp?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could cardiology be be the use of of 11-day heart camp?
+
+the answer is yes.
+
+the 11-day heart camp is a form of heart surgery that is performed on patients who have had a heart attack.
+
+the procedure is performed by a cardiologist who is trained in the use of heart surgery.
+
+the 11-day heart camp is a form of heart surgery that is performed on patients who have had a heart attack.
+
+the 11-day heart camp is a form of heart surgery that is performed on patients who have
+  Semantic Prediction: no (Confidence: 0.9408)
+  Correctness: Incorrect
+  Performance: Time=8.7260s, Memory=0.0039MB (included), GPU=-4.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: cardiology study heart cardiology branch medicine deals disorders heart cardiovascular system sub specialty internal medicine field includes medical diagnosis treatment congenital heart defects coronary artery disease heart failure valvular heart disease electrophysiology physicians specialize field medicine called cardiologists pediatric cardiologists pediatricians specialize cardiology physicians specialize cardiac surgery called cardiothoracic surgeons cardiac surgeons specialty general surgery day heart camp organized occasion world heart day september kathmandu nepal largest public health event conducted nepal till date funded organized om murti anil event served individuals camp blend key aspects free extensive cardiac health checkups largest heart health research widespread awareness cardiovascular health conducted
+
+numerous mental physical social effects landmark study world health organization international labour organization estimated people died ischemic
+  Semantic Prediction: yes (Confidence: 0.9553)
+  Correctness: Correct
+  Performance: Time=15.2123s, Retrieval Memory=0.0000MB, Final Increment=0.0156MB, Total Memory=0.0156MB (included), GPU=0.00% (excluded)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Is it true that health promotion could or could be be the use of Health fair?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that health promotion could or could be be the use of health fair?
+
+yes: health fair is a health promotion scheme which is designed to promote healthy living and reduce the risk of disease.
+
+no: health fair is not a health promotion scheme.
+
+what is the difference between health fair and health promotion?
+
+health fair is a health promotion scheme which is designed to promote healthy living and reduce the risk of disease.
+
+health promotion is a health promotion scheme which is designed to promote healthy living and reduce the risk of disease.
+
+health
+  Semantic Prediction: no (Confidence: 0.9282)
+  Correctness: Incorrect
+  Performance: Time=9.9960s, Memory=0.0000MB (included), GPU=0.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: health promotion is a term used to describe the promotion of health and well being through the use of health promotion techniques.
+
+health promotion is a term used to describe the promotion of health and well being through the use of health promotion techniques. health promotion is a term used to describe the promotion of health and well being through the use of health promotion techniques. health promotion is a term used to describe the promotion of health and well being through the use of health promotion techniques. health promotion is a term used to describe the promotion of health and well being through the use of health promotion techniques. health promotion is a term used to describe the promotion of health and well being through the use of health promotion techniques. health promotion is a term used to describe
+  Semantic Prediction: yes (Confidence: 0.9841)
+  Correctness: Correct
+  Performance: Time=15.5393s, Retrieval Memory=0.0039MB, Final Increment=0.0078MB, Total Memory=0.0117MB (included), GPU=0.00% (excluded)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Is there any possibility that Netflix could not be be the distributor of the work  of Unrest (2017 film)?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility that netflix could not be be the distributor of the work  of unrest (2017 film)?
+
+yes, netflix is the distributor of unrest.
+
+no, netflix is not the distributor of unrest.
+
+yes, netflix is the distributor of unrest.
+
+no, netflix is not the distributor of unrest.
+
+yes, netflix is the distributor of unrest.
+
+no, netflix is not the distributor of unrest.
+
+yes, netflix is the distributor of unrest.
+
+no, netflix is not the distributor of unrest.
+  Semantic Prediction: no (Confidence: 0.9983)
+  Correctness: Correct
+  Performance: Time=9.4686s, Memory=0.0039MB (included), GPU=7.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: netflix american subscription video demand streaming service primarily distributes original acquired films television shows genres available internationally multiple languages unrest documentary film produced directed jennifer brea film tells story jennifer new husband faced illness struck jennifer married initially dismissed doctors starts filming document illness connects bedbound myalgic encephalomyelitis chronic fatigue syndrome
+
+drugs available highly toxic ineffective resort inadequate testing methods diagnose patients
+
+question: is there any possibility that netflix could not be be the distributor of the work  of unrest (2017 film)?
+
+answer with 'yes' or 'no':
+
+netflix american subscription video demand streaming service primarily distributes original acquired films television shows genres available internationally multiple languages unrest documentary film produced directed jennifer brea film tells story jennifer
+  Semantic Prediction: no (Confidence: 0.9915)
+  Correctness: Correct
+  Performance: Time=15.2527s, Retrieval Memory=0.0000MB, Final Increment=0.0156MB, Total Memory=0.0156MB (included), GPU=11.00% (included)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Could environmental hazard be be the cause of of Health effect?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could environmental hazard be be the cause of of health effect?
+
+yes: the health effects of the chemical are not known.
+
+no: the health effects of the chemical are known.
+
+the health effects of the chemical are known.
+
+the health effects of the chemical are known.
+
+the health effects of the chemical are known.
+
+the health effects of the chemical are known.
+
+the health effects of the chemical are known.
+
+the health effects of the chemical are known.
+
+the health effects of the
+  Semantic Prediction: no (Confidence: 0.9886)
+  Correctness: Incorrect
+  Performance: Time=10.2371s, Memory=0.0039MB (included), GPU=9.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: yes:
+
+no:
+
+question: could environmental hazard be be the cause of health effect?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: could environmental hazard be be the cause of health effect?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: could environmental hazard be be the cause of health effect?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: could environmental hazard be be the cause of health effect?
+
+answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: could environmental
+  Semantic Prediction: no (Confidence: 0.9978)
+  Correctness: Incorrect
+  Performance: Time=15.6734s, Retrieval Memory=0.0040MB, Final Increment=0.0547MB, Total Memory=0.0587MB (included), GPU=29.00% (included)
+  Retrieved Documents: 6
+======================================================================
+Processed 10/99 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Does fly ash have the possibility to be be the cause of of Health effects of coal ash?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does fly ash have the possibility to be be the cause of of health effects of coal ash?
+
+yes.
+
+no.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes' or 'no'.
+
+the answer is 'yes'
+  Semantic Prediction: no (Confidence: 0.9928)
+  Correctness: Incorrect
+  Performance: Time=9.4209s, Memory=0.0000MB (included), GPU=0.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: coal ash known coal combustion residuals ccrs mineral residue remains burning coal exposure coal ash toxic substances contains pose health risk workers coal fired power plants residents living near coal ash disposal sites types asbestos fibers known cause health hazards humans common diseases associated chronic exposure asbestos asbestosis mesothelioma
+
+types asbestos fibers known cause health hazards humans common diseases associated chronic exposure asbestos asbestosis mesothelioma coal ash known coal combustion residuals ccrs mineral residue remains burning coal exposure coal ash toxic substances contains pose health risk workers coal fired power plants residents living near coal ash disposal sites types asbestos fibers known cause health hazards humans common diseases associated chronic exposure asbestos asbestosis mesothelioma
+
+types asbestos fibers known cause
+  Semantic Prediction: no (Confidence: 0.9906)
+  Correctness: Incorrect
+  Performance: Time=15.5020s, Retrieval Memory=0.0351MB, Final Increment=0.0351MB, Total Memory=0.0702MB (included), GPU=0.00% (excluded)
+  Retrieved Documents: 6
+======================================================================
+Processed 20/99 samples
+Processed 30/99 samples
+Processed 40/99 samples
+Processed 50/99 samples
+Processed 60/99 samples
+Processed 70/99 samples
+Processed 80/99 samples
+Processed 90/99 samples
+Processed 99/99 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 6.8046s (based on 99/99 samples)
+  Avg Memory Usage: 0.0464MB (based on 95/99 samples, 0-5MB only)
+  Avg GPU Utilization: 27.17% (based on 42/99 samples, >0 only)
+
+RAG Model:
+  Avg Response Time: 11.4090s (1.68x base)
+  Avg Total Memory: 0.0179MB (0.39x base) (based on 88/99 samples, 0-5MB only)
+  - Breakdown: Retrieval=-0.1935MB, Final Increment=-1.8832MB
+  Avg GPU Utilization: 26.61% (0.98x base) (based on 59/99 samples, >0 only)
+
+RAG evaluation completed! Results saved to: d:\Jupyter\OmniBench-RAG\src\experiments\results\rag_results\rag_health_gpt2_20251110151556.json
+Basic accuracy: 0.4343 | RAG accuracy: 0.4343 | Improvement: 0.0000

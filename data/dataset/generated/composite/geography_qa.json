@@ -589,5 +589,1552 @@
         ],
         "question": "Is it true that Timeline of geopolitical changes (before 1500) and Timeline of geopolitical changes (2000–present) have the same facet of?",
         "answer": "Yes."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.\nThe Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.",
+        "subject": "Northern Hemisphere",
+        "predicate": "same_has_part_s_",
+        "object": "Southern Hemisphere",
+        "evidence": [
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North America"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Atlantic Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Africa"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Asia"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Northern Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Europe"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Central America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Atlantic Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Antarctica"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Australia"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Insular Oceania"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Africa"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Pacific Ocean"
+            ]
+        ],
+        "question": "Statement: It's not true that Northern Hemisphere and Southern Hemisphere have the same has part s . Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.\nThe Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.",
+        "subject": "Northern Hemisphere",
+        "predicate": "same_has_part_s_",
+        "object": "Southern Hemisphere",
+        "evidence": [
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North America"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Atlantic Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Africa"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Asia"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Northern Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Europe"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Central America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Atlantic Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Antarctica"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Australia"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Insular Oceania"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Africa"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Pacific Ocean"
+            ]
+        ],
+        "question": "Does Northern Hemisphere and Southern Hemisphere have completely separate has part s ?",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.\nThe Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.",
+        "subject": "Northern Hemisphere",
+        "predicate": "same_has_part_s_",
+        "object": "Southern Hemisphere",
+        "evidence": [
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North America"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Atlantic Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Africa"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Asia"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Northern Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Europe"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Central America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Atlantic Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Antarctica"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Australia"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Insular Oceania"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Africa"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Pacific Ocean"
+            ]
+        ],
+        "question": "Statement: It's not true that Northern Hemisphere and Southern Hemisphere have the same has part s . Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.\nThe Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.",
+        "subject": "Northern Hemisphere",
+        "predicate": "same_has_part_s_",
+        "object": "Southern Hemisphere",
+        "evidence": [
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North America"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Atlantic Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Africa"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Asia"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Northern Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Europe"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Central America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Atlantic Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Antarctica"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Australia"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Insular Oceania"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Africa"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Pacific Ocean"
+            ]
+        ],
+        "question": "Does Northern Hemisphere and Southern Hemisphere have the same has part s ?",
+        "answer": "Yes."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.\nThe Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.",
+        "subject": "Southern Hemisphere",
+        "predicate": "same_has_part_s_",
+        "object": "Northern Hemisphere",
+        "evidence": [
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North America"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Atlantic Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Africa"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Asia"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Northern Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Europe"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Central America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Atlantic Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Antarctica"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Australia"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Insular Oceania"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Africa"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Pacific Ocean"
+            ]
+        ],
+        "question": "Statement: It's not true that Southern Hemisphere and Northern Hemisphere have the same has part s . Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.\nThe Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.",
+        "subject": "Southern Hemisphere",
+        "predicate": "same_has_part_s_",
+        "object": "Northern Hemisphere",
+        "evidence": [
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North America"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Atlantic Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Africa"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Asia"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Northern Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Europe"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Central America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Atlantic Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Antarctica"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Australia"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Insular Oceania"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Africa"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Pacific Ocean"
+            ]
+        ],
+        "question": "Does Southern Hemisphere and Northern Hemisphere share totally different has part s ?",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.\nThe Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.",
+        "subject": "Southern Hemisphere",
+        "predicate": "same_has_part_s_",
+        "object": "Northern Hemisphere",
+        "evidence": [
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North America"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Atlantic Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Africa"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Asia"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Northern Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Europe"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Central America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Atlantic Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Antarctica"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Australia"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Insular Oceania"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Africa"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Pacific Ocean"
+            ]
+        ],
+        "question": "Does Southern Hemisphere and Northern Hemisphere have completely separate has part s ?",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.\nThe Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.",
+        "subject": "Southern Hemisphere",
+        "predicate": "same_has_part_s_",
+        "object": "Northern Hemisphere",
+        "evidence": [
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North America"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Atlantic Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Africa"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Asia"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Northern Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Europe"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Central America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Atlantic Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Antarctica"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Australia"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Insular Oceania"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Africa"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Pacific Ocean"
+            ]
+        ],
+        "question": "Is it true that Southern Hemisphere and Northern Hemisphere have the same has part s ?",
+        "answer": "Yes."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.\nThe Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.",
+        "subject": "Northern Hemisphere",
+        "predicate": "same_has_part_s_",
+        "object": "Southern Hemisphere",
+        "evidence": [
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North America"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Atlantic Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Africa"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Asia"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Northern Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Europe"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Central America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Atlantic Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Antarctica"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Australia"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Insular Oceania"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Africa"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Pacific Ocean"
+            ]
+        ],
+        "question": "Does Northern Hemisphere and Southern Hemisphere share totally different has part s ?",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.\nThe Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.",
+        "subject": "Northern Hemisphere",
+        "predicate": "same_has_part_s_",
+        "object": "Southern Hemisphere",
+        "evidence": [
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North America"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Atlantic Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Africa"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Asia"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Northern Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Europe"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Central America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Atlantic Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Antarctica"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Australia"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Insular Oceania"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Africa"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Pacific Ocean"
+            ]
+        ],
+        "question": "Statement: It's not true that Northern Hemisphere and Southern Hemisphere have the same has part s . Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.\nThe Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.",
+        "subject": "Northern Hemisphere",
+        "predicate": "same_has_part_s_",
+        "object": "Southern Hemisphere",
+        "evidence": [
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North America"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "North Atlantic Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Africa"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Asia"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Northern Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Europe"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Northern Hemisphere",
+                "has part(s)",
+                "Central America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Atlantic Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Antarctica"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Pacific Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Australia"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Indian Ocean"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South America"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Insular Oceania"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "Southern Africa"
+            ],
+            [
+                "Southern Hemisphere",
+                "has part(s)",
+                "South Pacific Ocean"
+            ]
+        ],
+        "question": "Is it true that Northern Hemisphere and Southern Hemisphere have the same has part s ?",
+        "answer": "Yes."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The five themes of geography are an educational tool for teaching geography. The five themes were published in 1984 and widely adopted by teachers, textbook publishers, and curriculum designers in the United States. Most American geography and social studies classrooms have adopted the five themes in teaching practices, as they provide \"an alternative to the detrimental, but unfortunately persistent, habit of teaching geography through rote memorization\". They are pedagogical themes that guide how geographic content should be taught in schools.\nFrederick Albert Cook was an American explorer, physician and ethnographer, who is most known for allegedly being the first to reach the North Pole on April 21, 1908. A competing claim was made a year later by Robert Peary, though both men's accounts have since been fiercely disputed; in December 1909, after reviewing Cook's limited records, a commission of the University of Copenhagen ruled his claim unproven. Nonetheless, in 1911, Cook published a memoir of the expedition in which he maintained the veracity of his assertions. In addition, he also claimed to have been the first person to reach the summit of Denali, the highest mountain in North America, a claim which has since been similarly discredited. Though he may not have achieved either Denali or the North Pole, his was the first and only expedition where a United States national discovered an Arctic island in North America, Meighen Island.",
+        "subject": "Five themes of geography",
+        "predicate": "same_described_by_source",
+        "object": "Frederick Cook",
+        "evidence": [
+            [
+                "Five themes of geography",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Frederick Cook",
+                "described by source",
+                "The New Student's Reference Work"
+            ],
+            [
+                "Frederick Cook",
+                "described by source",
+                "Obálky knih"
+            ]
+        ],
+        "question": "Does Five themes of geography and Frederick Cook have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "Physiographic regions are a means of defining Earth's landforms into independently distinct, mutually exclusive areas, independent of political boundaries. It is based upon the classic three-tiered approach by Nevin M. Fenneman in 1916, that separates landforms into physiographic divisions, physiographic provinces, and physiographic sections.\nDesert varnish or rock varnish is an orange-yellow to black coating found on exposed rock surfaces in arid environments. Desert varnish is approximately one micrometer thick and exhibits nanometer-scale layering. Rock rust and desert patina are other terms which are also used for the condition, but less often.",
+        "subject": "Physiographic region",
+        "predicate": "same_described_by_source",
+        "object": "Desert varnish",
+        "evidence": [
+            [
+                "Physiographic region",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ],
+            [
+                "Desert varnish",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ]
+        ],
+        "question": "Does Physiographic region and Desert varnish have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "Physiographic regions are a means of defining Earth's landforms into independently distinct, mutually exclusive areas, independent of political boundaries. It is based upon the classic three-tiered approach by Nevin M. Fenneman in 1916, that separates landforms into physiographic divisions, physiographic provinces, and physiographic sections.\nThe Age of Discovery, also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail. It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe. The Age of Discovery was a transformative period when previously isolated parts of the world became connected to form the world-system, and laid the groundwork for globalization. The extensive overseas exploration, particularly the opening of maritime routes to the East Indies and European colonization of the Americas by the Spanish and Portuguese, later joined by the English, French, and Dutch, spurred international global trade. The interconnected global economy of the 21st century has its origins in the expansion of trade networks during this era.",
+        "subject": "Physiographic region",
+        "predicate": "same_described_by_source",
+        "object": "Age of Discovery",
+        "evidence": [
+            [
+                "Physiographic region",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ],
+            [
+                "Age of Discovery",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ]
+        ],
+        "question": "Is it true that Physiographic region and Age of Discovery have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "Physiographic regions are a means of defining Earth's landforms into independently distinct, mutually exclusive areas, independent of political boundaries. It is based upon the classic three-tiered approach by Nevin M. Fenneman in 1916, that separates landforms into physiographic divisions, physiographic provinces, and physiographic sections.\nThe Age of Discovery, also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail. It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe. The Age of Discovery was a transformative period when previously isolated parts of the world became connected to form the world-system, and laid the groundwork for globalization. The extensive overseas exploration, particularly the opening of maritime routes to the East Indies and European colonization of the Americas by the Spanish and Portuguese, later joined by the English, French, and Dutch, spurred international global trade. The interconnected global economy of the 21st century has its origins in the expansion of trade networks during this era.",
+        "subject": "Physiographic region",
+        "predicate": "same_described_by_source",
+        "object": "Age of Discovery",
+        "evidence": [
+            [
+                "Physiographic region",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ],
+            [
+                "Age of Discovery",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ]
+        ],
+        "question": "Does Physiographic region and Age of Discovery share totally different described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "Physiographic regions are a means of defining Earth's landforms into independently distinct, mutually exclusive areas, independent of political boundaries. It is based upon the classic three-tiered approach by Nevin M. Fenneman in 1916, that separates landforms into physiographic divisions, physiographic provinces, and physiographic sections.\nDesert varnish or rock varnish is an orange-yellow to black coating found on exposed rock surfaces in arid environments. Desert varnish is approximately one micrometer thick and exhibits nanometer-scale layering. Rock rust and desert patina are other terms which are also used for the condition, but less often.",
+        "subject": "Physiographic region",
+        "predicate": "same_described_by_source",
+        "object": "Desert varnish",
+        "evidence": [
+            [
+                "Physiographic region",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ],
+            [
+                "Desert varnish",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ]
+        ],
+        "question": "Statement: It's not true that Physiographic region and Desert varnish have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "Physiographic regions are a means of defining Earth's landforms into independently distinct, mutually exclusive areas, independent of political boundaries. It is based upon the classic three-tiered approach by Nevin M. Fenneman in 1916, that separates landforms into physiographic divisions, physiographic provinces, and physiographic sections.\nThe Age of Discovery, also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail. It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe. The Age of Discovery was a transformative period when previously isolated parts of the world became connected to form the world-system, and laid the groundwork for globalization. The extensive overseas exploration, particularly the opening of maritime routes to the East Indies and European colonization of the Americas by the Spanish and Portuguese, later joined by the English, French, and Dutch, spurred international global trade. The interconnected global economy of the 21st century has its origins in the expansion of trade networks during this era.",
+        "subject": "Physiographic region",
+        "predicate": "same_described_by_source",
+        "object": "Age of Discovery",
+        "evidence": [
+            [
+                "Physiographic region",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ],
+            [
+                "Age of Discovery",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of Physiographic region also related with Age of Discovery?",
+        "answer": "Yes."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "Physiographic regions are a means of defining Earth's landforms into independently distinct, mutually exclusive areas, independent of political boundaries. It is based upon the classic three-tiered approach by Nevin M. Fenneman in 1916, that separates landforms into physiographic divisions, physiographic provinces, and physiographic sections.\nDesert varnish or rock varnish is an orange-yellow to black coating found on exposed rock surfaces in arid environments. Desert varnish is approximately one micrometer thick and exhibits nanometer-scale layering. Rock rust and desert patina are other terms which are also used for the condition, but less often.",
+        "subject": "Physiographic region",
+        "predicate": "same_described_by_source",
+        "object": "Desert varnish",
+        "evidence": [
+            [
+                "Physiographic region",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ],
+            [
+                "Desert varnish",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ]
+        ],
+        "question": "Does Physiographic region and Desert varnish have completely separate described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "Physiographic regions are a means of defining Earth's landforms into independently distinct, mutually exclusive areas, independent of political boundaries. It is based upon the classic three-tiered approach by Nevin M. Fenneman in 1916, that separates landforms into physiographic divisions, physiographic provinces, and physiographic sections.\nThe Age of Discovery, also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail. It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe. The Age of Discovery was a transformative period when previously isolated parts of the world became connected to form the world-system, and laid the groundwork for globalization. The extensive overseas exploration, particularly the opening of maritime routes to the East Indies and European colonization of the Americas by the Spanish and Portuguese, later joined by the English, French, and Dutch, spurred international global trade. The interconnected global economy of the 21st century has its origins in the expansion of trade networks during this era.",
+        "subject": "Physiographic region",
+        "predicate": "same_described_by_source",
+        "object": "Age of Discovery",
+        "evidence": [
+            [
+                "Physiographic region",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ],
+            [
+                "Age of Discovery",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ]
+        ],
+        "question": "Does Physiographic region and Age of Discovery have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "Physiographic regions are a means of defining Earth's landforms into independently distinct, mutually exclusive areas, independent of political boundaries. It is based upon the classic three-tiered approach by Nevin M. Fenneman in 1916, that separates landforms into physiographic divisions, physiographic provinces, and physiographic sections.\nDesert varnish or rock varnish is an orange-yellow to black coating found on exposed rock surfaces in arid environments. Desert varnish is approximately one micrometer thick and exhibits nanometer-scale layering. Rock rust and desert patina are other terms which are also used for the condition, but less often.",
+        "subject": "Physiographic region",
+        "predicate": "same_described_by_source",
+        "object": "Desert varnish",
+        "evidence": [
+            [
+                "Physiographic region",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ],
+            [
+                "Desert varnish",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ]
+        ],
+        "question": "Does Physiographic region and Desert varnish share totally different described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "Physiographic regions are a means of defining Earth's landforms into independently distinct, mutually exclusive areas, independent of political boundaries. It is based upon the classic three-tiered approach by Nevin M. Fenneman in 1916, that separates landforms into physiographic divisions, physiographic provinces, and physiographic sections.\nThe Age of Discovery, also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail. It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe. The Age of Discovery was a transformative period when previously isolated parts of the world became connected to form the world-system, and laid the groundwork for globalization. The extensive overseas exploration, particularly the opening of maritime routes to the East Indies and European colonization of the Americas by the Spanish and Portuguese, later joined by the English, French, and Dutch, spurred international global trade. The interconnected global economy of the 21st century has its origins in the expansion of trade networks during this era.",
+        "subject": "Physiographic region",
+        "predicate": "same_described_by_source",
+        "object": "Age of Discovery",
+        "evidence": [
+            [
+                "Physiographic region",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ],
+            [
+                "Age of Discovery",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ]
+        ],
+        "question": "Does Physiographic region and Age of Discovery share totally different described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "Physiographic regions are a means of defining Earth's landforms into independently distinct, mutually exclusive areas, independent of political boundaries. It is based upon the classic three-tiered approach by Nevin M. Fenneman in 1916, that separates landforms into physiographic divisions, physiographic provinces, and physiographic sections.\nDesert varnish or rock varnish is an orange-yellow to black coating found on exposed rock surfaces in arid environments. Desert varnish is approximately one micrometer thick and exhibits nanometer-scale layering. Rock rust and desert patina are other terms which are also used for the condition, but less often.",
+        "subject": "Physiographic region",
+        "predicate": "same_described_by_source",
+        "object": "Desert varnish",
+        "evidence": [
+            [
+                "Physiographic region",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ],
+            [
+                "Desert varnish",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 1"
+            ]
+        ],
+        "question": "Statement: It's not true that Physiographic region and Desert varnish have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.\nThe Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.",
+        "subject": "Northern Hemisphere",
+        "predicate": "same_has_boundary",
+        "object": "Southern Hemisphere",
+        "evidence": [
+            [
+                "Southern Hemisphere",
+                "has boundary",
+                "equator"
+            ]
+        ],
+        "question": "Is there any possibility for the has boundary of Northern Hemisphere also related with Southern Hemisphere?",
+        "answer": "Yes."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.\nThe Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.",
+        "subject": "Northern Hemisphere",
+        "predicate": "same_has_boundary",
+        "object": "Southern Hemisphere",
+        "evidence": [
+            [
+                "Southern Hemisphere",
+                "has boundary",
+                "equator"
+            ]
+        ],
+        "question": "Does Northern Hemisphere and Southern Hemisphere share totally different has boundary?",
+        "answer": "No."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.\nThe Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.",
+        "subject": "Southern Hemisphere",
+        "predicate": "same_has_boundary",
+        "object": "Northern Hemisphere",
+        "evidence": [
+            [
+                "Southern Hemisphere",
+                "has boundary",
+                "equator"
+            ]
+        ],
+        "question": "Is there any possibility for the has boundary of Southern Hemisphere also related with Northern Hemisphere?",
+        "answer": "Yes."
+    },
+    {
+        "category": "geography",
+        "reasoning": "Composite Inference",
+        "description": "The Southern Hemisphere is the half (hemisphere) of Earth that is south of the equator. It contains all or part of five continents and four oceans, as well as New Zealand and most of the Pacific Islands in Oceania. Its surface is 80.9% water, compared with 60.7% water in the Northern Hemisphere, and it contains 32.7% of Earth's land.\nThe Northern Hemisphere is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same celestial hemisphere relative to the invariable plane of the Solar System as Earth's North Pole.",
+        "subject": "Southern Hemisphere",
+        "predicate": "same_has_boundary",
+        "object": "Northern Hemisphere",
+        "evidence": [
+            [
+                "Southern Hemisphere",
+                "has boundary",
+                "equator"
+            ]
+        ],
+        "question": "Is there any possibility for the has boundary of Southern Hemisphere also related with Northern Hemisphere?",
+        "answer": "Yes."
     }
 ]

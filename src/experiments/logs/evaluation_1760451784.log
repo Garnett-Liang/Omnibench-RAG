@@ -1,9 +1,0 @@
-Using device: cuda
-Selected reasoning rule: inverse
-Selected domain: culture
-Processing domain: culture
-Using reproducible dataset...
-Loaded 20 samples from specified path: d:\Jupyter\DEMO\data\dataset\generated\inverse\culture_qa.json
-Loaded 20 questions from d:\Jupyter\DEMO\data\dataset\generated\inverse\culture_qa.json
-Evaluating with model: EleutherAI/gpt-neo-125M
-Results saved to: d:\Jupyter\DEMO\src\experiments\results\results\inverse_culture_EleutherAI_gpt-neo-125M_1760452178.json

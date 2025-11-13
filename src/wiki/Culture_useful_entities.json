@@ -166,5 +166,73 @@
     {
         "entity": "http://www.wikidata.org/entity/Q17104684",
         "entityLabel": "Prolefeed"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q48806031",
+        "entityLabel": "Recombinant culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3298098",
+        "entityLabel": "Remix culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106574375",
+        "entityLabel": "Se compran colchones"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106103973",
+        "entityLabel": "Selfie culture on Chinese social media"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3309433",
+        "entityLabel": "Selling out"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q60742313",
+        "entityLabel": "Sliding doors moment"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q111951491",
+        "entityLabel": "Song of the summer"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q224530",
+        "entityLabel": "Spectacle"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q136505459",
+        "entityLabel": "Street food trailers in North America"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1929437",
+        "entityLabel": "Summer hit"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q333967",
+        "entityLabel": "Survival horror"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q30323956",
+        "entityLabel": "Trash culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q189349",
+        "entityLabel": "Urban legend"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7900148",
+        "entityLabel": "Urban pop culture"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28136180",
+        "entityLabel": "Vagalume"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7946095",
+        "entityLabel": "W00tstock"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q134388992",
+        "entityLabel": "Watch What Crappens"
     }
 ]

@@ -724,5 +724,1166 @@
         ],
         "question": "Is there any possibility for the is a list of of Bibliography of Leonard Cohen also related with Bibliography of Bobby Fischer?",
         "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "Bill Bissett, commonly stylised as bill bissett, is a Canadian poet known for his unconventional style especially regarding unusual orthography and the use of visual elements.\nbarbara findlay is a Canadian lawyer and a longtime LGBT rights activist. She is the subject of the documentary In particular, barbara findlay.",
+        "subject": "Bill Bissett",
+        "predicate": "same_educated_at",
+        "object": "Barbara findlay",
+        "evidence": [
+            [
+                "Bill Bissett",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Bill Bissett",
+                "educated at",
+                "Dalhousie University"
+            ],
+            [
+                "Barbara findlay",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Barbara findlay",
+                "educated at",
+                "Queen's University"
+            ]
+        ],
+        "question": "Is there any possibility for the educated at of Bill Bissett also related with Barbara findlay?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "Bill Bissett, commonly stylised as bill bissett, is a Canadian poet known for his unconventional style especially regarding unusual orthography and the use of visual elements.\nbarbara findlay is a Canadian lawyer and a longtime LGBT rights activist. She is the subject of the documentary In particular, barbara findlay.",
+        "subject": "Bill Bissett",
+        "predicate": "same_educated_at",
+        "object": "Barbara findlay",
+        "evidence": [
+            [
+                "Bill Bissett",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Bill Bissett",
+                "educated at",
+                "Dalhousie University"
+            ],
+            [
+                "Barbara findlay",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Barbara findlay",
+                "educated at",
+                "Queen's University"
+            ]
+        ],
+        "question": "Does Bill Bissett and Barbara findlay have completely separate educated at?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "Bill Bissett, commonly stylised as bill bissett, is a Canadian poet known for his unconventional style especially regarding unusual orthography and the use of visual elements.\nbarbara findlay is a Canadian lawyer and a longtime LGBT rights activist. She is the subject of the documentary In particular, barbara findlay.",
+        "subject": "Bill Bissett",
+        "predicate": "same_educated_at",
+        "object": "Barbara findlay",
+        "evidence": [
+            [
+                "Bill Bissett",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Bill Bissett",
+                "educated at",
+                "Dalhousie University"
+            ],
+            [
+                "Barbara findlay",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Barbara findlay",
+                "educated at",
+                "Queen's University"
+            ]
+        ],
+        "question": "Does Bill Bissett and Barbara findlay share totally different educated at?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "Bill Bissett, commonly stylised as bill bissett, is a Canadian poet known for his unconventional style especially regarding unusual orthography and the use of visual elements.\nbarbara findlay is a Canadian lawyer and a longtime LGBT rights activist. She is the subject of the documentary In particular, barbara findlay.",
+        "subject": "Bill Bissett",
+        "predicate": "same_educated_at",
+        "object": "Barbara findlay",
+        "evidence": [
+            [
+                "Bill Bissett",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Bill Bissett",
+                "educated at",
+                "Dalhousie University"
+            ],
+            [
+                "Barbara findlay",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Barbara findlay",
+                "educated at",
+                "Queen's University"
+            ]
+        ],
+        "question": "Does Bill Bissett and Barbara findlay have the same educated at?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "Bill Bissett, commonly stylised as bill bissett, is a Canadian poet known for his unconventional style especially regarding unusual orthography and the use of visual elements.\nshalan joudry is a Mi'kmaw writer, oral storyteller, director, drummer/singer, and ecologist.",
+        "subject": "Bill Bissett",
+        "predicate": "same_educated_at",
+        "object": "Shalan joudry",
+        "evidence": [
+            [
+                "Bill Bissett",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Bill Bissett",
+                "educated at",
+                "Dalhousie University"
+            ],
+            [
+                "Shalan joudry",
+                "educated at",
+                "Dalhousie University"
+            ]
+        ],
+        "question": "Statement: It's not true that Bill Bissett and Shalan joudry have the same educated at. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "Bill Bissett, commonly stylised as bill bissett, is a Canadian poet known for his unconventional style especially regarding unusual orthography and the use of visual elements.\nshalan joudry is a Mi'kmaw writer, oral storyteller, director, drummer/singer, and ecologist.",
+        "subject": "Bill Bissett",
+        "predicate": "same_educated_at",
+        "object": "Shalan joudry",
+        "evidence": [
+            [
+                "Bill Bissett",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Bill Bissett",
+                "educated at",
+                "Dalhousie University"
+            ],
+            [
+                "Shalan joudry",
+                "educated at",
+                "Dalhousie University"
+            ]
+        ],
+        "question": "Is it true that Bill Bissett and Shalan joudry have the same educated at?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "Bill Bissett, commonly stylised as bill bissett, is a Canadian poet known for his unconventional style especially regarding unusual orthography and the use of visual elements.\nshalan joudry is a Mi'kmaw writer, oral storyteller, director, drummer/singer, and ecologist.",
+        "subject": "Bill Bissett",
+        "predicate": "same_educated_at",
+        "object": "Shalan joudry",
+        "evidence": [
+            [
+                "Bill Bissett",
+                "educated at",
+                "University of British Columbia"
+            ],
+            [
+                "Bill Bissett",
+                "educated at",
+                "Dalhousie University"
+            ],
+            [
+                "Shalan joudry",
+                "educated at",
+                "Dalhousie University"
+            ]
+        ],
+        "question": "Does Bill Bissett and Shalan joudry share totally different educated at?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "Christopher Brendan Ward IV, better known by the stage name MC Chris, is an American rapper, voice actor, comedian, and writer. He is recognized for his high-pitched voice and for blending his \"geek” background with a “gangsta rap” persona, contributing to the popularization of the nerdcore genre. He has released ten albums, five EPs, one re-release, and a tenth-anniversary edition of his recordings with the Lee Majors.\ndream hampton is an American filmmaker, producer, and writer. Her work includes the 2019 Lifetime documentary series Surviving R. Kelly, which she executive produced, and the 2012 An Oversimplification of Her Beauty, on which she served as co-executive producer. She co-wrote Jay-Z's 2010 memoir Decoded.",
+        "subject": "MC Chris",
+        "predicate": "same_educated_at",
+        "object": "Dream Hampton",
+        "evidence": [
+            [
+                "MC Chris",
+                "educated at",
+                "New York University Tisch School of the Arts"
+            ],
+            [
+                "MC Chris",
+                "educated at",
+                "School of the Art Institute of Chicago"
+            ],
+            [
+                "Dream Hampton",
+                "educated at",
+                "New York University Tisch School of the Arts"
+            ]
+        ],
+        "question": "Does MC Chris and Dream Hampton have the same educated at?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "Christopher Brendan Ward IV, better known by the stage name MC Chris, is an American rapper, voice actor, comedian, and writer. He is recognized for his high-pitched voice and for blending his \"geek” background with a “gangsta rap” persona, contributing to the popularization of the nerdcore genre. He has released ten albums, five EPs, one re-release, and a tenth-anniversary edition of his recordings with the Lee Majors.\ndream hampton is an American filmmaker, producer, and writer. Her work includes the 2019 Lifetime documentary series Surviving R. Kelly, which she executive produced, and the 2012 An Oversimplification of Her Beauty, on which she served as co-executive producer. She co-wrote Jay-Z's 2010 memoir Decoded.",
+        "subject": "MC Chris",
+        "predicate": "same_educated_at",
+        "object": "Dream Hampton",
+        "evidence": [
+            [
+                "MC Chris",
+                "educated at",
+                "New York University Tisch School of the Arts"
+            ],
+            [
+                "MC Chris",
+                "educated at",
+                "School of the Art Institute of Chicago"
+            ],
+            [
+                "Dream Hampton",
+                "educated at",
+                "New York University Tisch School of the Arts"
+            ]
+        ],
+        "question": "Is there any possibility for the educated at of MC Chris also related with Dream Hampton?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "Christopher Brendan Ward IV, better known by the stage name MC Chris, is an American rapper, voice actor, comedian, and writer. He is recognized for his high-pitched voice and for blending his \"geek” background with a “gangsta rap” persona, contributing to the popularization of the nerdcore genre. He has released ten albums, five EPs, one re-release, and a tenth-anniversary edition of his recordings with the Lee Majors.\ndream hampton is an American filmmaker, producer, and writer. Her work includes the 2019 Lifetime documentary series Surviving R. Kelly, which she executive produced, and the 2012 An Oversimplification of Her Beauty, on which she served as co-executive producer. She co-wrote Jay-Z's 2010 memoir Decoded.",
+        "subject": "MC Chris",
+        "predicate": "same_educated_at",
+        "object": "Dream Hampton",
+        "evidence": [
+            [
+                "MC Chris",
+                "educated at",
+                "New York University Tisch School of the Arts"
+            ],
+            [
+                "MC Chris",
+                "educated at",
+                "School of the Art Institute of Chicago"
+            ],
+            [
+                "Dream Hampton",
+                "educated at",
+                "New York University Tisch School of the Arts"
+            ]
+        ],
+        "question": "Statement: It's not true that MC Chris and Dream Hampton have the same educated at. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "Christopher Brendan Ward IV, better known by the stage name MC Chris, is an American rapper, voice actor, comedian, and writer. He is recognized for his high-pitched voice and for blending his \"geek” background with a “gangsta rap” persona, contributing to the popularization of the nerdcore genre. He has released ten albums, five EPs, one re-release, and a tenth-anniversary edition of his recordings with the Lee Majors.\ndream hampton is an American filmmaker, producer, and writer. Her work includes the 2019 Lifetime documentary series Surviving R. Kelly, which she executive produced, and the 2012 An Oversimplification of Her Beauty, on which she served as co-executive producer. She co-wrote Jay-Z's 2010 memoir Decoded.",
+        "subject": "MC Chris",
+        "predicate": "same_educated_at",
+        "object": "Dream Hampton",
+        "evidence": [
+            [
+                "MC Chris",
+                "educated at",
+                "New York University Tisch School of the Arts"
+            ],
+            [
+                "MC Chris",
+                "educated at",
+                "School of the Art Institute of Chicago"
+            ],
+            [
+                "Dream Hampton",
+                "educated at",
+                "New York University Tisch School of the Arts"
+            ]
+        ],
+        "question": "Is it true that MC Chris and Dream Hampton have the same educated at?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "This bibliography of George W. Bush is a list of published works, both books and films, about George W. Bush, the 43rd president of the United States.\n\nThis is a list of books and scholarly articles by and about Hillary Clinton, as well as columns by her.",
+        "subject": "Bibliography of George W. Bush",
+        "predicate": "same_is_a_list_of",
+        "object": "Bibliography of Hillary Clinton",
+        "evidence": [
+            [
+                "Bibliography of George W. Bush",
+                "is a list of",
+                "book"
+            ],
+            [
+                "Bibliography of Hillary Clinton",
+                "is a list of",
+                "book"
+            ]
+        ],
+        "question": "Statement: It's not true that Bibliography of George W. Bush and Bibliography of Hillary Clinton have the same is a list of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "This bibliography of George W. Bush is a list of published works, both books and films, about George W. Bush, the 43rd president of the United States.\n\nThis is a list of books about Leonard Cohen.",
+        "subject": "Bibliography of George W. Bush",
+        "predicate": "same_is_a_list_of",
+        "object": "Bibliography of Leonard Cohen",
+        "evidence": [
+            [
+                "Bibliography of George W. Bush",
+                "is a list of",
+                "book"
+            ],
+            [
+                "Bibliography of Leonard Cohen",
+                "is a list of",
+                "book"
+            ]
+        ],
+        "question": "Does Bibliography of George W. Bush and Bibliography of Leonard Cohen share totally different is a list of?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "This bibliography of George W. Bush is a list of published works, both books and films, about George W. Bush, the 43rd president of the United States.\nMany books, films and other works about Bobby Fischer have been created. Bobby Fischer was an American chess prodigy who rose to prominence during the 1950s and 1960s. In 1972, Fischer defeated the Soviet player Boris Spassky to become world champion. Soviet players had dominated chess for several years before Fischer's championship, a trend which continued after 1975 when Fischer refused to defend his title. Fischer's participation in the 1972 championship match increased American interest in chess, in the context of the Cold War.",
+        "subject": "Bibliography of George W. Bush",
+        "predicate": "same_is_a_list_of",
+        "object": "Bibliography of Bobby Fischer",
+        "evidence": [
+            [
+                "Bibliography of George W. Bush",
+                "is a list of",
+                "book"
+            ],
+            [
+                "Bibliography of Bobby Fischer",
+                "is a list of",
+                "book"
+            ]
+        ],
+        "question": "Does Bibliography of George W. Bush and Bibliography of Bobby Fischer share totally different is a list of?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "This bibliography of George W. Bush is a list of published works, both books and films, about George W. Bush, the 43rd president of the United States.\nThis bibliography of Adolf Hitler is a thematic list of some non-fiction texts in English written about and by him.",
+        "subject": "Bibliography of George W. Bush",
+        "predicate": "same_is_a_list_of",
+        "object": "Bibliography of Adolf Hitler",
+        "evidence": [
+            [
+                "Bibliography of George W. Bush",
+                "is a list of",
+                "book"
+            ],
+            [
+                "Bibliography of Adolf Hitler",
+                "is a list of",
+                "book"
+            ]
+        ],
+        "question": "Does Bibliography of George W. Bush and Bibliography of Adolf Hitler have completely separate is a list of?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "This bibliography of George W. Bush is a list of published works, both books and films, about George W. Bush, the 43rd president of the United States.\n\nThis is a list of books and scholarly articles by and about Hillary Clinton, as well as columns by her.",
+        "subject": "Bibliography of George W. Bush",
+        "predicate": "same_is_a_list_of",
+        "object": "Bibliography of Hillary Clinton",
+        "evidence": [
+            [
+                "Bibliography of George W. Bush",
+                "is a list of",
+                "book"
+            ],
+            [
+                "Bibliography of Hillary Clinton",
+                "is a list of",
+                "book"
+            ]
+        ],
+        "question": "Statement: It's not true that Bibliography of George W. Bush and Bibliography of Hillary Clinton have the same is a list of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "This bibliography of George W. Bush is a list of published works, both books and films, about George W. Bush, the 43rd president of the United States.\n\nThis is a list of books about Leonard Cohen.",
+        "subject": "Bibliography of George W. Bush",
+        "predicate": "same_is_a_list_of",
+        "object": "Bibliography of Leonard Cohen",
+        "evidence": [
+            [
+                "Bibliography of George W. Bush",
+                "is a list of",
+                "book"
+            ],
+            [
+                "Bibliography of Leonard Cohen",
+                "is a list of",
+                "book"
+            ]
+        ],
+        "question": "Does Bibliography of George W. Bush and Bibliography of Leonard Cohen share totally different is a list of?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "This bibliography of George W. Bush is a list of published works, both books and films, about George W. Bush, the 43rd president of the United States.\nMany books, films and other works about Bobby Fischer have been created. Bobby Fischer was an American chess prodigy who rose to prominence during the 1950s and 1960s. In 1972, Fischer defeated the Soviet player Boris Spassky to become world champion. Soviet players had dominated chess for several years before Fischer's championship, a trend which continued after 1975 when Fischer refused to defend his title. Fischer's participation in the 1972 championship match increased American interest in chess, in the context of the Cold War.",
+        "subject": "Bibliography of George W. Bush",
+        "predicate": "same_is_a_list_of",
+        "object": "Bibliography of Bobby Fischer",
+        "evidence": [
+            [
+                "Bibliography of George W. Bush",
+                "is a list of",
+                "book"
+            ],
+            [
+                "Bibliography of Bobby Fischer",
+                "is a list of",
+                "book"
+            ]
+        ],
+        "question": "Does Bibliography of George W. Bush and Bibliography of Bobby Fischer have completely separate is a list of?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "This bibliography of George W. Bush is a list of published works, both books and films, about George W. Bush, the 43rd president of the United States.\nThis bibliography of Adolf Hitler is a thematic list of some non-fiction texts in English written about and by him.",
+        "subject": "Bibliography of George W. Bush",
+        "predicate": "same_is_a_list_of",
+        "object": "Bibliography of Adolf Hitler",
+        "evidence": [
+            [
+                "Bibliography of George W. Bush",
+                "is a list of",
+                "book"
+            ],
+            [
+                "Bibliography of Adolf Hitler",
+                "is a list of",
+                "book"
+            ]
+        ],
+        "question": "Statement: It's not true that Bibliography of George W. Bush and Bibliography of Adolf Hitler have the same is a list of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "This bibliography of George W. Bush is a list of published works, both books and films, about George W. Bush, the 43rd president of the United States.\n\nThis is a list of books and scholarly articles by and about Hillary Clinton, as well as columns by her.",
+        "subject": "Bibliography of George W. Bush",
+        "predicate": "same_is_a_list_of",
+        "object": "Bibliography of Hillary Clinton",
+        "evidence": [
+            [
+                "Bibliography of George W. Bush",
+                "is a list of",
+                "book"
+            ],
+            [
+                "Bibliography of Hillary Clinton",
+                "is a list of",
+                "book"
+            ]
+        ],
+        "question": "Is it true that Bibliography of George W. Bush and Bibliography of Hillary Clinton have the same is a list of?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "This bibliography of George W. Bush is a list of published works, both books and films, about George W. Bush, the 43rd president of the United States.\n\nThis is a list of books about Leonard Cohen.",
+        "subject": "Bibliography of George W. Bush",
+        "predicate": "same_is_a_list_of",
+        "object": "Bibliography of Leonard Cohen",
+        "evidence": [
+            [
+                "Bibliography of George W. Bush",
+                "is a list of",
+                "book"
+            ],
+            [
+                "Bibliography of Leonard Cohen",
+                "is a list of",
+                "book"
+            ]
+        ],
+        "question": "Does Bibliography of George W. Bush and Bibliography of Leonard Cohen have the same is a list of?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "This bibliography of George W. Bush is a list of published works, both books and films, about George W. Bush, the 43rd president of the United States.\nMany books, films and other works about Bobby Fischer have been created. Bobby Fischer was an American chess prodigy who rose to prominence during the 1950s and 1960s. In 1972, Fischer defeated the Soviet player Boris Spassky to become world champion. Soviet players had dominated chess for several years before Fischer's championship, a trend which continued after 1975 when Fischer refused to defend his title. Fischer's participation in the 1972 championship match increased American interest in chess, in the context of the Cold War.",
+        "subject": "Bibliography of George W. Bush",
+        "predicate": "same_is_a_list_of",
+        "object": "Bibliography of Bobby Fischer",
+        "evidence": [
+            [
+                "Bibliography of George W. Bush",
+                "is a list of",
+                "book"
+            ],
+            [
+                "Bibliography of Bobby Fischer",
+                "is a list of",
+                "book"
+            ]
+        ],
+        "question": "Is it true that Bibliography of George W. Bush and Bibliography of Bobby Fischer have the same is a list of?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "A biography, or simply bio, is a detailed description of a person's life. It involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of their life, including intimate details of experience, and may include an analysis of the subject's personality.\nIn Greek mythology, Procrustes, also known as Prokoptas, Damastes or Polypemon, was a rogue smith and bandit from Attica who attacked people by stretching them or cutting off their legs, so as to force them to fit the size of an iron bed.",
+        "subject": "Biography",
+        "predicate": "same_described_by_source",
+        "object": "Procrustes",
+        "evidence": [
+            [
+                "Biography",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 5"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Gujin Tushu Jicheng"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Pauly–Wissowa"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Does Biography and Procrustes have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "A biography, or simply bio, is a detailed description of a person's life. It involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of their life, including intimate details of experience, and may include an analysis of the subject's personality.\nIn Greek mythology, Procrustes, also known as Prokoptas, Damastes or Polypemon, was a rogue smith and bandit from Attica who attacked people by stretching them or cutting off their legs, so as to force them to fit the size of an iron bed.",
+        "subject": "Biography",
+        "predicate": "same_described_by_source",
+        "object": "Procrustes",
+        "evidence": [
+            [
+                "Biography",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 5"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Gujin Tushu Jicheng"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Pauly–Wissowa"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Does Biography and Procrustes share totally different described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "A biography, or simply bio, is a detailed description of a person's life. It involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of their life, including intimate details of experience, and may include an analysis of the subject's personality.\nIn Greek mythology, Procrustes, also known as Prokoptas, Damastes or Polypemon, was a rogue smith and bandit from Attica who attacked people by stretching them or cutting off their legs, so as to force them to fit the size of an iron bed.",
+        "subject": "Biography",
+        "predicate": "same_described_by_source",
+        "object": "Procrustes",
+        "evidence": [
+            [
+                "Biography",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 5"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Gujin Tushu Jicheng"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Pauly–Wissowa"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Statement: It's not true that Biography and Procrustes have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "A biography, or simply bio, is a detailed description of a person's life. It involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of their life, including intimate details of experience, and may include an analysis of the subject's personality.\nIn Greek mythology, Procrustes, also known as Prokoptas, Damastes or Polypemon, was a rogue smith and bandit from Attica who attacked people by stretching them or cutting off their legs, so as to force them to fit the size of an iron bed.",
+        "subject": "Biography",
+        "predicate": "same_described_by_source",
+        "object": "Procrustes",
+        "evidence": [
+            [
+                "Biography",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 5"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Gujin Tushu Jicheng"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Pauly–Wissowa"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Is it true that Biography and Procrustes have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "An autobiography, sometimes informally called an autobio, is a self-written account of one's own life, providing a personal narrative that reflects on the author's experiences, memories, and insights. This genre allows individuals to share their unique perspectives and stories, offering readers a glimpse into the author's personal journey and the historical or cultural context in which they lived.\nIn Greek mythology, Procrustes, also known as Prokoptas, Damastes or Polypemon, was a rogue smith and bandit from Attica who attacked people by stretching them or cutting off their legs, so as to force them to fit the size of an iron bed.",
+        "subject": "autobiography",
+        "predicate": "same_described_by_source",
+        "object": "Procrustes",
+        "evidence": [
+            [
+                "Procrustes",
+                "described by source",
+                "Pauly–Wissowa"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of autobiography also related with Procrustes?",
+        "answer": "Yes."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "An autobiography, sometimes informally called an autobio, is a self-written account of one's own life, providing a personal narrative that reflects on the author's experiences, memories, and insights. This genre allows individuals to share their unique perspectives and stories, offering readers a glimpse into the author's personal journey and the historical or cultural context in which they lived.\nIn Greek mythology, Procrustes, also known as Prokoptas, Damastes or Polypemon, was a rogue smith and bandit from Attica who attacked people by stretching them or cutting off their legs, so as to force them to fit the size of an iron bed.",
+        "subject": "autobiography",
+        "predicate": "same_described_by_source",
+        "object": "Procrustes",
+        "evidence": [
+            [
+                "Procrustes",
+                "described by source",
+                "Pauly–Wissowa"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Statement: It's not true that autobiography and Procrustes have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "An autobiography, sometimes informally called an autobio, is a self-written account of one's own life, providing a personal narrative that reflects on the author's experiences, memories, and insights. This genre allows individuals to share their unique perspectives and stories, offering readers a glimpse into the author's personal journey and the historical or cultural context in which they lived.\nIn Greek mythology, Procrustes, also known as Prokoptas, Damastes or Polypemon, was a rogue smith and bandit from Attica who attacked people by stretching them or cutting off their legs, so as to force them to fit the size of an iron bed.",
+        "subject": "autobiography",
+        "predicate": "same_described_by_source",
+        "object": "Procrustes",
+        "evidence": [
+            [
+                "Procrustes",
+                "described by source",
+                "Pauly–Wissowa"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Statement: It's not true that autobiography and Procrustes have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "An autobiography, sometimes informally called an autobio, is a self-written account of one's own life, providing a personal narrative that reflects on the author's experiences, memories, and insights. This genre allows individuals to share their unique perspectives and stories, offering readers a glimpse into the author's personal journey and the historical or cultural context in which they lived.\nIn Greek mythology, Procrustes, also known as Prokoptas, Damastes or Polypemon, was a rogue smith and bandit from Attica who attacked people by stretching them or cutting off their legs, so as to force them to fit the size of an iron bed.",
+        "subject": "autobiography",
+        "predicate": "same_described_by_source",
+        "object": "Procrustes",
+        "evidence": [
+            [
+                "Procrustes",
+                "described by source",
+                "Pauly–Wissowa"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Statement: It's not true that autobiography and Procrustes have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "A biography, or simply bio, is a detailed description of a person's life. It involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of their life, including intimate details of experience, and may include an analysis of the subject's personality.\nIn Greek mythology, Procrustes, also known as Prokoptas, Damastes or Polypemon, was a rogue smith and bandit from Attica who attacked people by stretching them or cutting off their legs, so as to force them to fit the size of an iron bed.",
+        "subject": "Biography",
+        "predicate": "same_described_by_source",
+        "object": "Procrustes",
+        "evidence": [
+            [
+                "Biography",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 5"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Gujin Tushu Jicheng"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Pauly–Wissowa"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Does Biography and Procrustes have completely separate described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "A biography, or simply bio, is a detailed description of a person's life. It involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of their life, including intimate details of experience, and may include an analysis of the subject's personality.\nIn Greek mythology, Procrustes, also known as Prokoptas, Damastes or Polypemon, was a rogue smith and bandit from Attica who attacked people by stretching them or cutting off their legs, so as to force them to fit the size of an iron bed.",
+        "subject": "Biography",
+        "predicate": "same_described_by_source",
+        "object": "Procrustes",
+        "evidence": [
+            [
+                "Biography",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 5"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Gujin Tushu Jicheng"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Pauly–Wissowa"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Does Biography and Procrustes have completely separate described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "people",
+        "reasoning": "Composite Inference",
+        "description": "A biography, or simply bio, is a detailed description of a person's life. It involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of their life, including intimate details of experience, and may include an analysis of the subject's personality.\nIn Greek mythology, Procrustes, also known as Prokoptas, Damastes or Polypemon, was a rogue smith and bandit from Attica who attacked people by stretching them or cutting off their legs, so as to force them to fit the size of an iron bed.",
+        "subject": "Biography",
+        "predicate": "same_described_by_source",
+        "object": "Procrustes",
+        "evidence": [
+            [
+                "Biography",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 5"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Gujin Tushu Jicheng"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Biography",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Pauly–Wissowa"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "Armenian Soviet Encyclopedia"
+            ],
+            [
+                "Procrustes",
+                "described by source",
+                "The Nuttall Encyclopædia"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of Biography also related with Procrustes?",
+        "answer": "Yes."
     }
 ]

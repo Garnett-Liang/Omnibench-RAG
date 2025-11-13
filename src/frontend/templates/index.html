@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omnibench-RAG - AI Model Evaluation System</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/min.css" rel="stylesheet">
     <style type="text/tailwindcss">
         @theme {
             --color-primary: #3b82f6;
@@ -172,7 +172,106 @@
     </div>
 </section>
 
+<!-- Statistics Section -->
 <section class="mt-16">
+    <div class="text-center mb-8">
+        <h2 class="text-2xl font-bold text-secondary mb-4">Model Performance Statistics</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+            View comprehensive performance statistics for evaluated models across different domains
+        </p>
+    </div>
+
+    <!-- Model Selection and Statistics Display -->
+    <div class="max-w-4xl mx-auto">
+        <div class="bg-white rounded-xl card-shadow p-6 mb-6">
+            <div class="flex flex-col md:flex-row items-center justify-between mb-6">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <div class="bg-primary/10 p-3 rounded-lg mr-4">
+                        <i class="fas fa-chart-bar text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary">Select Model for Statistics</h3>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <select id="modelSelect" class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
+                        <option value="">Choose a model...</option>
+                        <option value="1">Qwen/Qwen-1_8B</option>
+                        <option value="2">gpt2-medium</option>
+                        <option value="3">EleutherAI/gpt-neo-125M</option>
+                        <option value="5">facebook/opt-1.3b</option>
+                    </select>
+                    <button id="loadStatistics" class="bg-primary hover:bg-secondary text-white font-medium py-2 px-6 rounded-lg transition-colors disabled:opacity-50">
+                        <i class="fas fa-search mr-2"></i>Load Statistics
+                    </button>
+                </div>
+            </div>
+
+            <!-- Statistics Results -->
+            <div id="statisticsResults" class="hidden">
+                <!-- Radar Chart Container -->
+                <div id="radarChartContainer" class="mb-6"></div>
+                
+                <div class="overflow-x-auto">
+                    <table class="min-w-full table-auto border-collapse">
+                        <thead>
+                            <tr class="bg-gray-50">
+                                <th class="border border-gray-300 px-4 py-3 text-left font-semibold">Domain</th>
+                                <th class="border border-gray-300 px-4 py-3 text-center font-semibold">Basic Accuracy</th>
+                                <th class="border border-gray-300 px-4 py-3 text-center font-semibold">RAG Accuracy</th>
+                                <th class="border border-gray-300 px-4 py-3 text-center font-semibold">Improvement</th>
+                                <th class="border border-gray-300 px-4 py-3 text-center font-semibold">Transformation</th>
+                                <th class="border border-gray-300 px-4 py-3 text-center font-semibold">Dataset Size</th>
+                            </tr>
+                        </thead>
+                        <tbody id="statisticsTableBody">
+                            <!-- Statistics data will be inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- Summary Statistics -->
+                <div class="mt-6 p-4 bg-gray-50 rounded-lg">
+                    <h4 class="font-bold text-lg mb-3 text-secondary">Average Performance Across All Domains</h4>
+                    <div class="grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
+                        <div>
+                            <div class="text-2xl font-bold text-primary" id="avgBasic">-</div>
+                            <div class="text-sm text-gray-600">Avg Basic</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-bold text-success" id="avgRag">-</div>
+                            <div class="text-sm text-gray-600">Avg RAG</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-bold text-warning" id="avgImprovement">-</div>
+                            <div class="text-sm text-gray-600">Avg Improvement</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-bold text-info" id="avgTransformation">-</div>
+                            <div class="text-sm text-gray-600">Avg Transformation</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-bold text-secondary" id="totalDataset">-</div>
+                            <div class="text-sm text-gray-600">Total Dataset</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading indicator -->
+            <div id="loadingIndicator" class="hidden text-center py-8">
+                <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+                <p class="mt-2 text-gray-600">Loading statistics...</p>
+            </div>
+
+            <!-- Error message -->
+            <div id="errorMessage" class="hidden bg-red-50 border border-red-200 rounded-lg p-4">
+                <div class="flex items-center">
+                    <i class="fas fa-exclamation-triangle text-red-400 mr-2"></i>
+                    <span class="text-red-700" id="errorText"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="mt-16">
         <section class="mt-16">
@@ -209,40 +308,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-8 mt-16">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Omnibench-RAG</h3>
-                    <p class="text-gray-400">
-                        AI model evaluation system, providing comprehensive model performance evaluation.
-                    </p>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
-                        
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Contact Us</h3>
-                    <ul class="space-y-2">
-                        <li class="flex items-center">
-                            <i class="fas fa-envelope mr-2 text-gray-400"></i>
-                            <a href="mailto:contact@omnibench-rag.com" class="text-gray-400 hover:text-white transition-colors">contact 3255951431@qq.com</a>
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-phone mr-2 text-gray-400"></i>
-                            <span class="text-gray-400">+86 181 6808 5171</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-        </div>
-    </footer>
 
     <script>
         // Mobile menu toggle
@@ -250,6 +315,164 @@
             const navMenu = document.querySelector('.hidden.md\\:flex');
             navMenu.classList.toggle('hidden');
             navMenu.classList.toggle('flex');
+        });
+
+        // Statistics functionality
+        document.getElementById('loadStatistics').addEventListener('click', function() {
+            const modelSelect = document.getElementById('modelSelect');
+            const selectedModel = modelSelect.value;
+            
+            if (!selectedModel) {
+                showError('Please select a model first');
+                return;
+            }
+            
+            // Show loading indicator
+            showLoading();
+            hideError();
+            hideStatistics();
+            
+            // Fetch statistics data
+            fetch(`/api/statistics/${selectedModel}`)
+                .then(response => response.json())
+                .then(data => {
+                    hideLoading();
+                    
+                    if (data.status === 'success') {
+                        displayStatistics(data.statistics);
+                        // 加载雷达图
+                        loadRadarChart(selectedModel);
+                    } else {
+                        showError(data.message || 'Failed to load statistics');
+                    }
+                })
+                .catch(error => {
+                    hideLoading();
+                    showError('Network error: ' + error.message);
+                });
+        });
+
+        function loadRadarChart(modelId) {
+            fetch(`/api/radar_chart/${modelId}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        displayRadarChart(data.chart_base64);
+                    } else {
+                        console.error('Failed to load radar chart:', data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading radar chart:', error);
+                });
+        }
+
+        function displayRadarChart(chartBase64) {
+            const radarContainer = document.getElementById('radarChartContainer');
+            radarContainer.innerHTML = `
+                <div class="bg-white rounded-lg p-4 shadow-lg">
+                    <h4 class="font-bold text-lg mb-3 text-secondary text-center">Performance Radar Chart</h4>
+                    <div class="text-center">
+                        <img src="data:image/png;base64,${chartBase64}" alt="Radar Chart" class="mx-auto max-w-full h-auto rounded-lg">
+                    </div>
+                </div>
+            `;
+        }
+
+        function displayStatistics(stats) {
+            const tableBody = document.getElementById('statisticsTableBody');
+            const avgBasic = document.getElementById('avgBasic');
+            const avgRag = document.getElementById('avgRag');
+            const avgImprovement = document.getElementById('avgImprovement');
+            const avgTransformation = document.getElementById('avgTransformation');
+            const totalDataset = document.getElementById('totalDataset');
+            
+            // Clear existing data
+            tableBody.innerHTML = '';
+            
+            let totalBasic = 0;
+            let totalRag = 0;
+            let totalImprovement = 0;
+            let totalTransformation = 0;
+            let totalDatasetSize = 0;
+            let domainCount = 0;
+            
+            // Populate table with domain statistics
+            for (const [domain, domainStats] of Object.entries(stats.domains)) {
+                const row = document.createElement('tr');
+                row.className = 'hover:bg-gray-50';
+                
+                row.innerHTML = `
+                    <td class="border border-gray-300 px-4 py-3 font-medium capitalize">${domain}</td>
+                    <td class="border border-gray-300 px-4 py-3 text-center">${domainStats.basic_accuracy.toFixed(4)}</td>
+                    <td class="border border-gray-300 px-4 py-3 text-center">${domainStats.rag_accuracy.toFixed(4)}</td>
+                    <td class="border border-gray-300 px-4 py-3 text-center">${domainStats.improvement.toFixed(4)}</td>
+                    <td class="border border-gray-300 px-4 py-3 text-center">${domainStats.transformation.toFixed(4)}</td>
+                    <td class="border border-gray-300 px-4 py-3 text-center">${domainStats.dataset_size}</td>
+                `;
+                
+                tableBody.appendChild(row);
+                
+                totalBasic += domainStats.basic_accuracy;
+                totalRag += domainStats.rag_accuracy;
+                totalImprovement += domainStats.improvement;
+                totalTransformation += domainStats.transformation;
+                totalDatasetSize += domainStats.dataset_size;
+                domainCount++;
+            }
+            
+            // Update averages
+            if (domainCount > 0) {
+                avgBasic.textContent = (totalBasic / domainCount).toFixed(4);
+                avgRag.textContent = (totalRag / domainCount).toFixed(4);
+                avgImprovement.textContent = (totalImprovement / domainCount).toFixed(4);
+                avgTransformation.textContent = (totalTransformation / domainCount).toFixed(4);
+                totalDataset.textContent = totalDatasetSize;
+            }
+            
+            // Show statistics results
+            showStatistics();
+        }
+
+        function showLoading() {
+            document.getElementById('loadingIndicator').classList.remove('hidden');
+        }
+
+        function hideLoading() {
+            document.getElementById('loadingIndicator').classList.add('hidden');
+        }
+
+        function showStatistics() {
+            document.getElementById('statisticsResults').classList.remove('hidden');
+        }
+
+        function hideStatistics() {
+            document.getElementById('statisticsResults').classList.add('hidden');
+        }
+
+        function showError(message) {
+            document.getElementById('errorText').textContent = message;
+            document.getElementById('errorMessage').classList.remove('hidden');
+        }
+
+        function hideError() {
+            document.getElementById('errorMessage').classList.add('hidden');
+        }
+
+        // Model selection change event
+        document.getElementById('modelSelect').addEventListener('change', function() {
+            if (this.value) {
+                document.getElementById('loadStatistics').disabled = false;
+                hideError();
+                hideStatistics();
+            } else {
+                document.getElementById('loadStatistics').disabled = true;
+            }
+        });
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('loadStatistics').disabled = true;
         });
     </script>
 </body>

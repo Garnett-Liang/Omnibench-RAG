@@ -153,8 +153,8 @@
 
             const ragMaterialsContainer = document.getElementById('ragMaterialsContainer');
 
-
-
+            let currentDatasetSource = 'reproducible';
+            let currentMaterialType = 'flexible';
             // Toggle option groups based on material type selection
             materialTypeRadios.forEach(radio => {
                 radio.addEventListener('change', function() {
@@ -194,6 +194,10 @@
                     return;
                 }
 
+                // 确保 currentDatasetSource 有值
+                if (!currentDatasetSource) {
+                    currentDatasetSource = 'reproducible';
+                }
                 generateStrongBtn.disabled = true;
                 generateStrongBtn.classList.add('opacity-50', 'cursor-not-allowed');
 

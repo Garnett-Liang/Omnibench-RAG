@@ -1,0 +1,485 @@
+Starting RAG evaluation - Domain: history, Model: gpt2, Top-K: 3
+Dataset source: existing, RAG material source: strong
+==================================================
+[1/5] Checking and preprocessing history domain data...
+Using Strong Wiki material...
+Strong data already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_cleaned\Strong_history.txt), skipping generation
+[2/5] Checking and building history domain vector index...
+Using Strong Wiki material index...
+Strong index already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\history_index.faiss), loading...
+[3/5] Loading history domain evaluation dataset...
+Using reproducible dataset...
+Loaded 62 samples from d:\Jupyter\OmniBench-RAG\data\dataset\generated\composite\history_qa.json
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Successfully loaded FAISS index from: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\history_index.faiss
+Loaded 153 preprocessed document chunks
+[5/5] Starting RAG evaluation... (62 samples)
+Starting evaluation with 62 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Statement: It's not true that Periodization and Church history have the same instance of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that periodization and church history have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no.
+
+question: what is the difference between the following statements?
+
+statement: the church has always taught that the church has always taught that the church has always taught that the church has always taught that the church has always taught that the church has always taught that the church has always taught that the church has always taught that the church has always taught that the church has always taught that the church has always taught that the church has always taught that the church has always taught that the church has always taught
+  Semantic Prediction: no (Confidence: 0.9749)
+  Correctness: Correct
+  Performance: Time=5.7646s, Memory=465.0195MB (excluded), GPU=0.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: question: statement: it's not true that periodization and church history have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no. answer with 'yes' or 'no':
+
+question: statement: it's not true that periodization and church history have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no. answer with 'yes' or 'no':
+
+question: statement: it's not true that periodization and church history have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no.
+  Semantic Prediction: no (Confidence: 0.9977)
+  Correctness: Correct
+  Performance: Time=9.9339s, Retrieval Memory=14.2578MB, Final Increment=15.3047MB, Total Memory=29.5625MB (excluded), GPU=0.00% (excluded)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Is it true that Periodization and social history have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that periodization and social history have the same instance of?
+
+yes.
+
+no.
+
+yes.
+
+no.
+
+yes.
+
+no.
+
+yes.
+
+no.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+
+yes.
+  Semantic Prediction: yes (Confidence: 0.8858)
+  Correctness: Correct
+  Performance: Time=5.4688s, Memory=0.2383MB (included), GPU=0.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: the term 'periodization' is used to refer to the process of categorizing and categorizing past events. the term'social history' is used to refer to the process of categorizing and categorizing past events. the term 'urban history' is used to refer to the process of categorizing and categorizing past events. the term 'business history' is used to refer to the process of categorizing and categorizing past events. the term 'architecture history' is used to refer to the process of categorizing and categorizing past events. the term 'urban sociology' is used to refer to the process of categorizing and categorizing past events. the term 'urban geography' is used to refer to the process of
+  Semantic Prediction: no (Confidence: 0.9476)
+  Correctness: Incorrect
+  Performance: Time=10.2487s, Retrieval Memory=0.0039MB, Final Increment=0.2382MB, Total Memory=0.2421MB (included), GPU=0.00% (excluded)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Does Administrative history and Church history share totally different instance of?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does administrative history and church history share totally different instance of?
+
+answer with 'yes': does administrative history and church history share totally different instance of?
+
+answer with 'no': does administrative history and church history share totally different instance of?
+
+answer with 'yes': does administrative history and church history share totally different instance of?
+
+answer with 'no': does administrative history and church history share totally different instance of?
+
+answer with 'yes': does administrative history and church history share totally different instance of?
+
+answer with '
+  Semantic Prediction: no (Confidence: 0.9811)
+  Correctness: Correct
+  Performance: Time=5.1838s, Memory=0.0000MB (included), GPU=0.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+
+administrative history:
+  Semantic Prediction: yes (Confidence: 0.9741)
+  Correctness: Incorrect
+  Performance: Time=8.7273s, Retrieval Memory=4.8477MB, Final Increment=5.1797MB, Total Memory=10.0274MB (excluded), GPU=13.00% (included)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Does Administrative history and Cultural history have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does administrative history and cultural history have the same instance of?
+
+answer with 'yes' or 'no': does administrative history and cultural history have the same instance of?
+
+answer with 'yes' or 'no': does administrative history and cultural history have the same instance of?
+
+answer with 'yes' or 'no': does administrative history and cultural history have the same instance of?
+
+answer with 'yes' or 'no': does administrative history and cultural history have the same instance of?
+
+answer with 'yes' or
+  Semantic Prediction: no (Confidence: 0.9960)
+  Correctness: Incorrect
+  Performance: Time=4.9949s, Memory=0.0625MB (included), GPU=0.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: administrative history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+
+cultural history:
+  Semantic Prediction: yes (Confidence: 0.9903)
+  Correctness: Correct
+  Performance: Time=8.7717s, Retrieval Memory=0.0000MB, Final Increment=0.1562MB, Total Memory=0.1562MB (included), GPU=24.00% (included)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Statement: It's not true that Administrative history and Economic history have the same instance of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that administrative history and economic history have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no.
+
+question: it's not true that administrative history and economic history have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no.
+
+question: it's not true that administrative history and economic history have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no.
+
+question: it's not true that administrative history and economic history have the
+  Semantic Prediction: no (Confidence: 0.9976)
+  Correctness: Correct
+  Performance: Time=4.9768s, Memory=0.5547MB (included), GPU=5.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: question: statement: it's not true that administrative history and economic history have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no. answer with 'yes' or 'no':
+
+question: statement: it's not true that administrative history and economic history have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no. answer with 'yes' or 'no':
+
+question: statement: it's not true that administrative history and economic history have the same instance of. please judge the truthfulness of the above statement. if it is true, answer with yes, otherwise no.
+  Semantic Prediction: no (Confidence: 0.9975)
+  Correctness: Correct
+  Performance: Time=8.4634s, Retrieval Memory=0.0000MB, Final Increment=0.1211MB, Total Memory=0.1211MB (included), GPU=36.00% (included)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Is it true that Administrative history and Ethnic history have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that administrative history and ethnic history have the same instance of?
+
+answer with 'yes': is it true that administrative history and ethnic history have the same instance of?
+
+answer with 'yes': is it true that administrative history and ethnic history have the same instance of?
+
+answer with 'yes': is it true that administrative history and ethnic history have the same instance of?
+
+answer with 'yes': is it true that administrative history and ethnic history have the same instance of?
+
+answer with 'yes': is it true that administrative
+  Semantic Prediction: yes (Confidence: 0.7653)
+  Correctness: Correct
+  Performance: Time=5.1461s, Memory=0.0000MB (included), GPU=10.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: administrative history:
+
+administrative history is the study of government and government policy. it is the study of government and government policy. it is the study of government and government policy.
+
+ethnohistory:
+
+ethnohistory is the study of human societies. it is the study of human societies. it is the study of human societies.
+
+cultural history:
+
+cultural history is the study of human cultures. it is the study of human cultures. it is the study of human cultures.
+
+historical patterns:
+
+historical patterns is the study of historical patterns. it is the study of historical patterns. it is the study of historical patterns.
+
+historical
+  Semantic Prediction: yes (Confidence: 0.9957)
+  Correctness: Correct
+  Performance: Time=8.7527s, Retrieval Memory=0.0000MB, Final Increment=0.0312MB, Total Memory=0.0312MB (included), GPU=0.00% (excluded)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Does Administrative history and Ethnohistory have the same instance of?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does administrative history and ethnohistory have the same instance of?
+
+answer with 'yes' or 'no': does administrative history and ethnohistory have the same instance of?
+
+answer with 'yes' or 'no': does administrative history and ethnohistory have the same instance of?
+
+answer with 'yes' or 'no': does administrative history and ethnohistory have the same instance of?
+
+answer with 'yes' or 'no': does administrative history and ethnohistory have the
+  Semantic Prediction: no (Confidence: 0.9971)
+  Correctness: Incorrect
+  Performance: Time=4.6419s, Memory=0.0235MB (included), GPU=13.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: administrative history and ethnohistory have the same instance of administrative history and ethnohistory.
+
+administrative history and ethnohistory have the same instance of administrative history and ethnohistory.
+
+administrative history and ethnohistory have the same instance of administrative history and ethnohistory.
+
+administrative history and ethnohistory have the same instance of administrative history and ethnohistory.
+
+administrative history and ethnohistory have the same instance of administrative history and ethnohistory.
+
+administrative history and ethnohistory have the same instance of administrative history and ethnohistory.
+
+administrative history and
+  Semantic Prediction: no (Confidence: 0.9842)
+  Correctness: Incorrect
+  Performance: Time=8.1164s, Retrieval Memory=0.0000MB, Final Increment=0.0312MB, Total Memory=0.0312MB (included), GPU=0.00% (excluded)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Is there any possibility for the instance of of Administrative history also related with social history?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility for the instance of of administrative history also related with social history?
+
+the answer is yes. the question of the possibility of the administrative history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history of the social history
+  Semantic Prediction: no (Confidence: 0.9507)
+  Correctness: Incorrect
+  Performance: Time=4.6679s, Memory=0.0274MB (included), GPU=76.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: administrative history historiographic field looks history state administrations bureaucracies originally considered sub field administrative sciences intended improve contemporary governance administrative history increasingly separate field administrative historians study changes administrative ideologies administrative law looking civil servants relationship government society related political constitutional history discipline common france germany united kingdom italy fields like social history popular elton defended administrative history field explain machinery government actually worked past cultural history records interprets past events involving human beings social cultural political milieu relating arts manners group favors jacob burckhardt helped found cultural history discipline cultural history studies interprets record human societies denoting distinctive ways
+
+administrative history historiographic field looks history state administrations bureaucracies originally considered sub field administrative sciences intended improve contemporary governance administrative history increasingly separate field administrative historians study changes administrative ideologies administrative
+  Semantic Prediction: yes (Confidence: 0.9418)
+  Correctness: Correct
+  Performance: Time=8.6301s, Retrieval Memory=0.0000MB, Final Increment=0.0117MB, Total Memory=0.0117MB (included), GPU=-1.00% (excluded)
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Is there any possibility for the instance of of Historical anthropology also related with Applied history?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility for the instance of of historical anthropology also related with applied history?
+
+the answer is 'yes'.
+
+the question is: what is the relationship between applied and historical anthropology?
+
+the answer is: applied and historical anthropology are two different branches of the same field.
+
+the question is: what is the relationship between applied and historical anthropology?
+
+the answer is: applied and historical anthropology are two different branches of the same field.
+
+the question is: what is the relationship between applied and historical anthropology?
+
+the answer is:
+  Semantic Prediction: no (Confidence: 0.9818)
+  Correctness: Incorrect
+  Performance: Time=5.0579s, Memory=0.0117MB (included), GPU=22.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: historical anthropology applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied history applied
+  Semantic Prediction: yes (Confidence: 0.8243)
+  Correctness: Correct
+  Performance: Time=9.1288s, Retrieval Memory=0.0000MB, Final Increment=0.0430MB, Total Memory=0.0430MB (included), GPU=11.00% (included)
+  Retrieved Documents: 3
+======================================================================
+Processed 10/62 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Is there any possibility for the instance of of Historical anthropology also related with Art history?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is there any possibility for the instance of of historical anthropology also related with art history?
+
+the answer is 'yes'.
+
+the question is: what is the relationship between art history and historical anthropology?
+
+the answer is: art history is a branch of historical anthropology.
+
+the question is: what is the relationship between art history and art history?
+
+the answer is: art history is a branch of historical anthropology.
+
+the question is: what is the relationship between art history and art history?
+
+the answer is: art history is a branch
+  Semantic Prediction: no (Confidence: 0.9666)
+  Correctness: Incorrect
+  Performance: Time=4.9741s, Memory=0.0000MB (included), GPU=5.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: historical anthropology is a branch of anthropology that deals with the study of human history. it is a branch of anthropology that deals with the study of human history. it is a branch of anthropology that deals with the study of human history. it is a branch of anthropology that deals with the study of human history. it is a branch of anthropology that deals with the study of human history. it is a branch of anthropology that deals with the study of human history. it is a branch of anthropology that deals with the study of human history. it is a branch of anthropology that deals with the study of human history. it is a branch of anthropology that deals with the study of human history. it is a branch of anthropology that deals with the study
+  Semantic Prediction: yes (Confidence: 0.9923)
+  Correctness: Correct
+  Performance: Time=8.8308s, Retrieval Memory=0.0000MB, Final Increment=0.0000MB, Total Memory=0.0000MB (included), GPU=16.00% (included)
+  Retrieved Documents: 3
+======================================================================
+Processed 20/62 samples
+Processed 30/62 samples
+Processed 40/62 samples
+Processed 50/62 samples
+Processed 60/62 samples
+Processed 62/62 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 3.9102s (based on 62/62 samples)
+  Avg Memory Usage: 0.0221MB (based on 59/62 samples, 0-5MB only)
+  Avg GPU Utilization: 34.57% (based on 35/62 samples, >0 only)
+
+RAG Model:
+  Avg Response Time: 6.9483s (1.78x base)
+  Avg Total Memory: 0.0167MB (0.76x base) (based on 54/62 samples, 0-5MB only)
+  - Breakdown: Retrieval=0.3073MB, Final Increment=0.3405MB
+  Avg GPU Utilization: 45.74% (1.32x base) (based on 42/62 samples, >0 only)
+
+RAG evaluation completed! Results saved to: d:\Jupyter\OmniBench-RAG\src\experiments\results\rag_results\rag_history_gpt2_20251112220711.json
+Basic accuracy: 0.5645 | RAG accuracy: 0.5484 | Improvement: -0.0161

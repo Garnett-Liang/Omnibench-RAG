@@ -4,7 +4,8 @@ import re
 import io
 import json
 import torch
-import requests
+import requests  
+import warnings
 from tqdm import tqdm
 import psutil
 import subprocess
@@ -56,6 +57,7 @@ current_log_file = None
 rag_processes = {}  
 current_rag_log = None
 
+
 class BinaryAnswerClassifier:
     def __init__(self, model_name="distilbert-base-uncased-finetuned-sst-2-english"):
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -79,103 +81,188 @@ class BinaryAnswerClassifier:
 answer_classifier = BinaryAnswerClassifier()
 
 
-
 def extract_valid_answer(full_output: str, prompt: str) -> str:
     prompt_end_idx = full_output.find(prompt) + len(prompt)
     valid_answer = full_output[prompt_end_idx:].strip()
     return valid_answer if valid_answer else full_output
 
-def get_memory_usage():
+def get_memory_usage(samples: int = 3, interval: float = 0.2) -> float:
     process = psutil.Process(os.getpid())
-    memory_info = process.memory_info()
-    return memory_info.rss / (1024 ** 2)  
+    peak = 0
+    for _ in range(samples):
+        mem = process.memory_info().rss / (1024 ** 2)
+        peak = max(peak, mem)
+        time.sleep(interval)
+    return round(peak, 4)
 
-def get_gpu_utilization():
+
+def get_gpu_utilization(samples: int = 3, interval: float = 0.2) -> float:
+
     try:
-        result = subprocess.run(['nvidia-smi', '--query-gpu=utilization.gpu', '--format=csv,noheader,nounits'], capture_output=True, text=True)
-        gpu_utilization = int(result.stdout.strip())
-        return gpu_utilization
-    except Exception as e:
-        print(f"Error getting GPU utilization: {e}")
-        return 0
+
+        result = subprocess.run(
+            ['nvidia-smi', '--query-gpu=utilization.gpu', '--format=csv,noheader,nounits'],
+            capture_output=True,
+            text=True,
+            timeout=5
+        )
+        
+        if result.returncode == 0 and result.stdout.strip():
+            gpu_util = float(result.stdout.strip().split('\n')[0])
+            return round(gpu_util, 2)
+        else:
+            return 0.0
+    except (subprocess.TimeoutExpired, subprocess.SubprocessError, ValueError, IndexError) as e:
+        return 0.0
+    except Exception:
+        return 0.0
 
 def get_device():
-    
+    """统一设备检测函数"""
     if torch.cuda.is_available():
-        return 0  
+        return "cuda"  # 返回字符串而不是数字
     elif torch.backends.mps.is_available():
-        return "mps"  
+        return "mps"
     else:
-        return -1
+        return "cpu"
 
 def generate_answers(model_name, questions):
+    """
+    改进版：记录真实峰值内存与稳定GPU利用率，消除负值与波动。
+    """
+    device = get_device()
+    print(f"Using device: {device}")
+    
     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True, clean_up_tokenization_spaces=False, torch_dtype=torch.float32)
     model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True, is_decoder=True)
+    text_generator = pipeline("text-generation", model=model, tokenizer=tokenizer, device=0 if device == "cuda" else -1)
 
-    text_generator = pipeline("text-generation", model=model, tokenizer=tokenizer, device=0)
+    answers, response_times, memory_peaks, gpu_utils = [], [], [], []
 
+    for question in questions:
+        start_time = time.time()
+        mem_peak_before = get_memory_usage()
+        gpu_avg_before = get_gpu_utilization()
+
+        # 生成答案
+        response = text_generator(question, max_new_tokens=300, num_return_sequences=1)
+        
+        # 再次采样峰值
+        mem_peak_after = get_memory_usage()
+        gpu_avg_after = get_gpu_utilization()
+
+        response_time = time.time() - start_time
+        response_times.append(response_time)
+        memory_peaks.append(max(mem_peak_before, mem_peak_after))
+        gpu_utils.append(max(gpu_avg_before, gpu_avg_after))
+
+        # 解析结果
+        generated_text = response[0]['generated_text'].strip()
+        answer = generated_text[len(question):].strip() if generated_text.startswith(question) else generated_text
+        answers.append(answer if answer else "No answer")
+
+    return answers, response_times, memory_peaks, gpu_utils
+
+
+def generate_answers_with_api(api_config, questions):
+
+    import requests
+    
     answers = []
     response_times = []
-    memory_usages = []
+    memory_peaks = []  # 改为记录内存峰值而不是增量
     gpu_utilizations = []
-
+    
+    headers = {
+        'Content-Type': 'application/json',
+    }
+    
+    if api_config.get('api_key'):
+        headers['Authorization'] = f'Bearer {api_config["api_key"]}'
+    
+    # 格式化提示模板
+    prompt_template = api_config.get('api_prompt_template', 'Answer with "yes" or "no": {question}')
+    
     for question in questions:
         start_time = time.time()
         start_memory = get_memory_usage()
         start_gpu = get_gpu_utilization()
-
-        response = text_generator(question, max_new_tokens=300, num_return_sequences=1)
-
+        
+        # 记录初始内存作为基准
+        current_memory_peak = start_memory
+        
+        # 格式化提示
+        prompt = prompt_template.format(question=question)
+        
+        payload = {
+            'model': api_config['api_model_name'],
+            'messages': [{'role': 'user', 'content': prompt}],
+            'max_tokens': api_config.get('api_max_tokens', 1000),
+            'temperature': 0.1
+        }
+        
+        try:
+            response = requests.post(
+                api_config['api_endpoint'],
+                headers=headers,
+                json=payload,
+                timeout=30
+            )
+            response.raise_for_status()
+            
+            # 解析响应
+            result = response.json()
+            if 'choices' in result and len(result['choices']) > 0:
+                generated_text = result['choices'][0]['message']['content'].strip()
+            else:
+                generated_text = "No answer"
+                
+        except Exception as e:
+            print(f"API call failed: {e}")
+            generated_text = "No answer"
+        
+        # 在API调用后记录内存峰值
         end_time = time.time()
         end_memory = get_memory_usage()
+        current_memory_peak = max(current_memory_peak, end_memory)
         end_gpu = get_gpu_utilization()
-
+        
         response_time = end_time - start_time
         response_times.append(response_time)
-        memory_usages.append(end_memory - start_memory)
+        memory_peaks.append(current_memory_peak)  # 记录峰值而不是增量
         gpu_utilizations.append((start_gpu + end_gpu) / 2)
-
-        generated_text = response[0]['generated_text'].strip()
-
-        if generated_text.startswith(question):
-            answer = generated_text[len(question):].strip()
-        else:
-            answer = generated_text
-        if not answer:
-            answer = "No answer"
-        answers.append(answer)
-
-    return answers, response_times, memory_usages, gpu_utilizations  
+        
+        answers.append(generated_text)
+    
+    return answers, response_times, memory_peaks, gpu_utilizations
 
 
-def evaluate_model(model_name, questions, standard_answers):
-    model_answers, response_times, memory_usages, gpu_utilizations = generate_answers(model_name, questions)
+def evaluate_model_with_api(api_config, questions, standard_answers):
+
+    model_answers, response_times, memory_peaks, gpu_utilizations = generate_answers_with_api(api_config, questions)
 
     basic_correct = 0
     total = len(questions)
     total_response_time = sum(response_times)
     average_response_time = total_response_time / total if total > 0 else 0
 
-    positive_memory_usages = [mem for mem in memory_usages if mem > 0]
-    if positive_memory_usages:
-        average_memory_usage = sum(positive_memory_usages) / len(positive_memory_usages)
-    else:
-        average_memory_usage = 0
+    # 计算内存峰值平均值（不需要过滤，因为峰值都是正值）
+    average_memory_peak = sum(memory_peaks) / len(memory_peaks) if memory_peaks else 0
     average_gpu_utilization = sum(gpu_utilizations) / total if total > 0 else 0
 
-  
 
     results = {
-        "model_name": model_name,
+        "model_name": f"Custom API ({api_config['api_model_name']})",
+        "api_config": api_config,
         "questions": [],
         "basic_accuracy": 0.0,
         "average_response_time": average_response_time,
-        "average_memory_usage": average_memory_usage,
+        "average_memory_usage": average_memory_peak,
         "average_gpu_utilization": average_gpu_utilization,
     }
 
-    for i, (question, model_answer, standard_answer, response_time, memory_usage, gpu_utilization) in enumerate(
-            zip(questions, model_answers, standard_answers, response_times, memory_usages, gpu_utilizations)):
+    for i, (question, model_answer, standard_answer, response_time, memory_peak, gpu_utilization) in enumerate(
+            zip(questions, model_answers, standard_answers, response_times, memory_peaks, gpu_utilizations)):
         raw_reference = standard_answer.strip().lower()
         reference_answer = re.sub(r'[^a-z]', '', raw_reference)
 
@@ -197,7 +284,7 @@ def evaluate_model(model_name, questions, standard_answers):
             "confidence": confidence,
             "is_correct": is_correct,
             "response_time": response_time,
-            "memory_usage": memory_usage,
+            "memory_usage": memory_peak,  # 保存峰值而不是增量
             "gpu_utilization": gpu_utilization
         })
 
@@ -207,7 +294,65 @@ def evaluate_model(model_name, questions, standard_answers):
     return json.dumps(results, indent=4, ensure_ascii=False)
 
 
-def run_evaluation(rule_choice, domain_choice, model_choice, log_file, dataset_source):
+def evaluate_model(model_name, questions, standard_answers):
+    device = get_device()
+    print(f"Using device: {device}")
+    
+    model_answers, response_times, memory_peaks, gpu_utilizations = generate_answers(model_name, questions)
+
+    basic_correct = 0
+    total = len(questions)
+    total_response_time = sum(response_times)
+    average_response_time = total_response_time / total if total > 0 else 0
+
+    # 计算内存峰值平均值（不需要过滤，因为峰值都是正值）
+    average_memory_peak = sum(memory_peaks) / len(memory_peaks) if memory_peaks else 0
+    average_gpu_utilization = sum(gpu_utilizations) / total if total > 0 else 0
+
+
+    results = {
+        "model_name": model_name,
+        "questions": [],
+        "basic_accuracy": 0.0,
+        "average_response_time": average_response_time,
+        "average_memory_usage": average_memory_peak,
+        "average_gpu_utilization": average_gpu_utilization,
+    }
+
+    for i, (question, model_answer, standard_answer, response_time, memory_peak, gpu_utilization) in enumerate(
+            zip(questions, model_answers, standard_answers, response_times, memory_peaks, gpu_utilizations)):
+        raw_reference = standard_answer.strip().lower()
+        reference_answer = re.sub(r'[^a-z]', '', raw_reference)
+
+        predicted_label, confidence = answer_classifier.predict(model_answer)
+
+        if not model_answer or model_answer in ["No answer"]:
+            predicted_label = "none"
+            is_correct = False
+        else:
+            is_correct = (predicted_label == reference_answer)
+            if is_correct:
+                basic_correct += 1
+
+        results["questions"].append({
+            "question": question,
+            "model_answer": model_answer,
+            "reference_answer": reference_answer,
+            "predicted_label": predicted_label,
+            "confidence": confidence,
+            "is_correct": is_correct,
+            "response_time": response_time,
+            "memory_usage": memory_peak,  # 保存峰值而不是增量
+            "gpu_utilization": gpu_utilization
+        })
+
+    basic_accuracy = (basic_correct / total) * 100 if total > 0 else 0
+    results["basic_accuracy"] = basic_accuracy
+
+    return json.dumps(results, indent=4, ensure_ascii=False)
+
+
+def run_evaluation(rule_choice, domain_choice, model_choice, log_file, dataset_source, custom_api_config=None):
     global current_log_file
     current_log_file = log_file
     
@@ -279,17 +424,29 @@ def run_evaluation(rule_choice, domain_choice, model_choice, log_file, dataset_s
                 if not questions or not standard_answers:
                     raise ValueError("No valid questions/answers for evaluation")
                 
-                model_map = {"1": "Qwen/Qwen-1_8B", "2": "gpt2-medium", "3": "EleutherAI/gpt-neo-125M", "4": "microsoft/DialoGPT-medium", "5": "facebook/opt-1.3b"}
-                model_name = model_map.get(model_choice)
-                if not model_name:
-                    raise ValueError(f"Invalid model choice: {model_choice}")
-                
-                print(f"Evaluating with model: {model_name}")
-                json_result = evaluate_model(model_name, questions, standard_answers)
+                # 检查是否使用自定义API
+                if model_choice == "api" and custom_api_config:
+                    print(f"Using custom API: {custom_api_config['api_model_name']}")
+                    json_result = evaluate_model_with_api(custom_api_config, questions, standard_answers)
+                else:
+                    # 传统模型映射
+                    model_map = {"1": "Qwen/Qwen-1_8B", "2": "gpt2-medium", "3": "EleutherAI/gpt-neo-125M", "5": "facebook/opt-1.3b"}
+                    model_name = model_map.get(model_choice)
+                    if not model_name:
+                        raise ValueError(f"Invalid model choice: {model_choice}")
+                    
+                    print(f"Evaluating with model: {model_name}")
+                    json_result = evaluate_model(model_name, questions, standard_answers)
                 
                 # 保存评估结果
                 timestamp = int(time.time())
-                result_filename = f"{reasoning_type}_{domain}_{model_name.replace('/', '_')}_{timestamp}.json"
+                if model_choice == "api":
+                    result_filename = f"{reasoning_type}_{domain}_custom_api_{timestamp}.json"
+                else:
+                    model_map = {"1": "Qwen/Qwen-1_8B", "2": "gpt2-medium", "3": "EleutherAI/gpt-neo-125M", "5": "facebook/opt-1.3b"}
+                    model_name = model_map.get(model_choice, "unknown")
+                    result_filename = f"{reasoning_type}_{domain}_{model_name.replace('/', '_')}_{timestamp}.json"
+                
                 result_path = os.path.join(results_root, result_filename)
                 
                 with open(result_path, "w", encoding="utf-8") as f_result:
@@ -341,9 +498,6 @@ def evaluate_rag_model(model_name, domain, test_questions, top_k):
         elif model_name == "gptneo":
             tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-neo-125M")
             generate_model = AutoModelForCausalLM.from_pretrained("EleutherAI/gpt-neo-125M")
-        elif model_name == "dialogpt":
-            tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium",trust_remote_code=True)
-            generate_model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
         elif model_name == "opt":
             tokenizer = AutoTokenizer.from_pretrained("facebook/opt-1.3b",trust_remote_code=True)
             generate_model = AutoModelForCausalLM.from_pretrained("facebook/opt-1.3b")
@@ -353,7 +507,7 @@ def evaluate_rag_model(model_name, domain, test_questions, top_k):
         return 0.0, 0.0, {}, {}  # 返回空的性能指标
     
     device = get_device()
-    generator = pipeline("text-generation", model=generate_model, tokenizer=tokenizer, device=device)
+    generator = pipeline("text-generation", model=generate_model, tokenizer=tokenizer, device=0 if device == "cuda" else -1)
     
     # 2. Initialize counters and total samples
     basic_correct = 0
@@ -370,7 +524,9 @@ def evaluate_rag_model(model_name, domain, test_questions, top_k):
     
     rag_metrics = {
         "response_time": [],
-        "memory_usage": [],
+        "memory_usage": [],  # 存储检索环节开销 + 最终增量的总和
+        "retrieval_memory": [],  # 单独记录检索环节内存开销
+        "final_increment": [],   # 单独记录最终增量
         "gpu_utilization": []
     }
     
@@ -386,10 +542,10 @@ def evaluate_rag_model(model_name, domain, test_questions, top_k):
         # Clean reference answer (remove punctuation, keep letters only)
         reference_answer = re.sub(r'[^a-z]', '', raw_reference)
         
-        # 基础模型评估（带性能指标）
+        # 基础模型评估（保持原有计算逻辑）
         basic_start_time = time.time()
         basic_start_memory = get_memory_usage()
-        basic_start_gpu = get_gpu_utilization() if torch.cuda.is_available() else 0
+        basic_start_gpu = get_gpu_utilization() if get_device() == "cuda" else 0
         
         basic_prompt = f"Answer with 'yes' or 'no': {question}"
         basic_output = generator(
@@ -410,19 +566,20 @@ def evaluate_rag_model(model_name, domain, test_questions, top_k):
         # 记录基础模型性能指标
         basic_end_time = time.time()
         basic_end_memory = get_memory_usage()
-        basic_end_gpu = get_gpu_utilization() if torch.cuda.is_available() else 0
+        basic_end_gpu = get_gpu_utilization() if get_device() == "cuda" else 0
         
-        # 只记录大于0的值
         basic_time = basic_end_time - basic_start_time
-        basic_mem = basic_end_memory - basic_start_memory
+        basic_mem = basic_end_memory - basic_start_memory  # 仅计算最终增量
         basic_gpu = basic_end_gpu - basic_start_gpu
         
         if basic_time > 0:
             basic_metrics["response_time"].append(basic_time)
-        if basic_mem > 0:
-            basic_metrics["memory_usage"].append(basic_mem)
-        if basic_gpu > 0:
-            basic_metrics["gpu_utilization"].append(basic_gpu)
+        # 基础模型保留原有过滤逻辑（0-5MB，排除异常值）
+        if 0 <= basic_mem <= 5:  
+            basic_metrics["memory_usage"].append(basic_mem)  
+        # GPU利用率仅统计大于0的值（排除无效0值）
+        if basic_gpu > 0:  
+            basic_metrics["gpu_utilization"].append(basic_gpu)  
         
         # Use classifier to predict basic model answer
         basic_prediction, basic_confidence = answer_classifier.predict(basic_answer)
@@ -430,22 +587,28 @@ def evaluate_rag_model(model_name, domain, test_questions, top_k):
         if basic_prediction == reference_answer:
             basic_correct += 1
         
-        # RAG模型评估（带性能指标）
+        # RAG模型评估（修改内存计算逻辑）
         rag_start_time = time.time()
-        rag_start_memory = get_memory_usage()
-        rag_start_gpu = get_gpu_utilization() if torch.cuda.is_available() else 0
+        rag_start_memory = get_memory_usage()  # RAG流程开始时的内存
+        rag_start_gpu = get_gpu_utilization() if get_device() == "cuda" else 0
         
-        # Retrieve relevant documents
+        # 记录检索前的内存（用于计算检索环节开销）
+        pre_retrieval_memory = get_memory_usage()
+        
+        # Retrieve relevant documents（检索环节）
         query_embedding = model.encode(question, convert_to_tensor=True)
         query_embedding_2d = np.expand_dims(query_embedding.cpu().numpy(), axis=0)
         distances, indices = index.search(query_embedding_2d, top_k)
         retrieved_docs = [cleaned_abstracts[i] for i in indices[0] if i < len(cleaned_abstracts)]
         
-        # Build context-aware prompt
+        # 计算检索环节的内存开销（检索后 - 检索前）
+        post_retrieval_memory = get_memory_usage()
+        retrieval_memory = post_retrieval_memory - pre_retrieval_memory
+        
+        # Build context-aware prompt and generate answer（生成环节）
         context = "\n".join(retrieved_docs)
         rag_prompt = f"Context:\n{context}\n\nQuestion: {question}\nAnswer with 'yes' or 'no':"
         
-        # Generate RAG model answer
         rag_output = generator(
             rag_prompt,
             max_new_tokens=150,
@@ -460,7 +623,6 @@ def evaluate_rag_model(model_name, domain, test_questions, top_k):
         if target_pos != -1:
             rag_answer = rag_generated_text[target_pos + len(target_phrase):].strip()
         elif rag_generated_text.startswith(rag_prompt):
-            
             rag_answer = rag_generated_text[len(rag_prompt):].strip()
         else:
             rag_answer = rag_generated_text
@@ -468,19 +630,25 @@ def evaluate_rag_model(model_name, domain, test_questions, top_k):
         # 记录RAG模型性能指标
         rag_end_time = time.time()
         rag_end_memory = get_memory_usage()
-        rag_end_gpu = get_gpu_utilization() if torch.cuda.is_available() else 0
+        rag_end_gpu = get_gpu_utilization() if get_device() == "cuda" else 0
         
-        # 只记录大于0的值
         rag_time = rag_end_time - rag_start_time
-        rag_mem = rag_end_memory - rag_start_memory
+        final_increment = rag_end_memory - rag_start_memory  # 最终增量（整个RAG流程）
+        # RAG总内存开销 = 检索环节开销 + 最终增量
+        rag_total_memory = retrieval_memory + final_increment
         rag_gpu = rag_end_gpu - rag_start_gpu
         
         if rag_time > 0:
             rag_metrics["response_time"].append(rag_time)
-        if rag_mem > 0:
-            rag_metrics["memory_usage"].append(rag_mem)
-        if rag_gpu > 0:
-            rag_metrics["gpu_utilization"].append(rag_gpu)
+        # RAG内存过滤：总内存开销在0-5MB范围内（保留异常值过滤）
+        if 0 <= rag_total_memory <= 5:  
+            rag_metrics["memory_usage"].append(rag_total_memory)
+        # 单独记录检索环节开销和最终增量（用于调试分析）
+        rag_metrics["retrieval_memory"].append(retrieval_memory)
+        rag_metrics["final_increment"].append(final_increment)
+        # GPU利用率仅统计大于0的值（排除无效0值）
+        if rag_gpu > 0:  
+            rag_metrics["gpu_utilization"].append(rag_gpu)  
         
         # Use classifier to predict RAG model answer
         rag_prediction, rag_confidence = answer_classifier.predict(rag_answer)
@@ -499,16 +667,18 @@ def evaluate_rag_model(model_name, domain, test_questions, top_k):
             print(f"  Semantic Prediction: {basic_prediction} (Confidence: {basic_confidence:.4f})")
             print(f"  Correctness: {'Correct' if basic_prediction == reference_answer else 'Incorrect'}")
             print(f"  Performance: Time={basic_time:.4f}s, "
-                  f"Memory={basic_mem:.4f}MB, "
-                  f"GPU={basic_gpu:.2f}%")
+                  f"Memory={basic_mem:.4f}MB ({'included' if 0 <= basic_mem <= 5 else 'excluded'}), "
+                  f"GPU={basic_gpu:.2f}% ({'included' if basic_gpu > 0 else 'excluded'})")
             
             print(f"\nRAG-Enhanced Model:")
             print(f"  Raw Output: {rag_answer}")
             print(f"  Semantic Prediction: {rag_prediction} (Confidence: {rag_confidence:.4f})")
             print(f"  Correctness: {'Correct' if rag_prediction == reference_answer else 'Incorrect'}")
             print(f"  Performance: Time={rag_time:.4f}s, "
-                  f"Memory={rag_mem:.4f}MB, "
-                  f"GPU={rag_gpu:.2f}%")
+                  f"Retrieval Memory={retrieval_memory:.4f}MB, "
+                  f"Final Increment={final_increment:.4f}MB, "
+                  f"Total Memory={rag_total_memory:.4f}MB ({'included' if 0 <= rag_total_memory <=5 else 'excluded'}), "
+                  f"GPU={rag_gpu:.2f}% ({'included' if rag_gpu > 0 else 'excluded'})")
             print(f"  Retrieved Documents: {len(retrieved_docs)}")
             print("=" * 70)  # Separator line
     
@@ -516,7 +686,7 @@ def evaluate_rag_model(model_name, domain, test_questions, top_k):
     basic_accuracy = basic_correct / total if total > 0 else 0
     rag_accuracy = rag_correct / total if total > 0 else 0
     
-    # 计算性能指标平均值（只考虑大于0的值）
+    # 计算性能指标平均值
     basic_avg_metrics = {
         "response_time": sum(basic_metrics["response_time"]) / len(basic_metrics["response_time"]) if basic_metrics["response_time"] else 0,
         "memory_usage": sum(basic_metrics["memory_usage"]) / len(basic_metrics["memory_usage"]) if basic_metrics["memory_usage"] else 0,
@@ -526,6 +696,8 @@ def evaluate_rag_model(model_name, domain, test_questions, top_k):
     rag_avg_metrics = {
         "response_time": sum(rag_metrics["response_time"]) / len(rag_metrics["response_time"]) if rag_metrics["response_time"] else 0,
         "memory_usage": sum(rag_metrics["memory_usage"]) / len(rag_metrics["memory_usage"]) if rag_metrics["memory_usage"] else 0,
+        "retrieval_memory_avg": sum(rag_metrics["retrieval_memory"]) / len(rag_metrics["retrieval_memory"]) if rag_metrics["retrieval_memory"] else 0,
+        "final_increment_avg": sum(rag_metrics["final_increment"]) / len(rag_metrics["final_increment"]) if rag_metrics["final_increment"] else 0,
         "gpu_utilization": sum(rag_metrics["gpu_utilization"]) / len(rag_metrics["gpu_utilization"]) if rag_metrics["gpu_utilization"] else 0
     }
     
@@ -539,18 +711,19 @@ def evaluate_rag_model(model_name, domain, test_questions, top_k):
     print("\n===== Performance Metrics Summary =====")
     print(f"Base Model:")
     print(f"  Avg Response Time: {basic_avg_metrics['response_time']:.4f}s (based on {len(basic_metrics['response_time'])}/{total} samples)")
-    print(f"  Avg Memory Usage: {basic_avg_metrics['memory_usage']:.4f}MB (based on {len(basic_metrics['memory_usage'])}/{total} samples)")
-    print(f"  Avg GPU Utilization: {basic_avg_metrics['gpu_utilization']:.2f}% (based on {len(basic_metrics['gpu_utilization'])}/{total} samples)")
+    print(f"  Avg Memory Usage: {basic_avg_metrics['memory_usage']:.4f}MB (based on {len(basic_metrics['memory_usage'])}/{total} samples, 0-5MB only)")
+    print(f"  Avg GPU Utilization: {basic_avg_metrics['gpu_utilization']:.2f}% (based on {len(basic_metrics['gpu_utilization'])}/{total} samples, >0 only)")
     
     print(f"\nRAG Model:")
     print(f"  Avg Response Time: {rag_avg_metrics['response_time']:.4f}s ({performance_ratios['response_time']:.2f}x base)")
-    print(f"  Avg Memory Usage: {rag_avg_metrics['memory_usage']:.4f}MB ({performance_ratios['memory_usage']:.2f}x base)")
-    print(f"  Avg GPU Utilization: {rag_avg_metrics['gpu_utilization']:.2f}% ({performance_ratios['gpu_utilization']:.2f}x base)")
+    print(f"  Avg Total Memory: {rag_avg_metrics['memory_usage']:.4f}MB ({performance_ratios['memory_usage']:.2f}x base) (based on {len(rag_metrics['memory_usage'])}/{total} samples, 0-5MB only)")
+    print(f"  - Breakdown: Retrieval={rag_avg_metrics['retrieval_memory_avg']:.4f}MB, Final Increment={rag_avg_metrics['final_increment_avg']:.4f}MB")
+    print(f"  Avg GPU Utilization: {rag_avg_metrics['gpu_utilization']:.2f}% ({performance_ratios['gpu_utilization']:.2f}x base) (based on {len(rag_metrics['gpu_utilization'])}/{total} samples, >0 only)")
     
     return basic_accuracy, rag_accuracy, basic_avg_metrics, rag_avg_metrics, performance_ratios
 
 
-def run_rag_evaluation(rule, domain, model_name, top_k, log_file, dataset_source='existing', rag_material_source='strong'):
+def run_rag_evaluation(rule, domain, model_name, top_k, log_file, dataset_source='existing', rag_material_source='strong', custom_api_config=None):
     """Background task for RAG evaluation with performance metrics"""
     global current_rag_log
     current_rag_log = log_file
@@ -688,9 +861,9 @@ def run_rag_evaluation(rule, domain, model_name, top_k, log_file, dataset_source
                 with open(dataset_path, 'r', encoding='utf-8') as f:
                     test_dataset = json.load(f)
 
-                max_samples = 50
+                max_samples = 99
                 if len(test_dataset) > max_samples:
-                    test_dataset = test_dataset[:max_samples]  # 截取前50条
+                    test_dataset = test_dataset[:max_samples]  
                     print(f"Limited dataset to first {max_samples} samples")
 
                 print(f"Loaded {len(test_dataset)} samples from {dataset_path}")
@@ -713,12 +886,23 @@ def run_rag_evaluation(rule, domain, model_name, top_k, log_file, dataset_source
                 
                 # -------------------------- 5. 执行RAG评估 --------------------------
                 print(f"[5/5] Starting RAG evaluation... ({len(test_dataset)} samples)")
-                basic_score, rag_score, basic_metrics, rag_metrics, perf_ratios = evaluate_rag_model(
-                    model_name=model_name,
-                    domain=domain,
-                    test_questions=test_dataset,
-                    top_k=top_k
-                )
+                
+                # 检查是否使用自定义API
+                if model_name == 'api' and custom_api_config:
+                    print(f"Using custom API for RAG evaluation: {custom_api_config['api_model_name']}")
+                    basic_score, rag_score, basic_metrics, rag_metrics, perf_ratios = evaluate_rag_model_with_api(
+                        api_config=custom_api_config,
+                        domain=domain,
+                        test_questions=test_dataset,
+                        top_k=top_k
+                    )
+                else:
+                    basic_score, rag_score, basic_metrics, rag_metrics, perf_ratios = evaluate_rag_model(
+                        model_name=model_name,
+                        domain=domain,
+                        test_questions=test_dataset,
+                        top_k=top_k
+                    )
                 
                 # -------------------------- 6. 保存RAG评估结果 --------------------------
                 timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
@@ -730,7 +914,7 @@ def run_rag_evaluation(rule, domain, model_name, top_k, log_file, dataset_source
                 result_filename = f"rag_{domain}_{model_name}_{timestamp}.json"
                 result_path = os.path.join(rag_results_dir, result_filename)
                 
-                # 组织结果数据
+                                # 组织结果数据
                 result_data = {
                     "rule": rule,
                     "domain": domain,
@@ -751,6 +935,27 @@ def run_rag_evaluation(rule, domain, model_name, top_k, log_file, dataset_source
                         "dataset_size": len(test_dataset)
                     }
                 }
+                
+                # 计算Transformation指标
+                metrics = result_data["metrics"]
+                w_time = 0.4
+                w_gpu = 0.3
+                w_mem = 0.3
+                
+                r_time = metrics.get('performance', {}).get('ratios', {}).get('response_time', 0)
+                r_gpu = metrics.get('performance', {}).get('ratios', {}).get('gpu_utilization', 0)  
+                r_mem = metrics.get('performance', {}).get('ratios', {}).get('memory_usage', 0)
+                
+                transformation = 0.0
+                if r_time != 0:
+                    transformation += w_time / r_time
+                if r_gpu != 0:
+                    transformation += w_gpu / r_gpu
+                if r_mem != 0:
+                    transformation += w_mem / r_mem
+                
+                metrics['transformation'] = round(transformation, 4)
+                result_data["metrics"] = metrics
                 
                 with open(result_path, 'w', encoding='utf-8') as f:
                     json.dump(result_data, f, indent=2, ensure_ascii=False)
@@ -775,3 +980,225 @@ def run_rag_evaluation(rule, domain, model_name, top_k, log_file, dataset_source
         if process_id in rag_processes:
             rag_processes[process_id]["status"] = "error"
             rag_processes[process_id]["error_message"] = str(e)
+
+
+def evaluate_rag_model_with_api(api_config, domain, test_questions, top_k):
+    """RAG evaluation with custom API"""
+    global model, index, cleaned_abstracts  # Use pre-loaded global variables
+    
+    # 1. Initialize API connection
+    headers = {
+        'Content-Type': 'application/json',
+    }
+    
+    if api_config.get('api_key'):
+        headers['Authorization'] = f'Bearer {api_config["api_key"]}'
+    
+    # 格式化提示模板
+    prompt_template = api_config.get('api_prompt_template', 'Context:\n{context}\n\nQuestion: {question}\nAnswer with "yes" or "no":')
+    
+    # 2. Initialize counters and total samples
+    basic_correct = 0
+    rag_correct = 0
+    total = len(test_questions)
+    print(f"Starting evaluation with {total} samples")  
+    
+    # 性能指标收集
+    basic_metrics = {
+        "response_time": [],
+        "memory_usage": [],
+        "gpu_utilization": []
+    }
+    
+    rag_metrics = {
+        "response_time": [],
+        "memory_usage": [],
+        "gpu_utilization": []
+    }
+    
+    # 3. Iterate through test questions with progress tracking
+    for i, question_item in enumerate(test_questions):
+        # Print progress (every 10 samples or last sample)
+        if (i + 1) % 10 == 0 or (i + 1) == total:
+            print(f"Processed {i + 1}/{total} samples")
+        
+        # Extract question and reference answer
+        question = question_item["question"]
+        raw_reference = question_item["answer"].strip().lower()
+        # Clean reference answer (remove punctuation, keep letters only)
+        reference_answer = re.sub(r'[^a-z]', '', raw_reference)
+        
+        # 基础模型评估（使用API）
+        basic_start_time = time.time()
+        basic_start_memory = get_memory_usage()
+        basic_start_gpu = get_gpu_utilization() if get_device() == "cuda" else 0
+        
+        basic_prompt = prompt_template.format(context="", question=question)
+        basic_payload = {
+            'model': api_config['api_model_name'],
+            'messages': [{'role': 'user', 'content': basic_prompt}],
+            'max_tokens': api_config.get('api_max_tokens', 1000),
+            'temperature': 0.1
+        }
+        
+        try:
+            basic_response = requests.post(
+                api_config['api_endpoint'],
+                headers=headers,
+                json=basic_payload,
+                timeout=30
+            )
+            basic_response.raise_for_status()
+            basic_result = basic_response.json()
+            basic_answer = basic_result['choices'][0]['message']['content'].strip().lower()
+        except Exception as e:
+            print(f"Basic API call failed: {e}")
+            basic_answer = "no answer"
+        
+        # 记录基础模型性能指标
+        basic_end_time = time.time()
+        basic_end_memory = get_memory_usage()
+        basic_end_gpu = get_gpu_utilization() if get_device() == "cuda" else 0
+        
+        basic_time = basic_end_time - basic_start_time
+        basic_peak_memory = max(basic_start_memory, basic_end_memory)
+        basic_gpu = basic_end_gpu - basic_start_gpu
+        
+        if basic_time > 0:
+            basic_metrics["response_time"].append(basic_time)
+        # 跳过第一次评估的内存统计以避免模型加载开销的影响
+        if i > 0:  # i > 0 表示不是第一次评估
+            basic_metrics["memory_usage"].append(basic_peak_memory)  # 使用峰值而不是差值
+        if basic_start_gpu >= 0 and basic_end_gpu >= 0:  
+            basic_metrics["gpu_utilization"].append(abs(basic_gpu))  
+        
+        # Use classifier to predict basic model answer
+        basic_prediction, basic_confidence = answer_classifier.predict(basic_answer)
+        # Check correctness
+        if basic_prediction == reference_answer:
+            basic_correct += 1
+        
+        # RAG模型评估（使用API）
+        rag_start_time = time.time()
+        rag_start_memory = get_memory_usage()
+        rag_start_gpu = get_gpu_utilization() if get_device() == "cuda" else 0
+        
+        # Retrieve relevant documents
+        query_embedding = model.encode(question, convert_to_tensor=True)
+        query_embedding_2d = np.expand_dims(query_embedding.cpu().numpy(), axis=0)
+        distances, indices = index.search(query_embedding_2d, top_k)
+        retrieved_docs = [cleaned_abstracts[i] for i in indices[0] if i < len(cleaned_abstracts)]
+        
+        # 记录检索后的内存峰值
+        after_retrieval_memory = get_memory_usage()
+        rag_peak_memory = max(rag_start_memory, after_retrieval_memory)
+        
+        # Build context-aware prompt
+        context = "\n".join(retrieved_docs)
+        rag_prompt = prompt_template.format(context=context, question=question)
+        
+        rag_payload = {
+            'model': api_config['api_model_name'],
+            'messages': [{'role': 'user', 'content': rag_prompt}],
+            'max_tokens': api_config.get('api_max_tokens', 1000),
+            'temperature': 0.1
+        }
+        
+        try:
+            rag_response = requests.post(
+                api_config['api_endpoint'],
+                headers=headers,
+                json=rag_payload,
+                timeout=30
+            )
+            rag_response.raise_for_status()
+            rag_result = rag_response.json()
+            rag_answer = rag_result['choices'][0]['message']['content'].strip().lower()
+        except Exception as e:
+            print(f"RAG API call failed: {e}")
+            rag_answer = "no answer"
+        
+        # 记录RAG模型性能指标
+        rag_end_time = time.time()
+        rag_end_memory = get_memory_usage()
+        rag_end_gpu = get_gpu_utilization() if get_device() == "cuda" else 0
+        
+        rag_time = rag_end_time - rag_start_time
+        rag_peak_memory = max(rag_peak_memory, rag_start_memory, rag_end_memory)
+        rag_gpu = rag_end_gpu - rag_start_gpu
+        
+        if rag_time > 0:
+            rag_metrics["response_time"].append(rag_time)
+        # 跳过第一次评估的内存统计以避免模型加载开销的影响
+        if i > 0:  # i > 0 表示不是第一次评估
+            rag_metrics["memory_usage"].append(rag_peak_memory)  # 使用峰值而不是差值
+        if rag_start_gpu >= 0 and rag_end_gpu >= 0:  
+            rag_metrics["gpu_utilization"].append(abs(rag_gpu))  
+        
+        # Use classifier to predict RAG model answer
+        rag_prediction, rag_confidence = answer_classifier.predict(rag_answer)
+        # Check correctness
+        if rag_prediction == reference_answer:
+            rag_correct += 1
+        
+        # 7. Print detailed debug information for first 10 samples
+        if i < 10:
+            print(f"\n===== Detailed Analysis for Sample {i + 1} =====")
+            print(f"Question: {question}")
+            print(f"Reference Answer: {raw_reference} → Cleaned: {reference_answer}")
+            
+            print(f"\nBase Model (No RAG):")
+            print(f"  Raw Output: {basic_answer}")
+            print(f"  Semantic Prediction: {basic_prediction} (Confidence: {basic_confidence:.4f})")
+            print(f"  Correctness: {'Correct' if basic_prediction == reference_answer else 'Incorrect'}")
+            print(f"  Performance: Time={basic_time:.4f}s, "
+                  f"Memory={basic_peak_memory:.4f}MB, "
+                  f"GPU={basic_gpu:.2f}%")
+            
+            print(f"\nRAG-Enhanced Model:")
+            print(f"  Raw Output: {rag_answer}")
+            print(f"  Semantic Prediction: {rag_prediction} (Confidence: {rag_confidence:.4f})")
+            print(f"  Correctness: {'Correct' if rag_prediction == reference_answer else 'Incorrect'}")
+            print(f"  Performance: Time={rag_time:.4f}s, "
+                  f"Memory={rag_peak_memory:.4f}MB, "
+                  f"GPU={rag_gpu:.2f}%")
+            print(f"  Retrieved Documents: {len(retrieved_docs)}")
+            print("=" * 70)  # Separator line
+    
+    # Calculate accuracy
+    basic_accuracy = basic_correct / total if total > 0 else 0
+    rag_accuracy = rag_correct / total if total > 0 else 0
+    
+    # 计算性能指标平均值（基于峰值）
+    basic_avg_metrics = {
+        "response_time": sum(basic_metrics["response_time"]) / len(basic_metrics["response_time"]) if basic_metrics["response_time"] else 0,
+        "memory_usage": sum(basic_metrics["memory_usage"]) / len(basic_metrics["memory_usage"]) if basic_metrics["memory_usage"] else 0,
+        "gpu_utilization": sum(basic_metrics["gpu_utilization"]) / len(basic_metrics["gpu_utilization"]) if basic_metrics["gpu_utilization"] else 0
+    }
+    
+    rag_avg_metrics = {
+        "response_time": sum(rag_metrics["response_time"]) / len(rag_metrics["response_time"]) if rag_metrics["response_time"] else 0,
+        "memory_usage": sum(rag_metrics["memory_usage"]) / len(rag_metrics["memory_usage"]) if rag_metrics["memory_usage"] else 0,
+        "gpu_utilization": sum(rag_metrics["gpu_utilization"]) / len(rag_metrics["gpu_utilization"]) if rag_metrics["gpu_utilization"] else 0
+    }
+    
+    # 计算增幅（RAG/基础）
+    performance_ratios = {
+        "response_time": rag_avg_metrics["response_time"] / basic_avg_metrics["response_time"] if basic_avg_metrics["response_time"] > 0 else 0,
+        "memory_usage": rag_avg_metrics["memory_usage"] / basic_avg_metrics["memory_usage"] if basic_avg_metrics["memory_usage"] > 0 else 0,
+        "gpu_utilization": rag_avg_metrics["gpu_utilization"] / basic_avg_metrics["gpu_utilization"] if basic_avg_metrics["gpu_utilization"] > 0 else 0
+    }
+    
+    print("\n===== Performance Metrics Summary =====")
+    print(f"Base Model:")
+    print(f"  Avg Response Time: {basic_avg_metrics['response_time']:.4f}s (based on {len(basic_metrics['response_time'])}/{total} samples)")
+    print(f"  Avg Memory Usage: {basic_avg_metrics['memory_usage']:.4f}MB (based on {len(basic_metrics['memory_usage'])}/{total} samples)")
+    print(f"  Avg GPU Utilization: {basic_avg_metrics['gpu_utilization']:.2f}% (based on {len(basic_metrics['gpu_utilization'])}/{total} samples)")
+    
+    print(f"\nRAG Model:")
+    print(f"  Avg Response Time: {rag_metrics['response_time']:.4f}s ({performance_ratios['response_time']:.2f}x base)")
+    print(f"  Avg Memory Usage: {rag_avg_metrics['memory_usage']:.4f}MB ({performance_ratios['memory_usage']:.2f}x base)")
+    print(f"  Avg GPU Utilization: {rag_avg_metrics['gpu_utilization']:.2f}% ({performance_ratios['gpu_utilization']:.2f}x base)")
+    
+    return basic_accuracy, rag_accuracy, basic_avg_metrics, rag_avg_metrics, performance_ratios
+

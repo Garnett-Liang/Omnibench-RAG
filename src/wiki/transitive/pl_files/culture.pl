@@ -7532,6 +7532,10 @@ different_from('cultural_capital', 'cultural_heritage').
 different_from('cultural_heritage', 'culture').
 different_from('fad', 'q3007130').
 different_from('q3007130', 'fashion').
+different_from('fad', 'q3007130').
+different_from('q3007130', 'fashion').
+different_from('spectacle', 'performance').
+different_from('performance', 'q13538566').
 partially_coincident_with('etiquette', 'formality').
 partially_coincident_with('formality', 'conduct').
 partially_coincident_with('etiquette', 'conduct').
@@ -7652,5 +7656,7 @@ said_to_be_the_same_as('boba_liberal', 'limousine_liberal').
 said_to_be_the_same_as('limousine_liberal', 'gauche_caviar').
 studied_by('acculturation', 'sociolinguistics').
 studied_by('sociolinguistics', 'sociolinguistics').
+described_by_source('middlebrow', 'masscult_and_midcult').
+described_by_source('masscult_and_midcult', 'q58276911').
 described_by_source('middlebrow', 'masscult_and_midcult').
 described_by_source('masscult_and_midcult', 'q58276911').

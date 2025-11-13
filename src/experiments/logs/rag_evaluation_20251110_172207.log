@@ -1,0 +1,398 @@
+Starting RAG evaluation - Domain: mathematics, Model: gpt2, Top-K: 6
+Dataset source: existing, RAG material source: strong
+==================================================
+[1/5] Checking and preprocessing mathematics domain data...
+Using Strong Wiki material...
+Strong data already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_cleaned\Strong_mathematics.txt), skipping generation
+[2/5] Checking and building mathematics domain vector index...
+Using Strong Wiki material index...
+Strong index already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\mathematics_index.faiss), loading...
+[3/5] Loading mathematics domain evaluation dataset...
+Using reproducible dataset...
+Loaded 72 samples from d:\Jupyter\OmniBench-RAG\data\dataset\generated\inverse\mathematics_qa.json
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Successfully loaded FAISS index from: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\mathematics_index.faiss
+Loaded 158 preprocessed document chunks
+[5/5] Starting RAG evaluation... (72 samples)
+Starting evaluation with 72 samples
+
+===== Detailed Analysis for Sample 1 =====
+Question: Is it true that University of Tokyo could or could be be the alma mater of Hideki Omori?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that university of tokyo could or could be be the alma mater of hideki omori?
+
+the answer is 'yes'.
+
+omori, a former member of the japanese national police, was arrested in october 2013 for allegedly raping a woman in his apartment. he was sentenced to three years in prison, but was released in february 2014 after serving just one year.
+
+omori was arrested in october 2013 for allegedly raping a woman in his apartment. he was sentenced to three years in prison, but was released in february 2014 after serving just one year.
+  Semantic Prediction: no (Confidence: 0.9866)
+  Correctness: Incorrect
+  Performance: Time=1.7104s, Memory=0.2071MB (included), GPU=-22.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: university of tokyo is the oldest university in japan. it was founded in 1894 by hideki omori, a japanese mathematician. omori was a member of the japanese academy of sciences and was a member of the japanese academy of sciences from 1894 to 1901. omori was a member of the japanese academy of sciences from 1894 to 1901. omori was a member of the japanese academy of sciences from 1894 to 1901. omori was a member of the japanese academy of sciences from 1894 to 1901. omori was a member of the japanese academy of sciences from 1894 to 1901. omori was a member of the japanese academy of sciences from 1894 to 1901. omori
+  Semantic Prediction: yes (Confidence: 0.9964)
+  Correctness: Correct
+  Performance: Time=3.9929s, Retrieval Memory=-19.3242MB, Final Increment=-18.8242MB, Total Memory=-38.1484MB (excluded), GPU=92.00% (included)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 2 =====
+Question: Statement: It's not true that University of Michigan could be be the alma mater of of Sarah-marie belcastro. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that university of michigan could be be the alma mater of of sarah-marie belcastro. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+question: i'm a student at the university of michigan. i'm a member of the student government association. i'm a member of the student government association. i'm a member of the student government association. i'm a member of the student government association. i'm a member of the student government association. i'm a member of the student government association. i'm a member of the student government association. i'm a member of the student government association. i'm a member of the
+  Semantic Prediction: no (Confidence: 0.9955)
+  Correctness: Correct
+  Performance: Time=1.6747s, Memory=0.0391MB (included), GPU=12.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: yes:
+
+no:
+
+question: statement: it's not true that university of michigan could be be the alma mater of sarah-marie belcastro. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: statement: it's not true that university of michigan could be be the alma mater of sarah-marie belcastro. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question:
+  Semantic Prediction: no (Confidence: 0.9942)
+  Correctness: Correct
+  Performance: Time=3.9540s, Retrieval Memory=0.0078MB, Final Increment=0.0273MB, Total Memory=0.0351MB (included), GPU=77.00% (included)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 3 =====
+Question: Could Annie Selden be found of Association for Women in Mathematics?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': could annie selden be found of association for women in mathematics?
+
+the answer is 'yes'.
+
+the answer is 'yes' because annie selden is a member of the association for women in mathematics.
+
+the answer is 'yes' because annie selden is a member of the association for women in mathematics.
+
+the answer is 'yes' because annie selden is a member of the association for women in mathematics.
+
+the answer is 'yes' because annie selden is a member of the association for
+  Semantic Prediction: no (Confidence: 0.9622)
+  Correctness: Incorrect
+  Performance: Time=1.6759s, Memory=0.0078MB (included), GPU=0.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: the association for women in mathematics is a non-profit organization that promotes women's participation in mathematics education. the association for women in mathematics is a non-profit organization that promotes women's participation in mathematics education.
+
+the association for women in mathematics is a non-profit organization that promotes women's participation in mathematics education.
+
+the association for women in mathematics is a non-profit organization that promotes women's participation in mathematics education.
+
+the association for women in mathematics is a non-profit organization that promotes women's participation in mathematics education.
+
+the association for women in mathematics is a non-profit organization that promotes women's participation in mathematics education.
+
+the association for women in mathematics is a non-profit organization
+  Semantic Prediction: yes (Confidence: 0.9978)
+  Correctness: Correct
+  Performance: Time=3.9069s, Retrieval Memory=0.0039MB, Final Increment=0.1368MB, Total Memory=0.1407MB (included), GPU=94.00% (included)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Is it true that Alice T. Schafer could or could be found Association for Women in Mathematics?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that alice t. schafer could or could be found association for women in mathematics?
+
+yes: yes: no:
+
+yes: yes: no:
+
+yes: yes: no:
+
+yes: yes: no:
+
+yes: yes: no:
+
+yes: yes: no:
+
+yes: yes: no:
+
+yes: yes: no:
+
+yes: yes: no:
+
+yes: yes: no:
+
+yes: yes: no:
+
+yes: yes: no:
+
+yes:
+  Semantic Prediction: no (Confidence: 0.9312)
+  Correctness: Incorrect
+  Performance: Time=4.2601s, Memory=0.0000MB (included), GPU=25.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: alice t. schafer american mathematician founding members association women mathematics association women mathematics awm professional society mission encourage women girls study active careers mathematical sciences promote equal opportunity equal treatment women girls mathematical sciences awm founded incorporated state massachusetts awm approximately members including institutional members colleges universities institutes mathematical societies offers numerous programs workshops mentor women girls mathematical sciences awm work supported federal grants
+
+question: is it true that annie laurer alexander selden is an american mathematician?
+
+answer with 'yes' or 'no':
+
+annie laurer alexander selden american mathematician specializing low dimensional topology contributions study knots manifolds mapping class groups surfaces geometric group theory contact structures dynamical systems annie laurer alexander selden research professor emerita barn
+  Semantic Prediction: yes (Confidence: 0.8076)
+  Correctness: Correct
+  Performance: Time=9.1901s, Retrieval Memory=0.0000MB, Final Increment=0.0390MB, Total Memory=0.0390MB (included), GPU=28.00% (included)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Statement: It's not true that Mary W. Gray could be found of Association for Women in Mathematics. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that mary w. gray could be found of association for women in mathematics. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+question: if you were to ask a person to name a single person who has influenced them in their life, who would you choose?
+
+answer with 'mary w. gray': answer with 'yes' or 'no': statement: mary w. gray is a person who has influenced me in my life. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+question: if you were to ask a person to name
+  Semantic Prediction: no (Confidence: 0.9598)
+  Correctness: Correct
+  Performance: Time=5.4828s, Memory=0.0117MB (included), GPU=42.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: mary w. gray american mathematician founding members association women mathematics association women mathematics awm professional society mission encourage women girls study active careers mathematical sciences promote equal opportunity equal treatment women girls mathematical sciences awm founded incorporated state massachusetts awm approximately members including institutional members colleges universities institutes mathematical societies offers numerous programs workshops mentor women girls mathematical sciences awm work supported federal grants
+
+question: statement: mary w. gray is a member of the association for women in mathematics. please answer with yes; otherwise, no. answer with 'yes' or 'no':
+
+mary w. gray american mathematician founding members association women mathematics association women mathematics awm professional society mission encourage women girls study active careers mathematical sciences promote equal opportunity equal treatment women girls mathematical sciences aw
+  Semantic Prediction: yes (Confidence: 0.9256)
+  Correctness: Incorrect
+  Performance: Time=10.0328s, Retrieval Memory=0.0039MB, Final Increment=0.0039MB, Total Memory=0.0078MB (included), GPU=27.00% (included)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Is it true that Gloria Olive could or could be found Association for Women in Mathematics?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': is it true that gloria olive could or could be found association for women in mathematics?
+
+yes: yes
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+
+no: no
+  Semantic Prediction: no (Confidence: 0.9933)
+  Correctness: Incorrect
+  Performance: Time=5.6722s, Memory=0.0156MB (included), GPU=0.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: gloria olive new zealand academic mathematician association women mathematics awm professional society mission encourage women girls study active careers mathematical sciences promote equal opportunity equal treatment women girls mathematical sciences awm founded incorporated state massachusetts awm approximately members including institutional members colleges universities institutes mathematical societies offers numerous programs workshops mentor women girls mathematical sciences awm work supported federal grants
+
+annie laurer alexander selden expert mathematics education professor emeritus tennessee technological university adjunct professor new mexico state university original founders association women mathematics association women mathematics awm professional society mission encourage women girls study active careers mathematical sciences promote equal opportunity equal treatment women girls mathematical sciences awm founded incorporated state massachusetts awm approximately members including institutional members colleges universities institutes mathematical societies offers numerous programs workshops mentor women
+  Semantic Prediction: yes (Confidence: 0.9083)
+  Correctness: Correct
+  Performance: Time=10.3567s, Retrieval Memory=0.0078MB, Final Increment=0.0078MB, Total Memory=0.0156MB (included), GPU=0.00% (excluded)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Statement: It's not true that Joan Birman could be found of Ruth Lyttle Satter Prize in Mathematics. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that joan birman could be found of ruth lyttle satter prize in mathematics. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+question: i have a question about the meaning of the word 'truth'. i have heard that it means 'truth'. is this correct?
+
+answer with 'yes' or 'no': statement: it's not true that joan birman could be found of ruth lyttle satter prize in mathematics. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+question: i have a question about the meaning of the word
+  Semantic Prediction: no (Confidence: 0.9980)
+  Correctness: Correct
+  Performance: Time=5.0174s, Memory=0.0078MB (included), GPU=24.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: ruth lyttle satter prize mathematics called satter prize prizes given american mathematical society ams presented biennially recognition outstanding contribution mathematics research woman previous years award funded donation joan birman memory sister ruth lyttle satter worked primarily biological sciences proponent equal opportunities women science awarded award intended honor satter commitment research encourage women science winner selected council ams based recommendation selection committee prize awarded joint mathematics meetings odd numbered years carried modest cash reward prize prize came prior joint award given prize money split recipients alice turner schafer american mathematician founding members association women mathematics
+
+question: statement: it's not true that joan birman could be found of ruth lyttle satter prize in mathematics. please judge the truth of the above statement. if it is
+  Semantic Prediction: no (Confidence: 0.7986)
+  Correctness: Correct
+  Performance: Time=9.3705s, Retrieval Memory=0.0000MB, Final Increment=0.0977MB, Total Memory=0.0977MB (included), GPU=0.00% (excluded)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Statement: It's not true that Fairfax could be the administrative territorial entity contains of Association for Women in Mathematics. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that fairfax could be the administrative territorial entity contains of association for women in mathematics. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+question: i am a student in the university of sydney. i am interested in the subject of mathematics. i am interested in the subject of mathematics because i want to learn about the subject. i am interested in the subject of mathematics because i want to learn about the subject because i want to learn about the subject. i am interested in the subject of mathematics because i want to learn about the subject because i want to learn about the subject. i am interested in the subject of mathematics because i
+  Semantic Prediction: yes (Confidence: 0.9513)
+  Correctness: Incorrect
+  Performance: Time=5.3263s, Memory=0.0429MB (included), GPU=0.00% (excluded)
+
+RAG-Enhanced Model:
+  Raw Output: fairfax independent city virginia county seat fairfax county virginia united states census population association women mathematics awm professional society mission encourage women girls study active careers mathematical sciences promote equal opportunity equal treatment women girls mathematical sciences awm founded incorporated state massachusetts awm approximately members including institutional members colleges universities institutes mathematical societies offers numerous programs workshops mentor women girls mathematical sciences awm work supported federal grants
+
+fairfax independent city virginia county seat fairfax county virginia united states census population association women mathematics awm professional society mission encourage women girls study active careers mathematical sciences promote equal opportunity equal treatment women girls mathematical sciences awm founded incorporated state massachusetts awm approximately members including institutional members colleges universities institutes mathematical societies offers numerous programs workshops mentor women girls mathematical sciences awm work supported federal grants
+  Semantic Prediction: yes (Confidence: 0.7418)
+  Correctness: Incorrect
+  Performance: Time=10.6602s, Retrieval Memory=0.0000MB, Final Increment=0.0274MB, Total Memory=0.0274MB (included), GPU=18.00% (included)
+  Retrieved Documents: 6
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Does Europe have the possibility to be the administrative territorial entity contains of European Women in Mathematics?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': does europe have the possibility to be the administrative territorial entity contains of european women in mathematics?
+
+the answer is 'yes'.
+
+the european women in mathematics (ewm) project is a project of the european commission, the european union and the european parliament.
+
+the project aims to develop a european women in mathematics (ewm) programme for the study of women in mathematics.
+
+the project aims to develop a european women in mathematics (ewm) programme for the study of women in mathematics.
+
+the project aims to develop a european women in mathematics (ew
+  Semantic Prediction: no (Confidence: 0.5291)
+  Correctness: Incorrect
+  Performance: Time=6.2710s, Memory=0.0078MB (included), GPU=20.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: europe continent located entirely northern hemisphere eastern hemisphere bordered arctic ocean north atlantic ocean west mediterranean sea south asia east europe shares landmass eurasia asia afro eurasia africa asia europe commonly considered separated asia watershed ural mountains ural river caspian sea greater caucasus black sea turkish straits european women mathematics ewm international association women working field mathematics europe association participates political strategic work promote role women mathematics offers members direct support goals include encouraging women study mathematics providing visibility women mathematicians best known organizations devoted women mathematics europe
+
+european women mathematics ewm international association women working field mathematics europe association participates political strategic work promote role women mathematics offers members direct support goals include encouraging women study mathematics providing visibility women mathematicians best known organizations devoted women mathematics europe
+
+european
+  Semantic Prediction: yes (Confidence: 0.9957)
+  Correctness: Correct
+  Performance: Time=10.8820s, Retrieval Memory=0.0000MB, Final Increment=-9.5742MB, Total Memory=-9.5742MB (excluded), GPU=0.00% (excluded)
+  Retrieved Documents: 6
+======================================================================
+Processed 10/72 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Statement: It's not true that Minneapolis could be the administrative territorial entity contains of Graduate Women in Science. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: answer with 'yes' or 'no': statement: it's not true that minneapolis could be the administrative territorial entity contains of graduate women in science. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+question: it's not true that minneapolis could be the administrative territorial entity contains of graduate women in science. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+question: it's not true that minneapolis could be the administrative territorial entity contains of graduate women in science. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no.
+
+question: it's not true that minneapolis
+  Semantic Prediction: no (Confidence: 0.9882)
+  Correctness: Correct
+  Performance: Time=6.0233s, Memory=0.0000MB (included), GPU=46.00% (included)
+
+RAG-Enhanced Model:
+  Raw Output: yes:
+
+no:
+
+question: statement: it's not true that minneapolis could be the administrative territorial entity contains of graduate women in science. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: statement: it's not true that minneapolis could be the administrative territorial entity contains of graduate women in science. please judge the truth of the above statement. if it is true, answer with yes; otherwise, no. answer with 'yes' or 'no':
+
+yes:
+
+no:
+
+question: statement: it's not true that minneapolis could be
+  Semantic Prediction: no (Confidence: 0.9926)
+  Correctness: Correct
+  Performance: Time=8.7967s, Retrieval Memory=0.0000MB, Final Increment=0.0430MB, Total Memory=0.0430MB (included), GPU=12.00% (included)
+  Retrieved Documents: 6
+======================================================================
+Processed 20/72 samples
+Processed 30/72 samples
+Processed 40/72 samples
+Processed 50/72 samples
+Processed 60/72 samples
+Processed 70/72 samples
+Processed 72/72 samples
+
+===== Performance Metrics Summary =====
+Base Model:
+  Avg Response Time: 4.9728s (based on 72/72 samples)
+  Avg Memory Usage: 0.0083MB (based on 70/72 samples, 0-5MB only)
+  Avg GPU Utilization: 27.98% (based on 50/72 samples, >0 only)
+
+RAG Model:
+  Avg Response Time: 8.7901s (1.77x base)
+  Avg Total Memory: 0.0171MB (2.05x base) (based on 63/72 samples, 0-5MB only)
+  - Breakdown: Retrieval=-0.2665MB, Final Increment=-0.7441MB
+  Avg GPU Utilization: 29.58% (1.06x base) (based on 52/72 samples, >0 only)
+
+RAG evaluation completed! Results saved to: d:\Jupyter\OmniBench-RAG\src\experiments\results\rag_results\rag_mathematics_gpt2_20251110174032.json
+Basic accuracy: 0.5000 | RAG accuracy: 0.7500 | Improvement: 0.2500

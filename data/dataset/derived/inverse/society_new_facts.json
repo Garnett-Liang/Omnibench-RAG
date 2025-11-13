@@ -17,7 +17,7 @@
     {
         "category": "society",
         "reasoning": "Inverse Function Inference",
-        "description": "Washington, D.C., formally the District of Columbia and commonly known as Washington or D.C., is the capital city and federal district of the United States. The city is on the Potomac River, across from Virginia, and shares land borders with Maryland to its north and east. It was named after George Washington, the first president of the United States. The district is named for Columbia, the female personification of the nation.\nThe National Postdoctoral Association (NPA) is a nonprofit, 501(c)3 educational organization in the United States that is dedicated to enhancing the quality of the postdoctoral experience for all participants. Since its founding in 2003, more than 200 institutions have adopted portions of the NPA's Recommended Postdoctoral Policies and Practices. Today, the NPA has 240 organizational members, whose research efforts are supported by 70,000 postdocs.",
+        "description": "Washington, D.C., officially the District of Columbia and commonly known as simply Washington or D.C., is the capital city and federal district of the United States. The city is split from Virginia to its southwest by the Potomac River and shares land borders with Maryland to its north and east. It was named after George Washington, who served as the first president of the United States. The district is named for Columbia, the female personification of the nation.\nThe National Postdoctoral Association (NPA) is a nonprofit, 501(c)3 educational organization in the United States that is dedicated to enhancing the quality of the postdoctoral experience for all participants. Since its founding in 2003, more than 200 institutions have adopted portions of the NPA's Recommended Postdoctoral Policies and Practices. Today, the NPA has 240 organizational members, whose research efforts are supported by 70,000 postdocs.",
         "subject": "Washington, D.C.",
         "predicate": "the_administrative_territorial_entity_contains",
         "object": "National Postdoctoral Association",
@@ -32,7 +32,7 @@
     {
         "category": "society",
         "reasoning": "Inverse Function Inference",
-        "description": "Washington, D.C., formally the District of Columbia and commonly known as Washington or D.C., is the capital city and federal district of the United States. The city is on the Potomac River, across from Virginia, and shares land borders with Maryland to its north and east. It was named after George Washington, the first president of the United States. The district is named for Columbia, the female personification of the nation.\nThe National Postdoctoral Association (NPA) is a nonprofit, 501(c)3 educational organization in the United States that is dedicated to enhancing the quality of the postdoctoral experience for all participants. Since its founding in 2003, more than 200 institutions have adopted portions of the NPA's Recommended Postdoctoral Policies and Practices. Today, the NPA has 240 organizational members, whose research efforts are supported by 70,000 postdocs.",
+        "description": "Washington, D.C., officially the District of Columbia and commonly known as simply Washington or D.C., is the capital city and federal district of the United States. The city is split from Virginia to its southwest by the Potomac River and shares land borders with Maryland to its north and east. It was named after George Washington, who served as the first president of the United States. The district is named for Columbia, the female personification of the nation.\nThe National Postdoctoral Association (NPA) is a nonprofit, 501(c)3 educational organization in the United States that is dedicated to enhancing the quality of the postdoctoral experience for all participants. Since its founding in 2003, more than 200 institutions have adopted portions of the NPA's Recommended Postdoctoral Policies and Practices. Today, the NPA has 240 organizational members, whose research efforts are supported by 70,000 postdocs.",
         "subject": "Washington, D.C.",
         "predicate": "the_administrative_territorial_entity_contains",
         "object": "National Postdoctoral Association",
@@ -47,7 +47,7 @@
     {
         "category": "society",
         "reasoning": "Inverse Function Inference",
-        "description": "Washington, D.C., formally the District of Columbia and commonly known as Washington or D.C., is the capital city and federal district of the United States. The city is on the Potomac River, across from Virginia, and shares land borders with Maryland to its north and east. It was named after George Washington, the first president of the United States. The district is named for Columbia, the female personification of the nation.\nThe National Postdoctoral Association (NPA) is a nonprofit, 501(c)3 educational organization in the United States that is dedicated to enhancing the quality of the postdoctoral experience for all participants. Since its founding in 2003, more than 200 institutions have adopted portions of the NPA's Recommended Postdoctoral Policies and Practices. Today, the NPA has 240 organizational members, whose research efforts are supported by 70,000 postdocs.",
+        "description": "Washington, D.C., officially the District of Columbia and commonly known as simply Washington or D.C., is the capital city and federal district of the United States. The city is split from Virginia to its southwest by the Potomac River and shares land borders with Maryland to its north and east. It was named after George Washington, who served as the first president of the United States. The district is named for Columbia, the female personification of the nation.\nThe National Postdoctoral Association (NPA) is a nonprofit, 501(c)3 educational organization in the United States that is dedicated to enhancing the quality of the postdoctoral experience for all participants. Since its founding in 2003, more than 200 institutions have adopted portions of the NPA's Recommended Postdoctoral Policies and Practices. Today, the NPA has 240 organizational members, whose research efforts are supported by 70,000 postdocs.",
         "subject": "Washington, D.C.",
         "predicate": "the_administrative_territorial_entity_contains",
         "object": "National Postdoctoral Association",
@@ -77,6 +77,36 @@
     {
         "category": "society",
         "reasoning": "Inverse Function Inference",
+        "description": "Washington, D.C., officially the District of Columbia and commonly known as simply Washington or D.C., is the capital city and federal district of the United States. The city is split from Virginia to its southwest by the Potomac River and shares land borders with Maryland to its north and east. It was named after George Washington, who served as the first president of the United States. The district is named for Columbia, the female personification of the nation.\nThe National Postdoctoral Association (NPA) is a nonprofit, 501(c)3 educational organization in the United States that is dedicated to enhancing the quality of the postdoctoral experience for all participants. Since its founding in 2003, more than 200 institutions have adopted portions of the NPA's Recommended Postdoctoral Policies and Practices. Today, the NPA has 240 organizational members, whose research efforts are supported by 70,000 postdocs.",
+        "subject": "Washington, D.C.",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "National Postdoctoral Association",
+        "evidence": [
+            [
+                "National Postdoctoral Association",
+                "located in the administrative territorial entity",
+                "Washington, D.C."
+            ]
+        ]
+    },
+    {
+        "category": "society",
+        "reasoning": "Inverse Function Inference",
+        "description": "Washington, D.C., officially the District of Columbia and commonly known as simply Washington or D.C., is the capital city and federal district of the United States. The city is split from Virginia to its southwest by the Potomac River and shares land borders with Maryland to its north and east. It was named after George Washington, who served as the first president of the United States. The district is named for Columbia, the female personification of the nation.\nThe National Postdoctoral Association (NPA) is a nonprofit, 501(c)3 educational organization in the United States that is dedicated to enhancing the quality of the postdoctoral experience for all participants. Since its founding in 2003, more than 200 institutions have adopted portions of the NPA's Recommended Postdoctoral Policies and Practices. Today, the NPA has 240 organizational members, whose research efforts are supported by 70,000 postdocs.",
+        "subject": "Washington, D.C.",
+        "predicate": "the_administrative_territorial_entity_contains",
+        "object": "National Postdoctoral Association",
+        "evidence": [
+            [
+                "National Postdoctoral Association",
+                "located in the administrative territorial entity",
+                "Washington, D.C."
+            ]
+        ]
+    },
+    {
+        "category": "society",
+        "reasoning": "Inverse Function Inference",
         "description": "In ethics and governance, accountability is equated with answerability, culpability, liability, and the expectation of account-giving.\nAs an ethic that spans science, engineering, business, and the humanities, transparency is operating in such a way that it is easy for others to see what actions are performed. Transparency implies openness, communication, and accountability.",
         "subject": "accountability",
         "predicate": "be_the_use_of",
@@ -253,6 +283,51 @@
                 "accountability"
             ]
         ]
+    },
+    {
+        "category": "society",
+        "reasoning": "Inverse Function Inference",
+        "description": "A literary genre is a category of literature. Genres may be determined by literary technique, tone, content, or length. They generally move from more abstract, encompassing classes, which are then further sub-divided into more concrete distinctions. The distinctions between genres and categories are flexible and loosely defined, and even the rules designating genres change over time and are fairly unstable.\nLiterature is any collection of written work, but it is also used more narrowly for writings specifically considered to be an art form, especially novels, plays, and poems. It includes both print and digital writing. In recent centuries, the definition has expanded to include oral literature, much of which has been transcribed. Literature is a method of recording, preserving, and transmitting knowledge and entertainment. It can also have a social, psychological, spiritual, or political role.",
+        "subject": "literary genre",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "literature",
+        "evidence": []
+    },
+    {
+        "category": "society",
+        "reasoning": "Inverse Function Inference",
+        "description": "In literature and other artistic media, a mode is an unspecific critical term usually designating a broad but identifiable kind of literary method, mood, or manner that is not tied exclusively to a particular form or genre. Examples are the satiric mode, the ironic, the comic, the pastoral, and the didactic.\nLiterature is any collection of written work, but it is also used more narrowly for writings specifically considered to be an art form, especially novels, plays, and poems. It includes both print and digital writing. In recent centuries, the definition has expanded to include oral literature, much of which has been transcribed. Literature is a method of recording, preserving, and transmitting knowledge and entertainment. It can also have a social, psychological, spiritual, or political role.",
+        "subject": "mode",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "literature",
+        "evidence": []
+    },
+    {
+        "category": "society",
+        "reasoning": "Inverse Function Inference",
+        "description": "A literary genre is a category of literature. Genres may be determined by literary technique, tone, content, or length. They generally move from more abstract, encompassing classes, which are then further sub-divided into more concrete distinctions. The distinctions between genres and categories are flexible and loosely defined, and even the rules designating genres change over time and are fairly unstable.\nLiterature is any collection of written work, but it is also used more narrowly for writings specifically considered to be an art form, especially novels, plays, and poems. It includes both print and digital writing. In recent centuries, the definition has expanded to include oral literature, much of which has been transcribed. Literature is a method of recording, preserving, and transmitting knowledge and entertainment. It can also have a social, psychological, spiritual, or political role.",
+        "subject": "literary genre",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "literature",
+        "evidence": []
+    },
+    {
+        "category": "society",
+        "reasoning": "Inverse Function Inference",
+        "description": "In literature and other artistic media, a mode is an unspecific critical term usually designating a broad but identifiable kind of literary method, mood, or manner that is not tied exclusively to a particular form or genre. Examples are the satiric mode, the ironic, the comic, the pastoral, and the didactic.\nLiterature is any collection of written work, but it is also used more narrowly for writings specifically considered to be an art form, especially novels, plays, and poems. It includes both print and digital writing. In recent centuries, the definition has expanded to include oral literature, much of which has been transcribed. Literature is a method of recording, preserving, and transmitting knowledge and entertainment. It can also have a social, psychological, spiritual, or political role.",
+        "subject": "mode",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "literature",
+        "evidence": []
+    },
+    {
+        "category": "society",
+        "reasoning": "Inverse Function Inference",
+        "description": "A literary genre is a category of literature. Genres may be determined by literary technique, tone, content, or length. They generally move from more abstract, encompassing classes, which are then further sub-divided into more concrete distinctions. The distinctions between genres and categories are flexible and loosely defined, and even the rules designating genres change over time and are fairly unstable.\nLiterature is any collection of written work, but it is also used more narrowly for writings specifically considered to be an art form, especially novels, plays, and poems. It includes both print and digital writing. In recent centuries, the definition has expanded to include oral literature, much of which has been transcribed. Literature is a method of recording, preserving, and transmitting knowledge and entertainment. It can also have a social, psychological, spiritual, or political role.",
+        "subject": "literary genre",
+        "predicate": "be_the_natural_reservoir_in",
+        "object": "literature",
+        "evidence": []
     },
     {
         "category": "society",

@@ -1,0 +1,220 @@
+[
+    {
+        "category": "health",
+        "reasoning": "Composite Inference",
+        "description": "An enema, also known as a clyster, is the rectal administration of a fluid by injection into the lower bowel via the anus. The word enema can also refer to the liquid injected, as well as to a device for administering such an injection.\nDeath is the end of life, the irreversible cessation of all biological functions that sustain a living organism. Death eventually and inevitably occurs in all organisms. The remains of a former organism normally begin to decompose shortly after death. Some organisms, such as Turritopsis dohrnii, are biologically immortal; however, they can still die from means other than aging. Death is generally applied to whole organisms; the equivalent for individual components of an organism, such as cells or tissues, is necrosis. Something that is not considered an organism can be physically destroyed but is not said to die, as it is not considered alive in the first place.",
+        "subject": "Enema",
+        "predicate": "same_described_by_source",
+        "object": "Death",
+        "evidence": [
+            [
+                "Enema",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "Collier's New Encyclopedia, 1921"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "Great Soviet Encyclopedia (1926–1947)"
+            ],
+            [
+                "Death",
+                "described by source",
+                "Bible Encyclopedia of Archimandrite Nicephorus"
+            ],
+            [
+                "Death",
+                "described by source",
+                "Explanatory Dictionary of the Living Great Russian Language"
+            ],
+            [
+                "Death",
+                "described by source",
+                "Metropolitan Museum of Art Tagging Vocabulary"
+            ],
+            [
+                "Death",
+                "described by source",
+                "Jewish Encyclopedia of Brockhaus and Efron"
+            ],
+            [
+                "Death",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Death",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ]
+        ],
+        "question": "Is it true that Enema and Death have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "health",
+        "reasoning": "Composite Inference",
+        "description": "An enema, also known as a clyster, is the rectal administration of a fluid by injection into the lower bowel via the anus. The word enema can also refer to the liquid injected, as well as to a device for administering such an injection.\nIn epidemiology, case fatality rate (CFR) – or sometimes more accurately case-fatality risk – is the proportion of people who have been diagnosed with a certain disease and end up dying of it. Unlike a disease's mortality rate, the CFR does not take into account the time period between disease onset and death. A CFR is generally expressed as a percentage. It is a measure of disease lethality, and thus may change with different treatments. CFRs are most often used for with discrete, limited-time courses, such as acute infections.",
+        "subject": "Enema",
+        "predicate": "same_described_by_source",
+        "object": "Case fatality rate",
+        "evidence": [
+            [
+                "Enema",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "Collier's New Encyclopedia, 1921"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "Great Soviet Encyclopedia (1926–1947)"
+            ],
+            [
+                "Case fatality rate",
+                "described by source",
+                "Great Soviet Encyclopedia (1926–1947)"
+            ]
+        ],
+        "question": "Is it true that Enema and Case fatality rate have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "health",
+        "reasoning": "Composite Inference",
+        "description": "Death is the end of life, the irreversible cessation of all biological functions that sustain a living organism. Death eventually and inevitably occurs in all organisms. The remains of a former organism normally begin to decompose shortly after death. Some organisms, such as Turritopsis dohrnii, are biologically immortal; however, they can still die from means other than aging. Death is generally applied to whole organisms; the equivalent for individual components of an organism, such as cells or tissues, is necrosis. Something that is not considered an organism can be physically destroyed but is not said to die, as it is not considered alive in the first place.\nAn enema, also known as a clyster, is the rectal administration of a fluid by injection into the lower bowel via the anus. The word enema can also refer to the liquid injected, as well as to a device for administering such an injection.",
+        "subject": "Death",
+        "predicate": "same_described_by_source",
+        "object": "Enema",
+        "evidence": [
+            [
+                "Enema",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "Collier's New Encyclopedia, 1921"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "Great Soviet Encyclopedia (1926–1947)"
+            ],
+            [
+                "Death",
+                "described by source",
+                "Bible Encyclopedia of Archimandrite Nicephorus"
+            ],
+            [
+                "Death",
+                "described by source",
+                "Explanatory Dictionary of the Living Great Russian Language"
+            ],
+            [
+                "Death",
+                "described by source",
+                "Metropolitan Museum of Art Tagging Vocabulary"
+            ],
+            [
+                "Death",
+                "described by source",
+                "Jewish Encyclopedia of Brockhaus and Efron"
+            ],
+            [
+                "Death",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Death",
+                "described by source",
+                "Desktop Encyclopedic Dictionary"
+            ]
+        ],
+        "question": "Is it true that Death and Enema have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "health",
+        "reasoning": "Composite Inference",
+        "description": "In epidemiology, case fatality rate (CFR) – or sometimes more accurately case-fatality risk – is the proportion of people who have been diagnosed with a certain disease and end up dying of it. Unlike a disease's mortality rate, the CFR does not take into account the time period between disease onset and death. A CFR is generally expressed as a percentage. It is a measure of disease lethality, and thus may change with different treatments. CFRs are most often used for with discrete, limited-time courses, such as acute infections.\nAn enema, also known as a clyster, is the rectal administration of a fluid by injection into the lower bowel via the anus. The word enema can also refer to the liquid injected, as well as to a device for administering such an injection.",
+        "subject": "Case fatality rate",
+        "predicate": "same_described_by_source",
+        "object": "Enema",
+        "evidence": [
+            [
+                "Enema",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "The Domestic Encyclopædia; Or, A Dictionary Of Facts, And Useful Knowledge"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "Collier's New Encyclopedia, 1921"
+            ],
+            [
+                "Enema",
+                "described by source",
+                "Great Soviet Encyclopedia (1926–1947)"
+            ],
+            [
+                "Case fatality rate",
+                "described by source",
+                "Great Soviet Encyclopedia (1926–1947)"
+            ]
+        ],
+        "question": "Does Case fatality rate and Enema share totally different described by source?",
+        "answer": "No."
+    }
+]

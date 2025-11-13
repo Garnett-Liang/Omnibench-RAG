@@ -1,0 +1,876 @@
+[
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nArticles related to cryptography include:",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of cryptography articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of cryptography articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ],
+        "question": "Does Index of accounting articles and Index of cryptography articles have the same is a list of?",
+        "answer": "Yes."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nThis is a list of information theory topics.A Mathematical Theory of Communication\nalgorithmic information theory\narithmetic coding\nchannel capacity\nCommunication Theory of Secrecy Systems\nconditional entropy\nconditional quantum entropy\nconfusion and diffusion\ncross-entropy\ndata compression\nentropic uncertainty \nentropy encoding\nentropy \nFisher information\nHick's law\nHuffman coding\ninformation bottleneck method\ninformation theoretic security\ninformation theory\njoint entropy\nKullback–Leibler divergence\nlossless compression\nnegentropy\nnoisy-channel coding theorem \nprinciple of maximum entropy\nquantum information science\nrange encoding\nredundancy \nRényi entropy\nself-information\nShannon–Hartley theorem",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of information theory articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of information theory articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ],
+        "question": "Is it true that Index of accounting articles and Index of information theory articles have the same is a list of?",
+        "answer": "Yes."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nThis is a list of wave topics.",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of wave articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of wave articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ],
+        "question": "Statement: It's not true that Index of accounting articles and Index of wave articles have the same is a list of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nArticles related to cryptography include:",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of cryptography articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of cryptography articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ],
+        "question": "Does Index of accounting articles and Index of cryptography articles have the same is a list of?",
+        "answer": "Yes."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nThis is a list of information theory topics.A Mathematical Theory of Communication\nalgorithmic information theory\narithmetic coding\nchannel capacity\nCommunication Theory of Secrecy Systems\nconditional entropy\nconditional quantum entropy\nconfusion and diffusion\ncross-entropy\ndata compression\nentropic uncertainty \nentropy encoding\nentropy \nFisher information\nHick's law\nHuffman coding\ninformation bottleneck method\ninformation theoretic security\ninformation theory\njoint entropy\nKullback–Leibler divergence\nlossless compression\nnegentropy\nnoisy-channel coding theorem \nprinciple of maximum entropy\nquantum information science\nrange encoding\nredundancy \nRényi entropy\nself-information\nShannon–Hartley theorem",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of information theory articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of information theory articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ],
+        "question": "Does Index of accounting articles and Index of information theory articles share totally different is a list of?",
+        "answer": "No."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nThis is a list of wave topics.",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of wave articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of wave articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ],
+        "question": "Does Index of accounting articles and Index of wave articles have the same is a list of?",
+        "answer": "Yes."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nArticles related to cryptography include:",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of cryptography articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of cryptography articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ],
+        "question": "Statement: It's not true that Index of accounting articles and Index of cryptography articles have the same is a list of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nArticles related to cryptography include:",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of cryptography articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of cryptography articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ],
+        "question": "Is there any possibility for the is a list of of Index of accounting articles also related with Index of cryptography articles?",
+        "answer": "Yes."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nArticles related to cryptography include:",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of cryptography articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of cryptography articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ],
+        "question": "Does Index of accounting articles and Index of cryptography articles share totally different is a list of?",
+        "answer": "No."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nArticles related to cryptography include:",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of cryptography articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of cryptography articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ],
+        "question": "Statement: It's not true that Index of accounting articles and Index of cryptography articles have the same is a list of. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nThis is a list of information theory topics.A Mathematical Theory of Communication\nalgorithmic information theory\narithmetic coding\nchannel capacity\nCommunication Theory of Secrecy Systems\nconditional entropy\nconditional quantum entropy\nconfusion and diffusion\ncross-entropy\ndata compression\nentropic uncertainty \nentropy encoding\nentropy \nFisher information\nHick's law\nHuffman coding\ninformation bottleneck method\ninformation theoretic security\ninformation theory\njoint entropy\nKullback–Leibler divergence\nlossless compression\nnegentropy\nnoisy-channel coding theorem \nprinciple of maximum entropy\nquantum information science\nrange encoding\nredundancy \nRényi entropy\nself-information\nShannon–Hartley theorem",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of information theory articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of information theory articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ],
+        "question": "Does Index of accounting articles and Index of information theory articles share totally different is a list of?",
+        "answer": "No."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nGeodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Geodesy",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ],
+        "question": "Statement: It's not true that Anamorphosis and Geodesy have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nIn mechanics, vibration is oscillatory motion about an equilibrium point. Vibration may be deterministic if the oscillations can be characterised precisely, or random if the oscillations can only be analysed statistically.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Vibration",
+        "evidence": [
+            [
+                "Vibration",
+                "described by source",
+                "Sytin Military Encyclopedia"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Explanatory Dictionary of the Living Great Russian Language"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Great Soviet Encyclopedia (1926–1947)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ],
+        "question": "Statement: It's not true that Anamorphosis and Vibration have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nGeodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Geodesy",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of Anamorphosis also related with Geodesy?",
+        "answer": "Yes."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nGeodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Geodesy",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ],
+        "question": "Does Anamorphosis and Geodesy have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nGeodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Geodesy",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of Anamorphosis also related with Geodesy?",
+        "answer": "Yes."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nGeodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Geodesy",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ],
+        "question": "Statement: It's not true that Anamorphosis and Geodesy have the same described by source. Please judge the truthfulness of the above statement. If it is true, answer with Yes, otherwise No.",
+        "answer": "No."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nGeodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Geodesy",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ],
+        "question": "Does Anamorphosis and Geodesy have the same described by source?",
+        "answer": "Yes."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Geodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.\nAnamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.",
+        "subject": "Geodesy",
+        "predicate": "same_described_by_source",
+        "object": "Anamorphosis",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ],
+        "question": "Does Geodesy and Anamorphosis have completely separate described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Geodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.\nAnamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.",
+        "subject": "Geodesy",
+        "predicate": "same_described_by_source",
+        "object": "Anamorphosis",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ],
+        "question": "Does Geodesy and Anamorphosis share totally different described by source?",
+        "answer": "No."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Geodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.\nIn mechanics, vibration is oscillatory motion about an equilibrium point. Vibration may be deterministic if the oscillations can be characterised precisely, or random if the oscillations can only be analysed statistically.",
+        "subject": "Geodesy",
+        "predicate": "same_described_by_source",
+        "object": "Vibration",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Sytin Military Encyclopedia"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Explanatory Dictionary of the Living Great Russian Language"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Great Soviet Encyclopedia (1926–1947)"
+            ]
+        ],
+        "question": "Is there any possibility for the described by source of Geodesy also related with Vibration?",
+        "answer": "Yes."
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Geodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.\nAnamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.",
+        "subject": "Geodesy",
+        "predicate": "same_described_by_source",
+        "object": "Anamorphosis",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885–1890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ],
+        "question": "Does Geodesy and Anamorphosis share totally different described by source?",
+        "answer": "No."
+    }
+]

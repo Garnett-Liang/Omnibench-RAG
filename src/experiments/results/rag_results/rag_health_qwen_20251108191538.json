@@ -1,0 +1,35 @@
+{
+  "rule": "inverse",
+  "domain": "health",
+  "model_name": "qwen",
+  "evaluation_time": "2025-11-08 19:15:38",
+  "metrics": {
+    "basic_accuracy": 0.41414141414141414,
+    "rag_accuracy": 0.42424242424242425,
+    "improvement": 0.01010101010101011,
+    "performance": {
+      "basic": {
+        "response_time": 9.445432870074956,
+        "memory_usage": 0.020021874999987865,
+        "gpu_utilization": 27.016393442622952
+      },
+      "rag": {
+        "response_time": 13.405062612861094,
+        "memory_usage": 0.05396304347829351,
+        "retrieval_memory_avg": -18.059384848484825,
+        "final_increment_avg": -43.64587171717173,
+        "gpu_utilization": 29.64
+      },
+      "ratios": {
+        "response_time": 1.4192110406428324,
+        "memory_usage": 2.6952042942195082,
+        "gpu_utilization": 1.0971116504854368
+      }
+    },
+    "transformation": 0.6666
+  },
+  "parameters": {
+    "top_k": 5,
+    "dataset_size": 99
+  }
+}

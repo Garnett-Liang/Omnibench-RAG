@@ -2,265 +2,60 @@
     {
         "category": "mathematics",
         "reasoning": "Composite Inference",
-        "description": "Nicholas A. M. Monk is a physicist and mathematician.\nHe is Alexander von Humboldt Foundation German Research Chair at AIMS Ghana and Professor of Mathematical Biology at the University of Sheffield and the University of Ghana. He is known for his works on mathematical biology, pattern formation, and dynamical systems. He earned his PhD in 1994 from Birkbeck College, University of London. His advisor was Basil Hiley.\nHarold Ramkissoon was a Trinidadian mathematician, academic, and science advocate known for his work in fluid dynamics. He served as Professor Emeritus of Mathematics at the University of the West Indies, and was an independent senator of the Parliament of Trinidad and Tobago.",
-        "subject": "Nicholas A. M. Monk",
-        "predicate": "same_sex_or_gender",
-        "object": "Harold Ramkissoon",
-        "evidence": [
-            [
-                "Nicholas A. M. Monk",
-                "sex or gender",
-                "male"
-            ],
-            [
-                "Harold Ramkissoon",
-                "sex or gender",
-                "male"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "Harold Ramkissoon was a Trinidadian mathematician, academic, and science advocate known for his work in fluid dynamics. He served as Professor Emeritus of Mathematics at the University of the West Indies, and was an independent senator of the Parliament of Trinidad and Tobago.\nNicholas A. M. Monk is a physicist and mathematician.\nHe is Alexander von Humboldt Foundation German Research Chair at AIMS Ghana and Professor of Mathematical Biology at the University of Sheffield and the University of Ghana. He is known for his works on mathematical biology, pattern formation, and dynamical systems. He earned his PhD in 1994 from Birkbeck College, University of London. His advisor was Basil Hiley.",
-        "subject": "Harold Ramkissoon",
-        "predicate": "same_sex_or_gender",
-        "object": "Nicholas A. M. Monk",
-        "evidence": [
-            [
-                "Nicholas A. M. Monk",
-                "sex or gender",
-                "male"
-            ],
-            [
-                "Harold Ramkissoon",
-                "sex or gender",
-                "male"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "Lists of mathematics topics cover a variety of topics related to mathematics. Some of these lists link to hundreds of articles; some link only to a few. The template to the right includes links to alphabetical lists of all mathematical articles. This article brings together the same content organized in a manner better suited for browsing.\nLists cover aspects of basic and advanced mathematics, methodology, mathematical statements, integrals, general concepts, mathematical objects, and reference tables.\nThey also cover equations named after people, societies, mathematicians, journals, and meta-lists.\n\nThis page is an index of accounting topics.",
-        "subject": "Lists of mathematics topics",
-        "predicate": "same_instance_of",
-        "object": "Index of accounting articles",
-        "evidence": [
-            [
-                "Lists of mathematics topics",
-                "instance of",
-                "Wikimedia list article"
-            ],
-            [
-                "Index of accounting articles",
-                "instance of",
-                "Wikimedia list article"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "Lists of mathematics topics cover a variety of topics related to mathematics. Some of these lists link to hundreds of articles; some link only to a few. The template to the right includes links to alphabetical lists of all mathematical articles. This article brings together the same content organized in a manner better suited for browsing.\nLists cover aspects of basic and advanced mathematics, methodology, mathematical statements, integrals, general concepts, mathematical objects, and reference tables.\nThey also cover equations named after people, societies, mathematicians, journals, and meta-lists.\n",
-        "subject": "Lists of mathematics topics",
-        "predicate": "same_instance_of",
-        "object": "Index of combinatorics articles",
-        "evidence": [
-            [
-                "Lists of mathematics topics",
-                "instance of",
-                "Wikimedia list article"
-            ],
-            [
-                "Index of combinatorics articles",
-                "instance of",
-                "Wikimedia list article"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "Lists of mathematics topics cover a variety of topics related to mathematics. Some of these lists link to hundreds of articles; some link only to a few. The template to the right includes links to alphabetical lists of all mathematical articles. This article brings together the same content organized in a manner better suited for browsing.\nLists cover aspects of basic and advanced mathematics, methodology, mathematical statements, integrals, general concepts, mathematical objects, and reference tables.\nThey also cover equations named after people, societies, mathematicians, journals, and meta-lists.\n\nArticles related to cryptography include:",
-        "subject": "Lists of mathematics topics",
-        "predicate": "same_instance_of",
+        "description": "\nThis page is an index of accounting topics.\n\nArticles related to cryptography include:",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
         "object": "Index of cryptography articles",
         "evidence": [
             [
-                "Lists of mathematics topics",
-                "instance of",
-                "Wikimedia list article"
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
             ],
             [
                 "Index of cryptography articles",
-                "instance of",
-                "Wikimedia list article"
+                "is a list of",
+                "Wikimedia article page"
             ]
         ]
     },
     {
         "category": "mathematics",
         "reasoning": "Composite Inference",
-        "description": "Lists of mathematics topics cover a variety of topics related to mathematics. Some of these lists link to hundreds of articles; some link only to a few. The template to the right includes links to alphabetical lists of all mathematical articles. This article brings together the same content organized in a manner better suited for browsing.\nLists cover aspects of basic and advanced mathematics, methodology, mathematical statements, integrals, general concepts, mathematical objects, and reference tables.\nThey also cover equations named after people, societies, mathematicians, journals, and meta-lists.\nThis article is a summary of differentiation rules, that is, rules for computing the derivative of a function in calculus.",
-        "subject": "Lists of mathematics topics",
-        "predicate": "same_instance_of",
-        "object": "Differentiation rules",
-        "evidence": [
-            [
-                "Lists of mathematics topics",
-                "instance of",
-                "Wikimedia list article"
-            ],
-            [
-                "Differentiation rules",
-                "instance of",
-                "Wikimedia list article"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "Lists of mathematics topics cover a variety of topics related to mathematics. Some of these lists link to hundreds of articles; some link only to a few. The template to the right includes links to alphabetical lists of all mathematical articles. This article brings together the same content organized in a manner better suited for browsing.\nLists cover aspects of basic and advanced mathematics, methodology, mathematical statements, integrals, general concepts, mathematical objects, and reference tables.\nThey also cover equations named after people, societies, mathematicians, journals, and meta-lists.\n\nThis is a list of information theory topics.A Mathematical Theory of Communication\nalgorithmic information theory\narithmetic coding\nchannel capacity\nCommunication Theory of Secrecy Systems\nconditional entropy\nconditional quantum entropy\nconfusion and diffusion\ncross-entropy\ndata compression\nentropic uncertainty \nentropy encoding\nentropy \nFisher information\nHick's law\nHuffman coding\ninformation bottleneck method\ninformation theoretic security\ninformation theory\njoint entropy\nKullback\u2013Leibler divergence\nlossless compression\nnegentropy\nnoisy-channel coding theorem \nprinciple of maximum entropy\nquantum information science\nrange encoding\nredundancy \nR\u00e9nyi entropy\nself-information\nShannon\u2013Hartley theorem",
-        "subject": "Lists of mathematics topics",
-        "predicate": "same_instance_of",
+        "description": "\nThis page is an index of accounting topics.\n\nThis is a list of information theory topics.A Mathematical Theory of Communication\nalgorithmic information theory\narithmetic coding\nchannel capacity\nCommunication Theory of Secrecy Systems\nconditional entropy\nconditional quantum entropy\nconfusion and diffusion\ncross-entropy\ndata compression\nentropic uncertainty \nentropy encoding\nentropy \nFisher information\nHick's law\nHuffman coding\ninformation bottleneck method\ninformation theoretic security\ninformation theory\njoint entropy\nKullback\u2013Leibler divergence\nlossless compression\nnegentropy\nnoisy-channel coding theorem \nprinciple of maximum entropy\nquantum information science\nrange encoding\nredundancy \nR\u00e9nyi entropy\nself-information\nShannon\u2013Hartley theorem",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
         "object": "Index of information theory articles",
         "evidence": [
             [
-                "Lists of mathematics topics",
-                "instance of",
-                "Wikimedia list article"
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
             ],
             [
                 "Index of information theory articles",
-                "instance of",
-                "Wikimedia list article"
+                "is a list of",
+                "Wikimedia article page"
             ]
         ]
     },
     {
         "category": "mathematics",
         "reasoning": "Composite Inference",
-        "description": "Lists of mathematics topics cover a variety of topics related to mathematics. Some of these lists link to hundreds of articles; some link only to a few. The template to the right includes links to alphabetical lists of all mathematical articles. This article brings together the same content organized in a manner better suited for browsing.\nLists cover aspects of basic and advanced mathematics, methodology, mathematical statements, integrals, general concepts, mathematical objects, and reference tables.\nThey also cover equations named after people, societies, mathematicians, journals, and meta-lists.\nThis article gives a table of some common Lie groups and their associated Lie algebras.",
-        "subject": "Lists of mathematics topics",
-        "predicate": "same_instance_of",
-        "object": "Table of Lie groups",
+        "description": "\nThis page is an index of accounting topics.\n\nThis is a list of wave topics.",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of wave articles",
         "evidence": [
             [
-                "Lists of mathematics topics",
-                "instance of",
-                "Wikimedia list article"
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
             ],
             [
-                "Table of Lie groups",
-                "instance of",
-                "Wikimedia list article"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "Lists of mathematics topics cover a variety of topics related to mathematics. Some of these lists link to hundreds of articles; some link only to a few. The template to the right includes links to alphabetical lists of all mathematical articles. This article brings together the same content organized in a manner better suited for browsing.\nLists cover aspects of basic and advanced mathematics, methodology, mathematical statements, integrals, general concepts, mathematical objects, and reference tables.\nThey also cover equations named after people, societies, mathematicians, journals, and meta-lists.\nIn mathematics, a Newtonian series, named after Isaac Newton, is a sum over a sequence  written in the form",
-        "subject": "Lists of mathematics topics",
-        "predicate": "same_instance_of",
-        "object": "Table of Newtonian series",
-        "evidence": [
-            [
-                "Lists of mathematics topics",
-                "instance of",
-                "Wikimedia list article"
-            ],
-            [
-                "Table of Newtonian series",
-                "instance of",
-                "Wikimedia list article"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "Lists of mathematics topics cover a variety of topics related to mathematics. Some of these lists link to hundreds of articles; some link only to a few. The template to the right includes links to alphabetical lists of all mathematical articles. This article brings together the same content organized in a manner better suited for browsing.\nLists cover aspects of basic and advanced mathematics, methodology, mathematical statements, integrals, general concepts, mathematical objects, and reference tables.\nThey also cover equations named after people, societies, mathematicians, journals, and meta-lists.\n\n\nThe tables contain the prime factorization of the natural numbers from 1 to 1000.",
-        "subject": "Lists of mathematics topics",
-        "predicate": "same_instance_of",
-        "object": "Table of prime factors",
-        "evidence": [
-            [
-                "Lists of mathematics topics",
-                "instance of",
-                "Wikimedia list article"
-            ],
-            [
-                "Table of prime factors",
-                "instance of",
-                "Wikimedia list article"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "Lists of mathematics topics cover a variety of topics related to mathematics. Some of these lists link to hundreds of articles; some link only to a few. The template to the right includes links to alphabetical lists of all mathematical articles. This article brings together the same content organized in a manner better suited for browsing.\nLists cover aspects of basic and advanced mathematics, methodology, mathematical statements, integrals, general concepts, mathematical objects, and reference tables.\nThey also cover equations named after people, societies, mathematicians, journals, and meta-lists.\nThe following table lists many specialized symbols commonly used in modern mathematics, ordered by their introduction date.",
-        "subject": "Lists of mathematics topics",
-        "predicate": "same_instance_of",
-        "object": "Table of mathematical symbols by introduction date",
-        "evidence": [
-            [
-                "Lists of mathematics topics",
-                "instance of",
-                "Wikimedia list article"
-            ],
-            [
-                "Table of mathematical symbols by introduction date",
-                "instance of",
-                "Wikimedia list article"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "Lists of mathematics topics cover a variety of topics related to mathematics. Some of these lists link to hundreds of articles; some link only to a few. The template to the right includes links to alphabetical lists of all mathematical articles. This article brings together the same content organized in a manner better suited for browsing.\nLists cover aspects of basic and advanced mathematics, methodology, mathematical statements, integrals, general concepts, mathematical objects, and reference tables.\nThey also cover equations named after people, societies, mathematicians, journals, and meta-lists.\nThe following outline is provided as an overview of and topical guide to trigonometry:",
-        "subject": "Lists of mathematics topics",
-        "predicate": "same_instance_of",
-        "object": "Outline of trigonometry",
-        "evidence": [
-            [
-                "Lists of mathematics topics",
-                "instance of",
-                "Wikimedia list article"
-            ],
-            [
-                "Outline of trigonometry",
-                "instance of",
-                "Wikimedia list article"
-            ],
-            [
-                "Outline of trigonometry",
-                "instance of",
-                "Wikimedia outline article"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "Lists of mathematics topics cover a variety of topics related to mathematics. Some of these lists link to hundreds of articles; some link only to a few. The template to the right includes links to alphabetical lists of all mathematical articles. This article brings together the same content organized in a manner better suited for browsing.\nLists cover aspects of basic and advanced mathematics, methodology, mathematical statements, integrals, general concepts, mathematical objects, and reference tables.\nThey also cover equations named after people, societies, mathematicians, journals, and meta-lists.\nThe following are important identities involving derivatives and integrals in vector calculus.",
-        "subject": "Lists of mathematics topics",
-        "predicate": "same_instance_of",
-        "object": "Vector calculus identities",
-        "evidence": [
-            [
-                "Lists of mathematics topics",
-                "instance of",
-                "Wikimedia list article"
-            ],
-            [
-                "Vector calculus identities",
-                "instance of",
-                "Wikimedia list article"
+                "Index of wave articles",
+                "is a list of",
+                "Wikimedia article page"
             ]
         ]
     },
@@ -327,93 +122,93 @@
     {
         "category": "mathematics",
         "reasoning": "Composite Inference",
-        "description": "\nArticles related to cryptography include:\n\nThis page is an index of accounting topics.",
-        "subject": "Index of cryptography articles",
-        "predicate": "same_is_a_list_of",
-        "object": "Index of accounting articles",
-        "evidence": [
-            [
-                "Index of accounting articles",
-                "is a list of",
-                "Wikimedia article page"
-            ],
-            [
-                "Index of cryptography articles",
-                "is a list of",
-                "Wikimedia article page"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "\nArticles related to cryptography include:\n\nThis is a list of information theory topics.A Mathematical Theory of Communication\nalgorithmic information theory\narithmetic coding\nchannel capacity\nCommunication Theory of Secrecy Systems\nconditional entropy\nconditional quantum entropy\nconfusion and diffusion\ncross-entropy\ndata compression\nentropic uncertainty \nentropy encoding\nentropy \nFisher information\nHick's law\nHuffman coding\ninformation bottleneck method\ninformation theoretic security\ninformation theory\njoint entropy\nKullback\u2013Leibler divergence\nlossless compression\nnegentropy\nnoisy-channel coding theorem \nprinciple of maximum entropy\nquantum information science\nrange encoding\nredundancy \nR\u00e9nyi entropy\nself-information\nShannon\u2013Hartley theorem",
-        "subject": "Index of cryptography articles",
-        "predicate": "same_is_a_list_of",
-        "object": "Index of information theory articles",
-        "evidence": [
-            [
-                "Index of cryptography articles",
-                "is a list of",
-                "Wikimedia article page"
-            ],
-            [
-                "Index of information theory articles",
-                "is a list of",
-                "Wikimedia article page"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "\nArticles related to cryptography include:\n\nThis is a list of wave topics.",
-        "subject": "Index of cryptography articles",
-        "predicate": "same_is_a_list_of",
-        "object": "Index of wave articles",
-        "evidence": [
-            [
-                "Index of cryptography articles",
-                "is a list of",
-                "Wikimedia article page"
-            ],
-            [
-                "Index of wave articles",
-                "is a list of",
-                "Wikimedia article page"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "\nThis is a list of information theory topics.A Mathematical Theory of Communication\nalgorithmic information theory\narithmetic coding\nchannel capacity\nCommunication Theory of Secrecy Systems\nconditional entropy\nconditional quantum entropy\nconfusion and diffusion\ncross-entropy\ndata compression\nentropic uncertainty \nentropy encoding\nentropy \nFisher information\nHick's law\nHuffman coding\ninformation bottleneck method\ninformation theoretic security\ninformation theory\njoint entropy\nKullback\u2013Leibler divergence\nlossless compression\nnegentropy\nnoisy-channel coding theorem \nprinciple of maximum entropy\nquantum information science\nrange encoding\nredundancy \nR\u00e9nyi entropy\nself-information\nShannon\u2013Hartley theorem\n\nThis page is an index of accounting topics.",
-        "subject": "Index of information theory articles",
-        "predicate": "same_is_a_list_of",
-        "object": "Index of accounting articles",
-        "evidence": [
-            [
-                "Index of accounting articles",
-                "is a list of",
-                "Wikimedia article page"
-            ],
-            [
-                "Index of information theory articles",
-                "is a list of",
-                "Wikimedia article page"
-            ]
-        ]
-    },
-    {
-        "category": "mathematics",
-        "reasoning": "Composite Inference",
-        "description": "\nThis is a list of information theory topics.A Mathematical Theory of Communication\nalgorithmic information theory\narithmetic coding\nchannel capacity\nCommunication Theory of Secrecy Systems\nconditional entropy\nconditional quantum entropy\nconfusion and diffusion\ncross-entropy\ndata compression\nentropic uncertainty \nentropy encoding\nentropy \nFisher information\nHick's law\nHuffman coding\ninformation bottleneck method\ninformation theoretic security\ninformation theory\njoint entropy\nKullback\u2013Leibler divergence\nlossless compression\nnegentropy\nnoisy-channel coding theorem \nprinciple of maximum entropy\nquantum information science\nrange encoding\nredundancy \nR\u00e9nyi entropy\nself-information\nShannon\u2013Hartley theorem\n\nArticles related to cryptography include:",
-        "subject": "Index of information theory articles",
+        "description": "\nThis page is an index of accounting topics.\n\nArticles related to cryptography include:",
+        "subject": "Index of accounting articles",
         "predicate": "same_is_a_list_of",
         "object": "Index of cryptography articles",
         "evidence": [
             [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
                 "Index of cryptography articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nArticles related to cryptography include:",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of cryptography articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of cryptography articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nArticles related to cryptography include:",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of cryptography articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of cryptography articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nArticles related to cryptography include:",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of cryptography articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
+                "is a list of",
+                "Wikimedia article page"
+            ],
+            [
+                "Index of cryptography articles",
+                "is a list of",
+                "Wikimedia article page"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "\nThis page is an index of accounting topics.\n\nThis is a list of information theory topics.A Mathematical Theory of Communication\nalgorithmic information theory\narithmetic coding\nchannel capacity\nCommunication Theory of Secrecy Systems\nconditional entropy\nconditional quantum entropy\nconfusion and diffusion\ncross-entropy\ndata compression\nentropic uncertainty \nentropy encoding\nentropy \nFisher information\nHick's law\nHuffman coding\ninformation bottleneck method\ninformation theoretic security\ninformation theory\njoint entropy\nKullback\u2013Leibler divergence\nlossless compression\nnegentropy\nnoisy-channel coding theorem \nprinciple of maximum entropy\nquantum information science\nrange encoding\nredundancy \nR\u00e9nyi entropy\nself-information\nShannon\u2013Hartley theorem",
+        "subject": "Index of accounting articles",
+        "predicate": "same_is_a_list_of",
+        "object": "Index of information theory articles",
+        "evidence": [
+            [
+                "Index of accounting articles",
                 "is a list of",
                 "Wikimedia article page"
             ],
@@ -427,20 +222,610 @@
     {
         "category": "mathematics",
         "reasoning": "Composite Inference",
-        "description": "\nThis is a list of information theory topics.A Mathematical Theory of Communication\nalgorithmic information theory\narithmetic coding\nchannel capacity\nCommunication Theory of Secrecy Systems\nconditional entropy\nconditional quantum entropy\nconfusion and diffusion\ncross-entropy\ndata compression\nentropic uncertainty \nentropy encoding\nentropy \nFisher information\nHick's law\nHuffman coding\ninformation bottleneck method\ninformation theoretic security\ninformation theory\njoint entropy\nKullback\u2013Leibler divergence\nlossless compression\nnegentropy\nnoisy-channel coding theorem \nprinciple of maximum entropy\nquantum information science\nrange encoding\nredundancy \nR\u00e9nyi entropy\nself-information\nShannon\u2013Hartley theorem\n\nThis is a list of wave topics.",
-        "subject": "Index of information theory articles",
-        "predicate": "same_is_a_list_of",
-        "object": "Index of wave articles",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nGeodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Geodesy",
         "evidence": [
             [
-                "Index of information theory articles",
-                "is a list of",
-                "Wikimedia article page"
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
             ],
             [
-                "Index of wave articles",
-                "is a list of",
-                "Wikimedia article page"
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nIn mechanics, vibration is oscillatory motion about an equilibrium point. Vibration may be deterministic if the oscillations can be characterised precisely, or random if the oscillations can only be analysed statistically.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Vibration",
+        "evidence": [
+            [
+                "Vibration",
+                "described by source",
+                "Sytin Military Encyclopedia"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Explanatory Dictionary of the Living Great Russian Language"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Great Soviet Encyclopedia (1926\u20131947)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nGeodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Geodesy",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nGeodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Geodesy",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nGeodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Geodesy",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nGeodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Geodesy",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Anamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.\nGeodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.",
+        "subject": "Anamorphosis",
+        "predicate": "same_described_by_source",
+        "object": "Geodesy",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Geodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.\nAnamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.",
+        "subject": "Geodesy",
+        "predicate": "same_described_by_source",
+        "object": "Anamorphosis",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Geodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.\nAnamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.",
+        "subject": "Geodesy",
+        "predicate": "same_described_by_source",
+        "object": "Anamorphosis",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Geodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.\nIn mechanics, vibration is oscillatory motion about an equilibrium point. Vibration may be deterministic if the oscillations can be characterised precisely, or random if the oscillations can only be analysed statistically.",
+        "subject": "Geodesy",
+        "predicate": "same_described_by_source",
+        "object": "Vibration",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Sytin Military Encyclopedia"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Explanatory Dictionary of the Living Great Russian Language"
+            ],
+            [
+                "Vibration",
+                "described by source",
+                "Great Soviet Encyclopedia (1926\u20131947)"
+            ]
+        ]
+    },
+    {
+        "category": "mathematics",
+        "reasoning": "Composite Inference",
+        "description": "Geodesy or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems.\nAnamorphosis is a distorted projection that requires the viewer to occupy a specific vantage point, use special devices, or both to view a recognizable image. It is used in painting, photography, sculpture and installation, toys, and film special effects. The word is derived from the Greek prefix ana-, meaning \"back\" or \"again\", and the word morphe, meaning \"shape\" or \"form\". Extreme anamorphosis has been used by artists to disguise caricatures, erotic and scatological scenes, and other furtive images from a casual spectator, while revealing an undistorted image to the knowledgeable viewer.",
+        "subject": "Geodesy",
+        "predicate": "same_described_by_source",
+        "object": "Anamorphosis",
+        "evidence": [
+            [
+                "Geodesy",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Granat Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Armenian Soviet Encyclopedia, vol. 3"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Small Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Geodesy",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Brockhaus and Efron Encyclopedic Dictionary"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Meyers Konversations-Lexikon, 4th edition (1885\u20131890)"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Encyclopedic Lexicon"
+            ],
+            [
+                "Anamorphosis",
+                "described by source",
+                "Q131308011"
             ]
         ]
     }

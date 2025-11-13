@@ -1,0 +1,33 @@
+{
+  "rule": "inverse",
+  "domain": "geography",
+  "model_name": "qwen",
+  "evaluation_time": "2025-11-08 17:38:26",
+  "metrics": {
+    "basic_accuracy": 0.696969696969697,
+    "rag_accuracy": 0.797979797979798,
+    "improvement": 0.101010101010101,
+    "performance": {
+      "basic": {
+        "response_time": 6.699665084029689,
+        "memory_usage": 0.04084895833333609,
+        "gpu_utilization": 21.737373737373737
+      },
+      "rag": {
+        "response_time": 9.007926196763009,
+        "memory_usage": 0.14644239130435804,
+        "gpu_utilization": 21.727272727272727
+      },
+      "ratios": {
+        "response_time": 1.3445338063593106,
+        "memory_usage": 3.5849724761487756,
+        "gpu_utilization": 0.9995353159851301
+      }
+    },
+    "transformation": 0.6813
+  },
+  "parameters": {
+    "top_k": 5,
+    "dataset_size": 99
+  }
+}

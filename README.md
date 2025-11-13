@@ -47,6 +47,13 @@
 - **Strong RAG Material Comparison**: Enable users to utilize highly relevant *Strong RAG materials* (generated alongside dynamic dataset creation) for performance comparison.
 - **Autonomous Exploration**: Facilitate users in conducting self-directed exploration and experimentation with RAG workflows.
 
+#### Results Visualization and Analysis
+- **Interactive Performance Dashboard**: Real-time visualization of evaluation results through an intuitive web interface, displaying comprehensive performance metrics across all evaluated domains.
+- **Radar Chart Generation**: Automatically generate multi-domain radar charts comparing Basic vs RAG model performance, enabling visual comparison of accuracy improvements across nine knowledge domains.
+- **Statistical Analysis**: Comprehensive statistical aggregation including average accuracy, improvement rates, transformation metrics, and resource utilization across domains.
+- **Multi-Format Export**: Support multiple output formats including JSON results, high-resolution PNG charts, and interactive web visualizations for research publication and analysis.
+- **Cross-Model Comparison**: Compare performance metrics across different models (Qwen, GPT-2, GPT-Neo, OPT) to identify model-specific RAG enhancement patterns.
+
 ---
 
 ##  System Architecture
@@ -183,7 +190,7 @@ For detailed installation and deployment instructions, see [docs/quick_start.md]
 | **prolog_inference.py** | Prolog-based logical reasoning engine |
 | **rule_generation.py** | Automated inference rule generation |
 | **question_generation.py** | Multi-type question template system |
-
+| **statistics_utils.py** | Statistical analysis and radar chart generation for result visualization |
 
 ---
 For comprehensive information about each module and component, see [docs/module_details.md](docs/module_details.md)
@@ -242,6 +249,40 @@ Generate dynamic datasets based on Wikidata knowledge extraction.
 }
 ```
 
+#### 6. GET /api/statistics/{model_id}
+Retrieve comprehensive statistics for a specified model across all evaluated domains.
+
+**Response**:
+```json
+{
+  "status": "success",
+  "statistics": {
+    "model_id": "1",
+    "model_name": "qwen",
+    "domains": {
+      "geography": {
+        "basic_accuracy": 0.66,
+        "rag_accuracy": 0.83,
+        "improvement": 0.17,
+        "transformation": 0.8412,
+        "dataset_size": 100
+      }
+    }
+  }
+}
+```
+
+#### 7. GET /api/radar_chart/{model_id}
+Generate and retrieve radar chart visualization for a specified model's performance across all domains.
+
+**Response**:
+```json
+{
+  "status": "success",
+  "chart_base64": "iVBORw0KGgoAAAANSUhEUgAA...",
+  "model_id": "1"
+}
+```
 
 ---
 
@@ -263,15 +304,6 @@ Generate dynamic datasets based on Wikidata knowledge extraction.
 ##  License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-##  Contact
-
-- **Maintainer**: Garnett Liang
-- **Email**: liangjx@hust.edu.cn
-- **GitHub Issues**: [Open an Issue](https://github.com/Garnett-Liang/Omnibench-RAG/issues)
-- **Documentation**: [Project Wiki](https://github.com/Garnett-Liang/Omnibench-RAG/wiki)
 
 ---
 

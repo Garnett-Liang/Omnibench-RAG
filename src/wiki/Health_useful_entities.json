@@ -98,5 +98,109 @@
     {
         "entity": "http://www.wikidata.org/entity/Q65051719",
         "entityLabel": "Cycling mobility"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5690909",
+        "entityLabel": "Health consequences of the Deepwater Horizon oil spill"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q131860709",
+        "entityLabel": "Effects of climate change on health in the United Kingdom"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2979220",
+        "entityLabel": "Effects of climate change on human health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q65090615",
+        "entityLabel": "Effects of flooding on skin"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5347379",
+        "entityLabel": "Effects of nuclear explosions on human health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q14932259",
+        "entityLabel": "Electromagnetic radiation and health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1430548",
+        "entityLabel": "Effects of climate change"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q16820782",
+        "entityLabel": "GuLF Study"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5381256",
+        "entityLabel": "Health and environmental impact of the petroleum industry"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q123134583",
+        "entityLabel": "Health impacts of sawdust"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q42417521",
+        "entityLabel": "Incarceration and health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6449736",
+        "entityLabel": "Kvikk case"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q6546168",
+        "entityLabel": "Light effects on circadian rhythm"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5690960",
+        "entityLabel": "Health impact of light rail systems"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q124750856",
+        "entityLabel": "Microplastics and human health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4117845",
+        "entityLabel": "Health effects from noise"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q28134681",
+        "entityLabel": "Effects of overtime"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q10302339",
+        "entityLabel": "Health effects of pesticides"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7307660",
+        "entityLabel": "Refugee health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2059842",
+        "entityLabel": "Health effects arising from the September 11 attacks"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5347381",
+        "entityLabel": "Effects of sleep deprivation on cognitive performance"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7551049",
+        "entityLabel": "Social determinants of obesity"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5690942",
+        "entityLabel": "Health effects of sunlight exposure"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5381258",
+        "entityLabel": "Health and environmental effects of transport"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q612254",
+        "entityLabel": "Wireless device radiation and health"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q106856548",
+        "entityLabel": "Health effects of wood smoke"
     }
 ]

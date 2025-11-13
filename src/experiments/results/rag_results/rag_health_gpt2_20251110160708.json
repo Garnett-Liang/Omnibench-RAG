@@ -1,0 +1,35 @@
+{
+  "rule": "inverse",
+  "domain": "health",
+  "model_name": "gpt2",
+  "evaluation_time": "2025-11-10 16:07:08",
+  "metrics": {
+    "basic_accuracy": 0.42424242424242425,
+    "rag_accuracy": 0.45454545454545453,
+    "improvement": 0.030303030303030276,
+    "performance": {
+      "basic": {
+        "response_time": 5.67748151403485,
+        "memory_usage": 0.007521052631580006,
+        "gpu_utilization": 27.104166666666668
+      },
+      "rag": {
+        "response_time": 9.57614572842916,
+        "memory_usage": 0.024847872340428283,
+        "retrieval_memory_avg": -0.07370707070707039,
+        "final_increment_avg": -0.09915656565656412,
+        "gpu_utilization": 22.178571428571427
+      },
+      "ratios": {
+        "response_time": 1.6866890195514916,
+        "memory_usage": 3.3037758885099437,
+        "gpu_utilization": 0.8182716591632809
+      }
+    },
+    "transformation": 0.6946
+  },
+  "parameters": {
+    "top_k": 7,
+    "dataset_size": 99
+  }
+}

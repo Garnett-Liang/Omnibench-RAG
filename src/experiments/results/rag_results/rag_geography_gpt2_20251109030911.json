@@ -1,0 +1,35 @@
+{
+  "rule": "inverse",
+  "domain": "geography",
+  "model_name": "gpt2",
+  "evaluation_time": "2025-11-09 03:09:11",
+  "metrics": {
+    "basic_accuracy": 0.46464646464646464,
+    "rag_accuracy": 0.5757575757575758,
+    "improvement": 0.11111111111111116,
+    "performance": {
+      "basic": {
+        "response_time": 8.633474826812744,
+        "memory_usage": 0.007187234042552919,
+        "gpu_utilization": 10.131578947368421
+      },
+      "rag": {
+        "response_time": 13.808130974721427,
+        "memory_usage": 0.056179787234042884,
+        "retrieval_memory_avg": 0.01021717171717299,
+        "final_increment_avg": -0.753908080808081,
+        "gpu_utilization": 10.67142857142857
+      },
+      "ratios": {
+        "response_time": 1.5993711977751874,
+        "memory_usage": 7.816607460035866,
+        "gpu_utilization": 1.0532838589981446
+      }
+    },
+    "transformation": 0.5733
+  },
+  "parameters": {
+    "top_k": 6,
+    "dataset_size": 99
+  }
+}

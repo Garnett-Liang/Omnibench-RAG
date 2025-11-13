@@ -94,5 +94,69 @@
     {
         "entity": "http://www.wikidata.org/entity/Q6647239",
         "entityLabel": "Lists of things named after places"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q115121210",
+        "entityLabel": "Aalamul Quran"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q81168110",
+        "entityLabel": "Geography Now"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q23582520",
+        "entityLabel": "Portrait of Canada"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q7189710",
+        "entityLabel": "Physiographic province"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q11973999",
+        "entityLabel": "Hans Egede Medal"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q22079694",
+        "entityLabel": "Leif Erikson Awards"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5506936",
+        "entityLabel": "Fuchs Medal"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4287207",
+        "entityLabel": "Hubbard Medal"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3117740",
+        "entityLabel": "Vautrin Lud Prize"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1061245",
+        "entityLabel": "Massey Medal"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q3332237",
+        "entityLabel": "Vega Medal"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1265938",
+        "entityLabel": "Alpine Club classification of the Eastern Alps"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q5128401",
+        "entityLabel": "Classification of Indian cities"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q1564708",
+        "entityLabel": "Classification of objects of the administrative-territorial system of Ukraine"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q2032647",
+        "entityLabel": "Ecological classification"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q925615",
+        "entityLabel": "Hardiness zone"
     }
 ]

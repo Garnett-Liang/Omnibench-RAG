@@ -1,0 +1,35 @@
+{
+  "rule": "inverse",
+  "domain": "society",
+  "model_name": "qwen",
+  "evaluation_time": "2025-11-09 01:03:46",
+  "metrics": {
+    "basic_accuracy": 0.6829268292682927,
+    "rag_accuracy": 0.7073170731707317,
+    "improvement": 0.024390243902438935,
+    "performance": {
+      "basic": {
+        "response_time": 9.219610999270182,
+        "memory_usage": 0.009015384615371986,
+        "gpu_utilization": 22.863636363636363
+      },
+      "rag": {
+        "response_time": 12.612911945436059,
+        "memory_usage": 0.019928205128196215,
+        "retrieval_memory_avg": 0.0033341463414611034,
+        "final_increment_avg": 0.012192682926827108,
+        "gpu_utilization": 29.11111111111111
+      },
+      "ratios": {
+        "response_time": 1.368052507468535,
+        "memory_usage": 2.2104664391374893,
+        "gpu_utilization": 1.2732493925336867
+      }
+    },
+    "transformation": 0.6637
+  },
+  "parameters": {
+    "top_k": 6,
+    "dataset_size": 41
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "rule": "inverse",
+  "domain": "culture",
+  "model_name": "gpt2",
+  "evaluation_time": "2025-11-10 20:39:40",
+  "metrics": {
+    "basic_accuracy": 0.5625,
+    "rag_accuracy": 0.6458333333333334,
+    "improvement": 0.08333333333333337,
+    "performance": {
+      "basic": {
+        "response_time": 5.588817089796066,
+        "memory_usage": 0.0073777777777789,
+        "gpu_utilization": 24.483870967741936
+      },
+      "rag": {
+        "response_time": 9.348959743976593,
+        "memory_usage": 0.010088372093024366,
+        "retrieval_memory_avg": -0.15470208333333405,
+        "final_increment_avg": -0.25781041666666543,
+        "gpu_utilization": 26.4
+      },
+      "ratios": {
+        "response_time": 1.6727975873545242,
+        "memory_usage": 1.3673998318856249,
+        "gpu_utilization": 1.0782608695652174
+      }
+    },
+    "transformation": 0.7367
+  },
+  "parameters": {
+    "top_k": 3,
+    "dataset_size": 48
+  }
+}
