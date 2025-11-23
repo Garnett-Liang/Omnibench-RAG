@@ -5,6 +5,9 @@
 - It supports multi-domain analysis and evaluation, allowing for performance testing across diverse knowledge fields. The platform enables dynamic dataset generation, eliminating reliance on fixed, pre-existing datasets for more flexible assessment scenarios. It also provides multi-dimensional evaluation that covers two key metrics: accuracy (to measure answer correctness) and efficiency (to track resource consumption and response speed).
 - A core objective of the platform is to facilitate exploration: it empowers users to independently upload custom RAG materials, or utilize materials with high domain relevance, to conduct comparative exploration—enabling in-depth analysis of how different RAG data sources impact model performance. Additionally, the platform reserves dedicated modules specifically designed for research reproducibility, ensuring that evaluation results can be easily replicated to validate findings.
 
+The following diagram illustrates the overall workflow of the platform:
+
+![Workflow Diagram](workflow.png)
 ---
 
 ##  Table of Contents
