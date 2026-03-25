@@ -1,0 +1,33 @@
+{
+  "rule": "inverse",
+  "domain": "history",
+  "model_name": "api",
+  "evaluation_time": "2026-01-06 14:27:14",
+  "metrics": {
+    "basic_accuracy": 0.5588235294117647,
+    "rag_accuracy": 0.7352941176470589,
+    "improvement": 0.17647058823529416,
+    "performance": {
+      "basic": {
+        "response_time": 2.2238622553208294,
+        "memory_usage": 704.0492484848488,
+        "gpu_utilization": 8.294117647058824
+      },
+      "rag": {
+        "response_time": 2.868264822398915,
+        "memory_usage": 701.023678787879,
+        "gpu_utilization": 7.5
+      },
+      "ratios": {
+        "response_time": 1.2897673025999175,
+        "memory_usage": 0.995702616395826,
+        "gpu_utilization": 0.9042553191489361
+      }
+    },
+    "transformation": 0.9432
+  },
+  "parameters": {
+    "top_k": 3,
+    "dataset_size": 34
+  }
+}

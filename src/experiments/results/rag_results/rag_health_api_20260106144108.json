@@ -1,0 +1,33 @@
+{
+  "rule": "inverse",
+  "domain": "health",
+  "model_name": "api",
+  "evaluation_time": "2026-01-06 14:41:08",
+  "metrics": {
+    "basic_accuracy": 0.7171717171717171,
+    "rag_accuracy": 0.8181818181818182,
+    "improvement": 0.1010101010101011,
+    "performance": {
+      "basic": {
+        "response_time": 2.241430138096665,
+        "memory_usage": 636.1874173469391,
+        "gpu_utilization": 6.606060606060606
+      },
+      "rag": {
+        "response_time": 2.8990475866529675,
+        "memory_usage": 633.1172653061227,
+        "gpu_utilization": 6.828282828282828
+      },
+      "ratios": {
+        "response_time": 1.2933919007240287,
+        "memory_usage": 0.9951741390082506,
+        "gpu_utilization": 1.0336391437308867
+      }
+    },
+    "transformation": 0.901
+  },
+  "parameters": {
+    "top_k": 3,
+    "dataset_size": 99
+  }
+}

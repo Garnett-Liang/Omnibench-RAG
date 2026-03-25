@@ -180,6 +180,12 @@ def generate_answers_with_api(api_config, questions):
     if api_config.get('api_key'):
         headers['Authorization'] = f'Bearer {api_config["api_key"]}'
     
+    # 自动转换 Hugging Face 旧端点为新路由端点
+    api_endpoint = api_config['api_endpoint']
+    if 'api-inference.huggingface.co/models/' in api_endpoint:
+        api_endpoint = 'https://router.huggingface.co/v1/chat/completions'
+        print(f"Converted Hugging Face endpoint to: {api_endpoint}")
+    
     # 格式化提示模板
     prompt_template = api_config.get('api_prompt_template', 'Answer with "yes" or "no": {question}')
     
@@ -196,14 +202,20 @@ def generate_answers_with_api(api_config, questions):
         
         payload = {
             'model': api_config['api_model_name'],
-            'messages': [{'role': 'user', 'content': prompt}],
+            'messages': [
+                {
+                    'role': 'system',
+                    'content': 'You are a helpful assistant that answers questions with only "yes" or "no". Be concise and accurate.'
+                },
+                {'role': 'user', 'content': prompt}
+            ],
             'max_tokens': api_config.get('api_max_tokens', 1000),
-            'temperature': 0.1
+            'temperature': 0.0
         }
         
         try:
             response = requests.post(
-                api_config['api_endpoint'],
+                api_endpoint,
                 headers=headers,
                 json=payload,
                 timeout=30
@@ -252,7 +264,7 @@ def evaluate_model_with_api(api_config, questions, standard_answers):
 
 
     results = {
-        "model_name": f"Custom API ({api_config['api_model_name']})",
+        "model_name": f"DeepSeek API ({api_config['api_model_name']})",
         "api_config": api_config,
         "questions": [],
         "basic_accuracy": 0.0,
@@ -426,7 +438,7 @@ def run_evaluation(rule_choice, domain_choice, model_choice, log_file, dataset_s
                 
                 # 检查是否使用自定义API
                 if model_choice == "api" and custom_api_config:
-                    print(f"Using custom API: {custom_api_config['api_model_name']}")
+                    print(f"Using DeepSeek API: {custom_api_config['api_model_name']}")
                     json_result = evaluate_model_with_api(custom_api_config, questions, standard_answers)
                 else:
                     # 传统模型映射
@@ -889,7 +901,7 @@ def run_rag_evaluation(rule, domain, model_name, top_k, log_file, dataset_source
                 
                 # 检查是否使用自定义API
                 if model_name == 'api' and custom_api_config:
-                    print(f"Using custom API for RAG evaluation: {custom_api_config['api_model_name']}")
+                    print(f"Using DeepSeek API for RAG evaluation: {custom_api_config['api_model_name']}")
                     basic_score, rag_score, basic_metrics, rag_metrics, perf_ratios = evaluate_rag_model_with_api(
                         api_config=custom_api_config,
                         domain=domain,
@@ -983,7 +995,7 @@ def run_rag_evaluation(rule, domain, model_name, top_k, log_file, dataset_source
 
 
 def evaluate_rag_model_with_api(api_config, domain, test_questions, top_k):
-    """RAG evaluation with custom API"""
+    """RAG evaluation with DeepSeek API"""
     global model, index, cleaned_abstracts  # Use pre-loaded global variables
     
     # 1. Initialize API connection
@@ -994,22 +1006,50 @@ def evaluate_rag_model_with_api(api_config, domain, test_questions, top_k):
     if api_config.get('api_key'):
         headers['Authorization'] = f'Bearer {api_config["api_key"]}'
     
+    # 自动转换 Hugging Face 旧端点为新路由端点
+    api_endpoint = api_config['api_endpoint']
+    if 'api-inference.huggingface.co/models/' in api_endpoint:
+        api_endpoint = 'https://router.huggingface.co/v1/chat/completions'
+        print(f"Converted Hugging Face endpoint to: {api_endpoint}")
+    
     # 格式化提示模板
-    prompt_template = api_config.get('api_prompt_template', 'Context:\n{context}\n\nQuestion: {question}\nAnswer with "yes" or "no":')
+    prompt_template = api_config.get('api_prompt_template', '') or '''Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+{context}
+
+Question: {question}
+
+Answer (yes or no only):'''
+    # 确保 prompt_template 包含必要的占位符
+    if '{context}' not in prompt_template and '{question}' not in prompt_template:
+        prompt_template = '''Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+{context}
+
+Question: {question}
+
+Answer (yes or no only):'''
+    elif '{context}' not in prompt_template:
+        # 如果没有 context 占位符，添加它
+        prompt_template = f'Context:\n{{context}}\n\n{prompt_template}'
     
     # 2. Initialize counters and total samples
     basic_correct = 0
     rag_correct = 0
+    basic_failed_count = 0  # 记录基础模型 API 失败次数
+    rag_failed_count = 0    # 记录 RAG 模型 API 失败次数
     total = len(test_questions)
-    print(f"Starting evaluation with {total} samples")  
-    
+    print(f"Starting evaluation with {total} samples")
+
     # 性能指标收集
     basic_metrics = {
         "response_time": [],
         "memory_usage": [],
         "gpu_utilization": []
     }
-    
+
     rag_metrics = {
         "response_time": [],
         "memory_usage": [],
@@ -1033,17 +1073,36 @@ def evaluate_rag_model_with_api(api_config, domain, test_questions, top_k):
         basic_start_memory = get_memory_usage()
         basic_start_gpu = get_gpu_utilization() if get_device() == "cuda" else 0
         
-        basic_prompt = prompt_template.format(context="", question=question)
+        # 对于基础模型，如果没有 context 占位符，直接使用 question；否则将 context 设为空
+        if '{context}' in prompt_template:
+            basic_prompt = prompt_template.format(context="", question=question)
+        else:
+            basic_prompt = prompt_template.format(question=question)
+        
+        # 调试信息：打印前几个样本的 prompt（仅前3个）
+        if i < 3:
+            print(f"[DEBUG] Basic prompt for sample {i+1}: {basic_prompt[:200]}...")
         basic_payload = {
             'model': api_config['api_model_name'],
-            'messages': [{'role': 'user', 'content': basic_prompt}],
+            'messages': [
+                {
+                    'role': 'system',
+                    'content': 'You are a helpful assistant that answers questions with only "yes" or "no". Be concise and accurate.'
+                },
+                {'role': 'user', 'content': basic_prompt}
+            ],
             'max_tokens': api_config.get('api_max_tokens', 1000),
-            'temperature': 0.1
+            'temperature': 0.0
         }
         
+        # 调试信息：打印前几个样本的 payload（仅前2个）
+        if i < 2:
+            print(f"[DEBUG] Basic payload for sample {i+1}: model={basic_payload['model']}, messages={basic_payload['messages']}")
+        
+        basic_api_success = False  # 标记基础模型 API 是否成功
         try:
             basic_response = requests.post(
-                api_config['api_endpoint'],
+                api_endpoint,
                 headers=headers,
                 json=basic_payload,
                 timeout=30
@@ -1051,9 +1110,11 @@ def evaluate_rag_model_with_api(api_config, domain, test_questions, top_k):
             basic_response.raise_for_status()
             basic_result = basic_response.json()
             basic_answer = basic_result['choices'][0]['message']['content'].strip().lower()
+            basic_api_success = True
         except Exception as e:
             print(f"Basic API call failed: {e}")
             basic_answer = "no answer"
+            basic_failed_count += 1
         
         # 记录基础模型性能指标
         basic_end_time = time.time()
@@ -1093,20 +1154,45 @@ def evaluate_rag_model_with_api(api_config, domain, test_questions, top_k):
         after_retrieval_memory = get_memory_usage()
         rag_peak_memory = max(rag_start_memory, after_retrieval_memory)
         
-        # Build context-aware prompt
-        context = "\n".join(retrieved_docs)
-        rag_prompt = prompt_template.format(context=context, question=question)
+        # Build context-aware prompt with length limit and better formatting
+        context_docs = retrieved_docs[:3]  # Limit to top 5 most relevant docs
+        context = "\n\n".join([f"[Document {i+1}] {doc}" for i, doc in enumerate(context_docs)])
+
+        max_context_length = 1000  
+        if len(context) > max_context_length:
+            context = context[:max_context_length] + "..."
+
+        # 对于 RAG 模型，确保使用完整的 context
+        if '{context}' in prompt_template:
+            rag_prompt = prompt_template.format(context=context, question=question)
+        else:
+
+            rag_prompt = f"Context:\n{context}\n\n{prompt_template.format(question=question)}"
+
+        if i < 3:
+            print(f"[DEBUG] RAG prompt for sample {i+1}: {rag_prompt[:300]}...")
         
         rag_payload = {
             'model': api_config['api_model_name'],
-            'messages': [{'role': 'user', 'content': rag_prompt}],
+            'messages': [
+                {
+                    'role': 'system',
+                    'content': 'You are a helpful assistant that answers questions with only "yes" or "no" based on the provided context. Be concise and accurate.'
+                },
+                {'role': 'user', 'content': rag_prompt}
+            ],
             'max_tokens': api_config.get('api_max_tokens', 1000),
-            'temperature': 0.1
+            'temperature': 0.0
         }
         
+
+        if i < 2:
+            print(f"[DEBUG] RAG payload for sample {i+1}: model={rag_payload['model']}, message_length={len(rag_prompt)}")
+        
+        rag_api_success = False  # 标记 RAG 模型 API 是否成功
         try:
             rag_response = requests.post(
-                api_config['api_endpoint'],
+                api_endpoint,
                 headers=headers,
                 json=rag_payload,
                 timeout=30
@@ -1114,9 +1200,11 @@ def evaluate_rag_model_with_api(api_config, domain, test_questions, top_k):
             rag_response.raise_for_status()
             rag_result = rag_response.json()
             rag_answer = rag_result['choices'][0]['message']['content'].strip().lower()
+            rag_api_success = True
         except Exception as e:
             print(f"RAG API call failed: {e}")
             rag_answer = "no answer"
+            rag_failed_count += 1
         
         # 记录RAG模型性能指标
         rag_end_time = time.time()
@@ -1146,29 +1234,40 @@ def evaluate_rag_model_with_api(api_config, domain, test_questions, top_k):
             print(f"\n===== Detailed Analysis for Sample {i + 1} =====")
             print(f"Question: {question}")
             print(f"Reference Answer: {raw_reference} → Cleaned: {reference_answer}")
-            
+
             print(f"\nBase Model (No RAG):")
             print(f"  Raw Output: {basic_answer}")
-            print(f"  Semantic Prediction: {basic_prediction} (Confidence: {basic_confidence:.4f})")
-            print(f"  Correctness: {'Correct' if basic_prediction == reference_answer else 'Incorrect'}")
+            print(f"  API Success: {basic_api_success}")
+            if basic_api_success:
+                print(f"  Semantic Prediction: {basic_prediction} (Confidence: {basic_confidence:.4f})")
+                print(f"  Correctness: {'Correct' if basic_prediction == reference_answer else 'Incorrect'}")
+            else:
+                print("  Status: API call failed - excluded from statistics")
             print(f"  Performance: Time={basic_time:.4f}s, "
                   f"Memory={basic_peak_memory:.4f}MB, "
                   f"GPU={basic_gpu:.2f}%")
-            
+
             print(f"\nRAG-Enhanced Model:")
             print(f"  Raw Output: {rag_answer}")
-            print(f"  Semantic Prediction: {rag_prediction} (Confidence: {rag_confidence:.4f})")
-            print(f"  Correctness: {'Correct' if rag_prediction == reference_answer else 'Incorrect'}")
+            print(f"  API Success: {rag_api_success}")
+            if rag_api_success:
+                print(f"  Semantic Prediction: {rag_prediction} (Confidence: {rag_confidence:.4f})")
+                print(f"  Correctness: {'Correct' if rag_prediction == reference_answer else 'Incorrect'}")
+            else:
+                print("  Status: API call failed - excluded from statistics")
             print(f"  Performance: Time={rag_time:.4f}s, "
                   f"Memory={rag_peak_memory:.4f}MB, "
                   f"GPU={rag_gpu:.2f}%")
             print(f"  Retrieved Documents: {len(retrieved_docs)}")
             print("=" * 70)  # Separator line
     
-    # Calculate accuracy
-    basic_accuracy = basic_correct / total if total > 0 else 0
-    rag_accuracy = rag_correct / total if total > 0 else 0
-    
+    # Calculate accuracy (excluding failed API calls)
+    basic_successful_calls = total - basic_failed_count
+    rag_successful_calls = total - rag_failed_count
+
+    basic_accuracy = basic_correct / basic_successful_calls if basic_successful_calls > 0 else 0
+    rag_accuracy = rag_correct / rag_successful_calls if rag_successful_calls > 0 else 0
+
     # 计算性能指标平均值（基于峰值）
     basic_avg_metrics = {
         "response_time": sum(basic_metrics["response_time"]) / len(basic_metrics["response_time"]) if basic_metrics["response_time"] else 0,
@@ -1190,15 +1289,20 @@ def evaluate_rag_model_with_api(api_config, domain, test_questions, top_k):
     }
     
     print("\n===== Performance Metrics Summary =====")
+    print(f"Total Samples: {total}")
+    print(f"Base Model API Failures: {basic_failed_count} | Successful Calls: {basic_successful_calls}")
+    print(f"RAG Model API Failures: {rag_failed_count} | Successful Calls: {rag_successful_calls}")
     print(f"Base Model:")
+    print(f"  Accuracy: {basic_accuracy:.4f} (based on {basic_successful_calls} successful calls)")
     print(f"  Avg Response Time: {basic_avg_metrics['response_time']:.4f}s (based on {len(basic_metrics['response_time'])}/{total} samples)")
     print(f"  Avg Memory Usage: {basic_avg_metrics['memory_usage']:.4f}MB (based on {len(basic_metrics['memory_usage'])}/{total} samples)")
     print(f"  Avg GPU Utilization: {basic_avg_metrics['gpu_utilization']:.2f}% (based on {len(basic_metrics['gpu_utilization'])}/{total} samples)")
-    
+
     print(f"\nRAG Model:")
-    print(f"  Avg Response Time: {rag_metrics['response_time']:.4f}s ({performance_ratios['response_time']:.2f}x base)")
+    print(f"  Accuracy: {rag_accuracy:.4f} (based on {rag_successful_calls} successful calls)")
+    print(f"  Avg Response Time: {rag_avg_metrics['response_time']:.4f}s ({performance_ratios['response_time']:.2f}x base)")
     print(f"  Avg Memory Usage: {rag_avg_metrics['memory_usage']:.4f}MB ({performance_ratios['memory_usage']:.2f}x base)")
     print(f"  Avg GPU Utilization: {rag_avg_metrics['gpu_utilization']:.2f}% ({performance_ratios['gpu_utilization']:.2f}x base)")
-    
+
     return basic_accuracy, rag_accuracy, basic_avg_metrics, rag_avg_metrics, performance_ratios
 

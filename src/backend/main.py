@@ -66,7 +66,7 @@ def evaluate():
             }
             
             if not custom_api_config['api_endpoint'] or not custom_api_config['api_model_name']:
-                return jsonify({"status": "error", "message": "API endpoint and model name are required for custom API"}), 400
+                return jsonify({"status": "error", "message": "API endpoint and model name are required for DeepSeek API"}), 400
         
         if not all([rule_choice, domain_choice, model_choice]):
             return jsonify({"status": "error", "message": "Missing required parameters"}), 400
@@ -291,16 +291,28 @@ def evaluate_rag():
         # Check for custom API configuration
         custom_api_config = None
         if model_name == 'api':
+            # 获取 prompt_template，如果为空则使用默认值（RAG 评估需要 context 占位符）
+            api_prompt_template = data.get('api_prompt_template', '').strip()
+            if not api_prompt_template:
+                api_prompt_template = '''Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+{context}
+
+Question: {question}
+
+Answer (yes or no only):'''
+            
             custom_api_config = {
                 'api_endpoint': data.get('api_endpoint'),
                 'api_key': data.get('api_key'),
                 'api_model_name': data.get('api_model_name'),
                 'api_max_tokens': data.get('api_max_tokens', 1000),
-                'api_prompt_template': data.get('api_prompt_template', 'Answer with "yes" or "no": {question}')
+                'api_prompt_template': api_prompt_template
             }
             
             if not custom_api_config['api_endpoint'] or not custom_api_config['api_model_name']:
-                return jsonify({"status": "error", "message": "API endpoint and model name are required for custom API"}), 400
+                return jsonify({"status": "error", "message": "API endpoint and model name are required for DeepSeek API"}), 400
         
         if not domain:
             return jsonify({"status": "error", "message": "Missing required parameters"}), 400

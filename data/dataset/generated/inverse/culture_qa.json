@@ -1179,5 +1179,171 @@
         ],
         "question": "Does popularity have the possibility to be be the natural reservoir in of Fad?",
         "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Paper is a thin material made from processed cellulose fibers and widely used for writing, drawing, and printing.\nCoast Guard Station, Two Lights, Maine is a 1927 oil painting by American realist Edward Hopper, depicting the Cape Elizabeth lighthouse in Maine.",
+        "subject": "paper",
+        "predicate": "be_used_to_make",
+        "object": "Coast Guard Station, Two Lights, Maine",
+        "evidence": [
+            ["Coast Guard Station, Two Lights, Maine", "made from material", "watercolor paint"],
+            ["Coast Guard Station, Two Lights, Maine", "made from material", "charcoal"],
+            ["Coast Guard Station, Two Lights, Maine", "made from material", "paper"]
+        ],
+        "question": "Is it true that IRNSS-1G is not followed by Apollo 12?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Oil paint is a slow-drying paint made of pigment suspended in drying oil and commonly used in fine art.\nSaint Barbara is a small 1437 artwork by Jan van Eyck, depicting Saint Barbara imprisoned in a tower.",
+        "subject": "oil paint",
+        "predicate": "be_used_to_make",
+        "object": "Saint Barbara",
+        "evidence": [
+            ["Saint Barbara", "made from material", "oil paint"],
+            ["Saint Barbara", "made from material", "panel"]
+        ],
+        "question": "Is it true that Tiangong-2 is not followed by Apollo 13?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Ink is a liquid or paste containing pigments or dyes used for writing and drawing.\nThe Painter and The Buyer is a 1565 pen-and-ink artwork by Pieter Bruegel the Elder.",
+        "subject": "ink",
+        "predicate": "be_used_to_make",
+        "object": "The Painter and The Buyer",
+        "evidence": [
+            ["The Painter and The Buyer", "made from material", "ink"],
+            ["The Painter and The Buyer", "made from material", "pencil"]
+        ],
+        "question": "Is it true that Chang'e 7 is followed by Apollo 13?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "The Dam Busters is a 1955 British war film depicting a World War II RAF bombing mission.\nStar Wars: Episode IV – A New Hope is a 1977 science fiction film directed by George Lucas.",
+        "subject": "The Dam Busters",
+        "predicate": "influence",
+        "object": "Star Wars: Episode IV – A New Hope",
+        "evidence": [
+            ["Star Wars: Episode IV – A New Hope", "influenced by", "The Dam Busters"],
+            ["Star Wars: Episode IV – A New Hope", "influenced by", "Dune"],
+            ["Star Wars: Episode IV – A New Hope", "influenced by", "The Hidden Fortress"]
+        ],
+        "question": "Is it true that Apollo 16 was not recovered by the USS New Orleans?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Leipzig University Library is one of the oldest university libraries in Germany.\nThe Ebers Papyrus is an ancient Egyptian medical text dating to around 1550 BC.",
+        "subject": "Leipzig University Library",
+        "predicate": "own",
+        "object": "Ebers Papyrus",
+        "evidence": [
+            ["Ebers Papyrus", "owned by", "Leipzig University Library"],
+            ["Ebers Papyrus", "owned by", "Georg Ebers"]
+        ],
+        "question": "Is it true that plant sap is found in Messor?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Islamic art refers to visual artworks produced in Islamic cultural contexts, often featuring calligraphy and geometric designs.\nThe Calligraphic Galleon is an 18th-century Ottoman calligraphic artwork depicting a naval ship.",
+        "subject": "Islamic art",
+        "predicate": "maintain",
+        "object": "Calligraphic Galleon",
+        "evidence": [
+            ["Calligraphic Galleon", "maintained by", "Islamic Art"]
+        ],
+        "question": "Is it true that SMART-1 is located on Venus?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Laid paper is a traditional type of paper with a ribbed texture, commonly used in historical artworks.\nBoy Cutting Grass with a Sickle is an 1881 painting by Vincent van Gogh.",
+        "subject": "laid paper",
+        "predicate": "be_used_to_make",
+        "object": "Boy Cutting Grass with a Sickle",
+        "evidence": [
+            ["Boy Cutting Grass with a Sickle", "made from material", "black chalk"],
+            ["Boy Cutting Grass with a Sickle", "made from material", "laid paper"],
+            ["Boy Cutting Grass with a Sickle", "made from material", "charcoal"],
+            ["Boy Cutting Grass with a Sickle", "made from material", "watercolor paint"]
+        ],
+        "question": "Is it true that Ariel 2 is not followed by Apollo 14?",
+        "answer": "Yes."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Dune is a 1965 science fiction novel by Frank Herbert.\nStar Wars: Episode IV – A New Hope is a 1977 space opera film directed by George Lucas.",
+        "subject": "Dune",
+        "predicate": "influence",
+        "object": "Star Wars: Episode IV – A New Hope",
+        "evidence": [
+            ["Star Wars: Episode IV – A New Hope", "influenced by", "The Dam Busters"],
+            ["Star Wars: Episode IV – A New Hope", "influenced by", "Dune"],
+            ["Star Wars: Episode IV – A New Hope", "influenced by", "The Hidden Fortress"]
+        ],
+        "question": "Is it true that CXBN is followed by Apollo 9?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Ink is commonly used as a medium for drawing and writing.\nThe Owls' Nest is a drawing by Hieronymus Bosch.",
+        "subject": "ink",
+        "predicate": "be_used_to_make",
+        "object": "The Owls' Nest",
+        "evidence": [
+            ["The Owls' Nest", "made from material", "ink"]
+        ],
+        "question": "Is it true that Apollo 10 was not recovered by the USS Ticonderoga?",
+        "answer": "Yes."
+    }
+    ,{
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Netflix is an American streaming service distributing films and television content.\nStar Wars: Episode IV – A New Hope is a 1977 science fiction film directed by George Lucas.",
+        "subject": "Netflix",
+        "predicate": "be_the_distributor_of_the_work_",
+        "object": "Star Wars: Episode IV – A New Hope",
+        "evidence": [
+            ["Star Wars: Episode IV – A New Hope", "distributed by", "Netflix"],
+            ["Star Wars: Episode IV – A New Hope", "distributed by", "20th Century Studios"],
+            ["Star Wars: Episode IV – A New Hope", "distributed by", "MOKÉP"],
+            ["Star Wars: Episode IV – A New Hope", "distributed by", "Disney+"],
+            ["Star Wars: Episode IV – A New Hope", "distributed by", "InterCom"],
+            ["Star Wars: Episode IV – A New Hope", "distributed by", "Fandango at Home"]
+        ],
+        "question": "Is it true that Mars Global Surveyor is followed by Apollo 14?",
+        "answer": "No."
+    },
+    {
+        "category": "culture",
+        "reasoning": "Inverse Function Inference",
+        "description": "Ritual Entertainment was an American video game developer active in the late 1990s.\nCounter-Strike is a tactical first-person shooter game developed and published by Valve.",
+        "subject": "Ritual Entertainment",
+        "predicate": "design",
+        "object": "Counter-Strike",
+        "evidence": [
+            ["Counter-Strike", "designed by", "Nexon"],
+            ["Counter-Strike", "designed by", "Ritual Entertainment"],
+            ["Counter-Strike", "designed by", "Valve Corporation"],
+            ["Counter-Strike", "designed by", "id Software"],
+            ["Counter-Strike", "designed by", "Turtle Rock Studios"],
+            ["Counter-Strike", "designed by", "Gearbox Software"],
+            ["Counter-Strike", "designed by", "Hidden Path Entertainment"]
+        ],
+        "question": "Is it true that grass does not have the alias or pseudonym as Apocrita?",
+        "answer": "Yes."
     }
 ]

@@ -20,8 +20,32 @@
         "entityLabel": "Ladislav Bartolomeides"
     },
     {
+        "entity": "http://www.wikidata.org/entity/Q1703790",
+        "entityLabel": "Jorge Chebataroff"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q86636",
+        "entityLabel": "Julius Frank"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q92072435",
+        "entityLabel": "Ezekiel Kalipeni"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q125307165",
+        "entityLabel": "Abdool Cader Kalla"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q4721502",
+        "entityLabel": "Alexis Nour"
+    },
+    {
         "entity": "http://www.wikidata.org/entity/Q232916",
         "entityLabel": "Abraham Ortelius"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q538507",
+        "entityLabel": "Emma Romeu"
     },
     {
         "entity": "http://www.wikidata.org/entity/Q114582040",
@@ -30,6 +54,14 @@
     {
         "entity": "http://www.wikidata.org/entity/Q5806828",
         "entityLabel": "Diego de Torres y Moyachoque"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q8217199",
+        "entityLabel": "Jovan Trifunoski"
+    },
+    {
+        "entity": "http://www.wikidata.org/entity/Q922776",
+        "entityLabel": "Francisco Javier Vergara y Velasco"
     },
     {
         "entity": "http://www.wikidata.org/entity/Q90094545",
@@ -76,6 +108,10 @@
         "entityLabel": "Lost lands"
     },
     {
+        "entity": "http://www.wikidata.org/entity/Q7054657",
+        "entityLabel": "North Carolina game land"
+    },
+    {
         "entity": "http://www.wikidata.org/entity/Q6634109",
         "entityLabel": "Lists of political and geographic subdivisions by total area"
     },
@@ -110,53 +146,5 @@
     {
         "entity": "http://www.wikidata.org/entity/Q7189710",
         "entityLabel": "Physiographic province"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q11973999",
-        "entityLabel": "Hans Egede Medal"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q22079694",
-        "entityLabel": "Leif Erikson Awards"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q5506936",
-        "entityLabel": "Fuchs Medal"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q4287207",
-        "entityLabel": "Hubbard Medal"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q3117740",
-        "entityLabel": "Vautrin Lud Prize"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q1061245",
-        "entityLabel": "Massey Medal"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q3332237",
-        "entityLabel": "Vega Medal"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q1265938",
-        "entityLabel": "Alpine Club classification of the Eastern Alps"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q5128401",
-        "entityLabel": "Classification of Indian cities"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q1564708",
-        "entityLabel": "Classification of objects of the administrative-territorial system of Ukraine"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q2032647",
-        "entityLabel": "Ecological classification"
-    },
-    {
-        "entity": "http://www.wikidata.org/entity/Q925615",
-        "entityLabel": "Hardiness zone"
     }
 ]

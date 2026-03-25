@@ -1,0 +1,5 @@
+Error occurred while processing entity 'Q81168110': HTTP Error 429: Too Many Requests
+Error occurred while processing entity 'Q901402': HTTP Error 429: Too Many Requests
+Error occurred while processing entity 'Q223602': HTTP Error 502: Bad Gateway
+Error occurred while processing entity 'Q1703790': HTTP Error 502: Bad Gateway
+Error occurred while processing entity 'Q86636': HTTP Error 502: Bad Gateway

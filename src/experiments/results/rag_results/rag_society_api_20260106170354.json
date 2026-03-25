@@ -1,0 +1,33 @@
+{
+  "rule": "inverse",
+  "domain": "society",
+  "model_name": "api",
+  "evaluation_time": "2026-01-06 17:03:54",
+  "metrics": {
+    "basic_accuracy": 0.5853658536585366,
+    "rag_accuracy": 0.6829268292682927,
+    "improvement": 0.09756097560975618,
+    "performance": {
+      "basic": {
+        "response_time": 2.2554711074363896,
+        "memory_usage": 413.7523474999998,
+        "gpu_utilization": 5.341463414634147
+      },
+      "rag": {
+        "response_time": 2.806639520133414,
+        "memory_usage": 413.8449299999999,
+        "gpu_utilization": 5.512195121951219
+      },
+      "ratios": {
+        "response_time": 1.2443695292215438,
+        "memory_usage": 1.0002237630808852,
+        "gpu_utilization": 1.0319634703196345
+      }
+    },
+    "transformation": 0.9121
+  },
+  "parameters": {
+    "top_k": 3,
+    "dataset_size": 41
+  }
+}

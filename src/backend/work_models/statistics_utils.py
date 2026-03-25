@@ -144,12 +144,22 @@ def get_model_statistics(results: Dict[str, List[Dict]], selected_model_id: str)
     Returns:
         指定模型在所有领域的统计结果
     """
-    # 根据workflow.py的模型映射
+    # 根据workflow.py的模型映射 (用于数据过滤)
     model_map = {
         "1": "qwen",      # Qwen/Qwen-1_8B
         "2": "gpt2",      # gpt2-medium
         "3": "gptneo",    # EleutherAI/gpt-neo-125M
-        "5": "opt"        # facebook/opt-1.3b
+        "5": "opt",       # facebook/opt-1.3b
+        "api": "api"      # deepseek API (用于文件匹配)
+    }
+
+    # 显示名称映射 (用于UI显示)
+    display_name_map = {
+        "1": "Qwen-1.8B",      # Qwen/Qwen-1_8B
+        "2": "GPT-2 Medium",    # gpt2-medium
+        "3": "GPT-Neo-125M",    # EleutherAI/gpt-neo-125M
+        "5": "OPT-1.3B",        # facebook/opt-1.3b
+        "api": "DeepSeek-Chat"  # deepseek API
     }
     
     domains = [
@@ -157,18 +167,20 @@ def get_model_statistics(results: Dict[str, List[Dict]], selected_model_id: str)
         'nature', 'people', 'society', 'technology'
     ]
     
-    if selected_model_id not in model_map:
+    if selected_model_id not in display_name_map:
         return {"error": "Invalid model ID"}
-    
-    model_name = model_map[selected_model_id]
+
+    display_name = display_name_map[selected_model_id]
+    file_match_name = model_map[selected_model_id]  # 用于文件匹配的名称
+
     statistics = {
         "model_id": selected_model_id,
-        "model_name": model_name,
+        "model_name": display_name,  # 用于显示的名称
         "domains": {}
     }
-    
+
     for domain in domains:
-        domain_stats = calculate_domain_stats(results, domain, model_name)
+        domain_stats = calculate_domain_stats(results, domain, file_match_name)  # 使用文件匹配名称
         statistics["domains"][domain] = domain_stats
     
     return statistics
@@ -331,15 +343,8 @@ def plot_radar_chart(results: Dict[str, List[Dict]], selected_model_id: str, sav
         ax.set_yticklabels(['0.0', '0.2', '0.4', '0.6', '0.8', '1.0'], fontsize=9)
         ax.set_ylabel('Accuracy Score', fontsize=12, fontweight='bold', labelpad=20)
         
-        # 添加标题
-        model_names = {
-            "1": "Qwen/Qwen-1_8B",
-            "2": "gpt2-medium", 
-            "3": "EleutherAI/gpt-neo-125M",
-            "5": "facebook/opt-1.3b"
-        }
-        model_name = model_names.get(selected_model_id, "Unknown")
-        ax.set_title(f'Performance Comparison: {model_name}\nBasic vs RAG Accuracy by Domain',
+        # 添加标题 - 使用stats中的model_name（已经在get_model_statistics中设置了正确的显示名称）
+        ax.set_title(f'Performance Comparison: {stats["model_name"]}\nBasic vs RAG Accuracy by Domain',
                     size=16, fontweight='bold', pad=30)
         
         # 添加图例
