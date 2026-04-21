@@ -1,0 +1,34 @@
+Starting RAG evaluation - Domain: people, Model: qwen, Top-K: 3
+Dataset source: existing, RAG material source: flexible
+==================================================
+[1/5] Checking and preprocessing people domain data...
+Using flexible uploaded material...
+Flexible data already processed (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\cleaned\cleaned_people.txt), skipping
+[2/5] Checking and building people domain vector index...
+Using flexible uploaded material index...
+Flexible index already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\knowledge_base\people_index.faiss), loading...
+[3/5] Loading people domain evaluation dataset...
+Using reproducible dataset...
+Loaded 58 samples from d:\Jupyter\OmniBench-RAG\data\dataset\generated\inverse\people_qa.json
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Successfully loaded FAISS index from: d:\Jupyter\OmniBench-RAG\data\RAG_material\knowledge_base\people_index.faiss
+Loaded 809 preprocessed document chunks
+[5/5] Starting RAG evaluation... (58 samples)
+
+Error: This modeling file requires the following packages that were not found in your environment: einops, transformers_stream_generator. Run `pip install einops transformers_stream_generator`
+Traceback (most recent call last):
+  File "d:\Jupyter\OmniBench-RAG\src\backend\workflow.py", line 912, in run_rag_evaluation
+    basic_score, rag_score, basic_metrics, rag_metrics, perf_ratios = evaluate_rag_model(
+  File "d:\Jupyter\OmniBench-RAG\src\backend\workflow.py", line 502, in evaluate_rag_model
+    generate_model = AutoModelForCausalLM.from_pretrained(
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\models\auto\auto_factory.py", line 356, in from_pretrained
+    model_class = get_class_from_dynamic_module(
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\dynamic_module_utils.py", line 572, in get_class_from_dynamic_module
+    final_module = get_cached_module_file(
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\dynamic_module_utils.py", line 410, in get_cached_module_file
+    modules_needed = check_imports(resolved_module_file)
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\dynamic_module_utils.py", line 258, in check_imports
+    raise ImportError(
+ImportError: This modeling file requires the following packages that were not found in your environment: einops, transformers_stream_generator. Run `pip install einops transformers_stream_generator`

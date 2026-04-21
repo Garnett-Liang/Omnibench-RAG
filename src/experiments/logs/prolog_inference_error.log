@@ -1,1 +1,429 @@
 [SafeConsult Error] File: d:/Jupyter/OmniBench-RAG/src/wiki/pl_files/geography.pl, Error: exception: access violation reading 0x0000000000000508
+Successfully get summary for Wikipedia page 'University of British Columbia'.
+Successfully get summary for Wikipedia page 'Bill Bissett'.
+Successfully get summary for Wikipedia page 'Dalhousie University'.
+Successfully get summary for Wikipedia page 'Bill Bissett'.
+Successfully get summary for Wikipedia page 'Massachusetts Institute of Technology'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'UC Berkeley School of Information'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'Brown University'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'Manheim Township High School'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'Columbia University'.
+Successfully get summary for Wikipedia page 'Adrienne maree brown'.
+Successfully get summary for Wikipedia page 'New York University Tisch School of the Arts'.
+Successfully get summary for Wikipedia page 'MC Chris'.
+Successfully get summary for Wikipedia page 'School of the Art Institute of Chicago'.
+Successfully get summary for Wikipedia page 'MC Chris'.
+Successfully get summary for Wikipedia page 'Trinity College, Oxford'.
+Successfully get summary for Wikipedia page 'Arthur fforde'.
+Successfully get summary for Wikipedia page 'Rugby School'.
+Successfully get summary for Wikipedia page 'Arthur fforde'.
+Successfully get summary for Wikipedia page 'School of Medicine (Trinity College Dublin)'.
+Successfully get summary for Wikipedia page 'Michael ffrench-O'Carroll'.
+Successfully get summary for Wikipedia page 'University of Exeter'.
+Successfully get summary for Wikipedia page 'Richard ffrench-Constant'.
+Successfully get summary for Wikipedia page 'Imperial College London'.
+Successfully get summary for Wikipedia page 'Richard ffrench-Constant'.
+Successfully get summary for Wikipedia page 'University of British Columbia'.
+Successfully get summary for Wikipedia page 'Barbara findlay'.
+Successfully get summary for Wikipedia page 'Queen's University at Kingston'.
+Successfully get summary for Wikipedia page 'Barbara findlay'.
+Successfully get summary for Wikipedia page 'New York University Tisch School of the Arts'.
+Successfully get summary for Wikipedia page 'Dream Hampton'.
+Cannot find Wikipedia page for Wikidata ID Q11375679 in language 'en'.
+Successfully get summary for Wikipedia page 'Aalborg University'.
+Successfully get summary for Wikipedia page 'Fredric J. Harris'.
+Successfully get summary for Wikipedia page 'San Diego State University'.
+Successfully get summary for Wikipedia page 'Fredric J. Harris'.
+Successfully get summary for Wikipedia page 'New York University Tandon School of Engineering'.
+Successfully get summary for Wikipedia page 'Fredric J. Harris'.
+Successfully get summary for Wikipedia page 'University of Michigan'.
+Successfully get summary for Wikipedia page 'Pattrice jones'.
+Successfully get summary for Wikipedia page 'Towson University'.
+Successfully get summary for Wikipedia page 'Pattrice jones'.
+Successfully get summary for Wikipedia page 'Dalhousie University'.
+Successfully get summary for Wikipedia page 'Shalan joudry'.
+Successfully get summary for Wikipedia page 'University of New Mexico'.
+Successfully get summary for Wikipedia page 'Sj Miller'.
+[Inverse Inference Error] EntityA: lick_wilmerding_high_school, Not in modified list
+Successfully get summary for Wikipedia page 'Byam Shaw School of Art'.
+Successfully get summary for Wikipedia page 'Conrad O'Brien-ffrench'.
+Successfully get summary for Wikipedia page 'St Aubyns School'.
+Successfully get summary for Wikipedia page 'Conrad O'Brien-ffrench'.
+Successfully get summary for Wikipedia page 'University of Minnesota'.
+Successfully get summary for Wikipedia page 'John A. Powell'.
+Successfully get summary for Wikipedia page 'Stanford University'.
+Successfully get summary for Wikipedia page 'John A. Powell'.
+Successfully get summary for Wikipedia page 'University of California, Berkeley'.
+Successfully get summary for Wikipedia page 'John A. Powell'.
+Successfully get summary for Wikipedia page 'University of Wisconsin–Madison'.
+Successfully get summary for Wikipedia page 'Ellsworth Snyder'.
+Successfully get summary for Wikipedia page 'Loyola University Chicago'.
+Successfully get summary for Wikipedia page 'Avery r. young'.
+Successfully get summary for Wikipedia page 'John Marshall High School (Los Angeles)'.
+Successfully get summary for Wikipedia page 'Apl.de.ap'.
+Successfully get summary for Wikipedia page 'University of British Columbia'.
+Successfully get summary for Wikipedia page 'Bill Bissett'.
+Successfully get summary for Wikipedia page 'Dalhousie University'.
+Successfully get summary for Wikipedia page 'Bill Bissett'.
+Successfully get summary for Wikipedia page 'Massachusetts Institute of Technology'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'UC Berkeley School of Information'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'Brown University'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'Manheim Township High School'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'Columbia University'.
+Successfully get summary for Wikipedia page 'Adrienne maree brown'.
+Successfully get summary for Wikipedia page 'New York University Tisch School of the Arts'.
+Successfully get summary for Wikipedia page 'MC Chris'.
+Successfully get summary for Wikipedia page 'School of the Art Institute of Chicago'.
+Successfully get summary for Wikipedia page 'MC Chris'.
+Successfully get summary for Wikipedia page 'The Leventhorpe School'.
+Successfully get summary for Wikipedia page 'Dodie'.
+Successfully get summary for Wikipedia page 'Trinity College, Oxford'.
+Successfully get summary for Wikipedia page 'Arthur fforde'.
+Successfully get summary for Wikipedia page 'Rugby School'.
+Successfully get summary for Wikipedia page 'Arthur fforde'.
+Successfully get summary for Wikipedia page 'School of Medicine (Trinity College Dublin)'.
+Successfully get summary for Wikipedia page 'Michael ffrench-O'Carroll'.
+Successfully get summary for Wikipedia page 'Imperial College London'.
+Successfully get summary for Wikipedia page 'Richard ffrench-Constant'.
+Successfully get summary for Wikipedia page 'University of Exeter'.
+Successfully get summary for Wikipedia page 'Richard ffrench-Constant'.
+Successfully get summary for Wikipedia page 'University of British Columbia'.
+Successfully get summary for Wikipedia page 'Barbara findlay'.
+Successfully get summary for Wikipedia page 'Queen's University at Kingston'.
+Successfully get summary for Wikipedia page 'Barbara findlay'.
+Successfully get summary for Wikipedia page 'New York University Tisch School of the Arts'.
+Successfully get summary for Wikipedia page 'Dream Hampton'.
+Cannot find Wikipedia page for Wikidata ID Q11375679 in language 'en'.
+Successfully get summary for Wikipedia page 'Aalborg University'.
+Successfully get summary for Wikipedia page 'Fredric J. Harris'.
+Successfully get summary for Wikipedia page 'San Diego State University'.
+Successfully get summary for Wikipedia page 'Fredric J. Harris'.
+Successfully get summary for Wikipedia page 'New York University Tandon School of Engineering'.
+Successfully get summary for Wikipedia page 'Fredric J. Harris'.
+Successfully get summary for Wikipedia page 'University of Michigan'.
+Successfully get summary for Wikipedia page 'Pattrice jones'.
+Successfully get summary for Wikipedia page 'Towson University'.
+Successfully get summary for Wikipedia page 'Pattrice jones'.
+Successfully get summary for Wikipedia page 'Dalhousie University'.
+Successfully get summary for Wikipedia page 'Shalan joudry'.
+Successfully get summary for Wikipedia page 'University of New Mexico'.
+Successfully get summary for Wikipedia page 'Sj Miller'.
+Successfully get summary for Wikipedia page 'Byam Shaw School of Art'.
+Successfully get summary for Wikipedia page 'Conrad O'Brien-ffrench'.
+Successfully get summary for Wikipedia page 'St Aubyns School'.
+Successfully get summary for Wikipedia page 'Conrad O'Brien-ffrench'.
+Successfully get summary for Wikipedia page 'University of Minnesota'.
+Successfully get summary for Wikipedia page 'John A. Powell'.
+Successfully get summary for Wikipedia page 'Stanford University'.
+Successfully get summary for Wikipedia page 'John A. Powell'.
+Successfully get summary for Wikipedia page 'University of California, Berkeley'.
+Successfully get summary for Wikipedia page 'John A. Powell'.
+Successfully get summary for Wikipedia page 'University of Wisconsin–Madison'.
+Successfully get summary for Wikipedia page 'Ellsworth Snyder'.
+Successfully get summary for Wikipedia page 'Loyola University Chicago'.
+Successfully get summary for Wikipedia page 'Avery r. young'.
+Successfully get summary for Wikipedia page 'John Marshall High School (Los Angeles)'.
+Successfully get summary for Wikipedia page 'Apl.de.ap'.
+Successfully get summary for Wikipedia page 'University of British Columbia'.
+Successfully get summary for Wikipedia page 'Bill Bissett'.
+Successfully get summary for Wikipedia page 'Dalhousie University'.
+Successfully get summary for Wikipedia page 'Bill Bissett'.
+Successfully get summary for Wikipedia page 'Massachusetts Institute of Technology'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'UC Berkeley School of Information'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'Brown University'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'Manheim Township High School'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'Columbia University'.
+Successfully get summary for Wikipedia page 'Adrienne maree brown'.
+Successfully get summary for Wikipedia page 'New York University Tisch School of the Arts'.
+Successfully get summary for Wikipedia page 'MC Chris'.
+Successfully get summary for Wikipedia page 'School of the Art Institute of Chicago'.
+Successfully get summary for Wikipedia page 'MC Chris'.
+Successfully get summary for Wikipedia page 'The Leventhorpe School'.
+Successfully get summary for Wikipedia page 'Dodie'.
+Successfully get summary for Wikipedia page 'Trinity College, Oxford'.
+Successfully get summary for Wikipedia page 'Arthur fforde'.
+Successfully get summary for Wikipedia page 'Rugby School'.
+Successfully get summary for Wikipedia page 'Arthur fforde'.
+Successfully get summary for Wikipedia page 'School of Medicine (Trinity College Dublin)'.
+Successfully get summary for Wikipedia page 'Michael ffrench-O'Carroll'.
+Successfully get summary for Wikipedia page 'Imperial College London'.
+Successfully get summary for Wikipedia page 'Richard ffrench-Constant'.
+Successfully get summary for Wikipedia page 'University of Exeter'.
+Successfully get summary for Wikipedia page 'Richard ffrench-Constant'.
+Successfully get summary for Wikipedia page 'University of British Columbia'.
+Successfully get summary for Wikipedia page 'Barbara findlay'.
+Successfully get summary for Wikipedia page 'Queen's University at Kingston'.
+Successfully get summary for Wikipedia page 'Barbara findlay'.
+Successfully get summary for Wikipedia page 'New York University Tisch School of the Arts'.
+Successfully get summary for Wikipedia page 'Dream Hampton'.
+Cannot find Wikipedia page for Wikidata ID Q11375679 in language 'en'.
+Successfully get summary for Wikipedia page 'Aalborg University'.
+Successfully get summary for Wikipedia page 'Fredric J. Harris'.
+Successfully get summary for Wikipedia page 'San Diego State University'.
+Successfully get summary for Wikipedia page 'Fredric J. Harris'.
+Successfully get summary for Wikipedia page 'New York University Tandon School of Engineering'.
+Successfully get summary for Wikipedia page 'Fredric J. Harris'.
+Successfully get summary for Wikipedia page 'University of Michigan'.
+Successfully get summary for Wikipedia page 'Pattrice jones'.
+Successfully get summary for Wikipedia page 'Towson University'.
+Successfully get summary for Wikipedia page 'Pattrice jones'.
+Successfully get summary for Wikipedia page 'University of New Mexico'.
+Successfully get summary for Wikipedia page 'Sj Miller'.
+Successfully get summary for Wikipedia page 'Byam Shaw School of Art'.
+Successfully get summary for Wikipedia page 'Conrad O'Brien-ffrench'.
+Successfully get summary for Wikipedia page 'St Aubyns School'.
+Successfully get summary for Wikipedia page 'Conrad O'Brien-ffrench'.
+Successfully get summary for Wikipedia page 'University of Minnesota'.
+Successfully get summary for Wikipedia page 'John A. Powell'.
+Successfully get summary for Wikipedia page 'Stanford University'.
+Successfully get summary for Wikipedia page 'John A. Powell'.
+Successfully get summary for Wikipedia page 'University of California, Berkeley'.
+Successfully get summary for Wikipedia page 'John A. Powell'.
+Successfully get summary for Wikipedia page 'University of Wisconsin–Madison'.
+Successfully get summary for Wikipedia page 'Ellsworth Snyder'.
+Successfully get summary for Wikipedia page 'Loyola University Chicago'.
+Successfully get summary for Wikipedia page 'Avery r. young'.
+Successfully get summary for Wikipedia page 'John Marshall High School (Los Angeles)'.
+Successfully get summary for Wikipedia page 'Apl.de.ap'.
+Successfully get summary for Wikipedia page 'University of British Columbia'.
+Successfully get summary for Wikipedia page 'Bill Bissett'.
+Successfully get summary for Wikipedia page 'Dalhousie University'.
+Successfully get summary for Wikipedia page 'Bill Bissett'.
+Successfully get summary for Wikipedia page 'Massachusetts Institute of Technology'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'UC Berkeley School of Information'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'Brown University'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'Manheim Township High School'.
+Successfully get summary for Wikipedia page 'Danah boyd'.
+Successfully get summary for Wikipedia page 'Columbia University'.
+Successfully get summary for Wikipedia page 'Adrienne maree brown'.
+Successfully get summary for Wikipedia page 'New York University Tisch School of the Arts'.
+Successfully get summary for Wikipedia page 'MC Chris'.
+Successfully get summary for Wikipedia page 'School of the Art Institute of Chicago'.
+Successfully get summary for Wikipedia page 'MC Chris'.
+Successfully get summary for Wikipedia page 'The Leventhorpe School'.
+Successfully get summary for Wikipedia page 'Dodie'.
+Successfully get summary for Wikipedia page 'Trinity College, Oxford'.
+Successfully get summary for Wikipedia page 'Arthur fforde'.
+Successfully get summary for Wikipedia page 'Rugby School'.
+Successfully get summary for Wikipedia page 'Arthur fforde'.
+Successfully get summary for Wikipedia page 'School of Medicine (Trinity College Dublin)'.
+Successfully get summary for Wikipedia page 'Michael ffrench-O'Carroll'.
+Successfully get summary for Wikipedia page 'Imperial College London'.
+Successfully get summary for Wikipedia page 'Richard ffrench-Constant'.
+Successfully get summary for Wikipedia page 'University of Exeter'.
+Successfully get summary for Wikipedia page 'Richard ffrench-Constant'.
+Successfully get summary for Wikipedia page 'University of British Columbia'.
+Successfully get summary for Wikipedia page 'Barbara findlay'.
+Successfully get summary for Wikipedia page 'Queen's University at Kingston'.
+Successfully get summary for Wikipedia page 'Barbara findlay'.
+Successfully get summary for Wikipedia page 'New York University Tisch School of the Arts'.
+Successfully get summary for Wikipedia page 'Dream Hampton'.
+Cannot find Wikipedia page for Wikidata ID Q11375679 in language 'en'.
+Successfully get summary for Wikipedia page 'Aalborg University'.
+Successfully get summary for Wikipedia page 'Fredric J. Harris'.
+Successfully get summary for Wikipedia page 'San Diego State University'.
+Successfully get summary for Wikipedia page 'Fredric J. Harris'.
+Successfully get summary for Wikipedia page 'New York University Tandon School of Engineering'.
+Successfully get summary for Wikipedia page 'Fredric J. Harris'.
+Successfully get summary for Wikipedia page 'University of Michigan'.
+Successfully get summary for Wikipedia page 'Pattrice jones'.
+Successfully get summary for Wikipedia page 'Towson University'.
+Successfully get summary for Wikipedia page 'Pattrice jones'.
+Successfully get summary for Wikipedia page 'Dalhousie University'.
+Successfully get summary for Wikipedia page 'Shalan joudry'.
+Successfully get summary for Wikipedia page 'University of New Mexico'.
+Successfully get summary for Wikipedia page 'Sj Miller'.
+Successfully get summary for Wikipedia page 'Byam Shaw School of Art'.
+Successfully get summary for Wikipedia page 'Conrad O'Brien-ffrench'.
+Successfully get summary for Wikipedia page 'St Aubyns School'.
+Successfully get summary for Wikipedia page 'Conrad O'Brien-ffrench'.
+Successfully get summary for Wikipedia page 'University of Minnesota'.
+Successfully get summary for Wikipedia page 'John A. Powell'.
+Successfully get summary for Wikipedia page 'Stanford University'.
+Successfully get summary for Wikipedia page 'John A. Powell'.
+Successfully get summary for Wikipedia page 'University of California, Berkeley'.
+Successfully get summary for Wikipedia page 'John A. Powell'.
+Successfully get summary for Wikipedia page 'University of Wisconsin–Madison'.
+Successfully get summary for Wikipedia page 'Ellsworth Snyder'.
+Successfully get summary for Wikipedia page 'Loyola University Chicago'.
+Successfully get summary for Wikipedia page 'Avery r. young'.
+[Inverse Inference Error] EntityA: dubai, Not in modified list
+Successfully get summary for Wikipedia page 'City of Vancouver Archives'.
+Successfully get summary for Wikipedia page 'Bill Bissett'.
+Cannot find Wikipedia page for Wikidata ID Q61467363 in language 'en'.
+Cannot find Wikipedia page for Wikidata ID Q47518588 in language 'en'.
+Successfully get summary for Wikipedia page 'City of Vancouver Archives'.
+Successfully get summary for Wikipedia page 'Bill Bissett'.
+Cannot find Wikipedia page for Wikidata ID Q61467363 in language 'en'.
+Cannot find Wikipedia page for Wikidata ID Q47518588 in language 'en'.
+Successfully get summary for Wikipedia page 'Berea College'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'City of Vancouver Archives'.
+Successfully get summary for Wikipedia page 'Bill Bissett'.
+Cannot find Wikipedia page for Wikidata ID Q61467363 in language 'en'.
+Cannot find Wikipedia page for Wikidata ID Q47518588 in language 'en'.
+Successfully get summary for Wikipedia page 'Berea College'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'City of Vancouver Archives'.
+Successfully get summary for Wikipedia page 'Bill Bissett'.
+Cannot find Wikipedia page for Wikidata ID Q61467363 in language 'en'.
+Cannot find Wikipedia page for Wikidata ID Q47518588 in language 'en'.
+Successfully get summary for Wikipedia page 'Berea College'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'J. Allen St. John'.
+Successfully get summary for Wikipedia page 'A Golden Anniversary Bibliography of Edgar Rice Burroughs'.
+Successfully get summary for Wikipedia page 'Salvador Dalí'.
+Successfully get summary for Wikipedia page 'The Works of M. P. Shiel'.
+Successfully get summary for Wikipedia page 'Ned Dameron'.
+Successfully get summary for Wikipedia page 'Emperor of Dreams: A Clark Ashton Smith Bibliography'.
+Successfully get summary for Wikipedia page 'J. Allen St. John'.
+Successfully get summary for Wikipedia page 'A Golden Anniversary Bibliography of Edgar Rice Burroughs'.
+Successfully get summary for Wikipedia page 'Salvador Dalí'.
+Successfully get summary for Wikipedia page 'The Works of M. P. Shiel'.
+Successfully get summary for Wikipedia page 'Ned Dameron'.
+Successfully get summary for Wikipedia page 'Emperor of Dreams: A Clark Ashton Smith Bibliography'.
+Successfully get summary for Wikipedia page 'J. Allen St. John'.
+Successfully get summary for Wikipedia page 'A Golden Anniversary Bibliography of Edgar Rice Burroughs'.
+Successfully get summary for Wikipedia page 'Salvador Dalí'.
+Successfully get summary for Wikipedia page 'The Works of M. P. Shiel'.
+Successfully get summary for Wikipedia page 'Ned Dameron'.
+Successfully get summary for Wikipedia page 'Emperor of Dreams: A Clark Ashton Smith Bibliography'.
+Successfully get summary for Wikipedia page 'J. Allen St. John'.
+Successfully get summary for Wikipedia page 'A Golden Anniversary Bibliography of Edgar Rice Burroughs'.
+Successfully get summary for Wikipedia page 'Salvador Dalí'.
+Successfully get summary for Wikipedia page 'The Works of M. P. Shiel'.
+Successfully get summary for Wikipedia page 'Ned Dameron'.
+Successfully get summary for Wikipedia page 'Emperor of Dreams: A Clark Ashton Smith Bibliography'.
+Successfully get summary for Wikipedia page 'J. Allen St. John'.
+Successfully get summary for Wikipedia page 'A Golden Anniversary Bibliography of Edgar Rice Burroughs'.
+Successfully get summary for Wikipedia page 'Salvador Dalí'.
+Successfully get summary for Wikipedia page 'The Works of M. P. Shiel'.
+Successfully get summary for Wikipedia page 'Ned Dameron'.
+Successfully get summary for Wikipedia page 'Emperor of Dreams: A Clark Ashton Smith Bibliography'.
+Successfully get summary for Wikipedia page 'J. Allen St. John'.
+Successfully get summary for Wikipedia page 'A Golden Anniversary Bibliography of Edgar Rice Burroughs'.
+Successfully get summary for Wikipedia page 'Salvador Dalí'.
+Successfully get summary for Wikipedia page 'The Works of M. P. Shiel'.
+Successfully get summary for Wikipedia page 'John and Vera Richter'.
+Successfully get summary for Wikipedia page 'Eden ahbez'.
+Successfully get summary for Wikipedia page 'Thích Nhất Hạnh'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Gustavo Gutiérrez'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Lorraine Hansberry'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Sojourner Truth'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Toni Morrison'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Martin Luther King Jr.'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Erich Fromm'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Malcolm X'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Paulo Freire'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Kitty Wells'.
+Successfully get summary for Wikipedia page 'K.d. lang'.
+Successfully get summary for Wikipedia page 'Patsy Cline'.
+Successfully get summary for Wikipedia page 'K.d. lang'.
+[Inverse Inference Error] EntityA: richard_dawkins, Not in modified list
+[Inverse Inference Error] EntityA: jane_goodall, Not in modified list
+[Inverse Inference Error] EntityA: paola_cavalieri, Not in modified list
+[Inverse Inference Error] EntityA: peter_singer, Not in modified list
+[Inverse Inference Error] EntityA: dawn_prince_hughes, Not in modified list
+[Inverse Inference Error] EntityA: steven_m__wise, Not in modified list
+Successfully get summary for Wikipedia page 'John and Vera Richter'.
+Successfully get summary for Wikipedia page 'Eden ahbez'.
+Successfully get summary for Wikipedia page 'Thích Nhất Hạnh'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Gustavo Gutiérrez'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Lorraine Hansberry'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Sojourner Truth'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Toni Morrison'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Martin Luther King Jr.'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Erich Fromm'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Malcolm X'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Paulo Freire'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Kitty Wells'.
+Successfully get summary for Wikipedia page 'K.d. lang'.
+Successfully get summary for Wikipedia page 'Patsy Cline'.
+Successfully get summary for Wikipedia page 'K.d. lang'.
+Successfully get summary for Wikipedia page 'John and Vera Richter'.
+Successfully get summary for Wikipedia page 'Eden ahbez'.
+Successfully get summary for Wikipedia page 'Thích Nhất Hạnh'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Gustavo Gutiérrez'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Lorraine Hansberry'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Sojourner Truth'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Toni Morrison'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Martin Luther King Jr.'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Erich Fromm'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Malcolm X'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Paulo Freire'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Kitty Wells'.
+Successfully get summary for Wikipedia page 'K.d. lang'.
+Successfully get summary for Wikipedia page 'Patsy Cline'.
+Successfully get summary for Wikipedia page 'K.d. lang'.
+Successfully get summary for Wikipedia page 'John and Vera Richter'.
+Successfully get summary for Wikipedia page 'Eden ahbez'.
+Successfully get summary for Wikipedia page 'Thích Nhất Hạnh'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Gustavo Gutiérrez'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Lorraine Hansberry'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Sojourner Truth'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Toni Morrison'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Martin Luther King Jr.'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Erich Fromm'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Malcolm X'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Paulo Freire'.
+Successfully get summary for Wikipedia page 'Bell hooks'.
+Successfully get summary for Wikipedia page 'Kitty Wells'.
+Successfully get summary for Wikipedia page 'K.d. lang'.
+Successfully get summary for Wikipedia page 'Patsy Cline'.
+Successfully get summary for Wikipedia page 'K.d. lang'.
+[SafeConsult Error] File: d:/Jupyter/OmniBench-RAG/src/wiki/pl_files/geography.pl, Error: exception: access violation reading 0x0000000000000508
+[SafeConsult Error] File: d:/Jupyter/OmniBench-RAG/src/wiki/pl_files/history.pl, Error: exception: access violation reading 0x0000000000000508
+[SafeConsult Error] File: d:/Jupyter/OmniBench-RAG/src/wiki/pl_files/history.pl, Error: exception: access violation reading 0x0000000000000508
+[SafeConsult Error] File: d:/Jupyter/OmniBench-RAG/src/wiki/pl_files/people.pl, Error: exception: access violation reading 0x0000000000000508
+[SafeConsult Error] File: d:/Jupyter/OmniBench-RAG/src/wiki/pl_files/geography.pl, Error: exception: access violation reading 0x0000000000000508
+[SafeConsult Error] File: d:/Jupyter/OmniBench-RAG/src/wiki/pl_files/geography.pl, Error: exception: access violation reading 0x0000000000000508

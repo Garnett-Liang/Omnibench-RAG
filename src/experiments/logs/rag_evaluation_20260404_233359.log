@@ -1,0 +1,281 @@
+Starting RAG evaluation - Domain: people, Model: api, Top-K: 5
+Dataset source: existing, RAG material source: strong
+==================================================
+[1/5] Checking and preprocessing people domain data...
+Using Strong Wiki material...
+Strong data already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_cleaned\Strong_people.txt), skipping generation
+[2/5] Checking and building people domain vector index...
+Using Strong Wiki material index...
+Strong index already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\people_index.faiss), loading...
+[3/5] Loading people domain evaluation dataset...
+Using reproducible dataset...
+Loaded 58 samples from d:\Jupyter\OmniBench-RAG\data\dataset\generated\inverse\people_qa.json
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Successfully loaded FAISS index from: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\people_index.faiss
+Loaded 190 preprocessed document chunks
+[5/5] Starting RAG evaluation... (58 samples)
+Using DeepSeek API for RAG evaluation: deepseek-chat
+Starting evaluation with 58 samples
+[DEBUG] Basic prompt for sample 1: Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+
+
+Question: Statement: It's not true that University of British Columbia could be be the alma mater of o...
+[DEBUG] Basic payload for sample 1: model=deepseek-chat, messages=[{'role': 'system', 'content': 'You are a helpful assistant that answers questions with only "yes" or "no". Be concise and accurate.'}, {'role': 'user', 'content': 'Based on the provided context, answer the following question with ONLY "yes" or "no".\n\nContext:\n\n\nQuestion: Statement: It\'s not true that University of British Columbia could be be the alma mater of of Bill Bissett. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.\n\nAnswer (yes or no only):'}]
+[DEBUG] RAG prompt for sample 1: Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+[Document 1] Bill Bissett commonly stylised bill bissett Canadian poet known unconventional style especially unusual orthography use visual elements Brown University private Ivy League research university...
+[DEBUG] RAG payload for sample 1: model=deepseek-chat, message_length=1338
+
+===== Detailed Analysis for Sample 1 =====
+Question: Statement: It's not true that University of British Columbia could be be the alma mater of of Bill Bissett. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Correct
+  Performance: Time=2.5905s, Memory=778.4570MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Correct
+  Performance: Time=3.4596s, Memory=1165.5859MB, GPU=0.00%
+  Retrieved Documents: 5
+======================================================================
+[DEBUG] Basic prompt for sample 2: Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+
+
+Question: Could Dalhousie University be be the alma mater of of Bill Bissett?
+
+Answer (yes or no only)...
+[DEBUG] Basic payload for sample 2: model=deepseek-chat, messages=[{'role': 'system', 'content': 'You are a helpful assistant that answers questions with only "yes" or "no". Be concise and accurate.'}, {'role': 'user', 'content': 'Based on the provided context, answer the following question with ONLY "yes" or "no".\n\nContext:\n\n\nQuestion: Could Dalhousie University be be the alma mater of of Bill Bissett?\n\nAnswer (yes or no only):'}]
+[DEBUG] RAG prompt for sample 2: Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+[Document 1] Dalhousie University large public research university Nova Scotia Canada campuses Halifax fourth Bible Hill second medical school campus Saint John New Brunswick Dalhousie offers degree progr...
+[DEBUG] RAG payload for sample 2: model=deepseek-chat, message_length=1204
+
+===== Detailed Analysis for Sample 2 =====
+Question: Could Dalhousie University be be the alma mater of of Bill Bissett?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=1.8536s, Memory=1166.4570MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.8818s, Memory=1166.7383MB, GPU=0.00%
+  Retrieved Documents: 5
+======================================================================
+[DEBUG] Basic prompt for sample 3: Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+
+
+Question: Is it true that Massachusetts Institute of Technology could or could be be the alma mater of...
+[DEBUG] RAG prompt for sample 3: Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+[Document 1] Massachusetts Institute Technology MIT private research university Cambridge Massachusetts United States Established MIT played significant role development areas modern technology science Da...
+
+===== Detailed Analysis for Sample 3 =====
+Question: Is it true that Massachusetts Institute of Technology could or could be be the alma mater of Danah boyd?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.1057s, Memory=1167.0039MB, GPU=-14.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=3.5333s, Memory=1167.1055MB, GPU=0.00%
+  Retrieved Documents: 5
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Does University of California, Berkeley School of Information have the possibility to be be the alma mater of of Danah boyd?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.1518s, Memory=1167.2305MB, GPU=-14.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.8261s, Memory=1167.4141MB, GPU=-14.00%
+  Retrieved Documents: 5
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Is it true that Brown University could or could be be the alma mater of Danah boyd?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.1364s, Memory=1167.5039MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.6341s, Memory=1167.5234MB, GPU=0.00%
+  Retrieved Documents: 5
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Statement: It's not true that Manheim Township High School could be be the alma mater of of Danah boyd. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Correct
+  Performance: Time=2.3467s, Memory=1167.5273MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Correct
+  Performance: Time=2.5137s, Memory=1167.5352MB, GPU=0.00%
+  Retrieved Documents: 5
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Does Columbia University have the possibility to be be the alma mater of of Adrienne Maree Brown?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=1.9392s, Memory=1167.5781MB, GPU=-14.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=3.0406s, Memory=1167.6016MB, GPU=0.00%
+  Retrieved Documents: 5
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Does New York University Tisch School of the Arts have the possibility to be be the alma mater of of MC Chris?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: yes
+  API Success: True
+  Semantic Prediction: yes (Confidence: 0.9998)
+  Correctness: Correct
+  Performance: Time=2.1961s, Memory=1167.6094MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.8372s, Memory=1167.6133MB, GPU=0.00%
+  Retrieved Documents: 5
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Is there any possibility that School of the Art Institute of Chicago could not be be the alma mater of of MC Chris?
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: yes
+  API Success: True
+  Semantic Prediction: yes (Confidence: 0.9998)
+  Correctness: Incorrect
+  Performance: Time=2.2289s, Memory=1167.6133MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+  API Success: True
+  Semantic Prediction: yes (Confidence: 0.9998)
+  Correctness: Incorrect
+  Performance: Time=4.5504s, Memory=1167.6562MB, GPU=0.00%
+  Retrieved Documents: 5
+======================================================================
+Processed 10/58 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Does Trinity College have the possibility to be be the alma mater of of Arthur fforde?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.2403s, Memory=1167.6992MB, GPU=-14.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=3.6877s, Memory=1167.7695MB, GPU=-14.00%
+  Retrieved Documents: 5
+======================================================================
+Processed 20/58 samples
+Processed 30/58 samples
+Processed 40/58 samples
+Processed 50/58 samples
+Processed 58/58 samples
+
+===== Performance Metrics Summary =====
+Total Samples: 58
+Base Model API Failures: 0 | Successful Calls: 58
+RAG Model API Failures: 0 | Successful Calls: 58
+Base Model:
+  Accuracy: 0.4655 (based on 58 successful calls)
+  Avg Response Time: 2.3565s (based on 58/58 samples)
+  Avg Memory Usage: 1144.8322MB (based on 57/58 samples)
+  Avg GPU Utilization: 3.74% (based on 58/58 samples)
+
+RAG Model:
+  Accuracy: 0.5345 (based on 58 successful calls)
+  Avg Response Time: 3.1141s (1.32x base)
+  Avg Memory Usage: 1144.1970MB (1.00x base)
+  Avg GPU Utilization: 3.53% (0.94x base)
+
+RAG evaluation completed! Results saved to: d:\Jupyter\OmniBench-RAG\src\experiments\results\rag_results\rag_people_api_20260404234048.json
+Basic accuracy: 0.4655 | RAG accuracy: 0.5345 | Improvement: 0.0690

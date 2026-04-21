@@ -3,3 +3,36 @@ Error occurred while processing entity 'Q901402': HTTP Error 429: Too Many Reque
 Error occurred while processing entity 'Q223602': HTTP Error 502: Bad Gateway
 Error occurred while processing entity 'Q1703790': HTTP Error 502: Bad Gateway
 Error occurred while processing entity 'Q86636': HTTP Error 502: Bad Gateway
+Error occurred while processing entity 'Q471043': HTTP Error 429: Too Many Requests
+Error occurred while processing entity 'Q15129390': The read operation timed out
+Error occurred while processing entity 'Q6497044': The read operation timed out
+Error occurred while processing entity 'Q6497044': The read operation timed out
+Error occurred while processing entity 'Q380274': The read operation timed out
+Error occurred while processing entity 'Q380274': The read operation timed out
+Error occurred while processing entity 'Q125357962': HTTP Error 429: Too Many Requests
+Error occurred while processing entity 'Q846047': HTTP Error 429: Too Many Requests
+Error occurred while processing entity 'Q471043': The read operation timed out
+Error occurred while processing entity 'Q116967296': The read operation timed out
+Error occurred while processing entity 'Q15129390': The read operation timed out
+Error occurred while processing entity 'Q846047': The read operation timed out
+Error occurred while processing entity 'Q15129390': The read operation timed out
+Error occurred while processing entity 'Q952080': The read operation timed out
+Error occurred while processing entity 'Q998434': The read operation timed out
+Error occurred while processing entity 'Q998434': The read operation timed out
+Error occurred while processing entity 'Q3633560': The read operation timed out
+Error occurred while processing entity 'Q3633560': The read operation timed out
+Error occurred while processing entity 'Q5867819': The read operation timed out
+Error occurred while processing entity 'Q5867819': The read operation timed out
+Error occurred while processing entity 'Q113861741': The read operation timed out
+Error occurred while processing entity 'Q113861741': The read operation timed out
+Error occurred while processing entity 'Q6497044': The read operation timed out
+Error occurred while processing entity 'Q6497044': The read operation timed out
+Error occurred while processing entity 'Q380274': The read operation timed out
+Error occurred while processing entity 'Q380274': The read operation timed out
+Error occurred while processing entity 'Q48835067': The read operation timed out
+Error occurred while processing entity 'Q65090221': HTTP Error 502: Bad Gateway
+Error occurred while processing entity 'Q28402356': The read operation timed out
+Error occurred while processing entity 'Q27684061': The read operation timed out
+Error occurred while processing entity 'Q131437420': HTTP Error 502: Bad Gateway
+Error occurred while processing entity 'Q55628145': The read operation timed out
+Error occurred while processing entity 'Q28402356': The read operation timed out

@@ -1,0 +1,47 @@
+Starting RAG evaluation - Domain: people, Model: qwen, Top-K: 3
+Dataset source: new, RAG material source: strong
+==================================================
+[1/5] Checking and preprocessing people domain data...
+Using Strong Wiki material...
+Strong data already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_cleaned\Strong_people.txt), skipping generation
+[2/5] Checking and building people domain vector index...
+Using Strong Wiki material index...
+Strong index already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\people_index.faiss), loading...
+[3/5] Loading people domain evaluation dataset...
+Using dynamically generated dataset...
+Limited dataset to first 99 samples
+Loaded 99 samples from d:\Jupyter\OmniBench-RAG\data\dataset\dynamic\inverse\people_qa.json
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Successfully loaded FAISS index from: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\people_index.faiss
+Loaded 190 preprocessed document chunks
+[5/5] Starting RAG evaluation... (99 samples)
+
+Error: cannot import name 'DisjunctiveConstraint' from 'transformers' (C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\__init__.py)
+Traceback (most recent call last):
+  File "d:\Jupyter\OmniBench-RAG\src\backend\workflow.py", line 912, in run_rag_evaluation
+    basic_score, rag_score, basic_metrics, rag_metrics, perf_ratios = evaluate_rag_model(
+  File "d:\Jupyter\OmniBench-RAG\src\backend\workflow.py", line 502, in evaluate_rag_model
+    generate_model = AutoModelForCausalLM.from_pretrained(
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\models\auto\auto_factory.py", line 369, in from_pretrained
+    model_class = get_class_from_dynamic_module(
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\dynamic_module_utils.py", line 572, in get_class_from_dynamic_module
+    final_module = get_cached_module_file(
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\dynamic_module_utils.py", line 410, in get_cached_module_file
+    modules_needed = check_imports(resolved_module_file)
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\dynamic_module_utils.py", line 246, in check_imports
+    importlib.import_module(imp)
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers_stream_generator\__init__.py", line 1, in <module>
+    from .main import init_stream_support
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers_stream_generator\main.py", line 1, in <module>
+    from transformers import (
+ImportError: cannot import name 'DisjunctiveConstraint' from 'transformers' (C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\__init__.py)

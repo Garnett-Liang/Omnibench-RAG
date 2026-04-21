@@ -1,0 +1,60 @@
+Selected reasoning rule: inverse
+Selected domain: geography
+Processing domain: geography
+Step 1: Saving category links...
+Saved 36 category links to d:\Jupyter\OmniBench-RAG\data\dataset\category\geography_links.txt
+Category links saved to d:\Jupyter\OmniBench-RAG\data\dataset\category\geography_links.txt
+Step 3: Saving entity links...
+Processing category: Geography by location
+Processing category: Geography by period
+Processing category: Geography by topic
+Processing category: Subfields of geography
+Processing category: Geographers
+Processing category: Geography-related lists
+Processing category: Works about geography
+Processing category: Geographical areas
+Processing category: Geography awards
+Processing category: Geographic classifications
+Processing category: Geography competitions
+Processing category: Geography conferences
+Processing category: Deserts
+Processing category: Geography education
+Processing category: Exploration
+Processing category: Geographical regions
+Processing category: Hemispheres of Earth
+Processing category: History of geography
+Processing category: Land systems
+Processing category: Landscape
+Processing category: Laws of geography
+Processing category: Geographic literature
+Processing category: Maps
+Processing category: Meridians (geography)
+Processing category: Geography organizations
+Processing category: Phantom geographical features
+Processing category: Places
+Processing category: Geographic position
+Processing category: Geographical superlatives
+Processing category: Geography terminology
+Processing category: Time zones
+Processing category: Types of geographical division
+Processing category: World maps
+Processing category: Geographical zones
+Processing category: Geographic images
+Processing category: Geography stubs
+Saved 22 links to d:\Jupyter\OmniBench-RAG\data\dataset\category\selected\geography_wiki_links.txt. Total pages: 22
+Entity links saved to d:\Jupyter\OmniBench-RAG\data\dataset\category\selected\geography_wiki_links.txt (total: 22 links)
+Step 4: Generating Wikidata entities...
+Successfully retrieved 17/22 Wikidata entities
+Wikidata entities saved to d:\Jupyter\OmniBench-RAG\src\wiki\geography_useful_entities.json (total: 17 entities)
+Step 5: Processing transitive entities...
+Transitive entities saved to d:\Jupyter\OmniBench-RAG\src\wiki\transitive\geography_useful_entities.json
+Step 6: Building transitive Prolog...
+No entities found for geography, skipping Prolog generation
+Step 7: Building Wiki Prolog...
+Wiki Prolog saved to d:\Jupyter\OmniBench-RAG\src\wiki\pl_files
+Step 8: Prolog inference for inverse rule...
+New facts saved to d:\Jupyter\OmniBench-RAG\data\dataset\derived\inverse\geography_new_facts.json (total: 0 facts)
+Step 9: Generating QA pairs for geography...
+QA pairs saved to d:\Jupyter\OmniBench-RAG\data\dataset\dynamic\inverse\geography_qa.json (total: 0 pairs)
+Dataset generation completed
+Results saved to: d:\Jupyter\OmniBench-RAG\data\dataset\dynamic\inverse\geography_qa.json

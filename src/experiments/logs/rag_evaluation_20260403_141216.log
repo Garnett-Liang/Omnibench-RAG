@@ -1,0 +1,35 @@
+Starting RAG evaluation - Domain: people, Model: qwen, Top-K: 3
+Dataset source: new, RAG material source: strong
+==================================================
+[1/5] Checking and preprocessing people domain data...
+Using Strong Wiki material...
+Strong data already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_cleaned\Strong_people.txt), skipping generation
+[2/5] Checking and building people domain vector index...
+Using Strong Wiki material index...
+Strong index already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\people_index.faiss), loading...
+[3/5] Loading people domain evaluation dataset...
+Using dynamically generated dataset...
+Limited dataset to first 99 samples
+Loaded 99 samples from d:\Jupyter\OmniBench-RAG\data\dataset\dynamic\inverse\people_qa.json
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Successfully loaded FAISS index from: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\people_index.faiss
+Loaded 190 preprocessed document chunks
+[5/5] Starting RAG evaluation... (99 samples)
+
+Error: This modeling file requires the following packages that were not found in your environment: tiktoken. Run `pip install tiktoken`
+Traceback (most recent call last):
+  File "d:\Jupyter\OmniBench-RAG\src\backend\workflow.py", line 912, in run_rag_evaluation
+    basic_score, rag_score, basic_metrics, rag_metrics, perf_ratios = evaluate_rag_model(
+  File "d:\Jupyter\OmniBench-RAG\src\backend\workflow.py", line 501, in evaluate_rag_model
+    tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen-1_8B", trust_remote_code=True)
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 732, in from_pretrained
+    tokenizer_class = get_class_from_dynamic_module(class_ref, pretrained_model_name_or_path, **kwargs)
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\dynamic_module_utils.py", line 572, in get_class_from_dynamic_module
+    final_module = get_cached_module_file(
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\dynamic_module_utils.py", line 410, in get_cached_module_file
+    modules_needed = check_imports(resolved_module_file)
+  File "C:\Users\Garnett_Liang\.conda\envs\rag\lib\site-packages\transformers\dynamic_module_utils.py", line 258, in check_imports
+    raise ImportError(
+ImportError: This modeling file requires the following packages that were not found in your environment: tiktoken. Run `pip install tiktoken`

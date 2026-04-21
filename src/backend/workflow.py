@@ -873,7 +873,7 @@ def run_rag_evaluation(rule, domain, model_name, top_k, log_file, dataset_source
                 with open(dataset_path, 'r', encoding='utf-8') as f:
                     test_dataset = json.load(f)
 
-                max_samples = 99
+                max_samples = 59
                 if len(test_dataset) > max_samples:
                     test_dataset = test_dataset[:max_samples]  
                     print(f"Limited dataset to first {max_samples} samples")

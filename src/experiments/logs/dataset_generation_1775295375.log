@@ -1,0 +1,55 @@
+Selected reasoning rule: inverse
+Selected domain: people
+Processing domain: people
+Step 1: Saving category links...
+Saved 34 category links to d:\Jupyter\OmniBench-RAG\data\dataset\category\people_links.txt
+Category links saved to d:\Jupyter\OmniBench-RAG\data\dataset\category\people_links.txt
+Step 3: Saving entity links...
+Processing category: People by association
+Processing category: People by behavior
+Processing category: People by ethnicity
+Processing category: People by gender
+Processing category: People by language
+Processing category: People by location
+Processing category: People by medical or psychological condition
+Processing category: People by nationality
+Processing category: People by occupation
+Processing category: People by organization
+Processing category: People by political orientation
+Processing category: People by religion
+Processing category: People by role
+Processing category: People by sexuality
+Processing category: People by status
+Processing category: People by time
+Processing category: People by type
+Processing category: Categories by individual
+Processing category: Lists of people
+Processing category: Outlines of people
+Processing category: Cultural depictions
+Processing category: Bibliographies of people
+Processing category: Biography (genre)
+Processing category: Personal coats of arms
+Processing category: People by descent
+Processing category: People with disabilities
+Processing category: Groups of people
+Processing category: Metaphors referring to people
+Processing category: Personhood
+Processing category: Photographs of people
+Processing category: Slang terms for people
+Processing category: Works based on real people
+Processing category: People stubs
+Processing category: Wikipedia categories named after people
+Saved 12 links to d:\Jupyter\OmniBench-RAG\data\dataset\category\selected\people_wiki_links.txt. Total pages: 12
+Entity links saved to d:\Jupyter\OmniBench-RAG\data\dataset\category\selected\people_wiki_links.txt (total: 12 links)
+Step 4: Generating Wikidata entities...
+Successfully retrieved 11/12 Wikidata entities
+Wikidata entities saved to d:\Jupyter\OmniBench-RAG\src\wiki\people_useful_entities.json (total: 11 entities)
+Step 5: Processing transitive entities...
+Transitive entities saved to d:\Jupyter\OmniBench-RAG\src\wiki\transitive\people_useful_entities.json
+Step 6: Building transitive Prolog...
+No entities found for people, skipping Prolog generation
+Step 7: Building Wiki Prolog...
+Wiki Prolog saved to d:\Jupyter\OmniBench-RAG\src\wiki\pl_files
+Step 8: Prolog inference for inverse rule...
+Error in dynamic dataset generation: exception: access violation reading 0x0000000000000508
+Error: exception: access violation reading 0x0000000000000508

@@ -1,0 +1,287 @@
+Starting RAG evaluation - Domain: geography, Model: api, Top-K: 3
+Dataset source: existing, RAG material source: strong
+==================================================
+[1/5] Checking and preprocessing geography domain data...
+Using Strong Wiki material...
+Strong data already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_cleaned\Strong_geography.txt), skipping generation
+[2/5] Checking and building geography domain vector index...
+Using Strong Wiki material index...
+Strong index already exists (path: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\geography_index.faiss), loading...
+[3/5] Loading geography domain evaluation dataset...
+Using reproducible dataset...
+Limited dataset to first 29 samples
+Loaded 29 samples from d:\Jupyter\OmniBench-RAG\data\dataset\generated\inverse\geography_qa.json
+[4/5] Initializing model and retriever...
+Loading SentenceTransformer model...
+Embedding model device: cuda:0
+Successfully loaded FAISS index from: d:\Jupyter\OmniBench-RAG\data\RAG_material\Strong_base\geography_index.faiss
+Loaded 101 preprocessed document chunks
+[5/5] Starting RAG evaluation... (29 samples)
+Using DeepSeek API for RAG evaluation: deepseek-chat
+Starting evaluation with 29 samples
+[DEBUG] Basic prompt for sample 1: Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+
+
+Question: Could École Normale Supérieure be be the alma mater of of Hervé Théry?
+
+Answer (yes or no on...
+[DEBUG] Basic payload for sample 1: model=deepseek-chat, messages=[{'role': 'system', 'content': 'You are a helpful assistant that answers questions with only "yes" or "no". Be concise and accurate.'}, {'role': 'user', 'content': 'Based on the provided context, answer the following question with ONLY "yes" or "no".\n\nContext:\n\n\nQuestion: Could École Normale Supérieure be be the alma mater of of Hervé Théry?\n\nAnswer (yes or no only):'}]
+[DEBUG] RAG prompt for sample 1: Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+[Document 1] education institutions France pupils generally referred normaliens alumni referred archicubes
+
+[Document 2] École normale supérieure PSL grande école Paris France constituent members Paris Sc...
+[DEBUG] RAG payload for sample 1: model=deepseek-chat, message_length=1136
+
+===== Detailed Analysis for Sample 1 =====
+Question: Could École Normale Supérieure be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: yes
+  API Success: True
+  Semantic Prediction: yes (Confidence: 0.9998)
+  Correctness: Correct
+  Performance: Time=3.2995s, Memory=250.9688MB, GPU=-17.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+  API Success: True
+  Semantic Prediction: yes (Confidence: 0.9998)
+  Correctness: Correct
+  Performance: Time=3.2144s, Memory=605.6445MB, GPU=-1.00%
+  Retrieved Documents: 3
+======================================================================
+[DEBUG] Basic prompt for sample 2: Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+
+
+Question: Could University of Paris 1 Pantheon-Sorbonne be be the alma mater of of Hervé Théry?
+
+Answe...
+[DEBUG] Basic payload for sample 2: model=deepseek-chat, messages=[{'role': 'system', 'content': 'You are a helpful assistant that answers questions with only "yes" or "no". Be concise and accurate.'}, {'role': 'user', 'content': 'Based on the provided context, answer the following question with ONLY "yes" or "no".\n\nContext:\n\n\nQuestion: Could University of Paris 1 Pantheon-Sorbonne be be the alma mater of of Hervé Théry?\n\nAnswer (yes or no only):'}]
+[DEBUG] RAG prompt for sample 2: Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+[Document 1] education institutions France pupils generally referred normaliens alumni referred archicubes
+
+[Document 2] Paris Panthéon Sorbonne University known Paris Panthéon Sorbonne University public ...
+[DEBUG] RAG payload for sample 2: model=deepseek-chat, message_length=1090
+
+===== Detailed Analysis for Sample 2 =====
+Question: Could University of Paris 1 Pantheon-Sorbonne be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.2892s, Memory=607.2305MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=11.2741s, Memory=607.9531MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+[DEBUG] Basic prompt for sample 3: Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+
+
+Question: Does École Normale Supérieure have the possibility to be be the alma mater of of Hervé Théry...
+[DEBUG] RAG prompt for sample 3: Based on the provided context, answer the following question with ONLY "yes" or "no".
+
+Context:
+[Document 1] education institutions France pupils generally referred normaliens alumni referred archicubes
+
+[Document 2] École normale supérieure PSL grande école Paris France constituent members Paris Sc...
+
+===== Detailed Analysis for Sample 3 =====
+Question: Does École Normale Supérieure have the possibility to be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: yes
+  API Success: True
+  Semantic Prediction: yes (Confidence: 0.9998)
+  Correctness: Correct
+  Performance: Time=2.2069s, Memory=608.2773MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+  API Success: True
+  Semantic Prediction: yes (Confidence: 0.9998)
+  Correctness: Correct
+  Performance: Time=2.4702s, Memory=608.6367MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 4 =====
+Question: Statement: It's not true that University of Paris 1 Pantheon-Sorbonne could be be the alma mater of of Hervé Théry. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Correct
+  Performance: Time=1.7121s, Memory=608.9297MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Correct
+  Performance: Time=2.9183s, Memory=609.5039MB, GPU=-9.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 5 =====
+Question: Is it true that École Normale Supérieure could or could be be the alma mater of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=1.9796s, Memory=609.6094MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+  API Success: True
+  Semantic Prediction: yes (Confidence: 0.9998)
+  Correctness: Correct
+  Performance: Time=2.4832s, Memory=609.6484MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 6 =====
+Question: Is it true that University of Paris 1 Pantheon-Sorbonne could or could be be the alma mater of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.9146s, Memory=609.7852MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.6840s, Memory=609.8008MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 7 =====
+Question: Could Columbia University be be the alma mater of of Frederick Cook?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.2798s, Memory=609.8906MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=3.8253s, Memory=610.3398MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 8 =====
+Question: Statement: It's not true that École Normale Supérieure could be be the alma mater of of Hervé Théry. Please judge the truth of the above statement. If it is true, answer with Yes; otherwise, No.
+Reference Answer: no. → Cleaned: no
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Correct
+  Performance: Time=2.6321s, Memory=610.4727MB, GPU=0.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Correct
+  Performance: Time=2.7739s, Memory=610.7500MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+
+===== Detailed Analysis for Sample 9 =====
+Question: Could University of Paris 1 Pantheon-Sorbonne be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=1.6076s, Memory=610.7656MB, GPU=-15.00%
+
+RAG-Enhanced Model:
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.6541s, Memory=610.7656MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 10/29 samples
+
+===== Detailed Analysis for Sample 10 =====
+Question: Could École Normale Supérieure be be the alma mater of of Hervé Théry?
+Reference Answer: yes. → Cleaned: yes
+
+Base Model (No RAG):
+  Raw Output: no
+  API Success: True
+  Semantic Prediction: no (Confidence: 0.9964)
+  Correctness: Incorrect
+  Performance: Time=2.0792s, Memory=610.7656MB, GPU=-2.00%
+
+RAG-Enhanced Model:
+  Raw Output: yes
+  API Success: True
+  Semantic Prediction: yes (Confidence: 0.9998)
+  Correctness: Correct
+  Performance: Time=2.6762s, Memory=611.1250MB, GPU=0.00%
+  Retrieved Documents: 3
+======================================================================
+Processed 20/29 samples
+Processed 29/29 samples
+
+===== Performance Metrics Summary =====
+Total Samples: 29
+Base Model API Failures: 0 | Successful Calls: 29
+RAG Model API Failures: 0 | Successful Calls: 29
+Base Model:
+  Accuracy: 0.4483 (based on 29 successful calls)
+  Avg Response Time: 2.3263s (based on 29/29 samples)
+  Avg Memory Usage: 589.0767MB (based on 28/29 samples)
+  Avg GPU Utilization: 3.69% (based on 29/29 samples)
+
+RAG Model:
+  Accuracy: 0.4483 (based on 29 successful calls)
+  Avg Response Time: 3.1296s (1.35x base)
+  Avg Memory Usage: 589.2457MB (1.00x base)
+  Avg GPU Utilization: 2.21% (0.60x base)
+
+RAG evaluation completed! Results saved to: d:\Jupyter\OmniBench-RAG\src\experiments\results\rag_results\rag_geography_api_20260404233151.json
+Basic accuracy: 0.4483 | RAG accuracy: 0.4483 | Improvement: 0.0000

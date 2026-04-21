@@ -1,0 +1,33 @@
+{
+  "rule": "inverse",
+  "domain": "geography",
+  "model_name": "api",
+  "evaluation_time": "2026-04-03 15:42:34",
+  "metrics": {
+    "basic_accuracy": 0.4444444444444444,
+    "rag_accuracy": 0.5555555555555556,
+    "improvement": 0.11111111111111116,
+    "performance": {
+      "basic": {
+        "response_time": 2.174630324045817,
+        "memory_usage": 1168.236325,
+        "gpu_utilization": 3.111111111111111
+      },
+      "rag": {
+        "response_time": 3.0316549407111273,
+        "memory_usage": 1168.3627875,
+        "gpu_utilization": 1.5555555555555556
+      },
+      "ratios": {
+        "response_time": 1.3941012903153345,
+        "memory_usage": 1.0001082507856447,
+        "gpu_utilization": 0.5
+      }
+    },
+    "transformation": 1.1869
+  },
+  "parameters": {
+    "top_k": 3,
+    "dataset_size": 9
+  }
+}

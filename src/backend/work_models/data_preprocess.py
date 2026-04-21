@@ -2,8 +2,9 @@ import os
 import spacy
 import fitz  # PyMuPDF
 
-# Load spaCy English tokenizer
-nlp = spacy.load("en_core_web_sm")
+# 修复：不依赖外部模型，原生加载英文分词
+nlp = spacy.blank("en")
+nlp.add_pipe("sentencizer")
 
 # Function to extract text from a PDF file
 def extract_text_from_pdf(pdf_path):
